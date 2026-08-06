@@ -1,0 +1,333 @@
+{
+  "cells": {
+    "T14.2.2.1.1|POP=FAS|ROW=ANALYSIS_SET|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "FAS",
+      "row": {
+        "id": "ANALYSIS_SET",
+        "label": "ANALYSIS_SET"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 9,
+        "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "type": "text",
+      "v": "FAS"
+    },
+    "T14.2.2.1.1|POP=FAS|ROW=HYPOTHESIS_TEST|COL=ACTIVE_TOTAL": {
+      "boolean_value": false,
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "未实施",
+      "row": {
+        "id": "HYPOTHESIS_TEST",
+        "label": "HYPOTHESIS_TEST"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 11,
+        "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "type": "text_judgement",
+      "v": "未实施"
+    },
+    "T14.2.2.1.1|POP=FAS|ROW=PRESPECIFIED|COL=ACTIVE_TOTAL": {
+      "boolean_value": true,
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "预设",
+      "row": {
+        "id": "PRESPECIFIED",
+        "label": "PRESPECIFIED"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 10,
+        "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "type": "text_judgement",
+      "v": "预设"
+    },
+    "T14.2.2.1.1|POP=FAS|ROW=PRIMARY_ENDPOINT|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "24 (60.0%)",
+      "row": {
+        "id": "PRIMARY_ENDPOINT",
+        "label": "PRIMARY_ENDPOINT"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 8,
+        "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "type": "n_pct",
+      "v": "24 (60.0%)"
+    },
+    "T14.2.4.3.1|POP=PKPS|ROW=AUC_CALCULABLE|COL=ACTIVE_TOTAL": {
+      "boolean_value": true,
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "可计算",
+      "row": {
+        "id": "AUC_CALCULABLE",
+        "label": "AUC_CALCULABLE"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 4,
+        "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "type": "text_judgement",
+      "v": "可计算"
+    },
+    "T14.2.4.3.1|POP=PKPS|ROW=BLQ_RATIO|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "18.0%",
+      "numeric_value": 18.0,
+      "row": {
+        "id": "BLQ_RATIO",
+        "label": "BLQ_RATIO"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 1,
+        "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "type": "ratio",
+      "v": "18.0%"
+    },
+    "T14.2.4.3.1|POP=PKPS|ROW=CMAX_CALCULABLE|COL=ACTIVE_TOTAL": {
+      "boolean_value": true,
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "可计算",
+      "row": {
+        "id": "CMAX_CALCULABLE",
+        "label": "CMAX_CALCULABLE"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 3,
+        "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "type": "text_judgement",
+      "v": "可计算"
+    },
+    "T14.2.4.3.1|POP=PKPS|ROW=LLOQ|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "0.1 ng/mL",
+      "row": {
+        "id": "LLOQ",
+        "label": "LLOQ"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 5,
+        "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "type": "text",
+      "v": "0.1 ng/mL"
+    },
+    "T14.2.4.3.1|POP=PKPS|ROW=NONCALCULABLE_REASON|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "不适用",
+      "row": {
+        "id": "NONCALCULABLE_REASON",
+        "label": "NONCALCULABLE_REASON"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 6,
+        "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "type": "text_judgement",
+      "v": "不适用"
+    },
+    "T14.2.4.3.1|POP=PKPS|ROW=QUANTIFIABLE_TIMEPOINT_COUNT|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "8",
+      "numeric_value": 8,
+      "row": {
+        "id": "QUANTIFIABLE_TIMEPOINT_COUNT",
+        "label": "QUANTIFIABLE_TIMEPOINT_COUNT"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 2,
+        "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "type": "count",
+      "v": "8"
+    },
+    "T14.2.4.3.1|POP=PKPS|ROW=SAMPLING_COVERAGE_COMPLETE|COL=ACTIVE_TOTAL": {
+      "boolean_value": true,
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "完整",
+      "row": {
+        "id": "SAMPLING_COVERAGE_COMPLETE",
+        "label": "SAMPLING_COVERAGE_COMPLETE"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 7,
+        "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "type": "text_judgement",
+      "v": "完整"
+    },
+    "T14.3.1.2|POP=SS|ROW=AE_DISCONTINUATION|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "2",
+      "numeric_value": 2,
+      "row": {
+        "id": "AE_DISCONTINUATION",
+        "label": "AE_DISCONTINUATION"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 15,
+        "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "type": "count",
+      "v": "2"
+    },
+    "T14.3.1.2|POP=SS|ROW=ANY_SAE|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "1",
+      "numeric_value": 1,
+      "row": {
+        "id": "ANY_SAE",
+        "label": "ANY_SAE"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 13,
+        "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "type": "count",
+      "v": "1"
+    },
+    "T14.3.1.2|POP=SS|ROW=ANY_TEAE|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "33 (82.5%)",
+      "row": {
+        "id": "ANY_TEAE",
+        "label": "ANY_TEAE"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 12,
+        "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "type": "n_pct",
+      "v": "33 (82.5%)"
+    },
+    "T14.3.1.2|POP=SS|ROW=DEATH|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "0",
+      "numeric_value": 0,
+      "row": {
+        "id": "DEATH",
+        "label": "DEATH"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 14,
+        "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "type": "count",
+      "v": "0"
+    }
+  },
+  "mapping_manifest": {
+    "filename": "m13-synthetic.json",
+    "sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+  },
+  "schema_version": "1.0",
+  "semantic_key_version": "2.0",
+  "sources": [
+    {
+      "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    }
+  ],
+  "tables": [
+    {
+      "dimensions": {},
+      "ingest_strategy": "cell_level",
+      "population": "FAS",
+      "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "table_id": "T14.2.2.1.1"
+    },
+    {
+      "dimensions": {},
+      "ingest_strategy": "cell_level",
+      "population": "PKPS",
+      "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "table_id": "T14.2.4.3.1"
+    },
+    {
+      "dimensions": {},
+      "ingest_strategy": "cell_level",
+      "population": "SS",
+      "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "table_id": "T14.3.1.2"
+    }
+  ]
+}

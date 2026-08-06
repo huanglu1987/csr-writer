@@ -1,0 +1,589 @@
+{
+  "added_module_matrix": [
+    {
+      "activation_flag": "has_local_tolerance",
+      "condition": "data_domains.local_tolerance",
+      "e3_structure": [
+        {
+          "action": "extend",
+          "section": "12.2",
+          "title": "局部耐受性 TEAE/TRAE 子集",
+          "variant": "local_tolerance_ae_subset"
+        }
+      ],
+      "expected_tfl_categories": [
+        "teae_local_tolerance_soc_pt",
+        "trae_local_tolerance_soc_pt",
+        "skin_irritation",
+        "sensitization"
+      ],
+      "id": "M-LOCAL-TOLERANCE",
+      "implementation_status": "implemented",
+      "playbook": "s12-route-specific-safety.md",
+      "required_analysis_sets": [
+        "SS"
+      ]
+    },
+    {
+      "activation_flag": "has_ae_consequence_strata",
+      "condition": "data_domains.ae_consequence_strata",
+      "e3_structure": [
+        {
+          "action": "extend",
+          "section": "12.2",
+          "title": "导致减量、暂停或永久停药的 TEAE/TRAE",
+          "variant": "ae_consequence_pairs"
+        }
+      ],
+      "expected_tfl_categories": [
+        "teae_dose_reduction",
+        "trae_dose_reduction",
+        "teae_interruption",
+        "trae_interruption",
+        "teae_discontinuation",
+        "trae_discontinuation"
+      ],
+      "id": "M-AE-CONSEQUENCE",
+      "implementation_status": "implemented",
+      "playbook": "s12-route-specific-safety.md",
+      "required_analysis_sets": [
+        "SS"
+      ]
+    },
+    {
+      "activation_flag": "has_topical_pk",
+      "condition": "design.route_of_administration == topical && data_domains.pk_concentration",
+      "e3_structure": [
+        {
+          "action": "add",
+          "section": "11.B",
+          "title": "外用制剂系统暴露评估",
+          "variant": "topical_low_systemic_exposure"
+        },
+        {
+          "action": "extend",
+          "section": "9.5.4",
+          "title": "外用条件与 PK 采样",
+          "variant": "topical_pk_sampling"
+        }
+      ],
+      "expected_tfl_categories": [
+        "pk_concentration_d1",
+        "pk_concentration_d28",
+        "topical_pk",
+        "below_quantification_limit",
+        "power_model_dose_proportionality"
+      ],
+      "id": "M-TOPICAL-PK",
+      "implementation_status": "implemented",
+      "playbook": "s11-topical-pk.md",
+      "required_analysis_sets": [
+        "PKCS",
+        "PKPS"
+      ]
+    },
+    {
+      "activation_flag": "is_inhalation_route",
+      "condition": "design.route_of_administration == inhalation",
+      "e3_structure": [
+        {
+          "action": "extend",
+          "section": "12.5",
+          "title": "吸入途径与肺功能专项安全性",
+          "variant": "inhalation_safety"
+        }
+      ],
+      "expected_tfl_categories": [
+        "pulmonary_function",
+        "spirometry",
+        "inhalation_safety"
+      ],
+      "id": "M-INHALATION",
+      "implementation_status": "implemented",
+      "playbook": "s12-route-specific-safety.md",
+      "required_analysis_sets": [
+        "SAF"
+      ]
+    },
+    {
+      "activation_flag": "is_ophthalmic_route",
+      "condition": "design.route_of_administration == ophthalmic",
+      "e3_structure": [
+        {
+          "action": "extend",
+          "section": "12.5",
+          "title": "眼部专项安全性",
+          "variant": "ophthalmic_safety"
+        }
+      ],
+      "expected_tfl_categories": [
+        "visual_acuity",
+        "intraocular_pressure",
+        "slit_lamp",
+        "ophthalmic_safety"
+      ],
+      "id": "M-OPHTHALMIC",
+      "implementation_status": "implemented",
+      "playbook": "s12-route-specific-safety.md",
+      "required_analysis_sets": [
+        "SAF"
+      ]
+    },
+    {
+      "activation_flag": "is_randomized",
+      "condition": "design.randomized",
+      "e3_structure": [
+        {
+          "action": "extend",
+          "section": "9.4.3",
+          "title": "随机化、分层与区组",
+          "variant": "randomization"
+        },
+        {
+          "action": "extend",
+          "section": "16.1.7",
+          "title": "随机化表及编码识别",
+          "variant": "randomization_schedule"
+        }
+      ],
+      "expected_tfl_categories": [
+        "randomization",
+        "allocation",
+        "stratification_balance"
+      ],
+      "id": "M-RANDOMIZED",
+      "implementation_status": "implemented",
+      "playbook": "s9-randomization-blinding-controls.md",
+      "required_analysis_sets": [
+        "FAS"
+      ]
+    },
+    {
+      "activation_flag": "is_blinded",
+      "condition": "design.blinding != open_label",
+      "e3_structure": [
+        {
+          "action": "extend",
+          "section": "9.4.6",
+          "title": "盲法维持、揭盲和破盲记录",
+          "variant": "blinding"
+        }
+      ],
+      "expected_tfl_categories": [
+        "blinding",
+        "unblinding",
+        "emergency_code_break"
+      ],
+      "id": "M-BLINDING",
+      "implementation_status": "implemented",
+      "playbook": "s9-randomization-blinding-controls.md",
+      "required_analysis_sets": [
+        "SAF"
+      ]
+    },
+    {
+      "activation_flag": "has_placebo_control",
+      "condition": "placebo in design.control_types",
+      "e3_structure": [
+        {
+          "action": "extend",
+          "section": "9.2",
+          "title": "安慰剂对照的选择与设计",
+          "variant": "placebo_control"
+        },
+        {
+          "action": "extend",
+          "section": "9.4.1",
+          "title": "安慰剂与模拟给药",
+          "variant": "placebo_matching"
+        }
+      ],
+      "expected_tfl_categories": [
+        "treatment_assignment",
+        "placebo_control"
+      ],
+      "id": "M-PLACEBO-CTRL",
+      "implementation_status": "implemented",
+      "playbook": "s9-randomization-blinding-controls.md",
+      "required_analysis_sets": [
+        "FAS",
+        "SAF"
+      ]
+    },
+    {
+      "activation_flag": "has_active_control",
+      "condition": "active in design.control_types",
+      "e3_structure": [
+        {
+          "action": "extend",
+          "section": "9.2",
+          "title": "阳性对照的选择与设计",
+          "variant": "active_control"
+        },
+        {
+          "action": "extend",
+          "section": "9.4.1",
+          "title": "阳性对照治疗",
+          "variant": "active_comparator"
+        }
+      ],
+      "expected_tfl_categories": [
+        "treatment_assignment",
+        "active_control"
+      ],
+      "id": "M-ACTIVE-CTRL",
+      "implementation_status": "implemented",
+      "playbook": "s9-randomization-blinding-controls.md",
+      "required_analysis_sets": [
+        "FAS",
+        "SAF"
+      ]
+    },
+    {
+      "activation_flag": "is_bioequivalence_study",
+      "condition": "design.study_type == bioequivalence || bioequivalence in design.clinical_pharmacology_studies",
+      "e3_structure": [],
+      "expected_tfl_categories": [],
+      "id": "M-BE",
+      "implementation_status": "framework_only",
+      "playbook": null,
+      "required_analysis_sets": []
+    },
+    {
+      "activation_flag": "is_ddi_study",
+      "condition": "design.study_type == drug_drug_interaction || drug_drug_interaction in design.clinical_pharmacology_studies",
+      "e3_structure": [
+        {
+          "action": "add",
+          "section": "11.B",
+          "title": "药物相互作用结果",
+          "variant": "drug_drug_interaction"
+        }
+      ],
+      "expected_tfl_categories": [
+        "ddi_pk",
+        "geometric_mean_ratio",
+        "safety"
+      ],
+      "id": "M-DDI",
+      "implementation_status": "implemented",
+      "playbook": "s11-clinpharm-special-pop-endpoints.md",
+      "required_analysis_sets": [
+        "PKPS",
+        "SAF"
+      ]
+    },
+    {
+      "activation_flag": "is_food_effect_study",
+      "condition": "design.study_type == food_effect || food_effect in design.clinical_pharmacology_studies",
+      "e3_structure": [
+        {
+          "action": "add",
+          "section": "11.B",
+          "title": "食物对药代动力学的影响",
+          "variant": "food_effect"
+        }
+      ],
+      "expected_tfl_categories": [
+        "food_effect_pk",
+        "geometric_mean_ratio",
+        "safety"
+      ],
+      "id": "M-FOOD-EFFECT",
+      "implementation_status": "implemented",
+      "playbook": "s11-clinpharm-special-pop-endpoints.md",
+      "required_analysis_sets": [
+        "PKPS",
+        "SAF"
+      ]
+    },
+    {
+      "activation_flag": "has_hepatic_impairment_pk",
+      "condition": "(design.study_type == hepatic_impairment || hepatic_impairment in population.special_populations) && data_domains.pk_concentration",
+      "e3_structure": [
+        {
+          "action": "add",
+          "section": "11.B",
+          "title": "肝功能不全人群药代动力学",
+          "variant": "hepatic_impairment_pk"
+        }
+      ],
+      "expected_tfl_categories": [
+        "special_population_pk",
+        "hepatic_impairment",
+        "safety"
+      ],
+      "id": "M-HEPATIC-IMPAIR",
+      "implementation_status": "implemented",
+      "playbook": "s11-clinpharm-special-pop-endpoints.md",
+      "required_analysis_sets": [
+        "PKPS",
+        "SAF"
+      ]
+    },
+    {
+      "activation_flag": "has_renal_impairment_pk",
+      "condition": "(design.study_type == renal_impairment || renal_impairment in population.special_populations) && data_domains.pk_concentration",
+      "e3_structure": [
+        {
+          "action": "add",
+          "section": "11.B",
+          "title": "肾功能不全人群药代动力学",
+          "variant": "renal_impairment_pk"
+        }
+      ],
+      "expected_tfl_categories": [
+        "special_population_pk",
+        "renal_impairment",
+        "safety"
+      ],
+      "id": "M-RENAL-IMPAIR",
+      "implementation_status": "implemented",
+      "playbook": "s11-clinpharm-special-pop-endpoints.md",
+      "required_analysis_sets": [
+        "PKPS",
+        "SAF"
+      ]
+    },
+    {
+      "activation_flag": "has_pediatric_population",
+      "condition": "pediatric in population.special_populations",
+      "e3_structure": [
+        {
+          "action": "extend",
+          "section": "11.2",
+          "title": "儿科人群与分层",
+          "variant": "pediatric"
+        },
+        {
+          "action": "extend",
+          "section": "12.5",
+          "title": "儿科人群专项观察",
+          "variant": "pediatric_safety"
+        }
+      ],
+      "expected_tfl_categories": [
+        "pediatric_demographics",
+        "pediatric_efficacy",
+        "pediatric_safety"
+      ],
+      "id": "M-PEDIATRIC",
+      "implementation_status": "implemented",
+      "playbook": "s11-clinpharm-special-pop-endpoints.md",
+      "required_analysis_sets": [
+        "FAS",
+        "SAF"
+      ]
+    },
+    {
+      "activation_flag": "has_geriatric_population",
+      "condition": "older_adult in population.special_populations",
+      "e3_structure": [
+        {
+          "action": "extend",
+          "section": "11.2",
+          "title": "老年人群与分层",
+          "variant": "geriatric"
+        },
+        {
+          "action": "extend",
+          "section": "12.5",
+          "title": "老年人群专项观察",
+          "variant": "geriatric_safety"
+        }
+      ],
+      "expected_tfl_categories": [
+        "geriatric_demographics",
+        "geriatric_efficacy",
+        "geriatric_safety"
+      ],
+      "id": "M-GERIATRIC",
+      "implementation_status": "implemented",
+      "playbook": "s11-clinpharm-special-pop-endpoints.md",
+      "required_analysis_sets": [
+        "FAS",
+        "SAF"
+      ]
+    },
+    {
+      "activation_flag": "has_infection_endpoints",
+      "condition": "infection_microbiology in data_domains.therapeutic_area_endpoints",
+      "e3_structure": [
+        {
+          "action": "extend",
+          "section": "11.4.1",
+          "title": "病原学、微生物学及复合治愈终点",
+          "variant": "infection_microbiology"
+        }
+      ],
+      "expected_tfl_categories": [
+        "microbiological_cure",
+        "pathogen_eradication",
+        "composite_cure"
+      ],
+      "id": "M-INFECTION",
+      "implementation_status": "implemented",
+      "playbook": "s11-clinpharm-special-pop-endpoints.md",
+      "required_analysis_sets": [
+        "mITT",
+        "mPPS"
+      ]
+    },
+    {
+      "activation_flag": "has_dermatology_endpoints",
+      "condition": "dermatology_scales in data_domains.therapeutic_area_endpoints",
+      "e3_structure": [
+        {
+          "action": "extend",
+          "section": "11.4.1",
+          "title": "皮肤科评分量表终点",
+          "variant": "dermatology_scales"
+        },
+        {
+          "action": "extend",
+          "section": "11.4.2.1",
+          "title": "皮肤科终点协变量校正（ANCOVA）",
+          "variant": "dermatology_ancova"
+        }
+      ],
+      "expected_tfl_categories": [
+        "iga_sd_success",
+        "iga_sd_change_from_baseline",
+        "erythema_total_score",
+        "scaling_total_score",
+        "wi_nrs",
+        "dlqi_total",
+        "ancova_adjusted_effect"
+      ],
+      "id": "M-DERMATOLOGY",
+      "implementation_status": "implemented",
+      "playbook": "s11-clinpharm-special-pop-endpoints.md",
+      "required_analysis_sets": [
+        "FAS",
+        "mFAS"
+      ]
+    }
+  ],
+  "fixture_provenance": {
+    "classification": "deidentified_equivalent_structure",
+    "contains_real_protocol_text": false,
+    "note": "Synthetic routing fixture only; it is not a copy or extract of the real protocol.",
+    "path": "examples/fixtures/topical_ib_study_facts.deidentified.json"
+  },
+  "inventory": {
+    "added_count": 18,
+    "added_module_ids": [
+      "M-LOCAL-TOLERANCE",
+      "M-AE-CONSEQUENCE",
+      "M-TOPICAL-PK",
+      "M-INHALATION",
+      "M-OPHTHALMIC",
+      "M-RANDOMIZED",
+      "M-BLINDING",
+      "M-PLACEBO-CTRL",
+      "M-ACTIVE-CTRL",
+      "M-BE",
+      "M-DDI",
+      "M-FOOD-EFFECT",
+      "M-HEPATIC-IMPAIR",
+      "M-RENAL-IMPAIR",
+      "M-PEDIATRIC",
+      "M-GERIATRIC",
+      "M-INFECTION",
+      "M-DERMATOLOGY"
+    ],
+    "expanded_count": 41,
+    "original_m3_count": 23
+  },
+  "phase_independence": {
+    "after": "III",
+    "after_sha256": "cd5a9a96eee2d7582294ece9bba89d8e1fd9c571ea6ee6027728f2ea470dfa38",
+    "before": "Ib",
+    "before_sha256": "cd5a9a96eee2d7582294ece9bba89d8e1fd9c571ea6ee6027728f2ea470dfa38",
+    "exactly_equal": true,
+    "status": "pass"
+  },
+  "schema_version": "1.0",
+  "therapeutic_area_extension_slots": {
+    "declared_not_implemented": [
+      "oncology_response",
+      "cardiovascular_events"
+    ],
+    "implemented": [
+      "infection_microbiology",
+      "dermatology_scales"
+    ]
+  },
+  "topical_comparison": {
+    "expanded_active_count": 13,
+    "expanded_active_modules": [
+      "M-CORE",
+      "M-DOSE-ESC",
+      "M-PK-NCA",
+      "M-EFF-EXPLORE",
+      "M-MULTICENTER",
+      "M-LOCAL-TOLERANCE",
+      "M-AE-CONSEQUENCE",
+      "M-TOPICAL-PK",
+      "M-RANDOMIZED",
+      "M-BLINDING",
+      "M-PLACEBO-CTRL",
+      "M-INFECTION",
+      "M-DERMATOLOGY"
+    ],
+    "newly_placed_count": 8,
+    "newly_placed_modules": [
+      "M-LOCAL-TOLERANCE",
+      "M-AE-CONSEQUENCE",
+      "M-TOPICAL-PK",
+      "M-RANDOMIZED",
+      "M-BLINDING",
+      "M-PLACEBO-CTRL",
+      "M-INFECTION",
+      "M-DERMATOLOGY"
+    ],
+    "original_23_intersection": [
+      "M-CORE",
+      "M-DOSE-ESC",
+      "M-PK-NCA",
+      "M-EFF-EXPLORE",
+      "M-MULTICENTER"
+    ],
+    "original_23_intersection_count": 5,
+    "required_placements": {
+      "ae_consequence_tfl_source": [
+        "14.3.1.3.5",
+        "14.3.1.3.6",
+        "14.3.1.3.7",
+        "14.3.1.3.8",
+        "14.3.1.3.9",
+        "14.3.1.3.10"
+      ],
+      "blinding": [
+        "9.4.6"
+      ],
+      "local_tolerance_csr": [
+        "12.2"
+      ],
+      "local_tolerance_tfl_source": [
+        "14.3.1.3.3",
+        "14.3.1.3.4"
+      ],
+      "randomization": [
+        "9.4.3",
+        "16.1.7"
+      ]
+    },
+    "status": "pass",
+    "topical_only_vs_systemic_oncology_demo": [
+      "M-AE-CONSEQUENCE",
+      "M-BLINDING",
+      "M-DERMATOLOGY",
+      "M-INFECTION",
+      "M-LOCAL-TOLERANCE",
+      "M-PLACEBO-CTRL",
+      "M-RANDOMIZED",
+      "M-TOPICAL-PK"
+    ]
+  }
+}

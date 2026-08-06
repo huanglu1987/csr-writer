@@ -1,0 +1,26 @@
+{
+  "annotated": {
+    "cross_references": {
+      "bookmark_count": 3,
+      "field_count": 3,
+      "status": "pass",
+      "unique_target_count": 3
+    },
+    "mode": "annotated",
+    "output": "examples/output/m7/agent_writer/assembly/agent_drafted_sections_annotated.docx",
+    "pending_count": 2,
+    "pending_paragraphs": [
+      "11.4:p_11_4_003",
+      "12.2:p_12_2_003"
+    ],
+    "schema_version": "1.0",
+    "sha256": "093327811572dfdedc35326d91c12b56cad9a8f8fbd2053b7cf22a0f8c896c20",
+    "status": "pass"
+  },
+  "clean": {
+    "reason": "Review decision sections must exactly match assembled sections; expected=['11.4', '12.2'], got=[]",
+    "status": "not_generated"
+  },
+  "schema_version": "1.0",
+  "status": "blocked"
+}

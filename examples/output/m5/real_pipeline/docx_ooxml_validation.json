@@ -1,0 +1,65 @@
+{
+  "records": [
+    {
+      "clean_marker_scan": null,
+      "cross_references": {
+        "bookmark_count": 2,
+        "field_count": 2,
+        "status": "pass",
+        "unique_target_count": 2
+      },
+      "document_xml": "pass",
+      "mode": "annotated",
+      "python_docx_reopen": "pass",
+      "sha256": "61556c39db3be925e68f79664187cfb075dddb701089aa120ae5740fba1bc178",
+      "zip_crc": "pass"
+    },
+    {
+      "clean_marker_scan": {
+        "checks": {
+          "no_internal_provenance": "pass",
+          "no_pending_markers": "pass",
+          "no_tool_or_process_language": "pass"
+        },
+        "sha256": "b9a8046a92260a7bedd69032d3853232237a367e9ea5f1e88e2fe838f8a72d42",
+        "status": "pass"
+      },
+      "cross_references": {
+        "bookmark_count": 2,
+        "field_count": 2,
+        "status": "pass",
+        "unique_target_count": 2
+      },
+      "document_xml": "pass",
+      "mode": "clean",
+      "python_docx_reopen": "pass",
+      "sha256": "b9a8046a92260a7bedd69032d3853232237a367e9ea5f1e88e2fe838f8a72d42",
+      "zip_crc": "pass"
+    },
+    {
+      "clean_marker_scan": {
+        "checks": {
+          "no_internal_provenance": "pass",
+          "no_pending_markers": "pass",
+          "no_tool_or_process_language": "pass"
+        },
+        "sha256": "0d985830aadef21e789dd5a96d579376a0aabd1cc80ba1943e49dc1bfc6629f6",
+        "status": "pass"
+      },
+      "cross_references": {
+        "bookmark_count": 2,
+        "field_count": 2,
+        "status": "pass",
+        "unique_target_count": 2
+      },
+      "document_xml": "pass",
+      "mode": "synopsis",
+      "python_docx_reopen": "pass",
+      "sha256": "0d985830aadef21e789dd5a96d579376a0aabd1cc80ba1943e49dc1bfc6629f6",
+      "zip_crc": "pass"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "pass",
+  "validation_layer": "OOXML package/XML plus Word REF/bookmark contracts"
+}

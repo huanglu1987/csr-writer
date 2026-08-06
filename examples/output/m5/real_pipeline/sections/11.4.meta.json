@@ -1,0 +1,38 @@
+{
+  "binding_manifest": [],
+  "draft_sha256": "405d78dd4e0d80d7330a8536c5b398c84f6fe1a57208a63a3fa63f84f3480ad9",
+  "evidence_status": "source_gap",
+  "input_sha256": "3a06081741d32eb87360d68bb75bf691174319e39af192c2e4cbd8aa5d61009f",
+  "paragraphs": [
+    {
+      "confidence": "inferred",
+      "needs_human": true,
+      "para_id": "p_11_4_001",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "deidentified-efficacy-gap"
+      ]
+    }
+  ],
+  "playbook": {
+    "filename": "s11-4-primary-efficacy.md",
+    "sha256": "aaf3fff39aa8b7fd501884f1c42d440671d58f8197061ecbea744047d0d064de"
+  },
+  "reference_manifest": [],
+  "schema_version": "1.1",
+  "section": "11.4",
+  "semantic_findings": [],
+  "source_manifest": [
+    {
+      "content_sha256": "5ab825b633f52dae3d5ac1cdd3fc1c8cc12e97c4f33f561c47276418943474a9",
+      "locator": "shell structure review",
+      "purpose": "gap_record",
+      "source_id": "deidentified-efficacy-gap"
+    }
+  ],
+  "system_prompt_sha256": "8f4e93ef46763e761a6077aeb62b3c19da661f436164d9844daf4c36794ab340",
+  "variant": "exploratory",
+  "writer": "DeterministicSectionAdapter"
+}

@@ -1,0 +1,110 @@
+{
+  "agent_interface": {
+    "agent_draft_sha256": "e36c3eb4b238fba383142724c3f56cabb1e36860e993fcf65ae95e594a940469",
+    "envelope_sha256": "1a8a3a338789eb90dc162157305a5bba7a84d8c10dc23dbcff327b6bd3ca03bf",
+    "external_model_api_called": false,
+    "interface": "csr-writer-agent-section-v1",
+    "prior_guard_report_sha256s": [
+      "df8aabdca39ee0afbcf6dd3c82c6fc56623010301307cb1d08fa3017127e744e"
+    ]
+  },
+  "binding_manifest": [
+    {
+      "context_sha256": "f10cdd24950d16bedb132c920aeb43facae6723a2ba17b11d01528264cee8ac3",
+      "key": "T14.3.1.3.1|POP=SS|ROW=SUMMARY|COL=ACTIVE_TOTAL",
+      "role": "teae_result",
+      "source_id": "T14.3.1.3.1"
+    },
+    {
+      "context_sha256": "bafea9a7270b3706479e6f4091551dcef85a314ea7afb0b842b186928fdbe358",
+      "key": "T14.3.1.3.2|POP=SS|ROW=SUMMARY|COL=ACTIVE_TOTAL",
+      "role": "trae_result",
+      "source_id": "T14.3.1.3.2"
+    }
+  ],
+  "draft_sha256": "d1646782527ffd4b246ff3b271068ae1f7cefd90031d6a262073fb0e19da1efe",
+  "evidence_status": "demo_only",
+  "generation_attempts": 2,
+  "guard_retry_count": 1,
+  "input_sha256": "b8b719fd90c9c24f84e33d2115d70c7ee0975a896209355f2515459d4a65f31c",
+  "paragraphs": [
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_12_2_001",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "DEID-PROTOCOL-SAFETY",
+        "DEID-SAP-SAFETY-SET"
+      ]
+    },
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_12_2_002",
+      "placeholders": [
+        "T14.3.1.3.1|POP=SS|ROW=SUMMARY|COL=ACTIVE_TOTAL",
+        "T14.3.1.3.2|POP=SS|ROW=SUMMARY|COL=ACTIVE_TOTAL"
+      ],
+      "references": [
+        "T14.3.1.3.1",
+        "T14.3.1.3.2"
+      ],
+      "semantic_findings": [],
+      "sources": [
+        "T14.3.1.3.1",
+        "T14.3.1.3.2"
+      ]
+    },
+    {
+      "confidence": "inferred",
+      "needs_human": true,
+      "para_id": "p_12_2_003",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "DEID-PROTOCOL-SAFETY"
+      ]
+    }
+  ],
+  "playbook": {
+    "filename": "s12-route-specific-safety.md",
+    "sha256": "953979854f57f0a49612f8e2ffe19bca363e287cbe3012e6ee5d46f179fe8084"
+  },
+  "prompt_audit": [],
+  "reference_manifest": [
+    {
+      "entity_id": "T14.3.1.3.1",
+      "frozen_map_sha256": null,
+      "verified_by": "binding_manifest"
+    },
+    {
+      "entity_id": "T14.3.1.3.2",
+      "frozen_map_sha256": null,
+      "verified_by": "binding_manifest"
+    }
+  ],
+  "schema_version": "1.1",
+  "section": "12.2",
+  "semantic_findings": [],
+  "source_manifest": [
+    {
+      "content_sha256": "a24bda29888dec70597acdd5505b755db6ce151f0ef8a7ca331ae44fd62763f4",
+      "locator": "deidentified protocol safety excerpt",
+      "purpose": "safety_definition",
+      "source_id": "DEID-PROTOCOL-SAFETY"
+    },
+    {
+      "content_sha256": "9e647f923ae4722ffc56908f68096cb55bc4c765b8336601a3d9940574c0229c",
+      "locator": "deidentified SAP safety-set excerpt",
+      "purpose": "analysis_set",
+      "source_id": "DEID-SAP-SAFETY-SET"
+    }
+  ],
+  "system_prompt_sha256": "8f4e93ef46763e761a6077aeb62b3c19da661f436164d9844daf4c36794ab340",
+  "variant": "adverse_events",
+  "writer": "AgentEnvelopeIngest"
+}

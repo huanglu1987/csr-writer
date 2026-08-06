@@ -1,0 +1,263 @@
+{
+  "mapping_manifest": {
+    "filename": "demo_tfl_manifest.yaml",
+    "sha256": "bdab11daf93d8992aa7023657eb07e6ac12d53b705330a31facda2bf91732cfe"
+  },
+  "schema_version": "1.0",
+  "tables": [
+    {
+      "adapter": "sas-ods-rtf-flat-v1",
+      "codec": "gbk",
+      "declared_codepage": 936,
+      "decode_replacements": 0,
+      "footnotes": [
+        "Note: Percentages are based on the number of subjects in the FAS.",
+        "中文备注：百分比合计可能有舍入误差。"
+      ],
+      "rows": [
+        {
+          "bold": [
+            true,
+            true,
+            true,
+            true
+          ],
+          "cells": [
+            "Response Category",
+            "XYZ 200mg (N=60)",
+            "Placebo (N=60)",
+            "Total (N=120)"
+          ]
+        },
+        {
+          "bold": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "cells": [
+            "Complete Response (CR)",
+            "12 (20.0)",
+            "5 (8.3)",
+            "17 (14.2)"
+          ]
+        },
+        {
+          "bold": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "cells": [
+            "Partial Response (PR)",
+            "30 (50.0)",
+            "22 (36.7)",
+            "52 (43.3)"
+          ]
+        },
+        {
+          "bold": [
+            true,
+            true,
+            true,
+            true
+          ],
+          "cells": [
+            "Objective Response (CR+PR)",
+            "42 (70.0)",
+            "27 (45.0)",
+            "69 (57.5)"
+          ]
+        },
+        {
+          "bold": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "cells": [
+            "  95% CI",
+            "(56.8, 81.2)",
+            "(32.1, 58.4)",
+            ""
+          ]
+        },
+        {
+          "bold": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "cells": [
+            "Difference (%)",
+            "",
+            "",
+            "25.0"
+          ]
+        },
+        {
+          "bold": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "cells": [
+            "p-value",
+            "",
+            "",
+            "0.0013"
+          ]
+        }
+      ],
+      "source_path": "/Users/huanglu/临床试验总结报告撰写/参考实现/fixture_t_14_2_1.rtf",
+      "source_sha256": "fd5ae02d4c8775c4b5849efdd68d1328f0ed87fc55bb4c6bc995f4027a4252b7",
+      "titles": [
+        "Table 14.2.1",
+        "Objective Response Rate (Full Analysis Set)"
+      ],
+      "trailer": {
+        "output_raw": "20JUL2026 14:32",
+        "program": "t_orr.sas"
+      }
+    },
+    {
+      "adapter": "sas-ods-rtf-flat-v1",
+      "codec": "gbk",
+      "declared_codepage": 936,
+      "decode_replacements": 0,
+      "footnotes": [
+        "Geometric mean (geometric CV%) except Tmax, which is median (min-max).",
+        "注：除 Tmax 外，均为几何均值（几何 CV%）。"
+      ],
+      "rows": [
+        {
+          "bold": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "cells": [
+            "Parameter",
+            "Unit",
+            "50 mg (N=3)",
+            "100 mg (N=6)",
+            "200 mg (N=6)"
+          ]
+        },
+        {
+          "bold": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "cells": [
+            "Cmax",
+            "ng/mL",
+            "412 (28.4)",
+            "856 (31.2)",
+            "1720 (26.8)"
+          ]
+        },
+        {
+          "bold": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "cells": [
+            "Tmax",
+            "h",
+            "2.00 (1.00-4.00)",
+            "2.50 (1.00-4.02)",
+            "2.00 (1.00-6.00)"
+          ]
+        },
+        {
+          "bold": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "cells": [
+            "AUC0-t",
+            "h*ng/mL",
+            "3240 (22.1)",
+            "6910 (25.7)",
+            "14200 (24.3)"
+          ]
+        },
+        {
+          "bold": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "cells": [
+            "AUC0-inf",
+            "h*ng/mL",
+            "3390 (23.0)",
+            "7150 (26.1)",
+            "14800 (25.0)"
+          ]
+        },
+        {
+          "bold": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "cells": [
+            "t1/2",
+            "h",
+            "11.2 (18.5)",
+            "12.4 (20.1)",
+            "12.0 (19.4)"
+          ]
+        },
+        {
+          "bold": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "cells": [
+            "CL/F",
+            "L/h",
+            "14.7 (23.0)",
+            "14.0 (26.1)",
+            "13.5 (25.0)"
+          ]
+        }
+      ],
+      "source_path": "/Users/huanglu/临床试验总结报告撰写/参考实现/fixture_t_pk_nca.rtf",
+      "source_sha256": "b9d7403a17f8f6007cd492d8171834f6057d0e8d28bb85e214e9507228730dfa",
+      "titles": [
+        "Table 14.4.1.1",
+        "Summary of Plasma PK Parameters After Single Dose (PK Analysis Set)"
+      ],
+      "trailer": {
+        "output_raw": "22JUL2026 09:15",
+        "program": "t_pk_nca.sas"
+      }
+    }
+  ]
+}

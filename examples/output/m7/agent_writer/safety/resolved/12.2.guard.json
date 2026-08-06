@@ -1,0 +1,82 @@
+{
+  "datapack_sha256": "7ee08358a3cef460399ca0199fea18ef0e73aad131a661f11df2b307768630d8",
+  "draft_sha256": "d1646782527ffd4b246ff3b271068ae1f7cefd90031d6a262073fb0e19da1efe",
+  "input_file_sha256": {
+    "datapack": "eeeb4b7275038a72a17f1ed4888a8e65e9896b5748f29eff8e233297f9b32ca3",
+    "draft": "d1646782527ffd4b246ff3b271068ae1f7cefd90031d6a262073fb0e19da1efe",
+    "protocol_facts": "f215e8743137533855acac3c158cfef19724d32e867160b25f6848a5940e00af",
+    "section metadata": "c56837501bc829624bcf13d1b0c0657f631e2393c432b672ed729b43dd99e76e"
+  },
+  "issues": [],
+  "placeholder_count": 2,
+  "placeholder_keys": [
+    "T14.3.1.3.1|POP=SS|ROW=SUMMARY|COL=ACTIVE_TOTAL",
+    "T14.3.1.3.2|POP=SS|ROW=SUMMARY|COL=ACTIVE_TOTAL"
+  ],
+  "protocol_facts_sha256": "cd1e1af1bd41a940ba7d89c63184ed8a65495187087134962038df7f79cc608c",
+  "reference_count": 2,
+  "reference_entities": [
+    "T14.3.1.3.1",
+    "T14.3.1.3.2"
+  ],
+  "resolved_sha256": "a9f5f061805bb129401869fe7e7651b8b1880fb97e7513785a31346e0511dfe0",
+  "schema_version": "1.0",
+  "stages": {
+    "A_key_existence": {
+      "status": "pass"
+    },
+    "B_residual": {
+      "status": "pass"
+    },
+    "C_bare_numbers": {
+      "status": "pass"
+    }
+  },
+  "status": "pass",
+  "whitelist": [
+    {
+      "pattern": "ICH\\s*E\\d+\\s*\\(?R?\\d*\\)?",
+      "source": "static:standard identifier"
+    },
+    {
+      "pattern": "第\\s*\\d+(?:\\.\\d+)*\\s*[章节]",
+      "source": "static:section reference"
+    },
+    {
+      "pattern": "\\d{4}\\s*年\\s*\\d{1,2}\\s*月\\s*\\d{1,2}\\s*日",
+      "source": "static:calendar date"
+    },
+    {
+      "pattern": "\\d{4}-\\d{2}-\\d{2}",
+      "source": "static:ISO date"
+    },
+    {
+      "pattern": "CTCAE\\s*v?\\d+(?:\\.\\d+)*",
+      "source": "static:coding standard version"
+    },
+    {
+      "pattern": "MedDRA\\s*(?:版本)?\\s*\\d+(?:\\.\\d+)*",
+      "source": "static:coding dictionary version"
+    },
+    {
+      "pattern": "[1-5]\\s*级",
+      "source": "static:AE grade vocabulary"
+    },
+    {
+      "pattern": "[IVX]+\\s*期",
+      "source": "static:study phase label; never used for structural routing"
+    },
+    {
+      "pattern": "95\\s*%\\s*(?:置信区间|CI)",
+      "source": "static:fixed confidence-interval term"
+    },
+    {
+      "pattern": "双侧\\s*0?\\.\\d+",
+      "source": "static:fixed analysis-method term"
+    },
+    {
+      "pattern": "DEIDENTIFIED",
+      "source": "fact:protocol_id"
+    }
+  ]
+}

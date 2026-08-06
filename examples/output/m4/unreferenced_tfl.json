@@ -1,0 +1,68 @@
+{
+  "datapack_sha256": "b8c80b3b1d755e29e918c5dcac5fdcc08358798f8ffe592726cff6aca7b0be88",
+  "issues": [
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.4.1.1"
+    }
+  ],
+  "metadata_only_table_count": 0,
+  "metadata_only_tables": [],
+  "metadata_sha256": "83869219dea4d9795573449f76a7b7b340d4f9b843dc4ac8ae293b4c384bd8f7",
+  "referenced_table_count": 3,
+  "referenced_tables": [
+    {
+      "binding_reference_count": 2,
+      "population": "RANDOMIZED",
+      "referenced_by_sections": [
+        "10.1"
+      ],
+      "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "table_id": "T10.1",
+      "titles": [
+        "Synthetic randomized counts"
+      ]
+    },
+    {
+      "binding_reference_count": 2,
+      "population": "FAS",
+      "referenced_by_sections": [
+        "11.1"
+      ],
+      "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "table_id": "T11.1",
+      "titles": [
+        "Synthetic analysis-set counts"
+      ]
+    },
+    {
+      "binding_reference_count": 4,
+      "population": "FAS",
+      "referenced_by_sections": [
+        "11.4"
+      ],
+      "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "table_id": "T14.2.1",
+      "titles": [
+        "Synthetic primary response"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "review_required",
+  "table_count": 4,
+  "unreferenced_table_count": 1,
+  "unreferenced_tables": [
+    {
+      "binding_reference_count": 0,
+      "population": "PKAS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "table_id": "T14.4.1.1",
+      "titles": [
+        "Synthetic plasma PK parameters"
+      ]
+    }
+  ]
+}

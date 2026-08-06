@@ -1,0 +1,480 @@
+{
+  "playbook_count": 19,
+  "policy": {
+    "minimum_common_review_issues": 5,
+    "minimum_line_count": 150,
+    "required_elements": [
+      "authority",
+      "must_answer",
+      "source_mapping",
+      "numeric_and_conclusion_rules",
+      "paragraph_structure",
+      "common_review_issues",
+      "section_specific_pitfalls"
+    ],
+    "required_process_separation": [
+      "writer_constraints",
+      "csr_standard_sentences"
+    ]
+  },
+  "records": [
+    {
+      "failures": [],
+      "filename": "s9-randomization-blinding-controls.md",
+      "line_count": 164,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "ee9a1abc612f94104e335fa1d577d07a602e52fad48dd404b5b9c18930da63ec",
+      "standard_sentence_internal_language_findings": [],
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s10-subject-disposition.md",
+      "line_count": 168,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "61112a76d37820dc53aa6b9dc228c251e669a1f1c000b200712bc385005668bf",
+      "standard_sentence_internal_language_findings": [],
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s11-2-demographics-baseline.md",
+      "line_count": 166,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "ec85b7c3209f33d22a95aec3ce13fe446e5bf70b1f55eb2c65da06f431ce9548",
+      "standard_sentence_internal_language_findings": [],
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s11-3-treatment-compliance.md",
+      "line_count": 164,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 12,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "fb5dc1987ccb9ee32831a5b1a53d1705e4040c4d38d8f610824416be7e84d352",
+      "standard_sentence_internal_language_findings": [],
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s11-4-primary-efficacy.md",
+      "line_count": 188,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 9,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "9dc7946be4d170acd5c38aa323ca8dfdfed27275a980ec7a0fa23a53a37e24d2",
+      "standard_sentence_internal_language_findings": [],
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s11-a-dose-escalation.md",
+      "line_count": 192,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "9bef93f81c14e9c03d261ac0848de9cae56d69dc38599d9ddc4c8fab0428fdf6",
+      "standard_sentence_internal_language_findings": [],
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s11-clinpharm-special-pop-endpoints.md",
+      "line_count": 194,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 9,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "b3531f28b45914eb71c89311e470fea22822a44ee052ba6bcf5587acf37eaee8",
+      "standard_sentence_internal_language_findings": [],
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s11-topical-pk.md",
+      "line_count": 163,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "60c7ff8368244e85ca6dd7e896f6fafead08ae982ebf05b1d6106ffb1b95cbb9",
+      "standard_sentence_internal_language_findings": [],
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s11-5-10-pk-conclusion.md",
+      "line_count": 164,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 10,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "a555cf88a37dc52ce4c6199b7025105e64dab266299f359783a36615bf1024e8",
+      "standard_sentence_internal_language_findings": [],
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s11-6-7-exploratory-efficacy-conclusion.md",
+      "line_count": 164,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 10,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "0d15ea02d6359b2d77eb9ce4cdd72b70c8fe40b8b9abb24abb74d2eb6e8f1ebd",
+      "standard_sentence_internal_language_findings": [],
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s12-2-adverse-events.md",
+      "line_count": 180,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 9,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "641e54dda63ec2b036f53bd612c06301465a42e5dd627310c6372941c255fac2",
+      "standard_sentence_internal_language_findings": [],
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s12-3-1-deaths-serious-significant-listings.md",
+      "line_count": 168,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 12,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "89374332753cad88656d004befe9d5fe91d2397e16eff5428febea20adab8b26",
+      "standard_sentence_internal_language_findings": [],
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s12-3-2-sae-narratives-boundary.md",
+      "line_count": 166,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 12,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "7e67edb4e91f4c6e282c82efe916712d995f1c242be1ad0cdc5d34ddc4d7c746",
+      "standard_sentence_internal_language_findings": [],
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s12-3-3-serious-event-analysis.md",
+      "line_count": 165,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 12,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "59a43b4b43b5e5cf39e1ce1e4f03e22b6c8ba9047a98ad2501002a75b0515814",
+      "standard_sentence_internal_language_findings": [],
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s12-4-2-laboratory-evaluation.md",
+      "line_count": 169,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 12,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "d09239953048f74708e89c309b417d5af8905aadbc4367ed7f640f2dce6eee50",
+      "standard_sentence_internal_language_findings": [],
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s12-exposure.md",
+      "line_count": 165,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "4e2ed42b1142fc78b3a79e07f3c765b1928466bef30f083dc8dea28191d1aaae",
+      "standard_sentence_internal_language_findings": [],
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s12-route-specific-safety.md",
+      "line_count": 179,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "eefb6bb22dc392e9600bb595f4119787bf3d68b702d5d2f1a3e3e3dd131cdf77",
+      "standard_sentence_internal_language_findings": [],
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s13-discussion-overall-conclusions.md",
+      "line_count": 169,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 12,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "55980233e818871bdc1c32a2c0bd5ae7a0391e2d6c0e1f7553da6a60f4368e29",
+      "standard_sentence_internal_language_findings": [],
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s13-overall-conclusion-conditioned.md",
+      "line_count": 173,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 12,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "ce9a03860849c7eda4adbfbf367410eab8e82496c1f5b881e61e2efaf17b683d",
+      "standard_sentence_internal_language_findings": [],
+      "status": "pass"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "pass"
+}

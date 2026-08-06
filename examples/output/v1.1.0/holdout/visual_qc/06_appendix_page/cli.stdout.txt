@@ -1,0 +1,1 @@
+visual preflight pass: A=0 B=0: examples/output/v1.1.0/holdout/visual_qc/06_appendix_page/visual_qc_report.md

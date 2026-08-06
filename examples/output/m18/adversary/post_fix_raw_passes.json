@@ -1,0 +1,6 @@
+{
+  "guard": "reviewed_whole_assertion_surface_guard",
+  "raw_pass_count": 0,
+  "raw_passes": [],
+  "schema_version": "1.0"
+}

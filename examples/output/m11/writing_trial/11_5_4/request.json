@@ -1,0 +1,43 @@
+{
+  "evidence_status": "demo_only",
+  "schema_version": "1.1",
+  "section_id": "11.5.4",
+  "source_fragments": [
+    {
+      "locator": "脱敏统计分析计划/PK 参数",
+      "purpose": "pk_method",
+      "source_id": "SRC-PK-METHOD",
+      "text": "PK 参数采用经审核的非房室方法计算；参数可计算性取决于可定量浓度数据和采样覆盖。"
+    },
+    {
+      "locator": "脱敏统计分析计划/PK 参数分析集",
+      "purpose": "analysis_set",
+      "source_id": "SRC-PK-SET",
+      "text": "PK 参数分析集按经审核纳入和排除规则确定。"
+    },
+    {
+      "locator": "脱敏统计分析计划/BLQ 规则",
+      "purpose": "blq_rule",
+      "source_id": "SRC-PK-BLQ",
+      "text": "低于定量下限的数据按预设规则处理；不得由不可定量结果推断为无系统暴露。"
+    }
+  ],
+  "tfl_bindings": [
+    {
+      "context": "脱敏合成结果；仅用于写作机制与行文质量验收",
+      "key": "T14.2.4.3.1|POP=PKPS|ROW=CMAX|COL=ACTIVE_TOTAL",
+      "role": "pk_cmax",
+      "source_id": "T14.2.4.3.1"
+    },
+    {
+      "context": "脱敏合成结果；仅用于写作机制与行文质量验收",
+      "key": "T14.2.4.3.1|POP=PKPS|ROW=AUC0_T|COL=ACTIVE_TOTAL",
+      "role": "pk_auc",
+      "source_id": "T14.2.4.3.1"
+    }
+  ],
+  "tfl_references": [
+    "T14.2.4.3.1"
+  ],
+  "variant": "pk_parameters"
+}

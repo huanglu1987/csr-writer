@@ -1,0 +1,186 @@
+{
+  "contract": {
+    "automatic_fact_updates": false,
+    "false_positive_tolerance": "high; every hit requires human interpretation",
+    "model_inference_used": false,
+    "source_content_treated_as_data": true
+  },
+  "findings": [
+    {
+      "disposition": "human_confirmation_required",
+      "finding_id": "PF-0001",
+      "quote": "我保证将数据准确、完整、及时、合法地载入EDC中。我将接受监查员的监查或稽查员的稽查以及药品监督管理部门的检查和视察，确保临床试验的质量。",
+      "record_sequence": 29,
+      "review_question": "请确认是否存在可提交的稽查证书；一般稽查权利条款不等于已有证书。",
+      "rule_id": "audit_appendix_status",
+      "source_location": "前置页/目录前",
+      "story": "document",
+      "targets": [
+        {
+          "current_value": "unconfirmed",
+          "expected_marker": true,
+          "path": "appendix_status.16.1.8"
+        }
+      ]
+    },
+    {
+      "disposition": "human_confirmation_required",
+      "finding_id": "PF-0002",
+      "quote": "我已阅读了此方案，方案编号：[研究标识]，版本号：2.0。我将根据《药物临床试验质量管理规范》规定，负责发起、资助和稽查本项临床试验，对临床试验中发生与试验相关的损害或死亡的试验参与者提供治疗的经济补偿，向研究者提供法律上与经济上的担保；我对此方案的合理性、科学性负责，同意此方案内容和实施。",
+      "record_sequence": 99,
+      "review_question": "请确认是否存在可提交的稽查证书；一般稽查权利条款不等于已有证书。",
+      "rule_id": "audit_appendix_status",
+      "source_location": "前置页/目录前",
+      "story": "document",
+      "targets": [
+        {
+          "current_value": "unconfirmed",
+          "expected_marker": true,
+          "path": "appendix_status.16.1.8"
+        }
+      ]
+    },
+    {
+      "disposition": "human_confirmation_required",
+      "finding_id": "PF-0003",
+      "quote": "17.4 稽查和视察 66",
+      "record_sequence": 252,
+      "review_question": "请确认是否存在可提交的稽查证书；一般稽查权利条款不等于已有证书。",
+      "rule_id": "audit_appendix_status",
+      "source_location": "前置页/目录前",
+      "story": "document",
+      "targets": [
+        {
+          "current_value": "unconfirmed",
+          "expected_marker": true,
+          "path": "appendix_status.16.1.8"
+        }
+      ]
+    },
+    {
+      "disposition": "human_confirmation_required",
+      "finding_id": "PF-0004",
+      "quote": "《以药动学参数为终点评价指标的化学药物仿制药人体生物等效性研究技术指导原则》",
+      "record_sequence": 322,
+      "review_question": "请确认是否存在非劣效或等效性设计；指南引用不等同于研究设计。",
+      "rule_id": "noninferiority_or_equivalence",
+      "source_location": "§1 遵循文件",
+      "story": "document",
+      "targets": [
+        {
+          "current_value": false,
+          "expected_marker": true,
+          "path": "design.noninferiority"
+        }
+      ]
+    },
+    {
+      "disposition": "human_confirmation_required",
+      "finding_id": "PF-0005",
+      "quote": "《以药动学参数为终点评价指标的化学药物仿制药人体生物等效性研究技术指导原则》",
+      "record_sequence": 322,
+      "review_question": "请确认这是研究类型/专项设计，还是仅为背景或指导原则引用。",
+      "rule_id": "bioequivalence_reference",
+      "source_location": "§1 遵循文件",
+      "story": "document",
+      "targets": [
+        {
+          "current_value": [],
+          "expected_marker": "bioequivalence",
+          "path": "design.clinical_pharmacology_studies"
+        }
+      ]
+    },
+    {
+      "disposition": "human_confirmation_required",
+      "finding_id": "PF-0006",
+      "quote": "一次连续48周，随访4周。分析显示，艾氟康唑的真菌学治愈率为53.4%和55.2%，完全治愈率（临床+真菌学治愈）为15.2%和17.8%，明显优于载体搽剂（10）。长期开放试验在老年患者中观测到类似疗效，约60%的患者在52周达到真菌学治愈。药物耐受性良好，治疗相关不良事件发生率低，主要为局部皮肤反应，停药率<5%（11）。",
+      "record_sequence": 972,
+      "review_question": "请确认是否设置老年特殊人群分析。",
+      "rule_id": "geriatric_population",
+      "source_location": "§2.5.1 原研药物临床资料",
+      "story": "document",
+      "targets": [
+        {
+          "current_value": [],
+          "expected_marker": "older_adult",
+          "path": "population.special_populations"
+        }
+      ]
+    },
+    {
+      "disposition": "human_confirmation_required",
+      "finding_id": "PF-0007",
+      "quote": "不需要递交给申办者或者CRO的文件（比如：ICF）将由研究者严格保密，除非有必要允许申办者和CRO的监查，和监督管理机构的稽查。[机构]并且试验参与者的身份在所有和本研究相关的出版物中隐匿。",
+      "record_sequence": 1816,
+      "review_question": "请确认是否存在可提交的稽查证书；一般稽查权利条款不等于已有证书。",
+      "rule_id": "audit_appendix_status",
+      "source_location": "§16.3 保密和隐私",
+      "story": "document",
+      "targets": [
+        {
+          "current_value": "unconfirmed",
+          "expected_marker": true,
+          "path": "appendix_status.16.1.8"
+        }
+      ]
+    },
+    {
+      "disposition": "human_confirmation_required",
+      "finding_id": "PF-0008",
+      "quote": "17.4 稽查和视察",
+      "record_sequence": 1843,
+      "review_question": "请确认是否存在可提交的稽查证书；一般稽查权利条款不等于已有证书。",
+      "rule_id": "audit_appendix_status",
+      "source_location": "§17.4 稽查和视察",
+      "story": "document",
+      "targets": [
+        {
+          "current_value": "unconfirmed",
+          "expected_marker": true,
+          "path": "appendix_status.16.1.8"
+        }
+      ]
+    },
+    {
+      "disposition": "human_confirmation_required",
+      "finding_id": "PF-0009",
+      "quote": "依据研究需要，申办者或者委托第三方进行稽查或者药政部门对研究进行视察时，能够直接获取研究中的原始文件，eCRF 中的数据应该直接来源于原始数据。",
+      "record_sequence": 1844,
+      "review_question": "请确认是否存在可提交的稽查证书；一般稽查权利条款不等于已有证书。",
+      "rule_id": "audit_appendix_status",
+      "source_location": "§17.4 稽查和视察",
+      "story": "document",
+      "targets": [
+        {
+          "current_value": "unconfirmed",
+          "expected_marker": true,
+          "path": "appendix_status.16.1.8"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "finding_count": 9,
+    "finding_count_by_rule": {
+      "audit_appendix_status": 6,
+      "bioequivalence_reference": 1,
+      "geriatric_population": 1,
+      "noninferiority_or_equivalence": 1
+    },
+    "matched_records": 8,
+    "nonempty_records_scanned": 1650,
+    "records_scanned": 1952
+  },
+  "protocol_source": {
+    "filename_recorded": false,
+    "path_recorded": false,
+    "role": "reference_protocol",
+    "sha256_after": "12ac850d70294e1a074ffa8102e437d98e67f27e81091097bc15fddd63d45ca1",
+    "sha256_before": "12ac850d70294e1a074ffa8102e437d98e67f27e81091097bc15fddd63d45ca1",
+    "unchanged": true
+  },
+  "rules_sha256": "9baab4e878d60fb864a64286a09db967103e209611359f7bb4247dedc3dd068c",
+  "schema_version": "1.0",
+  "status": "review_required"
+}

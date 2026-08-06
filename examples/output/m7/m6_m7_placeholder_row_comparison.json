@@ -1,0 +1,129 @@
+{
+  "change": {
+    "batch_review_entities": 36,
+    "cell_level_entities": -24,
+    "frozen_candidate_cell_keys": -2540,
+    "high_confidence_entities": -36,
+    "interpretation": "expected conservative correction; lower automation is not treated as regression",
+    "position_or_opaque_cell_keys": -3822
+  },
+  "m6_accepted_baseline": {
+    "batch_review_entities": 27,
+    "cell_level_entities": 52,
+    "frozen_candidate_cell_keys": 5388,
+    "high_confidence_entities": 83,
+    "high_confidence_rate": 0.7545,
+    "position_or_opaque_cell_keys": 3822,
+    "unique_entities": 110
+  },
+  "m7_corrected": {
+    "batch_review_entities": 63,
+    "cell_level_entities": 28,
+    "columns_only_deferred_rows_entities": 50,
+    "deferred_shell_placeholder_rows": 609,
+    "elapsed_seconds": 2.783,
+    "frozen_candidate_cell_keys": 2848,
+    "high_confidence_entities": 47,
+    "high_confidence_rate": 0.4273,
+    "human_review_batches": 3,
+    "metadata_only_entities": 20,
+    "mixed_stable_and_deferred_rows_entities": 12,
+    "unique_entities": 110
+  },
+  "position_or_opaque_cell_keys": 0,
+  "problem_tables": [
+    {
+      "confidence": "medium",
+      "entity_id": "T14.1.1.3",
+      "expected_semantic_source": "protocol_deviation_category_from_result_tfl",
+      "frozen_cell_contract_count": 0,
+      "materialize_at": "result_tfl",
+      "shell_placeholder_row_count": 9,
+      "strategy": "columns_only_deferred_rows",
+      "template_placeholder_row_count": 0
+    },
+    {
+      "confidence": "medium",
+      "entity_id": "T14.1.3.1",
+      "expected_semantic_source": "meddra_soc_pt_from_result_tfl",
+      "frozen_cell_contract_count": 0,
+      "materialize_at": "result_tfl",
+      "shell_placeholder_row_count": 7,
+      "strategy": "columns_only_deferred_rows",
+      "template_placeholder_row_count": 0
+    },
+    {
+      "confidence": "medium",
+      "entity_id": "T14.1.4.1",
+      "expected_semantic_source": "whodrug_atc_and_drug_name_from_result_tfl",
+      "frozen_cell_contract_count": 0,
+      "materialize_at": "result_tfl",
+      "shell_placeholder_row_count": 9,
+      "strategy": "columns_only_deferred_rows",
+      "template_placeholder_row_count": 0
+    },
+    {
+      "confidence": "medium",
+      "entity_id": "T14.1.4.2",
+      "expected_semantic_source": "whodrug_atc_and_drug_name_from_result_tfl",
+      "frozen_cell_contract_count": 0,
+      "materialize_at": "result_tfl",
+      "shell_placeholder_row_count": 0,
+      "strategy": "columns_only_deferred_rows",
+      "template_placeholder_row_count": 9
+    },
+    {
+      "confidence": "medium",
+      "entity_id": "T14.1.4.3",
+      "expected_semantic_source": "whodrug_atc_and_drug_name_from_result_tfl",
+      "frozen_cell_contract_count": 0,
+      "materialize_at": "result_tfl",
+      "shell_placeholder_row_count": 7,
+      "strategy": "columns_only_deferred_rows",
+      "template_placeholder_row_count": 0
+    },
+    {
+      "confidence": "medium",
+      "entity_id": "T14.2.4.2",
+      "expected_semantic_source": "pk_steady_state_row_labels_from_result_tfl",
+      "frozen_cell_contract_count": 0,
+      "materialize_at": "result_tfl",
+      "shell_placeholder_row_count": 4,
+      "strategy": "columns_only_deferred_rows",
+      "template_placeholder_row_count": 0
+    },
+    {
+      "confidence": "medium",
+      "entity_id": "T14.3.1.3.1",
+      "expected_semantic_source": "meddra_soc_pt_from_result_tfl",
+      "frozen_cell_contract_count": 0,
+      "materialize_at": "result_tfl",
+      "shell_placeholder_row_count": 7,
+      "strategy": "columns_only_deferred_rows",
+      "template_placeholder_row_count": 0
+    },
+    {
+      "confidence": "medium",
+      "entity_id": "T14.3.1.3.19",
+      "expected_semantic_source": "meddra_soc_pt_from_result_tfl",
+      "frozen_cell_contract_count": 0,
+      "materialize_at": "result_tfl",
+      "shell_placeholder_row_count": 18,
+      "strategy": "columns_only_deferred_rows",
+      "template_placeholder_row_count": 0
+    },
+    {
+      "confidence": "medium",
+      "entity_id": "T14.3.1.3.35",
+      "expected_semantic_source": "meddra_soc_pt_from_result_tfl",
+      "frozen_cell_contract_count": 0,
+      "materialize_at": "result_tfl",
+      "shell_placeholder_row_count": 6,
+      "strategy": "columns_only_deferred_rows",
+      "template_placeholder_row_count": 0
+    }
+  ],
+  "same_source_sha256": "75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+  "schema_version": "1.0",
+  "status": "pass"
+}

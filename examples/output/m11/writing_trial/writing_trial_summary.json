@@ -1,0 +1,86 @@
+{
+  "agent_itself_was_writer": true,
+  "assembly": {
+    "cross_references": {
+      "bookmark_count": 5,
+      "field_count": 5,
+      "status": "pass",
+      "unique_target_count": 5
+    },
+    "mode": "annotated",
+    "output": "examples/output/m11/writing_trial/M11_writing_trial_annotated.docx",
+    "pending_count": 2,
+    "pending_paragraphs": [
+      "11.5.4:p_11_5_4_003",
+      "12.2:p_12_2_003"
+    ],
+    "schema_version": "1.0",
+    "sha256": "e10f212dbb9c7a86db7b31f7889b0a8e38a8930c04163b214c1fa89a5950bbd5",
+    "status": "pass"
+  },
+  "external_model_api_called": false,
+  "first_pass_rejected_paragraph_count": 1,
+  "first_pass_rejected_section_count": 1,
+  "interface": "Agent emit-envelope -> ingest-draft -> resolve -> annotated assembly",
+  "manual_polishing_after_guard": false,
+  "records": [
+    {
+      "attempts": 1,
+      "envelope_sha256": "2815c36ca80dd76f3eb66bcc7b75ac99da177ed513ab3a508c0e056abc1919b6",
+      "guard_retry_count": 0,
+      "manual_polishing_after_guard": false,
+      "placeholder_count": 0,
+      "raw_draft_recorded": true,
+      "reference_count": 0,
+      "resolve_status": "pass",
+      "section_id": "9.4.6",
+      "semantic_finding_categories": []
+    },
+    {
+      "attempts": 1,
+      "envelope_sha256": "7fa396c9d6edc88acc1d53c5c82365a63b3d1b44f6a551101e01f6ef713d2272",
+      "guard_retry_count": 0,
+      "manual_polishing_after_guard": false,
+      "placeholder_count": 2,
+      "raw_draft_recorded": true,
+      "reference_count": 2,
+      "resolve_status": "pass",
+      "section_id": "10.1",
+      "semantic_finding_categories": []
+    },
+    {
+      "attempts": 1,
+      "envelope_sha256": "8c30c9861cd5d6e39337a2d3cd1570adf076010fcbf99c52eb19e3318279300d",
+      "guard_retry_count": 0,
+      "manual_polishing_after_guard": false,
+      "placeholder_count": 2,
+      "raw_draft_recorded": true,
+      "reference_count": 1,
+      "resolve_status": "pass",
+      "section_id": "11.5.4",
+      "semantic_finding_categories": []
+    },
+    {
+      "attempts": 2,
+      "envelope_sha256": "24dec306f0bdcc689cc20f5a8864db85b6f217231f2c8a7a58306b4706c72c18",
+      "guard_retry_count": 1,
+      "manual_polishing_after_guard": false,
+      "placeholder_count": 2,
+      "raw_draft_recorded": true,
+      "reference_count": 2,
+      "resolve_status": "pass",
+      "section_id": "12.2",
+      "semantic_finding_categories": [
+        "benefit_risk_conclusion"
+      ]
+    }
+  ],
+  "rejection_reason_distribution": {
+    "missing_exact_medical_review_marker": 1
+  },
+  "resolved_pass_count": 4,
+  "retry_count": 1,
+  "schema_version": "1.0",
+  "section_count": 4,
+  "status": "pass"
+}

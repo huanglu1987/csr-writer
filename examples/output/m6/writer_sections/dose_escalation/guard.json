@@ -1,0 +1,114 @@
+{
+  "datapack_sha256": "67fa9b9fd72b0b3e055ebcf724a6d92ba1a8bb33a80482dd37df274c0e3ea936",
+  "draft_sha256": "a2067af055fdde8d2965f6b620a0e3bd09b07846c6b2367ab3d983be3d3c5e42",
+  "issues": [],
+  "placeholder_count": 0,
+  "placeholder_keys": [],
+  "protocol_facts_sha256": "6128d7dd5731f7bb0b6eb0e4b8191f6d20520e99bc34b87653fc1e9f44ce4e97",
+  "reference_count": 0,
+  "reference_entities": [],
+  "resolved_sha256": "a2067af055fdde8d2965f6b620a0e3bd09b07846c6b2367ab3d983be3d3c5e42",
+  "schema_version": "1.0",
+  "stages": {
+    "A_key_existence": {
+      "status": "pass"
+    },
+    "B_residual": {
+      "status": "pass"
+    },
+    "C_bare_numbers": {
+      "status": "pass"
+    }
+  },
+  "status": "pass",
+  "whitelist": [
+    {
+      "pattern": "ICH\\s*E\\d+\\s*\\(?R?\\d*\\)?",
+      "source": "static:standard identifier"
+    },
+    {
+      "pattern": "第\\s*\\d+(?:\\.\\d+)*\\s*[章节]",
+      "source": "static:section reference"
+    },
+    {
+      "pattern": "\\d{4}\\s*年\\s*\\d{1,2}\\s*月\\s*\\d{1,2}\\s*日",
+      "source": "static:calendar date"
+    },
+    {
+      "pattern": "\\d{4}-\\d{2}-\\d{2}",
+      "source": "static:ISO date"
+    },
+    {
+      "pattern": "CTCAE\\s*v?\\d+(?:\\.\\d+)*",
+      "source": "static:coding standard version"
+    },
+    {
+      "pattern": "MedDRA\\s*(?:版本)?\\s*\\d+(?:\\.\\d+)*",
+      "source": "static:coding dictionary version"
+    },
+    {
+      "pattern": "[1-5]\\s*级",
+      "source": "static:AE grade vocabulary"
+    },
+    {
+      "pattern": "[IVX]+\\s*期",
+      "source": "static:study phase label; never used for structural routing"
+    },
+    {
+      "pattern": "95\\s*%\\s*(?:置信区间|CI)",
+      "source": "static:fixed confidence-interval term"
+    },
+    {
+      "pattern": "双侧\\s*0?\\.\\d+",
+      "source": "static:fixed analysis-method term"
+    },
+    {
+      "pattern": "DEID\\-TOPICAL\\-PROJECT",
+      "source": "fact:protocol_id"
+    },
+    {
+      "pattern": "(?<![\\d.])1(?:\\.0+)?(?![\\d.])\\s*deidentified_level(?![A-Za-z/])",
+      "source": "fact:design.dose_levels[0]"
+    },
+    {
+      "pattern": "(?<![\\d.])2(?:\\.0+)?(?![\\d.])\\s*deidentified_level(?![A-Za-z/])",
+      "source": "fact:design.dose_levels[1]"
+    },
+    {
+      "pattern": "(?<![\\d.])3(?:\\.0+)?(?![\\d.])\\s*deidentified_level(?![A-Za-z/])",
+      "source": "fact:design.dose_levels[2]"
+    },
+    {
+      "pattern": "(?<![\\d.])4(?:\\.0+)?(?![\\d.])\\s*deidentified_level(?![A-Za-z/])",
+      "source": "fact:design.dose_levels[3]"
+    },
+    {
+      "pattern": "(?<![\\d.])4(?:\\.0+)?(?![\\d.])\\s*个剂量(?:水平|组)",
+      "source": "derived:length(design.dose_levels)"
+    },
+    {
+      "pattern": "(?<![\\d.])0(?:\\.0+)?(?![\\d.])(?=\\s*(?:[、,，]|小时))",
+      "source": "fact:data_domains.pk_sampling_timepoints_h[0]"
+    },
+    {
+      "pattern": "(?<![\\d.])1(?:\\.0+)?(?![\\d.])(?=\\s*(?:[、,，]|小时))",
+      "source": "fact:data_domains.pk_sampling_timepoints_h[1]"
+    },
+    {
+      "pattern": "(?<![\\d.])2(?:\\.0+)?(?![\\d.])(?=\\s*(?:[、,，]|小时))",
+      "source": "fact:data_domains.pk_sampling_timepoints_h[2]"
+    },
+    {
+      "pattern": "(?<![\\d.])4(?:\\.0+)?(?![\\d.])(?=\\s*(?:[、,，]|小时))",
+      "source": "fact:data_domains.pk_sampling_timepoints_h[3]"
+    },
+    {
+      "pattern": "(?<![\\d.])8(?:\\.0+)?(?![\\d.])(?=\\s*(?:[、,，]|小时))",
+      "source": "fact:data_domains.pk_sampling_timepoints_h[4]"
+    },
+    {
+      "pattern": "(?<![\\d.])24(?:\\.0+)?(?![\\d.])(?=\\s*(?:[、,，]|小时))",
+      "source": "fact:data_domains.pk_sampling_timepoints_h[5]"
+    }
+  ]
+}

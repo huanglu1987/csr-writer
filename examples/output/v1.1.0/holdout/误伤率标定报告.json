@@ -1,0 +1,148 @@
+{
+  "class_b_upgrade_recommendation": {
+    "basis": "正式留出集 B 类页级误伤率为 20.0%（2/10 页）。",
+    "decision": "v1.1.0 全部 B 类继续仅警告。",
+    "recommend_upgrade": false
+  },
+  "construction": {
+    "configuration_used_during_construction": false,
+    "documents": 6,
+    "generator": {
+      "filename": "build_v1_1_visual_holdout_set.py",
+      "sha256": "293412909918c41c05e971bd21245c4ebe73ad2380bf356d504dabedd14e5d78"
+    },
+    "manifest": "examples/output/v1.1.0/holdout/holdout_set_manifest.json",
+    "required_scenarios": [
+      {
+        "filename": "01_portrait_body.docx",
+        "scenario": "portrait_body",
+        "sha256": "620895a83f660af38c1b8347bea6ca3d011bc31cb645b9fcac6e1643381be931"
+      },
+      {
+        "filename": "02_header_footer.docx",
+        "scenario": "header_footer",
+        "sha256": "bb47e7a100864dc41dd9a81f52b2bcf077ff98f40f58915071759a65c135890f"
+      },
+      {
+        "filename": "03_chapter_opener.docx",
+        "scenario": "chapter_opener",
+        "sha256": "d971170fd148c0260e7ba48aaf94032c3619636d058b46c66ba0d92184d9f857"
+      },
+      {
+        "filename": "04_landscape_wide_table.docx",
+        "scenario": "landscape_wide_table",
+        "sha256": "eb5a4749a6fdfd0889dfc3e4632a651947cdaffbf7138b246dd153cbd90f512b"
+      },
+      {
+        "filename": "05_long_table_repeated_header.docx",
+        "scenario": "long_table_repeated_header",
+        "sha256": "f255f8b63e1fd9198f5d66b0f79f22fbf170068232e986689c4ba398b99193c5"
+      },
+      {
+        "filename": "06_appendix_page.docx",
+        "scenario": "appendix_page",
+        "sha256": "9022449a9657148ea9f58ea33b518c96421e036ee52258d5747559de641b5a56"
+      }
+    ]
+  },
+  "false_positives": [
+    {
+      "code": "B-SINGLE-CJK-LINE",
+      "count": 10,
+      "document": "04_landscape_wide_table",
+      "page": 1,
+      "reason": "合法列名‘列1’至‘列10’移除数字后被误视为单字行。",
+      "scenario": "landscape_wide_table"
+    },
+    {
+      "code": "B-TABLE-HEADER-NOT-REPEATED",
+      "count": 1,
+      "document": "05_long_table_repeated_header",
+      "page": 2,
+      "reason": "输入已设 w:tblHeader，但 PDF 表格重建对续页表头的相似度仅识别为 0.240。",
+      "scenario": "long_table_repeated_header"
+    }
+  ],
+  "freeze": {
+    "checker_sha256": "d09c182a7188cd956c0a28b9f89894e8cb1c71269433219da44465abe6de4ac1",
+    "config_sha256": "fcfb0246089dc2984eacca06fa52f1d93a9d4d3ef13a2775a6df28af76d8046d",
+    "lock_status": "frozen_before_holdout_construction",
+    "superseded_probe": {
+      "reason": "the pre-freeze probe exposed missing linked-section header/footer inheritance",
+      "status": "excluded_from_calibration"
+    }
+  },
+  "limitations": "本检查基于 LibreOffice 渲染，与 Microsoft Word 的分页和字体回退存在差异。本检查是前置筛查，不替代在 Word 中更新域后的人工视觉复核。",
+  "metrics": {
+    "class_a_false_positive_pages": 0,
+    "class_a_page_false_positive_rate": 0.0,
+    "class_b_false_positive_pages": 2,
+    "class_b_page_false_positive_rate": 0.2,
+    "document_count": 6,
+    "documents_without_any_finding": 4,
+    "finding_codes": {
+      "B-SINGLE-CJK-LINE": 10,
+      "B-TABLE-HEADER-NOT-REPEATED": 1
+    },
+    "overall_false_positive_pages": 2,
+    "overall_page_false_positive_rate": 0.2,
+    "page_count": 10,
+    "pages_without_any_finding": 8
+  },
+  "runs": [
+    {
+      "document": "01_portrait_body",
+      "finding_count": 0,
+      "issue_pages": [],
+      "page_count": 2,
+      "report": "examples/output/v1.1.0/holdout/visual_qc/01_portrait_body/visual_qc_report.json",
+      "scenario": "portrait_body"
+    },
+    {
+      "document": "02_header_footer",
+      "finding_count": 0,
+      "issue_pages": [],
+      "page_count": 2,
+      "report": "examples/output/v1.1.0/holdout/visual_qc/02_header_footer/visual_qc_report.json",
+      "scenario": "header_footer"
+    },
+    {
+      "document": "03_chapter_opener",
+      "finding_count": 0,
+      "issue_pages": [],
+      "page_count": 1,
+      "report": "examples/output/v1.1.0/holdout/visual_qc/03_chapter_opener/visual_qc_report.json",
+      "scenario": "chapter_opener"
+    },
+    {
+      "document": "04_landscape_wide_table",
+      "finding_count": 10,
+      "issue_pages": [
+        1
+      ],
+      "page_count": 1,
+      "report": "examples/output/v1.1.0/holdout/visual_qc/04_landscape_wide_table/visual_qc_report.json",
+      "scenario": "landscape_wide_table"
+    },
+    {
+      "document": "05_long_table_repeated_header",
+      "finding_count": 1,
+      "issue_pages": [
+        2
+      ],
+      "page_count": 3,
+      "report": "examples/output/v1.1.0/holdout/visual_qc/05_long_table_repeated_header/visual_qc_report.json",
+      "scenario": "long_table_repeated_header"
+    },
+    {
+      "document": "06_appendix_page",
+      "finding_count": 0,
+      "issue_pages": [],
+      "page_count": 1,
+      "report": "examples/output/v1.1.0/holdout/visual_qc/06_appendix_page/visual_qc_report.json",
+      "scenario": "appendix_page"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "completed"
+}

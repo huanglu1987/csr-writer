@@ -1,0 +1,17 @@
+{
+  "issues": [
+    {
+      "code": "E-TRACE-CHAIN-GAP",
+      "message": "DERM-1 has a missing reviewed link",
+      "missing_edges": [
+        [
+          "SAP-DERM-1",
+          "TFL-DERM-1",
+          "implemented_by"
+        ]
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "blocked"
+}

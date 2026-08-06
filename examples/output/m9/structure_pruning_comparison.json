@@ -1,0 +1,54 @@
+{
+  "after_m9_formal_extensions": 9,
+  "after_m9_retained_official_headings": 97,
+  "before_m6_full_scaffold_headings": 122,
+  "omitted_official_headings": 25,
+  "phase_only_structure_diff": [],
+  "schema_version": "1.0",
+  "six_reviewed_sections": {
+    "11.4.2.3": {
+      "present_after": false,
+      "present_before": true
+    },
+    "11.4.2.5": {
+      "present_after": false,
+      "present_before": true
+    },
+    "11.4.2.7": {
+      "present_after": false,
+      "present_before": true
+    },
+    "11.4.5": {
+      "present_after": false,
+      "present_before": true
+    },
+    "11.4.6": {
+      "present_after": false,
+      "present_before": true
+    },
+    "16.4": {
+      "present_after": false,
+      "present_before": true
+    }
+  },
+  "status": "pass",
+  "topical_vs_oncology": {
+    "fixed_topical_template_used": false,
+    "oncology_only": [
+      "11.6.2.8",
+      "11.7",
+      "11.8",
+      "12.7.3",
+      "12.7.5",
+      "12.7.7"
+    ],
+    "symmetric_difference_count": 11,
+    "topical_only": [
+      "11.6.2.1",
+      "12.5.1",
+      "16.1.7",
+      "9.4.3",
+      "9.4.6"
+    ]
+  }
+}

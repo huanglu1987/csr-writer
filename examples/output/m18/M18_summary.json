@@ -1,0 +1,13 @@
+{
+  "adversary_candidates": 17702,
+  "adversary_post_raw_passes": 0,
+  "adversary_pre_raw_passes": 17008,
+  "docx_zip_timestamp_is_fixed": true,
+  "false_positive_after": 0,
+  "false_positive_before": 5,
+  "legal_rewrites_passed": 9,
+  "real_clinical_files_accessed": false,
+  "reproducible_e2e_diff_count": 0,
+  "schema_version": "1.0",
+  "status": "pass"
+}

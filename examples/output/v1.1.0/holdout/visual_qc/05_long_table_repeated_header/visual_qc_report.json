@@ -1,0 +1,64 @@
+{
+  "config_sha256": "fcfb0246089dc2984eacca06fa52f1d93a9d4d3ef13a2775a6df28af76d8046d",
+  "contact_sheets": [
+    {
+      "filename": "05_long_table_repeated_header.contact_sheet_001.png",
+      "height_px": 2072,
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "sha256": "c9d7a174bbe9ae14e0630cc59baa20ea5a8ae7e6d34ec39a282c8e75f7213002",
+      "width_px": 1056
+    }
+  ],
+  "docx_layout": {
+    "field_counts": {
+      "page": 0,
+      "ref": 0,
+      "tc": 0,
+      "toc": 0,
+      "total_pages": 0
+    },
+    "header_footer_excluded_from_body_checks": true,
+    "section_count": 1,
+    "toc_expected_counts": []
+  },
+  "findings": [
+    {
+      "bbox": null,
+      "class": "B",
+      "code": "B-TABLE-HEADER-NOT-REPEATED",
+      "evidence": "header_similarity=0.250",
+      "message": "检测到疑似跨页表延续，但下一页未识别到相同表头。",
+      "page": 2,
+      "severity": "warning"
+    }
+  ],
+  "legacy_release_decision_changed": false,
+  "limitations": "本检查基于 LibreOffice 渲染，与 Microsoft Word 的分页和字体回退存在差异。 本检查是前置筛查，不替代在 Word 中更新域后的人工视觉复核。",
+  "pdf": {
+    "filename": "05_long_table_repeated_header.pdf",
+    "page_count": 3,
+    "sha256": "9d44727c1d66bb47fee48c2d9c3cfde26b48b0f7da9aeef566921a9776c8cbf0",
+    "signature_verified": true
+  },
+  "renderer": {
+    "available": true,
+    "name": "soffice",
+    "render_status": "pass"
+  },
+  "schema_version": "1.0",
+  "source": {
+    "filename": "05_long_table_repeated_header.docx",
+    "sha256": "f255f8b63e1fd9198f5d66b0f79f22fbf170068232e986689c4ba398b99193c5"
+  },
+  "status": "pass_with_warnings",
+  "summary": {
+    "class_a_count": 0,
+    "class_b_count": 1,
+    "finding_count": 1
+  },
+  "visual_gate_status": "pass"
+}

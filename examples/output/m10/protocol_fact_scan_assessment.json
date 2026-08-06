@@ -1,0 +1,59 @@
+{
+  "assessment_unit": "unique fact issue, not every repeated keyword occurrence",
+  "injected_false_test": {
+    "detected": true,
+    "facts_file_modified": false,
+    "field": "data_domains.local_tolerance",
+    "injected_value": false,
+    "matching_finding_count": 77,
+    "original_value": true,
+    "representative_evidence": {
+      "disposition": "human_confirmation_required",
+      "finding_id": "PF-0003",
+      "quote": "11.1.5 局部耐受性检查 49",
+      "record_sequence": 207,
+      "review_question": "请确认是否漏填局部耐受性数据域。",
+      "rule_id": "local_tolerance",
+      "source_location": "前置页/目录前",
+      "story": "document",
+      "targets": [
+        {
+          "current_value": false,
+          "expected_marker": true,
+          "path": "data_domains.local_tolerance"
+        }
+      ]
+    },
+    "source_file_modified": false
+  },
+  "paired_protocol": {
+    "false_positive_theme_count": 4,
+    "false_positive_themes": [
+      "稽查权利/职责条款不等于已有稽查证书",
+      "生物等效性指导原则引用不等于 BE 研究设计",
+      "背景文献中的儿科人群不等于本研究纳入儿科",
+      "否定性 DLT 背景表述不等于设置 DLT 评价"
+    ],
+    "finding_count": 17,
+    "real_omission_count": 1,
+    "real_omissions": [
+      {
+        "assessment": "方案存在 DLT 定义性内容，而脱敏 facts 为 false；需人工更正或说明为何不构成 DLT。",
+        "fact": "design.dlt_defined",
+        "supporting_rule": "dlt_mtd_rp2d"
+      }
+    ]
+  },
+  "reference_protocol": {
+    "false_positive_theme_count": 3,
+    "false_positive_themes": [
+      "稽查权利/职责条款不等于已有稽查证书",
+      "生物等效性指导原则引用不等于 BE 研究设计",
+      "背景文献中的老年人群不等于本研究纳入老年特殊人群"
+    ],
+    "finding_count": 9,
+    "real_omission_count": 0
+  },
+  "schema_version": "1.0",
+  "status": "pass"
+}

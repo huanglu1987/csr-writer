@@ -1,0 +1,58 @@
+{
+  "datapack_sha256": "c60cca6754cd3faa7a1a2d0f4a82b7e48c6afdd6a179eba9ad0012f95931b346",
+  "draft_sha256": "d2da6da9d62fcfd4a134daac2759e95cfd2c0b96def3f548c4fb4a610007ee33",
+  "resolved_sha256": "ba6161c3a2f631c6d5c23f8932fcef9e8715f50167703e6f0b695eb56857b461",
+  "rules": [
+    {
+      "branch": "critical_binding_missing",
+      "confirmed_body_only": false,
+      "critical_roles": [
+        {
+          "cell_present": true,
+          "key": "T14.2.2.1.1|POP=FAS|ROW=PRIMARY_ENDPOINT|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "primary_endpoint_result",
+          "value_sha256": "c5a56b68b35bfa2482cbb21649e32960af121ea00c3477c18da6b299f906c081"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.2.2.1.1|POP=FAS|ROW=ANALYSIS_SET|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "analysis_set",
+          "value_sha256": "aafb4482e5974c58463e1f9637958e17f514f566c808e415b1e776a75c0ecd5d"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.2.2.1.1|POP=FAS|ROW=PRESPECIFIED|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "prespecified",
+          "value_sha256": "f1de1e2621deb2e14e32a992e8e0cd6d5e88b2f2352d52c4daf06826a274b5e0"
+        },
+        {
+          "cell_present": false,
+          "key": null,
+          "machine_readable": false,
+          "role": "hypothesis_test",
+          "value_sha256": null
+        }
+      ],
+      "medical_review_marker_required": true,
+      "missing_roles": [
+        "hypothesis_test"
+      ],
+      "numeric_values_not_logged": true,
+      "rule_id": "EXPLORATORY_EFFICACY_CONCLUSION_V1"
+    }
+  ],
+  "schema_version": "1.1",
+  "status": "pass_with_warning",
+  "warnings": [
+    {
+      "code": "W-EXPLORATORY-EFFICACY-CONCLUSION-BINDING-MISSING",
+      "message": "Exploratory efficacy conclusion lacks a critical design or result binding",
+      "missing_roles": [
+        "hypothesis_test"
+      ]
+    }
+  ]
+}

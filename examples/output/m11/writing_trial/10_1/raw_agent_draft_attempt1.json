@@ -1,0 +1,22 @@
+{
+  "paragraphs": [
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "sources": [
+        "SRC-DISPOSITION-PROTOCOL",
+        "SRC-DISPOSITION-SAP"
+      ],
+      "text": "受试者处置按随机、接受研究治疗、完成和退出状态汇总，分析集纳入按经审核的统计分析计划执行。"
+    },
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "sources": [
+        "T14.1.1.1",
+        "T14.1.1.2"
+      ],
+      "text": "已随机受试者为 {{T14.1.1.1|POP=FAS|ROW=RANDOMIZED|COL=ACTIVE_TOTAL}}，纳入全分析集者为 {{T14.1.1.2|POP=FAS|ROW=ANALYSIS_SET|COL=ACTIVE_TOTAL}}；受试者处置和分析集汇总分别详见{{@ref:T14.1.1.1}}和{{@ref:T14.1.1.2}}。"
+    }
+  ]
+}

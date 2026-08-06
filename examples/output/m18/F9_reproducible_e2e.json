@@ -1,0 +1,25 @@
+{
+  "command": "python3 scripts/run_m17_e2e.py",
+  "diff": [],
+  "diff_count": 0,
+  "docx_current_sha256": "93596d7275a578aa09bc8b39c8f816250d8e772c72e39d94ec3ffbe02f41fd73",
+  "docx_sha256_first": "93596d7275a578aa09bc8b39c8f816250d8e772c72e39d94ec3ffbe02f41fd73",
+  "docx_sha256_second": "93596d7275a578aa09bc8b39c8f816250d8e772c72e39d94ec3ffbe02f41fd73",
+  "docx_zip_entry_count": 17,
+  "docx_zip_timestamp_is_fixed": true,
+  "docx_zip_timestamps": [
+    [
+      1980,
+      1,
+      1,
+      0,
+      0,
+      0
+    ]
+  ],
+  "file_count": 28,
+  "first_exit_code": 0,
+  "schema_version": "1.0",
+  "second_exit_code": 0,
+  "status": "pass"
+}

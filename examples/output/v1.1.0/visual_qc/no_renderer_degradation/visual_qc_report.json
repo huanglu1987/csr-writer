@@ -1,0 +1,26 @@
+{
+  "config_sha256": "fcfb0246089dc2984eacca06fa52f1d93a9d4d3ef13a2775a6df28af76d8046d",
+  "contact_sheets": [],
+  "findings": [],
+  "legacy_release_decision_changed": false,
+  "limitations": "本检查基于 LibreOffice 渲染，与 Microsoft Word 的分页和字体回退存在差异。 本检查是前置筛查，不替代在 Word 中更新域后的人工视觉复核。",
+  "reason": {
+    "code": "I-VISUAL-RENDERER-NOT-FOUND",
+    "message": "视觉检查未执行：未检出渲染器。"
+  },
+  "renderer": {
+    "available": false,
+    "name": null
+  },
+  "schema_version": "1.0",
+  "source": {
+    "filename": "M21_M20_unfamiliar.clean.docx",
+    "sha256": "5fd7b9e3622c0e4643f22b797be3ddd55faf6d084729fab52ab10679c7ee1c9a"
+  },
+  "status": "not_run",
+  "summary": {
+    "class_a_count": 0,
+    "class_b_count": 0
+  },
+  "visual_gate_status": "not_run"
+}

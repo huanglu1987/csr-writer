@@ -1,0 +1,35 @@
+{
+  "ae_consequence_pair_route": [
+    "14.3.1.3.5",
+    "14.3.1.3.6",
+    "14.3.1.3.7",
+    "14.3.1.3.8",
+    "14.3.1.3.9",
+    "14.3.1.3.10"
+  ],
+  "after_count": 13,
+  "before_count": 5,
+  "before_modules": [
+    "M-CORE",
+    "M-DOSE-ESC",
+    "M-PK-NCA",
+    "M-EFF-EXPLORE",
+    "M-MULTICENTER"
+  ],
+  "local_tolerance_tfl_route": [
+    "14.3.1.3.3",
+    "14.3.1.3.4"
+  ],
+  "newly_placed_modules": [
+    "M-LOCAL-TOLERANCE",
+    "M-AE-CONSEQUENCE",
+    "M-TOPICAL-PK",
+    "M-RANDOMIZED",
+    "M-BLINDING",
+    "M-PLACEBO-CTRL",
+    "M-INFECTION",
+    "M-DERMATOLOGY"
+  ],
+  "status": "pass",
+  "topical_only_nonempty": true
+}

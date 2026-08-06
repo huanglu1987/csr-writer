@@ -1,0 +1,22 @@
+{
+  "clean_output_sha256": "530e0e889c5e9ddfce77f10c31284ebb79692968dd22f74799cb9f19636efbc2",
+  "generation_mode": "derived_copy_only",
+  "independent_drafting_allowed": false,
+  "paragraphs": [
+    {
+      "source_para_id": "p_11_4_002",
+      "source_resolved_sha256": "1f448cfaea8f2f44f7c4458c5ba3fb4737f72e37f18a7dfe1cdc9027877a8708",
+      "source_section": "11.4",
+      "text_sha256": "4693e0e440eb66399066a9e56587cb23369e1927cd1f6d4b391863b10fdf3812"
+    },
+    {
+      "source_para_id": "p_11_A_002",
+      "source_resolved_sha256": "dd7d6a8d2d491bfd80197f242e06f78cbb1c3bcb7d72617ce5e6f51df07196fa",
+      "source_section": "11.A",
+      "text_sha256": "d646e35e4e19f8d0370b3a7404068e2bb6ab36a7a2a1cc72065509a6254923e6"
+    }
+  ],
+  "schema_version": "1.0",
+  "synopsis_output_sha256": "326fa2c1f1a2654f20125ddd3b6238288987fe9621f855a90c89e065777ac9ba",
+  "synopsis_text_sha256": "4c3068fdc5d4ffe137a985ab693baaa5b6b3a0621c098e803b949f41a428703e"
+}

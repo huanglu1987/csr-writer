@@ -1,0 +1,91 @@
+{
+  "architecture": "Agent reads emitted envelope; tool ingests guarded draft; no external API",
+  "assembly": {
+    "annotated": {
+      "cross_references": {
+        "bookmark_count": 3,
+        "field_count": 3,
+        "status": "pass",
+        "unique_target_count": 3
+      },
+      "mode": "annotated",
+      "output": "examples/output/m7/agent_writer/assembly/agent_drafted_sections_annotated.docx",
+      "pending_count": 2,
+      "pending_paragraphs": [
+        "11.4:p_11_4_003",
+        "12.2:p_12_2_003"
+      ],
+      "schema_version": "1.0",
+      "sha256": "093327811572dfdedc35326d91c12b56cad9a8f8fbd2053b7cf22a0f8c896c20",
+      "status": "pass"
+    },
+    "clean_gate": {
+      "reason": "Review decision sections must exactly match assembled sections; expected=['11.4', '12.2'], got=[]",
+      "status": "blocked_as_required"
+    },
+    "cross_references": {
+      "bookmark_count": 3,
+      "field_count": 3,
+      "status": "pass",
+      "unique_target_count": 3
+    },
+    "docx_reopened": true
+  },
+  "external_model_api_called": false,
+  "first_generation_rejected_paragraph_count": 2,
+  "playbook_improvement": {
+    "change": "playbooks and ingest guard now require the exact marker",
+    "regression_test": "tests.test_m7_agent_interface.M7AgentInterfaceTests.test_needs_human_marker_must_be_exact",
+    "trigger": "first drafts used a visually similar but non-canonical human-confirmation marker"
+  },
+  "rejection_reason_distribution": {
+    "missing_exact_human_confirmation_marker": 2
+  },
+  "schema_version": "1.0",
+  "section_count": 2,
+  "sections": [
+    {
+      "attempts_to_pass": 2,
+      "envelope_sha256": "fde6679f83a33c79cc0cc3af69dbbad577bcc8397d8b56d1d4d261fad753b89a",
+      "external_model_api_called": false,
+      "first_attempt": "rejected",
+      "first_raw_paragraph_count": 3,
+      "first_rejection_reason": "SectionWriterError: Agent needs_human paragraph(s) lack the exact [待医学负责人确认] marker: [3]",
+      "playbook_included": true,
+      "resolve_guard_stages": {
+        "A_key_existence": "pass",
+        "B_residual": "pass",
+        "C_bare_numbers": "pass"
+      },
+      "resolve_guard_status": "pass",
+      "retries": 1,
+      "retry_raw_paragraph_count": 3,
+      "second_attempt": "pass",
+      "section_id": "11.4",
+      "source_fragment_count": 3,
+      "tfl_binding_count": 6
+    },
+    {
+      "attempts_to_pass": 2,
+      "envelope_sha256": "1a8a3a338789eb90dc162157305a5bba7a84d8c10dc23dbcff327b6bd3ca03bf",
+      "external_model_api_called": false,
+      "first_attempt": "rejected",
+      "first_raw_paragraph_count": 3,
+      "first_rejection_reason": "SectionWriterError: Agent needs_human paragraph(s) lack the exact [待医学负责人确认] marker: [3]",
+      "playbook_included": true,
+      "resolve_guard_stages": {
+        "A_key_existence": "pass",
+        "B_residual": "pass",
+        "C_bare_numbers": "pass"
+      },
+      "resolve_guard_status": "pass",
+      "retries": 1,
+      "retry_raw_paragraph_count": 3,
+      "second_attempt": "pass",
+      "section_id": "12.2",
+      "source_fragment_count": 2,
+      "tfl_binding_count": 2
+    }
+  ],
+  "status": "pass"
+}

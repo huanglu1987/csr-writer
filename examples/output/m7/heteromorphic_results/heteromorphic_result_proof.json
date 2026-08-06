@@ -1,0 +1,118 @@
+{
+  "data_driven": {
+    "cross_parent_duplicate_leaf": "PT_SHARED",
+    "cross_parent_paths": [
+      "SOC_1/PT_SHARED",
+      "SOC_2/PT_SHARED"
+    ],
+    "medication": {
+      "checks": {
+        "frozen_columns": "pass",
+        "frozen_shell_contract": "pass",
+        "nonblank_values": "pass",
+        "parent_qualified_rows": "pass",
+        "semantic_key_and_contract_drift": "pass",
+        "stable_rows": "pass"
+      },
+      "cross_parent_duplicate_leaf_count": 0,
+      "entity_id": "T14.1.4.1",
+      "format_transition": "docx-shell-to-heteromorphic-rtf-result",
+      "frozen_map_sha256": "8ee5c2edcfcd13146d3dc4c84cba59b05e6828492d7dc900b2ff58bc5b7816fe",
+      "ingest_strategy": "columns_only_deferred_rows",
+      "issues": [],
+      "late_bound_row_count": 5,
+      "materialized_row_count": 5,
+      "result_datapack_sha256": "60264860d1cc89d47a275aad8cbea634c60e2ae60968beb2635fbb728d1979cd",
+      "rtf_sha256": "1edf9a1ae77f119ed7c242d1498aa149791b97a959cb91edd407ce73ba43147d",
+      "schema_version": "1.0",
+      "stable_row_count": 0,
+      "status": "pass"
+    },
+    "mixed_stable_and_late_bound": {
+      "checks": {
+        "frozen_columns": "pass",
+        "frozen_shell_contract": "pass",
+        "nonblank_values": "pass",
+        "parent_qualified_rows": "pass",
+        "semantic_key_and_contract_drift": "pass",
+        "stable_rows": "pass"
+      },
+      "cross_parent_duplicate_leaf_count": 0,
+      "entity_id": "T14.3.1.3.2",
+      "format_transition": "docx-shell-to-heteromorphic-rtf-result",
+      "frozen_map_sha256": "8ee5c2edcfcd13146d3dc4c84cba59b05e6828492d7dc900b2ff58bc5b7816fe",
+      "ingest_strategy": "mixed_stable_and_deferred_rows",
+      "issues": [],
+      "late_bound_row_count": 5,
+      "materialized_row_count": 6,
+      "result_datapack_sha256": "be376bf1e3c29e42c2517dac04dfdb7a8455ba76c2ec8f80968b8e9ca13ab281",
+      "rtf_sha256": "72245919ccec7d27c78699e7f0ce46e250bd3e48d1019ec6828e2c4b56863c6a",
+      "schema_version": "1.0",
+      "stable_row_count": 1,
+      "status": "pass"
+    },
+    "soc_pt": {
+      "checks": {
+        "frozen_columns": "pass",
+        "frozen_shell_contract": "pass",
+        "nonblank_values": "pass",
+        "parent_qualified_rows": "pass",
+        "semantic_key_and_contract_drift": "pass",
+        "stable_rows": "pass"
+      },
+      "cross_parent_duplicate_leaf_count": 1,
+      "entity_id": "T14.3.1.3.1",
+      "format_transition": "docx-shell-to-heteromorphic-rtf-result",
+      "frozen_map_sha256": "8ee5c2edcfcd13146d3dc4c84cba59b05e6828492d7dc900b2ff58bc5b7816fe",
+      "ingest_strategy": "columns_only_deferred_rows",
+      "issues": [],
+      "late_bound_row_count": 26,
+      "materialized_row_count": 26,
+      "result_datapack_sha256": "b70c3051dc0ed6b45b1ab6dfec30e3674cb58bae0b7db2b715e6238daa2982fe",
+      "rtf_sha256": "6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425",
+      "schema_version": "1.0",
+      "stable_row_count": 0,
+      "status": "pass"
+    }
+  },
+  "fixture": "examples/fixtures/m7_heteromorphic_rows.deidentified.json",
+  "hard_failure": {
+    "code": "E-RTF-ROW-DRIFT",
+    "entity_id": "T14.2.2.1.1",
+    "expected_row": "MEAN",
+    "observed_row": "MEAN_DRIFT",
+    "status": "blocked"
+  },
+  "proposal_entity_count": 4,
+  "result_datapack": "heteromorphic_result_datapack.deidentified.json",
+  "schema_version": "1.0",
+  "shell": {
+    "ancova_frozen_cell_count": 12,
+    "medication_frozen_cell_count": 0,
+    "mixed_frozen_rows": [
+      "N"
+    ],
+    "soc_pt_frozen_cell_count": 0,
+    "source_sha256": "f5d83ee21c305f5d1e7feca38653f1aa96337627dc3b448a7182521b212d373a"
+  },
+  "statistical_control": {
+    "checks": {
+      "column_identifiers": "pass",
+      "frozen_shell_contract": "pass",
+      "nonblank_values": "pass",
+      "physical_coordinates": "pass",
+      "row_identifiers": "pass",
+      "semantic_key_and_contract_drift": "pass"
+    },
+    "entity_id": "T14.2.2.1.1",
+    "format_transition": "docx-shell-to-rtf-result",
+    "frozen_map_sha256": "8ee5c2edcfcd13146d3dc4c84cba59b05e6828492d7dc900b2ff58bc5b7816fe",
+    "issues": [],
+    "result_datapack_sha256": "c3c519ce184cbb42747ba4d9b82d3c655e986d4ed99ed1de3bfad29bf1e8ce7d",
+    "rtf_sha256": "7ee1eb2ebf4edfa30215980658895dcfd426382c66915be7fd163362448338c8",
+    "schema_version": "1.0",
+    "semantic_cell_count": 12,
+    "status": "pass"
+  },
+  "status": "pass"
+}

@@ -1,0 +1,6 @@
+{
+  "attempt": "blocked",
+  "clean_created": false,
+  "reason": "Clean output blocked until every pending paragraph is resolved: 11.4:p_11_4_001, 11.A:p_11_A_001, 11.B:p_11_B_003",
+  "status": "pass"
+}

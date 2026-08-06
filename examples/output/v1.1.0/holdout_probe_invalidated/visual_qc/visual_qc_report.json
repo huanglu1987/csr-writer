@@ -1,0 +1,110 @@
+{
+  "config_sha256": "fcfb0246089dc2984eacca06fa52f1d93a9d4d3ef13a2775a6df28af76d8046d",
+  "contact_sheets": [
+    {
+      "filename": "visual_layout_holdout.deidentified.contact_sheet_001.png",
+      "height_px": 2072,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "sha256": "002b789b8eaf029b0f6a5a7cab82d2ef710b969d6884c9ed8f8cb0f52885125f",
+      "width_px": 1056
+    }
+  ],
+  "docx_layout": {
+    "field_counts": {
+      "page": 0,
+      "ref": 0,
+      "tc": 0,
+      "toc": 0,
+      "total_pages": 0
+    },
+    "header_footer_excluded_from_body_checks": true,
+    "section_count": 4,
+    "toc_expected_counts": []
+  },
+  "findings": [
+    {
+      "bbox": [
+        72.1,
+        131.09,
+        93.1,
+        145.14
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "题。",
+      "message": "检测到段末单字成行。",
+      "page": 3,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        358.05,
+        39.04,
+        484.05,
+        53.09
+      ],
+      "class": "B",
+      "code": "B-BODY-OVERFLOW",
+      "evidence": "合法版式留出集｜合成数据",
+      "message": "非页眉页脚文本块越出当前节正文带。",
+      "page": 4,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        342.3,
+        544.54,
+        499.8,
+        558.59
+      ],
+      "class": "B",
+      "code": "B-BODY-OVERFLOW",
+      "evidence": "版式留出集｜仅用于视觉检查标定",
+      "message": "非页眉页脚文本块越出当前节正文带。",
+      "page": 4,
+      "severity": "warning"
+    },
+    {
+      "bbox": null,
+      "class": "B",
+      "code": "B-TABLE-HEADER-NOT-REPEATED",
+      "evidence": "header_similarity=0.240",
+      "message": "检测到疑似跨页表延续，但下一页未识别到相同表头。",
+      "page": 6,
+      "severity": "warning"
+    }
+  ],
+  "legacy_release_decision_changed": false,
+  "limitations": "本检查基于 LibreOffice 渲染，与 Microsoft Word 的分页和字体回退存在差异。 本检查是前置筛查，不替代在 Word 中更新域后的人工视觉复核。",
+  "pdf": {
+    "filename": "visual_layout_holdout.deidentified.pdf",
+    "page_count": 7,
+    "sha256": "19faae671ba5bebcefdd849b4bede515950316b165732353b878a40b027a87ce",
+    "signature_verified": true
+  },
+  "renderer": {
+    "available": true,
+    "name": "soffice",
+    "render_status": "pass"
+  },
+  "schema_version": "1.0",
+  "source": {
+    "filename": "visual_layout_holdout.deidentified.docx",
+    "sha256": "ba4fcde4391b69dcf487b31e6c21058be8b8aca4d9de8a86e9c164cdc1307518"
+  },
+  "status": "pass_with_warnings",
+  "summary": {
+    "class_a_count": 0,
+    "class_b_count": 4,
+    "finding_count": 4
+  },
+  "visual_gate_status": "pass"
+}

@@ -1,0 +1,51 @@
+{
+  "fixture_evidence_status": "demo_only",
+  "normal_group_binding": {
+    "binding_count_checked": 8,
+    "checks": {
+      "explicit_role_to_column": "pass",
+      "randomized_count_gte_analysis_set_count": "pass",
+      "randomized_vs_analysis_set_column": "pass"
+    },
+    "groups": {
+      "control": {
+        "analysis_set_anchor": "T11.1|POP=FAS|ROW=ANALYSIS_SET_COUNT|COL=PBO",
+        "analysis_set_count": 57,
+        "column": "PBO",
+        "randomized_anchor": "T10.1|POP=RANDOMIZED|ROW=RANDOMIZED_COUNT|COL=PBO",
+        "randomized_count": 60
+      },
+      "experimental": {
+        "analysis_set_anchor": "T11.1|POP=FAS|ROW=ANALYSIS_SET_COUNT|COL=XYZ200MG",
+        "analysis_set_count": 58,
+        "column": "XYZ200MG",
+        "randomized_anchor": "T10.1|POP=RANDOMIZED|ROW=RANDOMIZED_COUNT|COL=XYZ200MG",
+        "randomized_count": 60
+      }
+    },
+    "status": "pass"
+  },
+  "reverse_traceability": {
+    "referenced_table_count": 3,
+    "status": "review_required",
+    "table_count": 4,
+    "unreferenced_table_count": 1,
+    "unreferenced_table_ids": [
+      "T14.4.1.1"
+    ]
+  },
+  "schema_version": "1.0",
+  "swapped_XYZ200MG_PBO_binding": {
+    "issue": {
+      "code": "E-GROUP-ROLE-COLUMN",
+      "expected_column": "XYZ200MG",
+      "expected_group": "experimental",
+      "key": "T14.2.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=PBO",
+      "message": "Section 11.4 role experimental_result is bound to PBO; contract requires XYZ200MG",
+      "observed_column": "PBO",
+      "role": "experimental_result",
+      "section": "11.4"
+    },
+    "status": "blocked"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "assembly_status": "pass",
+  "comparison_section_count": 4,
+  "complete_playbook_count": 19,
+  "conditioned_scenario_count": 9,
+  "docx_ooxml_validation": "pass",
+  "existing_playbooks_partitioned": 16,
+  "external_model_api_called": false,
+  "known_leak_replacements_passed": 4,
+  "known_leaks_hard_blocked": 4,
+  "leak_scan": {
+    "findings": [],
+    "schema_version": "1.0",
+    "section_count": 7,
+    "section_findings": {
+      "10.1": 0,
+      "11.5.10": 0,
+      "11.5.4": 0,
+      "11.6.7": 0,
+      "12.2": 0,
+      "13": 0,
+      "9.4.6": 0
+    },
+    "status": "pass",
+    "subclass_counts": {
+      "internal_data_term": 0,
+      "internal_state": 0,
+      "process_negation": 0,
+      "tool_self_reference": 0
+    },
+    "type_a_count": 0,
+    "type_b_rewritten_in_csr_voice": true
+  },
+  "manual_polishing_after_guard": false,
+  "new_complete_playbooks": 3,
+  "new_medium_playbooks": 0,
+  "privacy_scan": "pass",
+  "schema_version": "1.0",
+  "source_hash_audit": "pass",
+  "status": "pass"
+}

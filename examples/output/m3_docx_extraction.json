@@ -1,0 +1,433 @@
+{
+  "accepted_text": "正文开始，插入文本，正文继续。显式可见。\n文本框可见。\n单元格A\n单元格B\n正文结束。\n页眉可见\n页脚可见",
+  "findings": {
+    "comments": {
+      "marker_comment_ids": [
+        "0",
+        "1"
+      ],
+      "markers": [
+        {
+          "comment_id": "0",
+          "location": "word/document.xml:/w:document/w:body/w:p[1]/w:commentRangeStart",
+          "marker": "range_start",
+          "part": "word/document.xml",
+          "story": "document",
+          "story_id": "document"
+        },
+        {
+          "comment_id": "0",
+          "location": "word/document.xml:/w:document/w:body/w:p[1]/w:commentRangeEnd",
+          "marker": "range_end",
+          "part": "word/document.xml",
+          "story": "document",
+          "story_id": "document"
+        },
+        {
+          "comment_id": "0",
+          "location": "word/document.xml:/w:document/w:body/w:p[1]/w:r[2]/w:commentReference",
+          "marker": "reference",
+          "part": "word/document.xml",
+          "story": "document",
+          "story_id": "document"
+        },
+        {
+          "comment_id": "1",
+          "location": "word/document.xml:/w:document/w:body/w:p[1]/w:r[6]/w:pict/v:shape/v:textbox/w:txbxContent/w:p/w:commentRangeStart",
+          "marker": "range_start",
+          "part": "word/document.xml",
+          "story": "document",
+          "story_id": "document"
+        },
+        {
+          "comment_id": "1",
+          "location": "word/document.xml:/w:document/w:body/w:p[1]/w:r[6]/w:pict/v:shape/v:textbox/w:txbxContent/w:p/w:commentRangeEnd",
+          "marker": "range_end",
+          "part": "word/document.xml",
+          "story": "document",
+          "story_id": "document"
+        },
+        {
+          "comment_id": "1",
+          "location": "word/document.xml:/w:document/w:body/w:p[1]/w:r[6]/w:pict/v:shape/v:textbox/w:txbxContent/w:p/w:r[2]/w:commentReference",
+          "marker": "reference",
+          "part": "word/document.xml",
+          "story": "document",
+          "story_id": "document"
+        }
+      ],
+      "package_comment_ids": [
+        "0",
+        "1"
+      ],
+      "present": true
+    },
+    "hidden_text": {
+      "present": true,
+      "runs": [
+        {
+          "char_count": 10,
+          "content_sha256": "974a447bd72cda5d8071590d66e9004f320804739bc831b9f1c3e6b843e2fd93",
+          "location": "word/document.xml:/w:document/w:body/w:p[1]/w:r[4]",
+          "part": "word/document.xml",
+          "story": "document",
+          "story_id": "document"
+        },
+        {
+          "char_count": 11,
+          "content_sha256": "54e772994023f99b630883271b4d814b475795907a640a87d146ff610e0aa001",
+          "location": "word/document.xml:/w:document/w:body/w:p[1]/w:r[6]/w:pict/v:shape/v:textbox/w:txbxContent/w:p/w:r[3]",
+          "part": "word/document.xml",
+          "story": "document",
+          "story_id": "document"
+        },
+        {
+          "char_count": 10,
+          "content_sha256": "d03a653d6ceb264bf649d6d84a4d60d376aa55947cb1dbcddd5ef5bbc84e87b8",
+          "location": "word/header1.xml:/w:hdr/w:p/w:r[2]",
+          "part": "word/header1.xml",
+          "story": "header",
+          "story_id": "header-01"
+        }
+      ]
+    },
+    "revisions": {
+      "deletions": [
+        {
+          "author": "审阅者",
+          "char_count": 12,
+          "content_sha256": "c5977d9c22fbef319608c8a474bacc8e8f34267fbb105d7d3dc01c76318278ec",
+          "date": "2026-08-04T00:00:00Z",
+          "location": "word/document.xml:/w:document/w:body/w:p[1]/w:del",
+          "part": "word/document.xml",
+          "revision_id": "10",
+          "story": "document",
+          "story_id": "document"
+        },
+        {
+          "author": "审阅者",
+          "char_count": 0,
+          "content_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "date": "2026-08-04T00:03:00Z",
+          "location": "word/document.xml:/w:document/w:body/w:tbl/w:tr[2]/w:trPr/w:del",
+          "part": "word/document.xml",
+          "revision_id": "12",
+          "story": "document",
+          "story_id": "document"
+        }
+      ],
+      "insertions": [
+        {
+          "author": "审阅者",
+          "char_count": 5,
+          "content_sha256": "232f0cfd05eb795b6934d4a1aba02a7ecc2d41d15f3f29ed5d12d4e37c06c92f",
+          "date": "2026-08-04T00:01:00Z",
+          "location": "word/document.xml:/w:document/w:body/w:p[1]/w:ins",
+          "part": "word/document.xml",
+          "revision_id": "11",
+          "story": "document",
+          "story_id": "document"
+        }
+      ],
+      "present": true
+    }
+  },
+  "gap_report": [
+    {
+      "code": "SOURCE_HAS_UNACCEPTED_REVISIONS",
+      "count": 3,
+      "locations": [
+        "word/document.xml:/w:document/w:body/w:p[1]/w:ins",
+        "word/document.xml:/w:document/w:body/w:p[1]/w:del",
+        "word/document.xml:/w:document/w:body/w:tbl/w:tr[2]/w:trPr/w:del"
+      ],
+      "message": "源 DOCX 存在未接受修订；抽取文本采用接受全部修订后的视图。",
+      "severity": "warning"
+    },
+    {
+      "code": "SOURCE_HAS_REVIEW_COMMENTS",
+      "count": 6,
+      "locations": [
+        "word/document.xml:/w:document/w:body/w:p[1]/w:commentRangeStart",
+        "word/document.xml:/w:document/w:body/w:p[1]/w:commentRangeEnd",
+        "word/document.xml:/w:document/w:body/w:p[1]/w:r[2]/w:commentReference",
+        "word/document.xml:/w:document/w:body/w:p[1]/w:r[6]/w:pict/v:shape/v:textbox/w:txbxContent/w:p/w:commentRangeStart",
+        "word/document.xml:/w:document/w:body/w:p[1]/w:r[6]/w:pict/v:shape/v:textbox/w:txbxContent/w:p/w:commentRangeEnd",
+        "word/document.xml:/w:document/w:body/w:p[1]/w:r[6]/w:pict/v:shape/v:textbox/w:txbxContent/w:p/w:r[2]/w:commentReference"
+      ],
+      "message": "源 DOCX 存在审阅批注；批注正文未进入事实文本。",
+      "severity": "warning"
+    },
+    {
+      "code": "SOURCE_HAS_HIDDEN_TEXT",
+      "count": 3,
+      "locations": [
+        "word/document.xml:/w:document/w:body/w:p[1]/w:r[4]",
+        "word/document.xml:/w:document/w:body/w:p[1]/w:r[6]/w:pict/v:shape/v:textbox/w:txbxContent/w:p/w:r[3]",
+        "word/header1.xml:/w:hdr/w:p/w:r[2]"
+      ],
+      "message": "源 DOCX 存在隐藏文本；隐藏文本已排除并仅保留位置和哈希证据。",
+      "severity": "warning"
+    }
+  ],
+  "parts_read": [
+    "word/document.xml",
+    "word/styles.xml",
+    "word/settings.xml",
+    "word/_rels/document.xml.rels",
+    "word/comments.xml",
+    "word/header1.xml",
+    "word/footer1.xml"
+  ],
+  "records": [
+    {
+      "has_review_comment": true,
+      "kind": "paragraph",
+      "location": "word/document.xml:/w:document/w:body/w:p[1]",
+      "paragraph_style": null,
+      "part": "word/document.xml",
+      "review_comment_ids": [
+        "0"
+      ],
+      "sequence": 1,
+      "story": "document",
+      "story_id": "document",
+      "text": "正文开始，插入文本，正文继续。显式可见。"
+    },
+    {
+      "has_review_comment": true,
+      "kind": "text_box_paragraph",
+      "location": "word/document.xml:/w:document/w:body/w:p[1]/w:r[6]/w:pict/v:shape/v:textbox/w:txbxContent/w:p",
+      "paragraph_style": null,
+      "part": "word/document.xml",
+      "review_comment_ids": [
+        "1"
+      ],
+      "sequence": 2,
+      "story": "document",
+      "story_id": "document",
+      "text": "文本框可见。",
+      "text_box_id": "textbox-0001"
+    },
+    {
+      "cell_index": 1,
+      "has_review_comment": false,
+      "kind": "table_cell_paragraph",
+      "location": "word/document.xml:/w:document/w:body/w:tbl/w:tr[1]/w:tc[1]/w:p",
+      "paragraph_style": null,
+      "part": "word/document.xml",
+      "physical_row_index": 1,
+      "review_comment_ids": [],
+      "row_index": 1,
+      "sequence": 3,
+      "story": "document",
+      "story_id": "document",
+      "table_id": "table-0001",
+      "text": "单元格A"
+    },
+    {
+      "cell_index": 2,
+      "has_review_comment": false,
+      "kind": "table_cell_paragraph",
+      "location": "word/document.xml:/w:document/w:body/w:tbl/w:tr[1]/w:tc[2]/w:p",
+      "paragraph_style": null,
+      "part": "word/document.xml",
+      "physical_row_index": 1,
+      "review_comment_ids": [],
+      "row_index": 1,
+      "sequence": 4,
+      "story": "document",
+      "story_id": "document",
+      "table_id": "table-0001",
+      "text": "单元格B"
+    },
+    {
+      "has_review_comment": false,
+      "kind": "paragraph",
+      "location": "word/document.xml:/w:document/w:body/w:p[2]",
+      "paragraph_style": null,
+      "part": "word/document.xml",
+      "review_comment_ids": [],
+      "sequence": 5,
+      "story": "document",
+      "story_id": "document",
+      "text": "正文结束。"
+    },
+    {
+      "has_review_comment": false,
+      "kind": "paragraph",
+      "location": "word/header1.xml:/w:hdr/w:p",
+      "paragraph_style": null,
+      "part": "word/header1.xml",
+      "review_comment_ids": [],
+      "sequence": 6,
+      "story": "header",
+      "story_id": "header-01",
+      "text": "页眉可见"
+    },
+    {
+      "has_review_comment": false,
+      "kind": "paragraph",
+      "location": "word/footer1.xml:/w:ftr/w:p",
+      "paragraph_style": null,
+      "part": "word/footer1.xml",
+      "review_comment_ids": [],
+      "sequence": 7,
+      "story": "footer",
+      "story_id": "footer-02",
+      "text": "页脚可见"
+    }
+  ],
+  "schema_version": "1.0",
+  "source": {
+    "path": "/Users/huanglu/临床试验总结报告撰写/csr-writer/tests/fixtures/m3-docx/deep-extraction-fixture.docx",
+    "sha256_after": "a5bd8d1cac5957eb6fc33ad84c568bf3d3a558231e4b75717f9bbbea08a15881",
+    "sha256_before": "a5bd8d1cac5957eb6fc33ad84c568bf3d3a558231e4b75717f9bbbea08a15881",
+    "size_bytes": 38361,
+    "unchanged": true
+  },
+  "statistics": {
+    "comment_markers": 6,
+    "deletions": 2,
+    "hidden_runs": 3,
+    "insertions": 1,
+    "nonempty_records": 7,
+    "records": 7,
+    "stories": 3,
+    "table_cells": 2,
+    "tables": 1,
+    "text_boxes": 1
+  },
+  "story_order": [
+    {
+      "part": "word/document.xml",
+      "references": [],
+      "sequence": 1,
+      "story": "document",
+      "story_id": "document"
+    },
+    {
+      "part": "word/header1.xml",
+      "references": [
+        {
+          "inherited": false,
+          "section_index": 1,
+          "variant": "default"
+        }
+      ],
+      "sequence": 2,
+      "story": "header",
+      "story_id": "header-01"
+    },
+    {
+      "part": "word/footer1.xml",
+      "references": [
+        {
+          "inherited": false,
+          "section_index": 1,
+          "variant": "default"
+        }
+      ],
+      "sequence": 3,
+      "story": "footer",
+      "story_id": "footer-02"
+    }
+  ],
+  "tables": [
+    {
+      "cells": [
+        {
+          "cell_index": 1,
+          "location": "word/document.xml:/w:document/w:body/w:tbl/w:tr[1]/w:tc[1]",
+          "physical_row_index": 1,
+          "record_sequences": [
+            3
+          ],
+          "row_index": 1
+        },
+        {
+          "cell_index": 2,
+          "location": "word/document.xml:/w:document/w:body/w:tbl/w:tr[1]/w:tc[2]",
+          "physical_row_index": 1,
+          "record_sequences": [
+            4
+          ],
+          "row_index": 1
+        }
+      ],
+      "excluded_deleted_rows": [
+        {
+          "char_count": 20,
+          "content_sha256": "916e1c17f2c5898d09748a40f11bc5ac208b19131eec3983873e948caa971683",
+          "location": "word/document.xml:/w:document/w:body/w:tbl/w:tr[2]",
+          "physical_row_index": 2
+        }
+      ],
+      "id": "table-0001",
+      "location": "word/document.xml:/w:document/w:body/w:tbl",
+      "part": "word/document.xml",
+      "physical_rows": 2,
+      "rows": 1,
+      "story": "document",
+      "story_id": "document",
+      "text_box_id": null
+    }
+  ],
+  "text_boxes": [
+    {
+      "anchor_character_offset": 20,
+      "anchor_record_sequence": 1,
+      "id": "textbox-0001",
+      "location": "word/document.xml:/w:document/w:body/w:p[1]/w:r[6]/w:pict/v:shape/v:textbox/w:txbxContent",
+      "part": "word/document.xml",
+      "story": "document",
+      "story_id": "document"
+    }
+  ],
+  "traversal_contract": {
+    "body_order": "OOXML block order; paragraph text stays aggregate and each recursive text box records its exact host-character anchor offset",
+    "comments": "markers only; comment bodies excluded",
+    "hidden_text": "direct or style-inherited w:vanish excluded",
+    "revisions": "w:ins included; w:del excluded",
+    "story_order": "document body, then referenced header/footer parts in first-reference order"
+  },
+  "view": "accepted_all_revisions",
+  "warnings": [
+    {
+      "code": "SOURCE_HAS_UNACCEPTED_REVISIONS",
+      "count": 3,
+      "locations": [
+        "word/document.xml:/w:document/w:body/w:p[1]/w:ins",
+        "word/document.xml:/w:document/w:body/w:p[1]/w:del",
+        "word/document.xml:/w:document/w:body/w:tbl/w:tr[2]/w:trPr/w:del"
+      ],
+      "message": "源 DOCX 存在未接受修订；抽取文本采用接受全部修订后的视图。",
+      "severity": "warning"
+    },
+    {
+      "code": "SOURCE_HAS_REVIEW_COMMENTS",
+      "count": 6,
+      "locations": [
+        "word/document.xml:/w:document/w:body/w:p[1]/w:commentRangeStart",
+        "word/document.xml:/w:document/w:body/w:p[1]/w:commentRangeEnd",
+        "word/document.xml:/w:document/w:body/w:p[1]/w:r[2]/w:commentReference",
+        "word/document.xml:/w:document/w:body/w:p[1]/w:r[6]/w:pict/v:shape/v:textbox/w:txbxContent/w:p/w:commentRangeStart",
+        "word/document.xml:/w:document/w:body/w:p[1]/w:r[6]/w:pict/v:shape/v:textbox/w:txbxContent/w:p/w:commentRangeEnd",
+        "word/document.xml:/w:document/w:body/w:p[1]/w:r[6]/w:pict/v:shape/v:textbox/w:txbxContent/w:p/w:r[2]/w:commentReference"
+      ],
+      "message": "源 DOCX 存在审阅批注；批注正文未进入事实文本。",
+      "severity": "warning"
+    },
+    {
+      "code": "SOURCE_HAS_HIDDEN_TEXT",
+      "count": 3,
+      "locations": [
+        "word/document.xml:/w:document/w:body/w:p[1]/w:r[4]",
+        "word/document.xml:/w:document/w:body/w:p[1]/w:r[6]/w:pict/v:shape/v:textbox/w:txbxContent/w:p/w:r[3]",
+        "word/header1.xml:/w:hdr/w:p/w:r[2]"
+      ],
+      "message": "源 DOCX 存在隐藏文本；隐藏文本已排除并仅保留位置和哈希证据。",
+      "severity": "warning"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "cell_and_table_contracts": "pass",
+    "entity_set": "pass",
+    "semantic_key_set": "pass",
+    "values_may_change": "pass"
+  },
+  "drift": {
+    "changed_entities": [],
+    "extra_entities": [],
+    "missing_entities": []
+  },
+  "frozen_map_sha256": "c2827366a2ff190751ef3ca18d62871520e2528cc184aea4ca743743cf286cd8",
+  "issues": [],
+  "map_version": "DEID-MAP-1",
+  "result_datapack_sha256": "fd44e3a9503b05705500b43d705a96bb240d6ab810a6555043dbd99e16a1c2f3",
+  "schema_version": "1.0",
+  "status": "pass"
+}

@@ -1,0 +1,20 @@
+{
+  "paragraphs": [
+    {
+      "confidence": "verbatim",
+      "needs_human": false,
+      "sources": [
+        "SRC-BLIND-PROTOCOL"
+      ],
+      "text": "本研究采用双盲设计，研究用制剂在外观、包装和标签方面保持一致，随机编码由非盲人员保管。"
+    },
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "sources": [
+        "SRC-UNBLIND-RECORD"
+      ],
+      "text": "应急揭盲按预设程序执行并留痕；经审核的盲态维护记录未报告非计划揭盲。"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "checks": {
+    "column_identifiers": "pass",
+    "frozen_shell_contract": "pass",
+    "nonblank_values": "pass",
+    "physical_coordinates": "fail",
+    "row_identifiers": "fail"
+  },
+  "entity_id": "T14.2.4.3.1",
+  "format_transition": "docx-shell-to-rtf-result",
+  "frozen_map_sha256": "97b1ae52209895b8b7ea5acb0b160a230ee67790908a7535f6793182aeab7534",
+  "issues": [
+    {
+      "code": "E-RTF-ROW-DRIFT",
+      "expected": "GM",
+      "message": "Result RTF row identifier differs from the frozen shell contract",
+      "observed": "GM_DRIFT",
+      "row_index": 9
+    }
+  ],
+  "rtf_sha256": "98ac43f55128b97d8c8718d565ad632e0b466102bcce0c466e1bc9ed79a4b61d",
+  "schema_version": "1.0",
+  "semantic_cell_count": 76,
+  "status": "blocked"
+}

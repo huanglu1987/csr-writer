@@ -1,0 +1,7 @@
+{
+  "code": "E-GROUP-BINDING-ORDER",
+  "injection": "正文中直接对调 COL=XYZ200MG 与 COL=PBO 两个占位符",
+  "message": "E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+  "schema_version": "1.0",
+  "status": "blocked"
+}

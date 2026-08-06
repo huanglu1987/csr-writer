@@ -1,0 +1,57 @@
+{
+  "binding_manifest": [],
+  "draft_sha256": "51efcf832dfd9d7415381ef682a1a01c89b51a3b2544ebece1a25e238c49decf",
+  "evidence_status": "demo_only",
+  "input_sha256": "146cff86bf5c7be5bf1fe9a3e10e30aa0dad455c5eee2b0bc2a546b8a5a0c642",
+  "paragraphs": [
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_9_4_3_001",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "deidentified-source-fragment"
+      ]
+    },
+    {
+      "confidence": "derived",
+      "needs_human": true,
+      "para_id": "p_9_4_3_002",
+      "placeholders": [],
+      "references": [
+        "T16.1.7"
+      ],
+      "semantic_findings": [],
+      "sources": [
+        "deidentified-source-fragment"
+      ]
+    }
+  ],
+  "playbook": {
+    "filename": "s9-randomization-blinding-controls.md",
+    "sha256": "68c19ae2fd983f443787fa51f21e26cf2699ea07e2a7fd9a22c1b8017bedcd3a"
+  },
+  "reference_manifest": [
+    {
+      "entity_id": "T16.1.7",
+      "frozen_map_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+      "verified_by": "frozen_tfl_map"
+    }
+  ],
+  "schema_version": "1.1",
+  "section": "9.4.3",
+  "semantic_findings": [],
+  "source_manifest": [
+    {
+      "content_sha256": "093ca2a1ba6280c907ccbcc1422048b83ac83459686cd94c450336d341dc3087",
+      "locator": "reviewed deidentified locator",
+      "purpose": "randomization_method",
+      "source_id": "deidentified-source-fragment"
+    }
+  ],
+  "system_prompt_sha256": "8f4e93ef46763e761a6077aeb62b3c19da661f436164d9844daf4c36794ab340",
+  "variant": "randomization",
+  "writer": "DeterministicSectionAdapter"
+}

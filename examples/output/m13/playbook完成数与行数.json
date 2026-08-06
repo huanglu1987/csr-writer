@@ -1,0 +1,143 @@
+{
+  "existing_partitioned_count": 16,
+  "new_complete_count": 3,
+  "new_medium_count": 0,
+  "records": [
+    {
+      "after_line_count": 164,
+      "before_line_count": 152,
+      "change_type": "partitioned",
+      "filename": "s9-randomization-blinding-controls.md",
+      "selection_reason": null
+    },
+    {
+      "after_line_count": 168,
+      "before_line_count": 156,
+      "change_type": "partitioned",
+      "filename": "s10-subject-disposition.md",
+      "selection_reason": null
+    },
+    {
+      "after_line_count": 166,
+      "before_line_count": 154,
+      "change_type": "partitioned",
+      "filename": "s11-2-demographics-baseline.md",
+      "selection_reason": null
+    },
+    {
+      "after_line_count": 164,
+      "before_line_count": 153,
+      "change_type": "partitioned",
+      "filename": "s11-3-treatment-compliance.md",
+      "selection_reason": null
+    },
+    {
+      "after_line_count": 188,
+      "before_line_count": 176,
+      "change_type": "partitioned",
+      "filename": "s11-4-primary-efficacy.md",
+      "selection_reason": null
+    },
+    {
+      "after_line_count": 192,
+      "before_line_count": 180,
+      "change_type": "partitioned",
+      "filename": "s11-a-dose-escalation.md",
+      "selection_reason": null
+    },
+    {
+      "after_line_count": 194,
+      "before_line_count": 182,
+      "change_type": "partitioned",
+      "filename": "s11-clinpharm-special-pop-endpoints.md",
+      "selection_reason": null
+    },
+    {
+      "after_line_count": 163,
+      "before_line_count": 151,
+      "change_type": "partitioned",
+      "filename": "s11-topical-pk.md",
+      "selection_reason": null
+    },
+    {
+      "after_line_count": 164,
+      "before_line_count": 0,
+      "change_type": "new_complete",
+      "filename": "s11-5-10-pk-conclusion.md",
+      "selection_reason": "PK 结论最易把 BLQ 或不可计算误写为低系统暴露。"
+    },
+    {
+      "after_line_count": 164,
+      "before_line_count": 0,
+      "change_type": "new_complete",
+      "filename": "s11-6-7-exploratory-efficacy-conclusion.md",
+      "selection_reason": "探索性结果最易被升级为确证性措辞。"
+    },
+    {
+      "after_line_count": 180,
+      "before_line_count": 168,
+      "change_type": "partitioned",
+      "filename": "s12-2-adverse-events.md",
+      "selection_reason": null
+    },
+    {
+      "after_line_count": 168,
+      "before_line_count": 156,
+      "change_type": "partitioned",
+      "filename": "s12-3-1-deaths-serious-significant-listings.md",
+      "selection_reason": null
+    },
+    {
+      "after_line_count": 166,
+      "before_line_count": 154,
+      "change_type": "partitioned",
+      "filename": "s12-3-2-sae-narratives-boundary.md",
+      "selection_reason": null
+    },
+    {
+      "after_line_count": 165,
+      "before_line_count": 154,
+      "change_type": "partitioned",
+      "filename": "s12-3-3-serious-event-analysis.md",
+      "selection_reason": null
+    },
+    {
+      "after_line_count": 169,
+      "before_line_count": 158,
+      "change_type": "partitioned",
+      "filename": "s12-4-2-laboratory-evaluation.md",
+      "selection_reason": null
+    },
+    {
+      "after_line_count": 165,
+      "before_line_count": 153,
+      "change_type": "partitioned",
+      "filename": "s12-exposure.md",
+      "selection_reason": null
+    },
+    {
+      "after_line_count": 179,
+      "before_line_count": 167,
+      "change_type": "partitioned",
+      "filename": "s12-route-specific-safety.md",
+      "selection_reason": null
+    },
+    {
+      "after_line_count": 169,
+      "before_line_count": 158,
+      "change_type": "partitioned",
+      "filename": "s13-discussion-overall-conclusions.md",
+      "selection_reason": null
+    },
+    {
+      "after_line_count": 173,
+      "before_line_count": 0,
+      "change_type": "new_complete",
+      "filename": "s13-overall-conclusion-conditioned.md",
+      "selection_reason": "总体结论价值判断密集且不得引入前文未报告的新结果。"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "pass",
+  "total_complete_count": 19
+}

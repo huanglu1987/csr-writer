@@ -1,0 +1,12 @@
+{
+  "attempt": 1,
+  "draft_sha256": "bf039469b86b2b10c205ecb8388f5eac77865c3613ded884359967742ab04333",
+  "envelope_sha256": "caee4603d9e078f61d7559b8bbd2741930cbf13741b27c445ec6b055df682a4f",
+  "prior_guard_report_sha256s": [],
+  "published_section": "12.2",
+  "reason": null,
+  "reason_code": null,
+  "report_sha256": "350b903236e2e9c0bc17caeef0408ddd600032b3918e00da7a0651bc2d5fb068",
+  "schema_version": "1.0",
+  "status": "pass"
+}

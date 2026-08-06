@@ -7,18 +7,10 @@ venv/
 # macOS
 .DS_Store
 
-# 开发轮次的中间产物
-# 注意：其中 8 轮被回归测试当作冻结夹具引用，必须入库，见下方白名单。
-# 其余轮次仅为诊断产物，本地保留即可。
-examples/output/*
-!examples/output/m8/
-!examples/output/m14/
-!examples/output/m15/
-!examples/output/m16/
-!examples/output/m17/
-!examples/output/m19/
-!examples/output/m20/
-!examples/output/m21/
+# 注意：examples/output/ 不排除。
+# 回归测试把历轮产物当作冻结夹具引用（m3/m7/m8/m13/m14/m15/m16/m17/m19/m20/m21
+# 及若干顶层 json），排除后 clone 会导致 discover 报 FileNotFoundError。
+# 它们同时是本工具的验证证据链，属于交付内容而非临时产物。
 
 # 渲染与视觉检查的临时目录
 .visualcheck_tmp/

@@ -1,0 +1,165 @@
+{
+  "cases": [
+    {
+      "actual": "review_required",
+      "draft": "试验组客观缓解率为70.0%。",
+      "expected": "review_required",
+      "id": "ascii_percentage",
+      "kinds": [
+        "ascii-number"
+      ],
+      "status": "pass",
+      "tokens": [
+        "70.0%"
+      ]
+    },
+    {
+      "actual": "review_required",
+      "draft": "试验组客观缓解率为百分之七十。",
+      "expected": "review_required",
+      "id": "written_percentage",
+      "kinds": [
+        "chinese-percentage"
+      ],
+      "status": "pass",
+      "tokens": [
+        "百分之七十"
+      ]
+    },
+    {
+      "actual": "review_required",
+      "draft": "共有七例受试者达到客观缓解。",
+      "expected": "review_required",
+      "id": "chinese_count",
+      "kinds": [
+        "chinese-number-with-unit"
+      ],
+      "status": "pass",
+      "tokens": [
+        "七例"
+      ]
+    },
+    {
+      "actual": "review_required",
+      "draft": "客观缓解率提高二十五个百分点。",
+      "expected": "review_required",
+      "id": "percentage_points",
+      "kinds": [
+        "chinese-number-with-unit"
+      ],
+      "status": "pass",
+      "tokens": [
+        "二十五个百分点"
+      ]
+    },
+    {
+      "actual": "review_required",
+      "draft": "试验组约七成受试者达到客观缓解。",
+      "expected": "review_required",
+      "id": "tenths",
+      "kinds": [
+        "chinese-tenths"
+      ],
+      "status": "pass",
+      "tokens": [
+        "约七成"
+      ]
+    },
+    {
+      "actual": "review_required",
+      "draft": "安慰剂组约四成五达到客观缓解。",
+      "expected": "review_required",
+      "id": "tenths_decimal",
+      "kinds": [
+        "chinese-tenths"
+      ],
+      "status": "pass",
+      "tokens": [
+        "约四成五"
+      ]
+    },
+    {
+      "actual": "review_required",
+      "draft": "三分之二受试者达到客观缓解。",
+      "expected": "review_required",
+      "id": "fraction",
+      "kinds": [
+        "chinese-fraction"
+      ],
+      "status": "pass",
+      "tokens": [
+        "三分之二"
+      ]
+    },
+    {
+      "actual": "review_required",
+      "draft": "暴露量增加约三倍。",
+      "expected": "review_required",
+      "id": "multiple",
+      "kinds": [
+        "chinese-multiple"
+      ],
+      "status": "pass",
+      "tokens": [
+        "约三倍"
+      ]
+    },
+    {
+      "actual": "review_required",
+      "draft": "共有壹佰贰拾例受试者。",
+      "expected": "review_required",
+      "id": "financial_count",
+      "kinds": [
+        "financial-chinese-number"
+      ],
+      "status": "pass",
+      "tokens": [
+        "壹佰贰拾例"
+      ]
+    },
+    {
+      "actual": "review_required",
+      "draft": "超过半数受试者达到客观缓解。",
+      "expected": "review_required",
+      "id": "fuzzy_half",
+      "kinds": [
+        "fuzzy-quantity"
+      ],
+      "status": "pass",
+      "tokens": [
+        "超过半数"
+      ]
+    },
+    {
+      "actual": "review_required",
+      "draft": "试验组约七成受试者达到客观缓解，安慰剂组约四成五。",
+      "expected": "review_required",
+      "id": "combined_original",
+      "kinds": [
+        "chinese-tenths",
+        "chinese-tenths"
+      ],
+      "status": "pass",
+      "tokens": [
+        "约七成",
+        "约四成五"
+      ]
+    },
+    {
+      "actual": "pass",
+      "draft": "方案规定每 3 周一次。",
+      "expected": "pass",
+      "id": "fact_derived_schedule_false_positive_control",
+      "kinds": [],
+      "status": "pass",
+      "tokens": []
+    }
+  ],
+  "schema_version": "1.0",
+  "source": "M1M2验收报告.md §3.1 + 方案事实白名单误报控制",
+  "summary": {
+    "failed": 0,
+    "passed": 12,
+    "total": 12
+  }
+}

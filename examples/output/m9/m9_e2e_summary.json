@@ -1,0 +1,26 @@
+{
+  "active_modules": 12,
+  "annotated_ooxml_qc": "pass",
+  "appendix_status_rows": 22,
+  "classified_structure_layers": {
+    "ich_official": 119,
+    "industry_convention": 3
+  },
+  "clean_ooxml_qc": "pass",
+  "formal_extensions": 9,
+  "omitted_official_headings": 25,
+  "publication_ref_fields": 22,
+  "publication_references": 22,
+  "real_sources_unchanged": true,
+  "retained_official_headings": 97,
+  "schema_version": "1.0",
+  "scope": "M9 structural pruning and correction only; no M10 content expansion",
+  "section_classification_counts": {
+    "conditional_omitted": 25,
+    "module_driven": 35,
+    "unconditional": 62
+  },
+  "six_reviewed_sections_absent": true,
+  "status": "pass",
+  "topical_oncology_structure_diff_count": 11
+}

@@ -1,0 +1,22 @@
+{
+  "cli_subcommand_count": 21,
+  "cli_subcommands_help_status": "pass",
+  "deleted_in_runtime_copy": [
+    ".claude-plugin",
+    "AGENTS.md",
+    "skills/csr-writer/SKILL.md",
+    "skills/csr-writer/agents"
+  ],
+  "full_suite": {
+    "status": "pass",
+    "tests": 148
+  },
+  "logic_in_platform_documents": false,
+  "runtime_copy_suite": {
+    "status": "pass",
+    "tests_discovered": 148,
+    "boundary_test_skipped_to_prevent_recursion": 1
+  },
+  "schema_version": "1.0",
+  "status": "pass"
+}

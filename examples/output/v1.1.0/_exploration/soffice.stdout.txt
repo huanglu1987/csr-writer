@@ -1,0 +1,1 @@
+convert /Users/huanglu/临床试验总结报告撰写/csr-writer/examples/output/m21/m20_unfamiliar/07_unified_composition/M21_M20_unfamiliar.clean.docx as a Writer document -> /Users/huanglu/临床试验总结报告撰写/csr-writer/examples/output/v1.1.0/_exploration/render/M21_M20_unfamiliar.clean.pdf using filter : writer_pdf_Export

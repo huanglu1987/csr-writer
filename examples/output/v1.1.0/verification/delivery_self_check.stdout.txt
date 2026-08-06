@@ -1,0 +1,15 @@
+validated 1 bidirectional trace paths: /var/folders/s1/v1g0nxn50tn5zct_08zlfxg80000gn/T/tmpdg2eizww/trace.json
+generated 48 deterministic + 4 template units without an LLM: /var/folders/s1/v1g0nxn50tn5zct_08zlfxg80000gn/T/tmp0i3ztf78/deterministic.docx
+guards A/B/C passed; resolved output: /var/folders/s1/v1g0nxn50tn5zct_08zlfxg80000gn/T/tmp89i78f4g/resolved.md
+rendered annotated/clean/Synopsis outputs: /var/folders/s1/v1g0nxn50tn5zct_08zlfxg80000gn/T/tmpfvl4ryjf/assembly.json
+cross-chapter status=pass: /var/folders/s1/v1g0nxn50tn5zct_08zlfxg80000gn/T/tmppj6k1stv/cross.json
+rendered bounded M4 QC report: /var/folders/s1/v1g0nxn50tn5zct_08zlfxg80000gn/T/tmppj6k1stv/qc.md
+validated 8 group-bound roles: /var/folders/s1/v1g0nxn50tn5zct_08zlfxg80000gn/T/tmperljci3s/group.json
+checked 4 TFLs; unreferenced=1: /var/folders/s1/v1g0nxn50tn5zct_08zlfxg80000gn/T/tmperljci3s/unreferenced_tfl.md
+emitted Agent envelope for 11.4: /var/folders/s1/v1g0nxn50tn5zct_08zlfxg80000gn/T/tmp8eap99xq/envelope.json
+ingested Agent draft for 11.4: /var/folders/s1/v1g0nxn50tn5zct_08zlfxg80000gn/T/tmp8eap99xq/project/sections/11.4.md
+guard evidence: /var/folders/s1/v1g0nxn50tn5zct_08zlfxg80000gn/T/tmp8eap99xq/guard.json
+built TFL map candidate for 6 entities: /var/folders/s1/v1g0nxn50tn5zct_08zlfxg80000gn/T/tmpmmlhxlfy/candidate.json
+froze confirmed TFL map DEID-MAP-1: /var/folders/s1/v1g0nxn50tn5zct_08zlfxg80000gn/T/tmpmmlhxlfy/frozen.json
+result TFL keys match frozen shell map: /var/folders/s1/v1g0nxn50tn5zct_08zlfxg80000gn/T/tmpmmlhxlfy/apply.json
+delivery gate passed: unittest discovery is green

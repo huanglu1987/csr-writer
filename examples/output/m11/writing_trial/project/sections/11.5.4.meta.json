@@ -1,0 +1,109 @@
+{
+  "agent_interface": {
+    "agent_draft_sha256": "466bafe098db6d40562da429da519ec3de23b47fbd163ae6925571c0047ce35f",
+    "envelope_sha256": "8c30c9861cd5d6e39337a2d3cd1570adf076010fcbf99c52eb19e3318279300d",
+    "external_model_api_called": false,
+    "interface": "csr-writer-agent-section-v1",
+    "prior_guard_report_sha256s": []
+  },
+  "binding_manifest": [
+    {
+      "context_sha256": "1a552dadb96234660e5408b8270212912dbd7815602b2c8a8ae2c1a76e6a95d6",
+      "key": "T14.2.4.3.1|POP=PKPS|ROW=CMAX|COL=ACTIVE_TOTAL",
+      "role": "pk_cmax",
+      "source_id": "T14.2.4.3.1"
+    },
+    {
+      "context_sha256": "1a552dadb96234660e5408b8270212912dbd7815602b2c8a8ae2c1a76e6a95d6",
+      "key": "T14.2.4.3.1|POP=PKPS|ROW=AUC0_T|COL=ACTIVE_TOTAL",
+      "role": "pk_auc",
+      "source_id": "T14.2.4.3.1"
+    }
+  ],
+  "draft_sha256": "3608956080767e5fef72497b6a860220a4115bcd611b405215063900bc7ba073",
+  "evidence_status": "demo_only",
+  "generation_attempts": 1,
+  "guard_retry_count": 0,
+  "input_sha256": "b513eb1b8bdfc5871d488e7322a9ae00c973606ffae7760540d797325c0e6171",
+  "paragraphs": [
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_11_5_4_001",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "SRC-PK-METHOD",
+        "SRC-PK-BLQ",
+        "SRC-PK-SET"
+      ]
+    },
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_11_5_4_002",
+      "placeholders": [
+        "T14.2.4.3.1|POP=PKPS|ROW=CMAX|COL=ACTIVE_TOTAL",
+        "T14.2.4.3.1|POP=PKPS|ROW=AUC0_T|COL=ACTIVE_TOTAL"
+      ],
+      "references": [
+        "T14.2.4.3.1"
+      ],
+      "semantic_findings": [],
+      "sources": [
+        "T14.2.4.3.1"
+      ]
+    },
+    {
+      "confidence": "inferred",
+      "needs_human": true,
+      "para_id": "p_11_5_4_003",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "SRC-PK-METHOD",
+        "SRC-PK-BLQ"
+      ]
+    }
+  ],
+  "playbook": {
+    "filename": "s11-topical-pk.md",
+    "sha256": "073247eaf440d69d9a1b32e4e6acb508d8dae6dfed6c816c694984b510fc6aca"
+  },
+  "prompt_audit": [],
+  "reference_manifest": [
+    {
+      "entity_id": "T14.2.4.3.1",
+      "frozen_map_sha256": null,
+      "verified_by": "binding_manifest"
+    }
+  ],
+  "schema_version": "1.1",
+  "section": "11.5.4",
+  "semantic_findings": [],
+  "source_manifest": [
+    {
+      "content_sha256": "d05f3a988f6dbc952f8b8dd7813e62fb440fdc5d7053eec4bad0063bffe7aa30",
+      "locator": "脱敏统计分析计划/PK 参数",
+      "purpose": "pk_method",
+      "source_id": "SRC-PK-METHOD"
+    },
+    {
+      "content_sha256": "f198858ca591d617e6c69a47f739d96cac4c7f611236cbc2e44e9b131d499d87",
+      "locator": "脱敏统计分析计划/PK 参数分析集",
+      "purpose": "analysis_set",
+      "source_id": "SRC-PK-SET"
+    },
+    {
+      "content_sha256": "a5e37279406cc979f9b68497c4a478b4e32d4cd28aa55c2e0e67b180766886ad",
+      "locator": "脱敏统计分析计划/BLQ 规则",
+      "purpose": "blq_rule",
+      "source_id": "SRC-PK-BLQ"
+    }
+  ],
+  "system_prompt_sha256": "8f4e93ef46763e761a6077aeb62b3c19da661f436164d9844daf4c36794ab340",
+  "variant": "pk_parameters",
+  "writer": "AgentEnvelopeIngest"
+}

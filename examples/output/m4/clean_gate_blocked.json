@@ -1,0 +1,8 @@
+{
+  "attempt_status": "blocked",
+  "clean_output_created": false,
+  "reason": "Clean output blocked until every pending paragraph is resolved: 11.4:p_11_4_001, 11.4:p_11_4_003, 11.A:p_11_A_001, 11.A:p_11_A_003",
+  "schema_version": "1.0",
+  "status": "pass",
+  "synopsis_output_created": false
+}

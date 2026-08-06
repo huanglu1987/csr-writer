@@ -1,0 +1,8 @@
+{
+  "automatic_fact_updates": false,
+  "files_scanned": 20,
+  "findings": [],
+  "real_source_paths_written": false,
+  "schema_version": "1.0",
+  "status": "pass"
+}

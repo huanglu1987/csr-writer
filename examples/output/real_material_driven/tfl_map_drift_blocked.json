@@ -1,0 +1,34 @@
+{
+  "checks": {
+    "cell_and_table_contracts": "fail",
+    "entity_set": "pass",
+    "semantic_key_set": "fail",
+    "values_may_change": "pass"
+  },
+  "drift": {
+    "changed_entities": [
+      {
+        "changed_cell_contract_keys": [],
+        "entity_id": "T14.1.2.1",
+        "extra_keys": [],
+        "missing_keys": [
+          "T14.1.2.1|POP=All Enrolled Set|ROW=AGE_SEX_FORMAT|COL=SUMMARY"
+        ],
+        "table_contract_changed": false
+      }
+    ],
+    "extra_entities": [],
+    "missing_entities": []
+  },
+  "frozen_map_sha256": "c2827366a2ff190751ef3ca18d62871520e2528cc184aea4ca743743cf286cd8",
+  "issues": [
+    {
+      "code": "E-TFL-MAP-DRIFT",
+      "message": "Result TFL semantic structure differs from the confirmed shell map"
+    }
+  ],
+  "map_version": "DEID-MAP-1",
+  "result_datapack_sha256": "a2452bb9f3cc5c8476e2995a68f072c5d7419a6f8639d5b1aaf1e6ff10640200",
+  "schema_version": "1.0",
+  "status": "blocked"
+}

@@ -1,0 +1,32 @@
+{
+  "paragraphs": [
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "sources": [
+        "SRC-AE-DEFINITION",
+        "SRC-AE-SET",
+        "SRC-AE-CODING"
+      ],
+      "text": "安全性分析采用经审核的安全性分析集。治疗期间不良事件按预设观察期、严重程度、严重性和记录类别汇总，受试者和事件计数口径分开。事件术语采用经审核的编码字典版本。"
+    },
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "sources": [
+        "T14.3.1.2",
+        "SRC-AE-CODING"
+      ],
+      "text": "安全性分析集中，TEAE 汇总结果为 {{T14.3.1.2|POP=SS|ROW=ANY_TEAE|COL=ACTIVE_TOTAL}}，TRAE 汇总结果为 {{T14.3.1.2|POP=SS|ROW=ANY_TRAE|COL=ACTIVE_TOTAL}}。正文在此保留总体口径，完整事件分布详见{{@ref:T14.3.1.2}}。"
+    },
+    {
+      "confidence": "inferred",
+      "needs_human": true,
+      "sources": [
+        "T14.3.1.2",
+        "SRC-AE-DEFINITION"
+      ],
+      "text": "[待医学负责人确认] {{@conclusion:SAFETY_TOLERABILITY_V1}}"
+    }
+  ]
+}

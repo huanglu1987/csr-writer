@@ -1,0 +1,44 @@
+{
+  "pk_parameter_token_only_findings": [],
+  "pk_result_findings": [
+    {
+      "code": "E-BARENUM",
+      "context": "…血浆消除半衰期（    ）约为 12 小时，       为 345 ng·h/mL。…",
+      "kind": "ascii-number",
+      "message": "Draft contains a literal number not authorized by static rules or protocol facts",
+      "start": 16,
+      "token": "12"
+    },
+    {
+      "code": "E-BARENUM",
+      "context": "…（    ）约为 12 小时，       为 345 ng·h/mL。…",
+      "kind": "ascii-number",
+      "message": "Draft contains a literal number not authorized by static rules or protocol facts",
+      "start": 31,
+      "token": "345"
+    }
+  ],
+  "pk_result_tokens": [
+    "12",
+    "345"
+  ],
+  "rogue_cases": [
+    {
+      "categories": [
+        "benefit_risk_conclusion"
+      ],
+      "input": "综上，本品疗效确切、安全性良好，获益风险比显著优于现有治疗，建议推进 III 期。",
+      "marked": true,
+      "status": "blocked_for_human_review"
+    },
+    {
+      "categories": [
+        "causal_determination"
+      ],
+      "input": "该不良事件经判断与研究药物明确相关。",
+      "marked": true,
+      "status": "blocked_for_human_review"
+    }
+  ],
+  "status": "pass"
+}

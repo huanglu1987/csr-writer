@@ -1,0 +1,83 @@
+{
+  "after": {
+    "real_sources_read_only": true,
+    "records": [
+      {
+        "expected_sha256": "3c1cf7c01434405885f562d9e687691185d5250bf4a6aeead564fcdf97aeceae",
+        "filename_recorded": false,
+        "match": true,
+        "observed_sha256": "3c1cf7c01434405885f562d9e687691185d5250bf4a6aeead564fcdf97aeceae",
+        "path_recorded": false,
+        "source_role": "paired_protocol"
+      },
+      {
+        "expected_sha256": "75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+        "filename_recorded": false,
+        "match": true,
+        "observed_sha256": "75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+        "path_recorded": false,
+        "source_role": "paired_tfl_shell"
+      },
+      {
+        "expected_sha256": "12ac850d70294e1a074ffa8102e437d98e67f27e81091097bc15fddd63d45ca1",
+        "filename_recorded": false,
+        "match": true,
+        "observed_sha256": "12ac850d70294e1a074ffa8102e437d98e67f27e81091097bc15fddd63d45ca1",
+        "path_recorded": false,
+        "source_role": "reference_protocol"
+      },
+      {
+        "expected_sha256": "b074ce91810e48e0536cb4464053502e37c5bbe244b7954715ffd41a1936117a",
+        "filename_recorded": false,
+        "match": true,
+        "observed_sha256": "b074ce91810e48e0536cb4464053502e37c5bbe244b7954715ffd41a1936117a",
+        "path_recorded": false,
+        "source_role": "reference_numbering_pdf"
+      }
+    ],
+    "schema_version": "1.0",
+    "status": "pass"
+  },
+  "before": {
+    "real_sources_read_only": true,
+    "records": [
+      {
+        "expected_sha256": "3c1cf7c01434405885f562d9e687691185d5250bf4a6aeead564fcdf97aeceae",
+        "filename_recorded": false,
+        "match": true,
+        "observed_sha256": "3c1cf7c01434405885f562d9e687691185d5250bf4a6aeead564fcdf97aeceae",
+        "path_recorded": false,
+        "source_role": "paired_protocol"
+      },
+      {
+        "expected_sha256": "75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+        "filename_recorded": false,
+        "match": true,
+        "observed_sha256": "75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+        "path_recorded": false,
+        "source_role": "paired_tfl_shell"
+      },
+      {
+        "expected_sha256": "12ac850d70294e1a074ffa8102e437d98e67f27e81091097bc15fddd63d45ca1",
+        "filename_recorded": false,
+        "match": true,
+        "observed_sha256": "12ac850d70294e1a074ffa8102e437d98e67f27e81091097bc15fddd63d45ca1",
+        "path_recorded": false,
+        "source_role": "reference_protocol"
+      },
+      {
+        "expected_sha256": "b074ce91810e48e0536cb4464053502e37c5bbe244b7954715ffd41a1936117a",
+        "filename_recorded": false,
+        "match": true,
+        "observed_sha256": "b074ce91810e48e0536cb4464053502e37c5bbe244b7954715ffd41a1936117a",
+        "path_recorded": false,
+        "source_role": "reference_numbering_pdf"
+      }
+    ],
+    "schema_version": "1.0",
+    "status": "pass"
+  },
+  "schema_version": "1.0",
+  "status": "pass",
+  "unchanged": true
+}

@@ -1,0 +1,38 @@
+{
+  "binding_manifest": [],
+  "draft_sha256": "a2067af055fdde8d2965f6b620a0e3bd09b07846c6b2367ab3d983be3d3c5e42",
+  "evidence_status": "source_gap",
+  "input_sha256": "7e10ca1e4b2f7e9b9d039aaab711ef9a44b20c0bc9c687a040515618352740a6",
+  "paragraphs": [
+    {
+      "confidence": "inferred",
+      "needs_human": true,
+      "para_id": "p_11_A_001",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "deidentified-dlt-gap"
+      ]
+    }
+  ],
+  "playbook": {
+    "filename": "s11-a-dose-escalation.md",
+    "sha256": "20ee7bb358d8a86686393ff11b79d362a55575de330e4f7e83f1a916d0ede7d3"
+  },
+  "reference_manifest": [],
+  "schema_version": "1.1",
+  "section": "11.A",
+  "semantic_findings": [],
+  "source_manifest": [
+    {
+      "content_sha256": "c4e783954057b583acf97150e10c8038acd55c9ecb665d953c82a9a085dc37df",
+      "locator": "shell structure review",
+      "purpose": "gap_record",
+      "source_id": "deidentified-dlt-gap"
+    }
+  ],
+  "system_prompt_sha256": "8f4e93ef46763e761a6077aeb62b3c19da661f436164d9844daf4c36794ab340",
+  "variant": "dose_escalation",
+  "writer": "DeterministicSectionAdapter"
+}

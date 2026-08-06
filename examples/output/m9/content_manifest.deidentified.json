@@ -1,0 +1,314 @@
+{
+  "schema_version": "1.0",
+  "sections": [
+    {
+      "evidence_status": "derived_copy_only",
+      "paragraphs": [
+        {
+          "confidence": "inferred",
+          "needs_human": true,
+          "sources": [
+            "deidentified-reviewed-structure-register"
+          ],
+          "text": "本节所需的经审核项目来源尚未提供，内容保持空缺，未进行推断补全。"
+        }
+      ],
+      "reference_entities": [],
+      "section_id": "2",
+      "title": "概要派生门",
+      "variant": "derived_copy_only"
+    },
+    {
+      "evidence_status": "source_gap",
+      "paragraphs": [
+        {
+          "confidence": "inferred",
+          "needs_human": true,
+          "sources": [
+            "deidentified-reviewed-structure-register"
+          ],
+          "text": "本节所需的经审核项目来源尚未提供，内容保持空缺，未进行推断补全。"
+        }
+      ],
+      "reference_entities": [],
+      "section_id": "9.4.3",
+      "title": "随机化方法与实施",
+      "variant": "randomization"
+    },
+    {
+      "evidence_status": "source_gap",
+      "paragraphs": [
+        {
+          "confidence": "inferred",
+          "needs_human": true,
+          "sources": [
+            "deidentified-reviewed-structure-register"
+          ],
+          "text": "本节所需的经审核项目来源尚未提供，内容保持空缺，未进行推断补全。"
+        }
+      ],
+      "reference_entities": [],
+      "section_id": "9.4.6",
+      "title": "盲法维持与揭盲",
+      "variant": "blinding"
+    },
+    {
+      "evidence_status": "source_gap",
+      "paragraphs": [
+        {
+          "confidence": "inferred",
+          "needs_human": true,
+          "sources": [
+            "deidentified-reviewed-structure-register"
+          ],
+          "text": "已登记的表级来源详见{{@ref:T14.1.1.1}}、{{@ref:T14.1.1.2}}；结果值尚未提供，内容保持空缺。"
+        }
+      ],
+      "reference_entities": [
+        "T14.1.1.1",
+        "T14.1.1.2"
+      ],
+      "section_id": "10.1",
+      "title": "受试者处置",
+      "variant": "subject_disposition"
+    },
+    {
+      "evidence_status": "source_gap",
+      "paragraphs": [
+        {
+          "confidence": "inferred",
+          "needs_human": true,
+          "sources": [
+            "deidentified-reviewed-structure-register"
+          ],
+          "text": "已登记的表级来源详见{{@ref:T14.1.1.3}}；结果值尚未提供，内容保持空缺。"
+        }
+      ],
+      "reference_entities": [
+        "T14.1.1.3"
+      ],
+      "section_id": "10.2",
+      "title": "方案偏离",
+      "variant": "protocol_deviation"
+    },
+    {
+      "evidence_status": "source_gap",
+      "paragraphs": [
+        {
+          "confidence": "inferred",
+          "needs_human": true,
+          "sources": [
+            "deidentified-reviewed-structure-register"
+          ],
+          "text": "已登记的表级来源详见{{@ref:T14.1.2.1}}、{{@ref:T14.1.2.2}}；结果值尚未提供，内容保持空缺。"
+        }
+      ],
+      "reference_entities": [
+        "T14.1.2.1",
+        "T14.1.2.2"
+      ],
+      "section_id": "11.2",
+      "title": "人口学与基线",
+      "variant": "demographics_baseline"
+    },
+    {
+      "evidence_status": "source_gap",
+      "paragraphs": [
+        {
+          "confidence": "inferred",
+          "needs_human": true,
+          "sources": [
+            "deidentified-reviewed-structure-register"
+          ],
+          "text": "已登记的表级来源详见{{@ref:T14.2.4.3.1}}、{{@ref:T14.2.4.3.2}}；结果值尚未提供，内容保持空缺。"
+        }
+      ],
+      "reference_entities": [
+        "T14.2.4.3.1",
+        "T14.2.4.3.2"
+      ],
+      "section_id": "11.5",
+      "title": "外用制剂 PK",
+      "variant": "topical_low_systemic_exposure"
+    },
+    {
+      "evidence_status": "source_gap",
+      "paragraphs": [
+        {
+          "confidence": "inferred",
+          "needs_human": true,
+          "sources": [
+            "deidentified-reviewed-structure-register"
+          ],
+          "text": "已登记的表级来源详见{{@ref:T14.2.1.1.1}}；结果值尚未提供，内容保持空缺。"
+        }
+      ],
+      "reference_entities": [
+        "T14.2.1.1.1"
+      ],
+      "section_id": "11.6",
+      "title": "探索性疗效",
+      "variant": "exploratory"
+    },
+    {
+      "evidence_status": "source_gap",
+      "paragraphs": [
+        {
+          "confidence": "inferred",
+          "needs_human": true,
+          "sources": [
+            "deidentified-reviewed-structure-register"
+          ],
+          "text": "已登记的表级来源详见{{@ref:T14.2.2.1.1}}；结果值尚未提供，内容保持空缺。"
+        }
+      ],
+      "reference_entities": [
+        "T14.2.2.1.1"
+      ],
+      "section_id": "11.6.1",
+      "title": "皮肤科评分终点",
+      "variant": "dermatology_scales"
+    },
+    {
+      "evidence_status": "source_gap",
+      "paragraphs": [
+        {
+          "confidence": "inferred",
+          "needs_human": true,
+          "sources": [
+            "deidentified-reviewed-structure-register"
+          ],
+          "text": "已登记的表级来源详见{{@ref:T14.2.2.2.1}}；结果值尚未提供，内容保持空缺。"
+        }
+      ],
+      "reference_entities": [
+        "T14.2.2.2.1"
+      ],
+      "section_id": "11.6.2.1",
+      "title": "协变量校正",
+      "variant": "dermatology_ancova"
+    },
+    {
+      "evidence_status": "source_gap",
+      "paragraphs": [
+        {
+          "confidence": "inferred",
+          "needs_human": true,
+          "sources": [
+            "deidentified-reviewed-structure-register"
+          ],
+          "text": "已登记的表级来源详见{{@ref:T14.3.1.1}}；结果值尚未提供，内容保持空缺。"
+        }
+      ],
+      "reference_entities": [
+        "T14.3.1.1"
+      ],
+      "section_id": "12.1",
+      "title": "暴露程度",
+      "variant": "extent_of_exposure"
+    },
+    {
+      "evidence_status": "source_gap",
+      "paragraphs": [
+        {
+          "confidence": "inferred",
+          "needs_human": true,
+          "sources": [
+            "deidentified-reviewed-structure-register"
+          ],
+          "text": "已登记的表级来源详见{{@ref:T14.3.1.2}}、{{@ref:T14.3.1.3.1}}、{{@ref:T14.3.1.3.2}}；结果值尚未提供，内容保持空缺。"
+        }
+      ],
+      "reference_entities": [
+        "T14.3.1.2",
+        "T14.3.1.3.1",
+        "T14.3.1.3.2"
+      ],
+      "section_id": "12.2",
+      "title": "不良事件",
+      "variant": "adverse_events"
+    },
+    {
+      "evidence_status": "source_gap",
+      "paragraphs": [
+        {
+          "confidence": "inferred",
+          "needs_human": true,
+          "sources": [
+            "deidentified-reviewed-structure-register"
+          ],
+          "text": "已登记的表级来源详见{{@ref:T14.3.1.2}}、{{@ref:T14.3.1.3.1}}、{{@ref:T14.3.1.3.2}}；结果值尚未提供，内容保持空缺。"
+        }
+      ],
+      "reference_entities": [
+        "T14.3.1.2",
+        "T14.3.1.3.1",
+        "T14.3.1.3.2"
+      ],
+      "section_id": "12.2",
+      "title": "不良事件与局部耐受性",
+      "variant": "adverse_events_duplicate_contribution"
+    },
+    {
+      "evidence_status": "source_gap",
+      "paragraphs": [
+        {
+          "confidence": "inferred",
+          "needs_human": true,
+          "sources": [
+            "deidentified-reviewed-structure-register"
+          ],
+          "text": "已登记的表级来源详见{{@ref:T14.3.1.3.5}}、{{@ref:T14.3.1.3.6}}、{{@ref:T14.3.1.3.7}}、{{@ref:T14.3.1.3.8}}、{{@ref:T14.3.1.3.9}}、{{@ref:T14.3.1.3.10}}；结果值尚未提供，内容保持空缺。"
+        }
+      ],
+      "reference_entities": [
+        "T14.3.1.3.5",
+        "T14.3.1.3.6",
+        "T14.3.1.3.7",
+        "T14.3.1.3.8",
+        "T14.3.1.3.9",
+        "T14.3.1.3.10"
+      ],
+      "section_id": "12.2",
+      "title": "不良事件",
+      "variant": "ae_consequence_pairs"
+    },
+    {
+      "evidence_status": "source_gap",
+      "paragraphs": [
+        {
+          "confidence": "inferred",
+          "needs_human": true,
+          "sources": [
+            "deidentified-reviewed-structure-register"
+          ],
+          "text": "已登记的表级来源详见{{@ref:T14.3.1.3.3}}、{{@ref:T14.3.1.3.4}}；结果值尚未提供，内容保持空缺。"
+        }
+      ],
+      "reference_entities": [
+        "T14.3.1.3.3",
+        "T14.3.1.3.4"
+      ],
+      "section_id": "12.5.1",
+      "title": "局部耐受性",
+      "variant": "local_tolerance_ae_subset"
+    },
+    {
+      "evidence_status": "source_gap",
+      "paragraphs": [
+        {
+          "confidence": "inferred",
+          "needs_human": true,
+          "sources": [
+            "deidentified-reviewed-structure-register"
+          ],
+          "text": "本节所需的经审核项目来源尚未提供，内容保持空缺，未进行推断补全。"
+        }
+      ],
+      "reference_entities": [],
+      "section_id": "12.7",
+      "title": "剂量递增与总体耐受性评价",
+      "variant": "dose_escalation"
+    }
+  ]
+}

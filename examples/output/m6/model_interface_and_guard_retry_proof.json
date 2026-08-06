@@ -1,0 +1,32 @@
+{
+  "external_model_called": false,
+  "guard_retry": {
+    "attempts": 2,
+    "feedback_returned": true,
+    "retry_count": 1
+  },
+  "prompt_interface_ready": true,
+  "rogue_cases": [
+    {
+      "case": "efficacy_benefit_risk",
+      "confidence": "inferred",
+      "needs_human": true,
+      "review_marker_present": true,
+      "semantic_finding_count": 4,
+      "status": "pass"
+    },
+    {
+      "case": "ae_causality",
+      "confidence": "inferred",
+      "needs_human": true,
+      "review_marker_present": true,
+      "semantic_finding_count": 1,
+      "status": "pass"
+    }
+  ],
+  "schema_version": "1.0",
+  "semantic_redline_assertion": "mark_not_throw",
+  "source_content_in_system_prompt": false,
+  "source_content_in_user_data": true,
+  "status": "pass"
+}

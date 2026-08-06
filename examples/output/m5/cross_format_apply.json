@@ -1,0 +1,64 @@
+{
+  "applications": [
+    {
+      "checks": {
+        "column_identifiers": "pass",
+        "frozen_shell_contract": "pass",
+        "nonblank_values": "pass",
+        "physical_coordinates": "pass",
+        "row_identifiers": "pass",
+        "semantic_key_and_contract_drift": "pass"
+      },
+      "entity_id": "T14.2.4.3.1",
+      "format_transition": "docx-shell-to-rtf-result",
+      "frozen_map_sha256": "97b1ae52209895b8b7ea5acb0b160a230ee67790908a7535f6793182aeab7534",
+      "issues": [],
+      "result_datapack_sha256": "9dd04b33d543b31eb4909aef328b74bd7f27e1ae5657756043e9944dc273ccc2",
+      "rtf_sha256": "db81660b9aeeeef338429a242149c974703fac388021376efd318cf69478c8b5",
+      "schema_version": "1.0",
+      "semantic_cell_count": 76,
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "column_identifiers": "pass",
+        "frozen_shell_contract": "pass",
+        "nonblank_values": "pass",
+        "physical_coordinates": "pass",
+        "row_identifiers": "pass",
+        "semantic_key_and_contract_drift": "pass"
+      },
+      "entity_id": "T14.2.4.3.2",
+      "format_transition": "docx-shell-to-rtf-result",
+      "frozen_map_sha256": "97b1ae52209895b8b7ea5acb0b160a230ee67790908a7535f6793182aeab7534",
+      "issues": [],
+      "result_datapack_sha256": "da9f9e822715990d38c8f96bd06387d8522fb44511fdff992c5e6e093f92269a",
+      "rtf_sha256": "3d32290c7b48ca7af99f96363b6fdf82013d471ab0c3bae0e61f5856594adff8",
+      "schema_version": "1.0",
+      "semantic_cell_count": 76,
+      "status": "pass"
+    }
+  ],
+  "fixtures": [
+    {
+      "bytes": 4583,
+      "contains_source_titles": false,
+      "contains_source_values": false,
+      "entity_id": "T14.2.4.3.1",
+      "sha256": "db81660b9aeeeef338429a242149c974703fac388021376efd318cf69478c8b5"
+    },
+    {
+      "bytes": 4589,
+      "contains_source_titles": false,
+      "contains_source_values": false,
+      "entity_id": "T14.2.4.3.2",
+      "sha256": "3d32290c7b48ca7af99f96363b6fdf82013d471ab0c3bae0e61f5856594adff8"
+    }
+  ],
+  "frozen_structure_unchanged": true,
+  "full_datapack_semantic_cell_count": 3344,
+  "result_format": "rtf",
+  "schema_version": "1.0",
+  "source_shell_format": "docx",
+  "status": "pass"
+}

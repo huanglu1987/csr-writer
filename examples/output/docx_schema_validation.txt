@@ -1,0 +1,11 @@
+CSR M1 独立 DOCX 包/Schema 校验
+===============================================================================
+Validator: /Users/huanglu/.codex/skills/docx/scripts/office/validate.py
+
+[master] skills/csr-writer/assets/csr-template-zh.docx
+Paragraphs: 0 → 0 (0)
+All validations PASSED!
+
+[sample] examples/output/CSR_ICH_E3_骨架示例.docx
+Paragraphs: 0 → 121 (+121)
+All validations PASSED!

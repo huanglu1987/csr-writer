@@ -1,0 +1,93 @@
+{
+  "binding_count_checked": 8,
+  "bindings": [
+    {
+      "column": "PBO",
+      "group": "control",
+      "key": "T10.1|POP=RANDOMIZED|ROW=RANDOMIZED_COUNT|COL=PBO",
+      "role": "control_randomized_count",
+      "section": "10.1"
+    },
+    {
+      "column": "XYZ200MG",
+      "group": "experimental",
+      "key": "T10.1|POP=RANDOMIZED|ROW=RANDOMIZED_COUNT|COL=XYZ200MG",
+      "role": "experimental_randomized_count",
+      "section": "10.1"
+    },
+    {
+      "column": "PBO",
+      "group": "control",
+      "key": "T11.1|POP=FAS|ROW=ANALYSIS_SET_COUNT|COL=PBO",
+      "role": "control_analysis_set_count",
+      "section": "11.1"
+    },
+    {
+      "column": "XYZ200MG",
+      "group": "experimental",
+      "key": "T11.1|POP=FAS|ROW=ANALYSIS_SET_COUNT|COL=XYZ200MG",
+      "role": "experimental_analysis_set_count",
+      "section": "11.1"
+    },
+    {
+      "column": "PBO",
+      "group": "control",
+      "key": "T14.2.1|POP=FAS|ROW=95_CI|COL=PBO",
+      "role": "control_ci",
+      "section": "11.4"
+    },
+    {
+      "column": "PBO",
+      "group": "control",
+      "key": "T14.2.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=PBO",
+      "role": "control_result",
+      "section": "11.4"
+    },
+    {
+      "column": "XYZ200MG",
+      "group": "experimental",
+      "key": "T14.2.1|POP=FAS|ROW=95_CI|COL=XYZ200MG",
+      "role": "experimental_ci",
+      "section": "11.4"
+    },
+    {
+      "column": "XYZ200MG",
+      "group": "experimental",
+      "key": "T14.2.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=XYZ200MG",
+      "role": "experimental_result",
+      "section": "11.4"
+    }
+  ],
+  "checks": {
+    "explicit_role_to_column": "pass",
+    "randomized_count_gte_analysis_set_count": "pass",
+    "randomized_vs_analysis_set_column": "pass"
+  },
+  "contract_sha256": "2c0179307ba0441259ee222a3d3d61eef8d7b8cff4ba68e6ce7988aba36a5a17",
+  "datapack_sha256": "b8c80b3b1d755e29e918c5dcac5fdcc08358798f8ffe592726cff6aca7b0be88",
+  "groups": {
+    "control": {
+      "analysis_set_anchor": "T11.1|POP=FAS|ROW=ANALYSIS_SET_COUNT|COL=PBO",
+      "analysis_set_count": 57,
+      "column": "PBO",
+      "randomized_anchor": "T10.1|POP=RANDOMIZED|ROW=RANDOMIZED_COUNT|COL=PBO",
+      "randomized_count": 60
+    },
+    "experimental": {
+      "analysis_set_anchor": "T11.1|POP=FAS|ROW=ANALYSIS_SET_COUNT|COL=XYZ200MG",
+      "analysis_set_count": 58,
+      "column": "XYZ200MG",
+      "randomized_anchor": "T10.1|POP=RANDOMIZED|ROW=RANDOMIZED_COUNT|COL=XYZ200MG",
+      "randomized_count": 60
+    }
+  },
+  "issues": [],
+  "metadata_sha256": "83869219dea4d9795573449f76a7b7b340d4f9b843dc4ac8ae293b4c384bd8f7",
+  "schema_version": "1.0",
+  "sections_checked": [
+    "10.1",
+    "11.1",
+    "11.4"
+  ],
+  "status": "pass"
+}

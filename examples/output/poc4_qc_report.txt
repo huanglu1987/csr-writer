@@ -1,0 +1,26 @@
+==============================================================================
+CSR docx 格式质检报告
+==============================================================================
+ ✓ [PASS] PKG_PART               [Content_Types].xml 存在
+ ✓ [PASS] PKG_PART               _rels/.rels 存在
+ ✓ [PASS] PKG_PART               word/document.xml 存在
+ ✓ [PASS] PKG_PART               word/styles.xml 存在
+ ✓ [PASS] PKG_PART               word/_rels/document.xml.rels 存在
+ ✓ [PASS] PKG_XML                全部 part XML 合法
+ ✓ [PASS] NUM_ORDER              numbering.xml 元素顺序合法
+ ✓ [PASS] NUM_REF                numId 引用完整
+ ✓ [PASS] FLD_PAIR               域代码 begin/end 配对 1/1
+ ✓ [PASS] BM_PAIR                书签 start/end 配对 119/119
+ ✓ [PASS] MARGIN                 top 页边距 2.54cm (规范 2.54cm)
+ ✓ [PASS] MARGIN                 bottom 页边距 2.54cm (规范 2.54cm)
+ ✓ [PASS] MARGIN                 left 页边距 3.17cm (规范 3.17cm)
+ ✓ [PASS] MARGIN                 right 页边距 3.17cm (规范 3.17cm)
+ ✓ [PASS] FONT_EA                中文字体 ['宋体', '黑体']
+ ✓ [PASS] STYLE_DECOUPLE         样式引用 120 处 / 内联字体 0 处，解耦良好
+ ✓ [PASS] FONT_EN                西文字体符合规范
+ ✓ [PASS] LINE_SP                检测到行距倍数 [1.5] (规范 1.5)
+ ✓ [PASS] FLD_TOC                存在 TOC 域
+ ✓ [PASS] FLD_PAGE               存在 PAGE 域
+ ✓ [PASS] PLACEHOLDER            无占位符残留
+==============================================================================
+FAIL 0   WARN 0   PASS 21

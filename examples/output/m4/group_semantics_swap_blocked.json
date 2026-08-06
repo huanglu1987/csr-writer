@@ -1,0 +1,18 @@
+{
+  "contract_sha256": "2c0179307ba0441259ee222a3d3d61eef8d7b8cff4ba68e6ce7988aba36a5a17",
+  "datapack_sha256": "b8c80b3b1d755e29e918c5dcac5fdcc08358798f8ffe592726cff6aca7b0be88",
+  "issues": [
+    {
+      "code": "E-GROUP-ROLE-COLUMN",
+      "expected_column": "XYZ200MG",
+      "expected_group": "experimental",
+      "key": "T14.2.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=PBO",
+      "message": "Section 11.4 role experimental_result is bound to PBO; contract requires XYZ200MG",
+      "observed_column": "PBO",
+      "role": "experimental_result",
+      "section": "11.4"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "blocked"
+}

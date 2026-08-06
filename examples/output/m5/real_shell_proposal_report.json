@@ -1,0 +1,4144 @@
+{
+  "candidate_sha256": "285abafdfc9f2f2c00acbbc09e90009e2ccf75954fcbe1f06e1f9304ad94da7f",
+  "entities": [
+    {
+      "analysis_set": "All Screened Set",
+      "batch_id": null,
+      "confidence": "high",
+      "dimensions": {},
+      "entity_id": "T14.1.1.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "10.1"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 8,
+        "horizontal_merges": 0,
+        "physical_cells": 144,
+        "rows": 18,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        5
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 34,
+      "title_sha256": "89a23a4a7c9925f5ff4c967e425127b3122d1a254f22832f8ca922b165be4725"
+    },
+    {
+      "analysis_set": "UNSPECIFIED",
+      "batch_id": null,
+      "confidence": "high",
+      "dimensions": {},
+      "entity_id": "T14.1.1.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "10.1"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 8,
+        "horizontal_merges": 0,
+        "physical_cells": 56,
+        "rows": 7,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        6
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 0,
+        "column_ids": [
+          "PBO",
+          "C0_5PCT_BID",
+          "C0_75PCT_BID",
+          "C1_0PCT_BID",
+          "C1_0PCT_QD",
+          "ACTIVE_TOTAL",
+          "TOTAL_N"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "7ba496f8701a7301dc67f661d315e00d25354966ad48eca1dc44e13b23b041da",
+        "semantic_cell_count": 28,
+        "semantic_column_count": 7,
+        "semantic_row_count": 4
+      },
+      "title_character_count": 13,
+      "title_sha256": "75907e345e00dd0e59b92d5cd6be689ef5f5ccaa9154ca3d48770aaa4308628f"
+    },
+    {
+      "analysis_set": "All Enrolled Set",
+      "batch_id": "BATCH-002",
+      "confidence": "medium",
+      "dimensions": {},
+      "entity_id": "T14.1.1.3",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "10.1"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 8,
+        "horizontal_merges": 0,
+        "physical_cells": 136,
+        "rows": 17,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        7
+      ],
+      "reasons": [
+        "one or more row paths required positional disambiguation"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 2,
+        "column_ids": [
+          "PBO",
+          "C0_5PCT_BID",
+          "C0_75PCT_BID",
+          "C1_0PCT_BID",
+          "C1_0PCT_QD",
+          "ACTIVE_TOTAL",
+          "TOTAL_N_XXX_N"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "fb39bb9a18212849c20c69c1ef5b0166c908465a20f5119426ffcf4979b03880",
+        "semantic_cell_count": 84,
+        "semantic_column_count": 7,
+        "semantic_row_count": 12
+      },
+      "title_character_count": 33,
+      "title_sha256": "5458bfc32bf952d6f8de0cc17e2ed3d95d4d8a71c9062084ca09434cb116be0f"
+    },
+    {
+      "analysis_set": "FAS",
+      "batch_id": "BATCH-002",
+      "confidence": "medium",
+      "dimensions": {},
+      "entity_id": "T14.1.2.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.2"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 8,
+        "horizontal_merges": 0,
+        "physical_cells": 272,
+        "rows": 34,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        8
+      ],
+      "reasons": [
+        "one or more row paths required positional disambiguation"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 12,
+        "column_ids": [
+          "PBO",
+          "C0_5PCT_BID",
+          "C0_75PCT_BID",
+          "C1_0PCT_BID",
+          "C1_0PCT_QD",
+          "ACTIVE_TOTAL",
+          "TOTAL_N_XXX"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "45b18d1c2dd267192dac2773cd89eb7849298c52509048971a79e920d8efaed1",
+        "semantic_cell_count": 182,
+        "semantic_column_count": 7,
+        "semantic_row_count": 26
+      },
+      "title_character_count": 21,
+      "title_sha256": "f00d65171d655ba8eeda5c0583b0a349926c9a91fa8f241c56621589fe1a6377"
+    },
+    {
+      "analysis_set": "FAS",
+      "batch_id": "BATCH-002",
+      "confidence": "medium",
+      "dimensions": {},
+      "entity_id": "T14.1.2.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.2"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 8,
+        "horizontal_merges": 0,
+        "physical_cells": 416,
+        "rows": 52,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        9
+      ],
+      "reasons": [
+        "one or more row paths required positional disambiguation"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 12,
+        "column_ids": [
+          "PBO",
+          "C0_5PCT_BID",
+          "C0_75PCT_BID",
+          "C1_0PCT_BID",
+          "C1_0PCT_QD",
+          "ACTIVE_TOTAL",
+          "TOTAL_N_XXX"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "416ccb1ef37a426f08552f841ef7a945206f9f462ce314f9ce6d70bc08bb7517",
+        "semantic_cell_count": 280,
+        "semantic_column_count": 7,
+        "semantic_row_count": 40
+      },
+      "title_character_count": 20,
+      "title_sha256": "bb1a9ba4c650c10fabd6345f86d42afe109a45c860033fe7429d59523f3d9a52"
+    },
+    {
+      "analysis_set": "FAS",
+      "batch_id": "BATCH-002",
+      "confidence": "medium",
+      "dimensions": {},
+      "entity_id": "T14.1.3.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "10.2"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 8,
+        "horizontal_merges": 0,
+        "physical_cells": 104,
+        "rows": 13,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        10
+      ],
+      "reasons": [
+        "one or more row paths required positional disambiguation"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 2,
+        "column_ids": [
+          "PBO",
+          "C0_5PCT_BID",
+          "C0_75PCT_BID",
+          "C1_0PCT_BID",
+          "C1_0PCT_QD",
+          "ACTIVE_TOTAL",
+          "TOTAL_N_XXX_N"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "621cfc8d2d213cceb491e7e630bcd8cd6bbd8314d7335f00e4dca08a4df6748d",
+        "semantic_cell_count": 56,
+        "semantic_column_count": 7,
+        "semantic_row_count": 8
+      },
+      "title_character_count": 33,
+      "title_sha256": "f63f06103429dde435ce1b8f837f378b3b9012f14f1639a72f2c6c9418ac0df3"
+    },
+    {
+      "analysis_set": "FAS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.1.3.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "10.2"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        11
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 28,
+      "title_sha256": "bd982a1a97e5e487320b4f90dc12f31895d7da110a8fad42e91b929df1622cae"
+    },
+    {
+      "analysis_set": "FAS",
+      "batch_id": "BATCH-002",
+      "confidence": "medium",
+      "dimensions": {},
+      "entity_id": "T14.1.4.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "10.2"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 8,
+        "horizontal_merges": 0,
+        "physical_cells": 120,
+        "rows": 15,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        12
+      ],
+      "reasons": [
+        "one or more row paths required positional disambiguation"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 3,
+        "column_ids": [
+          "PBO",
+          "C0_5PCT_BID",
+          "C0_75PCT_BID",
+          "C1_0PCT_BID",
+          "C1_0PCT_QD",
+          "ACTIVE_TOTAL",
+          "TOTAL_N_XXX_N"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "db636c1e2162c1654888b9a95417bc473751fea8824fa757c7b790c65bbabc95",
+        "semantic_cell_count": 70,
+        "semantic_column_count": 7,
+        "semantic_row_count": 10
+      },
+      "title_character_count": 20,
+      "title_sha256": "b9d389b56a35d1bfa31d5de2720b6ca8f6d3a62cfee579bbe5592c27b6459d34"
+    },
+    {
+      "analysis_set": "FAS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.1.4.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "10.2"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        13
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 20,
+      "title_sha256": "f5d6a5612362bc044cd2ece1a9bc5dc78b41e5e2940cf0ad793b395a4a43c8ce"
+    },
+    {
+      "analysis_set": "FAS",
+      "batch_id": "BATCH-002",
+      "confidence": "medium",
+      "dimensions": {},
+      "entity_id": "T14.1.4.3",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "10.2"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 8,
+        "horizontal_merges": 0,
+        "physical_cells": 104,
+        "rows": 13,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        14
+      ],
+      "reasons": [
+        "one or more row paths required positional disambiguation"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 2,
+        "column_ids": [
+          "PBO",
+          "C0_5PCT_BID",
+          "C0_75PCT_BID",
+          "C1_0PCT_BID",
+          "C1_0PCT_QD",
+          "ACTIVE_TOTAL",
+          "TOTAL_N_XXX_N"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "621cfc8d2d213cceb491e7e630bcd8cd6bbd8314d7335f00e4dca08a4df6748d",
+        "semantic_cell_count": 56,
+        "semantic_column_count": 7,
+        "semantic_row_count": 8
+      },
+      "title_character_count": 32,
+      "title_sha256": "fd33f0d853b2a06742d42e4f380f79d0bb71b6817bfcbe99e14e59f477daaafe"
+    },
+    {
+      "analysis_set": "FAS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.1.4.4",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "10.2"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        15
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 32,
+      "title_sha256": "ae21eb49d9a8c52032e6bab8bbfd4108230e084cad30a1aa3c19cea529e4a187"
+    },
+    {
+      "analysis_set": "FAS",
+      "batch_id": "BATCH-002",
+      "confidence": "medium",
+      "dimensions": {},
+      "entity_id": "T14.2.1.1.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.4"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 6,
+        "horizontal_merges": 0,
+        "physical_cells": 108,
+        "rows": 18,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        16
+      ],
+      "reasons": [
+        "one or more row paths required positional disambiguation"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 6,
+        "column_ids": [
+          "PBO",
+          "C0_5PCT_BID",
+          "C0_75PCT_BID",
+          "C1_0PCT_BID",
+          "C1_0PCT_QD"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "a248f3ab30352bcb9f04e78cb82989785279b0026fa9a819dd21f3da8f35de1a",
+        "semantic_cell_count": 60,
+        "semantic_column_count": 5,
+        "semantic_row_count": 12
+      },
+      "title_character_count": 29,
+      "title_sha256": "b378cce2d90f2ad118c8c097936a1422b6f28a3b7a55c16ed5024e575a8fd3f8"
+    },
+    {
+      "analysis_set": "mFAS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.2.1.1.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.4"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        17
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 30,
+      "title_sha256": "2c5caaf108adc910ea6b273b6dbf07415dbc1b2bf64d84aba9926f8207e43be9"
+    },
+    {
+      "analysis_set": "FAS",
+      "batch_id": "BATCH-002",
+      "confidence": "medium",
+      "dimensions": {},
+      "entity_id": "T14.2.2.1.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.4"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 6,
+        "horizontal_merges": 0,
+        "physical_cells": 294,
+        "rows": 49,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        18
+      ],
+      "reasons": [
+        "one or more row paths required positional disambiguation"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 24,
+        "column_ids": [
+          "PBO",
+          "C0_5PCT_BID",
+          "C0_75PCT_BID",
+          "C1_0PCT_BID",
+          "C1_0PCT_QD"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "2a995180a0f9accd5325726a278581d45ef3ec1dd2510c288b2b81b067f25f8f",
+        "semantic_cell_count": 190,
+        "semantic_column_count": 5,
+        "semantic_row_count": 38
+      },
+      "title_character_count": 41,
+      "title_sha256": "1d4719949227231cc85ea35aaa0c7c9d5bfaaa6d9f409ac45279a2b2c94c016b"
+    },
+    {
+      "analysis_set": "mFAS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.2.2.1.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.4"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        19
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 42,
+      "title_sha256": "7407c5a0f61602a2f159aae4ace9a5dadf2a0c89a50522b35d797af0ebd795fb"
+    },
+    {
+      "analysis_set": "FAS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.2.2.2.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.4"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        20
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 39,
+      "title_sha256": "b39a7f9b879282afbdf269df781f4fe1e1e5d2dcbb42aa743adbef552bf2ee1d"
+    },
+    {
+      "analysis_set": "mFAS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.2.2.2.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.4"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        21
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 40,
+      "title_sha256": "ffb5af90b0ae936e3418ba09a78d3f0589382fd453e7fa71d171aa4b389f27d6"
+    },
+    {
+      "analysis_set": "FAS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.2.2.3.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.4"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        22
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 39,
+      "title_sha256": "f19c7731924003701443dfa7bf122be7cb2b8b307ad729a3a1d4362c9af76b4f"
+    },
+    {
+      "analysis_set": "mFAS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.2.2.3.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.4"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        23
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 40,
+      "title_sha256": "42bf7fa9d907150c6df9a335d8fdb1ca28bf85597828690b07da39e229e05f29"
+    },
+    {
+      "analysis_set": "FAS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.2.2.4.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.4"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        24
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 41,
+      "title_sha256": "78ae5970aeecdda07c27f4c9586603865b95a106be230b0560753e9c6e785961"
+    },
+    {
+      "analysis_set": "mFAS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.2.2.4.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.4"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        25
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 42,
+      "title_sha256": "ef95bc52bb95e5dcf5508fca2c299195f2fff3f9574a07abfef63191d2f76743"
+    },
+    {
+      "analysis_set": "FAS",
+      "batch_id": "BATCH-002",
+      "confidence": "medium",
+      "dimensions": {},
+      "entity_id": "T14.2.2.5.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.4"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 6,
+        "horizontal_merges": 0,
+        "physical_cells": 174,
+        "rows": 29,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        26
+      ],
+      "reasons": [
+        "one or more row paths required positional disambiguation"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 9,
+        "column_ids": [
+          "PBO",
+          "C0_5PCT_BID",
+          "C0_75PCT_BID",
+          "C1_0PCT_BID",
+          "C1_0PCT_QD"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "79c4a137517f740a0c0f1c15d07c450ca83541531b951479cdaa356358942e22",
+        "semantic_cell_count": 110,
+        "semantic_column_count": 5,
+        "semantic_row_count": 22
+      },
+      "title_character_count": 39,
+      "title_sha256": "6ea0480f20683b7609fac33cbfa1ce9754be7d943b8e3d09c577052af723c69b"
+    },
+    {
+      "analysis_set": "mFAS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.2.2.5.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.4"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        27
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 40,
+      "title_sha256": "85547d9cb26679133ffbbfe61d67d63704d26aad524ebf21a7068fcdbbe7f7cb"
+    },
+    {
+      "analysis_set": "PKS",
+      "batch_id": "BATCH-002",
+      "confidence": "medium",
+      "dimensions": {},
+      "entity_id": "T14.2.4.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.B"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 5,
+        "horizontal_merges": 0,
+        "physical_cells": 130,
+        "rows": 26,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        28
+      ],
+      "reasons": [
+        "one or more row paths required positional disambiguation"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 9,
+        "column_ids": [
+          "C0_5PCT_BID",
+          "C0_75PCT_BID",
+          "C1_0PCT_BID",
+          "C1_0PCT_QD"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "6be87d03cc188e9f92efc792425eeba0fad7ae47c9a02e0e25b18da81c7946de",
+        "semantic_cell_count": 84,
+        "semantic_column_count": 4,
+        "semantic_row_count": 21
+      },
+      "title_character_count": 41,
+      "title_sha256": "dbd0883208e57b7532d2285c10b082205e0fca810206f77f538da80f1feb5099"
+    },
+    {
+      "analysis_set": "PKS",
+      "batch_id": null,
+      "confidence": "high",
+      "dimensions": {
+        "STAGE": "D28"
+      },
+      "entity_id": "T14.2.4.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.B"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 4,
+        "horizontal_merges": 0,
+        "physical_cells": 40,
+        "rows": 10,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        29
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 0,
+        "column_ids": [
+          "SLOPE_A",
+          "SE_A",
+          "COL_FCA3A89E3A"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "3239803bac7485ae2d325ee117667fc79826e898c65b0f594af923dbf8dfb410",
+        "semantic_cell_count": 12,
+        "semantic_column_count": 3,
+        "semantic_row_count": 4
+      },
+      "title_character_count": 66,
+      "title_sha256": "d7fb1312763fccd4f03723a2398cddf614253e393fd8eb998e3332777aa765bd"
+    },
+    {
+      "analysis_set": "PKS",
+      "batch_id": "BATCH-002",
+      "confidence": "medium",
+      "dimensions": {
+        "STAGE": "D1"
+      },
+      "entity_id": "T14.2.4.3.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.B"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 5,
+        "horizontal_merges": 0,
+        "physical_cells": 120,
+        "rows": 24,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        30
+      ],
+      "reasons": [
+        "one or more row paths required positional disambiguation"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 8,
+        "column_ids": [
+          "C0_5PCT_BID",
+          "C0_75PCT_BID",
+          "C1_0PCT_BID",
+          "C1_0PCT_QD"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "717a0a8575ed42fadf3bcd4720415103c192adb27e68d82e08b1fccb146ca30f",
+        "semantic_cell_count": 76,
+        "semantic_column_count": 4,
+        "semantic_row_count": 19
+      },
+      "title_character_count": 47,
+      "title_sha256": "a6119d4ad49096988e779f9b0bc750b4c1617f0620d6987f232a51ff0af9b827"
+    },
+    {
+      "analysis_set": "PKS",
+      "batch_id": "BATCH-002",
+      "confidence": "medium",
+      "dimensions": {
+        "STAGE": "D28"
+      },
+      "entity_id": "T14.2.4.3.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.B"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 5,
+        "horizontal_merges": 0,
+        "physical_cells": 120,
+        "rows": 24,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        31
+      ],
+      "reasons": [
+        "one or more row paths required positional disambiguation"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 8,
+        "column_ids": [
+          "C0_5PCT_BID",
+          "C0_75PCT_BID",
+          "C1_0PCT_BID",
+          "C1_0PCT_QD"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "d45aebd341c05d492c879e708646d997a949c39e0d95ad5457827d4e2484a4db",
+        "semantic_cell_count": 76,
+        "semantic_column_count": 4,
+        "semantic_row_count": 19
+      },
+      "title_character_count": 48,
+      "title_sha256": "c059027618e77041bc9853f5b0585d9c6197d2fa3469d5eab069469be55f9551"
+    },
+    {
+      "analysis_set": "PKS",
+      "batch_id": null,
+      "confidence": "high",
+      "dimensions": {
+        "STAGE": "D1"
+      },
+      "entity_id": "T14.2.4.4.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.B"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 4,
+        "horizontal_merges": 0,
+        "physical_cells": 28,
+        "rows": 7,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        32
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 0,
+        "column_ids": [
+          "SLOPE_A",
+          "SE_A",
+          "COL_FCA3A89E3A"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "e99f4a5652068d5bc79bb169c95bd2d2233dc16ea8936ebcf098de3ed3bd1a52",
+        "semantic_cell_count": 9,
+        "semantic_column_count": 3,
+        "semantic_row_count": 3
+      },
+      "title_character_count": 57,
+      "title_sha256": "a883008806edb1b11a62d73b6ebe6cd7b3cc587f13edb59234c3a6f48596c9e3"
+    },
+    {
+      "analysis_set": "PKS",
+      "batch_id": null,
+      "confidence": "high",
+      "dimensions": {
+        "STAGE": "D28"
+      },
+      "entity_id": "T14.2.4.4.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.B"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 4,
+        "horizontal_merges": 0,
+        "physical_cells": 28,
+        "rows": 7,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        33
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 0,
+        "column_ids": [
+          "SLOPE_A",
+          "SE_A",
+          "COL_FCA3A89E3A"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "0dabc65e0988a26d3fb1c7c662e66aa46cb3bfbd25dbe3c5fd041e20e5216a18",
+        "semantic_cell_count": 9,
+        "semantic_column_count": 3,
+        "semantic_row_count": 3
+      },
+      "title_character_count": 57,
+      "title_sha256": "130845fa6e7dab9ff5582b47f6677d96e48ee6a0b07863d94842bf420019764f"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-002",
+      "confidence": "medium",
+      "dimensions": {},
+      "entity_id": "T14.3.1.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 6,
+        "horizontal_merges": 0,
+        "physical_cells": 324,
+        "rows": 54,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        34
+      ],
+      "reasons": [
+        "one or more row paths required positional disambiguation"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 27,
+        "column_ids": [
+          "PBO",
+          "C0_5PCT_BID",
+          "C0_75PCT_BID",
+          "C1_0PCT_BID",
+          "C1_0PCT_QD"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "621d1c851c68cb5c1c9faba3c04bfe360c2140962c2dc12519ec42ac2115daef",
+        "semantic_cell_count": 215,
+        "semantic_column_count": 5,
+        "semantic_row_count": 43
+      },
+      "title_character_count": 23,
+      "title_sha256": "5d48d70fde060432cde4039f7956a4fc8e0ead113de3052558440d7e41b46e61"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-002",
+      "confidence": "medium",
+      "dimensions": {},
+      "entity_id": "T14.3.1.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 7,
+        "horizontal_merges": 0,
+        "physical_cells": 231,
+        "rows": 33,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        35
+      ],
+      "reasons": [
+        "one or more row paths required positional disambiguation"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 8,
+        "column_ids": [
+          "PBO",
+          "C0_5PCT_BID",
+          "C0_75PCT_BID",
+          "C1_0PCT_BID",
+          "C1_0PCT_QD",
+          "ACTIVE_TOTAL"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "fdfb93e8d85fcb002c18fe0495f30acf047e7950fd608c1c6a1cfe297e0be132",
+        "semantic_cell_count": 156,
+        "semantic_column_count": 6,
+        "semantic_row_count": 26
+      },
+      "title_character_count": 31,
+      "title_sha256": "d4a305b19d3e2a8f54b08984fc9ac7f703cb7161921efc796d977e99f74b71f0"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-002",
+      "confidence": "medium",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 13,
+        "horizontal_merges": 6,
+        "physical_cells": 189,
+        "rows": 15,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        36
+      ],
+      "reasons": [
+        "one or more row paths required positional disambiguation",
+        "one or more header paths required positional disambiguation"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 6,
+        "automatic_row_ambiguities": 3,
+        "column_ids": [
+          "PBO",
+          "PBO_C2",
+          "C0_5PCT_BID",
+          "C0_5PCT_BID_C4",
+          "C0_75PCT_BID",
+          "C0_75PCT_BID_C6",
+          "C1_0PCT_BID",
+          "C1_0PCT_BID_C8",
+          "C1_0PCT_QD",
+          "C1_0PCT_QD_C10",
+          "ACTIVE_TOTAL",
+          "ACTIVE_TOTAL_C12"
+        ],
+        "header_row_count": 2,
+        "row_ids_sha256": "92a01b792f4e42bb8c1172234eb6de5b2808c7b850aa5107aeae4e0f74a92b1d",
+        "semantic_cell_count": 108,
+        "semantic_column_count": 12,
+        "semantic_row_count": 9
+      },
+      "title_character_count": 30,
+      "title_sha256": "e788e1929669b72abe37b7ed3948a4c0e383b8cd5735a429130bf1ba4d18f132"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        37
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 30,
+      "title_sha256": "5ce5bf7ed16715e92c7de38d53aca78c1b66106fdf08b9a0acf88040ad0b5eee"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.3",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        38
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 35,
+      "title_sha256": "bb79b63b88c172097f16c368a7a3f099e5f05face6aca66d836cd88e3768ed70"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.4",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        39
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 35,
+      "title_sha256": "337ee32dafa34c311a68b71b9b191e91d90a275053ff1f89415357fb19f97aaa"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.5",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        40
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 37,
+      "title_sha256": "907fa8b961cc0056907031f886611966fab2be50f46bbbac79720ee233d1f46c"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.6",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        41
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 37,
+      "title_sha256": "02c73bd6601b9f15c52ae942a78e92e9a3014ebdc8fc1205fbbfa92fd04d1033"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.7",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        42
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 37,
+      "title_sha256": "6d83cfc2c94cf9298342213d0119d58579e1130b5623155864114608874d2d8d"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.8",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        43
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 37,
+      "title_sha256": "9d87e30c829af9c16cb6ef7c839575806f478d54d4e8e1e7b30086192a3034e8"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.9",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        44
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 37,
+      "title_sha256": "c6d944c0b7767a9e612cd5faeffb6aa060d0a8224a3b9108b0e5208ffa99b6f6"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.10",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        45
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 38,
+      "title_sha256": "aca6f6141c1d1f7abd5951c5a7c6308cbc1a276dea4e0ae5dc07a0cbc0490c9f"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.11",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        46
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 38,
+      "title_sha256": "4ec57d723e06e1f46f69f3f4deb8b8cb8b743716ce3c162a9a95f5ce15443052"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.12",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        47
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 38,
+      "title_sha256": "a8df90b51824ea71d8de37b9ceea2b8f5dfd4e15f968fd2f1a71ed2a4ba028ed"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.13",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        48
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 35,
+      "title_sha256": "15d906b6b0dce27eb0adbcab101604a2e6aed199d74de7dacbbe3fbd0763d48f"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.14",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        49
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 35,
+      "title_sha256": "cb8ccfa8150e53bc83532beb9a5375af0f0acf11883cbd33b26a87babf218baa"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.15",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        50
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 36,
+      "title_sha256": "40fda391608caefdf399c780faf8cd57cc6f86eabd30376eb3df5d1668f922fa"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.16",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        51
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 36,
+      "title_sha256": "f92598e10d3282f29876422a92e58bc0f426097ade9eabcd3e23e0b9a9740210"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.17",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        52
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 36,
+      "title_sha256": "fc16db14e9f210027e6c505439225196024b1418581ae3603e01874862369452"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.18",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        53
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 36,
+      "title_sha256": "7d303d024acbcfe2631fa096b3bbe11dd535d8b5d6e25e86359fc878bc9dae26"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-002",
+      "confidence": "medium",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.19",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 13,
+        "horizontal_merges": 6,
+        "physical_cells": 306,
+        "rows": 24,
+        "vertical_merges": 2
+      },
+      "physical_table_indexes": [
+        54
+      ],
+      "reasons": [
+        "one or more row paths required positional disambiguation",
+        "one or more header paths required positional disambiguation"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 6,
+        "automatic_row_ambiguities": 10,
+        "column_ids": [
+          "PBO",
+          "PBO_C2",
+          "C0_5PCT_BID",
+          "C0_5PCT_BID_C4",
+          "C0_75PCT_BID",
+          "C0_75PCT_BID_C6",
+          "C1_0PCT_BID",
+          "C1_0PCT_BID_C8",
+          "C1_0PCT_QD",
+          "C1_0PCT_QD_C10",
+          "ACTIVE_TOTAL",
+          "ACTIVE_TOTAL_C12"
+        ],
+        "header_row_count": 2,
+        "row_ids_sha256": "f603e69cf6856d6c6699deb0a9f46fbb9842ec4fb75ca5d111b6157cd2430267",
+        "semantic_cell_count": 228,
+        "semantic_column_count": 12,
+        "semantic_row_count": 19
+      },
+      "title_character_count": 40,
+      "title_sha256": "f1deb49c797a63cee8c3f2c5b7500e7ff8d96620454b724607c06ae8de67c24d"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.20",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        55
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 40,
+      "title_sha256": "0ee104e4b30d7c71a41bb835268c595b42a3ec707a71f9cfcf8bb25673d6380e"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.21",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        56
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 45,
+      "title_sha256": "2ddef54f55882dcae0c00f9c43c5ba09946245cc54dd5e5ee61a6599cb14dcf8"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.22",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        57
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 45,
+      "title_sha256": "407b94c2f912a07741b972431a55f6104c159d02dfbdf4d6c9c609f6801bb725"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.23",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        58
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 47,
+      "title_sha256": "a06b19010df332e2c63b0887a12371424104d5f249746e6cefbb1eaa009e8b6b"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.24",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        59
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 47,
+      "title_sha256": "499f97e834d5a773dd8e82402a3b89698955bd31ebdefe1067012ce0a7a47f8f"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.25",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        60
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 47,
+      "title_sha256": "4aa3a091923eff152bf7239749c06d5bf45ab85bc86d954d9b1cfa17057f975e"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.26",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        61
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 47,
+      "title_sha256": "1388ad77ade25bdc99df2e0d28bc95ece6ad87fb05a217159340e59313ab9f52"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.27",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        62
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 47,
+      "title_sha256": "1f4c0c0ede23ff11fd460b4c4d1208b18e26eeba9d51f60ff902f01ba8514bf4"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.28",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        63
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 47,
+      "title_sha256": "4f7104597edc5d422350134d2e4e6dcb45331181cae76e351e05b7cbe5fa2412"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.29",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        64
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 47,
+      "title_sha256": "1e9304d96c3a21b23de0a7f7e7db6b4cf67b05f9b9db7c12fe2367b95dbe2049"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.30",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        65
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 47,
+      "title_sha256": "eaf72db474ad3dba54215e6ffb1287606733499b7830cf034f0e4cfde9470050"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.31",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        66
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 44,
+      "title_sha256": "091663cdf523bd5c0c1750c9ac518c844528165a4218f3f256bf86896e8684fa"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.32",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        67
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 44,
+      "title_sha256": "06718467032045517df73a68d0a8d3f60e7132639cbc2333ed2f3ad3533a8bee"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.33",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        68
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 45,
+      "title_sha256": "1b4a8635c42bba088eaa80f1ab2fa491dd8d475aa72647cc3f212c3910fdaf9e"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.34",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        69
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 45,
+      "title_sha256": "61e1790f6cc03107ba2e8e19de929a57b07f35d301cfd848c6eed97402ec8a65"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": null,
+      "confidence": "high",
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.35",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 7,
+        "horizontal_merges": 0,
+        "physical_cells": 70,
+        "rows": 10,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        70
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 0,
+        "column_ids": [
+          "PBO",
+          "C0_5PCT_BID",
+          "C0_75PCT_BID",
+          "C1_0PCT_BID",
+          "C1_0PCT_QD",
+          "ACTIVE_TOTAL"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "ce5d5958905e30390708c79492dd0bf1da9efd5e813f70561352462815f885b2",
+        "semantic_cell_count": 42,
+        "semantic_column_count": 6,
+        "semantic_row_count": 7
+      },
+      "title_character_count": 27,
+      "title_sha256": "ca0e679b9b787a8965e7e3def338009d9fce245b30c3e06f576332785a164310"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.2.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        71
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 30,
+      "title_sha256": "a1ae17519f2e6666f951eaec5a31c44312e292c9d9807b6f6b1609df476c9394"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.2.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        72
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 29,
+      "title_sha256": "f862549b836569c74ea81dd60a5f453d2ef02d14e1a698641a4f6d026b53c31d"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.2.3",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        73
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 38,
+      "title_sha256": "0c8f32a04214b1ced5de5c9799822bddecc9c81179c013613f83167f5bd21007"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.2.4",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        74
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 38,
+      "title_sha256": "4a9b10feea6c240235c4f38e3ebef5d0aa6f7b225a07336ecef0892463027239"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-002",
+      "confidence": "medium",
+      "dimensions": {},
+      "entity_id": "T14.3.4.1.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 7,
+        "horizontal_merges": 0,
+        "physical_cells": 154,
+        "rows": 22,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        75
+      ],
+      "reasons": [
+        "one or more row paths required positional disambiguation"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 8,
+        "column_ids": [
+          "PBO",
+          "C0_5PCT_BID",
+          "C0_75PCT_BID",
+          "C1_0PCT_BID",
+          "C1_0PCT_QD",
+          "ACTIVE_TOTAL"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "10dd7a0aeb3d46ebd5d26dad928be67f019093cd471f970cf95e0a9f4115b9ac",
+        "semantic_cell_count": 102,
+        "semantic_column_count": 6,
+        "semantic_row_count": 17
+      },
+      "title_character_count": 33,
+      "title_sha256": "568b4351905a9f622c6f4d8536f65f686c12bca31b5f99ef7be94960c680354f"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.4.1.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        76
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 33,
+      "title_sha256": "1ea41409e4a96944e9947b5db2629002b8bf3caa1f709928012ce5a304609a74"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.4.1.3",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        77
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 34,
+      "title_sha256": "90d1cc332c644393f8074436146190b3859b077abd6a3a9a2992234353cddb16"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-002",
+      "confidence": "medium",
+      "dimensions": {},
+      "entity_id": "T14.3.4.2.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 6,
+        "horizontal_merges": 1,
+        "physical_cells": 128,
+        "rows": 22,
+        "vertical_merges": 2
+      },
+      "physical_table_indexes": [
+        78
+      ],
+      "reasons": [
+        "one or more row paths required positional disambiguation",
+        "one or more header paths required positional disambiguation"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 8,
+        "automatic_row_ambiguities": 5,
+        "column_ids": [
+          "COL_A7AC587AB5",
+          "COL_A7AC587AB5_C2",
+          "COL_A7AC587AB5_C3",
+          "COL_A7AC587AB5_C4",
+          "COL_A7AC587AB5_C5"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "802bde2a6d4bf80df52f01eae4d1943e31f9cc2eb12e277c39b9cb3592daba32",
+        "semantic_cell_count": 90,
+        "semantic_column_count": 5,
+        "semantic_row_count": 18
+      },
+      "title_character_count": 34,
+      "title_sha256": "5ac47915a5bd11b231cdd7eebb393d8a8aaae5bd8047159f314cb2afb03616bd"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.4.2.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        79
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 34,
+      "title_sha256": "f7cb333f7ca302e05c62e802f5badae9fe5f661e0b0585b515473823dbf8009f"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.4.2.3",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        80
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 35,
+      "title_sha256": "c7721b4cb7af241975d457759224948b96c8d0788715e39f984c333a48dbf310"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-003",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.4.2.4",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 1,
+        "horizontal_merges": 0,
+        "physical_cells": 3,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        81
+      ],
+      "reasons": [
+        "shell contains no usable row-by-column grid"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 34,
+      "title_sha256": "8eed5be8bb1acd8ba02e3c23fc4410b20f55b420942cb9aedad753d91f4cc79c"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": null,
+      "confidence": "high",
+      "dimensions": {},
+      "entity_id": "T14.3.5.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 7,
+        "horizontal_merges": 0,
+        "physical_cells": 161,
+        "rows": 23,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        82
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 0,
+        "column_ids": [
+          "PBO",
+          "C0_5PCT_BID",
+          "C0_75PCT_BID",
+          "C1_0PCT_BID",
+          "C1_0PCT_QD",
+          "ACTIVE_TOTAL"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "a722830c30b5fd0636d68758d333bf59ca58cee614a2fab14af25918c0646cf7",
+        "semantic_cell_count": 102,
+        "semantic_column_count": 6,
+        "semantic_row_count": 17
+      },
+      "title_character_count": 32,
+      "title_sha256": "d7d070014881abddbce206efdee770e358b7b1fa25b39058fc171d9d2bf874a6"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-002",
+      "confidence": "medium",
+      "dimensions": {},
+      "entity_id": "T14.3.5.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 6,
+        "horizontal_merges": 1,
+        "physical_cells": 128,
+        "rows": 22,
+        "vertical_merges": 2
+      },
+      "physical_table_indexes": [
+        83
+      ],
+      "reasons": [
+        "one or more row paths required positional disambiguation",
+        "one or more header paths required positional disambiguation"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 8,
+        "automatic_row_ambiguities": 2,
+        "column_ids": [
+          "COL_A7AC587AB5",
+          "COL_A7AC587AB5_C2",
+          "COL_A7AC587AB5_C3",
+          "COL_A7AC587AB5_C4",
+          "COL_A7AC587AB5_C5"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "9c7c8037723bf53bec1438a80932df22e80120aad751c63051c73d652e184ae2",
+        "semantic_cell_count": 90,
+        "semantic_column_count": 5,
+        "semantic_row_count": 18
+      },
+      "title_character_count": 33,
+      "title_sha256": "cf84e2816c9a60d3393a06661544db4e80ee744368c9a9281e3e86673a3214dd"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": null,
+      "confidence": "high",
+      "dimensions": {},
+      "entity_id": "T14.3.6.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 7,
+        "horizontal_merges": 0,
+        "physical_cells": 161,
+        "rows": 23,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        84
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 0,
+        "column_ids": [
+          "PBO",
+          "C0_5PCT_BID",
+          "C0_75PCT_BID",
+          "C1_0PCT_BID",
+          "C1_0PCT_QD",
+          "ACTIVE_TOTAL"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "91906bc1e06781baa150acc4b3cd0720d0663baa12628cb2544e84fab5010bf5",
+        "semantic_cell_count": 102,
+        "semantic_column_count": 6,
+        "semantic_row_count": 17
+      },
+      "title_character_count": 35,
+      "title_sha256": "838db0cd0d572a78607c234a0fbe42557978c714eca5501b5ec99dcc71c43035"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-002",
+      "confidence": "medium",
+      "dimensions": {},
+      "entity_id": "T14.3.6.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 6,
+        "horizontal_merges": 1,
+        "physical_cells": 122,
+        "rows": 21,
+        "vertical_merges": 2
+      },
+      "physical_table_indexes": [
+        85
+      ],
+      "reasons": [
+        "one or more row paths required positional disambiguation",
+        "one or more header paths required positional disambiguation"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 8,
+        "automatic_row_ambiguities": 3,
+        "column_ids": [
+          "COL_A7AC587AB5",
+          "COL_A7AC587AB5_C2",
+          "COL_A7AC587AB5_C3",
+          "COL_A7AC587AB5_C4",
+          "COL_A7AC587AB5_C5"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "7cf2cfc1be60c4a8ae2e88427055a2fec2b65e3367ebf5401fff3c4bc48ada63",
+        "semantic_cell_count": 85,
+        "semantic_column_count": 5,
+        "semantic_row_count": 17
+      },
+      "title_character_count": 36,
+      "title_sha256": "66dd050ffdaf91dfc9d3a2bcf96c0e3e825e2f07e414bee20ad4f6fccb64df6f"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-002",
+      "confidence": "medium",
+      "dimensions": {},
+      "entity_id": "T14.3.6.3",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 7,
+        "horizontal_merges": 0,
+        "physical_cells": 77,
+        "rows": 11,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        86
+      ],
+      "reasons": [
+        "one or more row paths required positional disambiguation"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 1,
+        "column_ids": [
+          "PBO",
+          "C0_5PCT_BID",
+          "C0_75PCT_BID",
+          "C1_0PCT_BID",
+          "C1_0PCT_QD",
+          "ACTIVE_TOTAL"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "01c04e8c0b0b7795338953cd0e9d97af1b6034e925bc40f5a8d926dcd1fdf647",
+        "semantic_cell_count": 42,
+        "semantic_column_count": 6,
+        "semantic_row_count": 7
+      },
+      "title_character_count": 31,
+      "title_sha256": "370e16c5fc97f693e0aa43fcf05462541ef8aa3f39e6d110608278a66303801c"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-002",
+      "confidence": "medium",
+      "dimensions": {},
+      "entity_id": "T14.3.7.1.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 7,
+        "horizontal_merges": 0,
+        "physical_cells": 119,
+        "rows": 17,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        87
+      ],
+      "reasons": [
+        "one or more row paths required positional disambiguation"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 5,
+        "column_ids": [
+          "PBO",
+          "C0_5PCT_BID",
+          "C0_75PCT_BID",
+          "C1_0PCT_BID",
+          "C1_0PCT_QD",
+          "ACTIVE_TOTAL"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "b1a759a11c312d8ea45cbb426e896874fa0301a9c8a7d3b8e256bc031d0af3bf",
+        "semantic_cell_count": 78,
+        "semantic_column_count": 6,
+        "semantic_row_count": 13
+      },
+      "title_character_count": 37,
+      "title_sha256": "d702be10061d087f2a2c110a3ae76bf196ad85450b26e0768978a0ae48f99bca"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-002",
+      "confidence": "medium",
+      "dimensions": {},
+      "entity_id": "T14.3.7.1.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 7,
+        "horizontal_merges": 0,
+        "physical_cells": 119,
+        "rows": 17,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        88
+      ],
+      "reasons": [
+        "one or more row paths required positional disambiguation"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 5,
+        "column_ids": [
+          "PBO",
+          "C0_5PCT_BID",
+          "C0_75PCT_BID",
+          "C1_0PCT_BID",
+          "C1_0PCT_QD",
+          "ACTIVE_TOTAL"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "d2e67aeab67c366ec33a321eca42a38132c2f6dea3c3e7432d7f020537854a7c",
+        "semantic_cell_count": 78,
+        "semantic_column_count": 6,
+        "semantic_row_count": 13
+      },
+      "title_character_count": 40,
+      "title_sha256": "afd509653e2c77747c37fa8ac308b8172bbda57609a55933d5b1d4b263f54f29"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": null,
+      "confidence": "high",
+      "dimensions": {},
+      "entity_id": "T14.3.7.2.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 7,
+        "horizontal_merges": 0,
+        "physical_cells": 147,
+        "rows": 21,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        89
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 0,
+        "column_ids": [
+          "PBO",
+          "C0_5PCT_BID",
+          "C0_75PCT_BID",
+          "C1_0PCT_BID",
+          "C1_0PCT_QD",
+          "ACTIVE_TOTAL"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "8486d4e0fccdd600de28a5751d802abfae0ca8251079029c8a4a82025687c935",
+        "semantic_cell_count": 96,
+        "semantic_column_count": 6,
+        "semantic_row_count": 16
+      },
+      "title_character_count": 34,
+      "title_sha256": "58ad716a72ddf0aa975d6f735d64065792cad96556cd5eaa80a88e7303bce765"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": null,
+      "confidence": "high",
+      "dimensions": {},
+      "entity_id": "T14.3.7.2.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 7,
+        "horizontal_merges": 0,
+        "physical_cells": 147,
+        "rows": 21,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        90
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 0,
+        "column_ids": [
+          "PBO",
+          "C0_5PCT_BID",
+          "C0_75PCT_BID",
+          "C1_0PCT_BID",
+          "C1_0PCT_QD",
+          "ACTIVE_TOTAL"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "a3b9c15dacdcb3c256f477a1bd06d21e763785e13e09fbbd1377436fcd013611",
+        "semantic_cell_count": 96,
+        "semantic_column_count": 6,
+        "semantic_row_count": 16
+      },
+      "title_character_count": 36,
+      "title_sha256": "d2f2bf8bf7e59bae04dd1ca95cfcfabb0c4488eb29e9ad35e457a8afe91cca0c"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": null,
+      "confidence": "high",
+      "dimensions": {},
+      "entity_id": "T14.3.7.3.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 7,
+        "horizontal_merges": 0,
+        "physical_cells": 91,
+        "rows": 13,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        91
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 0,
+        "column_ids": [
+          "PBO",
+          "C0_5PCT_BID",
+          "C0_75PCT_BID",
+          "C1_0PCT_BID",
+          "C1_0PCT_QD",
+          "ACTIVE_TOTAL"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "3116dfde7bf5e09ab5cddebff4009c14818af17a08a9b7eabd8327010558ad2e",
+        "semantic_cell_count": 48,
+        "semantic_column_count": 6,
+        "semantic_row_count": 8
+      },
+      "title_character_count": 52,
+      "title_sha256": "2e0e06f5f4be260457a19070659b1fc7bd10611df91757e8a0568bb369319696"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-002",
+      "confidence": "medium",
+      "dimensions": {},
+      "entity_id": "T14.3.7.3.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 7,
+        "horizontal_merges": 0,
+        "physical_cells": 84,
+        "rows": 12,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        92
+      ],
+      "reasons": [
+        "one or more row paths required positional disambiguation"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 2,
+        "column_ids": [
+          "PBO",
+          "C0_5PCT_BID",
+          "C0_75PCT_BID",
+          "C1_0PCT_BID",
+          "C1_0PCT_QD",
+          "ACTIVE_TOTAL"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "1eb761f0538f5d2ef45c4421318e52e359a0d1adbd0c086d0de30634710ff517",
+        "semantic_cell_count": 48,
+        "semantic_column_count": 6,
+        "semantic_row_count": 8
+      },
+      "title_character_count": 56,
+      "title_sha256": "c9301d4c78826bb7c2c81fe2c1b95a779b1b9f9f39a6b1516c9aa2c2cef85478"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": null,
+      "confidence": "high",
+      "dimensions": {},
+      "entity_id": "T14.3.7.4.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 7,
+        "horizontal_merges": 0,
+        "physical_cells": 91,
+        "rows": 13,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        93
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 0,
+        "column_ids": [
+          "PBO",
+          "C0_5PCT_BID",
+          "C0_75PCT_BID",
+          "C1_0PCT_BID",
+          "C1_0PCT_QD",
+          "ACTIVE_TOTAL"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "3116dfde7bf5e09ab5cddebff4009c14818af17a08a9b7eabd8327010558ad2e",
+        "semantic_cell_count": 48,
+        "semantic_column_count": 6,
+        "semantic_row_count": 8
+      },
+      "title_character_count": 44,
+      "title_sha256": "d6d3f7a5348e40a9e527d38782b1edbf8d73358ba6a596a308a7228553af2425"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-002",
+      "confidence": "medium",
+      "dimensions": {},
+      "entity_id": "T14.3.7.4.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 7,
+        "horizontal_merges": 0,
+        "physical_cells": 84,
+        "rows": 12,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        94
+      ],
+      "reasons": [
+        "one or more row paths required positional disambiguation"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 2,
+        "column_ids": [
+          "PBO",
+          "C0_5PCT_BID",
+          "C0_75PCT_BID",
+          "C1_0PCT_BID",
+          "C1_0PCT_QD",
+          "ACTIVE_TOTAL"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "1eb761f0538f5d2ef45c4421318e52e359a0d1adbd0c086d0de30634710ff517",
+        "semantic_cell_count": 48,
+        "semantic_column_count": 6,
+        "semantic_row_count": 8
+      },
+      "title_character_count": 47,
+      "title_sha256": "ede574369aff7e75209ae793005091ff15341a082b8a6c87a30d2224082884b4"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-002",
+      "confidence": "medium",
+      "dimensions": {},
+      "entity_id": "T14.3.7.5.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "cell_level",
+      "physical_shape": {
+        "grid_columns": 7,
+        "horizontal_merges": 0,
+        "physical_cells": 105,
+        "rows": 15,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        95
+      ],
+      "reasons": [
+        "one or more row paths required positional disambiguation"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 4,
+        "column_ids": [
+          "PBO",
+          "C0_5PCT_BID",
+          "C0_75PCT_BID",
+          "C1_0PCT_BID",
+          "C1_0PCT_QD",
+          "ACTIVE_TOTAL"
+        ],
+        "header_row_count": 1,
+        "row_ids_sha256": "8dc1787c2b7dce485da8eaa3b84d7cf1ecf55c3a6feb0eb8f215ad84adb43a78",
+        "semantic_cell_count": 60,
+        "semantic_column_count": 6,
+        "semantic_row_count": 10
+      },
+      "title_character_count": 39,
+      "title_sha256": "197a9a1c12b834b3fe4a4e768d55dcdba61e8182a6e762179d9a209a2d220aa0"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-001",
+      "confidence": "low",
+      "dimensions": {},
+      "entity_id": "T14.3.7.5.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 7,
+        "horizontal_merges": 0,
+        "physical_cells": 147,
+        "rows": 21,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158
+      ],
+      "reasons": [
+        "entity block contains multiple Word table objects"
+      ],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 41,
+      "title_sha256": "f49fd5c1b39e001ee103a0e740d1153d5b5e8ee4dddc8b9a226b533fffa0ff8d"
+    },
+    {
+      "analysis_set": "All Screened Set",
+      "batch_id": null,
+      "confidence": "high",
+      "dimensions": {},
+      "entity_id": "F14.1.1.1",
+      "entity_kind": "figure",
+      "ich_e3_sections": [
+        "10.1"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": null,
+      "physical_table_indexes": [],
+      "reasons": [],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 37,
+      "title_sha256": "09fec2d25c715cb2563d493b516dc331f8515716f693ae4b2dcc2f2268686e79"
+    },
+    {
+      "analysis_set": "FAS",
+      "batch_id": null,
+      "confidence": "high",
+      "dimensions": {},
+      "entity_id": "F14.2.1.1.1",
+      "entity_kind": "figure",
+      "ich_e3_sections": [
+        "11.4"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 2,
+        "horizontal_merges": 0,
+        "physical_cells": 20,
+        "rows": 10,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        159
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 35,
+      "title_sha256": "f70848f076c21acdf0062d4a9d63596464f054ebf3ce59e8fb5d85cfd87c218b"
+    },
+    {
+      "analysis_set": "mFAS",
+      "batch_id": null,
+      "confidence": "high",
+      "dimensions": {},
+      "entity_id": "F14.2.1.1.2",
+      "entity_kind": "figure",
+      "ich_e3_sections": [
+        "11.4"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 2,
+        "horizontal_merges": 0,
+        "physical_cells": 20,
+        "rows": 10,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        160
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 36,
+      "title_sha256": "2d213c5cb6b565cca1e08ec280b6fc9fa597efbf57d163c161da3a3f5b80f5c7"
+    },
+    {
+      "analysis_set": "PKS",
+      "batch_id": null,
+      "confidence": "high",
+      "dimensions": {},
+      "entity_id": "F14.2.4.1",
+      "entity_kind": "figure",
+      "ich_e3_sections": [
+        "11.B"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 2,
+        "horizontal_merges": 0,
+        "physical_cells": 22,
+        "rows": 11,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        161
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 40,
+      "title_sha256": "0b7b2b01e6a027b7153396a9ae980764695e12795b130c459069186d327c19bd"
+    },
+    {
+      "analysis_set": "PKS",
+      "batch_id": null,
+      "confidence": "high",
+      "dimensions": {},
+      "entity_id": "F14.2.4.2",
+      "entity_kind": "figure",
+      "ich_e3_sections": [
+        "11.B"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 2,
+        "horizontal_merges": 0,
+        "physical_cells": 22,
+        "rows": 11,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        162
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 43,
+      "title_sha256": "99edfcbe88a17b348e617f448a3c9bb0e035fb2f6cd706449d450ae47eda95cc"
+    },
+    {
+      "analysis_set": "All Enrolled Set",
+      "batch_id": null,
+      "confidence": "high",
+      "dimensions": {},
+      "entity_id": "F14.2.4.3",
+      "entity_kind": "figure",
+      "ich_e3_sections": [
+        "11.B"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 2,
+        "horizontal_merges": 0,
+        "physical_cells": 22,
+        "rows": 11,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        163
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 54,
+      "title_sha256": "66339f4a2ed8e8734b5f49ab57ead1570210649cc0f7d7efc247697d16dee5f2"
+    },
+    {
+      "analysis_set": "All Enrolled Set",
+      "batch_id": null,
+      "confidence": "high",
+      "dimensions": {},
+      "entity_id": "F14.2.4.4",
+      "entity_kind": "figure",
+      "ich_e3_sections": [
+        "11.B"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 2,
+        "horizontal_merges": 0,
+        "physical_cells": 22,
+        "rows": 11,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        164
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 57,
+      "title_sha256": "a4d45c35b1158b305f2b7db86ac6899080a6e3e6b920bb79c327da978d40a8aa"
+    },
+    {
+      "analysis_set": "All Enrolled Set",
+      "batch_id": null,
+      "confidence": "high",
+      "dimensions": {},
+      "entity_id": "F14.2.4.5",
+      "entity_kind": "figure",
+      "ich_e3_sections": [
+        "11.B"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 2,
+        "horizontal_merges": 0,
+        "physical_cells": 22,
+        "rows": 11,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        165
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 56,
+      "title_sha256": "f86b5d37350ceafefcd3906322ebc956ccf7e5694e07fb488f0836721ee70633"
+    },
+    {
+      "analysis_set": "All Enrolled Set",
+      "batch_id": null,
+      "confidence": "high",
+      "dimensions": {},
+      "entity_id": "F14.2.4.6",
+      "entity_kind": "figure",
+      "ich_e3_sections": [
+        "11.B"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 2,
+        "horizontal_merges": 0,
+        "physical_cells": 22,
+        "rows": 11,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        166
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 59,
+      "title_sha256": "3d179b02942174b739324c8eeef78027e48430331e6b44728d8ad58178252695"
+    },
+    {
+      "analysis_set": "PKCS",
+      "batch_id": null,
+      "confidence": "high",
+      "dimensions": {},
+      "entity_id": "F14.2.4.7",
+      "entity_kind": "figure",
+      "ich_e3_sections": [
+        "11.B"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 2,
+        "horizontal_merges": 0,
+        "physical_cells": 22,
+        "rows": 11,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        167
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 47,
+      "title_sha256": "0e3592ccc9e1ec7b063b01b8fd0eaa1c35f9d52b35da2378ec253a3c4cc6d1e2"
+    },
+    {
+      "analysis_set": "PKS",
+      "batch_id": null,
+      "confidence": "high",
+      "dimensions": {
+        "STAGE": "D1"
+      },
+      "entity_id": "F14.2.4.8",
+      "entity_kind": "figure",
+      "ich_e3_sections": [
+        "11.B"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 2,
+        "horizontal_merges": 0,
+        "physical_cells": 22,
+        "rows": 11,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        168
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 53,
+      "title_sha256": "7d9ed80c7997a514014ba8c0b8f8f2ded04fc979a8e343f8b78ae175147ab180"
+    },
+    {
+      "analysis_set": "PKS",
+      "batch_id": null,
+      "confidence": "high",
+      "dimensions": {
+        "STAGE": "D1"
+      },
+      "entity_id": "F14.2.4.9",
+      "entity_kind": "figure",
+      "ich_e3_sections": [
+        "11.B"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 2,
+        "horizontal_merges": 0,
+        "physical_cells": 22,
+        "rows": 11,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        169
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 54,
+      "title_sha256": "0242d2fd1fc2aed077aaa8755d1d17433a3296721e60eaa0406c9f25731295b1"
+    },
+    {
+      "analysis_set": "PKS",
+      "batch_id": null,
+      "confidence": "high",
+      "dimensions": {
+        "STAGE": "D28"
+      },
+      "entity_id": "F14.2.4.10",
+      "entity_kind": "figure",
+      "ich_e3_sections": [
+        "11.B"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 2,
+        "horizontal_merges": 0,
+        "physical_cells": 22,
+        "rows": 11,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        170
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 55,
+      "title_sha256": "a3848be905b6a7d628972e26732bb78ff3c0963fc39f9420f0e8c5fe762bd226"
+    },
+    {
+      "analysis_set": "PKS",
+      "batch_id": null,
+      "confidence": "high",
+      "dimensions": {
+        "STAGE": "D28"
+      },
+      "entity_id": "F14.2.4.11",
+      "entity_kind": "figure",
+      "ich_e3_sections": [
+        "11.B"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 2,
+        "horizontal_merges": 0,
+        "physical_cells": 22,
+        "rows": 11,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        171
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 56,
+      "title_sha256": "18afe0763b18d4ad3fe34f7dee57284f87d5584b9dca15c4b05c185633a6afa7"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": null,
+      "confidence": "high",
+      "dimensions": {},
+      "entity_id": "F14.3.1.1",
+      "entity_kind": "figure",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 2,
+        "horizontal_merges": 0,
+        "physical_cells": 20,
+        "rows": 10,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        172
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 26,
+      "title_sha256": "34bce3e7f340bcd0b0eaf82f7f7fd93789ab3286404f68b32cc54ac944eb60c0"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": null,
+      "confidence": "high",
+      "dimensions": {},
+      "entity_id": "F14.3.1.2",
+      "entity_kind": "figure",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 2,
+        "horizontal_merges": 0,
+        "physical_cells": 20,
+        "rows": 10,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        173
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 26,
+      "title_sha256": "e3836931bf3457fb01b8bf4c37179154d2b1216d79e8b6bfe613fd9fc2bf4a4b"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": null,
+      "confidence": "high",
+      "dimensions": {},
+      "entity_id": "F14.3.7.1",
+      "entity_kind": "figure",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 2,
+        "horizontal_merges": 0,
+        "physical_cells": 20,
+        "rows": 10,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        174
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 39,
+      "title_sha256": "e5aaa506d80d3b1f8018dd4a9f25239847dda0e99ea6b2a38d374029bf665127"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": null,
+      "confidence": "high",
+      "dimensions": {},
+      "entity_id": "F14.3.7.2",
+      "entity_kind": "figure",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "metadata_only",
+      "physical_shape": {
+        "grid_columns": 2,
+        "horizontal_merges": 0,
+        "physical_cells": 20,
+        "rows": 10,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        175
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 42,
+      "title_sha256": "375b9e5de3d9dce8d1401c1faeb245574a6d23840bafc18237feba237fe95f4e"
+    }
+  ],
+  "metrics": {
+    "all_story_table_cells": 7424,
+    "all_story_table_objects": 179,
+    "batch_review_entities": 80,
+    "cell_level_entities": 37,
+    "elapsed_seconds": 2.922,
+    "figure_entities": 18,
+    "high_confidence_entities": 30,
+    "high_confidence_entity_rate": 0.2727,
+    "human_review_batches": 3,
+    "listing_entities": 0,
+    "metadata_only_entities": 73,
+    "object_level_auto_proposals": 175,
+    "object_level_proposal_rate": 1.0,
+    "object_roles": {
+      "entity_attachment": 62,
+      "entity_main": 109,
+      "front_matter": 4
+    },
+    "table_entities": 92,
+    "tfl_body_physical_cells": 7410,
+    "tfl_body_table_objects": 175,
+    "unique_tfl_entities": 110
+  },
+  "prefix_normalization": {
+    "ascii_key_layer": true,
+    "图": "F",
+    "清单": "L",
+    "表": "T"
+  },
+  "privacy": {
+    "source_cell_labels_written": false,
+    "source_path_written": false,
+    "source_titles_written": false,
+    "subject_identifiers_written": false
+  },
+  "report_sha256": "875e8c4ef44160109106c5913cc01ee55d1e56482446775ee873440399517ec1",
+  "review_queue": [
+    {
+      "allowed_decisions": [
+        "confirm",
+        "revise",
+        "defer"
+      ],
+      "batch_id": "BATCH-001",
+      "entity_count": 1,
+      "entity_ids": [
+        "T14.3.7.5.2"
+      ],
+      "family": "POLICY_GROUP",
+      "reason": "entity block contains multiple Word table objects"
+    },
+    {
+      "allowed_decisions": [
+        "confirm",
+        "revise",
+        "defer"
+      ],
+      "batch_id": "BATCH-002",
+      "entity_count": 26,
+      "entity_ids": [
+        "T14.1.1.3",
+        "T14.1.2.1",
+        "T14.1.2.2",
+        "T14.1.3.1",
+        "T14.1.4.1",
+        "T14.1.4.3",
+        "T14.2.1.1.1",
+        "T14.2.2.1.1",
+        "T14.2.2.5.1",
+        "T14.2.4.1",
+        "T14.2.4.3.1",
+        "T14.2.4.3.2",
+        "T14.3.1.1",
+        "T14.3.1.2",
+        "T14.3.1.3.1",
+        "T14.3.1.3.19",
+        "T14.3.4.1.1",
+        "T14.3.4.2.1",
+        "T14.3.5.2",
+        "T14.3.6.2",
+        "T14.3.6.3",
+        "T14.3.7.1.1",
+        "T14.3.7.1.2",
+        "T14.3.7.3.2",
+        "T14.3.7.4.2",
+        "T14.3.7.5.1"
+      ],
+      "family": "POLICY_GROUP",
+      "reason": "one or more row paths required positional disambiguation"
+    },
+    {
+      "allowed_decisions": [
+        "confirm",
+        "revise",
+        "defer"
+      ],
+      "batch_id": "BATCH-003",
+      "entity_count": 53,
+      "entity_ids": [
+        "T14.1.3.2",
+        "T14.1.4.2",
+        "T14.1.4.4",
+        "T14.2.1.1.2",
+        "T14.2.2.1.2",
+        "T14.2.2.2.1",
+        "T14.2.2.2.2",
+        "T14.2.2.3.1",
+        "T14.2.2.3.2",
+        "T14.2.2.4.1",
+        "T14.2.2.4.2",
+        "T14.2.2.5.2",
+        "T14.3.1.3.10",
+        "T14.3.1.3.11",
+        "T14.3.1.3.12",
+        "T14.3.1.3.13",
+        "T14.3.1.3.14",
+        "T14.3.1.3.15",
+        "T14.3.1.3.16",
+        "T14.3.1.3.17",
+        "T14.3.1.3.18",
+        "T14.3.1.3.2",
+        "T14.3.1.3.20",
+        "T14.3.1.3.21",
+        "T14.3.1.3.22",
+        "T14.3.1.3.23",
+        "T14.3.1.3.24",
+        "T14.3.1.3.25",
+        "T14.3.1.3.26",
+        "T14.3.1.3.27",
+        "T14.3.1.3.28",
+        "T14.3.1.3.29",
+        "T14.3.1.3.3",
+        "T14.3.1.3.30",
+        "T14.3.1.3.31",
+        "T14.3.1.3.32",
+        "T14.3.1.3.33",
+        "T14.3.1.3.34",
+        "T14.3.1.3.4",
+        "T14.3.1.3.5",
+        "T14.3.1.3.6",
+        "T14.3.1.3.7",
+        "T14.3.1.3.8",
+        "T14.3.1.3.9",
+        "T14.3.2.1",
+        "T14.3.2.2",
+        "T14.3.2.3",
+        "T14.3.2.4",
+        "T14.3.4.1.2",
+        "T14.3.4.1.3",
+        "T14.3.4.2.2",
+        "T14.3.4.2.3",
+        "T14.3.4.2.4"
+      ],
+      "family": "POLICY_GROUP",
+      "reason": "shell contains no usable row-by-column grid"
+    }
+  ],
+  "schema_version": "1.0",
+  "source_sha256": "75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+  "status": "review_required"
+}

@@ -1,0 +1,22 @@
+{
+  "evidence_status": "demo_only",
+  "schema_version": "1.1",
+  "section_id": "9.4.6",
+  "source_fragments": [
+    {
+      "locator": "脱敏方案/盲法章节",
+      "purpose": "blinding_method",
+      "source_id": "SRC-BLIND-PROTOCOL",
+      "text": "研究采用双盲设计；研究用制剂在外观、包装和标签方面保持一致，随机编码由非盲人员保管。"
+    },
+    {
+      "locator": "脱敏盲态维护记录",
+      "purpose": "unblinding_record",
+      "source_id": "SRC-UNBLIND-RECORD",
+      "text": "经审核的盲态维护记录未报告非计划揭盲；应急揭盲按预设程序执行并留痕。"
+    }
+  ],
+  "tfl_bindings": [],
+  "tfl_references": [],
+  "variant": "blinding"
+}

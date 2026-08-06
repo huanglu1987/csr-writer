@@ -1,0 +1,27 @@
+==============================================================================
+CSR M1 OOXML 格式质检（固定 21 项）
+==============================================================================
+ ✓ [PASS] 01_PACKAGE_INTEGRITY         required parts present and every XML part parses
+ ✓ [PASS] 02_PAGE_PROFILE_EXACT        two next-page portrait sections exactly match the authoring page profile
+ ✓ [PASS] 03_MARGIN_PROFILE_EXACT      all margins and header/footer distances exactly match authoring_profile
+ ✓ [PASS] 04_SECTION_STORIES_EXACT     each section has normalized default stories, centered topic header, and no first/even variants
+ ✓ [PASS] 05_BODY_PAGE_FIELDS_EXACT    body footer contains exactly PAGE then SECTIONPAGES; cover has neither
+ ✓ [PASS] 06_PAGE_NUMBER_CENTER        PAGE field paragraph is centered
+ ✓ [PASS] 07_PAGE_NUMBER_RESTART       numbered body restarts at page 1
+ ✓ [PASS] 08_TOC_FIELD_EXACT           one TOC field covers heading levels 1-5
+ ✓ [PASS] 09_COMPLEX_FIELD_SEQUENCES   every generated field has begin/instruction/separate/end
+ ✓ [PASS] 10_BOOKMARK_PAIRS            bookmark IDs and expected section names are unique and paired
+ ✓ [PASS] 11_BOOKMARK_NONEMPTY         every bookmark encloses its complete expected heading text
+ ✓ [PASS] 12_NUMBERING_DEFINITION_EXACT referenced multilevel numbering has exact five-level definitions
+ ✓ [PASS] 13_NUMBERING_REFERENCES      one heading numId resolves without dangling references
+ ✓ [PASS] 14_STYLE_CHINESE_FONT_EXACT  all required styles match authoring_profile Chinese fonts
+ ✓ [PASS] 15_STYLE_LATIN_FONT_EXACT    all required styles match authoring_profile Latin font
+ ✓ [PASS] 16_STYLE_FONT_COLOR_EXACT    all required styles match authoring_profile black
+ ✓ [PASS] 17_STYLE_SIZE_PROFILE_EXACT  all required style sizes exactly match authoring_profile and official minima
+ ✓ [PASS] 18_PARAGRAPH_PROFILE_EXACT   body, TOC, story, and Heading 1-5 paragraph/run properties match the exact authoring profile
+ ✓ [PASS] 19_STYLE_DECOUPLE            0 inline run-format overrides across generated stories
+ ✓ [PASS] 20_HEADING_TREE_AND_LEVELS   title-only body exactly matches 119 YAML nodes and levels
+ ✓ [PASS] 21_PLACEHOLDER_RESIDUE_ALL_STORIES no unresolved or malformed placeholder markers in any generated story
+==============================================================================
+PASS 21   FAIL 0
+结论边界：仅报告未发现/发现 OOXML 格式问题，不作申报就绪判断。

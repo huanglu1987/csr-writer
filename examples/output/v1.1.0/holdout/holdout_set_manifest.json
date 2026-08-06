@@ -1,0 +1,43 @@
+{
+  "construction_rule": "created without importing or reading visual QC configuration",
+  "documents": [
+    {
+      "filename": "01_portrait_body.docx",
+      "scenario": "portrait_body",
+      "sha256": "620895a83f660af38c1b8347bea6ca3d011bc31cb645b9fcac6e1643381be931"
+    },
+    {
+      "filename": "02_header_footer.docx",
+      "scenario": "header_footer",
+      "sha256": "bb47e7a100864dc41dd9a81f52b2bcf077ff98f40f58915071759a65c135890f"
+    },
+    {
+      "filename": "03_chapter_opener.docx",
+      "scenario": "chapter_opener",
+      "sha256": "d971170fd148c0260e7ba48aaf94032c3619636d058b46c66ba0d92184d9f857"
+    },
+    {
+      "filename": "04_landscape_wide_table.docx",
+      "scenario": "landscape_wide_table",
+      "sha256": "eb5a4749a6fdfd0889dfc3e4632a651947cdaffbf7138b246dd153cbd90f512b"
+    },
+    {
+      "filename": "05_long_table_repeated_header.docx",
+      "scenario": "long_table_repeated_header",
+      "sha256": "f255f8b63e1fd9198f5d66b0f79f22fbf170068232e986689c4ba398b99193c5"
+    },
+    {
+      "filename": "06_appendix_page.docx",
+      "scenario": "appendix_page",
+      "sha256": "9022449a9657148ea9f58ea33b518c96421e036ee52258d5747559de641b5a56"
+    }
+  ],
+  "expected_class_a_findings": 0,
+  "generator": {
+    "filename": "build_v1_1_visual_holdout_set.py",
+    "sha256": "293412909918c41c05e971bd21245c4ebe73ad2380bf356d504dabedd14e5d78"
+  },
+  "schema_version": "1.0",
+  "source_kind": "synthetic_deidentified",
+  "status": "post_freeze_holdout"
+}

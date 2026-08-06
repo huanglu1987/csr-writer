@@ -1,0 +1,771 @@
+{
+  "adapter_scope": "single-table flat SAS ODS RTF; reviewed mapping required",
+  "cells": {
+    "T14.2.1|POP=FAS|ROW=95_CI|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "Placebo (N=60)"
+      },
+      "display_value": "(32.1, 58.4)",
+      "row": {
+        "id": "95_CI",
+        "indent": 2,
+        "label": "95% CI"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 4,
+        "source_id": "sha256:fd5ae02d4c8775c4b5849efdd68d1328f0ed87fc55bb4c6bc995f4027a4252b7"
+      },
+      "type": "ci95",
+      "v": "(32.1, 58.4)"
+    },
+    "T14.2.1|POP=FAS|ROW=95_CI|COL=XYZ200MG": {
+      "column": {
+        "id": "XYZ200MG",
+        "label": "XYZ 200mg (N=60)"
+      },
+      "display_value": "(56.8, 81.2)",
+      "row": {
+        "id": "95_CI",
+        "indent": 2,
+        "label": "95% CI"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 4,
+        "source_id": "sha256:fd5ae02d4c8775c4b5849efdd68d1328f0ed87fc55bb4c6bc995f4027a4252b7"
+      },
+      "type": "ci95",
+      "v": "(56.8, 81.2)"
+    },
+    "T14.2.1|POP=FAS|ROW=COMPLETE_RESPONSE_CR|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "Placebo (N=60)"
+      },
+      "display_value": "5 (8.3)",
+      "row": {
+        "id": "COMPLETE_RESPONSE_CR",
+        "indent": 0,
+        "label": "Complete Response (CR)"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 1,
+        "source_id": "sha256:fd5ae02d4c8775c4b5849efdd68d1328f0ed87fc55bb4c6bc995f4027a4252b7"
+      },
+      "type": "n_pct",
+      "v": "5 (8.3)"
+    },
+    "T14.2.1|POP=FAS|ROW=COMPLETE_RESPONSE_CR|COL=TOT": {
+      "column": {
+        "id": "TOT",
+        "label": "Total (N=120)"
+      },
+      "display_value": "17 (14.2)",
+      "row": {
+        "id": "COMPLETE_RESPONSE_CR",
+        "indent": 0,
+        "label": "Complete Response (CR)"
+      },
+      "source_locator": {
+        "column_index": 3,
+        "row_index": 1,
+        "source_id": "sha256:fd5ae02d4c8775c4b5849efdd68d1328f0ed87fc55bb4c6bc995f4027a4252b7"
+      },
+      "type": "n_pct",
+      "v": "17 (14.2)"
+    },
+    "T14.2.1|POP=FAS|ROW=COMPLETE_RESPONSE_CR|COL=XYZ200MG": {
+      "column": {
+        "id": "XYZ200MG",
+        "label": "XYZ 200mg (N=60)"
+      },
+      "display_value": "12 (20.0)",
+      "row": {
+        "id": "COMPLETE_RESPONSE_CR",
+        "indent": 0,
+        "label": "Complete Response (CR)"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 1,
+        "source_id": "sha256:fd5ae02d4c8775c4b5849efdd68d1328f0ed87fc55bb4c6bc995f4027a4252b7"
+      },
+      "type": "n_pct",
+      "v": "12 (20.0)"
+    },
+    "T14.2.1|POP=FAS|ROW=DIFFERENCE|COL=STAT": {
+      "column": {
+        "id": "STAT",
+        "label": "Total (N=120)"
+      },
+      "display_value": "25.0",
+      "row": {
+        "id": "DIFFERENCE",
+        "indent": 0,
+        "label": "Difference (%)"
+      },
+      "source_locator": {
+        "column_index": 3,
+        "row_index": 5,
+        "source_id": "sha256:fd5ae02d4c8775c4b5849efdd68d1328f0ed87fc55bb4c6bc995f4027a4252b7"
+      },
+      "type": "difference",
+      "v": "25.0"
+    },
+    "T14.2.1|POP=FAS|ROW=OBJECTIVE_RESPONSE_CR_PR|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "Placebo (N=60)"
+      },
+      "display_value": "27 (45.0)",
+      "row": {
+        "id": "OBJECTIVE_RESPONSE_CR_PR",
+        "indent": 0,
+        "label": "Objective Response (CR+PR)"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 3,
+        "source_id": "sha256:fd5ae02d4c8775c4b5849efdd68d1328f0ed87fc55bb4c6bc995f4027a4252b7"
+      },
+      "type": "n_pct",
+      "v": "27 (45.0)"
+    },
+    "T14.2.1|POP=FAS|ROW=OBJECTIVE_RESPONSE_CR_PR|COL=TOT": {
+      "column": {
+        "id": "TOT",
+        "label": "Total (N=120)"
+      },
+      "display_value": "69 (57.5)",
+      "row": {
+        "id": "OBJECTIVE_RESPONSE_CR_PR",
+        "indent": 0,
+        "label": "Objective Response (CR+PR)"
+      },
+      "source_locator": {
+        "column_index": 3,
+        "row_index": 3,
+        "source_id": "sha256:fd5ae02d4c8775c4b5849efdd68d1328f0ed87fc55bb4c6bc995f4027a4252b7"
+      },
+      "type": "n_pct",
+      "v": "69 (57.5)"
+    },
+    "T14.2.1|POP=FAS|ROW=OBJECTIVE_RESPONSE_CR_PR|COL=XYZ200MG": {
+      "column": {
+        "id": "XYZ200MG",
+        "label": "XYZ 200mg (N=60)"
+      },
+      "display_value": "42 (70.0)",
+      "row": {
+        "id": "OBJECTIVE_RESPONSE_CR_PR",
+        "indent": 0,
+        "label": "Objective Response (CR+PR)"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 3,
+        "source_id": "sha256:fd5ae02d4c8775c4b5849efdd68d1328f0ed87fc55bb4c6bc995f4027a4252b7"
+      },
+      "type": "n_pct",
+      "v": "42 (70.0)"
+    },
+    "T14.2.1|POP=FAS|ROW=PARTIAL_RESPONSE_PR|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "Placebo (N=60)"
+      },
+      "display_value": "22 (36.7)",
+      "row": {
+        "id": "PARTIAL_RESPONSE_PR",
+        "indent": 0,
+        "label": "Partial Response (PR)"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 2,
+        "source_id": "sha256:fd5ae02d4c8775c4b5849efdd68d1328f0ed87fc55bb4c6bc995f4027a4252b7"
+      },
+      "type": "n_pct",
+      "v": "22 (36.7)"
+    },
+    "T14.2.1|POP=FAS|ROW=PARTIAL_RESPONSE_PR|COL=TOT": {
+      "column": {
+        "id": "TOT",
+        "label": "Total (N=120)"
+      },
+      "display_value": "52 (43.3)",
+      "row": {
+        "id": "PARTIAL_RESPONSE_PR",
+        "indent": 0,
+        "label": "Partial Response (PR)"
+      },
+      "source_locator": {
+        "column_index": 3,
+        "row_index": 2,
+        "source_id": "sha256:fd5ae02d4c8775c4b5849efdd68d1328f0ed87fc55bb4c6bc995f4027a4252b7"
+      },
+      "type": "n_pct",
+      "v": "52 (43.3)"
+    },
+    "T14.2.1|POP=FAS|ROW=PARTIAL_RESPONSE_PR|COL=XYZ200MG": {
+      "column": {
+        "id": "XYZ200MG",
+        "label": "XYZ 200mg (N=60)"
+      },
+      "display_value": "30 (50.0)",
+      "row": {
+        "id": "PARTIAL_RESPONSE_PR",
+        "indent": 0,
+        "label": "Partial Response (PR)"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 2,
+        "source_id": "sha256:fd5ae02d4c8775c4b5849efdd68d1328f0ed87fc55bb4c6bc995f4027a4252b7"
+      },
+      "type": "n_pct",
+      "v": "30 (50.0)"
+    },
+    "T14.2.1|POP=FAS|ROW=P_VALUE|COL=STAT": {
+      "column": {
+        "id": "STAT",
+        "label": "Total (N=120)"
+      },
+      "display_value": "0.0013",
+      "row": {
+        "id": "P_VALUE",
+        "indent": 0,
+        "label": "p-value"
+      },
+      "source_locator": {
+        "column_index": 3,
+        "row_index": 6,
+        "source_id": "sha256:fd5ae02d4c8775c4b5849efdd68d1328f0ed87fc55bb4c6bc995f4027a4252b7"
+      },
+      "type": "pvalue",
+      "v": "0.0013"
+    },
+    "T14.4.1.1|POP=PKAS|ROW=AUC0_INF|COL=100MG": {
+      "column": {
+        "id": "100MG",
+        "label": "100 mg (N=6)"
+      },
+      "display_value": "7150 (26.1)",
+      "row": {
+        "id": "AUC0_INF",
+        "indent": 0,
+        "label": "AUC0-inf"
+      },
+      "source_locator": {
+        "column_index": 3,
+        "row_index": 4,
+        "source_id": "sha256:b9d7403a17f8f6007cd492d8171834f6057d0e8d28bb85e214e9507228730dfa"
+      },
+      "type": "geomean_cv",
+      "v": "7150 (26.1)"
+    },
+    "T14.4.1.1|POP=PKAS|ROW=AUC0_INF|COL=200MG": {
+      "column": {
+        "id": "200MG",
+        "label": "200 mg (N=6)"
+      },
+      "display_value": "14800 (25.0)",
+      "row": {
+        "id": "AUC0_INF",
+        "indent": 0,
+        "label": "AUC0-inf"
+      },
+      "source_locator": {
+        "column_index": 4,
+        "row_index": 4,
+        "source_id": "sha256:b9d7403a17f8f6007cd492d8171834f6057d0e8d28bb85e214e9507228730dfa"
+      },
+      "type": "geomean_cv",
+      "v": "14800 (25.0)"
+    },
+    "T14.4.1.1|POP=PKAS|ROW=AUC0_INF|COL=50MG": {
+      "column": {
+        "id": "50MG",
+        "label": "50 mg (N=3)"
+      },
+      "display_value": "3390 (23.0)",
+      "row": {
+        "id": "AUC0_INF",
+        "indent": 0,
+        "label": "AUC0-inf"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 4,
+        "source_id": "sha256:b9d7403a17f8f6007cd492d8171834f6057d0e8d28bb85e214e9507228730dfa"
+      },
+      "type": "geomean_cv",
+      "v": "3390 (23.0)"
+    },
+    "T14.4.1.1|POP=PKAS|ROW=AUC0_INF|COL=UNIT": {
+      "column": {
+        "id": "UNIT",
+        "label": "Unit"
+      },
+      "display_value": "h*ng/mL",
+      "row": {
+        "id": "AUC0_INF",
+        "indent": 0,
+        "label": "AUC0-inf"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 4,
+        "source_id": "sha256:b9d7403a17f8f6007cd492d8171834f6057d0e8d28bb85e214e9507228730dfa"
+      },
+      "type": "unit",
+      "v": "h*ng/mL"
+    },
+    "T14.4.1.1|POP=PKAS|ROW=AUC0_T|COL=100MG": {
+      "column": {
+        "id": "100MG",
+        "label": "100 mg (N=6)"
+      },
+      "display_value": "6910 (25.7)",
+      "row": {
+        "id": "AUC0_T",
+        "indent": 0,
+        "label": "AUC0-t"
+      },
+      "source_locator": {
+        "column_index": 3,
+        "row_index": 3,
+        "source_id": "sha256:b9d7403a17f8f6007cd492d8171834f6057d0e8d28bb85e214e9507228730dfa"
+      },
+      "type": "geomean_cv",
+      "v": "6910 (25.7)"
+    },
+    "T14.4.1.1|POP=PKAS|ROW=AUC0_T|COL=200MG": {
+      "column": {
+        "id": "200MG",
+        "label": "200 mg (N=6)"
+      },
+      "display_value": "14200 (24.3)",
+      "row": {
+        "id": "AUC0_T",
+        "indent": 0,
+        "label": "AUC0-t"
+      },
+      "source_locator": {
+        "column_index": 4,
+        "row_index": 3,
+        "source_id": "sha256:b9d7403a17f8f6007cd492d8171834f6057d0e8d28bb85e214e9507228730dfa"
+      },
+      "type": "geomean_cv",
+      "v": "14200 (24.3)"
+    },
+    "T14.4.1.1|POP=PKAS|ROW=AUC0_T|COL=50MG": {
+      "column": {
+        "id": "50MG",
+        "label": "50 mg (N=3)"
+      },
+      "display_value": "3240 (22.1)",
+      "row": {
+        "id": "AUC0_T",
+        "indent": 0,
+        "label": "AUC0-t"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 3,
+        "source_id": "sha256:b9d7403a17f8f6007cd492d8171834f6057d0e8d28bb85e214e9507228730dfa"
+      },
+      "type": "geomean_cv",
+      "v": "3240 (22.1)"
+    },
+    "T14.4.1.1|POP=PKAS|ROW=AUC0_T|COL=UNIT": {
+      "column": {
+        "id": "UNIT",
+        "label": "Unit"
+      },
+      "display_value": "h*ng/mL",
+      "row": {
+        "id": "AUC0_T",
+        "indent": 0,
+        "label": "AUC0-t"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 3,
+        "source_id": "sha256:b9d7403a17f8f6007cd492d8171834f6057d0e8d28bb85e214e9507228730dfa"
+      },
+      "type": "unit",
+      "v": "h*ng/mL"
+    },
+    "T14.4.1.1|POP=PKAS|ROW=CL_F|COL=100MG": {
+      "column": {
+        "id": "100MG",
+        "label": "100 mg (N=6)"
+      },
+      "display_value": "14.0 (26.1)",
+      "row": {
+        "id": "CL_F",
+        "indent": 0,
+        "label": "CL/F"
+      },
+      "source_locator": {
+        "column_index": 3,
+        "row_index": 6,
+        "source_id": "sha256:b9d7403a17f8f6007cd492d8171834f6057d0e8d28bb85e214e9507228730dfa"
+      },
+      "type": "geomean_cv",
+      "v": "14.0 (26.1)"
+    },
+    "T14.4.1.1|POP=PKAS|ROW=CL_F|COL=200MG": {
+      "column": {
+        "id": "200MG",
+        "label": "200 mg (N=6)"
+      },
+      "display_value": "13.5 (25.0)",
+      "row": {
+        "id": "CL_F",
+        "indent": 0,
+        "label": "CL/F"
+      },
+      "source_locator": {
+        "column_index": 4,
+        "row_index": 6,
+        "source_id": "sha256:b9d7403a17f8f6007cd492d8171834f6057d0e8d28bb85e214e9507228730dfa"
+      },
+      "type": "geomean_cv",
+      "v": "13.5 (25.0)"
+    },
+    "T14.4.1.1|POP=PKAS|ROW=CL_F|COL=50MG": {
+      "column": {
+        "id": "50MG",
+        "label": "50 mg (N=3)"
+      },
+      "display_value": "14.7 (23.0)",
+      "row": {
+        "id": "CL_F",
+        "indent": 0,
+        "label": "CL/F"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 6,
+        "source_id": "sha256:b9d7403a17f8f6007cd492d8171834f6057d0e8d28bb85e214e9507228730dfa"
+      },
+      "type": "geomean_cv",
+      "v": "14.7 (23.0)"
+    },
+    "T14.4.1.1|POP=PKAS|ROW=CL_F|COL=UNIT": {
+      "column": {
+        "id": "UNIT",
+        "label": "Unit"
+      },
+      "display_value": "L/h",
+      "row": {
+        "id": "CL_F",
+        "indent": 0,
+        "label": "CL/F"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 6,
+        "source_id": "sha256:b9d7403a17f8f6007cd492d8171834f6057d0e8d28bb85e214e9507228730dfa"
+      },
+      "type": "unit",
+      "v": "L/h"
+    },
+    "T14.4.1.1|POP=PKAS|ROW=CMAX|COL=100MG": {
+      "column": {
+        "id": "100MG",
+        "label": "100 mg (N=6)"
+      },
+      "display_value": "856 (31.2)",
+      "row": {
+        "id": "CMAX",
+        "indent": 0,
+        "label": "Cmax"
+      },
+      "source_locator": {
+        "column_index": 3,
+        "row_index": 1,
+        "source_id": "sha256:b9d7403a17f8f6007cd492d8171834f6057d0e8d28bb85e214e9507228730dfa"
+      },
+      "type": "geomean_cv",
+      "v": "856 (31.2)"
+    },
+    "T14.4.1.1|POP=PKAS|ROW=CMAX|COL=200MG": {
+      "column": {
+        "id": "200MG",
+        "label": "200 mg (N=6)"
+      },
+      "display_value": "1720 (26.8)",
+      "row": {
+        "id": "CMAX",
+        "indent": 0,
+        "label": "Cmax"
+      },
+      "source_locator": {
+        "column_index": 4,
+        "row_index": 1,
+        "source_id": "sha256:b9d7403a17f8f6007cd492d8171834f6057d0e8d28bb85e214e9507228730dfa"
+      },
+      "type": "geomean_cv",
+      "v": "1720 (26.8)"
+    },
+    "T14.4.1.1|POP=PKAS|ROW=CMAX|COL=50MG": {
+      "column": {
+        "id": "50MG",
+        "label": "50 mg (N=3)"
+      },
+      "display_value": "412 (28.4)",
+      "row": {
+        "id": "CMAX",
+        "indent": 0,
+        "label": "Cmax"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 1,
+        "source_id": "sha256:b9d7403a17f8f6007cd492d8171834f6057d0e8d28bb85e214e9507228730dfa"
+      },
+      "type": "geomean_cv",
+      "v": "412 (28.4)"
+    },
+    "T14.4.1.1|POP=PKAS|ROW=CMAX|COL=UNIT": {
+      "column": {
+        "id": "UNIT",
+        "label": "Unit"
+      },
+      "display_value": "ng/mL",
+      "row": {
+        "id": "CMAX",
+        "indent": 0,
+        "label": "Cmax"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 1,
+        "source_id": "sha256:b9d7403a17f8f6007cd492d8171834f6057d0e8d28bb85e214e9507228730dfa"
+      },
+      "type": "unit",
+      "v": "ng/mL"
+    },
+    "T14.4.1.1|POP=PKAS|ROW=T1_2|COL=100MG": {
+      "column": {
+        "id": "100MG",
+        "label": "100 mg (N=6)"
+      },
+      "display_value": "12.4 (20.1)",
+      "row": {
+        "id": "T1_2",
+        "indent": 0,
+        "label": "t1/2"
+      },
+      "source_locator": {
+        "column_index": 3,
+        "row_index": 5,
+        "source_id": "sha256:b9d7403a17f8f6007cd492d8171834f6057d0e8d28bb85e214e9507228730dfa"
+      },
+      "type": "geomean_cv",
+      "v": "12.4 (20.1)"
+    },
+    "T14.4.1.1|POP=PKAS|ROW=T1_2|COL=200MG": {
+      "column": {
+        "id": "200MG",
+        "label": "200 mg (N=6)"
+      },
+      "display_value": "12.0 (19.4)",
+      "row": {
+        "id": "T1_2",
+        "indent": 0,
+        "label": "t1/2"
+      },
+      "source_locator": {
+        "column_index": 4,
+        "row_index": 5,
+        "source_id": "sha256:b9d7403a17f8f6007cd492d8171834f6057d0e8d28bb85e214e9507228730dfa"
+      },
+      "type": "geomean_cv",
+      "v": "12.0 (19.4)"
+    },
+    "T14.4.1.1|POP=PKAS|ROW=T1_2|COL=50MG": {
+      "column": {
+        "id": "50MG",
+        "label": "50 mg (N=3)"
+      },
+      "display_value": "11.2 (18.5)",
+      "row": {
+        "id": "T1_2",
+        "indent": 0,
+        "label": "t1/2"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 5,
+        "source_id": "sha256:b9d7403a17f8f6007cd492d8171834f6057d0e8d28bb85e214e9507228730dfa"
+      },
+      "type": "geomean_cv",
+      "v": "11.2 (18.5)"
+    },
+    "T14.4.1.1|POP=PKAS|ROW=T1_2|COL=UNIT": {
+      "column": {
+        "id": "UNIT",
+        "label": "Unit"
+      },
+      "display_value": "h",
+      "row": {
+        "id": "T1_2",
+        "indent": 0,
+        "label": "t1/2"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 5,
+        "source_id": "sha256:b9d7403a17f8f6007cd492d8171834f6057d0e8d28bb85e214e9507228730dfa"
+      },
+      "type": "unit",
+      "v": "h"
+    },
+    "T14.4.1.1|POP=PKAS|ROW=TMAX|COL=100MG": {
+      "column": {
+        "id": "100MG",
+        "label": "100 mg (N=6)"
+      },
+      "display_value": "2.50 (1.00-4.02)",
+      "row": {
+        "id": "TMAX",
+        "indent": 0,
+        "label": "Tmax"
+      },
+      "source_locator": {
+        "column_index": 3,
+        "row_index": 2,
+        "source_id": "sha256:b9d7403a17f8f6007cd492d8171834f6057d0e8d28bb85e214e9507228730dfa"
+      },
+      "type": "median_range",
+      "v": "2.50 (1.00-4.02)"
+    },
+    "T14.4.1.1|POP=PKAS|ROW=TMAX|COL=200MG": {
+      "column": {
+        "id": "200MG",
+        "label": "200 mg (N=6)"
+      },
+      "display_value": "2.00 (1.00-6.00)",
+      "row": {
+        "id": "TMAX",
+        "indent": 0,
+        "label": "Tmax"
+      },
+      "source_locator": {
+        "column_index": 4,
+        "row_index": 2,
+        "source_id": "sha256:b9d7403a17f8f6007cd492d8171834f6057d0e8d28bb85e214e9507228730dfa"
+      },
+      "type": "median_range",
+      "v": "2.00 (1.00-6.00)"
+    },
+    "T14.4.1.1|POP=PKAS|ROW=TMAX|COL=50MG": {
+      "column": {
+        "id": "50MG",
+        "label": "50 mg (N=3)"
+      },
+      "display_value": "2.00 (1.00-4.00)",
+      "row": {
+        "id": "TMAX",
+        "indent": 0,
+        "label": "Tmax"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 2,
+        "source_id": "sha256:b9d7403a17f8f6007cd492d8171834f6057d0e8d28bb85e214e9507228730dfa"
+      },
+      "type": "median_range",
+      "v": "2.00 (1.00-4.00)"
+    },
+    "T14.4.1.1|POP=PKAS|ROW=TMAX|COL=UNIT": {
+      "column": {
+        "id": "UNIT",
+        "label": "Unit"
+      },
+      "display_value": "h",
+      "row": {
+        "id": "TMAX",
+        "indent": 0,
+        "label": "Tmax"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 2,
+        "source_id": "sha256:b9d7403a17f8f6007cd492d8171834f6057d0e8d28bb85e214e9507228730dfa"
+      },
+      "type": "unit",
+      "v": "h"
+    }
+  },
+  "mapping_manifest": {
+    "filename": "demo_tfl_manifest.yaml",
+    "sha256": "bdab11daf93d8992aa7023657eb07e6ac12d53b705330a31facda2bf91732cfe"
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "codec": "gbk",
+      "declared_codepage": 936,
+      "decode_replacements": 0,
+      "filename": "fixture_t_14_2_1.rtf",
+      "format": "sas-ods-rtf-flat-v1",
+      "manifest_path": "../../参考实现/fixture_t_14_2_1.rtf",
+      "source_id": "sha256:fd5ae02d4c8775c4b5849efdd68d1328f0ed87fc55bb4c6bc995f4027a4252b7"
+    },
+    {
+      "codec": "gbk",
+      "declared_codepage": 936,
+      "decode_replacements": 0,
+      "filename": "fixture_t_pk_nca.rtf",
+      "format": "sas-ods-rtf-flat-v1",
+      "manifest_path": "../../参考实现/fixture_t_pk_nca.rtf",
+      "source_id": "sha256:b9d7403a17f8f6007cd492d8171834f6057d0e8d28bb85e214e9507228730dfa"
+    }
+  ],
+  "tables": [
+    {
+      "adapter": "sas-ods-rtf-flat-v1",
+      "footnotes": [
+        "Note: Percentages are based on the number of subjects in the FAS.",
+        "中文备注：百分比合计可能有舍入误差。"
+      ],
+      "population": "FAS",
+      "source_id": "sha256:fd5ae02d4c8775c4b5849efdd68d1328f0ed87fc55bb4c6bc995f4027a4252b7",
+      "table_id": "T14.2.1",
+      "titles": [
+        "Table 14.2.1",
+        "Objective Response Rate (Full Analysis Set)"
+      ],
+      "trailer": {
+        "output_raw": "20JUL2026 14:32",
+        "program": "t_orr.sas"
+      }
+    },
+    {
+      "adapter": "sas-ods-rtf-flat-v1",
+      "footnotes": [
+        "Geometric mean (geometric CV%) except Tmax, which is median (min-max).",
+        "注：除 Tmax 外，均为几何均值（几何 CV%）。"
+      ],
+      "population": "PKAS",
+      "source_id": "sha256:b9d7403a17f8f6007cd492d8171834f6057d0e8d28bb85e214e9507228730dfa",
+      "table_id": "T14.4.1.1",
+      "titles": [
+        "Table 14.4.1.1",
+        "Summary of Plasma PK Parameters After Single Dose (PK Analysis Set)"
+      ],
+      "trailer": {
+        "output_raw": "22JUL2026 09:15",
+        "program": "t_pk_nca.sas"
+      }
+    }
+  ]
+}

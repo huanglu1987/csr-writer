@@ -1,0 +1,50 @@
+{
+  "annotated_skeleton": "examples/output/m11/CSR_DEID_M11_skeleton_annotated.docx",
+  "appendix_rows_rendered": 24,
+  "authoring_inventory": {
+    "authoring_unit_count": 120,
+    "container_count": 30,
+    "depth_counts": {
+      "中等": 32,
+      "完整": 35,
+      "轻量": 5,
+      "轻量模板/自动生成": 48
+    },
+    "full_playbook_coverage_units": 35,
+    "full_units_with_exact_writer": 7,
+    "full_units_with_existing_playbook": 25,
+    "full_units_without_existing_playbook": 10,
+    "type_counts": {
+      "事务类": 48,
+      "方法类": 32,
+      "结果类": 40
+    },
+    "visible_heading_count": 150
+  },
+  "clean_skeleton": "examples/output/m11/CSR_DEID_M11_skeleton_clean.docx",
+  "numbering_order": {
+    "inversions": [],
+    "status": "pass",
+    "visible_heading_count": 150
+  },
+  "omission_declaration_blocks": 1,
+  "privacy_scan": "pass",
+  "schema_version": "1.0",
+  "source_hash_audit": "pass",
+  "status": "pass",
+  "structure_qc": {
+    "annotated": "pass",
+    "clean": "pass"
+  },
+  "writing_trial": {
+    "first_pass_rejected_paragraph_count": 1,
+    "first_pass_rejected_section_count": 1,
+    "manual_polishing_after_guard": false,
+    "rejection_reason_distribution": {
+      "missing_exact_medical_review_marker": 1
+    },
+    "resolved_pass_count": 4,
+    "retry_count": 1,
+    "section_count": 4
+  }
+}

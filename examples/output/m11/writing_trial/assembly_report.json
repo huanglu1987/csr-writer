@@ -1,0 +1,18 @@
+{
+  "cross_references": {
+    "bookmark_count": 5,
+    "field_count": 5,
+    "status": "pass",
+    "unique_target_count": 5
+  },
+  "mode": "annotated",
+  "output": "examples/output/m11/writing_trial/M11_writing_trial_annotated.docx",
+  "pending_count": 2,
+  "pending_paragraphs": [
+    "11.5.4:p_11_5_4_003",
+    "12.2:p_12_2_003"
+  ],
+  "schema_version": "1.0",
+  "sha256": "e10f212dbb9c7a86db7b31f7889b0a8e38a8930c04163b214c1fa89a5950bbd5",
+  "status": "pass"
+}

@@ -1,0 +1,25 @@
+{
+  "comparison_section_count": 4,
+  "complete_playbook_count": 16,
+  "conclusion_scenario_count": 3,
+  "deepened_playbook_count": 10,
+  "full_units_without_existing_playbook": 0,
+  "new_playbook_count": 6,
+  "playbook_qc": "pass",
+  "privacy_scan": "pass",
+  "schema_version": "1.0",
+  "source_hash_audit": "pass",
+  "status": "pass",
+  "writing_trial": {
+    "first_pass_rejected_paragraph_count": 0,
+    "first_pass_rejected_section_count": 0,
+    "manual_polishing_after_guard": false,
+    "rejection_reason_distribution": {},
+    "resolved_pass_count": 4,
+    "retry_count": 0,
+    "section_count": 4,
+    "semantic_forced_review_distribution": {
+      "sae_medical_narrative": 1
+    }
+  }
+}

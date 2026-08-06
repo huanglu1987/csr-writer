@@ -1,0 +1,25 @@
+{
+  "classification": "deidentified_equivalent_structure",
+  "flattened_header_paths": [
+    "指标",
+    "例数 / 受试制剂T",
+    "例数 / 参比制剂R"
+  ],
+  "normalized_models_equal": true,
+  "reviewed_semantic_header_ids": [
+    "ROW_LABEL",
+    "N_T",
+    "N_R"
+  ],
+  "same_pt_under_two_parents_count": 2,
+  "source_hashes_after": {
+    "docx": "7122b7c19f83e2ea9c9eadc614ef22a1f44af2ec1e59ca656838e042b943dd29",
+    "rtf": "d17eca14d7473dafb46f4011b7b298015d08b45e8ea52ed561bb7171a1363a0f"
+  },
+  "source_hashes_before": {
+    "docx": "7122b7c19f83e2ea9c9eadc614ef22a1f44af2ec1e59ca656838e042b943dd29",
+    "rtf": "d17eca14d7473dafb46f4011b7b298015d08b45e8ea52ed561bb7171a1363a0f"
+  },
+  "source_unchanged": true,
+  "status": "pass"
+}

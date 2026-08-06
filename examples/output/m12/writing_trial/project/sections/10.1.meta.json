@@ -1,0 +1,117 @@
+{
+  "agent_interface": {
+    "agent_draft_sha256": "1b5e2e410a61cebfa7471376034428f0540d4e8e307dab0553564da6111fc4ef",
+    "envelope_sha256": "eb91f44655b80087f3ecfa4c1dbdd3947b91473006c7700c7a70a15663807c0a",
+    "external_model_api_called": false,
+    "interface": "csr-writer-agent-section-v1",
+    "prior_guard_report_sha256s": []
+  },
+  "binding_manifest": [
+    {
+      "context_sha256": "6e0d813f67b14acc4fa120e88ca05f9b4717a078224a7d681e6ab0ced60671f6",
+      "key": "T14.1.1.1|POP=FAS|ROW=RANDOMIZED|COL=ACTIVE_TOTAL",
+      "role": "randomized_total",
+      "source_id": "T14.1.1.1"
+    },
+    {
+      "context_sha256": "6e0d813f67b14acc4fa120e88ca05f9b4717a078224a7d681e6ab0ced60671f6",
+      "key": "T14.1.1.2|POP=FAS|ROW=ANALYSIS_SET|COL=ACTIVE_TOTAL",
+      "role": "analysis_total",
+      "source_id": "T14.1.1.2"
+    }
+  ],
+  "draft_sha256": "8083a16a31e7fc702f5fb4922b67cb5c42125d877c488a1dcd2d01f29daf34e1",
+  "evidence_status": "demo_only",
+  "generation_attempts": 1,
+  "guard_retry_count": 0,
+  "input_sha256": "8bc48d81b960eda0305c7005c49d182770b62830f3100cf469cccc7a8b86ebd0",
+  "paragraphs": [
+    {
+      "conditional_conclusions": [],
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_10_1_001",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "SRC-DISPOSITION-DEFINITION"
+      ]
+    },
+    {
+      "conditional_conclusions": [],
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_10_1_002",
+      "placeholders": [
+        "T14.1.1.1|POP=FAS|ROW=RANDOMIZED|COL=ACTIVE_TOTAL",
+        "T14.1.1.2|POP=FAS|ROW=ANALYSIS_SET|COL=ACTIVE_TOTAL"
+      ],
+      "references": [
+        "T14.1.1.1",
+        "T14.1.1.2"
+      ],
+      "semantic_findings": [],
+      "sources": [
+        "T14.1.1.1",
+        "T14.1.1.2"
+      ]
+    },
+    {
+      "conditional_conclusions": [],
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_10_1_003",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "SRC-ANALYSIS-SET",
+        "SRC-DISPOSITION-GAP"
+      ]
+    }
+  ],
+  "playbook": {
+    "filename": "s10-subject-disposition.md",
+    "sha256": "1b1850e7f67ea76c4808c07d4414ba7744fe6cc74b17b196dd2d6a0c74d7fabb"
+  },
+  "prompt_audit": [],
+  "reference_manifest": [
+    {
+      "entity_id": "T14.1.1.1",
+      "frozen_map_sha256": null,
+      "verified_by": "binding_manifest"
+    },
+    {
+      "entity_id": "T14.1.1.2",
+      "frozen_map_sha256": null,
+      "verified_by": "binding_manifest"
+    }
+  ],
+  "schema_version": "1.1",
+  "section": "10.1",
+  "semantic_findings": [],
+  "source_manifest": [
+    {
+      "content_sha256": "85a0db12cd6ad4b83de7021adba7ec2039bead41ea7f3cc2716265ec5f62427e",
+      "locator": "脱敏方案/受试者处置定义",
+      "purpose": "disposition_definition",
+      "source_id": "SRC-DISPOSITION-DEFINITION"
+    },
+    {
+      "content_sha256": "920de9415251bccb22d2f4bb4293bed15306170d64a36defc1d2e0b7fca6dcb7",
+      "locator": "脱敏统计分析计划/分析集",
+      "purpose": "analysis_set",
+      "source_id": "SRC-ANALYSIS-SET"
+    },
+    {
+      "content_sha256": "d19c4ad233d57328c62818cb192b929ed6024b253381c97c08ab6d05f8eaed81",
+      "locator": "脱敏结果证据清单/处置子类",
+      "purpose": "gap_record",
+      "source_id": "SRC-DISPOSITION-GAP"
+    }
+  ],
+  "system_prompt_sha256": "ef7c877692cd68e4e8bf7bf67fcfe2a8972d1d9cc36bea1cac2a0bccab574b76",
+  "variant": "subject_disposition",
+  "writer": "AgentEnvelopeIngest"
+}

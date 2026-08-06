@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "status": "pass",
+  "command": "python3 -m unittest discover -s tests",
+  "tests_run": 183,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "elapsed_seconds": 26.078,
+  "verified_on": "2026-08-05",
+  "includes_platform_document_removal_boundary": true
+}

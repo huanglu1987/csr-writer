@@ -1,0 +1,284 @@
+{
+  "check_count": 18,
+  "checks": [
+    {
+      "code": "fact_supported_conditional_sections_absent",
+      "detail": {
+        "11.4.2.3": false,
+        "11.4.2.5": false,
+        "11.4.2.7": false,
+        "11.4.5": false
+      },
+      "status": "pass"
+    },
+    {
+      "code": "unsupported_omissions_retained_for_review",
+      "detail": [
+        "11.4.3",
+        "11.4.6"
+      ],
+      "status": "pass"
+    },
+    {
+      "code": "appendix_items_are_status_managed_not_deleted",
+      "detail": {
+        "16.4_retained": true,
+        "appendix_omissions": []
+      },
+      "status": "pass"
+    },
+    {
+      "code": "formal_extension_heading_styles",
+      "detail": {
+        "11.5": "Heading2",
+        "11.6": "Heading2",
+        "12.7": "Heading2"
+      },
+      "status": "pass"
+    },
+    {
+      "code": "formal_extension_bookmarks",
+      "detail": [
+        "_Ref_Sec_11_5",
+        "_Ref_Sec_11_6",
+        "_Ref_Sec_12_7"
+      ],
+      "status": "pass"
+    },
+    {
+      "code": "pk_branch_complete_and_heading_styled",
+      "detail": {
+        "11.5.1": "Heading3",
+        "11.5.10": "Heading3",
+        "11.5.2": "Heading3",
+        "11.5.3": "Heading3",
+        "11.5.4": "Heading3",
+        "11.5.5": "Heading3",
+        "11.5.6": "Heading3",
+        "11.5.7": "Heading3",
+        "11.5.8": "Heading3",
+        "11.5.9": "Heading3"
+      },
+      "status": "pass"
+    },
+    {
+      "code": "semantic_conclusions_are_last_siblings",
+      "detail": [
+        {
+          "last": true,
+          "section_id": "11.5.10",
+          "semantic_role": "pk_conclusion",
+          "visible_siblings": [
+            "11.5.1",
+            "11.5.2",
+            "11.5.3",
+            "11.5.4",
+            "11.5.5",
+            "11.5.6",
+            "11.5.7",
+            "11.5.8",
+            "11.5.9",
+            "11.5.10"
+          ]
+        },
+        {
+          "last": true,
+          "section_id": "11.6.7",
+          "semantic_role": "exploratory_efficacy_conclusion",
+          "visible_siblings": [
+            "11.6.1",
+            "11.6.2",
+            "11.6.7"
+          ]
+        },
+        {
+          "last": true,
+          "section_id": "12.7",
+          "semantic_role": "safety_conclusion",
+          "visible_siblings": [
+            "12.1",
+            "12.2",
+            "12.3",
+            "12.4",
+            "12.5",
+            "12.6",
+            "12.7"
+          ]
+        }
+      ],
+      "status": "pass"
+    },
+    {
+      "code": "visible_section_numbers_are_monotonic",
+      "detail": {
+        "inversions": [],
+        "status": "pass",
+        "visible_heading_count": 150
+      },
+      "status": "pass"
+    },
+    {
+      "code": "letter_suffixes_removed",
+      "detail": "no 11.A/11.B/11.C/11.D visible heading",
+      "status": "pass"
+    },
+    {
+      "code": "chapter_3_title_and_directories",
+      "detail": [
+        "TOC \\o \"1-5\" \\h \\z \\u",
+        "TOC \\c \"Table\" \\h \\z",
+        "TOC \\c \"Figure\" \\h \\z"
+      ],
+      "status": "pass"
+    },
+    {
+      "code": "local_tolerance_independent_section",
+      "detail": "Heading3",
+      "status": "pass"
+    },
+    {
+      "code": "adverse_event_heading_deduplicated",
+      "detail": 1,
+      "status": "pass"
+    },
+    {
+      "code": "appendix_status_table",
+      "detail": 24,
+      "status": "pass"
+    },
+    {
+      "code": "visible_numbering_gap_declarations",
+      "detail": [
+        {
+          "chapter": "11",
+          "items": [
+            {
+              "disposition": "relocated",
+              "human_reason": "分析数据集同时服务受试者处置、疗效、安全性和药代动力学评价，已统一移至 10.3 呈现。",
+              "section_id": "11.1",
+              "title": "分析数据集"
+            },
+            {
+              "disposition": "not_applicable",
+              "human_reason": "本研究未设定确证性疗效目的，疗效结果按探索性结构在 11.6.1 呈现。",
+              "section_id": "11.4.1",
+              "title": "疗效分析"
+            },
+            {
+              "disposition": "not_applicable",
+              "human_reason": "本研究未设定确证性疗效分析，本项未作为独立确证性分析节呈现；适用方法须在探索性统计分析内容中依据 SAP 核对。",
+              "section_id": "11.4.2",
+              "title": "统计/分析内容"
+            },
+            {
+              "disposition": "not_applicable",
+              "human_reason": "本研究未设定确证性疗效目的，适用的协变量校正分析在 11.6.2.1 呈现。",
+              "section_id": "11.4.2.1",
+              "title": "协变量的调整"
+            },
+            {
+              "disposition": "not_applicable",
+              "human_reason": "本研究未设定确证性疗效分析，本项未作为独立确证性分析节呈现；适用方法须在探索性统计分析内容中依据 SAP 核对。",
+              "section_id": "11.4.2.2",
+              "title": "脱落或缺失数据的处理"
+            },
+            {
+              "disposition": "not_applicable",
+              "human_reason": "方案未设置期中分析或独立数据监查安排。",
+              "section_id": "11.4.2.3",
+              "title": "试验期中分析和数据监查"
+            },
+            {
+              "disposition": "not_applicable",
+              "human_reason": "本研究未设定确证性疗效目的，适用的多中心分析在 11.6.2.4 呈现。",
+              "section_id": "11.4.2.4",
+              "title": "多中心研究"
+            },
+            {
+              "disposition": "not_applicable",
+              "human_reason": "统计分析未设置多重比较或多重性控制。",
+              "section_id": "11.4.2.5",
+              "title": "多重比较/多重性"
+            },
+            {
+              "disposition": "not_applicable",
+              "human_reason": "方案和统计分析未采用估计目标框架。",
+              "section_id": "11.4.2.6",
+              "title": "患者『疗效子集』的使用"
+            },
+            {
+              "disposition": "not_applicable",
+              "human_reason": "本研究不是非劣效或等效性设计。",
+              "section_id": "11.4.2.7",
+              "title": "旨在表明等效性的阳性对照研究"
+            },
+            {
+              "disposition": "not_applicable",
+              "human_reason": "统计分析未预设亚组分析。",
+              "section_id": "11.4.2.8",
+              "title": "亚组的考察"
+            },
+            {
+              "disposition": "not_applicable",
+              "human_reason": "方案未设置暴露量或剂量与疗效反应关系分析。",
+              "section_id": "11.4.4",
+              "title": "药物剂量、药物浓度以及与效应之间的关系"
+            },
+            {
+              "disposition": "not_applicable",
+              "human_reason": "方案未设置药物相互作用或药物与疾病相互作用评价。",
+              "section_id": "11.4.5",
+              "title": "药物-药物和药物-疾病相互作用"
+            },
+            {
+              "disposition": "not_applicable",
+              "human_reason": "本研究未设定确证性疗效目的，探索性疗效结论在 11.6.7 呈现。",
+              "section_id": "11.4.7",
+              "title": "疗效结论"
+            }
+          ],
+          "omitted_count": 14,
+          "physical_form": "body_paragraphs"
+        }
+      ],
+      "status": "pass"
+    },
+    {
+      "code": "no_unsupported_module_deletion_basis",
+      "detail": "unsupported-module automatic deletion basis count is zero",
+      "status": "pass"
+    },
+    {
+      "code": "publication_bookmarks_complete",
+      "detail": {
+        "expected": 22,
+        "observed": 22
+      },
+      "status": "pass"
+    },
+    {
+      "code": "publication_ref_fields_resolve",
+      "detail": {
+        "field_targets": 12,
+        "unexpected": []
+      },
+      "status": "pass"
+    },
+    {
+      "code": "independent_publication_numbering",
+      "detail": [
+        "T14.1-1",
+        "T14.1-2",
+        "T14.1-3",
+        "T14.1-4",
+        "T14.1-5"
+      ],
+      "status": "pass"
+    }
+  ],
+  "conclusion_boundary": "未发现上述 OOXML 结构类问题",
+  "docx_sha256": "9070b79e9ef0b596fff8ce95acae236ad4eb9be17ff80275f36978cb20c59ba5",
+  "schema_version": "1.0",
+  "scope": "OOXML structure and cross-reference integrity only",
+  "status": "pass"
+}

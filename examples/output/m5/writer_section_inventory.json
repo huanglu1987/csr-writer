@@ -1,0 +1,84 @@
+{
+  "medical_final_text_claimed": false,
+  "schema_version": "1.0",
+  "sections": [
+    {
+      "cross_references": 1,
+      "draft": "examples/output/m5/writer_samples/randomization/sections/9.4.3.md",
+      "evidence_status": "demo_only",
+      "guard": "examples/output/m5/writer_samples/randomization/resolved/9.4.3.guard.json",
+      "metadata": "examples/output/m5/writer_samples/randomization/sections/9.4.3.meta.json",
+      "resolved": "examples/output/m5/writer_samples/randomization/resolved/9.4.3.md",
+      "section": "9.4.3",
+      "value_placeholders": 0,
+      "variant": "randomization"
+    },
+    {
+      "cross_references": 1,
+      "draft": "examples/output/m5/writer_samples/blinding/sections/9.4.6.md",
+      "evidence_status": "demo_only",
+      "guard": "examples/output/m5/writer_samples/blinding/resolved/9.4.6.guard.json",
+      "metadata": "examples/output/m5/writer_samples/blinding/sections/9.4.6.meta.json",
+      "resolved": "examples/output/m5/writer_samples/blinding/resolved/9.4.6.md",
+      "section": "9.4.6",
+      "value_placeholders": 0,
+      "variant": "blinding"
+    },
+    {
+      "cross_references": 2,
+      "draft": "examples/output/m5/writer_samples/disposition/sections/10.1.md",
+      "evidence_status": "demo_only",
+      "guard": "examples/output/m5/writer_samples/disposition/resolved/10.1.guard.json",
+      "metadata": "examples/output/m5/writer_samples/disposition/sections/10.1.meta.json",
+      "resolved": "examples/output/m5/writer_samples/disposition/resolved/10.1.md",
+      "section": "10.1",
+      "value_placeholders": 2,
+      "variant": "subject_disposition"
+    },
+    {
+      "cross_references": 1,
+      "draft": "examples/output/m5/writer_samples/demographics/sections/11.2.md",
+      "evidence_status": "demo_only",
+      "guard": "examples/output/m5/writer_samples/demographics/resolved/11.2.guard.json",
+      "metadata": "examples/output/m5/writer_samples/demographics/sections/11.2.meta.json",
+      "resolved": "examples/output/m5/writer_samples/demographics/resolved/11.2.md",
+      "section": "11.2",
+      "value_placeholders": 2,
+      "variant": "demographics_baseline"
+    },
+    {
+      "cross_references": 2,
+      "draft": "examples/output/m5/writer_samples/local_tolerance/sections/12.2.md",
+      "evidence_status": "demo_only",
+      "guard": "examples/output/m5/writer_samples/local_tolerance/resolved/12.2.guard.json",
+      "metadata": "examples/output/m5/writer_samples/local_tolerance/sections/12.2.meta.json",
+      "resolved": "examples/output/m5/writer_samples/local_tolerance/resolved/12.2.md",
+      "section": "12.2",
+      "value_placeholders": 2,
+      "variant": "local_tolerance"
+    },
+    {
+      "cross_references": 1,
+      "draft": "examples/output/m5/writer_samples/special_population_pk/sections/11.B.md",
+      "evidence_status": "demo_only",
+      "guard": "examples/output/m5/writer_samples/special_population_pk/resolved/11.B.guard.json",
+      "metadata": "examples/output/m5/writer_samples/special_population_pk/sections/11.B.meta.json",
+      "resolved": "examples/output/m5/writer_samples/special_population_pk/resolved/11.B.md",
+      "section": "11.B",
+      "value_placeholders": 1,
+      "variant": "hepatic_impairment_pk"
+    },
+    {
+      "cross_references": 2,
+      "draft": "examples/output/m5/writer_samples/topical_pk_real_shell_structure/sections/11.B.md",
+      "evidence_status": "real_shell_structure_with_synthetic_values",
+      "guard": "examples/output/m5/writer_samples/topical_pk_real_shell_structure/resolved/11.B.guard.json",
+      "metadata": "examples/output/m5/writer_samples/topical_pk_real_shell_structure/sections/11.B.meta.json",
+      "resolved": "examples/output/m5/writer_samples/topical_pk_real_shell_structure/resolved/11.B.md",
+      "section": "11.B",
+      "value_placeholders": 2,
+      "variant": "topical_low_systemic_exposure"
+    }
+  ],
+  "status": "pass"
+}

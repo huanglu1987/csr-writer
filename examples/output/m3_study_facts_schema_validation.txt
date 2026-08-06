@@ -1,0 +1,9 @@
+M3 study_facts 独立 JSON Schema 校验
+
+Schema：skills/csr-writer/references/study-facts.schema.json
+实例：examples/demo_protocol_facts.json
+Validator：jsonschema Draft202012Validator
+
+schema_metaschema=PASS
+demo_instance=PASS
+errors=0

@@ -1,0 +1,36 @@
+{
+  "checks": {
+    "csr_to_tfl_to_sap_to_protocol": "pass",
+    "no_orphan_reviewed_nodes_or_links": "pass",
+    "protocol_to_sap_to_tfl_to_csr": "pass",
+    "tfl_to_sap_to_protocol": "pass"
+  },
+  "issues": [],
+  "manifest_sha256": "396591250987b8b07c56e86abf0d6d26431f193b0b0cc00df312c537bbda4c57",
+  "path_count": 1,
+  "paths": [
+    {
+      "forward": [
+        "PROT-DERM-1",
+        "SAP-DERM-1",
+        "TFL-DERM-1",
+        "CSR-DERM-1"
+      ],
+      "reverse_from_csr": [
+        "CSR-DERM-1",
+        "TFL-DERM-1",
+        "SAP-DERM-1",
+        "PROT-DERM-1"
+      ],
+      "reverse_from_tfl": [
+        "TFL-DERM-1",
+        "SAP-DERM-1",
+        "PROT-DERM-1"
+      ],
+      "status": "pass",
+      "trace_id": "DERM-1"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "pass"
+}

@@ -1,0 +1,137 @@
+{
+  "deepened_count": 10,
+  "new_count": 6,
+  "records": [
+    {
+      "after_line_count": 152,
+      "before_line_count": 28,
+      "change_type": "deepened",
+      "delta": 124,
+      "filename": "s9-randomization-blinding-controls.md",
+      "selection_reason": null
+    },
+    {
+      "after_line_count": 156,
+      "before_line_count": 24,
+      "change_type": "deepened",
+      "delta": 132,
+      "filename": "s10-subject-disposition.md",
+      "selection_reason": null
+    },
+    {
+      "after_line_count": 154,
+      "before_line_count": 23,
+      "change_type": "deepened",
+      "delta": 131,
+      "filename": "s11-2-demographics-baseline.md",
+      "selection_reason": null
+    },
+    {
+      "after_line_count": 153,
+      "before_line_count": 0,
+      "change_type": "new",
+      "delta": 153,
+      "filename": "s11-3-treatment-compliance.md",
+      "selection_reason": "覆盖 §11.3；治疗依从性会影响偏离、分析集和结果解释。"
+    },
+    {
+      "after_line_count": 176,
+      "before_line_count": 55,
+      "change_type": "deepened",
+      "delta": 121,
+      "filename": "s11-4-primary-efficacy.md",
+      "selection_reason": null
+    },
+    {
+      "after_line_count": 180,
+      "before_line_count": 63,
+      "change_type": "deepened",
+      "delta": 117,
+      "filename": "s11-a-dose-escalation.md",
+      "selection_reason": null
+    },
+    {
+      "after_line_count": 182,
+      "before_line_count": 31,
+      "change_type": "deepened",
+      "delta": 151,
+      "filename": "s11-clinpharm-special-pop-endpoints.md",
+      "selection_reason": null
+    },
+    {
+      "after_line_count": 151,
+      "before_line_count": 34,
+      "change_type": "deepened",
+      "delta": 117,
+      "filename": "s11-topical-pk.md",
+      "selection_reason": null
+    },
+    {
+      "after_line_count": 168,
+      "before_line_count": 47,
+      "change_type": "deepened",
+      "delta": 121,
+      "filename": "s12-2-adverse-events.md",
+      "selection_reason": null
+    },
+    {
+      "after_line_count": 156,
+      "before_line_count": 0,
+      "change_type": "new",
+      "delta": 156,
+      "filename": "s12-3-1-deaths-serious-significant-listings.md",
+      "selection_reason": "共享覆盖 §12.3.1.1/.2/.3；关键事件集合完整性风险高。"
+    },
+    {
+      "after_line_count": 154,
+      "before_line_count": 0,
+      "change_type": "new",
+      "delta": 154,
+      "filename": "s12-3-2-sae-narratives-boundary.md",
+      "selection_reason": "覆盖 §12.3.2；用完整 playbook 固化工具不得代写医学叙述的边界。"
+    },
+    {
+      "after_line_count": 154,
+      "before_line_count": 0,
+      "change_type": "new",
+      "delta": 154,
+      "filename": "s12-3-3-serious-event-analysis.md",
+      "selection_reason": "覆盖 §12.3.3；需要把关键事件、暴露和局限有序综合。"
+    },
+    {
+      "after_line_count": 158,
+      "before_line_count": 0,
+      "change_type": "new",
+      "delta": 158,
+      "filename": "s12-4-2-laboratory-evaluation.md",
+      "selection_reason": "共享覆盖 §12.4.2.1/.2/.3；防止统计异常被自动解释为临床重要。"
+    },
+    {
+      "after_line_count": 153,
+      "before_line_count": 23,
+      "change_type": "deepened",
+      "delta": 130,
+      "filename": "s12-exposure.md",
+      "selection_reason": null
+    },
+    {
+      "after_line_count": 167,
+      "before_line_count": 30,
+      "change_type": "deepened",
+      "delta": 137,
+      "filename": "s12-route-specific-safety.md",
+      "selection_reason": null
+    },
+    {
+      "after_line_count": 158,
+      "before_line_count": 0,
+      "change_type": "new",
+      "delta": 158,
+      "filename": "s13-discussion-overall-conclusions.md",
+      "selection_reason": "覆盖 §13；高价值且必须从已确认正文派生，不能独立选数。"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "pass",
+  "user_request_count_note": "任务正文称现有九份，但显式文件清单含十份；按逐份要求处理十份。"
+}

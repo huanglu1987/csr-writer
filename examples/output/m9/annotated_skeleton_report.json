@@ -1,0 +1,892 @@
+{
+  "appendix_status_row_count": 22,
+  "content_block_count": 89,
+  "cross_references": {
+    "bookmark_count": 134,
+    "field_count": 22,
+    "status": "pass",
+    "unique_target_count": 22
+  },
+  "directory_subsection_count": 6,
+  "formal_extension_count": 9,
+  "full_scaffold_official_heading_count": 122,
+  "mode": "annotated_pruned_project_skeleton",
+  "omission_policy": "remove",
+  "omitted_official_heading_count": 25,
+  "omitted_sections": [
+    {
+      "basis": [
+        {
+          "capability": "has_confirmatory_efficacy",
+          "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+          "facts": [
+            {
+              "path": "analyses.hypothesis_test",
+              "value": false
+            },
+            {
+              "path": "objectives.confirmatory_efficacy",
+              "value": false
+            }
+          ],
+          "value": false
+        }
+      ],
+      "classification": "conditional_omitted",
+      "driving_modules": [],
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "retained": false,
+      "section_id": "11.4",
+      "title": "疗效结果和个体患者数据列表"
+    },
+    {
+      "basis": [
+        {
+          "capability": "has_confirmatory_efficacy",
+          "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+          "facts": [
+            {
+              "path": "analyses.hypothesis_test",
+              "value": false
+            },
+            {
+              "path": "objectives.confirmatory_efficacy",
+              "value": false
+            }
+          ],
+          "value": false
+        }
+      ],
+      "classification": "conditional_omitted",
+      "driving_modules": [],
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "retained": false,
+      "section_id": "11.4.1",
+      "title": "疗效分析"
+    },
+    {
+      "basis": [
+        {
+          "capability": "has_confirmatory_efficacy",
+          "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+          "facts": [
+            {
+              "path": "analyses.hypothesis_test",
+              "value": false
+            },
+            {
+              "path": "objectives.confirmatory_efficacy",
+              "value": false
+            }
+          ],
+          "value": false
+        }
+      ],
+      "classification": "conditional_omitted",
+      "driving_modules": [],
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "retained": false,
+      "section_id": "11.4.2",
+      "title": "统计/分析内容"
+    },
+    {
+      "basis": [
+        {
+          "capability": "has_confirmatory_efficacy",
+          "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+          "facts": [
+            {
+              "path": "analyses.hypothesis_test",
+              "value": false
+            },
+            {
+              "path": "objectives.confirmatory_efficacy",
+              "value": false
+            }
+          ],
+          "value": false
+        }
+      ],
+      "classification": "conditional_omitted",
+      "driving_modules": [],
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "retained": false,
+      "section_id": "11.4.2.1",
+      "title": "协变量的调整"
+    },
+    {
+      "basis": [
+        {
+          "capability": "has_confirmatory_efficacy",
+          "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+          "facts": [
+            {
+              "path": "analyses.hypothesis_test",
+              "value": false
+            },
+            {
+              "path": "objectives.confirmatory_efficacy",
+              "value": false
+            }
+          ],
+          "value": false
+        }
+      ],
+      "classification": "conditional_omitted",
+      "driving_modules": [],
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "retained": false,
+      "section_id": "11.4.2.2",
+      "title": "脱落或缺失数据的处理"
+    },
+    {
+      "basis": [
+        {
+          "capability": "has_confirmatory_efficacy",
+          "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+          "facts": [
+            {
+              "path": "analyses.hypothesis_test",
+              "value": false
+            },
+            {
+              "path": "objectives.confirmatory_efficacy",
+              "value": false
+            }
+          ],
+          "value": false
+        },
+        {
+          "capability": "has_interim_analysis",
+          "condition": "design.interim_analysis",
+          "facts": [
+            {
+              "path": "design.interim_analysis",
+              "value": false
+            }
+          ],
+          "value": false
+        }
+      ],
+      "classification": "conditional_omitted",
+      "driving_modules": [],
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "retained": false,
+      "section_id": "11.4.2.3",
+      "title": "试验期中分析和数据监查"
+    },
+    {
+      "basis": [
+        {
+          "capability": "has_confirmatory_efficacy",
+          "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+          "facts": [
+            {
+              "path": "analyses.hypothesis_test",
+              "value": false
+            },
+            {
+              "path": "objectives.confirmatory_efficacy",
+              "value": false
+            }
+          ],
+          "value": false
+        },
+        {
+          "capability": "is_multicenter",
+          "condition": "design.n_centers > 1",
+          "facts": [
+            {
+              "path": "design.n_centers",
+              "value": 2
+            }
+          ],
+          "value": true
+        }
+      ],
+      "classification": "conditional_omitted",
+      "driving_modules": [],
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "retained": false,
+      "section_id": "11.4.2.4",
+      "title": "多中心研究"
+    },
+    {
+      "basis": [
+        {
+          "capability": "has_confirmatory_efficacy",
+          "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+          "facts": [
+            {
+              "path": "analyses.hypothesis_test",
+              "value": false
+            },
+            {
+              "path": "objectives.confirmatory_efficacy",
+              "value": false
+            }
+          ],
+          "value": false
+        },
+        {
+          "capability": "has_multiplicity_control",
+          "condition": "analyses.multiplicity_control",
+          "facts": [
+            {
+              "path": "analyses.multiplicity_control",
+              "value": false
+            }
+          ],
+          "value": false
+        }
+      ],
+      "classification": "conditional_omitted",
+      "driving_modules": [],
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "retained": false,
+      "section_id": "11.4.2.5",
+      "title": "多重比较/多重性"
+    },
+    {
+      "basis": [
+        {
+          "capability": "has_confirmatory_efficacy",
+          "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+          "facts": [
+            {
+              "path": "analyses.hypothesis_test",
+              "value": false
+            },
+            {
+              "path": "objectives.confirmatory_efficacy",
+              "value": false
+            }
+          ],
+          "value": false
+        },
+        {
+          "capability": "has_estimand_framework",
+          "condition": "analyses.estimand_framework",
+          "facts": [
+            {
+              "path": "analyses.estimand_framework",
+              "value": false
+            }
+          ],
+          "value": false
+        }
+      ],
+      "classification": "conditional_omitted",
+      "driving_modules": [],
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "retained": false,
+      "section_id": "11.4.2.6",
+      "title": "患者『疗效子集』的使用"
+    },
+    {
+      "basis": [
+        {
+          "capability": "has_confirmatory_efficacy",
+          "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+          "facts": [
+            {
+              "path": "analyses.hypothesis_test",
+              "value": false
+            },
+            {
+              "path": "objectives.confirmatory_efficacy",
+              "value": false
+            }
+          ],
+          "value": false
+        },
+        {
+          "capability": "has_noninferiority",
+          "condition": "design.noninferiority",
+          "facts": [
+            {
+              "path": "design.noninferiority",
+              "value": false
+            }
+          ],
+          "value": false
+        },
+        {
+          "capability": "is_bioequivalence_study",
+          "condition": "design.study_type == bioequivalence || bioequivalence in design.clinical_pharmacology_studies",
+          "facts": [
+            {
+              "path": "design.clinical_pharmacology_studies",
+              "value": []
+            },
+            {
+              "path": "design.study_type",
+              "value": "general_interventional"
+            }
+          ],
+          "value": false
+        }
+      ],
+      "classification": "conditional_omitted",
+      "driving_modules": [],
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "retained": false,
+      "section_id": "11.4.2.7",
+      "title": "旨在表明等效性的阳性对照研究"
+    },
+    {
+      "basis": [
+        {
+          "capability": "has_confirmatory_efficacy",
+          "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+          "facts": [
+            {
+              "path": "analyses.hypothesis_test",
+              "value": false
+            },
+            {
+              "path": "objectives.confirmatory_efficacy",
+              "value": false
+            }
+          ],
+          "value": false
+        },
+        {
+          "capability": "has_subgroup_analysis",
+          "condition": "analyses.subgroup",
+          "facts": [
+            {
+              "path": "analyses.subgroup",
+              "value": false
+            }
+          ],
+          "value": false
+        }
+      ],
+      "classification": "conditional_omitted",
+      "driving_modules": [],
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "retained": false,
+      "section_id": "11.4.2.8",
+      "title": "亚组的考察"
+    },
+    {
+      "basis": [
+        {
+          "path": "routing.active_module_ids",
+          "value": "no supporting module"
+        }
+      ],
+      "classification": "conditional_omitted",
+      "driving_modules": [],
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "retained": false,
+      "section_id": "11.4.3",
+      "title": "个体疗效数据列表"
+    },
+    {
+      "basis": [
+        {
+          "capability": "has_exposure_response",
+          "condition": "analyses.exposure_response",
+          "facts": [
+            {
+              "path": "analyses.exposure_response",
+              "value": false
+            }
+          ],
+          "value": false
+        }
+      ],
+      "classification": "conditional_omitted",
+      "driving_modules": [],
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "retained": false,
+      "section_id": "11.4.4",
+      "title": "药物剂量、药物浓度以及与效应之间的关系"
+    },
+    {
+      "basis": [
+        {
+          "capability": "is_ddi_study",
+          "condition": "design.study_type == drug_drug_interaction || drug_drug_interaction in design.clinical_pharmacology_studies",
+          "facts": [
+            {
+              "path": "design.clinical_pharmacology_studies",
+              "value": []
+            },
+            {
+              "path": "design.study_type",
+              "value": "general_interventional"
+            }
+          ],
+          "value": false
+        }
+      ],
+      "classification": "conditional_omitted",
+      "driving_modules": [],
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "retained": false,
+      "section_id": "11.4.5",
+      "title": "药物-药物和药物-疾病相互作用"
+    },
+    {
+      "basis": [
+        {
+          "path": "routing.active_module_ids",
+          "value": "no supporting module"
+        }
+      ],
+      "classification": "conditional_omitted",
+      "driving_modules": [],
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "retained": false,
+      "section_id": "11.4.6",
+      "title": "按患者列出"
+    },
+    {
+      "basis": [
+        {
+          "capability": "has_confirmatory_efficacy",
+          "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+          "facts": [
+            {
+              "path": "analyses.hypothesis_test",
+              "value": false
+            },
+            {
+              "path": "objectives.confirmatory_efficacy",
+              "value": false
+            }
+          ],
+          "value": false
+        }
+      ],
+      "classification": "conditional_omitted",
+      "driving_modules": [],
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "retained": false,
+      "section_id": "11.4.7",
+      "title": "疗效结论"
+    },
+    {
+      "basis": [
+        {
+          "path": "routing.active_module_ids",
+          "value": "no supporting module"
+        }
+      ],
+      "classification": "conditional_omitted",
+      "driving_modules": [],
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "retained": false,
+      "section_id": "16.1.3",
+      "title": "IEC 或 IRB 列表 - 代表性患者书面信息和同意书样本"
+    },
+    {
+      "basis": [
+        {
+          "path": "routing.active_module_ids",
+          "value": "no supporting module"
+        }
+      ],
+      "classification": "conditional_omitted",
+      "driving_modules": [],
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "retained": false,
+      "section_id": "16.1.4",
+      "title": "研究者及其他重要研究参与者的列表和描述，包括个人简历"
+    },
+    {
+      "basis": [
+        {
+          "path": "routing.active_module_ids",
+          "value": "no supporting module"
+        }
+      ],
+      "classification": "conditional_omitted",
+      "driving_modules": [],
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "retained": false,
+      "section_id": "16.1.6",
+      "title": "如使用 1 批以上药物，接受特定批次试验药品的患者列表"
+    },
+    {
+      "basis": [
+        {
+          "path": "routing.active_module_ids",
+          "value": "no supporting module"
+        }
+      ],
+      "classification": "conditional_omitted",
+      "driving_modules": [],
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "retained": false,
+      "section_id": "16.1.8",
+      "title": "稽查证书（如有）"
+    },
+    {
+      "basis": [
+        {
+          "path": "routing.active_module_ids",
+          "value": "no supporting module"
+        }
+      ],
+      "classification": "conditional_omitted",
+      "driving_modules": [],
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "retained": false,
+      "section_id": "16.1.10",
+      "title": "实验室间标准化方法和质量保证程序的文件（如使用）"
+    },
+    {
+      "basis": [
+        {
+          "path": "routing.active_module_ids",
+          "value": "no supporting module"
+        }
+      ],
+      "classification": "conditional_omitted",
+      "driving_modules": [],
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "retained": false,
+      "section_id": "16.1.11",
+      "title": "基于研究的发表文章"
+    },
+    {
+      "basis": [
+        {
+          "path": "routing.active_module_ids",
+          "value": "no supporting module"
+        }
+      ],
+      "classification": "conditional_omitted",
+      "driving_modules": [],
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "retained": false,
+      "section_id": "16.1.12",
+      "title": "报告中引用的重要发表文章"
+    },
+    {
+      "basis": [
+        {
+          "path": "routing.active_module_ids",
+          "value": "no supporting module"
+        }
+      ],
+      "classification": "conditional_omitted",
+      "driving_modules": [],
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "retained": false,
+      "section_id": "16.3.2",
+      "title": "递交的其他 CRF"
+    },
+    {
+      "basis": [
+        {
+          "path": "render_policy.submission_region",
+          "value": "CDE"
+        }
+      ],
+      "classification": "conditional_omitted",
+      "driving_modules": [],
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "retained": false,
+      "section_id": "16.4",
+      "title": "个例患者数据列表（US 存档列表）"
+    }
+  ],
+  "output_sha256": "9e98f3ac8d042ba4d8ede441e4f9573a57489c3bcbaf3aecf56e712f6f586bd0",
+  "pending_count": 89,
+  "publication_anchor_count": 22,
+  "publication_reference_count": 22,
+  "retained_official_heading_count": 97,
+  "retained_section_ids": [
+    "1",
+    "2",
+    "3",
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4",
+    "3.5",
+    "3.6",
+    "4",
+    "5",
+    "5.1",
+    "5.2",
+    "5.3",
+    "6",
+    "7",
+    "8",
+    "9",
+    "9.1",
+    "9.2",
+    "9.3",
+    "9.3.1",
+    "9.3.2",
+    "9.3.3",
+    "9.4",
+    "9.4.1",
+    "9.4.2",
+    "9.4.3",
+    "9.4.4",
+    "9.4.5",
+    "9.4.6",
+    "9.4.7",
+    "9.4.8",
+    "9.5",
+    "9.5.1",
+    "9.5.2",
+    "9.5.3",
+    "9.5.4",
+    "9.6",
+    "9.7",
+    "9.7.1",
+    "9.7.2",
+    "9.8",
+    "10",
+    "10.1",
+    "10.2",
+    "11",
+    "11.1",
+    "11.2",
+    "11.3",
+    "11.5",
+    "11.6",
+    "11.6.1",
+    "11.6.2",
+    "11.6.2.1",
+    "11.6.2.4",
+    "12",
+    "12.1",
+    "12.2",
+    "12.2.1",
+    "12.2.2",
+    "12.2.3",
+    "12.2.4",
+    "12.3",
+    "12.3.1",
+    "12.3.1.1",
+    "12.3.1.2",
+    "12.3.1.3",
+    "12.3.2",
+    "12.3.3",
+    "12.4",
+    "12.4.1",
+    "12.4.2",
+    "12.4.2.1",
+    "12.4.2.2",
+    "12.4.2.3",
+    "12.5",
+    "12.5.1",
+    "12.6",
+    "12.7",
+    "13",
+    "14",
+    "14.1",
+    "14.1.1",
+    "14.1.2",
+    "14.1.3",
+    "14.2",
+    "14.3",
+    "14.3.1",
+    "14.3.2",
+    "14.3.3",
+    "14.3.4",
+    "15",
+    "16",
+    "16.0",
+    "16.1",
+    "16.1.1",
+    "16.1.2",
+    "16.1.5",
+    "16.1.7",
+    "16.1.9",
+    "16.2",
+    "16.2.1",
+    "16.2.2",
+    "16.2.3",
+    "16.2.4",
+    "16.2.5",
+    "16.2.6",
+    "16.2.7",
+    "16.2.8",
+    "16.3",
+    "16.3.1"
+  ],
+  "route_contribution_count": 23,
+  "route_coverage": [
+    {
+      "module_id": "M-CORE",
+      "section_id": "1-8",
+      "status": "official_scaffold_range",
+      "variant": "core"
+    },
+    {
+      "module_id": "M-CORE",
+      "section_id": "9.1-9.6",
+      "status": "official_scaffold_range",
+      "variant": "core"
+    },
+    {
+      "module_id": "M-CORE",
+      "section_id": "10",
+      "status": "source_gap",
+      "variant": "core"
+    },
+    {
+      "module_id": "M-CORE",
+      "section_id": "13-16",
+      "status": "official_scaffold_range",
+      "variant": "core"
+    },
+    {
+      "module_id": "M-DOSE-ESC",
+      "section_id": "12.7",
+      "status": "source_gap",
+      "variant": "dose_escalation"
+    },
+    {
+      "module_id": "M-PK-NCA",
+      "section_id": "11.5",
+      "status": "source_gap",
+      "variant": "pk_nca"
+    },
+    {
+      "module_id": "M-PK-NCA",
+      "section_id": "9.5.4",
+      "status": "source_gap",
+      "variant": "pk_sampling"
+    },
+    {
+      "module_id": "M-EFF-EXPLORE",
+      "section_id": "11.6",
+      "status": "source_gap",
+      "variant": "exploratory"
+    },
+    {
+      "module_id": "M-EFF-EXPLORE",
+      "section_id": "11.6.1",
+      "status": "source_gap",
+      "variant": "exploratory_primary"
+    },
+    {
+      "module_id": "M-MULTICENTER",
+      "section_id": "11.6.2.4",
+      "status": "source_gap",
+      "variant": "center_effect"
+    },
+    {
+      "module_id": "M-MULTICENTER",
+      "section_id": "10.2",
+      "status": "source_gap",
+      "variant": "by_center"
+    },
+    {
+      "module_id": "M-MULTICENTER",
+      "section_id": "16.2.2",
+      "status": "source_gap",
+      "variant": "by_center"
+    },
+    {
+      "module_id": "M-LOCAL-TOLERANCE",
+      "section_id": "12.5.1",
+      "status": "source_gap",
+      "variant": "local_tolerance_ae_subset"
+    },
+    {
+      "module_id": "M-AE-CONSEQUENCE",
+      "section_id": "12.2",
+      "status": "source_gap",
+      "variant": "ae_consequence_pairs"
+    },
+    {
+      "module_id": "M-TOPICAL-PK",
+      "section_id": "11.5",
+      "status": "source_gap",
+      "variant": "topical_low_systemic_exposure"
+    },
+    {
+      "module_id": "M-TOPICAL-PK",
+      "section_id": "9.5.4",
+      "status": "source_gap",
+      "variant": "topical_pk_sampling"
+    },
+    {
+      "module_id": "M-RANDOMIZED",
+      "section_id": "9.4.3",
+      "status": "source_gap",
+      "variant": "randomization"
+    },
+    {
+      "module_id": "M-RANDOMIZED",
+      "section_id": "16.1.7",
+      "status": "source_gap",
+      "variant": "randomization_schedule"
+    },
+    {
+      "module_id": "M-BLINDING",
+      "section_id": "9.4.6",
+      "status": "source_gap",
+      "variant": "blinding"
+    },
+    {
+      "module_id": "M-PLACEBO-CTRL",
+      "section_id": "9.2",
+      "status": "source_gap",
+      "variant": "placebo_control"
+    },
+    {
+      "module_id": "M-PLACEBO-CTRL",
+      "section_id": "9.4.1",
+      "status": "source_gap",
+      "variant": "placebo_matching"
+    },
+    {
+      "module_id": "M-DERMATOLOGY",
+      "section_id": "11.6.1",
+      "status": "source_gap",
+      "variant": "dermatology_scales"
+    },
+    {
+      "module_id": "M-DERMATOLOGY",
+      "section_id": "11.6.2.1",
+      "status": "source_gap",
+      "variant": "dermatology_ancova"
+    }
+  ],
+  "route_coverage_count": 23,
+  "schema_version": "2.0",
+  "source_gap_block_count": 88,
+  "status": "pass",
+  "synopsis_contract": {
+    "independent_drafting_allowed": false,
+    "status": "blocked_until_body_confirmed"
+  }
+}

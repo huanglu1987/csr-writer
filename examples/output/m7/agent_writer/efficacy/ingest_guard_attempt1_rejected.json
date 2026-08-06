@@ -1,0 +1,12 @@
+{
+  "attempt": 1,
+  "draft_sha256": "76c0d57e6172af07f8324fbe94566940db90b8b19c31d37b6040c770b5ada4cb",
+  "envelope_sha256": "fde6679f83a33c79cc0cc3af69dbbad577bcc8397d8b56d1d4d261fad753b89a",
+  "prior_guard_report_sha256s": [],
+  "published_section": null,
+  "reason": "SectionWriterError: Agent needs_human paragraph(s) lack the exact [待医学负责人确认] marker: [3]",
+  "reason_code": "section_guard_rejected",
+  "report_sha256": "1da22f68f3a42990ef5a4a1bab6d982210040b8f09f449fd34e96ba6e19b0333",
+  "schema_version": "1.0",
+  "status": "rejected"
+}

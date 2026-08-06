@@ -1,0 +1,90 @@
+{
+  "agent_itself_was_writer": true,
+  "assembly": {
+    "cross_references": {
+      "bookmark_count": 4,
+      "field_count": 4,
+      "status": "pass",
+      "unique_target_count": 4
+    },
+    "mode": "annotated",
+    "output": "examples/output/m12/writing_trial/M12_writing_trial_annotated.docx",
+    "pending_count": 3,
+    "pending_paragraphs": [
+      "11.5.4:p_11_5_4_004",
+      "12.2:p_12_2_003",
+      "12.2:p_12_2_004"
+    ],
+    "schema_version": "1.0",
+    "sha256": "20a6c9e2986b432afb50f869c6be6bde8aeb803c39d058abd914807241183d95",
+    "status": "pass"
+  },
+  "external_model_api_called": false,
+  "first_pass_rejected_paragraph_count": 0,
+  "first_pass_rejected_section_count": 0,
+  "interface": "Agent emit-envelope -> ingest-draft -> conditioned conclusion -> resolve -> annotated assembly",
+  "manual_polishing_after_guard": false,
+  "records": [
+    {
+      "conditional_conclusion_branch": null,
+      "conditional_conclusion_status": "not_applicable",
+      "envelope_sha256": "ea1f3cef869c5b0b7832c5881ae810fac07cf2cd693749b8484ef760014fe44d",
+      "first_attempt_status": "pass",
+      "guard_retry_count": 0,
+      "manual_polishing_after_guard": false,
+      "paragraph_count": 4,
+      "placeholder_count": 0,
+      "reference_count": 0,
+      "resolve_status": "pass",
+      "section_id": "9.4.6"
+    },
+    {
+      "conditional_conclusion_branch": null,
+      "conditional_conclusion_status": "not_applicable",
+      "envelope_sha256": "eb91f44655b80087f3ecfa4c1dbdd3947b91473006c7700c7a70a15663807c0a",
+      "first_attempt_status": "pass",
+      "guard_retry_count": 0,
+      "manual_polishing_after_guard": false,
+      "paragraph_count": 3,
+      "placeholder_count": 2,
+      "reference_count": 2,
+      "resolve_status": "pass",
+      "section_id": "10.1"
+    },
+    {
+      "conditional_conclusion_branch": null,
+      "conditional_conclusion_status": "not_applicable",
+      "envelope_sha256": "fa5ea651dae78e5a9f1619e380c0c1c3eb3ff9046a63d216009c38508b6ee6ac",
+      "first_attempt_status": "pass",
+      "guard_retry_count": 0,
+      "manual_polishing_after_guard": false,
+      "paragraph_count": 4,
+      "placeholder_count": 2,
+      "reference_count": 1,
+      "resolve_status": "pass",
+      "section_id": "11.5.4"
+    },
+    {
+      "conditional_conclusion_branch": "no_critical_events",
+      "conditional_conclusion_status": "pass",
+      "envelope_sha256": "321ee93dc4657c3a8d039cfdb9079f04bef0e36033a897946b6cf276b77ceabf",
+      "first_attempt_status": "pass",
+      "guard_retry_count": 0,
+      "manual_polishing_after_guard": false,
+      "paragraph_count": 4,
+      "placeholder_count": 6,
+      "reference_count": 1,
+      "resolve_status": "pass",
+      "section_id": "12.2"
+    }
+  ],
+  "rejection_reason_distribution": {},
+  "resolved_pass_count": 4,
+  "retry_count": 0,
+  "schema_version": "1.0",
+  "section_count": 4,
+  "semantic_forced_review_distribution": {
+    "sae_medical_narrative": 1
+  },
+  "status": "pass"
+}

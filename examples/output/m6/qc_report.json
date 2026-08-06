@@ -1,0 +1,30 @@
+{
+  "checks": {
+    "反向溯源分流": {
+      "status": "pass",
+      "summary": "未发现无法确定预期 CSR 章节的未引用 TFL。"
+    },
+    "完整批注骨架": {
+      "status": "pass",
+      "summary": "未发现路由结构贡献缺位；缺来源内容均保留为明确资料缺口。"
+    },
+    "模型发布门槛": {
+      "status": "pass",
+      "summary": "未发现来源进入系统指令位；数值守卫失败可限次重试，语义红线强制标记。"
+    },
+    "版式引用提议": {
+      "status": "pass",
+      "summary": "未发现循环、缺失目标或无独立网格目标；继承来源均有记录。"
+    },
+    "行列继承边界": {
+      "status": "pass",
+      "summary": "未发现数据驱动行在 shell 阶段被静默继承。"
+    }
+  },
+  "conclusion": "未发现本次已执行自动检查所覆盖的反向溯源分流、完整批注骨架、模型发布门槛、版式引用提议、行列继承边界类问题。本结果不替代人工 QC、QA 或申办方决策。",
+  "issue_categories": [],
+  "regulatory_readiness_assessed": false,
+  "schema_version": "1.0",
+  "scope": "executed_checks_only",
+  "status": "pass"
+}

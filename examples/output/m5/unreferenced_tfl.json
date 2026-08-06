@@ -1,0 +1,1077 @@
+{
+  "datapack_sha256": "da9f9e822715990d38c8f96bd06387d8522fb44511fdff992c5e6e093f92269a",
+  "issues": [
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.1.1.2"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.1.1.3"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.1.2.1"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.1.2.2"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.1.3.1"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.1.4.1"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.1.4.3"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.2.1.1.1"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.2.2.1.1"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.2.2.5.1"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.2.4.1"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.2.4.2"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.2.4.4.1"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.2.4.4.2"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.3.1.1"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.3.1.2"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.3.1.3.1"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.3.1.3.19"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.3.1.3.35"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.3.4.1.1"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.3.4.2.1"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.3.5.1"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.3.5.2"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.3.6.1"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.3.6.2"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.3.6.3"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.3.7.1.1"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.3.7.1.2"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.3.7.2.1"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.3.7.2.2"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.3.7.3.1"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.3.7.3.2"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.3.7.4.1"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.3.7.4.2"
+    },
+    {
+      "code": "W-UNREFERENCED-TFL",
+      "message": "TFL contains mapped results but no section binding_manifest references it",
+      "table_id": "T14.3.7.5.1"
+    }
+  ],
+  "metadata_only_table_count": 73,
+  "metadata_only_tables": [
+    {
+      "binding_reference_count": 0,
+      "population": "All Screened Set",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.1.1.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "FAS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.1.3.2",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "FAS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.1.4.2",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "FAS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.1.4.4",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "mFAS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.2.1.1.2",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "mFAS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.2.2.1.2",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "FAS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.2.2.2.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "mFAS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.2.2.2.2",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "FAS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.2.2.3.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "mFAS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.2.2.3.2",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "FAS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.2.2.4.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "mFAS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.2.2.4.2",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "mFAS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.2.2.5.2",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.2",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.3",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.4",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.5",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.6",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.7",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.8",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.9",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.10",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.11",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.12",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.13",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.14",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.15",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.16",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.17",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.18",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.20",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.21",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.22",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.23",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.24",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.25",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.26",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.27",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.28",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.29",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.30",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.31",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.32",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.33",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.34",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.2.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.2.2",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.2.3",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.2.4",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.4.1.2",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.4.1.3",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.4.2.2",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.4.2.3",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.4.2.4",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.7.5.2",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "All Screened Set",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "F14.1.1.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "FAS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "F14.2.1.1.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "mFAS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "F14.2.1.1.2",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "PKS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "F14.2.4.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "PKS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "F14.2.4.2",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "All Enrolled Set",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "F14.2.4.3",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "All Enrolled Set",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "F14.2.4.4",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "All Enrolled Set",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "F14.2.4.5",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "All Enrolled Set",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "F14.2.4.6",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "PKCS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "F14.2.4.7",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "PKS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "F14.2.4.8",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "PKS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "F14.2.4.9",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "PKS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "F14.2.4.10",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "PKS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "F14.2.4.11",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "F14.3.1.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "F14.3.1.2",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "F14.3.7.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "F14.3.7.2",
+      "titles": []
+    }
+  ],
+  "metadata_sha256": "e1d00863a426696e7889d56c501a1f0a05d272941bc69f19b6cb17589adb5688",
+  "referenced_table_count": 2,
+  "referenced_tables": [
+    {
+      "binding_reference_count": 1,
+      "population": "PKS",
+      "referenced_by_sections": [
+        "11.B"
+      ],
+      "source_id": "sha256:db81660b9aeeeef338429a242149c974703fac388021376efd318cf69478c8b5",
+      "table_id": "T14.2.4.3.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 1,
+      "population": "PKS",
+      "referenced_by_sections": [
+        "11.B"
+      ],
+      "source_id": "sha256:3d32290c7b48ca7af99f96363b6fdf82013d471ab0c3bae0e61f5856594adff8",
+      "table_id": "T14.2.4.3.2",
+      "titles": []
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "review_required",
+  "table_count": 37,
+  "unreferenced_table_count": 35,
+  "unreferenced_tables": [
+    {
+      "binding_reference_count": 0,
+      "population": "UNSPECIFIED",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.1.1.2",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "All Enrolled Set",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.1.1.3",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "FAS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.1.2.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "FAS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.1.2.2",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "FAS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.1.3.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "FAS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.1.4.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "FAS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.1.4.3",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "FAS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.2.1.1.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "FAS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.2.2.1.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "FAS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.2.2.5.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "PKS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.2.4.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "PKS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.2.4.2",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "PKS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.2.4.4.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "PKS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.2.4.4.2",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.2",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.19",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.1.3.35",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.4.1.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.4.2.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.5.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.5.2",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.6.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.6.2",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.6.3",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.7.1.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.7.1.2",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.7.2.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.7.2.2",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.7.3.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.7.3.2",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.7.4.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.7.4.2",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:75b6ce46bfda933d75611ce38e0ac564a17116d67faf04a767c1bd81d4bc27c5",
+      "table_id": "T14.3.7.5.1",
+      "titles": []
+    }
+  ]
+}

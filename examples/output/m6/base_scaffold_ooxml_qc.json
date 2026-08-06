@@ -1,0 +1,115 @@
+{
+  "check_count": 21,
+  "fail_count": 0,
+  "items": [
+    {
+      "code": "01_PACKAGE_INTEGRITY",
+      "message": "required parts present and every XML part parses",
+      "status": "PASS"
+    },
+    {
+      "code": "02_PAGE_PROFILE_EXACT",
+      "message": "two next-page portrait sections exactly match the authoring page profile",
+      "status": "PASS"
+    },
+    {
+      "code": "03_MARGIN_PROFILE_EXACT",
+      "message": "all margins and header/footer distances exactly match authoring_profile",
+      "status": "PASS"
+    },
+    {
+      "code": "04_SECTION_STORIES_EXACT",
+      "message": "each section has normalized default stories, centered topic header, and no first/even variants",
+      "status": "PASS"
+    },
+    {
+      "code": "05_BODY_PAGE_FIELDS_EXACT",
+      "message": "body footer contains exactly PAGE then SECTIONPAGES; cover has neither",
+      "status": "PASS"
+    },
+    {
+      "code": "06_PAGE_NUMBER_CENTER",
+      "message": "PAGE field paragraph is centered",
+      "status": "PASS"
+    },
+    {
+      "code": "07_PAGE_NUMBER_RESTART",
+      "message": "numbered body restarts at page 1",
+      "status": "PASS"
+    },
+    {
+      "code": "08_TOC_FIELD_EXACT",
+      "message": "one TOC field covers heading levels 1-5",
+      "status": "PASS"
+    },
+    {
+      "code": "09_COMPLEX_FIELD_SEQUENCES",
+      "message": "every generated field has begin/instruction/separate/end",
+      "status": "PASS"
+    },
+    {
+      "code": "10_BOOKMARK_PAIRS",
+      "message": "bookmark IDs and expected section names are unique and paired",
+      "status": "PASS"
+    },
+    {
+      "code": "11_BOOKMARK_NONEMPTY",
+      "message": "every bookmark encloses its complete expected heading text",
+      "status": "PASS"
+    },
+    {
+      "code": "12_NUMBERING_DEFINITION_EXACT",
+      "message": "referenced multilevel numbering has exact five-level definitions",
+      "status": "PASS"
+    },
+    {
+      "code": "13_NUMBERING_REFERENCES",
+      "message": "one heading numId resolves without dangling references",
+      "status": "PASS"
+    },
+    {
+      "code": "14_STYLE_CHINESE_FONT_EXACT",
+      "message": "all required styles match authoring_profile Chinese fonts",
+      "status": "PASS"
+    },
+    {
+      "code": "15_STYLE_LATIN_FONT_EXACT",
+      "message": "all required styles match authoring_profile Latin font",
+      "status": "PASS"
+    },
+    {
+      "code": "16_STYLE_FONT_COLOR_EXACT",
+      "message": "all required styles match authoring_profile black",
+      "status": "PASS"
+    },
+    {
+      "code": "17_STYLE_SIZE_PROFILE_EXACT",
+      "message": "all required style sizes exactly match authoring_profile and official minima",
+      "status": "PASS"
+    },
+    {
+      "code": "18_PARAGRAPH_PROFILE_EXACT",
+      "message": "body, TOC, story, and Heading 1-5 paragraph/run properties match the exact authoring profile",
+      "status": "PASS"
+    },
+    {
+      "code": "19_STYLE_DECOUPLE",
+      "message": "0 inline run-format overrides across generated stories",
+      "status": "PASS"
+    },
+    {
+      "code": "20_HEADING_TREE_AND_LEVELS",
+      "message": "title-only body exactly matches 122 YAML nodes and levels",
+      "status": "PASS"
+    },
+    {
+      "code": "21_PLACEHOLDER_RESIDUE_ALL_STORIES",
+      "message": "no unresolved or malformed placeholder markers in any generated story",
+      "status": "PASS"
+    }
+  ],
+  "pass_count": 21,
+  "schema_version": "1.0",
+  "scope_note": "OOXML format scaffold only; this report never states submission readiness",
+  "status": "pass"
+}

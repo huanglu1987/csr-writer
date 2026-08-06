@@ -1,0 +1,34 @@
+{
+  "agent_writer": {
+    "annotated_assembly": "pass",
+    "clean_gate": "blocked_as_required",
+    "external_model_api_called": false,
+    "first_generation_rejected_paragraphs": 2,
+    "rejection_reasons": {
+      "missing_exact_human_confirmation_marker": 2
+    },
+    "sections": 2
+  },
+  "heteromorphic_results": "pass",
+  "nine_problem_tables_deferred": 9,
+  "position_or_opaque_cell_keys": 0,
+  "privacy": "pass",
+  "real_shell": {
+    "batch_review_entities": 63,
+    "cell_level_entities": 28,
+    "columns_only_deferred_rows_entities": 50,
+    "deferred_shell_placeholder_rows": 609,
+    "elapsed_seconds": 2.783,
+    "frozen_candidate_cell_keys": 2848,
+    "high_confidence_entities": 47,
+    "high_confidence_rate": 0.4273,
+    "human_review_batches": 3,
+    "metadata_only_entities": 20,
+    "mixed_stable_and_deferred_rows_entities": 12,
+    "unique_entities": 110
+  },
+  "real_sources_unchanged": true,
+  "schema_version": "1.0",
+  "scope": "M7 placeholder-row correctness and Agent-as-writer acceptance",
+  "status": "pass"
+}

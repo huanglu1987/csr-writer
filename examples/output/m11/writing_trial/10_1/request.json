@@ -1,0 +1,38 @@
+{
+  "evidence_status": "demo_only",
+  "schema_version": "1.1",
+  "section_id": "10.1",
+  "source_fragments": [
+    {
+      "locator": "脱敏方案/受试者处置定义",
+      "purpose": "disposition_definition",
+      "source_id": "SRC-DISPOSITION-PROTOCOL",
+      "text": "受试者处置按随机、接受研究治疗、完成和退出状态汇总，退出原因按经审核分类呈现。"
+    },
+    {
+      "locator": "脱敏统计分析计划/分析集",
+      "purpose": "analysis_set",
+      "source_id": "SRC-DISPOSITION-SAP",
+      "text": "全分析集定义及纳入规则以经审核统计分析计划为准。"
+    }
+  ],
+  "tfl_bindings": [
+    {
+      "context": "脱敏合成结果；仅用于写作机制与行文质量验收",
+      "key": "T14.1.1.1|POP=FAS|ROW=RANDOMIZED|COL=ACTIVE_TOTAL",
+      "role": "randomized_total",
+      "source_id": "T14.1.1.1"
+    },
+    {
+      "context": "脱敏合成结果；仅用于写作机制与行文质量验收",
+      "key": "T14.1.1.2|POP=FAS|ROW=ANALYSIS_SET|COL=ACTIVE_TOTAL",
+      "role": "analysis_total",
+      "source_id": "T14.1.1.2"
+    }
+  ],
+  "tfl_references": [
+    "T14.1.1.1",
+    "T14.1.1.2"
+  ],
+  "variant": "subject_disposition"
+}

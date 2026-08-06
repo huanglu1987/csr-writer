@@ -1,0 +1,32 @@
+{
+  "active_modules": 12,
+  "base_scaffold_qc": "pass",
+  "model_interface": "pass",
+  "privacy": "pass",
+  "real_shell": {
+    "batch_review_entities": 27,
+    "elapsed_seconds": 4.019,
+    "full_grid_inherited": 15,
+    "high_confidence_entities": 83,
+    "high_confidence_rate": 0.7545,
+    "human_review_batches": 2,
+    "inherited_grid_entities": 53,
+    "layout_reference_entities": 53,
+    "layout_reference_occurrences": 55,
+    "mixed_column_inherited_row_deferred": 38,
+    "unique_entities": 110
+  },
+  "real_sources_unchanged": true,
+  "reverse_trace": {
+    "checked": 52,
+    "expected_section_groups": 7,
+    "immediate_human_review": 0,
+    "referenced": 2,
+    "unreferenced": 50
+  },
+  "schema_version": "1.0",
+  "scope": "M6 real-shell usability; shell structure only, no clinical result values",
+  "skeleton": "pass",
+  "status": "pass",
+  "writer_sections": 13
+}

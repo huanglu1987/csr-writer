@@ -1,0 +1,20 @@
+{
+  "confirmed_at": "2026-08-04T00:00:00+08:00",
+  "confirmed_by_role": "deterministic_demo_reviewer",
+  "decisions": [
+    {
+      "batch_id": "BATCH-001",
+      "decision": "confirm"
+    },
+    {
+      "batch_id": "BATCH-002",
+      "decision": "confirm"
+    },
+    {
+      "batch_id": "BATCH-003",
+      "decision": "confirm"
+    }
+  ],
+  "report_sha256": "875e8c4ef44160109106c5913cc01ee55d1e56482446775ee873440399517ec1",
+  "schema_version": "1.0"
+}

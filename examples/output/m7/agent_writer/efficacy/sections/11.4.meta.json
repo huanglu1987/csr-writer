@@ -1,0 +1,139 @@
+{
+  "agent_interface": {
+    "agent_draft_sha256": "5bc95708b102f18c895ef8970eed25cc1d593f443dee162454b370b2b6da28b4",
+    "envelope_sha256": "fde6679f83a33c79cc0cc3af69dbbad577bcc8397d8b56d1d4d261fad753b89a",
+    "external_model_api_called": false,
+    "interface": "csr-writer-agent-section-v1",
+    "prior_guard_report_sha256s": [
+      "1da22f68f3a42990ef5a4a1bab6d982210040b8f09f449fd34e96ba6e19b0333"
+    ]
+  },
+  "binding_manifest": [
+    {
+      "context_sha256": "ea8f00fe03deeb01470cae7fccd9b2ee2e3ef14651658846e4c17df95fd5ca70",
+      "key": "T14.2.1.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=ACTIVE_A",
+      "role": "experimental_result",
+      "source_id": "T14.2.1.1"
+    },
+    {
+      "context_sha256": "0cd025baa0b292f7e305b583bcb194a16456deebbb4109c593f0252cb13ab81a",
+      "key": "T14.2.1.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=PBO",
+      "role": "control_result",
+      "source_id": "T14.2.1.1"
+    },
+    {
+      "context_sha256": "2f7aed5b77928996b539bcabb518786e9655f49ad0c5b10a75c2a92f78a581bb",
+      "key": "T14.2.1.1|POP=FAS|ROW=PRIMARY_RESPONSE_CI95|COL=ACTIVE_A",
+      "role": "experimental_ci",
+      "source_id": "T14.2.1.1"
+    },
+    {
+      "context_sha256": "8f3f562cd83f9b2ae58b30b3a6ccb0e70e99c0f0cd8534d2e077a0355cfe8538",
+      "key": "T14.2.1.1|POP=FAS|ROW=PRIMARY_RESPONSE_CI95|COL=PBO",
+      "role": "control_ci",
+      "source_id": "T14.2.1.1"
+    },
+    {
+      "context_sha256": "3e3989dd88e19bf8b2790f4ff111c6a0a04f2503112be2db9379085f11a52eca",
+      "key": "T14.2.1.1|POP=FAS|ROW=BETWEEN_GROUP_DIFFERENCE|COL=STAT",
+      "role": "between_group_difference",
+      "source_id": "T14.2.1.1"
+    },
+    {
+      "context_sha256": "2eff3b1248a24a08729def36a36a43bf02b17cbb7a4c80c71a2febef7b6a1710",
+      "key": "T14.2.1.1|POP=FAS|ROW=P_VALUE|COL=STAT",
+      "role": "p_value",
+      "source_id": "T14.2.1.1"
+    }
+  ],
+  "draft_sha256": "38d0117f81b877a4dbfe2e17779135b250121c316f9cb601589b240c583a77ed",
+  "evidence_status": "demo_only",
+  "generation_attempts": 2,
+  "guard_retry_count": 1,
+  "input_sha256": "f8bd75e51e8c2de18bfa801de913652988010d6dbe06dfe780d096d59fadb708",
+  "paragraphs": [
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_11_4_001",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "DEID-PROTOCOL-EFFICACY",
+        "DEID-SAP-EFFICACY-SET",
+        "DEID-SAP-EFFICACY-METHOD"
+      ]
+    },
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_11_4_002",
+      "placeholders": [
+        "T14.2.1.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=ACTIVE_A",
+        "T14.2.1.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=PBO",
+        "T14.2.1.1|POP=FAS|ROW=PRIMARY_RESPONSE_CI95|COL=ACTIVE_A",
+        "T14.2.1.1|POP=FAS|ROW=PRIMARY_RESPONSE_CI95|COL=PBO",
+        "T14.2.1.1|POP=FAS|ROW=BETWEEN_GROUP_DIFFERENCE|COL=STAT",
+        "T14.2.1.1|POP=FAS|ROW=P_VALUE|COL=STAT"
+      ],
+      "references": [
+        "T14.2.1.1"
+      ],
+      "semantic_findings": [],
+      "sources": [
+        "T14.2.1.1"
+      ]
+    },
+    {
+      "confidence": "inferred",
+      "needs_human": true,
+      "para_id": "p_11_4_003",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "DEID-PROTOCOL-EFFICACY",
+        "DEID-SAP-EFFICACY-METHOD"
+      ]
+    }
+  ],
+  "playbook": {
+    "filename": "s11-4-primary-efficacy.md",
+    "sha256": "09a9cde75ab2118e47c6ce517c68e1658091c34191ab42ce4b4c1995811956ed"
+  },
+  "prompt_audit": [],
+  "reference_manifest": [
+    {
+      "entity_id": "T14.2.1.1",
+      "frozen_map_sha256": null,
+      "verified_by": "binding_manifest"
+    }
+  ],
+  "schema_version": "1.1",
+  "section": "11.4",
+  "semantic_findings": [],
+  "source_manifest": [
+    {
+      "content_sha256": "8b7d75ced47eacd1c461dbea78f5ec5b9404b73b6875240754580813a2c75797",
+      "locator": "deidentified protocol endpoint excerpt",
+      "purpose": "endpoint_definition",
+      "source_id": "DEID-PROTOCOL-EFFICACY"
+    },
+    {
+      "content_sha256": "ea7cc24ac895a32fb2a5b25ddffaa8d69383aea3f92386f8a432b8c05ea09522",
+      "locator": "deidentified SAP analysis-set excerpt",
+      "purpose": "analysis_set",
+      "source_id": "DEID-SAP-EFFICACY-SET"
+    },
+    {
+      "content_sha256": "0607546a20b353909ac8e063741d4d7498017f0f77895bf2b313b9ab0d4ac8b1",
+      "locator": "deidentified SAP method excerpt",
+      "purpose": "analysis_method",
+      "source_id": "DEID-SAP-EFFICACY-METHOD"
+    }
+  ],
+  "system_prompt_sha256": "8f4e93ef46763e761a6077aeb62b3c19da661f436164d9844daf4c36794ab340",
+  "variant": "exploratory",
+  "writer": "AgentEnvelopeIngest"
+}

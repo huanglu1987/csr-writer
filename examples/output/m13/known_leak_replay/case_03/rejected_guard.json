@@ -1,0 +1,12 @@
+{
+  "attempt": 1,
+  "draft_sha256": "1db6899b6459c89ceba3c0446d0fb94ad70d7edf81948ee521c28237c528a4d7",
+  "envelope_sha256": "362cd4863c5d68c4849ed76610c57c6aa53d72aafc6222f943be5cbe32f65602",
+  "prior_guard_report_sha256s": [],
+  "published_section": null,
+  "reason": "SectionWriterError: Paragraph 0 contains internal process language: [\"process_negation='仅限已提供的记录范围，不外推'\"]",
+  "reason_code": "section_guard_rejected",
+  "report_sha256": "969e5de1d7f9cdfe6fca0e2259692dae6fdb0dbafce6601f25ee2f5a556872b4",
+  "schema_version": "1.0",
+  "status": "rejected"
+}

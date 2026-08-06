@@ -1,0 +1,30 @@
+{
+  "records": [
+    {
+      "change": "证据范围限制保留，改为盲态维护记录范围的 CSR 表述。",
+      "m12_character_count": 241,
+      "m13_character_count": 245,
+      "section_id": "9.4.6"
+    },
+    {
+      "change": "删除起草流程自指；缺结果改为正式待补充句。",
+      "m12_character_count": 227,
+      "m13_character_count": 204,
+      "section_id": "10.1"
+    },
+    {
+      "change": "删除内部数据术语；保留参数可计算性和采样范围限制。",
+      "m12_character_count": 332,
+      "m13_character_count": 339,
+      "section_id": "11.5.4"
+    },
+    {
+      "change": "正文未发现同类泄漏，作为不变对照。",
+      "m12_character_count": 354,
+      "m13_character_count": 354,
+      "section_id": "12.2"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "pass"
+}

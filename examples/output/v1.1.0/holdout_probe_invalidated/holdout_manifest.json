@@ -1,0 +1,24 @@
+{
+  "document": {
+    "filename": "visual_layout_holdout.deidentified.docx",
+    "sha256": "ba4fcde4391b69dcf487b31e6c21058be8b8aca4d9de8a86e9c164cdc1307518"
+  },
+  "expected_class_a_findings": 0,
+  "generator": {
+    "filename": "build_v1_1_visual_holdout.py",
+    "forbidden_imports_absent": true,
+    "sha256": "ad075f16b9210f10a20ea3c03db2072735b13a88a2ce2a0b5c4eac205f20ff31"
+  },
+  "purpose": "lawful layout holdout created after configuration freeze",
+  "scenarios": [
+    "portrait_body",
+    "landscape_wide_table",
+    "long_table_repeated_header",
+    "header_footer",
+    "chapter_opener",
+    "appendix_page"
+  ],
+  "schema_version": "1.0",
+  "source_kind": "synthetic_deidentified",
+  "uses_visual_qc_configuration": false
+}

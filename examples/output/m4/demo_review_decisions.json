@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "sections": {
+    "11.4": {
+      "draft_sha256": "717e122f7e7eb87208000c74ae4af1912862ed0a842ec42c60eb711137f7e902",
+      "paragraphs": {
+        "p_11_4_001": {
+          "replacement_text": "主要疗效终点、分析集和方法按已确认的研究文件执行。",
+          "status": "resolved"
+        },
+        "p_11_4_003": {
+          "replacement_text": "本节仅呈现预先规定的分析结果，不作超出研究资料的结论。",
+          "status": "resolved"
+        }
+      }
+    },
+    "11.A": {
+      "draft_sha256": "97cb492645bfa567417110353e12fb8c48b7c502b02d8c483209ad76dffaa409",
+      "paragraphs": {
+        "p_11_A_001": {
+          "replacement_text": "剂量递增设计、队列转换、DLT 定义和停止规则按已确认的研究文件执行。",
+          "status": "resolved"
+        },
+        "p_11_A_003": {
+          "replacement_text": "本节仅呈现已有来源支持的递增路径和剂量决策信息。",
+          "status": "resolved"
+        }
+      }
+    }
+  }
+}

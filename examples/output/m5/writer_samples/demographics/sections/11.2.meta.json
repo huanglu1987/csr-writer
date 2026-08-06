@@ -1,0 +1,73 @@
+{
+  "binding_manifest": [
+    {
+      "context_sha256": "594a55dfc7c6a2d9424c98a06709fd862c8b93de29387fa616b3c081280f0ec7",
+      "key": "T14.1.2.1|POP=FAS|ROW=AGE_SUMMARY|COL=TOTAL",
+      "role": "age_summary",
+      "source_id": "T14.1.2.1"
+    },
+    {
+      "context_sha256": "594a55dfc7c6a2d9424c98a06709fd862c8b93de29387fa616b3c081280f0ec7",
+      "key": "T14.1.2.1|POP=FAS|ROW=SEX_SUMMARY|COL=TOTAL",
+      "role": "sex_summary",
+      "source_id": "T14.1.2.1"
+    }
+  ],
+  "draft_sha256": "407ab7ec614579a2184679d6e02ee40b8cc0e6c4ddccffe369576a9be143638c",
+  "evidence_status": "demo_only",
+  "input_sha256": "ba6e87e32e97cf3a41d81f21154807cc637498506ceb3811fd2ee3ad79176399",
+  "paragraphs": [
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_11_2_001",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "deidentified-source-fragment"
+      ]
+    },
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_11_2_002",
+      "placeholders": [
+        "T14.1.2.1|POP=FAS|ROW=AGE_SUMMARY|COL=TOTAL",
+        "T14.1.2.1|POP=FAS|ROW=SEX_SUMMARY|COL=TOTAL"
+      ],
+      "references": [
+        "T14.1.2.1"
+      ],
+      "semantic_findings": [],
+      "sources": [
+        "T14.1.2.1"
+      ]
+    }
+  ],
+  "playbook": {
+    "filename": "s11-2-demographics-baseline.md",
+    "sha256": "f32323739dd66c1fae3781fdf31225b636a0ebe2c3444aa8bcef8e40ed8c05bf"
+  },
+  "reference_manifest": [
+    {
+      "entity_id": "T14.1.2.1",
+      "frozen_map_sha256": null,
+      "verified_by": "binding_manifest"
+    }
+  ],
+  "schema_version": "1.1",
+  "section": "11.2",
+  "semantic_findings": [],
+  "source_manifest": [
+    {
+      "content_sha256": "093ca2a1ba6280c907ccbcc1422048b83ac83459686cd94c450336d341dc3087",
+      "locator": "reviewed deidentified locator",
+      "purpose": "baseline_definition",
+      "source_id": "deidentified-source-fragment"
+    }
+  ],
+  "system_prompt_sha256": "8f4e93ef46763e761a6077aeb62b3c19da661f436164d9844daf4c36794ab340",
+  "variant": "demographics_baseline",
+  "writer": "DeterministicSectionAdapter"
+}

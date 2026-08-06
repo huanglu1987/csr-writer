@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "sections": [
+    {
+      "draft": "project/sections/9.4.6.md",
+      "guard": "9_4_6/resolve_guard.json",
+      "metadata": "project/sections/9.4.6.meta.json",
+      "resolved": "9_4_6/resolved.md"
+    },
+    {
+      "draft": "project/sections/10.1.md",
+      "guard": "10_1/resolve_guard.json",
+      "metadata": "project/sections/10.1.meta.json",
+      "resolved": "10_1/resolved.md"
+    },
+    {
+      "draft": "project/sections/11.5.4.md",
+      "guard": "11_5_4/resolve_guard.json",
+      "metadata": "project/sections/11.5.4.meta.json",
+      "resolved": "11_5_4/resolved.md"
+    },
+    {
+      "draft": "project/sections/12.2.md",
+      "guard": "12_2/resolve_guard.json",
+      "metadata": "project/sections/12.2.meta.json",
+      "resolved": "12_2/resolved.md"
+    }
+  ]
+}

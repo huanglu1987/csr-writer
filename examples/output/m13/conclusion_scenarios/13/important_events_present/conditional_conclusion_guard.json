@@ -1,0 +1,62 @@
+{
+  "datapack_sha256": "ef8cdf440956bce183461ed39d45089c86f65ac95ab3b89380be50c5006d06bd",
+  "draft_sha256": "4cbb2049b7314f538f6ffd285de4497021ed2720ee59e18faa8c5d5e1e185120",
+  "resolved_sha256": "ab68df9884a098446e30c9858d7eda7c60912044e0b4226faea29593acba33bd",
+  "rules": [
+    {
+      "branch": "important_safety_events_present",
+      "confirmed_body_only": true,
+      "critical_roles": [
+        {
+          "cell_present": true,
+          "key": "T14.2.2.1.1|POP=FAS|ROW=PRIMARY_ENDPOINT|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "primary_endpoint_result",
+          "value_sha256": "c5a56b68b35bfa2482cbb21649e32960af121ea00c3477c18da6b299f906c081"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.2.4.3.1|POP=PKPS|ROW=CMAX_CALCULABLE|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "pk_key_finding",
+          "value_sha256": "6c0ec9e152e2e42594386f5b94e67f4db676947e9c32e0506b3af86bad115e60"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.3.1.2|POP=SS|ROW=ANY_TEAE|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "teae_result",
+          "value_sha256": "fa36dddb9fea13d91d94439d693d42dece067f3f8a8652b691f241ee2a4bfbf5"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.3.1.2|POP=SS|ROW=ANY_SAE|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "sae_count",
+          "value_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.3.1.2|POP=SS|ROW=DEATH|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "death_count",
+          "value_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.3.1.2|POP=SS|ROW=AE_DISCONTINUATION|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "discontinuation_count",
+          "value_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35"
+        }
+      ],
+      "medical_review_marker_required": true,
+      "missing_roles": [],
+      "numeric_values_not_logged": true,
+      "rule_id": "OVERALL_CONCLUSION_V1"
+    }
+  ],
+  "schema_version": "1.1",
+  "status": "pass",
+  "warnings": []
+}

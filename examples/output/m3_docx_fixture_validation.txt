@@ -1,0 +1,9 @@
+M3 DOCX 深度抽取 fixture 独立 OOXML 校验
+
+文件：tests/fixtures/m3-docx/deep-extraction-fixture.docx
+SHA-256：a5bd8d1cac5957eb6fc33ad84c568bf3d3a558231e4b75717f9bbbea08a15881
+
+校验器：/Users/huanglu/.codex/skills/docx/scripts/office/validate.py
+结果：
+Paragraphs: 0 → 7 (+7)
+All validations PASSED!

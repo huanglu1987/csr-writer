@@ -1,0 +1,68 @@
+{
+  "annotated": {
+    "cross_references": {
+      "bookmark_count": 2,
+      "field_count": 2,
+      "status": "pass",
+      "unique_target_count": 2
+    },
+    "mode": "annotated",
+    "output": "/Users/huanglu/临床试验总结报告撰写/csr-writer/examples/output/m4/CSR_DEMO_annotated.docx",
+    "pending_count": 4,
+    "pending_paragraphs": [
+      "11.4:p_11_4_001",
+      "11.4:p_11_4_003",
+      "11.A:p_11_A_001",
+      "11.A:p_11_A_003"
+    ],
+    "schema_version": "1.0",
+    "sha256": "940c76480c33db88b1b9bfdc8bf846bf437077579eb5b8882dfb5f18064b1b97",
+    "status": "pass"
+  },
+  "clean": {
+    "cross_references": {
+      "bookmark_count": 2,
+      "field_count": 2,
+      "status": "pass",
+      "unique_target_count": 2
+    },
+    "path": "/Users/huanglu/临床试验总结报告撰写/csr-writer/examples/output/m4/CSR_DEMO_clean.docx",
+    "validation": {
+      "checks": {
+        "no_internal_provenance": "pass",
+        "no_pending_markers": "pass",
+        "no_tool_or_process_language": "pass"
+      },
+      "sha256": "530e0e889c5e9ddfce77f10c31284ebb79692968dd22f74799cb9f19636efbc2",
+      "status": "pass"
+    }
+  },
+  "schema_version": "1.0",
+  "status": "pass",
+  "synopsis": {
+    "copy_check": {
+      "generation_mode": "derived_copy_only",
+      "independent_drafting_allowed": false,
+      "paragraph_count": 2,
+      "status": "pass",
+      "synopsis_text_sha256": "4c3068fdc5d4ffe137a985ab693baaa5b6b3a0621c098e803b949f41a428703e"
+    },
+    "cross_references": {
+      "bookmark_count": 2,
+      "field_count": 2,
+      "status": "pass",
+      "unique_target_count": 2
+    },
+    "manifest": "/Users/huanglu/临床试验总结报告撰写/csr-writer/examples/output/m4/synopsis_manifest.json",
+    "path": "/Users/huanglu/临床试验总结报告撰写/csr-writer/examples/output/m4/CSR_Synopsis_DEMO.docx",
+    "validation": {
+      "checks": {
+        "no_internal_provenance": "pass",
+        "no_pending_markers": "pass",
+        "no_tool_or_process_language": "pass"
+      },
+      "sha256": "326fa2c1f1a2654f20125ddd3b6238288987fe9621f855a90c89e065777ac9ba",
+      "status": "pass"
+    }
+  }
+}

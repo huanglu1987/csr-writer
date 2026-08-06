@@ -1,0 +1,269 @@
+{
+  "guard_applicable_artifact_count": 10,
+  "inventory_artifact_count": 12,
+  "post_surface_false_positive_count": 0,
+  "post_surface_false_positive_rate": 0.0,
+  "pre_surface_false_positive_count": 5,
+  "pre_surface_false_positive_rate": 0.5,
+  "records": [
+    {
+      "applicable": true,
+      "artifact": "SAE_A",
+      "atomic_values_labels_without_surfaces": "pass",
+      "eligible_surface_ids": [
+        "SF-12-3-2-A-01",
+        "SF-12-3-2-A-02",
+        "SF-12-3-2-A-03",
+        "SF-12-3-2-A-04",
+        "SF-12-3-2-A-05",
+        "SF-12-3-2-A-06",
+        "SF-12-3-2-A-07",
+        "SF-12-3-2-A-08",
+        "SF-12-3-2-A-09",
+        "SF-12-3-2-A-10"
+      ],
+      "post_findings": [],
+      "pre_surface_false_positive_paragraphs": [],
+      "reviewed_surface_forms": "pass"
+    },
+    {
+      "applicable": true,
+      "artifact": "SAE_B",
+      "atomic_values_labels_without_surfaces": "pass",
+      "eligible_surface_ids": [
+        "SF-12-3-2-B-01",
+        "SF-12-3-2-B-02",
+        "SF-12-3-2-B-03",
+        "SF-12-3-2-B-04",
+        "SF-12-3-2-B-05",
+        "SF-12-3-2-B-06",
+        "SF-12-3-2-B-07",
+        "SF-12-3-2-B-08",
+        "SF-12-3-2-B-09",
+        "SF-12-3-2-B-10"
+      ],
+      "post_findings": [],
+      "pre_surface_false_positive_paragraphs": [],
+      "reviewed_surface_forms": "pass"
+    },
+    {
+      "applicable": true,
+      "artifact": "SAE_C",
+      "atomic_values_labels_without_surfaces": "pass",
+      "eligible_surface_ids": [
+        "SF-12-3-2-C-01",
+        "SF-12-3-2-C-02",
+        "SF-12-3-2-C-03",
+        "SF-12-3-2-C-04",
+        "SF-12-3-2-C-05",
+        "SF-12-3-2-C-06",
+        "SF-12-3-2-C-07",
+        "SF-12-3-2-C-08",
+        "SF-12-3-2-C-09",
+        "SF-12-3-2-C-10"
+      ],
+      "post_findings": [],
+      "pre_surface_false_positive_paragraphs": [],
+      "reviewed_surface_forms": "pass"
+    },
+    {
+      "applicable": true,
+      "artifact": "9.1",
+      "atomic_values_labels_without_surfaces": "blocked",
+      "eligible_surface_ids": [
+        "SF-9-1-01",
+        "SF-9-1-02",
+        "SF-9-1-03",
+        "SF-9-1-04"
+      ],
+      "post_findings": [],
+      "pre_surface_false_positive_paragraphs": [
+        {
+          "paragraph_index": 1,
+          "residual_content_terms": [
+            "研究",
+            "分配",
+            "研究"
+          ],
+          "text": "本研究为随机、双盲、安慰剂对照研究，采用平行组设计。各治疗组按等比例分配，研究实施双盲并设安慰剂对照。"
+        },
+        {
+          "paragraph_index": 3,
+          "residual_content_terms": [
+            "研究"
+          ],
+          "text": "研究依次经过筛选、随机和连续给药期，随后进入安全性随访期。"
+        }
+      ],
+      "reviewed_surface_forms": "pass"
+    },
+    {
+      "applicable": true,
+      "artifact": "9.2",
+      "atomic_values_labels_without_surfaces": "blocked",
+      "eligible_surface_ids": [
+        "SF-9-2-01",
+        "SF-9-2-02",
+        "SF-9-2-03"
+      ],
+      "post_findings": [],
+      "pre_surface_false_positive_paragraphs": [
+        {
+          "paragraph_index": 1,
+          "residual_content_terms": [
+            "研究"
+          ],
+          "text": "本研究采用安慰剂对照，研究对象为目标适应证成人受试者。"
+        },
+        {
+          "paragraph_index": 2,
+          "residual_content_terms": [
+            "照",
+            "区分治疗变化",
+            "疾病"
+          ],
+          "text": "随机平行组设计用于比较各治疗组的观察结果。安慰剂对照有助于区分治疗变化与疾病自然波动。"
+        }
+      ],
+      "reviewed_surface_forms": "pass"
+    },
+    {
+      "applicable": false,
+      "artifact": "9.3.1",
+      "reason": "verbatim_list uses deterministic exact extraction, not narration guard"
+    },
+    {
+      "applicable": false,
+      "artifact": "9.3.2",
+      "reason": "verbatim_list uses deterministic exact extraction, not narration guard"
+    },
+    {
+      "applicable": true,
+      "artifact": "9.4.1",
+      "atomic_values_labels_without_surfaces": "blocked",
+      "eligible_surface_ids": [
+        "SF-9-4-1-01",
+        "SF-9-4-1-02",
+        "SF-9-4-1-03"
+      ],
+      "post_findings": [],
+      "pre_surface_false_positive_paragraphs": [
+        {
+          "paragraph_index": 3,
+          "residual_content_terms": [
+            "治疗"
+          ],
+          "text": "给药频次为每日一次或每日两次，治疗安排覆盖连续治疗期。"
+        }
+      ],
+      "reviewed_surface_forms": "pass"
+    },
+    {
+      "applicable": true,
+      "artifact": "9.4.3",
+      "atomic_values_labels_without_surfaces": "blocked",
+      "eligible_surface_ids": [
+        "SF-9-4-3-01",
+        "SF-9-4-3-02",
+        "SF-9-4-3-03",
+        "SF-9-4-3-04",
+        "SF-9-4-3-05"
+      ],
+      "post_findings": [],
+      "pre_surface_false_positive_paragraphs": [
+        {
+          "paragraph_index": 1,
+          "residual_content_terms": [
+            "研究",
+            "分配"
+          ],
+          "text": "本研究采用中央随机化，并按等比例分配。分层因素为研究中心和基线严重程度。"
+        },
+        {
+          "paragraph_index": 2,
+          "residual_content_terms": [
+            "随机号",
+            "生成"
+          ],
+          "text": "区组长度由独立统计师保密保存，随机号由独立统计人员生成。"
+        },
+        {
+          "paragraph_index": 3,
+          "residual_content_terms": [
+            "通",
+            "分配"
+          ],
+          "text": "授权人员通过交互式网络应答系统实施分配。授权人员登录后按顺序取得分配结果。"
+        }
+      ],
+      "reviewed_surface_forms": "pass"
+    },
+    {
+      "applicable": true,
+      "artifact": "9.4.6",
+      "atomic_values_labels_without_surfaces": "blocked",
+      "eligible_surface_ids": [
+        "SF-9-4-6-01",
+        "SF-9-4-6-02",
+        "SF-9-4-6-03",
+        "SF-9-4-6-04",
+        "SF-9-4-6-05",
+        "SF-9-4-6-06"
+      ],
+      "post_findings": [],
+      "pre_surface_false_positive_paragraphs": [
+        {
+          "paragraph_index": 1,
+          "residual_content_terms": [
+            "研究"
+          ],
+          "text": "本研究采用双盲。设盲对象包括受试者、研究者和疗效评价人员。"
+        },
+        {
+          "paragraph_index": 2,
+          "residual_content_terms": [
+            "研究"
+          ],
+          "text": "研究药物在外观和包装上保持一致，盲底由独立人员保管。研究期间维持盲态。"
+        }
+      ],
+      "reviewed_surface_forms": "pass"
+    },
+    {
+      "applicable": true,
+      "artifact": "9.5.3",
+      "atomic_values_labels_without_surfaces": "pass",
+      "eligible_surface_ids": [
+        "SF-9-5-3-01",
+        "SF-9-5-3-02",
+        "SF-9-5-3-03",
+        "SF-9-5-3-04",
+        "SF-9-5-3-05"
+      ],
+      "post_findings": [],
+      "pre_surface_false_positive_paragraphs": [],
+      "reviewed_surface_forms": "pass"
+    },
+    {
+      "applicable": true,
+      "artifact": "M17_normal_positive_replay",
+      "atomic_values_labels_without_surfaces": "pass",
+      "eligible_surface_ids": [
+        "SF-12-3-2-A-01",
+        "SF-12-3-2-A-02",
+        "SF-12-3-2-A-03",
+        "SF-12-3-2-A-04",
+        "SF-12-3-2-A-05",
+        "SF-12-3-2-A-06",
+        "SF-12-3-2-A-07",
+        "SF-12-3-2-A-08",
+        "SF-12-3-2-A-09",
+        "SF-12-3-2-A-10"
+      ],
+      "post_findings": [],
+      "pre_surface_false_positive_paragraphs": [],
+      "reviewed_surface_forms": "pass"
+    }
+  ],
+  "schema_version": "1.0"
+}

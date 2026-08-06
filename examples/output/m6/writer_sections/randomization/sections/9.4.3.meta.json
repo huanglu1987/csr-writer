@@ -1,0 +1,52 @@
+{
+  "binding_manifest": [],
+  "draft_sha256": "852c9b1601d704cdc3257a4664ed1c1d0998b14d1a705185eec174ebbda1c1cd",
+  "evidence_status": "reviewed_project_evidence",
+  "generation_attempts": 1,
+  "guard_retry_count": 0,
+  "input_sha256": "11984aaf75551c7966b3d4d9bc39718e14a16fe4e37939df4898247184d1fa50",
+  "paragraphs": [
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_9_4_3_001",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "deidentified-9-4-3-randomization"
+      ]
+    },
+    {
+      "confidence": "derived",
+      "needs_human": true,
+      "para_id": "p_9_4_3_002",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "deidentified-9-4-3-randomization"
+      ]
+    }
+  ],
+  "playbook": {
+    "filename": "s9-randomization-blinding-controls.md",
+    "sha256": "68c19ae2fd983f443787fa51f21e26cf2699ea07e2a7fd9a22c1b8017bedcd3a"
+  },
+  "prompt_audit": [],
+  "reference_manifest": [],
+  "schema_version": "1.1",
+  "section": "9.4.3",
+  "semantic_findings": [],
+  "source_manifest": [
+    {
+      "content_sha256": "e2263e814ea17adddf3a0a0bce41146a92c6ca1af187c73186cd56dbaf3ddc8c",
+      "locator": "deidentified reviewed project evidence register",
+      "purpose": "randomization_method",
+      "source_id": "deidentified-9-4-3-randomization"
+    }
+  ],
+  "system_prompt_sha256": "8f4e93ef46763e761a6077aeb62b3c19da661f436164d9844daf4c36794ab340",
+  "variant": "randomization",
+  "writer": "DeterministicSectionAdapter"
+}

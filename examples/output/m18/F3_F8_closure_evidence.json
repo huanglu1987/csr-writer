@@ -1,0 +1,140 @@
+{
+  "F3_runtime_alias": {
+    "envelope_authorization": {
+      "authoring_unit": false,
+      "narration": "guarded_section_writer",
+      "production_method": "llm_drafting",
+      "production_profile": "runtime_alias_only",
+      "release_scope": "demo_only",
+      "runtime_alias_only": true,
+      "section_id": "12.2"
+    },
+    "metadata_authorization": {
+      "authoring_unit": false,
+      "narration": "guarded_section_writer",
+      "production_method": "llm_drafting",
+      "production_profile": "runtime_alias_only",
+      "release_scope": "demo_only",
+      "runtime_alias_only": true,
+      "section_id": "12.2"
+    },
+    "metadata_schema_version": "1.2",
+    "reviewed_evidence_block_code": "E-PRODUCTION-METHOD-RUNTIME-ALIAS-SCOPE",
+    "source_gap_authorization": {
+      "authoring_unit": false,
+      "narration": "guarded_section_writer",
+      "production_method": "llm_drafting",
+      "production_profile": "runtime_alias_only",
+      "release_scope": "source_gap_only",
+      "runtime_alias_only": true,
+      "section_id": "12.2"
+    }
+  },
+  "F4_conclusion_registry": {
+    "rendered_text": "[待医学负责人确认] 总体耐受性可接受。",
+    "section_12_2_requires_human": true,
+    "semantic_roots": [
+      "11.4.7",
+      "11.5.10",
+      "11.6.7",
+      "12.2",
+      "12.7",
+      "13"
+    ],
+    "shared_rule": "SAFETY_TOLERABILITY_V1"
+  },
+  "F5_analysis_sets": {
+    "current_freeze_code": "E-ANALYSIS-SET-UNSPECIFIED",
+    "degradation_marker_scan": {
+      "finding": "UNSPECIFIED was the only silent sentinel; it now lowers confidence, enters review, and blocks freeze",
+      "limitations": "static source scan; warning semantics remain covered by their existing report/status contracts",
+      "method": "repository search for UNSPECIFIED/UNKNOWN/UNRESOLVED/fallback/warnings",
+      "unconsumed_sentinel_count": 0
+    },
+    "fullwidth_examples": {
+      "表14.1（All Screened Set）": "All Screened Set",
+      "表14.1（FAS）": "FAS",
+      "表14.1（PPPS）": "PPPS",
+      "表14.1（PPS）": "PPS",
+      "表14.1（mFAS）": "mFAS",
+      "表14.1（mITT）": "mITT",
+      "表14.1（mPPS）": "mPPS"
+    },
+    "historical_m8_unspecified_count": 1,
+    "historical_m8_unspecified_entities": [
+      "T14.1.1.2"
+    ],
+    "historical_m8_unspecified_key_count": 28,
+    "historical_m8_unspecified_keys": [
+      "T14.1.1.2|POP=UNSPECIFIED|ROW=FAS|COL=ACTIVE_TOTAL",
+      "T14.1.1.2|POP=UNSPECIFIED|ROW=FAS|COL=C0_5PCT_BID",
+      "T14.1.1.2|POP=UNSPECIFIED|ROW=FAS|COL=C0_75PCT_BID",
+      "T14.1.1.2|POP=UNSPECIFIED|ROW=FAS|COL=C1_0PCT_BID",
+      "T14.1.1.2|POP=UNSPECIFIED|ROW=FAS|COL=C1_0PCT_QD",
+      "T14.1.1.2|POP=UNSPECIFIED|ROW=FAS|COL=PBO",
+      "T14.1.1.2|POP=UNSPECIFIED|ROW=FAS|COL=TOTAL_N",
+      "T14.1.1.2|POP=UNSPECIFIED|ROW=MFAS|COL=ACTIVE_TOTAL",
+      "T14.1.1.2|POP=UNSPECIFIED|ROW=MFAS|COL=C0_5PCT_BID",
+      "T14.1.1.2|POP=UNSPECIFIED|ROW=MFAS|COL=C0_75PCT_BID",
+      "T14.1.1.2|POP=UNSPECIFIED|ROW=MFAS|COL=C1_0PCT_BID",
+      "T14.1.1.2|POP=UNSPECIFIED|ROW=MFAS|COL=C1_0PCT_QD",
+      "T14.1.1.2|POP=UNSPECIFIED|ROW=MFAS|COL=PBO",
+      "T14.1.1.2|POP=UNSPECIFIED|ROW=MFAS|COL=TOTAL_N",
+      "T14.1.1.2|POP=UNSPECIFIED|ROW=PKS|COL=ACTIVE_TOTAL",
+      "T14.1.1.2|POP=UNSPECIFIED|ROW=PKS|COL=C0_5PCT_BID",
+      "T14.1.1.2|POP=UNSPECIFIED|ROW=PKS|COL=C0_75PCT_BID",
+      "T14.1.1.2|POP=UNSPECIFIED|ROW=PKS|COL=C1_0PCT_BID",
+      "T14.1.1.2|POP=UNSPECIFIED|ROW=PKS|COL=C1_0PCT_QD",
+      "T14.1.1.2|POP=UNSPECIFIED|ROW=PKS|COL=PBO",
+      "T14.1.1.2|POP=UNSPECIFIED|ROW=PKS|COL=TOTAL_N",
+      "T14.1.1.2|POP=UNSPECIFIED|ROW=SS|COL=ACTIVE_TOTAL",
+      "T14.1.1.2|POP=UNSPECIFIED|ROW=SS|COL=C0_5PCT_BID",
+      "T14.1.1.2|POP=UNSPECIFIED|ROW=SS|COL=C0_75PCT_BID",
+      "T14.1.1.2|POP=UNSPECIFIED|ROW=SS|COL=C1_0PCT_BID",
+      "T14.1.1.2|POP=UNSPECIFIED|ROW=SS|COL=C1_0PCT_QD",
+      "T14.1.1.2|POP=UNSPECIFIED|ROW=SS|COL=PBO",
+      "T14.1.1.2|POP=UNSPECIFIED|ROW=SS|COL=TOTAL_N"
+    ]
+  },
+  "F6_nfkc_aliases": {
+    "均值（标准差）": "MEAN_SD",
+    "最小值，最大值": "MIN_MAX"
+  },
+  "F7_fake_content_shapes": [
+    {
+      "actual": "blocked",
+      "error_code": "E-DETERMINISTIC-FAKE-CONTENT",
+      "value": "待定"
+    },
+    {
+      "actual": "blocked",
+      "error_code": "E-DETERMINISTIC-FAKE-CONTENT",
+      "value": "待确定"
+    },
+    {
+      "actual": "blocked",
+      "error_code": "E-DETERMINISTIC-FAKE-CONTENT",
+      "value": "暂缺"
+    },
+    {
+      "actual": "blocked",
+      "error_code": "E-DETERMINISTIC-FAKE-CONTENT",
+      "value": "待补齐"
+    },
+    {
+      "actual": "blocked",
+      "error_code": "E-DETERMINISTIC-FAKE-CONTENT",
+      "value": "占位内容"
+    }
+  ],
+  "F8_coverage_denominators": {
+    "explicit_frozen_contract_cell_count": 364,
+    "explicit_frozen_contract_entity_count": 4,
+    "explicit_frozen_contract_match_rate": 0.0604,
+    "explicit_frozen_contract_matched_count": 22,
+    "result_oriented_match_rate": 0.588,
+    "shell_oriented_expected_cell_count": 579,
+    "shell_oriented_match_rate": 0.2539
+  },
+  "schema_version": "1.0"
+}

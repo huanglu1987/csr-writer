@@ -1,0 +1,191 @@
+{
+  "analysis_set_headings": [
+    {
+      "basis": [
+        {
+          "path": "analyses.analysis_sets",
+          "value": [
+            "FAS",
+            "mFAS",
+            "SS",
+            "PKCS",
+            "PKPS"
+          ]
+        }
+      ],
+      "classification": "module_driven",
+      "driving_modules": [
+        "M-CORE"
+      ],
+      "retained": true,
+      "section_id": "10.3",
+      "semantic_role": null,
+      "title": "分析数据集"
+    },
+    {
+      "basis": [
+        {
+          "path": "analyses.analysis_sets[0].id",
+          "value": "FAS"
+        }
+      ],
+      "classification": "module_driven",
+      "driving_modules": [
+        "M-CORE"
+      ],
+      "retained": true,
+      "section_id": "10.3.1",
+      "semantic_role": null,
+      "title": "FAS（全分析集）"
+    },
+    {
+      "basis": [
+        {
+          "path": "analyses.analysis_sets[1].id",
+          "value": "mFAS"
+        }
+      ],
+      "classification": "module_driven",
+      "driving_modules": [
+        "M-CORE"
+      ],
+      "retained": true,
+      "section_id": "10.3.2",
+      "semantic_role": null,
+      "title": "mFAS（修正全分析集）"
+    },
+    {
+      "basis": [
+        {
+          "path": "analyses.analysis_sets[2].id",
+          "value": "SS"
+        }
+      ],
+      "classification": "module_driven",
+      "driving_modules": [
+        "M-CORE"
+      ],
+      "retained": true,
+      "section_id": "10.3.3",
+      "semantic_role": null,
+      "title": "SS（安全性分析集）"
+    },
+    {
+      "basis": [
+        {
+          "path": "analyses.analysis_sets[3].id",
+          "value": "PKCS"
+        }
+      ],
+      "classification": "module_driven",
+      "driving_modules": [
+        "M-CORE"
+      ],
+      "retained": true,
+      "section_id": "10.3.4",
+      "semantic_role": null,
+      "title": "PKCS（药代浓度分析集）"
+    },
+    {
+      "basis": [
+        {
+          "path": "analyses.analysis_sets[4].id",
+          "value": "PKPS"
+        }
+      ],
+      "classification": "module_driven",
+      "driving_modules": [
+        "M-CORE"
+      ],
+      "retained": true,
+      "section_id": "10.3.5",
+      "semantic_role": null,
+      "title": "PKPS（药代参数分析集）"
+    }
+  ],
+  "analysis_sets_relocated_from": "11.1",
+  "baseline_location_decision": "11.2 retained at the official E3 location",
+  "conclusion_order": [
+    {
+      "last": true,
+      "section_id": "11.5.10",
+      "semantic_role": "pk_conclusion",
+      "visible_siblings": [
+        "11.5.1",
+        "11.5.2",
+        "11.5.3",
+        "11.5.4",
+        "11.5.5",
+        "11.5.6",
+        "11.5.7",
+        "11.5.8",
+        "11.5.9",
+        "11.5.10"
+      ]
+    },
+    {
+      "last": true,
+      "section_id": "11.6.7",
+      "semantic_role": "exploratory_efficacy_conclusion",
+      "visible_siblings": [
+        "11.6.1",
+        "11.6.2",
+        "11.6.7"
+      ]
+    },
+    {
+      "last": true,
+      "section_id": "12.7",
+      "semantic_role": "safety_conclusion",
+      "visible_siblings": [
+        "12.1",
+        "12.2",
+        "12.3",
+        "12.4",
+        "12.5",
+        "12.6",
+        "12.7"
+      ]
+    }
+  ],
+  "endpoint_hierarchy_present": [
+    "11.6.1",
+    "11.6.1.4",
+    "9.5.1.1",
+    "9.5.6",
+    "9.5.7",
+    "9.5.8",
+    "9.5.9"
+  ],
+  "no_optional_safety_comparator": {
+    "12.2.5_absent": true,
+    "12.2.6_absent": true,
+    "12.2.7_absent": true,
+    "12.2.8_absent": true,
+    "12.2.9_absent": true,
+    "12.5.1_absent": true,
+    "12.5.2_absent": true,
+    "12.5.3_absent": true,
+    "12.5.4_absent": true,
+    "12.5.5_absent": true,
+    "12.5.6_absent": true,
+    "9.5.10_absent": true,
+    "9.5.9_absent": true
+  },
+  "numbering_order": {
+    "inversions": [],
+    "status": "pass",
+    "visible_heading_count": 150
+  },
+  "optional_safety_activation": {
+    "12.2.5": true,
+    "12.2.8": true,
+    "12.5.3": true,
+    "12.5.4": true,
+    "12.5.5": true,
+    "12.5.6": true,
+    "9.5.10": true
+  },
+  "schema_version": "1.0",
+  "status": "pass"
+}

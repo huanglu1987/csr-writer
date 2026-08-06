@@ -1,0 +1,564 @@
+{
+  "config_sha256": "fcfb0246089dc2984eacca06fa52f1d93a9d4d3ef13a2775a6df28af76d8046d",
+  "contact_sheets": [
+    {
+      "filename": "M21_M20_unfamiliar.clean.contact_sheet_001.png",
+      "height_px": 2072,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "sha256": "d64899ec4aa5fcc58664fc55070ab1d37a22b1d4eb96956321543e8e8d089482",
+      "width_px": 1056
+    },
+    {
+      "filename": "M21_M20_unfamiliar.clean.contact_sheet_002.png",
+      "height_px": 2072,
+      "pages": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "sha256": "77415bfa5e17e5af3c3e47cbb27815de28105d543583de1593ee6496136b8a83",
+      "width_px": 1056
+    }
+  ],
+  "docx_layout": {
+    "field_counts": {
+      "page": 1,
+      "ref": 10,
+      "tc": 35,
+      "toc": 6,
+      "total_pages": 1
+    },
+    "header_footer_excluded_from_body_checks": true,
+    "section_count": 2,
+    "toc_expected_counts": [
+      132,
+      0,
+      0,
+      10,
+      24,
+      1
+    ]
+  },
+  "findings": [
+    {
+      "bbox": null,
+      "class": "A",
+      "code": "A-FIELD-PAGE-NUMBER-NOT-EXPANDED",
+      "evidence": "pages=[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34]",
+      "message": "页码或总页数字段在渲染结果中为空。",
+      "page": 3,
+      "severity": "block"
+    },
+    {
+      "bbox": null,
+      "class": "A",
+      "code": "A-FIELD-DIRECTORY-NOT-EXPANDED",
+      "evidence": "3.1 正文章节目录",
+      "message": "3.1 正文章节目录 预期至少 132 项，但渲染目录区没有可见条目。",
+      "page": 4,
+      "severity": "block"
+    },
+    {
+      "bbox": null,
+      "class": "A",
+      "code": "A-FIELD-DIRECTORY-NOT-EXPANDED",
+      "evidence": "3.4 第 14 章表图目录",
+      "message": "3.4 第 14 章表图目录 预期至少 10 项，但渲染目录区没有可见条目。",
+      "page": 4,
+      "severity": "block"
+    },
+    {
+      "bbox": null,
+      "class": "A",
+      "code": "A-FIELD-DIRECTORY-NOT-EXPANDED",
+      "evidence": "3.5 附录目录",
+      "message": "3.5 附录目录 预期至少 24 项，但渲染目录区没有可见条目。",
+      "page": 4,
+      "severity": "block"
+    },
+    {
+      "bbox": null,
+      "class": "A",
+      "code": "A-FIELD-DIRECTORY-NOT-EXPANDED",
+      "evidence": "3.6 单独递交的支持性报告目录",
+      "message": "3.6 单独递交的支持性报告目录 预期至少 1 项，但渲染目录区没有可见条目。",
+      "page": 4,
+      "severity": "block"
+    },
+    {
+      "bbox": [
+        89.95,
+        236.13,
+        115.95,
+        270.92
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "究",
+      "message": "检测到段末单字成行。",
+      "page": 1,
+      "severity": "warning"
+    },
+    {
+      "bbox": null,
+      "class": "B",
+      "code": "B-TABLE-HEADER-NOT-REPEATED",
+      "evidence": "header_similarity=0.174",
+      "message": "检测到疑似跨页表延续，但下一页未识别到相同表头。",
+      "page": 2,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        89.95,
+        744.72,
+        171.2,
+        762.11
+      ],
+      "class": "B",
+      "code": "B-HEADING-ORPHAN",
+      "evidence": "9.5.3 主要终点",
+      "message": "标题位于页尾，页内没有后续正文。",
+      "page": 11,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        107.95,
+        556.08,
+        508.25,
+        572.14
+      ],
+      "class": "B",
+      "code": "B-BODY-OVERFLOW",
+      "evidence": "作为独立确证性分析节呈现；适用方法须在探索性统计分析内容中依据 SAP",
+      "message": "非页眉页脚文本块越出当前节正文带。",
+      "page": 14,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        107.95,
+        106.08,
+        131.95,
+        122.14
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "架。",
+      "message": "检测到段末单字成行。",
+      "page": 15,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        107.95,
+        167.28,
+        131.95,
+        183.34
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "计。",
+      "message": "检测到段末单字成行。",
+      "page": 15,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        280.15,
+        303.71,
+        388.88,
+        323.24
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "是",
+      "message": "检测到段末单字成行。",
+      "page": 24,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        280.15,
+        459.86,
+        388.88,
+        479.39
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "是",
+      "message": "检测到段末单字成行。",
+      "page": 24,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        280.15,
+        616.01,
+        388.88,
+        635.54
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "是",
+      "message": "检测到段末单字成行。",
+      "page": 24,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        280.15,
+        106.26,
+        388.88,
+        125.79
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "是",
+      "message": "检测到段末单字成行。",
+      "page": 25,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        280.15,
+        299.63,
+        494.35,
+        315.69
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "否",
+      "message": "检测到段末单字成行。",
+      "page": 25,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        422.35,
+        360.83,
+        446.35,
+        376.89
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "计。",
+      "message": "检测到段末单字成行。",
+      "page": 25,
+      "severity": "warning"
+    },
+    {
+      "bbox": null,
+      "class": "B",
+      "code": "B-TABLE-HEADER-NOT-REPEATED",
+      "evidence": "header_similarity=0.455",
+      "message": "检测到疑似跨页表延续，但下一页未识别到相同表头。",
+      "page": 26,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        173.05,
+        449.48,
+        197.05,
+        465.54
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "者）",
+      "message": "检测到段末单字成行。",
+      "page": 27,
+      "severity": "warning"
+    },
+    {
+      "bbox": null,
+      "class": "B",
+      "code": "B-TABLE-HEADER-NOT-REPEATED",
+      "evidence": "header_similarity=0.622",
+      "message": "检测到疑似跨页表延续，但下一页未识别到相同表头。",
+      "page": 27,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        113.95,
+        727.71,
+        494.35,
+        747.24
+      ],
+      "class": "B",
+      "code": "B-HEADING-ORPHAN",
+      "evidence": "16.1.4\n研究者及\n否\nTMF\n研究者个",
+      "message": "标题位于页尾，页内没有后续正文。",
+      "page": 28,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        280.15,
+        479.76,
+        482.35,
+        499.29
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "否",
+      "message": "检测到段末单字成行。",
+      "page": 28,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        113.95,
+        727.71,
+        494.35,
+        747.24
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "否",
+      "message": "检测到段末单字成行。",
+      "page": 28,
+      "severity": "warning"
+    },
+    {
+      "bbox": null,
+      "class": "B",
+      "code": "B-TABLE-HEADER-NOT-REPEATED",
+      "evidence": "header_similarity=0.500",
+      "message": "检测到疑似跨页表延续，但下一页未识别到相同表头。",
+      "page": 28,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        280.15,
+        228.66,
+        494.35,
+        248.19
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "否",
+      "message": "检测到段末单字成行。",
+      "page": 29,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        280.15,
+        483.23,
+        494.35,
+        499.29
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "否",
+      "message": "检测到段末单字成行。",
+      "page": 29,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        422.35,
+        605.63,
+        446.35,
+        621.69
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "书。",
+      "message": "检测到段末单字成行。",
+      "page": 29,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        280.15,
+        639.38,
+        494.35,
+        655.44
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "否",
+      "message": "检测到段末单字成行。",
+      "page": 29,
+      "severity": "warning"
+    },
+    {
+      "bbox": null,
+      "class": "B",
+      "code": "B-TABLE-HEADER-NOT-REPEATED",
+      "evidence": "header_similarity=0.100",
+      "message": "检测到疑似跨页表延续，但下一页未识别到相同表头。",
+      "page": 29,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        173.05,
+        75.98,
+        446.35,
+        92.04
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "用）",
+      "message": "检测到段末单字成行。",
+      "page": 30,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        173.05,
+        75.98,
+        446.35,
+        92.04
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "法。",
+      "message": "检测到段末单字成行。",
+      "page": 30,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        280.15,
+        109.73,
+        494.35,
+        125.79
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "否",
+      "message": "检测到段末单字成行。",
+      "page": 30,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        280.15,
+        265.88,
+        494.35,
+        281.94
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "否",
+      "message": "检测到段末单字成行。",
+      "page": 30,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        280.15,
+        422.03,
+        494.35,
+        438.09
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "否",
+      "message": "检测到段末单字成行。",
+      "page": 30,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        173.05,
+        513.83,
+        197.05,
+        529.89
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "表）",
+      "message": "检测到段末单字成行。",
+      "page": 30,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        422.35,
+        544.43,
+        446.35,
+        560.49
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "表。",
+      "message": "检测到段末单字成行。",
+      "page": 30,
+      "severity": "warning"
+    },
+    {
+      "bbox": null,
+      "class": "B",
+      "code": "B-TABLE-HEADER-NOT-REPEATED",
+      "evidence": "header_similarity=0.171",
+      "message": "检测到疑似跨页表延续，但下一页未识别到相同表头。",
+      "page": 30,
+      "severity": "warning"
+    }
+  ],
+  "legacy_release_decision_changed": false,
+  "limitations": "本检查基于 LibreOffice 渲染，与 Microsoft Word 的分页和字体回退存在差异。 本检查是前置筛查，不替代在 Word 中更新域后的人工视觉复核。",
+  "pdf": {
+    "filename": "M21_M20_unfamiliar.clean.pdf",
+    "page_count": 34,
+    "sha256": "4ff96c4b8afc8e5f7e3b0adf4b5b386c8693dfcf446e258b08f33052de3a62ce",
+    "signature_verified": true
+  },
+  "renderer": {
+    "available": true,
+    "name": "soffice",
+    "render_status": "pass"
+  },
+  "schema_version": "1.0",
+  "source": {
+    "filename": "M21_M20_unfamiliar.clean.docx",
+    "sha256": "5fd7b9e3622c0e4643f22b797be3ddd55faf6d084729fab52ab10679c7ee1c9a"
+  },
+  "status": "blocked",
+  "summary": {
+    "class_a_count": 5,
+    "class_b_count": 32,
+    "finding_count": 37
+  },
+  "visual_gate_status": "blocked"
+}

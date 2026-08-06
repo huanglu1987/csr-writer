@@ -1,0 +1,42 @@
+{
+  "analysis_set_examples": [
+    "FAS",
+    "mFAS",
+    "SS",
+    "PKS",
+    "PKCS",
+    "PKPS",
+    "BES",
+    "All Screened Set"
+  ],
+  "classification": "deidentified_equivalent_structure",
+  "distinct_total_columns": [
+    "ACTIVE_TOTAL",
+    "TOTAL"
+  ],
+  "four_dose_columns": [
+    "DOSE_0P5_BID",
+    "DOSE_0P75_BID",
+    "DOSE_1P0_BID",
+    "DOSE_1P0_QD"
+  ],
+  "metadata_only_entities": [
+    "F14.2.4.1",
+    "L16.2.1"
+  ],
+  "non_numeric_types": [
+    "composite",
+    "date",
+    "status",
+    "text_judgement"
+  ],
+  "soc_pt_cross_parent_keys": [
+    "T14.3.1.3.1|POP=SS|ROW=SOC_GI/PT_SHARED|COL=PBO",
+    "T14.3.1.3.1|POP=SS|ROW=SOC_NERVOUS/PT_SHARED|COL=PBO"
+  ],
+  "stage_keys": [
+    "T14.2.4.3.1|POP=PKS|ROW=CMAX|COL=DOSE_1P0_BID|STAGE=D1",
+    "T14.2.4.3.2|POP=PKS|ROW=CMAX|COL=DOSE_1P0_BID|STAGE=D28"
+  ],
+  "status": "pass"
+}

@@ -1,0 +1,22 @@
+{
+  "paragraphs": [
+    {
+      "text": "主要疗效终点按经审核的响应标准判定，分析使用经确认的全分析集，并按预先规定的探索性组间比较方法执行。",
+      "sources": ["DEID-PROTOCOL-EFFICACY", "DEID-SAP-EFFICACY-SET", "DEID-SAP-EFFICACY-METHOD"],
+      "confidence": "derived",
+      "needs_human": false
+    },
+    {
+      "text": "试验组主要终点结果为 {{T14.2.1.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=ACTIVE_A}}，对照组结果为 {{T14.2.1.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=PBO}}；相应区间估计依次为 {{T14.2.1.1|POP=FAS|ROW=PRIMARY_RESPONSE_CI95|COL=ACTIVE_A}} 和 {{T14.2.1.1|POP=FAS|ROW=PRIMARY_RESPONSE_CI95|COL=PBO}}；组间差异为 {{T14.2.1.1|POP=FAS|ROW=BETWEEN_GROUP_DIFFERENCE|COL=STAT}}，预先规定的检验结果为 {{T14.2.1.1|POP=FAS|ROW=P_VALUE|COL=STAT}}。支持性结果详见{{@ref:T14.2.1.1}}。",
+      "sources": ["T14.2.1.1"],
+      "confidence": "derived",
+      "needs_human": false
+    },
+    {
+      "text": "[待医学负责人确认] 该分析仅作探索性描述，不用于确证性结论；结果的临床解释和结论性措辞须由医学负责人确认。",
+      "sources": ["DEID-PROTOCOL-EFFICACY", "DEID-SAP-EFFICACY-METHOD"],
+      "confidence": "inferred",
+      "needs_human": true
+    }
+  ]
+}

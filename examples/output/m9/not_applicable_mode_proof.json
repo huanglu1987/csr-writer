@@ -1,0 +1,9 @@
+{
+  "default_delivery_policy_remains_remove": true,
+  "fact_derived_reason_present": true,
+  "policy": "retain_not_applicable",
+  "representative_heading_present": true,
+  "retained_not_applicable_count": 25,
+  "schema_version": "1.0",
+  "status": "pass"
+}

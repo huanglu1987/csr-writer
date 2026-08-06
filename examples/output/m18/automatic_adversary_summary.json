@@ -1,0 +1,86 @@
+{
+  "cards": [
+    {
+      "candidate_count": 7545,
+      "card_id": "M18-SAE-ADVERSARY",
+      "current_raw_pass_count": 0,
+      "current_strategy_raw_pass_counts": {},
+      "legacy_raw_pass_count": 7382,
+      "legacy_strategy_raw_pass_counts": {
+        "boundary_truncation_splice": 785,
+        "cross_field_fragment_recombination": 6453,
+        "label_value_mismatch": 143,
+        "semantic_reversal_pair": 1
+      },
+      "strategy_candidate_counts": {
+        "boundary_truncation_splice": 786,
+        "cross_field_fragment_recombination": 6461,
+        "label_value_mismatch": 143,
+        "negation_or_limiter_insertion": 154,
+        "semantic_reversal_pair": 1
+      }
+    },
+    {
+      "candidate_count": 10157,
+      "card_id": "M16-METHOD-9-4-3",
+      "current_raw_pass_count": 0,
+      "current_strategy_raw_pass_counts": {},
+      "legacy_raw_pass_count": 9626,
+      "legacy_strategy_raw_pass_counts": {
+        "boundary_truncation_splice": 583,
+        "cross_field_fragment_recombination": 8893,
+        "label_value_mismatch": 70,
+        "negation_or_limiter_insertion": 80
+      },
+      "strategy_candidate_counts": {
+        "boundary_truncation_splice": 609,
+        "cross_field_fragment_recombination": 9338,
+        "label_value_mismatch": 70,
+        "negation_or_limiter_insertion": 140
+      }
+    }
+  ],
+  "expected_strategies": [
+    "boundary_truncation_splice",
+    "cross_field_fragment_recombination",
+    "label_value_mismatch",
+    "negation_or_limiter_insertion",
+    "semantic_reversal_pair"
+  ],
+  "f1_rediscovered": true,
+  "f1_rediscovery_records": [
+    {
+      "card_id": "M18-SAE-ADVERSARY",
+      "derivation": {
+        "frame_fact_id": "A02",
+        "insert_fact_id": "A04",
+        "parts": [
+          "既往有",
+          "用药",
+          "过敏史"
+        ]
+      },
+      "fact_ids": [
+        "A02",
+        "A04"
+      ],
+      "readability_score": 16,
+      "strategy": "cross_field_fragment_recombination",
+      "text": "既往有用药过敏史"
+    }
+  ],
+  "generated_candidate_count": 17702,
+  "observed_strategies": [
+    "boundary_truncation_splice",
+    "cross_field_fragment_recombination",
+    "label_value_mismatch",
+    "negation_or_limiter_insertion",
+    "semantic_reversal_pair"
+  ],
+  "post_fix_raw_pass_count": 0,
+  "pre_fix_raw_pass_count": 17008,
+  "raw_lists_are_unscreened": true,
+  "schema_version": "1.0",
+  "sorting": "readability_score descending, then strategy/text/fact_ids",
+  "status": "pass"
+}

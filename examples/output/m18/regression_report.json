@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "status": "pass",
+  "full_discover": {
+    "command": "python3 -m unittest discover -s tests",
+    "tests_run": 263,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "elapsed_seconds": 95.383
+  },
+  "platform_boundary": {
+    "command": "python3 -m unittest tests.test_codex_platform_boundary",
+    "tests_run": 1,
+    "failures": 0,
+    "errors": 0,
+    "elapsed_seconds": 49.937,
+    "platform_documents_removed_during_test": true
+  },
+  "audit_hardening_gate": {
+    "command": "python3 -m unittest tests.test_audit_hardening_gate",
+    "tests_run": 15,
+    "failures": 0,
+    "errors": 0,
+    "elapsed_seconds": 4.383
+  },
+  "notes": [
+    "Full discovery includes the platform-boundary test.",
+    "The runtime-only subprocess self-skips recursive execution of the platform-boundary test.",
+    "Expected negative-path diagnostics printed by tests are not failures."
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "binding_manifest": [],
+  "draft_sha256": "223279c479804e29d2cd3e97830facd40167fa415498b3bc28567e75bc61178b",
+  "evidence_status": "source_gap",
+  "generation_attempts": 1,
+  "guard_retry_count": 0,
+  "input_sha256": "da874881e2ebde89facae05a093d7d2af53ac7518b6879732efe82e6dd219ef4",
+  "paragraphs": [
+    {
+      "confidence": "inferred",
+      "needs_human": true,
+      "para_id": "p_11_B_001",
+      "placeholders": [],
+      "references": [
+        "T14.2.4.3.1",
+        "T14.2.4.3.2"
+      ],
+      "semantic_findings": [],
+      "sources": [
+        "deidentified-11-B-topical_low_systemic_exposure"
+      ]
+    }
+  ],
+  "playbook": {
+    "filename": "s11-topical-pk.md",
+    "sha256": "b85589fc3eb96872fc9e3d064420f0097c075600a7395ee75c00fc30090a3df6"
+  },
+  "prompt_audit": [],
+  "reference_manifest": [
+    {
+      "entity_id": "T14.2.4.3.1",
+      "frozen_map_sha256": "b97ac46488885e8f2db627f37fd23252079c1bf6b81c8bee61535b0188aac49c",
+      "verified_by": "frozen_tfl_map"
+    },
+    {
+      "entity_id": "T14.2.4.3.2",
+      "frozen_map_sha256": "b97ac46488885e8f2db627f37fd23252079c1bf6b81c8bee61535b0188aac49c",
+      "verified_by": "frozen_tfl_map"
+    }
+  ],
+  "schema_version": "1.1",
+  "section": "11.B",
+  "semantic_findings": [],
+  "source_manifest": [
+    {
+      "content_sha256": "4085d97c6944e5f9c2e19d0f667d01a6b9839393d811b4d0687a9733b0b48d9c",
+      "locator": "deidentified reviewed project evidence register",
+      "purpose": "gap_record",
+      "source_id": "deidentified-11-B-topical_low_systemic_exposure"
+    }
+  ],
+  "system_prompt_sha256": "8f4e93ef46763e761a6077aeb62b3c19da661f436164d9844daf4c36794ab340",
+  "variant": "topical_low_systemic_exposure",
+  "writer": "DeterministicSectionAdapter"
+}

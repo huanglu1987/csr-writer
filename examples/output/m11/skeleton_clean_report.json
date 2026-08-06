@@ -1,0 +1,2043 @@
+{
+  "appendix_status_plan": {
+    "categories": [
+      {
+        "category": "csr_required",
+        "rows": [
+          {
+            "appendix_id": "16.1.1",
+            "category": "csr_required",
+            "category_title": "1. CSR 必需审评附件",
+            "e3_submit_metadata": "always",
+            "file_name": "方案和方案修订案",
+            "qa_basis": "",
+            "reason_or_on_request": "E3 核心审评附件；具体文件版本以正式附件清单为准。",
+            "submission_location": "CSR 16.1.1",
+            "submitted": "是"
+          },
+          {
+            "appendix_id": "16.1.2",
+            "category": "csr_required",
+            "category_title": "1. CSR 必需审评附件",
+            "e3_submit_metadata": "always",
+            "file_name": "病例报告表样本（仅提供唯一页面）",
+            "qa_basis": "",
+            "reason_or_on_request": "E3 核心审评附件；具体文件版本以正式附件清单为准。",
+            "submission_location": "CSR 16.1.2",
+            "submitted": "是"
+          },
+          {
+            "appendix_id": "16.1.5",
+            "category": "csr_required",
+            "category_title": "1. CSR 必需审评附件",
+            "e3_submit_metadata": "not-specified",
+            "file_name": "主要或协调研究者或申办方负责医学专员的签名",
+            "qa_basis": "",
+            "reason_or_on_request": "E3 核心审评附件；具体文件版本以正式附件清单为准。",
+            "submission_location": "CSR 16.1.5",
+            "submitted": "是"
+          },
+          {
+            "appendix_id": "16.1.9",
+            "category": "csr_required",
+            "category_title": "1. CSR 必需审评附件",
+            "e3_submit_metadata": "always",
+            "file_name": "统计学方法的文件",
+            "qa_basis": "",
+            "reason_or_on_request": "E3 核心审评附件；具体文件版本以正式附件清单为准。",
+            "submission_location": "CSR 16.1.9",
+            "submitted": "是"
+          },
+          {
+            "appendix_id": "16.1.7",
+            "category": "csr_required",
+            "category_title": "1. CSR 必需审评附件",
+            "e3_submit_metadata": "always",
+            "file_name": "随机方案和编号",
+            "qa_basis": "",
+            "reason_or_on_request": "本研究为随机化设计。",
+            "submission_location": "CSR 16.1.7",
+            "submitted": "是"
+          },
+          {
+            "appendix_id": "16.1.4",
+            "category": "csr_required",
+            "category_title": "1. CSR 必需审评附件",
+            "e3_submit_metadata": "conditional",
+            "file_name": "研究者及其他重要研究参与者的列表和描述，包括个人简历（名单部分）",
+            "qa_basis": "⚠ Q&A Q3：研究者 **CV 通常不放入** CSR 附录；但研究者与中心名单『always be needed』",
+            "reason_or_on_request": "研究者和中心名单纳入附件；个人简历按 E3 Q&A Q3 留 TMF。",
+            "submission_location": "CSR 16.1.4",
+            "submitted": "部分提交"
+          }
+        ],
+        "title": "1. CSR 必需审评附件"
+      },
+      {
+        "category": "regional",
+        "rows": [
+          {
+            "appendix_id": "16.2.1",
+            "category": "regional",
+            "category_title": "2. 本次注册申请需提交的地区性附件",
+            "e3_submit_metadata": "not-specified",
+            "file_name": "终止研究患者",
+            "qa_basis": "",
+            "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+            "submission_location": "地区性申报附件位置",
+            "submitted": "条件性"
+          },
+          {
+            "appendix_id": "16.2.2",
+            "category": "regional",
+            "category_title": "2. 本次注册申请需提交的地区性附件",
+            "e3_submit_metadata": "not-specified",
+            "file_name": "方案偏离",
+            "qa_basis": "",
+            "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+            "submission_location": "地区性申报附件位置",
+            "submitted": "条件性"
+          },
+          {
+            "appendix_id": "16.2.3",
+            "category": "regional",
+            "category_title": "2. 本次注册申请需提交的地区性附件",
+            "e3_submit_metadata": "not-specified",
+            "file_name": "疗效分析中排除的患者",
+            "qa_basis": "",
+            "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+            "submission_location": "地区性申报附件位置",
+            "submitted": "条件性"
+          },
+          {
+            "appendix_id": "16.2.4",
+            "category": "regional",
+            "category_title": "2. 本次注册申请需提交的地区性附件",
+            "e3_submit_metadata": "not-specified",
+            "file_name": "人口统计学数据",
+            "qa_basis": "",
+            "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+            "submission_location": "地区性申报附件位置",
+            "submitted": "条件性"
+          },
+          {
+            "appendix_id": "16.2.5",
+            "category": "regional",
+            "category_title": "2. 本次注册申请需提交的地区性附件",
+            "e3_submit_metadata": "not-specified",
+            "file_name": "依从性和/或药物浓度数据",
+            "qa_basis": "",
+            "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+            "submission_location": "地区性申报附件位置",
+            "submitted": "条件性"
+          },
+          {
+            "appendix_id": "16.2.6",
+            "category": "regional",
+            "category_title": "2. 本次注册申请需提交的地区性附件",
+            "e3_submit_metadata": "not-specified",
+            "file_name": "个体疗效数据",
+            "qa_basis": "",
+            "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+            "submission_location": "地区性申报附件位置",
+            "submitted": "条件性"
+          },
+          {
+            "appendix_id": "16.2.7",
+            "category": "regional",
+            "category_title": "2. 本次注册申请需提交的地区性附件",
+            "e3_submit_metadata": "not-specified",
+            "file_name": "不良事件列表（各患者）",
+            "qa_basis": "",
+            "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+            "submission_location": "地区性申报附件位置",
+            "submitted": "条件性"
+          },
+          {
+            "appendix_id": "16.2.8",
+            "category": "regional",
+            "category_title": "2. 本次注册申请需提交的地区性附件",
+            "e3_submit_metadata": "conditional",
+            "file_name": "按患者列出的个体实验室测量值列表",
+            "qa_basis": "",
+            "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+            "submission_location": "地区性申报附件位置",
+            "submitted": "条件性"
+          },
+          {
+            "appendix_id": "16.3.1",
+            "category": "regional",
+            "category_title": "2. 本次注册申请需提交的地区性附件",
+            "e3_submit_metadata": "not-specified",
+            "file_name": "死亡、其他严重不良事件或 AE 导致的退出的 CRF",
+            "qa_basis": "",
+            "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+            "submission_location": "地区性申报附件位置",
+            "submitted": "条件性"
+          },
+          {
+            "appendix_id": "16.3.2",
+            "category": "regional",
+            "category_title": "2. 本次注册申请需提交的地区性附件",
+            "e3_submit_metadata": "not-specified",
+            "file_name": "递交的其他 CRF",
+            "qa_basis": "",
+            "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+            "submission_location": "地区性申报附件位置",
+            "submitted": "条件性"
+          }
+        ],
+        "title": "2. 本次注册申请需提交的地区性附件"
+      },
+      {
+        "category": "tmf_on_request",
+        "rows": [
+          {
+            "appendix_id": "16.1.3",
+            "category": "tmf_on_request",
+            "category_title": "3. TMF 留存、可按要求提供的附件",
+            "e3_submit_metadata": "conditional",
+            "file_name": "IEC 或 IRB 列表 - 代表性患者书面信息和同意书样本",
+            "qa_basis": "⚠ Q&A Q3：伦理批件与知情同意书**通常不放入 CSR 附录**，留 TMF",
+            "reason_or_on_request": "伦理批件、患者书面信息和知情同意文件通常留 TMF，可按监管要求提供（E3 Q&A Q3）。",
+            "submission_location": "TMF",
+            "submitted": "否"
+          },
+          {
+            "appendix_id": "16.1.4",
+            "category": "tmf_on_request",
+            "category_title": "3. TMF 留存、可按要求提供的附件",
+            "e3_submit_metadata": "conditional",
+            "file_name": "研究者及其他重要研究参与者的列表和描述，包括个人简历（个人简历部分）",
+            "qa_basis": "⚠ Q&A Q3：研究者 **CV 通常不放入** CSR 附录；但研究者与中心名单『always be needed』",
+            "reason_or_on_request": "研究者个人简历通常不纳入 CSR，可按要求提供（E3 Q&A Q3）。",
+            "submission_location": "TMF",
+            "submitted": "否"
+          },
+          {
+            "appendix_id": "16.1.6",
+            "category": "tmf_on_request",
+            "category_title": "3. TMF 留存、可按要求提供的附件",
+            "e3_submit_metadata": "conditional",
+            "file_name": "如使用 1 批以上药物，接受特定批次试验药品的患者列表",
+            "qa_basis": "⚠ Q&A Q3：每例受试者的批号通常不放入 CSR 附录",
+            "reason_or_on_request": "按受试者列出的批号信息通常留 TMF，可按要求提供（E3 Q&A Q3）。",
+            "submission_location": "TMF",
+            "submitted": "否"
+          }
+        ],
+        "title": "3. TMF 留存、可按要求提供的附件"
+      },
+      {
+        "category": "not_applicable",
+        "rows": [
+          {
+            "appendix_id": "16.1.8",
+            "category": "not_applicable",
+            "category_title": "4. 不适用附件",
+            "e3_submit_metadata": "conditional",
+            "file_name": "稽查证书（如有）",
+            "qa_basis": "",
+            "reason_or_on_request": "当前已确认研究事实未证实存在可提交的稽查证书。",
+            "submission_location": "不适用",
+            "submitted": "否"
+          },
+          {
+            "appendix_id": "16.1.10",
+            "category": "not_applicable",
+            "category_title": "4. 不适用附件",
+            "e3_submit_metadata": "conditional",
+            "file_name": "实验室间标准化方法和质量保证程序的文件（如使用）",
+            "qa_basis": "",
+            "reason_or_on_request": "当前已确认研究事实未证实使用实验室间标准化方法。",
+            "submission_location": "不适用",
+            "submitted": "否"
+          },
+          {
+            "appendix_id": "16.1.11",
+            "category": "not_applicable",
+            "category_title": "4. 不适用附件",
+            "e3_submit_metadata": "conditional",
+            "file_name": "基于研究的发表文章",
+            "qa_basis": "",
+            "reason_or_on_request": "当前已确认研究事实未证实存在基于本研究的发表文章。",
+            "submission_location": "不适用",
+            "submitted": "否"
+          },
+          {
+            "appendix_id": "16.1.12",
+            "category": "not_applicable",
+            "category_title": "4. 不适用附件",
+            "e3_submit_metadata": "conditional",
+            "file_name": "报告中引用的重要发表文章",
+            "qa_basis": "",
+            "reason_or_on_request": "当前已确认研究事实未证实存在需作为附件的重要引用文献。",
+            "submission_location": "不适用",
+            "submitted": "否"
+          },
+          {
+            "appendix_id": "16.4",
+            "category": "not_applicable",
+            "category_title": "4. 不适用附件",
+            "e3_submit_metadata": "US only",
+            "file_name": "个例患者数据列表（US 存档列表）",
+            "qa_basis": "",
+            "reason_or_on_request": "本次提交地区为 CDE；16.4 仅为 US 存档列表。",
+            "submission_location": "不适用",
+            "submitted": "否"
+          }
+        ],
+        "title": "4. 不适用附件"
+      }
+    ],
+    "complete_listing_policy": "Every official 16.x item remains in the status register; not submitted is a status, never a deletion instruction.",
+    "entries": [
+      {
+        "appendix_id": "16.1.1",
+        "category": "csr_required",
+        "category_title": "1. CSR 必需审评附件",
+        "e3_submit_metadata": "always",
+        "file_name": "方案和方案修订案",
+        "qa_basis": "",
+        "reason_or_on_request": "E3 核心审评附件；具体文件版本以正式附件清单为准。",
+        "submission_location": "CSR 16.1.1",
+        "submitted": "是"
+      },
+      {
+        "appendix_id": "16.1.2",
+        "category": "csr_required",
+        "category_title": "1. CSR 必需审评附件",
+        "e3_submit_metadata": "always",
+        "file_name": "病例报告表样本（仅提供唯一页面）",
+        "qa_basis": "",
+        "reason_or_on_request": "E3 核心审评附件；具体文件版本以正式附件清单为准。",
+        "submission_location": "CSR 16.1.2",
+        "submitted": "是"
+      },
+      {
+        "appendix_id": "16.1.5",
+        "category": "csr_required",
+        "category_title": "1. CSR 必需审评附件",
+        "e3_submit_metadata": "not-specified",
+        "file_name": "主要或协调研究者或申办方负责医学专员的签名",
+        "qa_basis": "",
+        "reason_or_on_request": "E3 核心审评附件；具体文件版本以正式附件清单为准。",
+        "submission_location": "CSR 16.1.5",
+        "submitted": "是"
+      },
+      {
+        "appendix_id": "16.1.9",
+        "category": "csr_required",
+        "category_title": "1. CSR 必需审评附件",
+        "e3_submit_metadata": "always",
+        "file_name": "统计学方法的文件",
+        "qa_basis": "",
+        "reason_or_on_request": "E3 核心审评附件；具体文件版本以正式附件清单为准。",
+        "submission_location": "CSR 16.1.9",
+        "submitted": "是"
+      },
+      {
+        "appendix_id": "16.1.7",
+        "category": "csr_required",
+        "category_title": "1. CSR 必需审评附件",
+        "e3_submit_metadata": "always",
+        "file_name": "随机方案和编号",
+        "qa_basis": "",
+        "reason_or_on_request": "本研究为随机化设计。",
+        "submission_location": "CSR 16.1.7",
+        "submitted": "是"
+      },
+      {
+        "appendix_id": "16.1.4",
+        "category": "csr_required",
+        "category_title": "1. CSR 必需审评附件",
+        "e3_submit_metadata": "conditional",
+        "file_name": "研究者及其他重要研究参与者的列表和描述，包括个人简历（名单部分）",
+        "qa_basis": "⚠ Q&A Q3：研究者 **CV 通常不放入** CSR 附录；但研究者与中心名单『always be needed』",
+        "reason_or_on_request": "研究者和中心名单纳入附件；个人简历按 E3 Q&A Q3 留 TMF。",
+        "submission_location": "CSR 16.1.4",
+        "submitted": "部分提交"
+      },
+      {
+        "appendix_id": "16.2.1",
+        "category": "regional",
+        "category_title": "2. 本次注册申请需提交的地区性附件",
+        "e3_submit_metadata": "not-specified",
+        "file_name": "终止研究患者",
+        "qa_basis": "",
+        "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+        "submission_location": "地区性申报附件位置",
+        "submitted": "条件性"
+      },
+      {
+        "appendix_id": "16.2.2",
+        "category": "regional",
+        "category_title": "2. 本次注册申请需提交的地区性附件",
+        "e3_submit_metadata": "not-specified",
+        "file_name": "方案偏离",
+        "qa_basis": "",
+        "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+        "submission_location": "地区性申报附件位置",
+        "submitted": "条件性"
+      },
+      {
+        "appendix_id": "16.2.3",
+        "category": "regional",
+        "category_title": "2. 本次注册申请需提交的地区性附件",
+        "e3_submit_metadata": "not-specified",
+        "file_name": "疗效分析中排除的患者",
+        "qa_basis": "",
+        "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+        "submission_location": "地区性申报附件位置",
+        "submitted": "条件性"
+      },
+      {
+        "appendix_id": "16.2.4",
+        "category": "regional",
+        "category_title": "2. 本次注册申请需提交的地区性附件",
+        "e3_submit_metadata": "not-specified",
+        "file_name": "人口统计学数据",
+        "qa_basis": "",
+        "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+        "submission_location": "地区性申报附件位置",
+        "submitted": "条件性"
+      },
+      {
+        "appendix_id": "16.2.5",
+        "category": "regional",
+        "category_title": "2. 本次注册申请需提交的地区性附件",
+        "e3_submit_metadata": "not-specified",
+        "file_name": "依从性和/或药物浓度数据",
+        "qa_basis": "",
+        "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+        "submission_location": "地区性申报附件位置",
+        "submitted": "条件性"
+      },
+      {
+        "appendix_id": "16.2.6",
+        "category": "regional",
+        "category_title": "2. 本次注册申请需提交的地区性附件",
+        "e3_submit_metadata": "not-specified",
+        "file_name": "个体疗效数据",
+        "qa_basis": "",
+        "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+        "submission_location": "地区性申报附件位置",
+        "submitted": "条件性"
+      },
+      {
+        "appendix_id": "16.2.7",
+        "category": "regional",
+        "category_title": "2. 本次注册申请需提交的地区性附件",
+        "e3_submit_metadata": "not-specified",
+        "file_name": "不良事件列表（各患者）",
+        "qa_basis": "",
+        "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+        "submission_location": "地区性申报附件位置",
+        "submitted": "条件性"
+      },
+      {
+        "appendix_id": "16.2.8",
+        "category": "regional",
+        "category_title": "2. 本次注册申请需提交的地区性附件",
+        "e3_submit_metadata": "conditional",
+        "file_name": "按患者列出的个体实验室测量值列表",
+        "qa_basis": "",
+        "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+        "submission_location": "地区性申报附件位置",
+        "submitted": "条件性"
+      },
+      {
+        "appendix_id": "16.3.1",
+        "category": "regional",
+        "category_title": "2. 本次注册申请需提交的地区性附件",
+        "e3_submit_metadata": "not-specified",
+        "file_name": "死亡、其他严重不良事件或 AE 导致的退出的 CRF",
+        "qa_basis": "",
+        "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+        "submission_location": "地区性申报附件位置",
+        "submitted": "条件性"
+      },
+      {
+        "appendix_id": "16.3.2",
+        "category": "regional",
+        "category_title": "2. 本次注册申请需提交的地区性附件",
+        "e3_submit_metadata": "not-specified",
+        "file_name": "递交的其他 CRF",
+        "qa_basis": "",
+        "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+        "submission_location": "地区性申报附件位置",
+        "submitted": "条件性"
+      },
+      {
+        "appendix_id": "16.1.3",
+        "category": "tmf_on_request",
+        "category_title": "3. TMF 留存、可按要求提供的附件",
+        "e3_submit_metadata": "conditional",
+        "file_name": "IEC 或 IRB 列表 - 代表性患者书面信息和同意书样本",
+        "qa_basis": "⚠ Q&A Q3：伦理批件与知情同意书**通常不放入 CSR 附录**，留 TMF",
+        "reason_or_on_request": "伦理批件、患者书面信息和知情同意文件通常留 TMF，可按监管要求提供（E3 Q&A Q3）。",
+        "submission_location": "TMF",
+        "submitted": "否"
+      },
+      {
+        "appendix_id": "16.1.4",
+        "category": "tmf_on_request",
+        "category_title": "3. TMF 留存、可按要求提供的附件",
+        "e3_submit_metadata": "conditional",
+        "file_name": "研究者及其他重要研究参与者的列表和描述，包括个人简历（个人简历部分）",
+        "qa_basis": "⚠ Q&A Q3：研究者 **CV 通常不放入** CSR 附录；但研究者与中心名单『always be needed』",
+        "reason_or_on_request": "研究者个人简历通常不纳入 CSR，可按要求提供（E3 Q&A Q3）。",
+        "submission_location": "TMF",
+        "submitted": "否"
+      },
+      {
+        "appendix_id": "16.1.6",
+        "category": "tmf_on_request",
+        "category_title": "3. TMF 留存、可按要求提供的附件",
+        "e3_submit_metadata": "conditional",
+        "file_name": "如使用 1 批以上药物，接受特定批次试验药品的患者列表",
+        "qa_basis": "⚠ Q&A Q3：每例受试者的批号通常不放入 CSR 附录",
+        "reason_or_on_request": "按受试者列出的批号信息通常留 TMF，可按要求提供（E3 Q&A Q3）。",
+        "submission_location": "TMF",
+        "submitted": "否"
+      },
+      {
+        "appendix_id": "16.1.8",
+        "category": "not_applicable",
+        "category_title": "4. 不适用附件",
+        "e3_submit_metadata": "conditional",
+        "file_name": "稽查证书（如有）",
+        "qa_basis": "",
+        "reason_or_on_request": "当前已确认研究事实未证实存在可提交的稽查证书。",
+        "submission_location": "不适用",
+        "submitted": "否"
+      },
+      {
+        "appendix_id": "16.1.10",
+        "category": "not_applicable",
+        "category_title": "4. 不适用附件",
+        "e3_submit_metadata": "conditional",
+        "file_name": "实验室间标准化方法和质量保证程序的文件（如使用）",
+        "qa_basis": "",
+        "reason_or_on_request": "当前已确认研究事实未证实使用实验室间标准化方法。",
+        "submission_location": "不适用",
+        "submitted": "否"
+      },
+      {
+        "appendix_id": "16.1.11",
+        "category": "not_applicable",
+        "category_title": "4. 不适用附件",
+        "e3_submit_metadata": "conditional",
+        "file_name": "基于研究的发表文章",
+        "qa_basis": "",
+        "reason_or_on_request": "当前已确认研究事实未证实存在基于本研究的发表文章。",
+        "submission_location": "不适用",
+        "submitted": "否"
+      },
+      {
+        "appendix_id": "16.1.12",
+        "category": "not_applicable",
+        "category_title": "4. 不适用附件",
+        "e3_submit_metadata": "conditional",
+        "file_name": "报告中引用的重要发表文章",
+        "qa_basis": "",
+        "reason_or_on_request": "当前已确认研究事实未证实存在需作为附件的重要引用文献。",
+        "submission_location": "不适用",
+        "submitted": "否"
+      },
+      {
+        "appendix_id": "16.4",
+        "category": "not_applicable",
+        "category_title": "4. 不适用附件",
+        "e3_submit_metadata": "US only",
+        "file_name": "个例患者数据列表（US 存档列表）",
+        "qa_basis": "",
+        "reason_or_on_request": "本次提交地区为 CDE；16.4 仅为 US 存档列表。",
+        "submission_location": "不适用",
+        "submitted": "否"
+      }
+    ],
+    "entry_count": 24,
+    "rows": [
+      {
+        "appendix_id": "16.1.1",
+        "category": "csr_required",
+        "category_title": "1. CSR 必需审评附件",
+        "e3_submit_metadata": "always",
+        "file_name": "方案和方案修订案",
+        "qa_basis": "",
+        "reason_or_on_request": "E3 核心审评附件；具体文件版本以正式附件清单为准。",
+        "submission_location": "CSR 16.1.1",
+        "submitted": "是"
+      },
+      {
+        "appendix_id": "16.1.2",
+        "category": "csr_required",
+        "category_title": "1. CSR 必需审评附件",
+        "e3_submit_metadata": "always",
+        "file_name": "病例报告表样本（仅提供唯一页面）",
+        "qa_basis": "",
+        "reason_or_on_request": "E3 核心审评附件；具体文件版本以正式附件清单为准。",
+        "submission_location": "CSR 16.1.2",
+        "submitted": "是"
+      },
+      {
+        "appendix_id": "16.1.5",
+        "category": "csr_required",
+        "category_title": "1. CSR 必需审评附件",
+        "e3_submit_metadata": "not-specified",
+        "file_name": "主要或协调研究者或申办方负责医学专员的签名",
+        "qa_basis": "",
+        "reason_or_on_request": "E3 核心审评附件；具体文件版本以正式附件清单为准。",
+        "submission_location": "CSR 16.1.5",
+        "submitted": "是"
+      },
+      {
+        "appendix_id": "16.1.9",
+        "category": "csr_required",
+        "category_title": "1. CSR 必需审评附件",
+        "e3_submit_metadata": "always",
+        "file_name": "统计学方法的文件",
+        "qa_basis": "",
+        "reason_or_on_request": "E3 核心审评附件；具体文件版本以正式附件清单为准。",
+        "submission_location": "CSR 16.1.9",
+        "submitted": "是"
+      },
+      {
+        "appendix_id": "16.1.7",
+        "category": "csr_required",
+        "category_title": "1. CSR 必需审评附件",
+        "e3_submit_metadata": "always",
+        "file_name": "随机方案和编号",
+        "qa_basis": "",
+        "reason_or_on_request": "本研究为随机化设计。",
+        "submission_location": "CSR 16.1.7",
+        "submitted": "是"
+      },
+      {
+        "appendix_id": "16.1.4",
+        "category": "csr_required",
+        "category_title": "1. CSR 必需审评附件",
+        "e3_submit_metadata": "conditional",
+        "file_name": "研究者及其他重要研究参与者的列表和描述，包括个人简历（名单部分）",
+        "qa_basis": "⚠ Q&A Q3：研究者 **CV 通常不放入** CSR 附录；但研究者与中心名单『always be needed』",
+        "reason_or_on_request": "研究者和中心名单纳入附件；个人简历按 E3 Q&A Q3 留 TMF。",
+        "submission_location": "CSR 16.1.4",
+        "submitted": "部分提交"
+      },
+      {
+        "appendix_id": "16.2.1",
+        "category": "regional",
+        "category_title": "2. 本次注册申请需提交的地区性附件",
+        "e3_submit_metadata": "not-specified",
+        "file_name": "终止研究患者",
+        "qa_basis": "",
+        "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+        "submission_location": "地区性申报附件位置",
+        "submitted": "条件性"
+      },
+      {
+        "appendix_id": "16.2.2",
+        "category": "regional",
+        "category_title": "2. 本次注册申请需提交的地区性附件",
+        "e3_submit_metadata": "not-specified",
+        "file_name": "方案偏离",
+        "qa_basis": "",
+        "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+        "submission_location": "地区性申报附件位置",
+        "submitted": "条件性"
+      },
+      {
+        "appendix_id": "16.2.3",
+        "category": "regional",
+        "category_title": "2. 本次注册申请需提交的地区性附件",
+        "e3_submit_metadata": "not-specified",
+        "file_name": "疗效分析中排除的患者",
+        "qa_basis": "",
+        "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+        "submission_location": "地区性申报附件位置",
+        "submitted": "条件性"
+      },
+      {
+        "appendix_id": "16.2.4",
+        "category": "regional",
+        "category_title": "2. 本次注册申请需提交的地区性附件",
+        "e3_submit_metadata": "not-specified",
+        "file_name": "人口统计学数据",
+        "qa_basis": "",
+        "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+        "submission_location": "地区性申报附件位置",
+        "submitted": "条件性"
+      },
+      {
+        "appendix_id": "16.2.5",
+        "category": "regional",
+        "category_title": "2. 本次注册申请需提交的地区性附件",
+        "e3_submit_metadata": "not-specified",
+        "file_name": "依从性和/或药物浓度数据",
+        "qa_basis": "",
+        "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+        "submission_location": "地区性申报附件位置",
+        "submitted": "条件性"
+      },
+      {
+        "appendix_id": "16.2.6",
+        "category": "regional",
+        "category_title": "2. 本次注册申请需提交的地区性附件",
+        "e3_submit_metadata": "not-specified",
+        "file_name": "个体疗效数据",
+        "qa_basis": "",
+        "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+        "submission_location": "地区性申报附件位置",
+        "submitted": "条件性"
+      },
+      {
+        "appendix_id": "16.2.7",
+        "category": "regional",
+        "category_title": "2. 本次注册申请需提交的地区性附件",
+        "e3_submit_metadata": "not-specified",
+        "file_name": "不良事件列表（各患者）",
+        "qa_basis": "",
+        "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+        "submission_location": "地区性申报附件位置",
+        "submitted": "条件性"
+      },
+      {
+        "appendix_id": "16.2.8",
+        "category": "regional",
+        "category_title": "2. 本次注册申请需提交的地区性附件",
+        "e3_submit_metadata": "conditional",
+        "file_name": "按患者列出的个体实验室测量值列表",
+        "qa_basis": "",
+        "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+        "submission_location": "地区性申报附件位置",
+        "submitted": "条件性"
+      },
+      {
+        "appendix_id": "16.3.1",
+        "category": "regional",
+        "category_title": "2. 本次注册申请需提交的地区性附件",
+        "e3_submit_metadata": "not-specified",
+        "file_name": "死亡、其他严重不良事件或 AE 导致的退出的 CRF",
+        "qa_basis": "",
+        "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+        "submission_location": "地区性申报附件位置",
+        "submitted": "条件性"
+      },
+      {
+        "appendix_id": "16.3.2",
+        "category": "regional",
+        "category_title": "2. 本次注册申请需提交的地区性附件",
+        "e3_submit_metadata": "not-specified",
+        "file_name": "递交的其他 CRF",
+        "qa_basis": "",
+        "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+        "submission_location": "地区性申报附件位置",
+        "submitted": "条件性"
+      },
+      {
+        "appendix_id": "16.1.3",
+        "category": "tmf_on_request",
+        "category_title": "3. TMF 留存、可按要求提供的附件",
+        "e3_submit_metadata": "conditional",
+        "file_name": "IEC 或 IRB 列表 - 代表性患者书面信息和同意书样本",
+        "qa_basis": "⚠ Q&A Q3：伦理批件与知情同意书**通常不放入 CSR 附录**，留 TMF",
+        "reason_or_on_request": "伦理批件、患者书面信息和知情同意文件通常留 TMF，可按监管要求提供（E3 Q&A Q3）。",
+        "submission_location": "TMF",
+        "submitted": "否"
+      },
+      {
+        "appendix_id": "16.1.4",
+        "category": "tmf_on_request",
+        "category_title": "3. TMF 留存、可按要求提供的附件",
+        "e3_submit_metadata": "conditional",
+        "file_name": "研究者及其他重要研究参与者的列表和描述，包括个人简历（个人简历部分）",
+        "qa_basis": "⚠ Q&A Q3：研究者 **CV 通常不放入** CSR 附录；但研究者与中心名单『always be needed』",
+        "reason_or_on_request": "研究者个人简历通常不纳入 CSR，可按要求提供（E3 Q&A Q3）。",
+        "submission_location": "TMF",
+        "submitted": "否"
+      },
+      {
+        "appendix_id": "16.1.6",
+        "category": "tmf_on_request",
+        "category_title": "3. TMF 留存、可按要求提供的附件",
+        "e3_submit_metadata": "conditional",
+        "file_name": "如使用 1 批以上药物，接受特定批次试验药品的患者列表",
+        "qa_basis": "⚠ Q&A Q3：每例受试者的批号通常不放入 CSR 附录",
+        "reason_or_on_request": "按受试者列出的批号信息通常留 TMF，可按要求提供（E3 Q&A Q3）。",
+        "submission_location": "TMF",
+        "submitted": "否"
+      },
+      {
+        "appendix_id": "16.1.8",
+        "category": "not_applicable",
+        "category_title": "4. 不适用附件",
+        "e3_submit_metadata": "conditional",
+        "file_name": "稽查证书（如有）",
+        "qa_basis": "",
+        "reason_or_on_request": "当前已确认研究事实未证实存在可提交的稽查证书。",
+        "submission_location": "不适用",
+        "submitted": "否"
+      },
+      {
+        "appendix_id": "16.1.10",
+        "category": "not_applicable",
+        "category_title": "4. 不适用附件",
+        "e3_submit_metadata": "conditional",
+        "file_name": "实验室间标准化方法和质量保证程序的文件（如使用）",
+        "qa_basis": "",
+        "reason_or_on_request": "当前已确认研究事实未证实使用实验室间标准化方法。",
+        "submission_location": "不适用",
+        "submitted": "否"
+      },
+      {
+        "appendix_id": "16.1.11",
+        "category": "not_applicable",
+        "category_title": "4. 不适用附件",
+        "e3_submit_metadata": "conditional",
+        "file_name": "基于研究的发表文章",
+        "qa_basis": "",
+        "reason_or_on_request": "当前已确认研究事实未证实存在基于本研究的发表文章。",
+        "submission_location": "不适用",
+        "submitted": "否"
+      },
+      {
+        "appendix_id": "16.1.12",
+        "category": "not_applicable",
+        "category_title": "4. 不适用附件",
+        "e3_submit_metadata": "conditional",
+        "file_name": "报告中引用的重要发表文章",
+        "qa_basis": "",
+        "reason_or_on_request": "当前已确认研究事实未证实存在需作为附件的重要引用文献。",
+        "submission_location": "不适用",
+        "submitted": "否"
+      },
+      {
+        "appendix_id": "16.4",
+        "category": "not_applicable",
+        "category_title": "4. 不适用附件",
+        "e3_submit_metadata": "US only",
+        "file_name": "个例患者数据列表（US 存档列表）",
+        "qa_basis": "",
+        "reason_or_on_request": "本次提交地区为 CDE；16.4 仅为 US 存档列表。",
+        "submission_location": "不适用",
+        "submitted": "否"
+      }
+    ],
+    "schema_version": "1.1",
+    "source": "ICH E3 structure submit metadata and E3 Q&A Q3 notes",
+    "status": "pass",
+    "submission_region": "CDE",
+    "unique_appendix_count": 23
+  },
+  "appendix_status_row_count": 24,
+  "conclusion_order": [
+    {
+      "last": true,
+      "section_id": "11.5.10",
+      "semantic_role": "pk_conclusion",
+      "visible_siblings": [
+        "11.5.1",
+        "11.5.2",
+        "11.5.3",
+        "11.5.4",
+        "11.5.5",
+        "11.5.6",
+        "11.5.7",
+        "11.5.8",
+        "11.5.9",
+        "11.5.10"
+      ]
+    },
+    {
+      "last": true,
+      "section_id": "11.6.7",
+      "semantic_role": "exploratory_efficacy_conclusion",
+      "visible_siblings": [
+        "11.6.1",
+        "11.6.2",
+        "11.6.7"
+      ]
+    },
+    {
+      "last": true,
+      "section_id": "12.7",
+      "semantic_role": "safety_conclusion",
+      "visible_siblings": [
+        "12.1",
+        "12.2",
+        "12.3",
+        "12.4",
+        "12.5",
+        "12.6",
+        "12.7"
+      ]
+    }
+  ],
+  "content_block_count": 0,
+  "cross_references": {
+    "bookmark_count": 172,
+    "field_count": 0,
+    "status": "pass",
+    "unique_target_count": 0
+  },
+  "directory_subsection_count": 6,
+  "formal_extension_count": 36,
+  "full_scaffold_official_heading_count": 122,
+  "manual_review_queue": [
+    {
+      "appendix_status_managed": false,
+      "basis": [
+        {
+          "path": "manual_review",
+          "value": "specific protocol fact required"
+        }
+      ],
+      "classification": "manual_review_required",
+      "disposition": "retained",
+      "driving_modules": [],
+      "human_reason": "缺少可支持自动删节的具体方案事实；本节保留并进入人工确认队列。",
+      "layer": "ich-official",
+      "reason": "缺少可支持自动删节的具体方案事实；本节保留并进入人工确认队列。",
+      "relocate_to": null,
+      "render_title": "个体疗效数据列表",
+      "retained": true,
+      "section_id": "11.4.3",
+      "semantic_role": null,
+      "title": "个体疗效数据列表",
+      "title_drivers": []
+    },
+    {
+      "appendix_status_managed": false,
+      "basis": [
+        {
+          "path": "manual_review",
+          "value": "specific protocol fact required"
+        }
+      ],
+      "classification": "manual_review_required",
+      "disposition": "retained",
+      "driving_modules": [],
+      "human_reason": "缺少可支持自动删节的具体方案事实；本节保留并进入人工确认队列。",
+      "layer": "ich-official",
+      "reason": "缺少可支持自动删节的具体方案事实；本节保留并进入人工确认队列。",
+      "relocate_to": null,
+      "render_title": "按患者列出",
+      "retained": true,
+      "section_id": "11.4.6",
+      "semantic_role": null,
+      "title": "按患者列出",
+      "title_drivers": []
+    }
+  ],
+  "mode": "clean_pruned_project_skeleton",
+  "numbering_order": {
+    "inversions": [],
+    "status": "pass",
+    "visible_heading_count": 150
+  },
+  "omission_declaration_blocks": [
+    {
+      "chapter": "11",
+      "items": [
+        {
+          "disposition": "relocated",
+          "human_reason": "分析数据集同时服务受试者处置、疗效、安全性和药代动力学评价，已统一移至 10.3 呈现。",
+          "section_id": "11.1",
+          "title": "分析数据集"
+        },
+        {
+          "disposition": "not_applicable",
+          "human_reason": "本研究未设定确证性疗效目的，疗效结果按探索性结构在 11.6.1 呈现。",
+          "section_id": "11.4.1",
+          "title": "疗效分析"
+        },
+        {
+          "disposition": "not_applicable",
+          "human_reason": "本研究未设定确证性疗效分析，本项未作为独立确证性分析节呈现；适用方法须在探索性统计分析内容中依据 SAP 核对。",
+          "section_id": "11.4.2",
+          "title": "统计/分析内容"
+        },
+        {
+          "disposition": "not_applicable",
+          "human_reason": "本研究未设定确证性疗效目的，适用的协变量校正分析在 11.6.2.1 呈现。",
+          "section_id": "11.4.2.1",
+          "title": "协变量的调整"
+        },
+        {
+          "disposition": "not_applicable",
+          "human_reason": "本研究未设定确证性疗效分析，本项未作为独立确证性分析节呈现；适用方法须在探索性统计分析内容中依据 SAP 核对。",
+          "section_id": "11.4.2.2",
+          "title": "脱落或缺失数据的处理"
+        },
+        {
+          "disposition": "not_applicable",
+          "human_reason": "方案未设置期中分析或独立数据监查安排。",
+          "section_id": "11.4.2.3",
+          "title": "试验期中分析和数据监查"
+        },
+        {
+          "disposition": "not_applicable",
+          "human_reason": "本研究未设定确证性疗效目的，适用的多中心分析在 11.6.2.4 呈现。",
+          "section_id": "11.4.2.4",
+          "title": "多中心研究"
+        },
+        {
+          "disposition": "not_applicable",
+          "human_reason": "统计分析未设置多重比较或多重性控制。",
+          "section_id": "11.4.2.5",
+          "title": "多重比较/多重性"
+        },
+        {
+          "disposition": "not_applicable",
+          "human_reason": "方案和统计分析未采用估计目标框架。",
+          "section_id": "11.4.2.6",
+          "title": "患者『疗效子集』的使用"
+        },
+        {
+          "disposition": "not_applicable",
+          "human_reason": "本研究不是非劣效或等效性设计。",
+          "section_id": "11.4.2.7",
+          "title": "旨在表明等效性的阳性对照研究"
+        },
+        {
+          "disposition": "not_applicable",
+          "human_reason": "统计分析未预设亚组分析。",
+          "section_id": "11.4.2.8",
+          "title": "亚组的考察"
+        },
+        {
+          "disposition": "not_applicable",
+          "human_reason": "方案未设置暴露量或剂量与疗效反应关系分析。",
+          "section_id": "11.4.4",
+          "title": "药物剂量、药物浓度以及与效应之间的关系"
+        },
+        {
+          "disposition": "not_applicable",
+          "human_reason": "方案未设置药物相互作用或药物与疾病相互作用评价。",
+          "section_id": "11.4.5",
+          "title": "药物-药物和药物-疾病相互作用"
+        },
+        {
+          "disposition": "not_applicable",
+          "human_reason": "本研究未设定确证性疗效目的，探索性疗效结论在 11.6.7 呈现。",
+          "section_id": "11.4.7",
+          "title": "疗效结论"
+        }
+      ],
+      "omitted_count": 14,
+      "physical_form": "body_paragraphs"
+    }
+  ],
+  "omission_policy": "remove",
+  "omitted_official_heading_count": 14,
+  "omitted_sections": [
+    {
+      "appendix_status_managed": false,
+      "basis": [
+        {
+          "path": "analyses.analysis_sets",
+          "value": [
+            "FAS",
+            "mFAS",
+            "SS",
+            "PKCS",
+            "PKPS"
+          ]
+        },
+        {
+          "path": "relocated_to",
+          "value": "10.3"
+        }
+      ],
+      "classification": "relocated",
+      "disposition": "relocated",
+      "driving_modules": [],
+      "human_reason": "分析数据集同时服务受试者处置、疗效、安全性和药代动力学评价，已统一移至 10.3 呈现。",
+      "layer": "ich-official",
+      "reason": "本节内容已按跨结果域结构调整移至 10.3。",
+      "relocate_to": "10.3",
+      "render_title": "分析数据集",
+      "retained": false,
+      "section_id": "11.1",
+      "semantic_role": null,
+      "title": "分析数据集",
+      "title_drivers": []
+    },
+    {
+      "appendix_status_managed": false,
+      "basis": [
+        {
+          "capability": "has_confirmatory_efficacy",
+          "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+          "facts": [
+            {
+              "path": "analyses.hypothesis_test",
+              "value": false
+            },
+            {
+              "path": "objectives.confirmatory_efficacy",
+              "value": false
+            }
+          ],
+          "value": false
+        }
+      ],
+      "classification": "conditional_omitted",
+      "disposition": "not_applicable",
+      "driving_modules": [],
+      "human_reason": "本研究未设定确证性疗效目的，疗效结果按探索性结构在 11.6.1 呈现。",
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "relocate_to": null,
+      "render_title": "疗效分析",
+      "retained": false,
+      "section_id": "11.4.1",
+      "semantic_role": null,
+      "title": "疗效分析",
+      "title_drivers": []
+    },
+    {
+      "appendix_status_managed": false,
+      "basis": [
+        {
+          "capability": "has_confirmatory_efficacy",
+          "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+          "facts": [
+            {
+              "path": "analyses.hypothesis_test",
+              "value": false
+            },
+            {
+              "path": "objectives.confirmatory_efficacy",
+              "value": false
+            }
+          ],
+          "value": false
+        }
+      ],
+      "classification": "conditional_omitted",
+      "disposition": "not_applicable",
+      "driving_modules": [],
+      "human_reason": "本研究未设定确证性疗效分析，本项未作为独立确证性分析节呈现；适用方法须在探索性统计分析内容中依据 SAP 核对。",
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "relocate_to": null,
+      "render_title": "统计/分析内容",
+      "retained": false,
+      "section_id": "11.4.2",
+      "semantic_role": null,
+      "title": "统计/分析内容",
+      "title_drivers": []
+    },
+    {
+      "appendix_status_managed": false,
+      "basis": [
+        {
+          "capability": "has_confirmatory_efficacy",
+          "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+          "facts": [
+            {
+              "path": "analyses.hypothesis_test",
+              "value": false
+            },
+            {
+              "path": "objectives.confirmatory_efficacy",
+              "value": false
+            }
+          ],
+          "value": false
+        }
+      ],
+      "classification": "conditional_omitted",
+      "disposition": "not_applicable",
+      "driving_modules": [],
+      "human_reason": "本研究未设定确证性疗效目的，适用的协变量校正分析在 11.6.2.1 呈现。",
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "relocate_to": null,
+      "render_title": "协变量的调整",
+      "retained": false,
+      "section_id": "11.4.2.1",
+      "semantic_role": null,
+      "title": "协变量的调整",
+      "title_drivers": []
+    },
+    {
+      "appendix_status_managed": false,
+      "basis": [
+        {
+          "capability": "has_confirmatory_efficacy",
+          "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+          "facts": [
+            {
+              "path": "analyses.hypothesis_test",
+              "value": false
+            },
+            {
+              "path": "objectives.confirmatory_efficacy",
+              "value": false
+            }
+          ],
+          "value": false
+        }
+      ],
+      "classification": "conditional_omitted",
+      "disposition": "not_applicable",
+      "driving_modules": [],
+      "human_reason": "本研究未设定确证性疗效分析，本项未作为独立确证性分析节呈现；适用方法须在探索性统计分析内容中依据 SAP 核对。",
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "relocate_to": null,
+      "render_title": "脱落或缺失数据的处理",
+      "retained": false,
+      "section_id": "11.4.2.2",
+      "semantic_role": null,
+      "title": "脱落或缺失数据的处理",
+      "title_drivers": []
+    },
+    {
+      "appendix_status_managed": false,
+      "basis": [
+        {
+          "capability": "has_confirmatory_efficacy",
+          "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+          "facts": [
+            {
+              "path": "analyses.hypothesis_test",
+              "value": false
+            },
+            {
+              "path": "objectives.confirmatory_efficacy",
+              "value": false
+            }
+          ],
+          "value": false
+        },
+        {
+          "capability": "has_interim_analysis",
+          "condition": "design.interim_analysis",
+          "facts": [
+            {
+              "path": "design.interim_analysis",
+              "value": false
+            }
+          ],
+          "value": false
+        }
+      ],
+      "classification": "conditional_omitted",
+      "disposition": "not_applicable",
+      "driving_modules": [],
+      "human_reason": "方案未设置期中分析或独立数据监查安排。",
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "relocate_to": null,
+      "render_title": "试验期中分析和数据监查",
+      "retained": false,
+      "section_id": "11.4.2.3",
+      "semantic_role": null,
+      "title": "试验期中分析和数据监查",
+      "title_drivers": []
+    },
+    {
+      "appendix_status_managed": false,
+      "basis": [
+        {
+          "capability": "has_confirmatory_efficacy",
+          "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+          "facts": [
+            {
+              "path": "analyses.hypothesis_test",
+              "value": false
+            },
+            {
+              "path": "objectives.confirmatory_efficacy",
+              "value": false
+            }
+          ],
+          "value": false
+        },
+        {
+          "capability": "is_multicenter",
+          "condition": "design.n_centers > 1",
+          "facts": [
+            {
+              "path": "design.n_centers",
+              "value": 2
+            }
+          ],
+          "value": true
+        }
+      ],
+      "classification": "conditional_omitted",
+      "disposition": "not_applicable",
+      "driving_modules": [],
+      "human_reason": "本研究未设定确证性疗效目的，适用的多中心分析在 11.6.2.4 呈现。",
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "relocate_to": null,
+      "render_title": "多中心研究",
+      "retained": false,
+      "section_id": "11.4.2.4",
+      "semantic_role": null,
+      "title": "多中心研究",
+      "title_drivers": []
+    },
+    {
+      "appendix_status_managed": false,
+      "basis": [
+        {
+          "capability": "has_confirmatory_efficacy",
+          "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+          "facts": [
+            {
+              "path": "analyses.hypothesis_test",
+              "value": false
+            },
+            {
+              "path": "objectives.confirmatory_efficacy",
+              "value": false
+            }
+          ],
+          "value": false
+        },
+        {
+          "capability": "has_multiplicity_control",
+          "condition": "analyses.multiplicity_control",
+          "facts": [
+            {
+              "path": "analyses.multiplicity_control",
+              "value": false
+            }
+          ],
+          "value": false
+        }
+      ],
+      "classification": "conditional_omitted",
+      "disposition": "not_applicable",
+      "driving_modules": [],
+      "human_reason": "统计分析未设置多重比较或多重性控制。",
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "relocate_to": null,
+      "render_title": "多重比较/多重性",
+      "retained": false,
+      "section_id": "11.4.2.5",
+      "semantic_role": null,
+      "title": "多重比较/多重性",
+      "title_drivers": []
+    },
+    {
+      "appendix_status_managed": false,
+      "basis": [
+        {
+          "capability": "has_confirmatory_efficacy",
+          "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+          "facts": [
+            {
+              "path": "analyses.hypothesis_test",
+              "value": false
+            },
+            {
+              "path": "objectives.confirmatory_efficacy",
+              "value": false
+            }
+          ],
+          "value": false
+        },
+        {
+          "capability": "has_estimand_framework",
+          "condition": "analyses.estimand_framework",
+          "facts": [
+            {
+              "path": "analyses.estimand_framework",
+              "value": false
+            }
+          ],
+          "value": false
+        }
+      ],
+      "classification": "conditional_omitted",
+      "disposition": "not_applicable",
+      "driving_modules": [],
+      "human_reason": "方案和统计分析未采用估计目标框架。",
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "relocate_to": null,
+      "render_title": "患者『疗效子集』的使用",
+      "retained": false,
+      "section_id": "11.4.2.6",
+      "semantic_role": null,
+      "title": "患者『疗效子集』的使用",
+      "title_drivers": []
+    },
+    {
+      "appendix_status_managed": false,
+      "basis": [
+        {
+          "capability": "has_confirmatory_efficacy",
+          "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+          "facts": [
+            {
+              "path": "analyses.hypothesis_test",
+              "value": false
+            },
+            {
+              "path": "objectives.confirmatory_efficacy",
+              "value": false
+            }
+          ],
+          "value": false
+        },
+        {
+          "capability": "has_noninferiority",
+          "condition": "design.noninferiority",
+          "facts": [
+            {
+              "path": "design.noninferiority",
+              "value": false
+            }
+          ],
+          "value": false
+        },
+        {
+          "capability": "is_bioequivalence_study",
+          "condition": "design.study_type == bioequivalence || bioequivalence in design.clinical_pharmacology_studies",
+          "facts": [
+            {
+              "path": "design.clinical_pharmacology_studies",
+              "value": []
+            },
+            {
+              "path": "design.study_type",
+              "value": "general_interventional"
+            }
+          ],
+          "value": false
+        }
+      ],
+      "classification": "conditional_omitted",
+      "disposition": "not_applicable",
+      "driving_modules": [],
+      "human_reason": "本研究不是非劣效或等效性设计。",
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "relocate_to": null,
+      "render_title": "旨在表明等效性的阳性对照研究",
+      "retained": false,
+      "section_id": "11.4.2.7",
+      "semantic_role": null,
+      "title": "旨在表明等效性的阳性对照研究",
+      "title_drivers": []
+    },
+    {
+      "appendix_status_managed": false,
+      "basis": [
+        {
+          "capability": "has_confirmatory_efficacy",
+          "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+          "facts": [
+            {
+              "path": "analyses.hypothesis_test",
+              "value": false
+            },
+            {
+              "path": "objectives.confirmatory_efficacy",
+              "value": false
+            }
+          ],
+          "value": false
+        },
+        {
+          "capability": "has_subgroup_analysis",
+          "condition": "analyses.subgroup",
+          "facts": [
+            {
+              "path": "analyses.subgroup",
+              "value": false
+            }
+          ],
+          "value": false
+        }
+      ],
+      "classification": "conditional_omitted",
+      "disposition": "not_applicable",
+      "driving_modules": [],
+      "human_reason": "统计分析未预设亚组分析。",
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "relocate_to": null,
+      "render_title": "亚组的考察",
+      "retained": false,
+      "section_id": "11.4.2.8",
+      "semantic_role": null,
+      "title": "亚组的考察",
+      "title_drivers": []
+    },
+    {
+      "appendix_status_managed": false,
+      "basis": [
+        {
+          "capability": "has_exposure_response",
+          "condition": "analyses.exposure_response",
+          "facts": [
+            {
+              "path": "analyses.exposure_response",
+              "value": false
+            }
+          ],
+          "value": false
+        }
+      ],
+      "classification": "conditional_omitted",
+      "disposition": "not_applicable",
+      "driving_modules": [],
+      "human_reason": "方案未设置暴露量或剂量与疗效反应关系分析。",
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "relocate_to": null,
+      "render_title": "药物剂量、药物浓度以及与效应之间的关系",
+      "retained": false,
+      "section_id": "11.4.4",
+      "semantic_role": null,
+      "title": "药物剂量、药物浓度以及与效应之间的关系",
+      "title_drivers": []
+    },
+    {
+      "appendix_status_managed": false,
+      "basis": [
+        {
+          "capability": "is_ddi_study",
+          "condition": "design.study_type == drug_drug_interaction || drug_drug_interaction in design.clinical_pharmacology_studies",
+          "facts": [
+            {
+              "path": "design.clinical_pharmacology_studies",
+              "value": []
+            },
+            {
+              "path": "design.study_type",
+              "value": "general_interventional"
+            }
+          ],
+          "value": false
+        }
+      ],
+      "classification": "conditional_omitted",
+      "disposition": "not_applicable",
+      "driving_modules": [],
+      "human_reason": "方案未设置药物相互作用或药物与疾病相互作用评价。",
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "relocate_to": null,
+      "render_title": "药物-药物和药物-疾病相互作用",
+      "retained": false,
+      "section_id": "11.4.5",
+      "semantic_role": null,
+      "title": "药物-药物和药物-疾病相互作用",
+      "title_drivers": []
+    },
+    {
+      "appendix_status_managed": false,
+      "basis": [
+        {
+          "capability": "has_confirmatory_efficacy",
+          "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+          "facts": [
+            {
+              "path": "analyses.hypothesis_test",
+              "value": false
+            },
+            {
+              "path": "objectives.confirmatory_efficacy",
+              "value": false
+            }
+          ],
+          "value": false
+        }
+      ],
+      "classification": "conditional_omitted",
+      "disposition": "not_applicable",
+      "driving_modules": [],
+      "human_reason": "本研究未设定确证性疗效目的，探索性疗效结论在 11.6.7 呈现。",
+      "layer": "ich-official",
+      "reason": "研究事实不满足本节适用条件。",
+      "relocate_to": null,
+      "render_title": "疗效结论",
+      "retained": false,
+      "section_id": "11.4.7",
+      "semantic_role": "efficacy_conclusion",
+      "title": "疗效结论",
+      "title_drivers": []
+    }
+  ],
+  "output_sha256": "406ffb8eacd33baef43bce7ef09766d8f259f16484eef3dc193f52dc2fdeed95",
+  "pending_count": 0,
+  "publication_anchor_count": 22,
+  "publication_reference_count": 22,
+  "retained_official_heading_count": 108,
+  "retained_section_ids": [
+    "1",
+    "2",
+    "3",
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4",
+    "3.5",
+    "3.6",
+    "4",
+    "5",
+    "5.1",
+    "5.2",
+    "5.3",
+    "6",
+    "7",
+    "8",
+    "9",
+    "9.1",
+    "9.2",
+    "9.3",
+    "9.3.1",
+    "9.3.2",
+    "9.3.3",
+    "9.4",
+    "9.4.1",
+    "9.4.2",
+    "9.4.3",
+    "9.4.4",
+    "9.4.5",
+    "9.4.6",
+    "9.4.7",
+    "9.4.8",
+    "9.5",
+    "9.5.1",
+    "9.5.1.1",
+    "9.5.2",
+    "9.5.3",
+    "9.5.4",
+    "9.5.6",
+    "9.5.7",
+    "9.5.8",
+    "9.5.9",
+    "9.6",
+    "9.7",
+    "9.7.1",
+    "9.7.2",
+    "9.8",
+    "10",
+    "10.1",
+    "10.2",
+    "10.3",
+    "10.3.1",
+    "10.3.2",
+    "10.3.3",
+    "10.3.4",
+    "10.3.5",
+    "11",
+    "11.2",
+    "11.3",
+    "11.4",
+    "11.4.3",
+    "11.4.6",
+    "11.5",
+    "11.5.1",
+    "11.5.2",
+    "11.5.3",
+    "11.5.4",
+    "11.5.5",
+    "11.5.6",
+    "11.5.7",
+    "11.5.8",
+    "11.5.9",
+    "11.5.10",
+    "11.6",
+    "11.6.1",
+    "11.6.1.4",
+    "11.6.2",
+    "11.6.2.1",
+    "11.6.2.4",
+    "11.6.7",
+    "12",
+    "12.1",
+    "12.2",
+    "12.2.1",
+    "12.2.2",
+    "12.2.3",
+    "12.2.4",
+    "12.2.6",
+    "12.2.7",
+    "12.2.9",
+    "12.3",
+    "12.3.1",
+    "12.3.1.1",
+    "12.3.1.2",
+    "12.3.1.3",
+    "12.3.2",
+    "12.3.3",
+    "12.4",
+    "12.4.1",
+    "12.4.2",
+    "12.4.2.1",
+    "12.4.2.2",
+    "12.4.2.3",
+    "12.5",
+    "12.5.1",
+    "12.5.2",
+    "12.6",
+    "12.7",
+    "13",
+    "14",
+    "14.1",
+    "14.1.1",
+    "14.1.2",
+    "14.1.3",
+    "14.2",
+    "14.3",
+    "14.3.1",
+    "14.3.2",
+    "14.3.3",
+    "14.3.4",
+    "15",
+    "16",
+    "16.0",
+    "16.1",
+    "16.1.1",
+    "16.1.2",
+    "16.1.3",
+    "16.1.4",
+    "16.1.5",
+    "16.1.6",
+    "16.1.7",
+    "16.1.8",
+    "16.1.9",
+    "16.1.10",
+    "16.1.11",
+    "16.1.12",
+    "16.2",
+    "16.2.1",
+    "16.2.2",
+    "16.2.3",
+    "16.2.4",
+    "16.2.5",
+    "16.2.6",
+    "16.2.7",
+    "16.2.8",
+    "16.3",
+    "16.3.1",
+    "16.3.2",
+    "16.4"
+  ],
+  "route_contribution_count": 48,
+  "route_coverage": [
+    {
+      "module_id": "M-CORE",
+      "section_id": "1-8",
+      "status": "official_scaffold_range",
+      "variant": "core"
+    },
+    {
+      "module_id": "M-CORE",
+      "section_id": "9.1-9.6",
+      "status": "official_scaffold_range",
+      "variant": "core"
+    },
+    {
+      "module_id": "M-CORE",
+      "section_id": "10",
+      "status": "heading_only_clean",
+      "variant": "core"
+    },
+    {
+      "module_id": "M-CORE",
+      "section_id": "13-16",
+      "status": "official_scaffold_range",
+      "variant": "core"
+    },
+    {
+      "module_id": "M-DOSE-ESC",
+      "section_id": "12.6",
+      "status": "heading_only_clean",
+      "variant": "dose_escalation"
+    },
+    {
+      "module_id": "M-PK-NCA",
+      "section_id": "11.5",
+      "status": "heading_only_clean",
+      "variant": "pk_nca"
+    },
+    {
+      "module_id": "M-PK-NCA",
+      "section_id": "11.5.1",
+      "status": "heading_only_clean",
+      "variant": "pk_analysis_set"
+    },
+    {
+      "module_id": "M-PK-NCA",
+      "section_id": "11.5.2",
+      "status": "heading_only_clean",
+      "variant": "pk_concentration"
+    },
+    {
+      "module_id": "M-PK-NCA",
+      "section_id": "11.5.3",
+      "status": "heading_only_clean",
+      "variant": "pk_blq"
+    },
+    {
+      "module_id": "M-PK-NCA",
+      "section_id": "11.5.4",
+      "status": "heading_only_clean",
+      "variant": "pk_parameters"
+    },
+    {
+      "module_id": "M-PK-NCA",
+      "section_id": "11.5.5",
+      "status": "heading_only_clean",
+      "variant": "pk_exposure"
+    },
+    {
+      "module_id": "M-PK-NCA",
+      "section_id": "11.5.6",
+      "status": "heading_only_clean",
+      "variant": "pk_dose_proportionality"
+    },
+    {
+      "module_id": "M-PK-NCA",
+      "section_id": "11.5.7",
+      "status": "heading_only_clean",
+      "variant": "pk_accumulation"
+    },
+    {
+      "module_id": "M-PK-NCA",
+      "section_id": "11.5.8",
+      "status": "heading_only_clean",
+      "variant": "pk_application_factors"
+    },
+    {
+      "module_id": "M-PK-NCA",
+      "section_id": "11.5.9",
+      "status": "heading_only_clean",
+      "variant": "pk_individual_outliers"
+    },
+    {
+      "module_id": "M-PK-NCA",
+      "section_id": "11.5.10",
+      "status": "heading_only_clean",
+      "variant": "pk_conclusion"
+    },
+    {
+      "module_id": "M-PK-NCA",
+      "section_id": "9.5.4",
+      "status": "heading_only_clean",
+      "variant": "pk_sampling"
+    },
+    {
+      "module_id": "M-EFF-EXPLORE",
+      "section_id": "11.6",
+      "status": "heading_only_clean",
+      "variant": "exploratory"
+    },
+    {
+      "module_id": "M-EFF-EXPLORE",
+      "section_id": "11.6.1",
+      "status": "heading_only_clean",
+      "variant": "exploratory_primary"
+    },
+    {
+      "module_id": "M-EFF-EXPLORE",
+      "section_id": "11.6.7",
+      "status": "heading_only_clean",
+      "variant": "exploratory_efficacy_conclusion"
+    },
+    {
+      "module_id": "M-MULTICENTER",
+      "section_id": "11.6.2.4",
+      "status": "heading_only_clean",
+      "variant": "center_effect"
+    },
+    {
+      "module_id": "M-MULTICENTER",
+      "section_id": "10.2",
+      "status": "heading_only_clean",
+      "variant": "by_center"
+    },
+    {
+      "module_id": "M-MULTICENTER",
+      "section_id": "16.2.2",
+      "status": "heading_only_clean",
+      "variant": "by_center"
+    },
+    {
+      "module_id": "M-LOCAL-TOLERANCE",
+      "section_id": "12.2.9",
+      "status": "heading_only_clean",
+      "variant": "application_site_reactions"
+    },
+    {
+      "module_id": "M-LOCAL-TOLERANCE",
+      "section_id": "12.5.1",
+      "status": "heading_only_clean",
+      "variant": "local_tolerance_ae_subset"
+    },
+    {
+      "module_id": "M-AE-CONSEQUENCE",
+      "section_id": "12.2",
+      "status": "heading_only_clean",
+      "variant": "ae_consequence_pairs"
+    },
+    {
+      "module_id": "M-AE-CONSEQUENCE",
+      "section_id": "12.2.6",
+      "status": "heading_only_clean",
+      "variant": "ae_permanent_discontinuation"
+    },
+    {
+      "module_id": "M-AE-CONSEQUENCE",
+      "section_id": "12.2.7",
+      "status": "heading_only_clean",
+      "variant": "ae_interruption_or_adjustment"
+    },
+    {
+      "module_id": "M-TOPICAL-PK",
+      "section_id": "11.5",
+      "status": "heading_only_clean",
+      "variant": "topical_low_systemic_exposure"
+    },
+    {
+      "module_id": "M-TOPICAL-PK",
+      "section_id": "11.5.1",
+      "status": "heading_only_clean",
+      "variant": "pk_analysis_set"
+    },
+    {
+      "module_id": "M-TOPICAL-PK",
+      "section_id": "11.5.2",
+      "status": "heading_only_clean",
+      "variant": "pk_concentration"
+    },
+    {
+      "module_id": "M-TOPICAL-PK",
+      "section_id": "11.5.3",
+      "status": "heading_only_clean",
+      "variant": "pk_blq"
+    },
+    {
+      "module_id": "M-TOPICAL-PK",
+      "section_id": "11.5.4",
+      "status": "heading_only_clean",
+      "variant": "pk_parameters"
+    },
+    {
+      "module_id": "M-TOPICAL-PK",
+      "section_id": "11.5.5",
+      "status": "heading_only_clean",
+      "variant": "pk_exposure"
+    },
+    {
+      "module_id": "M-TOPICAL-PK",
+      "section_id": "11.5.6",
+      "status": "heading_only_clean",
+      "variant": "pk_dose_proportionality"
+    },
+    {
+      "module_id": "M-TOPICAL-PK",
+      "section_id": "11.5.7",
+      "status": "heading_only_clean",
+      "variant": "pk_accumulation"
+    },
+    {
+      "module_id": "M-TOPICAL-PK",
+      "section_id": "11.5.8",
+      "status": "heading_only_clean",
+      "variant": "pk_application_factors"
+    },
+    {
+      "module_id": "M-TOPICAL-PK",
+      "section_id": "11.5.9",
+      "status": "heading_only_clean",
+      "variant": "pk_individual_outliers"
+    },
+    {
+      "module_id": "M-TOPICAL-PK",
+      "section_id": "11.5.10",
+      "status": "heading_only_clean",
+      "variant": "pk_conclusion"
+    },
+    {
+      "module_id": "M-TOPICAL-PK",
+      "section_id": "9.5.4",
+      "status": "heading_only_clean",
+      "variant": "topical_pk_sampling"
+    },
+    {
+      "module_id": "M-RANDOMIZED",
+      "section_id": "9.4.3",
+      "status": "heading_only_clean",
+      "variant": "randomization"
+    },
+    {
+      "module_id": "M-RANDOMIZED",
+      "section_id": "16.1.7",
+      "status": "heading_only_clean",
+      "variant": "randomization_schedule"
+    },
+    {
+      "module_id": "M-BLINDING",
+      "section_id": "9.4.6",
+      "status": "heading_only_clean",
+      "variant": "blinding"
+    },
+    {
+      "module_id": "M-PLACEBO-CTRL",
+      "section_id": "9.2",
+      "status": "heading_only_clean",
+      "variant": "placebo_control"
+    },
+    {
+      "module_id": "M-PLACEBO-CTRL",
+      "section_id": "9.4.1",
+      "status": "heading_only_clean",
+      "variant": "placebo_matching"
+    },
+    {
+      "module_id": "M-DERMATOLOGY",
+      "section_id": "11.6.1",
+      "status": "heading_only_clean",
+      "variant": "dermatology_scales"
+    },
+    {
+      "module_id": "M-DERMATOLOGY",
+      "section_id": "11.6.2.1",
+      "status": "heading_only_clean",
+      "variant": "dermatology_ancova"
+    },
+    {
+      "module_id": "M-ECG",
+      "section_id": "12.5.2",
+      "status": "heading_only_clean",
+      "variant": "ecg_evaluation"
+    }
+  ],
+  "route_coverage_count": 48,
+  "schema_version": "2.0",
+  "source_gap_block_count": 0,
+  "status": "pass",
+  "synopsis_contract": {
+    "independent_drafting_allowed": false,
+    "status": "blocked_until_body_confirmed"
+  },
+  "title_overrides": {
+    "applied": [
+      {
+        "localized_zh": "本临床研究报告目录",
+        "official_en": "TABLE OF CONTENTS FOR THE INDIVIDUAL CLINICAL STUDY REPORT",
+        "official_zh": "个例临床研究报告目录",
+        "reason": "「个例」易被误解为单个受试者病例；审阅意见 §一.4。",
+        "section_id": "3"
+      }
+    ],
+    "config_sha256": "0dca2d66e54221e3634ad8cf91e4e15fdf53d2c28f77184b5218446a64b2048b",
+    "structure_sha256": "87ea56d599120e265c1649881a9d3ad1c08db540a91be13de6a2bd31a6bc0942"
+  }
+}

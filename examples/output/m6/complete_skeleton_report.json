@@ -1,0 +1,157 @@
+{
+  "content_block_count": 107,
+  "cross_references": {
+    "bookmark_count": 144,
+    "field_count": 24,
+    "status": "pass",
+    "unique_target_count": 22
+  },
+  "custom_section_count": 2,
+  "mode": "annotated_complete_skeleton",
+  "official_heading_count": 122,
+  "output_sha256": "e9abf27c0c1e7558675aa2860766decab66ee1edd52f2689435d4f2f312878ee",
+  "pending_count": 107,
+  "route_contribution_count": 22,
+  "route_coverage": [
+    {
+      "module_id": "M-CORE",
+      "section_id": "1-8",
+      "status": "official_scaffold_range",
+      "variant": "core"
+    },
+    {
+      "module_id": "M-CORE",
+      "section_id": "9.1-9.6",
+      "status": "official_scaffold_range",
+      "variant": "core"
+    },
+    {
+      "module_id": "M-CORE",
+      "section_id": "10",
+      "status": "source_gap",
+      "variant": "core"
+    },
+    {
+      "module_id": "M-CORE",
+      "section_id": "13-16",
+      "status": "official_scaffold_range",
+      "variant": "core"
+    },
+    {
+      "module_id": "M-DOSE-ESC",
+      "section_id": "11.A",
+      "status": "source_gap",
+      "variant": "dose_escalation"
+    },
+    {
+      "module_id": "M-PK-NCA",
+      "section_id": "11.B",
+      "status": "source_gap",
+      "variant": "pk_nca"
+    },
+    {
+      "module_id": "M-PK-NCA",
+      "section_id": "9.5.4",
+      "status": "source_gap",
+      "variant": "pk_sampling"
+    },
+    {
+      "module_id": "M-EFF-EXPLORE",
+      "section_id": "11.4.1",
+      "status": "source_gap",
+      "variant": "exploratory"
+    },
+    {
+      "module_id": "M-MULTICENTER",
+      "section_id": "11.4.2.4",
+      "status": "source_gap",
+      "variant": "center_effect"
+    },
+    {
+      "module_id": "M-MULTICENTER",
+      "section_id": "10.2",
+      "status": "source_gap",
+      "variant": "by_center"
+    },
+    {
+      "module_id": "M-MULTICENTER",
+      "section_id": "16.2.2",
+      "status": "source_gap",
+      "variant": "by_center"
+    },
+    {
+      "module_id": "M-LOCAL-TOLERANCE",
+      "section_id": "12.2",
+      "status": "source_gap",
+      "variant": "local_tolerance_ae_subset"
+    },
+    {
+      "module_id": "M-AE-CONSEQUENCE",
+      "section_id": "12.2",
+      "status": "source_gap",
+      "variant": "ae_consequence_pairs"
+    },
+    {
+      "module_id": "M-TOPICAL-PK",
+      "section_id": "11.B",
+      "status": "source_gap",
+      "variant": "topical_low_systemic_exposure"
+    },
+    {
+      "module_id": "M-TOPICAL-PK",
+      "section_id": "9.5.4",
+      "status": "source_gap",
+      "variant": "topical_pk_sampling"
+    },
+    {
+      "module_id": "M-RANDOMIZED",
+      "section_id": "9.4.3",
+      "status": "reviewed_project_evidence",
+      "variant": "randomization"
+    },
+    {
+      "module_id": "M-RANDOMIZED",
+      "section_id": "16.1.7",
+      "status": "source_gap",
+      "variant": "randomization_schedule"
+    },
+    {
+      "module_id": "M-BLINDING",
+      "section_id": "9.4.6",
+      "status": "reviewed_project_evidence",
+      "variant": "blinding"
+    },
+    {
+      "module_id": "M-PLACEBO-CTRL",
+      "section_id": "9.2",
+      "status": "source_gap",
+      "variant": "placebo_control"
+    },
+    {
+      "module_id": "M-PLACEBO-CTRL",
+      "section_id": "9.4.1",
+      "status": "source_gap",
+      "variant": "placebo_matching"
+    },
+    {
+      "module_id": "M-DERMATOLOGY",
+      "section_id": "11.4.1",
+      "status": "source_gap",
+      "variant": "dermatology_scales"
+    },
+    {
+      "module_id": "M-DERMATOLOGY",
+      "section_id": "11.4.2.1",
+      "status": "source_gap",
+      "variant": "dermatology_ancova"
+    }
+  ],
+  "route_coverage_count": 22,
+  "schema_version": "1.0",
+  "source_gap_block_count": 104,
+  "status": "pass",
+  "synopsis_contract": {
+    "independent_drafting_allowed": false,
+    "status": "blocked_until_body_confirmed"
+  }
+}

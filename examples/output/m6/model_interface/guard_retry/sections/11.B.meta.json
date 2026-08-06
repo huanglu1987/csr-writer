@@ -1,0 +1,54 @@
+{
+  "binding_manifest": [],
+  "draft_sha256": "36da62410e569325da5c6c09e1131c0dd0aa4efa264bff83285296852b6d4d12",
+  "evidence_status": "source_gap",
+  "generation_attempts": 2,
+  "guard_retry_count": 1,
+  "input_sha256": "88865959300269f357ad32193ce8e0461497b082b4ede83facddbf537564741d",
+  "paragraphs": [
+    {
+      "confidence": "derived",
+      "needs_human": true,
+      "para_id": "p_11_B_001",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "deidentified-11-B-food_effect"
+      ]
+    }
+  ],
+  "playbook": {
+    "filename": "s11-clinpharm-special-pop-endpoints.md",
+    "sha256": "96b55588807eaab09f8b6067006509affecaff4551e80712ebd8839b56651371"
+  },
+  "prompt_audit": [
+    {
+      "attempt": 1,
+      "guard_feedback_sha256": null,
+      "system_prompt_sha256": "c0f3e6740a88111a9bdafea56017ab5d61a089028c09076c404524a6ebaa272c",
+      "user_prompt_sha256": "db92139dc56f4bf9f34b65db10fe884467d6ac91f1f1e767162cc416d2f70641"
+    },
+    {
+      "attempt": 2,
+      "guard_feedback_sha256": "b1360023de93b340d9affc62fd5650508e3e7fa16e6c8ed6b922f74a61edb4d0",
+      "system_prompt_sha256": "c0f3e6740a88111a9bdafea56017ab5d61a089028c09076c404524a6ebaa272c",
+      "user_prompt_sha256": "6a8685ba07f5393d9950ee056fec5e161a3a79d92491ceac7e50f261eca32366"
+    }
+  ],
+  "reference_manifest": [],
+  "schema_version": "1.1",
+  "section": "11.B",
+  "semantic_findings": [],
+  "source_manifest": [
+    {
+      "content_sha256": "4085d97c6944e5f9c2e19d0f667d01a6b9839393d811b4d0687a9733b0b48d9c",
+      "locator": "deidentified reviewed project evidence register",
+      "purpose": "gap_record",
+      "source_id": "deidentified-11-B-food_effect"
+    }
+  ],
+  "system_prompt_sha256": "8f4e93ef46763e761a6077aeb62b3c19da661f436164d9844daf4c36794ab340",
+  "variant": "food_effect",
+  "writer": "PromptedModelSectionAdapter"
+}

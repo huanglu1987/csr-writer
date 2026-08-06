@@ -1,0 +1,31 @@
+{
+  "paragraphs": [
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "sources": [
+        "SRC-PK-METHOD",
+        "SRC-PK-BLQ",
+        "SRC-PK-SET"
+      ],
+      "text": "PK 参数采用经审核的非房室方法计算，参数可计算性取决于可定量浓度数据和采样覆盖；低于定量下限的数据按预设规则处理。"
+    },
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "sources": [
+        "T14.2.4.3.1"
+      ],
+      "text": "PK 参数分析集中，峰浓度参数汇总结果为 {{T14.2.4.3.1|POP=PKPS|ROW=CMAX|COL=ACTIVE_TOTAL}}，系统暴露参数汇总结果为 {{T14.2.4.3.1|POP=PKPS|ROW=AUC0_T|COL=ACTIVE_TOTAL}}，详见{{@ref:T14.2.4.3.1}}。"
+    },
+    {
+      "confidence": "inferred",
+      "needs_human": true,
+      "sources": [
+        "SRC-PK-METHOD",
+        "SRC-PK-BLQ"
+      ],
+      "text": "[待医学负责人确认] 参数可计算性及暴露的临床解释应结合可定量时点、低于定量下限比例、分析方法定量下限和采样局限综合确认。"
+    }
+  ]
+}

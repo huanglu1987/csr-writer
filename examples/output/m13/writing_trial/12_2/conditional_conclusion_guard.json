@@ -1,0 +1,55 @@
+{
+  "datapack_sha256": "abba74b7c4668c2393da56298f437060ec6479726ddffd0942d7b5809fe88a84",
+  "draft_sha256": "399e5701949ae319f1723cfc93358063cdb5d9d391b65e6523352df790b2cdef",
+  "resolved_sha256": "8c92c526a7d880fea0cc819b69e3440fc2eec734c96c5f1698fe9126cfd1c75e",
+  "rules": [
+    {
+      "branch": "no_critical_events",
+      "confirmed_body_only": false,
+      "critical_roles": [
+        {
+          "cell_present": true,
+          "key": "T14.3.1.2|POP=SS|ROW=ANY_TEAE|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "teae_result",
+          "value_sha256": "fa36dddb9fea13d91d94439d693d42dece067f3f8a8652b691f241ee2a4bfbf5"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.3.1.2|POP=SS|ROW=ANY_SAE|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "sae_count",
+          "value_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.3.1.2|POP=SS|ROW=DEATH|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "death_count",
+          "value_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.3.1.2|POP=SS|ROW=AE_DISCONTINUATION|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "discontinuation_count",
+          "value_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.3.1.2|POP=SS|ROW=GRADE_3_PLUS|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "grade3plus_count",
+          "value_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+        }
+      ],
+      "medical_review_marker_required": true,
+      "missing_roles": [],
+      "numeric_values_not_logged": true,
+      "rule_id": "SAFETY_TOLERABILITY_V1"
+    }
+  ],
+  "schema_version": "1.1",
+  "status": "pass",
+  "warnings": []
+}

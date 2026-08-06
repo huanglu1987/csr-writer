@@ -1,0 +1,43 @@
+{
+  "bidirectional_trace": {
+    "complete": "pass",
+    "gap": "blocked"
+  },
+  "cross_chapter": "pass",
+  "dual_output": {
+    "annotated": "pass",
+    "clean_after_decisions": "pass",
+    "clean_gate_without_decisions": "blocked",
+    "synopsis_copy": "pass"
+  },
+  "dual_parser": "pass",
+  "five_group": {
+    "normal": "pass",
+    "swap": "blocked"
+  },
+  "module_route": {
+    "after": 13,
+    "before": 5,
+    "status": "pass"
+  },
+  "pk_token": "pass",
+  "qc": {
+    "regulatory_readiness_assessed": false,
+    "status": "attention_required"
+  },
+  "reverse_unreferenced_tfl": {
+    "status": "review_required",
+    "tables": 4,
+    "unreferenced": 1
+  },
+  "schema_version": "1.0",
+  "scope": "deidentified-equivalent fixtures only; no real clinical source content",
+  "semantic_key": "pass",
+  "semantic_redlines": "pass",
+  "tfl_map": {
+    "candidate": "awaiting_human_confirmation",
+    "drift_injection": "blocked",
+    "frozen": "frozen",
+    "result_apply": "pass"
+  }
+}

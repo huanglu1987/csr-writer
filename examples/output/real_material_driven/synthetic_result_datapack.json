@@ -1,0 +1,382 @@
+{
+  "adapter_scope": "deidentified structural fixture",
+  "cells": {
+    "T14.1.2.1|POP=All Enrolled Set|ROW=AGE_SEX_FORMAT|COL=SUMMARY": {
+      "column": {
+        "id": "SUMMARY",
+        "label": "Summary"
+      },
+      "dimensions": {},
+      "display_value": "35/F",
+      "row": {
+        "id": "AGE_SEX_FORMAT",
+        "indent": 0,
+        "label": "Age/sex format"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 3,
+        "source_id": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+      },
+      "type": "composite",
+      "v": "35/F"
+    },
+    "T14.1.2.1|POP=All Enrolled Set|ROW=COMPLETION_DATE|COL=SUMMARY": {
+      "column": {
+        "id": "SUMMARY",
+        "label": "Summary"
+      },
+      "dimensions": {},
+      "display_value": "2026-01-01",
+      "row": {
+        "id": "COMPLETION_DATE",
+        "indent": 0,
+        "label": "Completion date"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 1,
+        "source_id": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+      },
+      "type": "date",
+      "v": "2026-01-01"
+    },
+    "T14.1.2.1|POP=All Enrolled Set|ROW=COMPLETION_STATUS|COL=SUMMARY": {
+      "column": {
+        "id": "SUMMARY",
+        "label": "Summary"
+      },
+      "dimensions": {},
+      "display_value": "synthetic status",
+      "row": {
+        "id": "COMPLETION_STATUS",
+        "indent": 0,
+        "label": "Completion status"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 4,
+        "source_id": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+      },
+      "type": "status",
+      "v": "synthetic status"
+    },
+    "T14.1.2.1|POP=All Enrolled Set|ROW=EQUIVALENCE_JUDGEMENT|COL=SUMMARY": {
+      "column": {
+        "id": "SUMMARY",
+        "label": "Summary"
+      },
+      "dimensions": {},
+      "display_value": "synthetic judgement",
+      "row": {
+        "id": "EQUIVALENCE_JUDGEMENT",
+        "indent": 0,
+        "label": "Judgement"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 2,
+        "source_id": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+      },
+      "type": "text_judgement",
+      "v": "synthetic judgement"
+    },
+    "T14.2.4.3.1|POP=PKS|ROW=CMAX|COL=DOSE_1P0_BID|STAGE=D1": {
+      "column": {
+        "id": "DOSE_1P0_BID",
+        "label": "1.0% BID"
+      },
+      "dimensions": {
+        "STAGE": "D1"
+      },
+      "display_value": "1.0 (10.0)",
+      "row": {
+        "id": "CMAX",
+        "indent": 0,
+        "label": "Cmax"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 1,
+        "source_id": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+      },
+      "type": "geomean_cv",
+      "v": "1.0 (10.0)"
+    },
+    "T14.2.4.3.2|POP=PKS|ROW=CMAX|COL=DOSE_1P0_BID|STAGE=D28": {
+      "column": {
+        "id": "DOSE_1P0_BID",
+        "label": "1.0% BID"
+      },
+      "dimensions": {
+        "STAGE": "D28"
+      },
+      "display_value": "1.0 (10.0)",
+      "row": {
+        "id": "CMAX",
+        "indent": 0,
+        "label": "Cmax"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 1,
+        "source_id": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+      },
+      "type": "geomean_cv",
+      "v": "1.0 (10.0)"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_GI/PT_SHARED|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "Placebo"
+      },
+      "dimensions": {},
+      "display_value": "1 (1.0)",
+      "row": {
+        "id": "SOC_GI/PT_SHARED",
+        "indent": 2,
+        "label": "PT_SHARED",
+        "parent_path": "SOC_GI",
+        "physical_path": "SOC_GI/PT_SHARED"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 2,
+        "source_id": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+      },
+      "type": "n_pct",
+      "v": "1 (1.0)"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_NERVOUS/PT_SHARED|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "Placebo"
+      },
+      "dimensions": {},
+      "display_value": "1 (1.0)",
+      "row": {
+        "id": "SOC_NERVOUS/PT_SHARED",
+        "indent": 2,
+        "label": "PT_SHARED",
+        "parent_path": "SOC_NERVOUS",
+        "physical_path": "SOC_NERVOUS/PT_SHARED"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 4,
+        "source_id": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+      },
+      "type": "n_pct",
+      "v": "1 (1.0)"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SUMMARY|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "Investigational total"
+      },
+      "dimensions": {},
+      "display_value": "1 (1.0)",
+      "row": {
+        "id": "SUMMARY",
+        "indent": 0,
+        "label": "Summary"
+      },
+      "source_locator": {
+        "column_index": 6,
+        "row_index": 1,
+        "source_id": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+      },
+      "type": "n_pct",
+      "v": "1 (1.0)"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SUMMARY|COL=DOSE_0P5_BID": {
+      "column": {
+        "id": "DOSE_0P5_BID",
+        "label": "0.5% BID"
+      },
+      "dimensions": {},
+      "display_value": "1 (1.0)",
+      "row": {
+        "id": "SUMMARY",
+        "indent": 0,
+        "label": "Summary"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 1,
+        "source_id": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+      },
+      "type": "n_pct",
+      "v": "1 (1.0)"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SUMMARY|COL=DOSE_0P75_BID": {
+      "column": {
+        "id": "DOSE_0P75_BID",
+        "label": "0.75% BID"
+      },
+      "dimensions": {},
+      "display_value": "1 (1.0)",
+      "row": {
+        "id": "SUMMARY",
+        "indent": 0,
+        "label": "Summary"
+      },
+      "source_locator": {
+        "column_index": 3,
+        "row_index": 1,
+        "source_id": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+      },
+      "type": "n_pct",
+      "v": "1 (1.0)"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SUMMARY|COL=DOSE_1P0_BID": {
+      "column": {
+        "id": "DOSE_1P0_BID",
+        "label": "1.0% BID"
+      },
+      "dimensions": {},
+      "display_value": "1 (1.0)",
+      "row": {
+        "id": "SUMMARY",
+        "indent": 0,
+        "label": "Summary"
+      },
+      "source_locator": {
+        "column_index": 4,
+        "row_index": 1,
+        "source_id": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+      },
+      "type": "n_pct",
+      "v": "1 (1.0)"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SUMMARY|COL=DOSE_1P0_QD": {
+      "column": {
+        "id": "DOSE_1P0_QD",
+        "label": "1.0% QD"
+      },
+      "dimensions": {},
+      "display_value": "1 (1.0)",
+      "row": {
+        "id": "SUMMARY",
+        "indent": 0,
+        "label": "Summary"
+      },
+      "source_locator": {
+        "column_index": 5,
+        "row_index": 1,
+        "source_id": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+      },
+      "type": "n_pct",
+      "v": "1 (1.0)"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SUMMARY|COL=TOTAL": {
+      "column": {
+        "id": "TOTAL",
+        "label": "Overall total"
+      },
+      "dimensions": {},
+      "display_value": "1 (1.0)",
+      "row": {
+        "id": "SUMMARY",
+        "indent": 0,
+        "label": "Summary"
+      },
+      "source_locator": {
+        "column_index": 7,
+        "row_index": 1,
+        "source_id": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+      },
+      "type": "n_pct",
+      "v": "1 (1.0)"
+    }
+  },
+  "listing_policy": {
+    "default": "cell_level",
+    "rationale": "Subject-level wide listings are registered at table level and are not expanded into participant-cell keys.",
+    "subject_level_wide_listing": "metadata_only"
+  },
+  "mapping_manifest": {
+    "filename": "datapack_semantic_v2.deidentified.json",
+    "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  },
+  "schema_version": "1.0",
+  "semantic_key_version": "2.0",
+  "sources": [
+    {
+      "filename": "deidentified-shell-structure.fixture",
+      "format": "deidentified-structural-fixture",
+      "manifest_path": "synthetic-only",
+      "source_id": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+    }
+  ],
+  "tables": [
+    {
+      "dimensions": {},
+      "ingest_strategy": "cell_level",
+      "population": "SS",
+      "source_id": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "table_id": "T14.3.1.3.1",
+      "titles": [
+        "Deidentified hierarchical AE shell"
+      ]
+    },
+    {
+      "dimensions": {
+        "STAGE": "D1"
+      },
+      "ingest_strategy": "cell_level",
+      "population": "PKS",
+      "source_id": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "table_id": "T14.2.4.3.1",
+      "titles": [
+        "Deidentified single-dose PK shell"
+      ]
+    },
+    {
+      "dimensions": {
+        "STAGE": "D28"
+      },
+      "ingest_strategy": "cell_level",
+      "population": "PKS",
+      "source_id": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "table_id": "T14.2.4.3.2",
+      "titles": [
+        "Deidentified steady-state PK shell"
+      ]
+    },
+    {
+      "dimensions": {},
+      "ingest_strategy": "cell_level",
+      "population": "All Enrolled Set",
+      "source_id": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "table_id": "T14.1.2.1",
+      "titles": [
+        "Deidentified non-numeric summary shell"
+      ]
+    },
+    {
+      "dimensions": {},
+      "ingest_strategy": "metadata_only",
+      "metadata_only_reason": "Subject identifiers and participant-level dates are intentionally excluded from semantic cell keys.",
+      "physical_row_count": 120,
+      "population": "All Enrolled Set",
+      "source_id": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "table_id": "L16.2.1",
+      "titles": [
+        "Deidentified subject-level wide listing"
+      ]
+    },
+    {
+      "dimensions": {},
+      "ingest_strategy": "metadata_only",
+      "metadata_only_reason": "Figure is indexed as an entity; image points are not converted to cells.",
+      "physical_row_count": 0,
+      "population": "PKS",
+      "source_id": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "table_id": "F14.2.4.1",
+      "titles": [
+        "Deidentified PK figure"
+      ]
+    }
+  ]
+}

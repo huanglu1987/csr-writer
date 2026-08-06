@@ -1,0 +1,69 @@
+{
+  "datapack_sha256": "bb8a802efd2bbb79c93be445f0172446cdb318a10c8b965801423780b188ad1c",
+  "draft_sha256": "80d354bed7b733ad72e1adef9c0fb61687b067f8d2017b0fc8df21c280e77b71",
+  "resolved_sha256": "e4dcb5e74f97a0c101884bb9e3233f7cb2be2271b956a8bc93e0967f8142814a",
+  "rules": [
+    {
+      "branch": "quantifiability_limited",
+      "confirmed_body_only": false,
+      "critical_roles": [
+        {
+          "cell_present": true,
+          "key": "T14.2.4.3.1|POP=PKPS|ROW=BLQ_RATIO|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "blq_ratio",
+          "value_sha256": "a43e4a454af78f37cc8a52abce6a0d029d6c987d03f463572d02c1bd532e40f5"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.2.4.3.1|POP=PKPS|ROW=QUANTIFIABLE_TIMEPOINT_COUNT|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "quantifiable_timepoint_count",
+          "value_sha256": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.2.4.3.1|POP=PKPS|ROW=CMAX_CALCULABLE|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "cmax_calculable",
+          "value_sha256": "400d633abc7fd05f1cf62934cfaf6c777127b17fa621415835da5b1a18966c15"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.2.4.3.1|POP=PKPS|ROW=AUC_CALCULABLE|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "auc_calculable",
+          "value_sha256": "400d633abc7fd05f1cf62934cfaf6c777127b17fa621415835da5b1a18966c15"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.2.4.3.1|POP=PKPS|ROW=LLOQ|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "lloq",
+          "value_sha256": "5369b6852e023200d6fec964445d13ceb109e49d7eca7e3901efd1f389062bc3"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.2.4.3.1|POP=PKPS|ROW=NONCALCULABLE_REASON|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "noncalculable_reason",
+          "value_sha256": "888b5997200665fdf6ba28c643a7c5f8af7284f083c4f30a45f623807e11dfc7"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.2.4.3.1|POP=PKPS|ROW=SAMPLING_COVERAGE_COMPLETE|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "sampling_coverage_complete",
+          "value_sha256": "abf09916790370920b3d5ece518ffa9235db83dc1cff2ac732a57f7ef5020f95"
+        }
+      ],
+      "medical_review_marker_required": true,
+      "missing_roles": [],
+      "numeric_values_not_logged": true,
+      "rule_id": "PK_CONCLUSION_V1"
+    }
+  ],
+  "schema_version": "1.1",
+  "status": "pass",
+  "warnings": []
+}

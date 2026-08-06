@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "sections": {
+    "11.5.10": {
+      "draft_sha256": "80d354bed7b733ad72e1adef9c0fb61687b067f8d2017b0fc8df21c280e77b71",
+      "paragraphs": {
+        "p_11_5_10_001": {
+          "replacement_text": "BLQ 比例为 18.0%；可定量时点汇总为 8；Cmax 可计算性为 可计算；AUC 可计算性为 可计算；分析方法 LLOQ为 0.1 ng/mL；参数不可计算原因为 不适用；采样覆盖完整性为 完整，支持性结果详见{{@ref:T14.2.4.3.1}}。",
+          "status": "resolved"
+        },
+        "p_11_5_10_002": {
+          "replacement_text": "根据已陈述的 BLQ 比例、可定量时点和采样覆盖，Cmax 与 AUC 均可计算，现有数据可用于描述所观察的系统暴露特征；其临床意义仍需医学和临床药理负责人确认。",
+          "status": "resolved"
+        }
+      }
+    },
+    "11.6.7": {
+      "draft_sha256": "373ea8dd098ccc47dcb466a573600e6d08d58b63fbdd5a3efcf173c7bcc13098",
+      "paragraphs": {
+        "p_11_6_7_001": {
+          "replacement_text": "主要终点结果为 24 (60.0%)；分析集为 FAS；预设状态为 预设；假设检验状态为 未实施，支持性结果详见{{@ref:T14.2.2.1.1}}。",
+          "status": "resolved"
+        },
+        "p_11_6_7_002": {
+          "replacement_text": "预设的探索性分析以描述性结果为主；相关结果仅作探索性解释，不用于确证性结论。",
+          "status": "resolved"
+        }
+      }
+    },
+    "12.2": {
+      "draft_sha256": "399e5701949ae319f1723cfc93358063cdb5d9d391b65e6523352df790b2cdef",
+      "paragraphs": {
+        "p_12_2_003": {
+          "replacement_text": "关键事件核对显示，严重不良事件汇总为 0，死亡汇总为 0，导致永久停用研究治疗的事件汇总为 0，重度事件汇总为 0。这些结果在总体评价前单独陈述。",
+          "status": "resolved"
+        },
+        "p_12_2_004": {
+          "replacement_text": "经审核结果未报告死亡、严重不良事件、导致永久停用研究治疗的不良事件或重度事件；结合总体事件发生情况，研究治疗总体耐受性良好。",
+          "status": "resolved"
+        }
+      }
+    }
+  }
+}

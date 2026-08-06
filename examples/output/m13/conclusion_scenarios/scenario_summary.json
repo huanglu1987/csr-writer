@@ -1,0 +1,79 @@
+{
+  "records": [
+    {
+      "branch": "exposure_characterizable",
+      "resolved": "examples/output/m13/conclusion_scenarios/11_5_10/normal/resolved.md",
+      "scenario": "normal",
+      "section_id": "11.5.10",
+      "status": "pass",
+      "warning_count": 0
+    },
+    {
+      "branch": "quantifiability_limited",
+      "resolved": "examples/output/m13/conclusion_scenarios/11_5_10/limited/resolved.md",
+      "scenario": "limited",
+      "section_id": "11.5.10",
+      "status": "pass",
+      "warning_count": 0
+    },
+    {
+      "branch": "critical_binding_missing",
+      "resolved": "examples/output/m13/conclusion_scenarios/11_5_10/binding_missing/resolved.md",
+      "scenario": "binding_missing",
+      "section_id": "11.5.10",
+      "status": "pass_with_warning",
+      "warning_count": 1
+    },
+    {
+      "branch": "prespecified_descriptive",
+      "resolved": "examples/output/m13/conclusion_scenarios/11_6_7/normal/resolved.md",
+      "scenario": "normal",
+      "section_id": "11.6.7",
+      "status": "pass",
+      "warning_count": 0
+    },
+    {
+      "branch": "prespecified_hypothesis_test",
+      "resolved": "examples/output/m13/conclusion_scenarios/11_6_7/hypothesis_test_present/resolved.md",
+      "scenario": "hypothesis_test_present",
+      "section_id": "11.6.7",
+      "status": "pass",
+      "warning_count": 0
+    },
+    {
+      "branch": "critical_binding_missing",
+      "resolved": "examples/output/m13/conclusion_scenarios/11_6_7/binding_missing/resolved.md",
+      "scenario": "binding_missing",
+      "section_id": "11.6.7",
+      "status": "pass_with_warning",
+      "warning_count": 1
+    },
+    {
+      "branch": "confirmed_body_complete_no_critical_events",
+      "resolved": "examples/output/m13/conclusion_scenarios/13/normal/resolved.md",
+      "scenario": "normal",
+      "section_id": "13",
+      "status": "pass",
+      "warning_count": 0
+    },
+    {
+      "branch": "important_safety_events_present",
+      "resolved": "examples/output/m13/conclusion_scenarios/13/important_events_present/resolved.md",
+      "scenario": "important_events_present",
+      "section_id": "13",
+      "status": "pass",
+      "warning_count": 0
+    },
+    {
+      "branch": "critical_binding_missing",
+      "resolved": "examples/output/m13/conclusion_scenarios/13/binding_missing/resolved.md",
+      "scenario": "binding_missing",
+      "section_id": "13",
+      "status": "pass_with_warning",
+      "warning_count": 1
+    }
+  ],
+  "scenario_count": 9,
+  "schema_version": "1.0",
+  "status": "pass"
+}

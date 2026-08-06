@@ -1,0 +1,18 @@
+{
+  "input_12_2_content_blocks": 3,
+  "local_tolerance_heading_style": "Heading 3",
+  "local_tolerance_target": "12.5.1",
+  "merged_variants": "adverse_events+adverse_events_duplicate_contribution+ae_consequence_pairs",
+  "obsolete_repeated_label_count": 0,
+  "rendered_12_2_heading_count": 1,
+  "rendered_merged_normal_paragraph_count": 2,
+  "route_local_tolerance_contribution": {
+    "action": "add",
+    "contributed_by": "M-LOCAL-TOLERANCE",
+    "section": "12.5.1",
+    "title": "局部耐受性和用药部位反应",
+    "variant": "local_tolerance_ae_subset"
+  },
+  "schema_version": "1.0",
+  "status": "pass"
+}

@@ -1,0 +1,18 @@
+{
+  "annotated_ooxml_qc": "pass",
+  "appendix_status_rows": 24,
+  "appendix_unique_items": 23,
+  "automatic_fact_updates": false,
+  "clean_ooxml_qc": "pass",
+  "formal_extensions": 20,
+  "injected_false_detected": true,
+  "omitted_official_headings": 13,
+  "paired_protocol_findings": 17,
+  "pk_subsection_count": 10,
+  "reference_protocol_findings": 9,
+  "retained_official_headings": 109,
+  "schema_version": "1.0",
+  "scope": "M10 structural correction and protocol-to-facts contradiction scan",
+  "source_integrity": "pass",
+  "status": "pass"
+}

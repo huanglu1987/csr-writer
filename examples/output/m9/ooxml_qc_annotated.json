@@ -1,0 +1,96 @@
+{
+  "check_count": 11,
+  "checks": [
+    {
+      "code": "six_reviewed_conditional_sections_absent",
+      "detail": {
+        "11.4.2.3": false,
+        "11.4.2.5": false,
+        "11.4.2.7": false,
+        "11.4.5": false,
+        "11.4.6": false,
+        "16.4": false
+      },
+      "status": "pass"
+    },
+    {
+      "code": "formal_extension_heading_styles",
+      "detail": {
+        "11.5": "Heading2",
+        "11.6": "Heading2",
+        "12.7": "Heading2"
+      },
+      "status": "pass"
+    },
+    {
+      "code": "formal_extension_bookmarks",
+      "detail": [
+        "_Ref_Sec_11_5",
+        "_Ref_Sec_11_6",
+        "_Ref_Sec_12_7"
+      ],
+      "status": "pass"
+    },
+    {
+      "code": "letter_suffixes_removed",
+      "detail": "no 11.A/11.B/11.C/11.D visible heading",
+      "status": "pass"
+    },
+    {
+      "code": "chapter_3_title_and_directories",
+      "detail": [
+        "TOC \\o \"1-5\" \\h \\z \\u",
+        "TOC \\c \"Table\" \\h \\z",
+        "TOC \\c \"Figure\" \\h \\z"
+      ],
+      "status": "pass"
+    },
+    {
+      "code": "local_tolerance_independent_section",
+      "detail": "Heading3",
+      "status": "pass"
+    },
+    {
+      "code": "adverse_event_heading_deduplicated",
+      "detail": 1,
+      "status": "pass"
+    },
+    {
+      "code": "appendix_status_table",
+      "detail": 22,
+      "status": "pass"
+    },
+    {
+      "code": "publication_bookmarks_complete",
+      "detail": {
+        "expected": 22,
+        "observed": 22
+      },
+      "status": "pass"
+    },
+    {
+      "code": "publication_ref_fields_resolve",
+      "detail": {
+        "field_targets": 22,
+        "unexpected": []
+      },
+      "status": "pass"
+    },
+    {
+      "code": "independent_publication_numbering",
+      "detail": [
+        "T14.1-1",
+        "T14.1-2",
+        "T14.1-3",
+        "T14.1-4",
+        "T14.1-5"
+      ],
+      "status": "pass"
+    }
+  ],
+  "conclusion_boundary": "未发现上述 OOXML 结构类问题",
+  "docx_sha256": "9e98f3ac8d042ba4d8ede441e4f9573a57489c3bcbaf3aecf56e712f6f586bd0",
+  "schema_version": "1.0",
+  "scope": "OOXML structure and cross-reference integrity only",
+  "status": "pass"
+}

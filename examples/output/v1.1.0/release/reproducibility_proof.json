@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0",
+  "status": "pass",
+  "comparison": "two independent builds from the same frozen workspace",
+  "first_sha256": "811a25ae11baa8a7b985e6df468105034291e4b6b7617d46bcc1a3cf13f3e6fe",
+  "second_sha256": "811a25ae11baa8a7b985e6df468105034291e4b6b7617d46bcc1a3cf13f3e6fe",
+  "byte_identical": true
+}

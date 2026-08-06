@@ -1,0 +1,69 @@
+{
+  "datapack_sha256": "c35142f5eaa3034b6d36060019f844b9efd46b683d5543b4ffd44c1274163666",
+  "draft_sha256": "80d354bed7b733ad72e1adef9c0fb61687b067f8d2017b0fc8df21c280e77b71",
+  "resolved_sha256": "3bc9efa47b53e80a553c96059ecd6faec5ca8e9662ae0103d01ddbc01e2d40a5",
+  "rules": [
+    {
+      "branch": "exposure_characterizable",
+      "confirmed_body_only": false,
+      "critical_roles": [
+        {
+          "cell_present": true,
+          "key": "T14.2.4.3.1|POP=PKPS|ROW=BLQ_RATIO|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "blq_ratio",
+          "value_sha256": "50c5afafae921c029e5176ccb98b1662b4097fc544c7237a8fb4388a8de815ec"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.2.4.3.1|POP=PKPS|ROW=QUANTIFIABLE_TIMEPOINT_COUNT|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "quantifiable_timepoint_count",
+          "value_sha256": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.2.4.3.1|POP=PKPS|ROW=CMAX_CALCULABLE|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "cmax_calculable",
+          "value_sha256": "6c0ec9e152e2e42594386f5b94e67f4db676947e9c32e0506b3af86bad115e60"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.2.4.3.1|POP=PKPS|ROW=AUC_CALCULABLE|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "auc_calculable",
+          "value_sha256": "6c0ec9e152e2e42594386f5b94e67f4db676947e9c32e0506b3af86bad115e60"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.2.4.3.1|POP=PKPS|ROW=LLOQ|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "lloq",
+          "value_sha256": "5369b6852e023200d6fec964445d13ceb109e49d7eca7e3901efd1f389062bc3"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.2.4.3.1|POP=PKPS|ROW=NONCALCULABLE_REASON|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "noncalculable_reason",
+          "value_sha256": "2746d995801b1cc88d3b666d149c5ff80330c98c00348a186125253c012084e7"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.2.4.3.1|POP=PKPS|ROW=SAMPLING_COVERAGE_COMPLETE|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "sampling_coverage_complete",
+          "value_sha256": "088b27d0ed00b747dc59381dd58182e980849edbae92971fe189b000fe2be4e3"
+        }
+      ],
+      "medical_review_marker_required": true,
+      "missing_roles": [],
+      "numeric_values_not_logged": true,
+      "rule_id": "PK_CONCLUSION_V1"
+    }
+  ],
+  "schema_version": "1.1",
+  "status": "pass",
+  "warnings": []
+}

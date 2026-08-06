@@ -1,0 +1,158 @@
+{
+  "acceptance": {
+    "ada_false": {
+      "after": false,
+      "before": true,
+      "changed_fields": [
+        "data_domains.ada"
+      ],
+      "removed_modules": [
+        "M-ADA"
+      ],
+      "section_11_C_after": [],
+      "status": "pass"
+    },
+    "escalation_scheme_none": {
+      "after": "none",
+      "before": "3+3",
+      "changed_fields": [
+        "design.escalation_scheme"
+      ],
+      "dose_escalation_contribution_after": [],
+      "materialized_11_A_after": [],
+      "removed_modules": [
+        "M-DOSE-ESC"
+      ],
+      "status": "pass",
+      "unmaterialized_contributions_after": [
+        {
+          "action": "extend",
+          "contributed_by": "M-DLT",
+          "reason": "missing add anchor for alphabetic extension root 11.A",
+          "section": "11.A.3",
+          "title": "DLT 定义与评价窗",
+          "variant": "dlt_definition"
+        },
+        {
+          "action": "extend",
+          "contributed_by": "M-DLT",
+          "reason": "missing add anchor for alphabetic extension root 11.A",
+          "section": "11.A.5",
+          "title": "DLT 结果",
+          "variant": "dlt_results"
+        },
+        {
+          "action": "extend",
+          "contributed_by": "M-MTD-RP2D",
+          "reason": "missing add anchor for alphabetic extension root 11.A",
+          "section": "11.A.7",
+          "title": "MTD/RP2D 结论与依据",
+          "variant": "mtd_rp2d_decision"
+        }
+      ],
+      "warnings_after": [
+        "已标记确证性疗效目的，但未标记假设检验；当前按探索性疗效模块路由，请确认。",
+        "治疗领域端点 oncology_response 已声明为扩展槽，M4.1 未附加专项内容模块。",
+        "已激活模块存在无字母扩展章锚点的结构贡献，未物化并需人工核对：M-DLT, M-MTD-RP2D。"
+      ]
+    },
+    "hypothesis_test_true": {
+      "added_modules": [
+        "M-EFF-CONFIRM"
+      ],
+      "after": true,
+      "before": false,
+      "changed_fields": [
+        "analyses.hypothesis_test"
+      ],
+      "removed_modules": [
+        "M-EFF-EXPLORE"
+      ],
+      "section_11_4_1_variants_after": [
+        "confirmatory"
+      ],
+      "status": "pass"
+    },
+    "phase_only": {
+      "added_modules": [],
+      "after": "III",
+      "before": "Ib",
+      "changed_fields": [
+        "phase"
+      ],
+      "non_structural_warnings_after": [
+        "已标记确证性疗效目的，但未标记假设检验；当前按探索性疗效模块路由，请确认。",
+        "治疗领域端点 oncology_response 已声明为扩展槽，M4.1 未附加专项内容模块。",
+        "期别标为 III，但未激活确证性疗效模块；期别不改结构，请人工确认。"
+      ],
+      "removed_modules": [],
+      "status": "pass",
+      "structure_after_sha256": "10c720fba97407bda2856044cf797ccfef51574bdb1eec24ed639e07478e0aeb",
+      "structure_before_sha256": "10c720fba97407bda2856044cf797ccfef51574bdb1eec24ed639e07478e0aeb",
+      "structure_equal": true,
+      "structure_unified_diff": ""
+    }
+  },
+  "baseline_active_modules": [
+    "M-CORE",
+    "M-DOSE-ESC",
+    "M-DLT",
+    "M-MTD-RP2D",
+    "M-PK-NCA",
+    "M-DOSE-PROP",
+    "M-ADA",
+    "M-PD-BIOMARKER",
+    "M-EFF-EXPLORE",
+    "M-SUBGROUP",
+    "M-MULTICENTER"
+  ],
+  "module_inventory": {
+    "actual": 41,
+    "expected_current": 41,
+    "ids": [
+      "M-CORE",
+      "M-DOSE-ESC",
+      "M-DLT",
+      "M-MTD-RP2D",
+      "M-EXPANSION",
+      "M-PK-NCA",
+      "M-PK-POP",
+      "M-DOSE-PROP",
+      "M-EXPOSURE-RESP",
+      "M-ADA",
+      "M-PD-BIOMARKER",
+      "M-EFF-CONFIRM",
+      "M-EFF-EXPLORE",
+      "M-MULTIPLICITY",
+      "M-NONINF",
+      "M-ESTIMAND",
+      "M-INTERIM",
+      "M-SUBGROUP",
+      "M-MULTICENTER",
+      "M-CROSSOVER",
+      "M-SURVIVAL",
+      "M-QT",
+      "M-HV",
+      "M-LOCAL-TOLERANCE",
+      "M-AE-CONSEQUENCE",
+      "M-TOPICAL-PK",
+      "M-INHALATION",
+      "M-OPHTHALMIC",
+      "M-RANDOMIZED",
+      "M-BLINDING",
+      "M-PLACEBO-CTRL",
+      "M-ACTIVE-CTRL",
+      "M-BE",
+      "M-DDI",
+      "M-FOOD-EFFECT",
+      "M-HEPATIC-IMPAIR",
+      "M-RENAL-IMPAIR",
+      "M-PEDIATRIC",
+      "M-GERIATRIC",
+      "M-INFECTION",
+      "M-DERMATOLOGY"
+    ],
+    "original_m3": 23
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,324 @@
+{
+  "playbook_count": 16,
+  "policy": {
+    "minimum_common_review_issues": 5,
+    "minimum_line_count": 150,
+    "required_elements": [
+      "authority",
+      "must_answer",
+      "source_mapping",
+      "numeric_and_conclusion_rules",
+      "paragraph_structure",
+      "common_review_issues",
+      "section_specific_pitfalls"
+    ]
+  },
+  "records": [
+    {
+      "failures": [],
+      "filename": "s9-randomization-blinding-controls.md",
+      "line_count": 152,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "19aa3e9da5cb0121028743e7d9b779c486de05994aed95e30a0e7a61c657c20b",
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s10-subject-disposition.md",
+      "line_count": 156,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "1b1850e7f67ea76c4808c07d4414ba7744fe6cc74b17b196dd2d6a0c74d7fabb",
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s11-2-demographics-baseline.md",
+      "line_count": 154,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "aacb8f7804e2b654f80e97e1c88aa3bbb66495ae63a61d50b7a855d29463a6b9",
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s11-3-treatment-compliance.md",
+      "line_count": 153,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "review_issue_count": 12,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "ebfc523ed8965f85677f4b7ec8bc743549807ce1f9e6570a0d1ed495de455ca8",
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s11-4-primary-efficacy.md",
+      "line_count": 176,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "review_issue_count": 9,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "146b09cefac5e483cc61c71bfed0d94ab93245a594a1ccd27b95addfa52180aa",
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s11-a-dose-escalation.md",
+      "line_count": 180,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "c3b8ee5ea0b0da170cbf6476566e98558ce33a5309712ef64da17da724f4ed65",
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s11-clinpharm-special-pop-endpoints.md",
+      "line_count": 182,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "review_issue_count": 9,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "4337747f5dfd22b1113c6cd161f5b07dc2355c662db2674b1c37006d75c5fd50",
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s11-topical-pk.md",
+      "line_count": 151,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "9bfc4f4a79fb3e4eb1159933e6f71fa0b1252023b831e15dcc50a275575a9558",
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s12-2-adverse-events.md",
+      "line_count": 168,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "review_issue_count": 9,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "dbf6444991bae757ea4b2daf578c00d3667ccab7695402143538fe6b294cfb31",
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s12-3-1-deaths-serious-significant-listings.md",
+      "line_count": 156,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "review_issue_count": 12,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "e50de27fcdf3ae5363f74582d7021b78315493ad22b44330e403b3b02c8f7177",
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s12-3-2-sae-narratives-boundary.md",
+      "line_count": 154,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "review_issue_count": 12,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "8bfd4c767c72342761feecf2521b087ede167207004bf6c2eddccf7ca3ca1870",
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s12-3-3-serious-event-analysis.md",
+      "line_count": 154,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "review_issue_count": 12,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "ff0ef9db1efb364c2fa35a0b3a0c2e1dba490ea694f7a179e2873968d5e32db1",
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s12-4-2-laboratory-evaluation.md",
+      "line_count": 158,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "review_issue_count": 12,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "3f896b9abd4de7560698238740f96d40f9fbc833141a7b7b89044ccf7f90ecd9",
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s12-exposure.md",
+      "line_count": 153,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "486d8c46063d0c2d0c5bda0235071bd28626dfcf1eb879e0e967b68b52280f39",
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s12-route-specific-safety.md",
+      "line_count": 167,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "43c10b7fc0c23a435c2341797fe3b0dc1a30e5bfba38d4679cfb36964a44a0c8",
+      "status": "pass"
+    },
+    {
+      "failures": [],
+      "filename": "s13-discussion-overall-conclusions.md",
+      "line_count": 158,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "review_issue_count": 12,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "15f222ff184931c0dfb2831081e8da31b8171d8f719d5c19a8d5f81cc5b63a73",
+      "status": "pass"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "pass"
+}

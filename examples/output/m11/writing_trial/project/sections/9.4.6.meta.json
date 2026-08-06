@@ -1,0 +1,65 @@
+{
+  "agent_interface": {
+    "agent_draft_sha256": "916adb1aca0a76ce3dc2f5c2a8bb2b80696155d0d58eb7d8656dcca534aa434e",
+    "envelope_sha256": "2815c36ca80dd76f3eb66bcc7b75ac99da177ed513ab3a508c0e056abc1919b6",
+    "external_model_api_called": false,
+    "interface": "csr-writer-agent-section-v1",
+    "prior_guard_report_sha256s": []
+  },
+  "binding_manifest": [],
+  "draft_sha256": "63a8bc859b3262e8bff50e9e7aee22e2a37a60d7ca1b20f8925e110dc6bcecf9",
+  "evidence_status": "demo_only",
+  "generation_attempts": 1,
+  "guard_retry_count": 0,
+  "input_sha256": "5873ef951cb780ad0f9619cbb90e9cfd32208dd0ce0cb6d92c9ecb1ee2600530",
+  "paragraphs": [
+    {
+      "confidence": "verbatim",
+      "needs_human": false,
+      "para_id": "p_9_4_6_001",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "SRC-BLIND-PROTOCOL"
+      ]
+    },
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_9_4_6_002",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "SRC-UNBLIND-RECORD"
+      ]
+    }
+  ],
+  "playbook": {
+    "filename": "s9-randomization-blinding-controls.md",
+    "sha256": "68c19ae2fd983f443787fa51f21e26cf2699ea07e2a7fd9a22c1b8017bedcd3a"
+  },
+  "prompt_audit": [],
+  "reference_manifest": [],
+  "schema_version": "1.1",
+  "section": "9.4.6",
+  "semantic_findings": [],
+  "source_manifest": [
+    {
+      "content_sha256": "502962e82302137b52ad2b97b53f52ef19ca0a23ed9ff55ca263fd5d336e638a",
+      "locator": "脱敏方案/盲法章节",
+      "purpose": "blinding_method",
+      "source_id": "SRC-BLIND-PROTOCOL"
+    },
+    {
+      "content_sha256": "fbdfe2621d19a82d0eefec6ba1c83a502de8d4265cbf4f092c2767e9cd4e14f1",
+      "locator": "脱敏盲态维护记录",
+      "purpose": "unblinding_record",
+      "source_id": "SRC-UNBLIND-RECORD"
+    }
+  ],
+  "system_prompt_sha256": "8f4e93ef46763e761a6077aeb62b3c19da661f436164d9844daf4c36794ab340",
+  "variant": "blinding",
+  "writer": "AgentEnvelopeIngest"
+}

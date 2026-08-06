@@ -1,0 +1,30 @@
+{
+  "paragraphs": [
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "sources": [
+        "SRC-AE-DEFINITION",
+        "SRC-AE-SET"
+      ],
+      "text": "安全性分析采用安全性分析集，治疗期间出现的不良事件按预设观察期、严重程度和研究者记录的因果关系分类汇总。"
+    },
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "sources": [
+        "T14.3.1.3.1",
+        "T14.3.1.3.2"
+      ],
+      "text": "安全性分析集中，出现治疗期间不良事件的汇总结果为 {{T14.3.1.3.1|POP=SS|ROW=ANY_TEAE|COL=ACTIVE_TOTAL}}，研究者记录为与研究治疗相关事件的汇总结果为 {{T14.3.1.3.2|POP=SS|ROW=ANY_TRAE|COL=ACTIVE_TOTAL}}，详见{{@ref:T14.3.1.3.1}}和{{@ref:T14.3.1.3.2}}。"
+    },
+    {
+      "confidence": "inferred",
+      "needs_human": true,
+      "sources": [
+        "SRC-AE-DEFINITION"
+      ],
+      "text": "[待医学负责人确认] 总体事件分布提示本研究安全性良好。"
+    }
+  ]
+}

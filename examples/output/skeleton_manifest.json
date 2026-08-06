@@ -1,0 +1,615 @@
+{
+  "available_layer_counts": {
+    "ich-official": 119,
+    "industry-convention": 3
+  },
+  "headings": [
+    {
+      "id": "1",
+      "layer": "ich-official",
+      "title": "标题页"
+    },
+    {
+      "id": "2",
+      "layer": "ich-official",
+      "title": "概要"
+    },
+    {
+      "id": "3",
+      "layer": "ich-official",
+      "title": "个例临床研究报告目录"
+    },
+    {
+      "id": "4",
+      "layer": "ich-official",
+      "title": "缩略语和术语定义表"
+    },
+    {
+      "id": "5",
+      "layer": "ich-official",
+      "title": "伦理学"
+    },
+    {
+      "id": "5.1",
+      "layer": "ich-official",
+      "title": "独立伦理委员会（IEC）或机构审查委员会（IRB）"
+    },
+    {
+      "id": "5.2",
+      "layer": "ich-official",
+      "title": "研究的伦理行为"
+    },
+    {
+      "id": "5.3",
+      "layer": "ich-official",
+      "title": "患者知情与同意"
+    },
+    {
+      "id": "6",
+      "layer": "ich-official",
+      "title": "研究者和研究管理结构"
+    },
+    {
+      "id": "7",
+      "layer": "ich-official",
+      "title": "简介"
+    },
+    {
+      "id": "8",
+      "layer": "ich-official",
+      "title": "研究目标"
+    },
+    {
+      "id": "9",
+      "layer": "ich-official",
+      "title": "研究计划"
+    },
+    {
+      "id": "9.1",
+      "layer": "ich-official",
+      "title": "整体研究设计和计划 - 描述"
+    },
+    {
+      "id": "9.2",
+      "layer": "ich-official",
+      "title": "研究设计的讨论，包括对照组的选择"
+    },
+    {
+      "id": "9.3",
+      "layer": "ich-official",
+      "title": "研究人群的选择"
+    },
+    {
+      "id": "9.3.1",
+      "layer": "ich-official",
+      "title": "入选标准"
+    },
+    {
+      "id": "9.3.2",
+      "layer": "ich-official",
+      "title": "排除标准"
+    },
+    {
+      "id": "9.3.3",
+      "layer": "ich-official",
+      "title": "从治疗或评估中移除患者"
+    },
+    {
+      "id": "9.4",
+      "layer": "ich-official",
+      "title": "治疗"
+    },
+    {
+      "id": "9.4.1",
+      "layer": "ich-official",
+      "title": "给予的治疗"
+    },
+    {
+      "id": "9.4.2",
+      "layer": "ich-official",
+      "title": "研究性产品的标识"
+    },
+    {
+      "id": "9.4.3",
+      "layer": "ich-official",
+      "title": "患者的治疗组分配方法"
+    },
+    {
+      "id": "9.4.4",
+      "layer": "ich-official",
+      "title": "研究中的剂量选择"
+    },
+    {
+      "id": "9.4.5",
+      "layer": "ich-official",
+      "title": "每位患者的研究剂量和给药时间"
+    },
+    {
+      "id": "9.4.6",
+      "layer": "ich-official",
+      "title": "盲法"
+    },
+    {
+      "id": "9.4.7",
+      "layer": "ich-official",
+      "title": "既往和伴随治疗"
+    },
+    {
+      "id": "9.4.8",
+      "layer": "ich-official",
+      "title": "治疗依从性"
+    },
+    {
+      "id": "9.5",
+      "layer": "ich-official",
+      "title": "疗效和安全性变量"
+    },
+    {
+      "id": "9.5.1",
+      "layer": "ich-official",
+      "title": "评估的疗效和安全性指标和流程图"
+    },
+    {
+      "id": "9.5.2",
+      "layer": "ich-official",
+      "title": "衡量指标的适当性"
+    },
+    {
+      "id": "9.5.3",
+      "layer": "ich-official",
+      "title": "主要疗效变量"
+    },
+    {
+      "id": "9.5.4",
+      "layer": "ich-official",
+      "title": "药物浓度测定"
+    },
+    {
+      "id": "9.6",
+      "layer": "ich-official",
+      "title": "数据质量保证"
+    },
+    {
+      "id": "9.7",
+      "layer": "ich-official",
+      "title": "研究方案中计划的统计方法和样本量的确定"
+    },
+    {
+      "id": "9.7.1",
+      "layer": "ich-official",
+      "title": "统计分析计划"
+    },
+    {
+      "id": "9.7.2",
+      "layer": "ich-official",
+      "title": "样本量的确定"
+    },
+    {
+      "id": "9.8",
+      "layer": "ich-official",
+      "title": "研究过程或分析计划的变更"
+    },
+    {
+      "id": "10",
+      "layer": "ich-official",
+      "title": "研究患者"
+    },
+    {
+      "id": "10.1",
+      "layer": "ich-official",
+      "title": "患者的处置"
+    },
+    {
+      "id": "10.2",
+      "layer": "ich-official",
+      "title": "方案偏离"
+    },
+    {
+      "id": "11",
+      "layer": "ich-official",
+      "title": "疗效评估"
+    },
+    {
+      "id": "11.1",
+      "layer": "ich-official",
+      "title": "分析数据集"
+    },
+    {
+      "id": "11.2",
+      "layer": "ich-official",
+      "title": "人口统计学和其他基线特征"
+    },
+    {
+      "id": "11.3",
+      "layer": "ich-official",
+      "title": "治疗依从性的测量"
+    },
+    {
+      "id": "11.4",
+      "layer": "ich-official",
+      "title": "疗效结果和个体患者数据列表"
+    },
+    {
+      "id": "11.4.1",
+      "layer": "ich-official",
+      "title": "疗效分析"
+    },
+    {
+      "id": "11.4.2",
+      "layer": "ich-official",
+      "title": "统计/分析内容"
+    },
+    {
+      "id": "11.4.2.1",
+      "layer": "ich-official",
+      "title": "协变量的调整"
+    },
+    {
+      "id": "11.4.2.2",
+      "layer": "ich-official",
+      "title": "脱落或缺失数据的处理"
+    },
+    {
+      "id": "11.4.2.3",
+      "layer": "ich-official",
+      "title": "试验期中分析和数据监查"
+    },
+    {
+      "id": "11.4.2.4",
+      "layer": "ich-official",
+      "title": "多中心研究"
+    },
+    {
+      "id": "11.4.2.5",
+      "layer": "ich-official",
+      "title": "多重比较/多重性"
+    },
+    {
+      "id": "11.4.2.6",
+      "layer": "ich-official",
+      "title": "患者『疗效子集』的使用"
+    },
+    {
+      "id": "11.4.2.7",
+      "layer": "ich-official",
+      "title": "旨在表明等效性的阳性对照研究"
+    },
+    {
+      "id": "11.4.2.8",
+      "layer": "ich-official",
+      "title": "亚组的考察"
+    },
+    {
+      "id": "11.4.3",
+      "layer": "ich-official",
+      "title": "个体疗效数据列表"
+    },
+    {
+      "id": "11.4.4",
+      "layer": "ich-official",
+      "title": "药物剂量、药物浓度以及与效应之间的关系"
+    },
+    {
+      "id": "11.4.5",
+      "layer": "ich-official",
+      "title": "药物-药物和药物-疾病相互作用"
+    },
+    {
+      "id": "11.4.6",
+      "layer": "ich-official",
+      "title": "按患者列出"
+    },
+    {
+      "id": "11.4.7",
+      "layer": "ich-official",
+      "title": "疗效结论"
+    },
+    {
+      "id": "12",
+      "layer": "ich-official",
+      "title": "安全性评价"
+    },
+    {
+      "id": "12.1",
+      "layer": "ich-official",
+      "title": "暴露程度"
+    },
+    {
+      "id": "12.2",
+      "layer": "ich-official",
+      "title": "不良事件（AE）"
+    },
+    {
+      "id": "12.2.1",
+      "layer": "ich-official",
+      "title": "不良事件概要"
+    },
+    {
+      "id": "12.2.2",
+      "layer": "ich-official",
+      "title": "不良事件的列出"
+    },
+    {
+      "id": "12.2.3",
+      "layer": "ich-official",
+      "title": "不良事件分析"
+    },
+    {
+      "id": "12.2.4",
+      "layer": "ich-official",
+      "title": "各患者不良事件列表"
+    },
+    {
+      "id": "12.3",
+      "layer": "ich-official",
+      "title": "死亡、其他严重不良事件和其他重要不良事件"
+    },
+    {
+      "id": "12.3.1",
+      "layer": "ich-official",
+      "title": "死亡、其他严重不良事件和其他重要不良事件列表"
+    },
+    {
+      "id": "12.3.1.1",
+      "layer": "ich-official",
+      "title": "死亡"
+    },
+    {
+      "id": "12.3.1.2",
+      "layer": "ich-official",
+      "title": "其他严重不良事件"
+    },
+    {
+      "id": "12.3.1.3",
+      "layer": "ich-official",
+      "title": "其他重要不良事件"
+    },
+    {
+      "id": "12.3.2",
+      "layer": "ich-official",
+      "title": "死亡、其他严重不良事件和某些其它重要不良事件的叙述"
+    },
+    {
+      "id": "12.3.3",
+      "layer": "ich-official",
+      "title": "死亡、其他严重不良事件和其他重要不良事件的分析和讨论"
+    },
+    {
+      "id": "12.4",
+      "layer": "ich-official",
+      "title": "临床实验室评估"
+    },
+    {
+      "id": "12.4.1",
+      "layer": "ich-official",
+      "title": "各患者的个例实验室测量值列表（16.2.8）和各异常实验室值（14.3.4）"
+    },
+    {
+      "id": "12.4.2",
+      "layer": "ich-official",
+      "title": "各实验室参数的评价"
+    },
+    {
+      "id": "12.4.2.1",
+      "layer": "ich-official",
+      "title": "随时间变化的实验室数值"
+    },
+    {
+      "id": "12.4.2.2",
+      "layer": "ich-official",
+      "title": "个例患者变化"
+    },
+    {
+      "id": "12.4.2.3",
+      "layer": "ich-official",
+      "title": "个例临床重要异常值"
+    },
+    {
+      "id": "12.5",
+      "layer": "ich-official",
+      "title": "生命体征、体格检查发现和其他安全性相关观察结果"
+    },
+    {
+      "id": "12.6",
+      "layer": "ich-official",
+      "title": "安全性结论"
+    },
+    {
+      "id": "13",
+      "layer": "ich-official",
+      "title": "讨论和总体结论"
+    },
+    {
+      "id": "14",
+      "layer": "ich-official",
+      "title": "参考但不纳入文本的表格、图示和图表"
+    },
+    {
+      "id": "14.1",
+      "layer": "ich-official",
+      "title": "人口统计学数据"
+    },
+    {
+      "id": "14.2",
+      "layer": "ich-official",
+      "title": "疗效数据"
+    },
+    {
+      "id": "14.3",
+      "layer": "ich-official",
+      "title": "安全性数据"
+    },
+    {
+      "id": "14.3.1",
+      "layer": "ich-official",
+      "title": "不良事件列表"
+    },
+    {
+      "id": "14.3.2",
+      "layer": "ich-official",
+      "title": "死亡、其他严重和重要不良事件的列表"
+    },
+    {
+      "id": "14.3.3",
+      "layer": "ich-official",
+      "title": "死亡、其他严重和某些其他重要不良事件的叙述"
+    },
+    {
+      "id": "14.3.4",
+      "layer": "ich-official",
+      "title": "异常实验室数值列表（各患者）"
+    },
+    {
+      "id": "15",
+      "layer": "ich-official",
+      "title": "参考文献列表"
+    },
+    {
+      "id": "16",
+      "layer": "ich-official",
+      "title": "附录"
+    },
+    {
+      "id": "16.1",
+      "layer": "ich-official",
+      "title": "研究信息"
+    },
+    {
+      "id": "16.1.1",
+      "layer": "ich-official",
+      "title": "方案和方案修订案"
+    },
+    {
+      "id": "16.1.2",
+      "layer": "ich-official",
+      "title": "病例报告表样本（仅提供唯一页面）"
+    },
+    {
+      "id": "16.1.3",
+      "layer": "ich-official",
+      "title": "IEC 或 IRB 列表 - 代表性患者书面信息和同意书样本"
+    },
+    {
+      "id": "16.1.4",
+      "layer": "ich-official",
+      "title": "研究者及其他重要研究参与者的列表和描述，包括个人简历"
+    },
+    {
+      "id": "16.1.5",
+      "layer": "ich-official",
+      "title": "主要或协调研究者或申办方负责医学专员的签名"
+    },
+    {
+      "id": "16.1.6",
+      "layer": "ich-official",
+      "title": "如使用 1 批以上药物，接受特定批次试验药品的患者列表"
+    },
+    {
+      "id": "16.1.7",
+      "layer": "ich-official",
+      "title": "随机方案和编号"
+    },
+    {
+      "id": "16.1.8",
+      "layer": "ich-official",
+      "title": "稽查证书（如有）"
+    },
+    {
+      "id": "16.1.9",
+      "layer": "ich-official",
+      "title": "统计学方法的文件"
+    },
+    {
+      "id": "16.1.10",
+      "layer": "ich-official",
+      "title": "实验室间标准化方法和质量保证程序的文件（如使用）"
+    },
+    {
+      "id": "16.1.11",
+      "layer": "ich-official",
+      "title": "基于研究的发表文章"
+    },
+    {
+      "id": "16.1.12",
+      "layer": "ich-official",
+      "title": "报告中引用的重要发表文章"
+    },
+    {
+      "id": "16.2",
+      "layer": "ich-official",
+      "title": "患者数据列表"
+    },
+    {
+      "id": "16.2.1",
+      "layer": "ich-official",
+      "title": "终止研究患者"
+    },
+    {
+      "id": "16.2.2",
+      "layer": "ich-official",
+      "title": "方案偏离"
+    },
+    {
+      "id": "16.2.3",
+      "layer": "ich-official",
+      "title": "疗效分析中排除的患者"
+    },
+    {
+      "id": "16.2.4",
+      "layer": "ich-official",
+      "title": "人口统计学数据"
+    },
+    {
+      "id": "16.2.5",
+      "layer": "ich-official",
+      "title": "依从性和/或药物浓度数据"
+    },
+    {
+      "id": "16.2.6",
+      "layer": "ich-official",
+      "title": "个体疗效数据"
+    },
+    {
+      "id": "16.2.7",
+      "layer": "ich-official",
+      "title": "不良事件列表（各患者）"
+    },
+    {
+      "id": "16.2.8",
+      "layer": "ich-official",
+      "title": "按患者列出的个体实验室测量值列表"
+    },
+    {
+      "id": "16.3",
+      "layer": "ich-official",
+      "title": "病例报告表"
+    },
+    {
+      "id": "16.3.1",
+      "layer": "ich-official",
+      "title": "死亡、其他严重不良事件或 AE 导致的退出的 CRF"
+    },
+    {
+      "id": "16.3.2",
+      "layer": "ich-official",
+      "title": "递交的其他 CRF"
+    },
+    {
+      "id": "16.4",
+      "layer": "ich-official",
+      "title": "个例患者数据列表（US 存档列表）"
+    }
+  ],
+  "layers": [
+    "ich-official"
+  ],
+  "milestone": "M1",
+  "output_sha256": "6b31c6c119ec536c6fe59cacc2eda7dfb1f914b904f7e5d63d48d1249c116dac",
+  "schema_version": "1.0",
+  "selected_layer_counts": {
+    "ich-official": 119
+  },
+  "structure_sha256": "87ea56d599120e265c1649881a9d3ad1c08db540a91be13de6a2bd31a6bc0942",
+  "template_sha256": "58522a883c7cb6f15b57fdd58258670d0241ec1310df0384c479050e24d48210",
+  "title_language": "zh"
+}

@@ -1,0 +1,91 @@
+{
+  "binding_manifest": [
+    {
+      "context_sha256": "594a55dfc7c6a2d9424c98a06709fd862c8b93de29387fa616b3c081280f0ec7",
+      "key": "T14.2.4.3.1|POP=PKS|ROW=GM|COL=C0_5PCT_BID|STAGE=D1",
+      "role": "pk_d1_result",
+      "source_id": "T14.2.4.3.1"
+    },
+    {
+      "context_sha256": "594a55dfc7c6a2d9424c98a06709fd862c8b93de29387fa616b3c081280f0ec7",
+      "key": "T14.2.4.3.2|POP=PKS|ROW=GM|COL=C0_5PCT_BID|STAGE=D28",
+      "role": "pk_d28_result",
+      "source_id": "T14.2.4.3.2"
+    }
+  ],
+  "draft_sha256": "361ed79f2123d11702b0cb586fb3c377eba3db44e944590a2961d62582731282",
+  "evidence_status": "demo_only",
+  "input_sha256": "baf48fff7c838b50c57746e2a05484f65e1baa84bcc016c6b8ec31efc4ec262e",
+  "paragraphs": [
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_11_B_001",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "deidentified-source-fragment"
+      ]
+    },
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_11_B_002",
+      "placeholders": [
+        "T14.2.4.3.1|POP=PKS|ROW=GM|COL=C0_5PCT_BID|STAGE=D1",
+        "T14.2.4.3.2|POP=PKS|ROW=GM|COL=C0_5PCT_BID|STAGE=D28"
+      ],
+      "references": [
+        "T14.2.4.3.1",
+        "T14.2.4.3.2"
+      ],
+      "semantic_findings": [],
+      "sources": [
+        "T14.2.4.3.1",
+        "T14.2.4.3.2"
+      ]
+    },
+    {
+      "confidence": "inferred",
+      "needs_human": true,
+      "para_id": "p_11_B_003",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "deidentified-source-fragment"
+      ]
+    }
+  ],
+  "playbook": {
+    "filename": "s11-topical-pk.md",
+    "sha256": "b85589fc3eb96872fc9e3d064420f0097c075600a7395ee75c00fc30090a3df6"
+  },
+  "reference_manifest": [
+    {
+      "entity_id": "T14.2.4.3.1",
+      "frozen_map_sha256": null,
+      "verified_by": "binding_manifest"
+    },
+    {
+      "entity_id": "T14.2.4.3.2",
+      "frozen_map_sha256": null,
+      "verified_by": "binding_manifest"
+    }
+  ],
+  "schema_version": "1.1",
+  "section": "11.B",
+  "semantic_findings": [],
+  "source_manifest": [
+    {
+      "content_sha256": "093ca2a1ba6280c907ccbcc1422048b83ac83459686cd94c450336d341dc3087",
+      "locator": "reviewed deidentified locator",
+      "purpose": "pk_method",
+      "source_id": "deidentified-source-fragment"
+    }
+  ],
+  "system_prompt_sha256": "8f4e93ef46763e761a6077aeb62b3c19da661f436164d9844daf4c36794ab340",
+  "variant": "topical_low_systemic_exposure",
+  "writer": "DeterministicSectionAdapter"
+}

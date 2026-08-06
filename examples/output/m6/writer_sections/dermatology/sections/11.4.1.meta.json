@@ -1,0 +1,55 @@
+{
+  "binding_manifest": [],
+  "draft_sha256": "5777bd5561a6668ab1789333e94637e22efe045cbb6251b9416b67ca6b605cb3",
+  "evidence_status": "source_gap",
+  "generation_attempts": 1,
+  "guard_retry_count": 0,
+  "input_sha256": "48d6d8b082b482f9892ae4d55c2ce53c37d9439523aa868a05517b2678a77841",
+  "paragraphs": [
+    {
+      "confidence": "inferred",
+      "needs_human": true,
+      "para_id": "p_11_4_1_001",
+      "placeholders": [],
+      "references": [
+        "T14.2.2.1.1",
+        "T14.2.2.2.1"
+      ],
+      "semantic_findings": [],
+      "sources": [
+        "deidentified-11-4-1-dermatology_scales"
+      ]
+    }
+  ],
+  "playbook": {
+    "filename": "s11-clinpharm-special-pop-endpoints.md",
+    "sha256": "96b55588807eaab09f8b6067006509affecaff4551e80712ebd8839b56651371"
+  },
+  "prompt_audit": [],
+  "reference_manifest": [
+    {
+      "entity_id": "T14.2.2.1.1",
+      "frozen_map_sha256": "b97ac46488885e8f2db627f37fd23252079c1bf6b81c8bee61535b0188aac49c",
+      "verified_by": "frozen_tfl_map"
+    },
+    {
+      "entity_id": "T14.2.2.2.1",
+      "frozen_map_sha256": "b97ac46488885e8f2db627f37fd23252079c1bf6b81c8bee61535b0188aac49c",
+      "verified_by": "frozen_tfl_map"
+    }
+  ],
+  "schema_version": "1.1",
+  "section": "11.4.1",
+  "semantic_findings": [],
+  "source_manifest": [
+    {
+      "content_sha256": "4085d97c6944e5f9c2e19d0f667d01a6b9839393d811b4d0687a9733b0b48d9c",
+      "locator": "deidentified reviewed project evidence register",
+      "purpose": "gap_record",
+      "source_id": "deidentified-11-4-1-dermatology_scales"
+    }
+  ],
+  "system_prompt_sha256": "8f4e93ef46763e761a6077aeb62b3c19da661f436164d9844daf4c36794ab340",
+  "variant": "dermatology_scales",
+  "writer": "DeterministicSectionAdapter"
+}

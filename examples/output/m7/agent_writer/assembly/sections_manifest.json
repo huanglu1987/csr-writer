@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "sections": [
+    {
+      "draft": "../efficacy/sections/11.4.md",
+      "resolved": "../efficacy/resolved/11.4.md",
+      "metadata": "../efficacy/sections/11.4.meta.json",
+      "guard": "../efficacy/resolved/11.4.guard.json"
+    },
+    {
+      "draft": "../safety/sections/12.2.md",
+      "resolved": "../safety/resolved/12.2.md",
+      "metadata": "../safety/sections/12.2.meta.json",
+      "guard": "../safety/resolved/12.2.guard.json"
+    }
+  ]
+}

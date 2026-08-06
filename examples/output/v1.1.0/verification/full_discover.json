@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "status": "pass",
+  "command": "python3 scripts/delivery_self_check.py",
+  "discover_command": "python3 -m unittest discover -s tests",
+  "test_count": 312,
+  "elapsed_seconds": 61.947,
+  "exit_code": 0,
+  "platform_boundary": {
+    "status": "pass",
+    "test": "tests.test_codex_platform_boundary",
+    "elapsed_seconds": 32.636,
+    "platform_documents_removed": true,
+    "all_cli_help_checked": true
+  },
+  "visual_qc_targeted": {
+    "status": "pass",
+    "test_count": 9,
+    "missing_renderer_nonfatal_verified": true,
+    "contact_sheet_split_verified": true,
+    "header_footer_exclusion_verified": true
+  }
+}

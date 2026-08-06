@@ -1,0 +1,27 @@
+{
+  "scenarios": [
+    {
+      "branch": "no_critical_events",
+      "resolved": "examples/output/m12/conclusion_scenarios/no_critical_events/resolved.md",
+      "scenario_id": "no_critical_events",
+      "status": "pass",
+      "warning_count": 0
+    },
+    {
+      "branch": "important_events_present",
+      "resolved": "examples/output/m12/conclusion_scenarios/important_events_present/resolved.md",
+      "scenario_id": "important_events_present",
+      "status": "pass",
+      "warning_count": 0
+    },
+    {
+      "branch": "critical_binding_missing",
+      "resolved": "examples/output/m12/conclusion_scenarios/critical_binding_missing/resolved.md",
+      "scenario_id": "critical_binding_missing",
+      "status": "pass_with_warning",
+      "warning_count": 1
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "pass"
+}

@@ -1,0 +1,109 @@
+{
+  "case_count": 4,
+  "hard_blocked_count": 4,
+  "records": [
+    {
+      "case_id": "disposition_writer_self_reference",
+      "guard_report_sha256": "08f7c5268b408700599a444d26dd39d272ca732e202c1f3da0cab1089bf90177",
+      "old_text_findings": [
+        {
+          "category": "internal_process_language",
+          "code": "S-INTERNAL-PROCESS-LANGUAGE",
+          "end": 21,
+          "matched_text": "不由写手合并或改写",
+          "message": "Authoring-process prohibitions must be rewritten as study-facing CSR prose",
+          "pattern_id": "process-negation",
+          "start": 12,
+          "subclass": "process_negation"
+        },
+        {
+          "category": "internal_process_language",
+          "code": "S-INTERNAL-PROCESS-LANGUAGE",
+          "end": 16,
+          "matched_text": "写手",
+          "message": "CSR body text must not refer to the writer, Agent, model, or tool",
+          "pattern_id": "tool-self-reference",
+          "start": 14,
+          "subclass": "tool_self_reference"
+        }
+      ],
+      "old_text_hard_blocked": true,
+      "replacement": "退出原因按经审核的分类呈现。",
+      "replacement_passed": true,
+      "text": "退出原因沿用经审核分类，不由写手合并或改写。"
+    },
+    {
+      "case_id": "disposition_internal_data_terms",
+      "guard_report_sha256": "5fdb40a392d1cb5ed909096f7f8390e46489fab11fa80f28d907641b63c055e6",
+      "old_text_findings": [
+        {
+          "category": "internal_process_language",
+          "code": "S-INTERNAL-PROCESS-LANGUAGE",
+          "end": 5,
+          "matched_text": "证据包",
+          "message": "CSR body text must not expose internal data or placeholder terminology",
+          "pattern_id": "internal-data-term",
+          "start": 2,
+          "subclass": "internal_data_term"
+        },
+        {
+          "category": "internal_process_language",
+          "code": "S-INTERNAL-PROCESS-LANGUAGE",
+          "end": 23,
+          "matched_text": "绑定",
+          "message": "CSR body text must not expose internal data or placeholder terminology",
+          "pattern_id": "internal-data-term",
+          "start": 21,
+          "subclass": "internal_data_term"
+        }
+      ],
+      "old_text_hard_blocked": true,
+      "replacement": "本节完成与退出情况待相应统计结果到位后补充。",
+      "replacement_passed": true,
+      "text": "当前证据包未提供完成、退出及退出原因的结果绑定。"
+    },
+    {
+      "case_id": "blinding_process_scope",
+      "guard_report_sha256": "969e5de1d7f9cdfe6fca0e2259692dae6fdb0dbafce6601f25ee2f5a556872b4",
+      "old_text_findings": [
+        {
+          "category": "internal_process_language",
+          "code": "S-INTERNAL-PROCESS-LANGUAGE",
+          "end": 17,
+          "matched_text": "仅限已提供的记录范围，不外推",
+          "message": "Authoring-process prohibitions must be rewritten as study-facing CSR prose",
+          "pattern_id": "process-negation",
+          "start": 3,
+          "subclass": "process_negation"
+        }
+      ],
+      "old_text_hard_blocked": true,
+      "replacement": "本节结论基于现有盲态维护记录，未涵盖记录范围之外的情形。",
+      "replacement_passed": true,
+      "text": "该陈述仅限已提供的记录范围，不外推至未核验资料。"
+    },
+    {
+      "case_id": "pk_internal_binding_term",
+      "guard_report_sha256": "950e585e0f3107e24f59a06830ebe02a6ec4807d61c5ce0b72f36432e7ce0a1e",
+      "old_text_findings": [
+        {
+          "category": "internal_process_language",
+          "code": "S-INTERNAL-PROCESS-LANGUAGE",
+          "end": 11,
+          "matched_text": "绑定",
+          "message": "CSR body text must not expose internal data or placeholder terminology",
+          "pattern_id": "internal-data-term",
+          "start": 9,
+          "subclass": "internal_data_term"
+        }
+      ],
+      "old_text_hard_blocked": true,
+      "replacement": "上述为可计算参数的汇总结果，不代表全部采样时点。",
+      "replacement_passed": true,
+      "text": "这些结果只反映当前绑定的参数汇总。"
+    }
+  ],
+  "replacement_pass_count": 4,
+  "schema_version": "1.0",
+  "status": "pass"
+}

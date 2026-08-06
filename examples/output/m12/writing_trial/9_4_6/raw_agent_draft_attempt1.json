@@ -1,0 +1,36 @@
+{
+  "paragraphs": [
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "sources": [
+        "SRC-BLIND-DESIGN"
+      ],
+      "text": "本研究采用双盲设计，受试者、研究者及结果评价人员保持盲态。盲法范围和岗位职责按经审核方案执行，不根据设计标签推断实际维持情况。"
+    },
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "sources": [
+        "SRC-BLIND-MAINTENANCE"
+      ],
+      "text": "研究用制剂在外观、包装和标签方面保持一致。非盲岗位与盲态评价岗位职责分离，随机编码按受控流程保管。"
+    },
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "sources": [
+        "SRC-UNBLIND-PROCEDURE"
+      ],
+      "text": "应急揭盲按预设程序启动、记录并报告；非计划揭盲进入盲态维护台账。该流程描述不替代对实际揭盲记录的核查。"
+    },
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "sources": [
+        "SRC-UNBLIND-RECORD"
+      ],
+      "text": "经审核的盲态维护记录未报告非计划揭盲。该陈述仅限已提供的记录范围，不外推至未核验资料。"
+    }
+  ]
+}

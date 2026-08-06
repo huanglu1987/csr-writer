@@ -1,0 +1,53 @@
+{
+  "config_sha256": "fcfb0246089dc2984eacca06fa52f1d93a9d4d3ef13a2775a6df28af76d8046d",
+  "contact_sheets": [
+    {
+      "filename": "02_header_footer.contact_sheet_001.png",
+      "height_px": 2072,
+      "pages": [
+        1,
+        2
+      ],
+      "sha256": "14f84c0c16eda1095f31c733c318cc5baf7db7ccf1aad5253e78b856d61d34e0",
+      "width_px": 1056
+    }
+  ],
+  "docx_layout": {
+    "field_counts": {
+      "page": 0,
+      "ref": 0,
+      "tc": 0,
+      "toc": 0,
+      "total_pages": 0
+    },
+    "header_footer_excluded_from_body_checks": true,
+    "section_count": 1,
+    "toc_expected_counts": []
+  },
+  "findings": [],
+  "legacy_release_decision_changed": false,
+  "limitations": "本检查基于 LibreOffice 渲染，与 Microsoft Word 的分页和字体回退存在差异。 本检查是前置筛查，不替代在 Word 中更新域后的人工视觉复核。",
+  "pdf": {
+    "filename": "02_header_footer.pdf",
+    "page_count": 2,
+    "sha256": "dfcfa74480af1609a0a21cd65b3b3529a184f48aafb73feaa0fb064ca0e8f92a",
+    "signature_verified": true
+  },
+  "renderer": {
+    "available": true,
+    "name": "soffice",
+    "render_status": "pass"
+  },
+  "schema_version": "1.0",
+  "source": {
+    "filename": "02_header_footer.docx",
+    "sha256": "bb47e7a100864dc41dd9a81f52b2bcf077ff98f40f58915071759a65c135890f"
+  },
+  "status": "pass",
+  "summary": {
+    "class_a_count": 0,
+    "class_b_count": 0,
+    "finding_count": 0
+  },
+  "visual_gate_status": "pass"
+}

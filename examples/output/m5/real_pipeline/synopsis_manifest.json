@@ -1,0 +1,16 @@
+{
+  "clean_output_sha256": "b9a8046a92260a7bedd69032d3853232237a367e9ea5f1e88e2fe838f8a72d42",
+  "generation_mode": "derived_copy_only",
+  "independent_drafting_allowed": false,
+  "paragraphs": [
+    {
+      "source_para_id": "p_11_B_002",
+      "source_resolved_sha256": "d44020da5d21e2f93008f063e7bb3c363d1ff7f6b6c306a4424985bf56b7b55e",
+      "source_section": "11.B",
+      "text_sha256": "362224ae8c27654934de4c5b52053951eb38ff80b926014cf7c6886c8056de79"
+    }
+  ],
+  "schema_version": "1.0",
+  "synopsis_output_sha256": "0d985830aadef21e789dd5a96d579376a0aabd1cc80ba1943e49dc1bfc6629f6",
+  "synopsis_text_sha256": "d001b0d61609e86b2867e6603529da58ccf437e30d01c20466ae85bb51672355"
+}

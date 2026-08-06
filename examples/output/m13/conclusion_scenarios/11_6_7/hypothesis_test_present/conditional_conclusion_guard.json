@@ -1,0 +1,48 @@
+{
+  "datapack_sha256": "b6c5ed95ec1680f28387898046bb6d698ccaab5c11774615056a24a705f57bb8",
+  "draft_sha256": "373ea8dd098ccc47dcb466a573600e6d08d58b63fbdd5a3efcf173c7bcc13098",
+  "resolved_sha256": "61c698290dbbacac358272dae3792aed0f818afb97ca3c1870c1c1e66c095b17",
+  "rules": [
+    {
+      "branch": "prespecified_hypothesis_test",
+      "confirmed_body_only": false,
+      "critical_roles": [
+        {
+          "cell_present": true,
+          "key": "T14.2.2.1.1|POP=FAS|ROW=PRIMARY_ENDPOINT|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "primary_endpoint_result",
+          "value_sha256": "c5a56b68b35bfa2482cbb21649e32960af121ea00c3477c18da6b299f906c081"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.2.2.1.1|POP=FAS|ROW=ANALYSIS_SET|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "analysis_set",
+          "value_sha256": "aafb4482e5974c58463e1f9637958e17f514f566c808e415b1e776a75c0ecd5d"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.2.2.1.1|POP=FAS|ROW=PRESPECIFIED|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "prespecified",
+          "value_sha256": "f1de1e2621deb2e14e32a992e8e0cd6d5e88b2f2352d52c4daf06826a274b5e0"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.2.2.1.1|POP=FAS|ROW=HYPOTHESIS_TEST|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "hypothesis_test",
+          "value_sha256": "e12227beae0ac5990ceee65f9d7c9afae2671111cb9c4d822ea7a6d1249fc14f"
+        }
+      ],
+      "medical_review_marker_required": true,
+      "missing_roles": [],
+      "numeric_values_not_logged": true,
+      "rule_id": "EXPLORATORY_EFFICACY_CONCLUSION_V1"
+    }
+  ],
+  "schema_version": "1.1",
+  "status": "pass",
+  "warnings": []
+}

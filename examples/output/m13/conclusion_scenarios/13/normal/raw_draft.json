@@ -1,0 +1,22 @@
+{
+  "paragraphs": [
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "sources": [
+        "T14.2.2.1.1",
+        "T14.2.4.3.1",
+        "T14.3.1.2"
+      ],
+      "text": "前文主要终点结果为 {{T14.2.2.1.1|POP=FAS|ROW=PRIMARY_ENDPOINT|COL=ACTIVE_TOTAL}}；前文药代动力学关键发现为 {{T14.2.4.3.1|POP=PKPS|ROW=CMAX_CALCULABLE|COL=ACTIVE_TOTAL}}；前文 TEAE 汇总为 {{T14.3.1.2|POP=SS|ROW=ANY_TEAE|COL=ACTIVE_TOTAL}}；前文严重不良事件汇总为 {{T14.3.1.2|POP=SS|ROW=ANY_SAE|COL=ACTIVE_TOTAL}}；前文死亡汇总为 {{T14.3.1.2|POP=SS|ROW=DEATH|COL=ACTIVE_TOTAL}}；前文导致停药事件汇总为 {{T14.3.1.2|POP=SS|ROW=AE_DISCONTINUATION|COL=ACTIVE_TOTAL}}，支持性结果详见{{@ref:T14.2.2.1.1}}、{{@ref:T14.2.4.3.1}}、{{@ref:T14.3.1.2}}。"
+    },
+    {
+      "confidence": "inferred",
+      "needs_human": true,
+      "sources": [
+        "SRC-BODY"
+      ],
+      "text": "[待医学负责人确认] {{@conclusion:OVERALL_CONCLUSION_V1}}"
+    }
+  ]
+}

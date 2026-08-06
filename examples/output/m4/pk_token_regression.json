@@ -1,0 +1,47 @@
+{
+  "cases": [
+    {
+      "expected_tokens": [],
+      "id": "t_half_parameter_only",
+      "observed_tokens": [],
+      "status": "pass",
+      "text": "参数 t1/2。"
+    },
+    {
+      "expected_tokens": [],
+      "id": "auc_parameter_only",
+      "observed_tokens": [],
+      "status": "pass",
+      "text": "参数 AUC0-∞。"
+    },
+    {
+      "expected_tokens": [
+        "12"
+      ],
+      "id": "t_half_with_result",
+      "observed_tokens": [
+        "12"
+      ],
+      "status": "pass",
+      "text": "血浆消除半衰期（t1/2）约为 12 小时。"
+    },
+    {
+      "expected_tokens": [
+        "345"
+      ],
+      "id": "auc_with_result",
+      "observed_tokens": [
+        "345"
+      ],
+      "status": "pass",
+      "text": "AUC0-∞ 约为 345 ng·h/mL。"
+    }
+  ],
+  "mechanism": "lexical PK parameter masking before tokenization; not a numeric whitelist",
+  "schema_version": "1.0",
+  "summary": {
+    "failed": 0,
+    "passed": 4,
+    "total": 4
+  }
+}

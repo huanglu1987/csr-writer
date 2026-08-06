@@ -1,0 +1,54 @@
+{
+  "datapack_sha256": "2ac1a05d895b0863b470e98945113dc5404455dd2f02357eb0c7dc7d472bb1ce",
+  "draft_sha256": "399e5701949ae319f1723cfc93358063cdb5d9d391b65e6523352df790b2cdef",
+  "resolved_sha256": "6acd8f5f76254c83865aeee73b16e71538378fc65f3dd6a7cf79f2a316b3d32f",
+  "rules": [
+    {
+      "branch": "important_events_present",
+      "critical_roles": [
+        {
+          "cell_present": true,
+          "key": "T14.3.1.2|POP=SS|ROW=ANY_TEAE|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "teae_result",
+          "value_sha256": "fa36dddb9fea13d91d94439d693d42dece067f3f8a8652b691f241ee2a4bfbf5"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.3.1.2|POP=SS|ROW=ANY_SAE|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "sae_count",
+          "value_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.3.1.2|POP=SS|ROW=DEATH|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "death_count",
+          "value_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.3.1.2|POP=SS|ROW=AE_DISCONTINUATION|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "discontinuation_count",
+          "value_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.3.1.2|POP=SS|ROW=GRADE_3_PLUS|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "grade3plus_count",
+          "value_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+        }
+      ],
+      "medical_review_marker_required": true,
+      "missing_roles": [],
+      "numeric_values_not_logged": true,
+      "rule_id": "SAFETY_TOLERABILITY_V1"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "pass",
+  "warnings": []
+}

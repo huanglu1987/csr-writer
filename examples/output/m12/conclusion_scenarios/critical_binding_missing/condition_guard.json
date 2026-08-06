@@ -1,0 +1,70 @@
+{
+  "datapack_sha256": "7c570e2241465b401b46f5c209f3b0c3996d3addfac00e2124918cfbf8dacf7e",
+  "draft_sha256": "f10ea55f770f59503858ea7bd82e02170d409fb7872af02f3712aaf3a0cffbe7",
+  "resolved_sha256": "57890aeefc9839cd074d92e303f96235b9e843a8d1597c14b10590dbe1446f71",
+  "rules": [
+    {
+      "branch": "critical_binding_missing",
+      "critical_roles": [
+        {
+          "cell_present": true,
+          "key": "T14.3.1.2|POP=SS|ROW=ANY_TEAE|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "teae_result",
+          "value_sha256": "fa36dddb9fea13d91d94439d693d42dece067f3f8a8652b691f241ee2a4bfbf5"
+        },
+        {
+          "cell_present": false,
+          "key": null,
+          "machine_readable": false,
+          "role": "sae_count",
+          "value_sha256": null
+        },
+        {
+          "cell_present": false,
+          "key": null,
+          "machine_readable": false,
+          "role": "death_count",
+          "value_sha256": null
+        },
+        {
+          "cell_present": false,
+          "key": null,
+          "machine_readable": false,
+          "role": "discontinuation_count",
+          "value_sha256": null
+        },
+        {
+          "cell_present": false,
+          "key": null,
+          "machine_readable": false,
+          "role": "grade3plus_count",
+          "value_sha256": null
+        }
+      ],
+      "medical_review_marker_required": true,
+      "missing_roles": [
+        "sae_count",
+        "death_count",
+        "discontinuation_count",
+        "grade3plus_count"
+      ],
+      "numeric_values_not_logged": true,
+      "rule_id": "SAFETY_TOLERABILITY_V1"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "pass_with_warning",
+  "warnings": [
+    {
+      "code": "W-CONCLUSION-CRITICAL-BINDING-MISSING",
+      "message": "Conclusion paragraph lacks one or more v1.3 critical safety cells",
+      "missing_roles": [
+        "sae_count",
+        "death_count",
+        "discontinuation_count",
+        "grade3plus_count"
+      ]
+    }
+  ]
+}

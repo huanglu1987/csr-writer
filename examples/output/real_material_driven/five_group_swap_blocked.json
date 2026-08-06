@@ -1,0 +1,18 @@
+{
+  "contract_sha256": "2dd3583f07a9c508a83fd6001cfa700859679ee5ded9b2085e3ffa875d5ca5a3",
+  "datapack_sha256": "a7b6c2a84a084d82a41fa05742e7a99b68a79ff95b87599bde447c2df60b31fa",
+  "issues": [
+    {
+      "code": "E-GROUP-ROLE-COLUMN",
+      "expected_column": "C0_5PCT_BID",
+      "expected_group": "dose_0_5_bid",
+      "key": "T14.2.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=C1_0PCT_QD",
+      "message": "Section 11.4.1 role dose_0_5_bid_result is bound to C1_0PCT_QD; contract requires C0_5PCT_BID",
+      "observed_column": "C1_0PCT_QD",
+      "role": "dose_0_5_bid_result",
+      "section": "11.4.1"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "blocked"
+}

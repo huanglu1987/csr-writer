@@ -1,0 +1,12 @@
+................................................................................................................................................................................................................................annotated output created; clean output blocked: /var/folders/s1/v1g0nxn50tn5zct_08zlfxg80000gn/T/tmpfvl4ryjf/assembly.json
+...ERROR: M4 path collision: group report aliases input group contract: /Users/huanglu/临床试验总结报告撰写/csr-writer/examples/m4/group_contract.json
+......................................................................result TFL mapping drift blocked: /var/folders/s1/v1g0nxn50tn5zct_08zlfxg80000gn/T/tmpmmlhxlfy/apply.json
+......<frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyPacked has no __module__ attribute
+<frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyObject has no __module__ attribute
+<frozen importlib._bootstrap>:488: DeprecationWarning: builtin type swigvarlink has no __module__ attribute
+.........
+----------------------------------------------------------------------
+Ran 312 tests in 61.947s
+
+OK
+<sys>:0: DeprecationWarning: builtin type swigvarlink has no __module__ attribute

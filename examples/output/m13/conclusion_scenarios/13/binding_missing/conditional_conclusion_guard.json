@@ -1,0 +1,72 @@
+{
+  "datapack_sha256": "e2b14a6022fe7ddc029b13042d81f61f31b8432c471483e5dd2744961c72e12a",
+  "draft_sha256": "c29b95969ece63a2357d87d9674d0fcbe7166ac904ab9642c87ca8e124c330c7",
+  "resolved_sha256": "e27c9c98297507eb5d3faea7aad1b2bc15552973ce44b1864e55c0928abb2e55",
+  "rules": [
+    {
+      "branch": "critical_binding_missing",
+      "confirmed_body_only": true,
+      "critical_roles": [
+        {
+          "cell_present": true,
+          "key": "T14.2.2.1.1|POP=FAS|ROW=PRIMARY_ENDPOINT|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "primary_endpoint_result",
+          "value_sha256": "c5a56b68b35bfa2482cbb21649e32960af121ea00c3477c18da6b299f906c081"
+        },
+        {
+          "cell_present": false,
+          "key": null,
+          "machine_readable": false,
+          "role": "pk_key_finding",
+          "value_sha256": null
+        },
+        {
+          "cell_present": true,
+          "key": "T14.3.1.2|POP=SS|ROW=ANY_TEAE|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "teae_result",
+          "value_sha256": "fa36dddb9fea13d91d94439d693d42dece067f3f8a8652b691f241ee2a4bfbf5"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.3.1.2|POP=SS|ROW=ANY_SAE|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "sae_count",
+          "value_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.3.1.2|POP=SS|ROW=DEATH|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "death_count",
+          "value_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.3.1.2|POP=SS|ROW=AE_DISCONTINUATION|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "discontinuation_count",
+          "value_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+        }
+      ],
+      "medical_review_marker_required": true,
+      "missing_roles": [
+        "pk_key_finding"
+      ],
+      "numeric_values_not_logged": true,
+      "rule_id": "OVERALL_CONCLUSION_V1"
+    }
+  ],
+  "schema_version": "1.1",
+  "status": "pass_with_warning",
+  "warnings": [
+    {
+      "code": "W-OVERALL-CONCLUSION-BINDING-MISSING",
+      "message": "Overall conclusion lacks a confirmed efficacy, PK, or safety result",
+      "missing_roles": [
+        "pk_key_finding"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "attempt": 1,
+  "draft_sha256": "1d3256d9f3f665a960f63a3954a6a277a3e0b2ca9e546a785eba6879505dc200",
+  "envelope_sha256": "362cd4863c5d68c4849ed76610c57c6aa53d72aafc6222f943be5cbe32f65602",
+  "prior_guard_report_sha256s": [],
+  "published_section": null,
+  "reason": "SectionWriterError: Paragraph 0 contains internal process language: [\"internal_data_term='绑定'\"]",
+  "reason_code": "section_guard_rejected",
+  "report_sha256": "950e585e0f3107e24f59a06830ebe02a6ec4807d61c5ce0b72f36432e7ce0a1e",
+  "schema_version": "1.0",
+  "status": "rejected"
+}

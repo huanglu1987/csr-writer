@@ -1,0 +1,91 @@
+{
+  "binding_count_checked": 5,
+  "bindings": [
+    {
+      "column": "C0_5PCT_BID",
+      "group": "dose_0_5_bid",
+      "key": "T14.2.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=C0_5PCT_BID",
+      "role": "dose_0_5_bid_result",
+      "section": "11.4.1"
+    },
+    {
+      "column": "C0_75PCT_BID",
+      "group": "dose_0_75_bid",
+      "key": "T14.2.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=C0_75PCT_BID",
+      "role": "dose_0_75_bid_result",
+      "section": "11.4.1"
+    },
+    {
+      "column": "C1_0PCT_BID",
+      "group": "dose_1_0_bid",
+      "key": "T14.2.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=C1_0PCT_BID",
+      "role": "dose_1_0_bid_result",
+      "section": "11.4.1"
+    },
+    {
+      "column": "C1_0PCT_QD",
+      "group": "dose_1_0_qd",
+      "key": "T14.2.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=C1_0PCT_QD",
+      "role": "dose_1_0_qd_result",
+      "section": "11.4.1"
+    },
+    {
+      "column": "PBO",
+      "group": "placebo",
+      "key": "T14.2.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=PBO",
+      "role": "placebo_result",
+      "section": "11.4.1"
+    }
+  ],
+  "checks": {
+    "explicit_role_to_column": "pass",
+    "randomized_count_gte_analysis_set_count": "pass",
+    "randomized_vs_analysis_set_column": "pass"
+  },
+  "contract_sha256": "2dd3583f07a9c508a83fd6001cfa700859679ee5ded9b2085e3ffa875d5ca5a3",
+  "datapack_sha256": "a7b6c2a84a084d82a41fa05742e7a99b68a79ff95b87599bde447c2df60b31fa",
+  "groups": {
+    "dose_0_5_bid": {
+      "analysis_set_anchor": "T11.1|POP=FAS|ROW=ANALYSIS_SET_COUNT|COL=C0_5PCT_BID",
+      "analysis_set_count": 21,
+      "column": "C0_5PCT_BID",
+      "randomized_anchor": "T10.1|POP=RANDOMIZED|ROW=RANDOMIZED_COUNT|COL=C0_5PCT_BID",
+      "randomized_count": 22
+    },
+    "dose_0_75_bid": {
+      "analysis_set_anchor": "T11.1|POP=FAS|ROW=ANALYSIS_SET_COUNT|COL=C0_75PCT_BID",
+      "analysis_set_count": 22,
+      "column": "C0_75PCT_BID",
+      "randomized_anchor": "T10.1|POP=RANDOMIZED|ROW=RANDOMIZED_COUNT|COL=C0_75PCT_BID",
+      "randomized_count": 23
+    },
+    "dose_1_0_bid": {
+      "analysis_set_anchor": "T11.1|POP=FAS|ROW=ANALYSIS_SET_COUNT|COL=C1_0PCT_BID",
+      "analysis_set_count": 23,
+      "column": "C1_0PCT_BID",
+      "randomized_anchor": "T10.1|POP=RANDOMIZED|ROW=RANDOMIZED_COUNT|COL=C1_0PCT_BID",
+      "randomized_count": 24
+    },
+    "dose_1_0_qd": {
+      "analysis_set_anchor": "T11.1|POP=FAS|ROW=ANALYSIS_SET_COUNT|COL=C1_0PCT_QD",
+      "analysis_set_count": 24,
+      "column": "C1_0PCT_QD",
+      "randomized_anchor": "T10.1|POP=RANDOMIZED|ROW=RANDOMIZED_COUNT|COL=C1_0PCT_QD",
+      "randomized_count": 25
+    },
+    "placebo": {
+      "analysis_set_anchor": "T11.1|POP=FAS|ROW=ANALYSIS_SET_COUNT|COL=PBO",
+      "analysis_set_count": 20,
+      "column": "PBO",
+      "randomized_anchor": "T10.1|POP=RANDOMIZED|ROW=RANDOMIZED_COUNT|COL=PBO",
+      "randomized_count": 21
+    }
+  },
+  "issues": [],
+  "metadata_sha256": "532d53f1316d0b85800f48cd115312ac9eedb9531da23ef3be3c53c1915ab9ab",
+  "schema_version": "2.0",
+  "sections_checked": [
+    "11.4.1"
+  ],
+  "status": "pass"
+}

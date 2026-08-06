@@ -1,0 +1,14 @@
+{
+  "distinct_column_count": 5,
+  "five_group_semantic_validator": "pass",
+  "real_shell_semantic_columns": [
+    "C0_5PCT_BID",
+    "C0_75PCT_BID",
+    "C1_0PCT_BID",
+    "C1_0PCT_QD",
+    "PBO"
+  ],
+  "schema_version": "1.0",
+  "status": "pass",
+  "swap_injection": "blocked"
+}

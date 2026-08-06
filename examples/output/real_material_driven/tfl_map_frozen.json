@@ -1,0 +1,328 @@
+{
+  "confirmation": {
+    "candidate_sha256": "21da230c91d29d84bf1a41949d0968be0fa3f046573df9f2b5a5d0b01786d402",
+    "confirmation_id": "DEID-CONFIRM-001",
+    "confirmed_at": "2026-08-04T00:00:00+08:00",
+    "confirmed_by_role": "statistical_programming_reviewer",
+    "status": "confirmed"
+  },
+  "entities": [
+    {
+      "cell_contracts": [],
+      "dimensions": {},
+      "entity_id": "F14.2.4.1",
+      "entity_kind": "figure",
+      "ich_e3_sections": [
+        "11.B"
+      ],
+      "ingest_strategy": "metadata_only",
+      "population": "PKS",
+      "semantic_keys": [],
+      "structure_sha256": "5b74d7c9b68bc1f986ac764f29a02bc1e4577399f14f655441b6409870dfb2b7",
+      "titles": [
+        "Deidentified PK figure"
+      ]
+    },
+    {
+      "cell_contracts": [],
+      "dimensions": {},
+      "entity_id": "L16.2.1",
+      "entity_kind": "listing",
+      "ich_e3_sections": [
+        "16.2.1"
+      ],
+      "ingest_strategy": "metadata_only",
+      "population": "All Enrolled Set",
+      "semantic_keys": [],
+      "structure_sha256": "7be28926d267d69a8fac4018f2ffb315069e2f5d91ba76c71a205752fc715d7a",
+      "titles": [
+        "Deidentified subject-level wide listing"
+      ]
+    },
+    {
+      "cell_contracts": [
+        {
+          "column_id": "SUMMARY",
+          "column_index": 1,
+          "column_label": "Summary",
+          "dimensions": {},
+          "key": "T14.1.2.1|POP=All Enrolled Set|ROW=AGE_SEX_FORMAT|COL=SUMMARY",
+          "row_id": "AGE_SEX_FORMAT",
+          "row_indent": 0,
+          "row_index": 3,
+          "row_label": "Age/sex format",
+          "row_parent_path": null,
+          "type": "composite"
+        },
+        {
+          "column_id": "SUMMARY",
+          "column_index": 1,
+          "column_label": "Summary",
+          "dimensions": {},
+          "key": "T14.1.2.1|POP=All Enrolled Set|ROW=COMPLETION_DATE|COL=SUMMARY",
+          "row_id": "COMPLETION_DATE",
+          "row_indent": 0,
+          "row_index": 1,
+          "row_label": "Completion date",
+          "row_parent_path": null,
+          "type": "date"
+        },
+        {
+          "column_id": "SUMMARY",
+          "column_index": 1,
+          "column_label": "Summary",
+          "dimensions": {},
+          "key": "T14.1.2.1|POP=All Enrolled Set|ROW=COMPLETION_STATUS|COL=SUMMARY",
+          "row_id": "COMPLETION_STATUS",
+          "row_indent": 0,
+          "row_index": 4,
+          "row_label": "Completion status",
+          "row_parent_path": null,
+          "type": "status"
+        },
+        {
+          "column_id": "SUMMARY",
+          "column_index": 1,
+          "column_label": "Summary",
+          "dimensions": {},
+          "key": "T14.1.2.1|POP=All Enrolled Set|ROW=EQUIVALENCE_JUDGEMENT|COL=SUMMARY",
+          "row_id": "EQUIVALENCE_JUDGEMENT",
+          "row_indent": 0,
+          "row_index": 2,
+          "row_label": "Judgement",
+          "row_parent_path": null,
+          "type": "text_judgement"
+        }
+      ],
+      "dimensions": {},
+      "entity_id": "T14.1.2.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "10.1"
+      ],
+      "ingest_strategy": "cell_level",
+      "population": "All Enrolled Set",
+      "semantic_keys": [
+        "T14.1.2.1|POP=All Enrolled Set|ROW=AGE_SEX_FORMAT|COL=SUMMARY",
+        "T14.1.2.1|POP=All Enrolled Set|ROW=COMPLETION_DATE|COL=SUMMARY",
+        "T14.1.2.1|POP=All Enrolled Set|ROW=COMPLETION_STATUS|COL=SUMMARY",
+        "T14.1.2.1|POP=All Enrolled Set|ROW=EQUIVALENCE_JUDGEMENT|COL=SUMMARY"
+      ],
+      "structure_sha256": "34813302004eaf07ad2661728a2cb13924b190ec4170e109ee5ba6e0ab140228",
+      "titles": [
+        "Deidentified non-numeric summary shell"
+      ]
+    },
+    {
+      "cell_contracts": [
+        {
+          "column_id": "DOSE_1P0_BID",
+          "column_index": 1,
+          "column_label": "1.0% BID",
+          "dimensions": {
+            "STAGE": "D1"
+          },
+          "key": "T14.2.4.3.1|POP=PKS|ROW=CMAX|COL=DOSE_1P0_BID|STAGE=D1",
+          "row_id": "CMAX",
+          "row_indent": 0,
+          "row_index": 1,
+          "row_label": "Cmax",
+          "row_parent_path": null,
+          "type": "geomean_cv"
+        }
+      ],
+      "dimensions": {
+        "STAGE": "D1"
+      },
+      "entity_id": "T14.2.4.3.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.B"
+      ],
+      "ingest_strategy": "cell_level",
+      "population": "PKS",
+      "semantic_keys": [
+        "T14.2.4.3.1|POP=PKS|ROW=CMAX|COL=DOSE_1P0_BID|STAGE=D1"
+      ],
+      "structure_sha256": "6824805be39a7eacb6cbd5c8f06a045ee8f6456bf610100b7f0990c58921b0ca",
+      "titles": [
+        "Deidentified single-dose PK shell"
+      ]
+    },
+    {
+      "cell_contracts": [
+        {
+          "column_id": "DOSE_1P0_BID",
+          "column_index": 1,
+          "column_label": "1.0% BID",
+          "dimensions": {
+            "STAGE": "D28"
+          },
+          "key": "T14.2.4.3.2|POP=PKS|ROW=CMAX|COL=DOSE_1P0_BID|STAGE=D28",
+          "row_id": "CMAX",
+          "row_indent": 0,
+          "row_index": 1,
+          "row_label": "Cmax",
+          "row_parent_path": null,
+          "type": "geomean_cv"
+        }
+      ],
+      "dimensions": {
+        "STAGE": "D28"
+      },
+      "entity_id": "T14.2.4.3.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.B"
+      ],
+      "ingest_strategy": "cell_level",
+      "population": "PKS",
+      "semantic_keys": [
+        "T14.2.4.3.2|POP=PKS|ROW=CMAX|COL=DOSE_1P0_BID|STAGE=D28"
+      ],
+      "structure_sha256": "4b7ec09e8d5024a7c8d8cbe6654e26531fb34f634ccae7ff32bc76c4b0c7e03f",
+      "titles": [
+        "Deidentified steady-state PK shell"
+      ]
+    },
+    {
+      "cell_contracts": [
+        {
+          "column_id": "PBO",
+          "column_index": 1,
+          "column_label": "Placebo",
+          "dimensions": {},
+          "key": "T14.3.1.3.1|POP=SS|ROW=SOC_GI/PT_SHARED|COL=PBO",
+          "row_id": "SOC_GI/PT_SHARED",
+          "row_indent": 2,
+          "row_index": 2,
+          "row_label": "PT_SHARED",
+          "row_parent_path": "SOC_GI",
+          "type": "n_pct"
+        },
+        {
+          "column_id": "PBO",
+          "column_index": 1,
+          "column_label": "Placebo",
+          "dimensions": {},
+          "key": "T14.3.1.3.1|POP=SS|ROW=SOC_NERVOUS/PT_SHARED|COL=PBO",
+          "row_id": "SOC_NERVOUS/PT_SHARED",
+          "row_indent": 2,
+          "row_index": 4,
+          "row_label": "PT_SHARED",
+          "row_parent_path": "SOC_NERVOUS",
+          "type": "n_pct"
+        },
+        {
+          "column_id": "ACTIVE_TOTAL",
+          "column_index": 6,
+          "column_label": "Investigational total",
+          "dimensions": {},
+          "key": "T14.3.1.3.1|POP=SS|ROW=SUMMARY|COL=ACTIVE_TOTAL",
+          "row_id": "SUMMARY",
+          "row_indent": 0,
+          "row_index": 1,
+          "row_label": "Summary",
+          "row_parent_path": null,
+          "type": "n_pct"
+        },
+        {
+          "column_id": "DOSE_0P5_BID",
+          "column_index": 2,
+          "column_label": "0.5% BID",
+          "dimensions": {},
+          "key": "T14.3.1.3.1|POP=SS|ROW=SUMMARY|COL=DOSE_0P5_BID",
+          "row_id": "SUMMARY",
+          "row_indent": 0,
+          "row_index": 1,
+          "row_label": "Summary",
+          "row_parent_path": null,
+          "type": "n_pct"
+        },
+        {
+          "column_id": "DOSE_0P75_BID",
+          "column_index": 3,
+          "column_label": "0.75% BID",
+          "dimensions": {},
+          "key": "T14.3.1.3.1|POP=SS|ROW=SUMMARY|COL=DOSE_0P75_BID",
+          "row_id": "SUMMARY",
+          "row_indent": 0,
+          "row_index": 1,
+          "row_label": "Summary",
+          "row_parent_path": null,
+          "type": "n_pct"
+        },
+        {
+          "column_id": "DOSE_1P0_BID",
+          "column_index": 4,
+          "column_label": "1.0% BID",
+          "dimensions": {},
+          "key": "T14.3.1.3.1|POP=SS|ROW=SUMMARY|COL=DOSE_1P0_BID",
+          "row_id": "SUMMARY",
+          "row_indent": 0,
+          "row_index": 1,
+          "row_label": "Summary",
+          "row_parent_path": null,
+          "type": "n_pct"
+        },
+        {
+          "column_id": "DOSE_1P0_QD",
+          "column_index": 5,
+          "column_label": "1.0% QD",
+          "dimensions": {},
+          "key": "T14.3.1.3.1|POP=SS|ROW=SUMMARY|COL=DOSE_1P0_QD",
+          "row_id": "SUMMARY",
+          "row_indent": 0,
+          "row_index": 1,
+          "row_label": "Summary",
+          "row_parent_path": null,
+          "type": "n_pct"
+        },
+        {
+          "column_id": "TOTAL",
+          "column_index": 7,
+          "column_label": "Overall total",
+          "dimensions": {},
+          "key": "T14.3.1.3.1|POP=SS|ROW=SUMMARY|COL=TOTAL",
+          "row_id": "SUMMARY",
+          "row_indent": 0,
+          "row_index": 1,
+          "row_label": "Summary",
+          "row_parent_path": null,
+          "type": "n_pct"
+        }
+      ],
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12.2"
+      ],
+      "ingest_strategy": "cell_level",
+      "population": "SS",
+      "semantic_keys": [
+        "T14.3.1.3.1|POP=SS|ROW=SOC_GI/PT_SHARED|COL=PBO",
+        "T14.3.1.3.1|POP=SS|ROW=SOC_NERVOUS/PT_SHARED|COL=PBO",
+        "T14.3.1.3.1|POP=SS|ROW=SUMMARY|COL=ACTIVE_TOTAL",
+        "T14.3.1.3.1|POP=SS|ROW=SUMMARY|COL=DOSE_0P5_BID",
+        "T14.3.1.3.1|POP=SS|ROW=SUMMARY|COL=DOSE_0P75_BID",
+        "T14.3.1.3.1|POP=SS|ROW=SUMMARY|COL=DOSE_1P0_BID",
+        "T14.3.1.3.1|POP=SS|ROW=SUMMARY|COL=DOSE_1P0_QD",
+        "T14.3.1.3.1|POP=SS|ROW=SUMMARY|COL=TOTAL"
+      ],
+      "structure_sha256": "535d3ad4700bce6b0fd2209b0147686956fbbead5b5a3d6caa9b146a8e83f2ec",
+      "titles": [
+        "Deidentified hierarchical AE shell"
+      ]
+    }
+  ],
+  "frozen_sha256": "c2827366a2ff190751ef3ca18d62871520e2528cc184aea4ca743743cf286cd8",
+  "map_version": "DEID-MAP-1",
+  "numbering_system": {
+    "description": "Deidentified fixture: 14.x tables/figures plus 16.2.x listings; mapping is explicit and not inferred from numbering.",
+    "id": "ICH_E3_14X_WITH_16X_LISTINGS"
+  },
+  "schema_version": "1.0",
+  "shell_datapack_sha256": "b57fe704c817256a6dadd5b2e60831d591899edbc9e44c47047e57fe35f8a777",
+  "status": "frozen"
+}

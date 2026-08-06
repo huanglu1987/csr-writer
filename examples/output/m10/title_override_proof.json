@@ -1,0 +1,15 @@
+{
+  "applied": [
+    {
+      "localized_zh": "本临床研究报告目录",
+      "official_en": "TABLE OF CONTENTS FOR THE INDIVIDUAL CLINICAL STUDY REPORT",
+      "official_zh": "个例临床研究报告目录",
+      "reason": "「个例」易被误解为单个受试者病例；审阅意见 §一.4。",
+      "section_id": "3"
+    }
+  ],
+  "config_sha256": "0dca2d66e54221e3634ad8cf91e4e15fdf53d2c28f77184b5218446a64b2048b",
+  "schema_version": "1.0",
+  "status": "pass",
+  "structure_sha256": "87ea56d599120e265c1649881a9d3ad1c08db540a91be13de6a2bd31a6bc0942"
+}

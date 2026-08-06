@@ -1,0 +1,193 @@
+{
+  "config_sha256": "fcfb0246089dc2984eacca06fa52f1d93a9d4d3ef13a2775a6df28af76d8046d",
+  "contact_sheets": [
+    {
+      "filename": "04_landscape_wide_table.contact_sheet_001.png",
+      "height_px": 2072,
+      "pages": [
+        1
+      ],
+      "sha256": "7497e45e1f196fa7597669e3c34818ae6ea097c3480eb75737fa57e64bbb5298",
+      "width_px": 1056
+    }
+  ],
+  "docx_layout": {
+    "field_counts": {
+      "page": 0,
+      "ref": 0,
+      "tc": 0,
+      "toc": 0,
+      "total_pages": 0
+    },
+    "header_footer_excluded_from_body_checks": true,
+    "section_count": 1,
+    "toc_expected_counts": []
+  },
+  "findings": [
+    {
+      "bbox": [
+        77.45,
+        127.87,
+        721.79,
+        137.24
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "列1",
+      "message": "检测到段末单字成行。",
+      "page": 1,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        77.45,
+        127.87,
+        721.79,
+        137.24
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "列2",
+      "message": "检测到段末单字成行。",
+      "page": 1,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        77.45,
+        127.87,
+        721.79,
+        137.24
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "列3",
+      "message": "检测到段末单字成行。",
+      "page": 1,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        77.45,
+        127.87,
+        721.79,
+        137.24
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "列4",
+      "message": "检测到段末单字成行。",
+      "page": 1,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        77.45,
+        127.87,
+        721.79,
+        137.24
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "列5",
+      "message": "检测到段末单字成行。",
+      "page": 1,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        77.45,
+        127.87,
+        721.79,
+        137.24
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "列6",
+      "message": "检测到段末单字成行。",
+      "page": 1,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        77.45,
+        127.87,
+        721.79,
+        137.24
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "列7",
+      "message": "检测到段末单字成行。",
+      "page": 1,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        77.45,
+        127.87,
+        721.79,
+        137.24
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "列8",
+      "message": "检测到段末单字成行。",
+      "page": 1,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        77.45,
+        127.87,
+        721.79,
+        137.24
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "列9",
+      "message": "检测到段末单字成行。",
+      "page": 1,
+      "severity": "warning"
+    },
+    {
+      "bbox": [
+        77.45,
+        127.87,
+        721.79,
+        137.24
+      ],
+      "class": "B",
+      "code": "B-SINGLE-CJK-LINE",
+      "evidence": "列10",
+      "message": "检测到段末单字成行。",
+      "page": 1,
+      "severity": "warning"
+    }
+  ],
+  "legacy_release_decision_changed": false,
+  "limitations": "本检查基于 LibreOffice 渲染，与 Microsoft Word 的分页和字体回退存在差异。 本检查是前置筛查，不替代在 Word 中更新域后的人工视觉复核。",
+  "pdf": {
+    "filename": "04_landscape_wide_table.pdf",
+    "page_count": 1,
+    "sha256": "b5b51dcc47a2cf7c20863a1955fa60cd4fee76bdaf7048cc7a8f8add21b1ae7e",
+    "signature_verified": true
+  },
+  "renderer": {
+    "available": true,
+    "name": "soffice",
+    "render_status": "pass"
+  },
+  "schema_version": "1.0",
+  "source": {
+    "filename": "04_landscape_wide_table.docx",
+    "sha256": "eb5a4749a6fdfd0889dfc3e4632a651947cdaffbf7138b246dd153cbd90f512b"
+  },
+  "status": "pass_with_warnings",
+  "summary": {
+    "class_a_count": 0,
+    "class_b_count": 10,
+    "finding_count": 10
+  },
+  "visual_gate_status": "pass"
+}

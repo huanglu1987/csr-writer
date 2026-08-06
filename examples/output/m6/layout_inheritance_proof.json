@@ -1,0 +1,29 @@
+{
+  "data_driven_pair": {
+    "columns": "inherited",
+    "ingest_strategy": "columns_only_deferred_rows",
+    "inherited_column_count": 7,
+    "inherited_from": "T14.1.3.1",
+    "materialized_shell_rows": 0,
+    "referring": "T14.1.3.2",
+    "rows": "deferred_until_result",
+    "template": "T14.1.3.1"
+  },
+  "population_not_inherited": {
+    "child_population_retained": true,
+    "fas_child_population": "FAS",
+    "mfas_child_population": "mFAS",
+    "mfas_inherited_from": "T14.2.2.1.1",
+    "mfas_template_population": "FAS"
+  },
+  "schema_version": "1.0",
+  "statistical_pair": {
+    "columns": "inherited",
+    "inherited_cell_contract_count": 190,
+    "inherited_from": "T14.2.2.1.1",
+    "referring": "T14.2.2.2.1",
+    "rows": "inherited_statistics",
+    "template": "T14.2.2.1.1"
+  },
+  "status": "pass"
+}

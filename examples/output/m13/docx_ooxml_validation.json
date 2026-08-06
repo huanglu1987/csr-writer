@@ -1,0 +1,8 @@
+{
+  "parsed_xml_part_count": 16,
+  "required_parts_missing": [],
+  "schema_version": "1.0",
+  "status": "pass",
+  "validation_layer": "OOXML package and XML parse; no PDF conversion",
+  "xml_parse_errors": []
+}

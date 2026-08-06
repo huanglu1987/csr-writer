@@ -1,0 +1,101 @@
+{
+  "annotated": {
+    "cross_references": {
+      "bookmark_count": 2,
+      "field_count": 2,
+      "status": "pass",
+      "unique_target_count": 2
+    },
+    "mode": "annotated",
+    "output": "/Users/huanglu/临床试验总结报告撰写/csr-writer/examples/output/m5/real_pipeline/CSR_DEID_annotated.docx",
+    "pending_count": 3,
+    "pending_paragraphs": [
+      "11.B:p_11_B_003",
+      "11.4:p_11_4_001",
+      "11.A:p_11_A_001"
+    ],
+    "schema_version": "1.0",
+    "sha256": "61556c39db3be925e68f79664187cfb075dddb701089aa120ae5740fba1bc178",
+    "status": "pass"
+  },
+  "clean_and_synopsis": {
+    "clean": {
+      "cross_references": {
+        "bookmark_count": 2,
+        "field_count": 2,
+        "status": "pass",
+        "unique_target_count": 2
+      },
+      "path": "/Users/huanglu/临床试验总结报告撰写/csr-writer/examples/output/m5/real_pipeline/CSR_DEID_clean.docx",
+      "validation": {
+        "checks": {
+          "no_internal_provenance": "pass",
+          "no_pending_markers": "pass",
+          "no_tool_or_process_language": "pass"
+        },
+        "sha256": "b9a8046a92260a7bedd69032d3853232237a367e9ea5f1e88e2fe838f8a72d42",
+        "status": "pass"
+      }
+    },
+    "schema_version": "1.0",
+    "status": "pass",
+    "synopsis": {
+      "copy_check": {
+        "generation_mode": "derived_copy_only",
+        "independent_drafting_allowed": false,
+        "paragraph_count": 1,
+        "status": "pass",
+        "synopsis_text_sha256": "d001b0d61609e86b2867e6603529da58ccf437e30d01c20466ae85bb51672355"
+      },
+      "cross_references": {
+        "bookmark_count": 2,
+        "field_count": 2,
+        "status": "pass",
+        "unique_target_count": 2
+      },
+      "manifest": "/Users/huanglu/临床试验总结报告撰写/csr-writer/examples/output/m5/real_pipeline/synopsis_manifest.json",
+      "path": "/Users/huanglu/临床试验总结报告撰写/csr-writer/examples/output/m5/real_pipeline/CSR_DEID_synopsis.docx",
+      "validation": {
+        "checks": {
+          "no_internal_provenance": "pass",
+          "no_pending_markers": "pass",
+          "no_tool_or_process_language": "pass"
+        },
+        "sha256": "0d985830aadef21e789dd5a96d579376a0aabd1cc80ba1943e49dc1bfc6629f6",
+        "status": "pass"
+      }
+    }
+  },
+  "sections": [
+    {
+      "draft": "examples/output/m5/real_pipeline/sections/11.B.md",
+      "evidence_status": "demo_only",
+      "metadata": "examples/output/m5/real_pipeline/sections/11.B.meta.json",
+      "references": [
+        "T14.2.4.3.1",
+        "T14.2.4.3.2"
+      ],
+      "resolve_status": "pass",
+      "resolved": "examples/output/m5/real_pipeline/resolved/11.B.md",
+      "section": "11.B"
+    },
+    {
+      "draft": "examples/output/m5/real_pipeline/sections/11.4.md",
+      "evidence_status": "source_gap",
+      "metadata": "examples/output/m5/real_pipeline/sections/11.4.meta.json",
+      "references": [],
+      "resolve_status": "pass",
+      "resolved": "examples/output/m5/real_pipeline/resolved/11.4.md",
+      "section": "11.4"
+    },
+    {
+      "draft": "examples/output/m5/real_pipeline/sections/11.A.md",
+      "evidence_status": "source_gap",
+      "metadata": "examples/output/m5/real_pipeline/sections/11.A.meta.json",
+      "references": [],
+      "resolve_status": "pass",
+      "resolved": "examples/output/m5/real_pipeline/resolved/11.A.md",
+      "section": "11.A"
+    }
+  ]
+}

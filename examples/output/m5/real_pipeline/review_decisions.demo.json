@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "sections": {
+    "11.4": {
+      "draft_sha256": "405d78dd4e0d80d7330a8536c5b398c84f6fe1a57208a63a3fa63f84f3480ad9",
+      "paragraphs": {
+        "p_11_4_001": {
+          "replacement_text": "经人工复核，当前未获得可报告的结果来源，因此不作结果性陈述。",
+          "status": "resolved"
+        }
+      }
+    },
+    "11.A": {
+      "draft_sha256": "a2067af055fdde8d2965f6b620a0e3bd09b07846c6b2367ab3d983be3d3c5e42",
+      "paragraphs": {
+        "p_11_A_001": {
+          "replacement_text": "经人工复核，当前未获得可报告的剂量递增结果来源，因此不作结果性陈述。",
+          "status": "resolved"
+        }
+      }
+    },
+    "11.B": {
+      "draft_sha256": "361ed79f2123d11702b0cb586fb3c377eba3db44e944590a2961d62582731282",
+      "paragraphs": {
+        "p_11_B_003": {
+          "replacement_text": "经人工复核，本演示仅验证结构与数值管线，不作医学结论。",
+          "status": "resolved"
+        }
+      }
+    }
+  }
+}

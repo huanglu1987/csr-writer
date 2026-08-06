@@ -1,0 +1,20 @@
+{
+  "paragraphs": [
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "sources": [
+        "T14.2.2.1.1"
+      ],
+      "text": "主要终点结果为 {{T14.2.2.1.1|POP=FAS|ROW=PRIMARY_ENDPOINT|COL=ACTIVE_TOTAL}}；分析集为 {{T14.2.2.1.1|POP=FAS|ROW=ANALYSIS_SET|COL=ACTIVE_TOTAL}}；预设状态为 {{T14.2.2.1.1|POP=FAS|ROW=PRESPECIFIED|COL=ACTIVE_TOTAL}}，支持性结果详见{{@ref:T14.2.2.1.1}}。"
+    },
+    {
+      "confidence": "inferred",
+      "needs_human": true,
+      "sources": [
+        "SRC-EFF"
+      ],
+      "text": "[待医学负责人确认] {{@conclusion:EXPLORATORY_EFFICACY_CONCLUSION_V1}}"
+    }
+  ]
+}

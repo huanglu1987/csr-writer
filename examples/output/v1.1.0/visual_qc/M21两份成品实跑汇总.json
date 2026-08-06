@@ -1,0 +1,151 @@
+{
+  "documents_checked": 2,
+  "legacy_release_decision_changed": false,
+  "limitations": "本检查基于 LibreOffice 渲染，与 Microsoft Word 的分页和字体回退存在差异。本检查是前置筛查，不替代在 Word 中更新域后的人工视觉复核。",
+  "runs": [
+    {
+      "class_a_count": 5,
+      "class_b_count": 32,
+      "contact_sheets": [
+        {
+          "filename": "M21_M20_unfamiliar.clean.contact_sheet_001.png",
+          "height_px": 2072,
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "sha256": "d64899ec4aa5fcc58664fc55070ab1d37a22b1d4eb96956321543e8e8d089482",
+          "width_px": 1056
+        },
+        {
+          "filename": "M21_M20_unfamiliar.clean.contact_sheet_002.png",
+          "height_px": 2072,
+          "pages": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "sha256": "77415bfa5e17e5af3c3e47cbb27815de28105d543583de1593ee6496136b8a83",
+          "width_px": 1056
+        }
+      ],
+      "directory_not_expanded_detected": true,
+      "finding_codes": {
+        "A-FIELD-DIRECTORY-NOT-EXPANDED": 4,
+        "A-FIELD-PAGE-NUMBER-NOT-EXPANDED": 1,
+        "B-BODY-OVERFLOW": 1,
+        "B-HEADING-ORPHAN": 2,
+        "B-SINGLE-CJK-LINE": 23,
+        "B-TABLE-HEADER-NOT-REPEATED": 6
+      },
+      "header_footer_excluded": true,
+      "page_count": 34,
+      "page_field_not_expanded_detected": true,
+      "report": "examples/output/v1.1.0/visual_qc/m21_single_arm/visual_qc_report.json",
+      "status": "blocked",
+      "study_shape": "single_arm_open_phase_ii"
+    },
+    {
+      "class_a_count": 5,
+      "class_b_count": 32,
+      "contact_sheets": [
+        {
+          "filename": "M21_Ib_randomized_double_blind.clean.contact_sheet_001.png",
+          "height_px": 2072,
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "sha256": "ab1dd4d42e9449db56f0ff590b19c9fb3c8cc13684d14eb5f8d6162ead13f4d6",
+          "width_px": 1056
+        },
+        {
+          "filename": "M21_Ib_randomized_double_blind.clean.contact_sheet_002.png",
+          "height_px": 2072,
+          "pages": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "sha256": "7202eba866a4f254701d0068decc5dc8dc6c6f5586b3e18c10877013f4118311",
+          "width_px": 1056
+        }
+      ],
+      "directory_not_expanded_detected": true,
+      "finding_codes": {
+        "A-FIELD-DIRECTORY-NOT-EXPANDED": 4,
+        "A-FIELD-PAGE-NUMBER-NOT-EXPANDED": 1,
+        "B-BODY-OVERFLOW": 1,
+        "B-HEADING-ORPHAN": 2,
+        "B-SINGLE-CJK-LINE": 25,
+        "B-TABLE-HEADER-NOT-REPEATED": 4
+      },
+      "header_footer_excluded": true,
+      "page_count": 34,
+      "page_field_not_expanded_detected": true,
+      "report": "examples/output/v1.1.0/visual_qc/m21_ib/visual_qc_report.json",
+      "status": "blocked",
+      "study_shape": "randomized_double_blind_phase_ib"
+    }
+  ],
+  "schema_version": "1.0",
+  "version": "1.1.0"
+}

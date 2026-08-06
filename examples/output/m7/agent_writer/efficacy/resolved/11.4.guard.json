@@ -1,0 +1,79 @@
+{
+  "datapack_sha256": "7ee08358a3cef460399ca0199fea18ef0e73aad131a661f11df2b307768630d8",
+  "draft_sha256": "38d0117f81b877a4dbfe2e17779135b250121c316f9cb601589b240c583a77ed",
+  "issues": [],
+  "placeholder_count": 6,
+  "placeholder_keys": [
+    "T14.2.1.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=ACTIVE_A",
+    "T14.2.1.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=PBO",
+    "T14.2.1.1|POP=FAS|ROW=PRIMARY_RESPONSE_CI95|COL=ACTIVE_A",
+    "T14.2.1.1|POP=FAS|ROW=PRIMARY_RESPONSE_CI95|COL=PBO",
+    "T14.2.1.1|POP=FAS|ROW=BETWEEN_GROUP_DIFFERENCE|COL=STAT",
+    "T14.2.1.1|POP=FAS|ROW=P_VALUE|COL=STAT"
+  ],
+  "protocol_facts_sha256": "cd1e1af1bd41a940ba7d89c63184ed8a65495187087134962038df7f79cc608c",
+  "reference_count": 1,
+  "reference_entities": [
+    "T14.2.1.1"
+  ],
+  "resolved_sha256": "0e5ada751733c9eb6a5e9f70a4e3e0c37d88525ce417399c09240f47c80ddb4f",
+  "schema_version": "1.0",
+  "stages": {
+    "A_key_existence": {
+      "status": "pass"
+    },
+    "B_residual": {
+      "status": "pass"
+    },
+    "C_bare_numbers": {
+      "status": "pass"
+    }
+  },
+  "status": "pass",
+  "whitelist": [
+    {
+      "pattern": "ICH\\s*E\\d+\\s*\\(?R?\\d*\\)?",
+      "source": "static:standard identifier"
+    },
+    {
+      "pattern": "第\\s*\\d+(?:\\.\\d+)*\\s*[章节]",
+      "source": "static:section reference"
+    },
+    {
+      "pattern": "\\d{4}\\s*年\\s*\\d{1,2}\\s*月\\s*\\d{1,2}\\s*日",
+      "source": "static:calendar date"
+    },
+    {
+      "pattern": "\\d{4}-\\d{2}-\\d{2}",
+      "source": "static:ISO date"
+    },
+    {
+      "pattern": "CTCAE\\s*v?\\d+(?:\\.\\d+)*",
+      "source": "static:coding standard version"
+    },
+    {
+      "pattern": "MedDRA\\s*(?:版本)?\\s*\\d+(?:\\.\\d+)*",
+      "source": "static:coding dictionary version"
+    },
+    {
+      "pattern": "[1-5]\\s*级",
+      "source": "static:AE grade vocabulary"
+    },
+    {
+      "pattern": "[IVX]+\\s*期",
+      "source": "static:study phase label; never used for structural routing"
+    },
+    {
+      "pattern": "95\\s*%\\s*(?:置信区间|CI)",
+      "source": "static:fixed confidence-interval term"
+    },
+    {
+      "pattern": "双侧\\s*0?\\.\\d+",
+      "source": "static:fixed analysis-method term"
+    },
+    {
+      "pattern": "DEIDENTIFIED",
+      "source": "fact:protocol_id"
+    }
+  ]
+}

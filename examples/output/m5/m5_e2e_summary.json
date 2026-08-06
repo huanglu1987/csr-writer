@@ -1,0 +1,28 @@
+{
+  "annotated": "pass",
+  "bidirectional_trace": "pass",
+  "clean": "pass",
+  "cross_format": "pass",
+  "cross_format_drift_injection": "blocked",
+  "five_group": "pass",
+  "qc": "attention_required",
+  "real_shell": {
+    "all_story_cells": 7424,
+    "all_story_objects": 179,
+    "automatic_object_proposals": 175,
+    "elapsed_seconds": 2.922,
+    "entities_in_batch_review": 80,
+    "high_confidence_entities": 30,
+    "high_confidence_entity_rate": 0.2727,
+    "human_review_batch_actions": 3,
+    "physical_objects": 175,
+    "proposal_coverage_rate": 1.0,
+    "unique_entities": 110
+  },
+  "real_sources_unchanged": true,
+  "reverse_trace": "review_required",
+  "schema_version": "1.0",
+  "scope": "M5 real-shell structure with synthetic deidentified result values",
+  "status": "pass",
+  "writers": "pass"
+}

@@ -1,0 +1,54 @@
+{
+  "headings": [
+    {
+      "bookmark": "_Ref_Sec_3_1",
+      "section_id": "3.1",
+      "style": "Heading 2",
+      "visible_text": "3.1 正文章节目录"
+    },
+    {
+      "bookmark": "_Ref_Sec_3_6",
+      "section_id": "3.6",
+      "style": "Heading 2",
+      "visible_text": "3.6 单独递交的支持性报告目录"
+    },
+    {
+      "bookmark": "_Ref_Sec_11_5",
+      "section_id": "11.5",
+      "style": "Heading 2",
+      "visible_text": "11.5 药代动力学评价"
+    },
+    {
+      "bookmark": "_Ref_Sec_11_6",
+      "section_id": "11.6",
+      "style": "Heading 2",
+      "visible_text": "11.6 探索性疗效评价"
+    },
+    {
+      "bookmark": "_Ref_Sec_12_5_1",
+      "section_id": "12.5.1",
+      "style": "Heading 3",
+      "visible_text": "12.5.1 局部耐受性和用药部位反应"
+    },
+    {
+      "bookmark": "_Ref_Sec_12_7",
+      "section_id": "12.7",
+      "style": "Heading 2",
+      "visible_text": "12.7 剂量递增与总体耐受性评价"
+    },
+    {
+      "bookmark": "_Ref_Sec_16_0",
+      "section_id": "16.0",
+      "style": "Heading 2",
+      "visible_text": "16.0 附录目录及提交状态"
+    }
+  ],
+  "letter_suffix_visible": false,
+  "schema_version": "1.0",
+  "status": "pass",
+  "toc_fields": [
+    "TOC \\o \"1-5\" \\h \\z \\u",
+    "TOC \\c \"Table\" \\h \\z",
+    "TOC \\c \"Figure\" \\h \\z"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "assembly": {
+    "annotated": "pass",
+    "clean_after_decisions": "pass",
+    "clean_gate_without_decisions": "blocked",
+    "synopsis_copy": "pass"
+  },
+  "cross_chapter": "pass",
+  "evidence_status": "synthetic_and_deidentified_equivalent_only",
+  "group_semantics": {
+    "expected_column": "XYZ200MG",
+    "literal_placeholder_swap": "blocked",
+    "literal_placeholder_swap_code": "E-GROUP-BINDING-ORDER",
+    "normal": "pass",
+    "observed_column": "PBO",
+    "swap_detection_code": "E-GROUP-ROLE-COLUMN",
+    "swapped": "blocked"
+  },
+  "module_expansion": {
+    "inventory_after": 41,
+    "inventory_before": 23,
+    "phase_independence": "pass",
+    "topical_after": 13,
+    "topical_before": 5
+  },
+  "pk_token": {
+    "failed": 0,
+    "passed": 4,
+    "total": 4
+  },
+  "qc": {
+    "regulatory_readiness_assessed": false,
+    "status": "attention_required"
+  },
+  "reverse_traceability": {
+    "status": "review_required",
+    "tables": 4,
+    "unreferenced": 1
+  },
+  "schema_version": "1.0",
+  "scope": "M3 carry-over fixes, module expansion, and M4 only; M5 not run",
+  "semantic_redline": {
+    "failed": 0,
+    "passed": 5,
+    "total": 5
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "agent_interface": {
+    "agent_draft_sha256": "6fa7de8e0e1611b5bbe4b50f286ed07124d004b2176c6df00b19144b60dc2476",
+    "envelope_sha256": "fa5ea651dae78e5a9f1619e380c0c1c3eb3ff9046a63d216009c38508b6ee6ac",
+    "external_model_api_called": false,
+    "interface": "csr-writer-agent-section-v1",
+    "prior_guard_report_sha256s": []
+  },
+  "binding_manifest": [
+    {
+      "context_sha256": "6e0d813f67b14acc4fa120e88ca05f9b4717a078224a7d681e6ab0ced60671f6",
+      "key": "T14.2.4.3.1|POP=PKPS|ROW=CMAX|COL=ACTIVE_TOTAL",
+      "role": "pk_cmax",
+      "source_id": "T14.2.4.3.1"
+    },
+    {
+      "context_sha256": "6e0d813f67b14acc4fa120e88ca05f9b4717a078224a7d681e6ab0ced60671f6",
+      "key": "T14.2.4.3.1|POP=PKPS|ROW=AUC0_T|COL=ACTIVE_TOTAL",
+      "role": "pk_auc",
+      "source_id": "T14.2.4.3.1"
+    }
+  ],
+  "draft_sha256": "b80c45008dadc00580b3c216330d1cd5fa45e8d4ac2c66b1e202d33dde483c13",
+  "evidence_status": "demo_only",
+  "generation_attempts": 1,
+  "guard_retry_count": 0,
+  "input_sha256": "57f500676e718a0c06b4c6a2ed2d919f91d55eab897ffc17c0fe8c928a46f310",
+  "paragraphs": [
+    {
+      "conditional_conclusions": [],
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_11_5_4_001",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "SRC-PK-METHOD",
+        "SRC-PK-SET"
+      ]
+    },
+    {
+      "conditional_conclusions": [],
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_11_5_4_002",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "SRC-PK-BLQ",
+        "SRC-PK-SAMPLING"
+      ]
+    },
+    {
+      "conditional_conclusions": [],
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_11_5_4_003",
+      "placeholders": [
+        "T14.2.4.3.1|POP=PKPS|ROW=CMAX|COL=ACTIVE_TOTAL",
+        "T14.2.4.3.1|POP=PKPS|ROW=AUC0_T|COL=ACTIVE_TOTAL"
+      ],
+      "references": [
+        "T14.2.4.3.1"
+      ],
+      "semantic_findings": [],
+      "sources": [
+        "T14.2.4.3.1"
+      ]
+    },
+    {
+      "conditional_conclusions": [],
+      "confidence": "inferred",
+      "needs_human": true,
+      "para_id": "p_11_5_4_004",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "SRC-PK-METHOD",
+        "SRC-PK-BLQ",
+        "SRC-PK-SAMPLING"
+      ]
+    }
+  ],
+  "playbook": {
+    "filename": "s11-topical-pk.md",
+    "sha256": "9bfc4f4a79fb3e4eb1159933e6f71fa0b1252023b831e15dcc50a275575a9558"
+  },
+  "prompt_audit": [],
+  "reference_manifest": [
+    {
+      "entity_id": "T14.2.4.3.1",
+      "frozen_map_sha256": null,
+      "verified_by": "binding_manifest"
+    }
+  ],
+  "schema_version": "1.1",
+  "section": "11.5.4",
+  "semantic_findings": [],
+  "source_manifest": [
+    {
+      "content_sha256": "4674160b30bcb4c04ec3dfce5e17bbdc293eb385f94bc629017406b29fb80244",
+      "locator": "脱敏统计分析计划/PK 参数",
+      "purpose": "pk_method",
+      "source_id": "SRC-PK-METHOD"
+    },
+    {
+      "content_sha256": "b06fe61cb1b958b64f6d9ce4baa980933c136c9733e22460e9ec1302d379d359",
+      "locator": "脱敏统计分析计划/PK 参数分析集",
+      "purpose": "analysis_set",
+      "source_id": "SRC-PK-SET"
+    },
+    {
+      "content_sha256": "633305a959d05e96f43b821b2c50ba041ff25c649cf31411ac5fc2201cf94f37",
+      "locator": "脱敏方案/PK 采样",
+      "purpose": "sampling_design",
+      "source_id": "SRC-PK-SAMPLING"
+    },
+    {
+      "content_sha256": "4c9f07d1ca751ac5b1e7a572c08258a423ba2fc625144a36005da517ce1065e6",
+      "locator": "脱敏统计分析计划/BLQ 处理",
+      "purpose": "blq_rule",
+      "source_id": "SRC-PK-BLQ"
+    }
+  ],
+  "system_prompt_sha256": "ef7c877692cd68e4e8bf7bf67fcfe2a8972d1d9cc36bea1cac2a0bccab574b76",
+  "variant": "pk_parameters",
+  "writer": "AgentEnvelopeIngest"
+}

@@ -1,0 +1,38 @@
+{
+  "records": [
+    {
+      "change": "由方法加记录两段扩展为设计范围、盲法维持、揭盲流程、实际记录四个思考单元。",
+      "m11_block_count": 4,
+      "m11_character_count": 108,
+      "m12_block_count": 6,
+      "m12_character_count": 241,
+      "section_id": "9.4.6"
+    },
+    {
+      "change": "新增分类口径、分析集一致性和未绑定类别的明确缺口，避免只报账户数字。",
+      "m11_block_count": 4,
+      "m11_character_count": 134,
+      "m12_block_count": 5,
+      "m12_character_count": 227,
+      "section_id": "10.1"
+    },
+    {
+      "change": "补入参数可计算性、BLQ、采样覆盖和外用低暴露解释边界。",
+      "m11_block_count": 5,
+      "m11_character_count": 222,
+      "m12_block_count": 6,
+      "m12_character_count": 332,
+      "section_id": "11.5.4"
+    },
+    {
+      "change": "补入分析口径、关键事件前置和脚本数据条件化结论，不再固定套用安全性良好。",
+      "m11_block_count": 5,
+      "m11_character_count": 211,
+      "m12_block_count": 6,
+      "m12_character_count": 354,
+      "section_id": "12.2"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "pass"
+}

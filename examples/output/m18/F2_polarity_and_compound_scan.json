@@ -1,0 +1,89 @@
+{
+  "glue_scan": {
+    "compound_terms_tested": [
+      "以外",
+      "除外",
+      "反之"
+    ],
+    "newly_discovered_compound_issue": "以+外 曾可在分词层重组为以外；已移除单字外",
+    "removed": [
+      "不",
+      "未",
+      "无",
+      "非",
+      "外"
+    ]
+  },
+  "records": [
+    {
+      "actual": "blocked",
+      "case": "unsourced_not_use",
+      "error_codes": [
+        "E-FACT-CARD-FORWARD-COVERAGE"
+      ],
+      "expected": "blocked"
+    },
+    {
+      "actual": "blocked",
+      "case": "unsourced_not_include",
+      "error_codes": [
+        "E-FACT-CARD-FORWARD-COVERAGE"
+      ],
+      "expected": "blocked"
+    },
+    {
+      "actual": "blocked",
+      "case": "unsourced_none",
+      "error_codes": [
+        "E-FACT-CARD-FORWARD-COVERAGE"
+      ],
+      "expected": "blocked"
+    },
+    {
+      "actual": "blocked",
+      "case": "unsourced_not_is",
+      "error_codes": [
+        "E-FACT-CARD-FORWARD-COVERAGE"
+      ],
+      "expected": "blocked"
+    },
+    {
+      "actual": "blocked",
+      "case": "compound_yiwai",
+      "error_codes": [
+        "E-FACT-CARD-FORWARD-COVERAGE"
+      ],
+      "expected": "blocked"
+    },
+    {
+      "actual": "blocked",
+      "case": "compound_chuwai",
+      "error_codes": [
+        "E-FACT-CARD-FORWARD-COVERAGE"
+      ],
+      "expected": "blocked"
+    },
+    {
+      "actual": "blocked",
+      "case": "compound_fanzhi",
+      "error_codes": [
+        "E-FACT-CARD-FORWARD-COVERAGE"
+      ],
+      "expected": "blocked"
+    },
+    {
+      "actual": "pass",
+      "case": "legal_original",
+      "error_codes": [],
+      "expected": "pass"
+    },
+    {
+      "actual": "pass",
+      "case": "legal_sourced_negative_estimand",
+      "error_codes": [],
+      "expected": "pass"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "pass"
+}

@@ -1,0 +1,28 @@
+{
+  "checks": {
+    "反向溯源": {
+      "status": "warning",
+      "summary": "存在有映射结果但尚未被章节引用的合成 TFL，须人工确认是否遗漏。"
+    },
+    "组别语义": {
+      "status": "pass",
+      "summary": "显式组别角色、语义列及随机化与分析集例数锚点一致。"
+    },
+    "读者版纯净性": {
+      "status": "pass",
+      "summary": "OOXML 文本层未检出待确认、内部溯源或工具过程标记。"
+    },
+    "跨章一致性": {
+      "status": "pass",
+      "summary": "Synopsis 为确认后正文逐段复制，分析集定义与受控结论台账一致。"
+    }
+  },
+  "conclusion": "本次已执行自动检查发现需处理或人工确认的问题，详见上表；本结果不替代人工 QC、QA 或申办方决策。",
+  "issue_categories": [
+    "反向溯源"
+  ],
+  "regulatory_readiness_assessed": false,
+  "schema_version": "1.0",
+  "scope": "executed_checks_only",
+  "status": "attention_required"
+}

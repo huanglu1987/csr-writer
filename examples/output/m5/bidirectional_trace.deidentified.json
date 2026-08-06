@@ -1,0 +1,36 @@
+{
+  "checks": {
+    "csr_to_tfl_to_sap_to_protocol": "pass",
+    "no_orphan_reviewed_nodes_or_links": "pass",
+    "protocol_to_sap_to_tfl_to_csr": "pass",
+    "tfl_to_sap_to_protocol": "pass"
+  },
+  "issues": [],
+  "manifest_sha256": "22577330264dd8c828bee9f27b52f0a95f292785b516b616c2f2c613d391e964",
+  "path_count": 1,
+  "paths": [
+    {
+      "forward": [
+        "PROTOCOL_ENDPOINT",
+        "SAP_ANALYSIS",
+        "TFL_PK_D1",
+        "CSR_SECTION"
+      ],
+      "reverse_from_csr": [
+        "CSR_SECTION",
+        "TFL_PK_D1",
+        "SAP_ANALYSIS",
+        "PROTOCOL_ENDPOINT"
+      ],
+      "reverse_from_tfl": [
+        "TFL_PK_D1",
+        "SAP_ANALYSIS",
+        "PROTOCOL_ENDPOINT"
+      ],
+      "status": "pass",
+      "trace_id": "TRACE_PK"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "pass"
+}

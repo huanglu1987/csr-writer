@@ -1,0 +1,14 @@
+{
+  "component_aggregate_sha256": "bf5052cbf0ebb10d336a978e7eb54d64856b7360e86a33bf46ec5765ed3595d6",
+  "component_manifest": "component_hashes.json",
+  "external_visual_dependencies_bundled": false,
+  "note": "只读规格源以哈希引用；LibreOffice/PyMuPDF/Pillow 为可选外部能力。",
+  "package": "csr-writer-1.1.0-runtime-visual-evidence.zip",
+  "package_bytes": 5161991,
+  "package_sha256": "811a25ae11baa8a7b985e6df468105034291e4b6b7617d46bcc1a3cf13f3e6fe",
+  "read_only_specification_files_included": false,
+  "real_clinical_files_included": false,
+  "schema_version": "1.0",
+  "status": "frozen",
+  "version": "1.1.0"
+}

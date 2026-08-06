@@ -1,0 +1,61 @@
+{
+  "conclusion_section_defaults": [
+    {
+      "categories": [
+        "conclusion_section_default"
+      ],
+      "marker_inserted": true,
+      "section": "11.4.7",
+      "status": "pass"
+    },
+    {
+      "categories": [
+        "conclusion_section_default"
+      ],
+      "marker_inserted": true,
+      "section": "12.6",
+      "status": "pass"
+    },
+    {
+      "categories": [
+        "conclusion_section_default"
+      ],
+      "marker_inserted": true,
+      "section": "13",
+      "status": "pass"
+    }
+  ],
+  "evidence_status": "synthetic_adversarial_only",
+  "rogue_adapter_cases": [
+    {
+      "categories": [
+        "benefit_risk_conclusion"
+      ],
+      "confidence": "inferred",
+      "expected_category": "benefit_risk_conclusion",
+      "id": "benefit_risk",
+      "marker_inserted": true,
+      "needs_human": true,
+      "rogue_text": "综上，本品疗效确切、安全性良好，获益风险比显著优于现有治疗，建议推进 III 期。",
+      "status": "pass"
+    },
+    {
+      "categories": [
+        "causal_determination"
+      ],
+      "confidence": "inferred",
+      "expected_category": "causal_determination",
+      "id": "causality",
+      "marker_inserted": true,
+      "needs_human": true,
+      "rogue_text": "该不良事件经判断与研究药物明确相关。",
+      "status": "pass"
+    }
+  ],
+  "schema_version": "1.0",
+  "summary": {
+    "failed": 0,
+    "passed": 5,
+    "total": 5
+  }
+}

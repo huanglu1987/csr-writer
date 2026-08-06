@@ -1,0 +1,103 @@
+{
+  "docx_extraction": {
+    "gap_codes": [
+      "SOURCE_HAS_UNACCEPTED_REVISIONS",
+      "SOURCE_HAS_REVIEW_COMMENTS",
+      "SOURCE_HAS_HIDDEN_TEXT"
+    ],
+    "source_unchanged": true,
+    "statistics": {
+      "comment_markers": 6,
+      "deletions": 2,
+      "hidden_runs": 3,
+      "insertions": 1,
+      "nonempty_records": 7,
+      "records": 7,
+      "stories": 3,
+      "table_cells": 2,
+      "tables": 1,
+      "text_boxes": 1
+    },
+    "view": "accepted_all_revisions"
+  },
+  "module_inventory": {
+    "actual": 41,
+    "expected_current": 41,
+    "ids": [
+      "M-CORE",
+      "M-DOSE-ESC",
+      "M-DLT",
+      "M-MTD-RP2D",
+      "M-EXPANSION",
+      "M-PK-NCA",
+      "M-PK-POP",
+      "M-DOSE-PROP",
+      "M-EXPOSURE-RESP",
+      "M-ADA",
+      "M-PD-BIOMARKER",
+      "M-EFF-CONFIRM",
+      "M-EFF-EXPLORE",
+      "M-MULTIPLICITY",
+      "M-NONINF",
+      "M-ESTIMAND",
+      "M-INTERIM",
+      "M-SUBGROUP",
+      "M-MULTICENTER",
+      "M-CROSSOVER",
+      "M-SURVIVAL",
+      "M-QT",
+      "M-HV",
+      "M-LOCAL-TOLERANCE",
+      "M-AE-CONSEQUENCE",
+      "M-TOPICAL-PK",
+      "M-INHALATION",
+      "M-OPHTHALMIC",
+      "M-RANDOMIZED",
+      "M-BLINDING",
+      "M-PLACEBO-CTRL",
+      "M-ACTIVE-CTRL",
+      "M-BE",
+      "M-DDI",
+      "M-FOOD-EFFECT",
+      "M-HEPATIC-IMPAIR",
+      "M-RENAL-IMPAIR",
+      "M-PEDIATRIC",
+      "M-GERIATRIC",
+      "M-INFECTION",
+      "M-DERMATOLOGY"
+    ],
+    "original_m3": 23
+  },
+  "numeric_guard": {
+    "failed": 0,
+    "passed": 12,
+    "total": 12
+  },
+  "phase_only_diff_bytes": 0,
+  "routing_acceptance": {
+    "ada_false": "pass",
+    "escalation_scheme_none": "pass",
+    "hypothesis_test_true": "pass",
+    "phase_only": "pass"
+  },
+  "schema_version": "1.0",
+  "scope": "M3 only; M4 not run",
+  "sections": {
+    "11.4": {
+      "draft": "sections/11.4.md",
+      "guard_report": "sections/resolved/11.4.guard.json",
+      "metadata": "sections/11.4.meta.json",
+      "placeholder_count": 6,
+      "resolve_status": "pass",
+      "resolved": "sections/resolved/11.4.md"
+    },
+    "11.A": {
+      "draft": "sections/11.A.md",
+      "guard_report": "sections/resolved/11.A.guard.json",
+      "metadata": "sections/11.A.meta.json",
+      "placeholder_count": 2,
+      "resolve_status": "pass",
+      "resolved": "sections/resolved/11.A.md"
+    }
+  }
+}
