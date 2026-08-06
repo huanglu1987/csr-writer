@@ -1,0 +1,527 @@
+{
+  "candidate_sha256": "a6c6b8abc0a5bbfe74ee97c02044825df27557505e444fd467a143fa52ed68a6",
+  "entities": [
+    {
+      "analysis_set": "FAS",
+      "batch_id": null,
+      "confidence": "high",
+      "deferred_row_contract": null,
+      "dimensions": {},
+      "entity_id": "T14.1.1.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "10.1"
+      ],
+      "ingest_strategy": "cell_level",
+      "layout_reference": null,
+      "physical_shape": {
+        "grid_columns": 3,
+        "horizontal_merges": 0,
+        "physical_cells": 9,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        1
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 0,
+        "column_ids": [
+          "PBO",
+          "C1_0PCT_QD"
+        ],
+        "expected_row_semantic_source": null,
+        "header_row_count": 1,
+        "placeholder_row_count": 0,
+        "placeholder_row_ids_sha256": null,
+        "row_ids_sha256": "0d6970d21e48de4419e088978757b851c2c08e1f60fbf183b14f7a7b1c126b8b",
+        "semantic_cell_count": 4,
+        "semantic_column_count": 2,
+        "semantic_row_count": 2,
+        "stable_structural_group_hashes": 0,
+        "visual_spanner_inferences": 0
+      },
+      "title_character_count": 21,
+      "title_sha256": "6ba65a3e968e26cfb20302a3a38860bd50a0ec26386e194f27bbe0c3d454ff2f"
+    },
+    {
+      "analysis_set": "FAS",
+      "batch_id": null,
+      "confidence": "high",
+      "deferred_row_contract": null,
+      "dimensions": {},
+      "entity_id": "T14.1.2.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.2"
+      ],
+      "ingest_strategy": "cell_level",
+      "layout_reference": null,
+      "physical_shape": {
+        "grid_columns": 3,
+        "horizontal_merges": 0,
+        "physical_cells": 12,
+        "rows": 4,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        2
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 0,
+        "column_ids": [
+          "PBO",
+          "C1_0PCT_QD"
+        ],
+        "expected_row_semantic_source": null,
+        "header_row_count": 1,
+        "placeholder_row_count": 0,
+        "placeholder_row_ids_sha256": null,
+        "row_ids_sha256": "d47f97d6e70aa9e7547f4de02b38e71a8e8f2f669e2877bfac0313b286d5ed79",
+        "semantic_cell_count": 6,
+        "semantic_column_count": 2,
+        "semantic_row_count": 3,
+        "stable_structural_group_hashes": 0,
+        "visual_spanner_inferences": 0
+      },
+      "title_character_count": 22,
+      "title_sha256": "72f7735d216b0044e8428e8870ecc479a3306fc402fbc08cebdccd8001174bb8"
+    },
+    {
+      "analysis_set": "FAS",
+      "batch_id": "BATCH-001",
+      "confidence": "medium",
+      "deferred_row_contract": {
+        "detection": "nonsemantic_row_id",
+        "expected_semantic_source": "whodrug_atc_and_drug_name_from_result_tfl",
+        "frozen_column_ids": [
+          "PBO",
+          "C1_0PCT_QD"
+        ],
+        "materialize_at": "result_tfl",
+        "schema_version": "1.0",
+        "shell_placeholder_row_count": 2,
+        "stable_row_count": 0,
+        "template_placeholder_row_count": 0
+      },
+      "dimensions": {},
+      "entity_id": "T14.1.4.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.2"
+      ],
+      "ingest_strategy": "columns_only_deferred_rows",
+      "layout_reference": null,
+      "physical_shape": {
+        "grid_columns": 3,
+        "horizontal_merges": 0,
+        "physical_cells": 9,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        3
+      ],
+      "reasons": [
+        "one or more shell rows lacked readable semantic IDs and were deferred"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 0,
+        "column_ids": [
+          "PBO",
+          "C1_0PCT_QD"
+        ],
+        "expected_row_semantic_source": "whodrug_atc_and_drug_name_from_result_tfl",
+        "header_row_count": 1,
+        "placeholder_row_count": 2,
+        "placeholder_row_ids_sha256": "2932ad9f79987f2b51b415aec4aeac71984f96450b5e69cd8cd5dcae5efcfad7",
+        "row_ids_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "semantic_cell_count": 0,
+        "semantic_column_count": 2,
+        "semantic_row_count": 0,
+        "stable_structural_group_hashes": 0,
+        "visual_spanner_inferences": 0
+      },
+      "title_character_count": 33,
+      "title_sha256": "6b300b768332b247fbfde7aae9f68fb4b32bc6da2b31ace1626e2ca20c4042b1"
+    },
+    {
+      "analysis_set": "FAS",
+      "batch_id": null,
+      "confidence": "high",
+      "deferred_row_contract": null,
+      "dimensions": {},
+      "entity_id": "T14.2.2.1.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.4"
+      ],
+      "ingest_strategy": "cell_level",
+      "layout_reference": null,
+      "physical_shape": {
+        "grid_columns": 3,
+        "horizontal_merges": 0,
+        "physical_cells": 21,
+        "rows": 7,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        4
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 0,
+        "column_ids": [
+          "PBO",
+          "C1_0PCT_QD"
+        ],
+        "expected_row_semantic_source": null,
+        "header_row_count": 1,
+        "placeholder_row_count": 0,
+        "placeholder_row_ids_sha256": null,
+        "row_ids_sha256": "ab5f2ea8ace7846fb85481adfff65abc1f823f349044f1b12b0f6964065b58a3",
+        "semantic_cell_count": 12,
+        "semantic_column_count": 2,
+        "semantic_row_count": 6,
+        "stable_structural_group_hashes": 0,
+        "visual_spanner_inferences": 0
+      },
+      "title_character_count": 31,
+      "title_sha256": "9fe0f7b69e0b9c802642f430a17dccfcb822360f7c7b95b76a716504800d9b57"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-001",
+      "confidence": "medium",
+      "deferred_row_contract": {
+        "detection": "nonsemantic_row_id",
+        "expected_semantic_source": "meddra_soc_pt_from_result_tfl",
+        "frozen_column_ids": [
+          "PBO",
+          "C1_0PCT_QD"
+        ],
+        "materialize_at": "result_tfl",
+        "schema_version": "1.0",
+        "shell_placeholder_row_count": 3,
+        "stable_row_count": 0,
+        "template_placeholder_row_count": 0
+      },
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12.2"
+      ],
+      "ingest_strategy": "columns_only_deferred_rows",
+      "layout_reference": null,
+      "physical_shape": {
+        "grid_columns": 3,
+        "horizontal_merges": 0,
+        "physical_cells": 12,
+        "rows": 4,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        5
+      ],
+      "reasons": [
+        "one or more shell rows lacked readable semantic IDs and were deferred"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 0,
+        "column_ids": [
+          "PBO",
+          "C1_0PCT_QD"
+        ],
+        "expected_row_semantic_source": "meddra_soc_pt_from_result_tfl",
+        "header_row_count": 1,
+        "placeholder_row_count": 3,
+        "placeholder_row_ids_sha256": "8b505d5a85cee4ed60f943c6864edbb3dbfe5b4ff0f254f5aaae0e644708e700",
+        "row_ids_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "semantic_cell_count": 0,
+        "semantic_column_count": 2,
+        "semantic_row_count": 0,
+        "stable_structural_group_hashes": 0,
+        "visual_spanner_inferences": 0
+      },
+      "title_character_count": 30,
+      "title_sha256": "a476439be4cebda79e6588a3b23c8ecda5901223cf2d8388ef78de91f1b91d7a"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": "BATCH-001",
+      "confidence": "medium",
+      "deferred_row_contract": {
+        "detection": "nonsemantic_row_id",
+        "expected_semantic_source": "meddra_soc_pt_from_result_tfl",
+        "frozen_column_ids": [
+          "PBO",
+          "C1_0PCT_QD"
+        ],
+        "materialize_at": "result_tfl",
+        "schema_version": "1.0",
+        "shell_placeholder_row_count": 2,
+        "stable_row_count": 1,
+        "template_placeholder_row_count": 0
+      },
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12.2"
+      ],
+      "ingest_strategy": "mixed_stable_and_deferred_rows",
+      "layout_reference": null,
+      "physical_shape": {
+        "grid_columns": 3,
+        "horizontal_merges": 0,
+        "physical_cells": 12,
+        "rows": 4,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        6
+      ],
+      "reasons": [
+        "one or more shell rows lacked readable semantic IDs and were deferred"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 0,
+        "column_ids": [
+          "PBO",
+          "C1_0PCT_QD"
+        ],
+        "expected_row_semantic_source": "meddra_soc_pt_from_result_tfl",
+        "header_row_count": 1,
+        "placeholder_row_count": 2,
+        "placeholder_row_ids_sha256": "2645cde91fbd026199d6204e02fc480dbc332a04c668766b2298563b527b6bfc",
+        "row_ids_sha256": "2bec8d13c55b37e39480f73b2b4f232fd15f058c8b77777485f609c374c998f8",
+        "semantic_cell_count": 2,
+        "semantic_column_count": 2,
+        "semantic_row_count": 1,
+        "stable_structural_group_hashes": 0,
+        "visual_spanner_inferences": 0
+      },
+      "title_character_count": 27,
+      "title_sha256": "fd73e026a0289641d4ea00319fc81da17224272f309021f28b26d4a42b2e4c55"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": null,
+      "confidence": "high",
+      "deferred_row_contract": null,
+      "dimensions": {},
+      "entity_id": "T14.3.2.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "cell_level",
+      "layout_reference": null,
+      "physical_shape": {
+        "grid_columns": 3,
+        "horizontal_merges": 0,
+        "physical_cells": 6,
+        "rows": 2,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        7
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 0,
+        "column_ids": [
+          "PBO",
+          "C1_0PCT_QD"
+        ],
+        "expected_row_semantic_source": null,
+        "header_row_count": 1,
+        "placeholder_row_count": 0,
+        "placeholder_row_ids_sha256": null,
+        "row_ids_sha256": "2bec8d13c55b37e39480f73b2b4f232fd15f058c8b77777485f609c374c998f8",
+        "semantic_cell_count": 2,
+        "semantic_column_count": 2,
+        "semantic_row_count": 1,
+        "stable_structural_group_hashes": 0,
+        "visual_spanner_inferences": 0
+      },
+      "title_character_count": 26,
+      "title_sha256": "12df94987269a1e85ebcdc075a39478e7b78d771f938722e9b0c9813e09b5254"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": null,
+      "confidence": "high",
+      "deferred_row_contract": null,
+      "dimensions": {},
+      "entity_id": "T14.3.3.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "cell_level",
+      "layout_reference": null,
+      "physical_shape": {
+        "grid_columns": 3,
+        "horizontal_merges": 0,
+        "physical_cells": 6,
+        "rows": 2,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        8
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 0,
+        "column_ids": [
+          "PBO",
+          "C1_0PCT_QD"
+        ],
+        "expected_row_semantic_source": null,
+        "header_row_count": 1,
+        "placeholder_row_count": 0,
+        "placeholder_row_ids_sha256": null,
+        "row_ids_sha256": "2bec8d13c55b37e39480f73b2b4f232fd15f058c8b77777485f609c374c998f8",
+        "semantic_cell_count": 2,
+        "semantic_column_count": 2,
+        "semantic_row_count": 1,
+        "stable_structural_group_hashes": 0,
+        "visual_spanner_inferences": 0
+      },
+      "title_character_count": 25,
+      "title_sha256": "0f3da27c725139032123c9f1c2759ed3bc81aea0e38f8a3d34fa4a92bbc85a66"
+    },
+    {
+      "analysis_set": "SS",
+      "batch_id": null,
+      "confidence": "high",
+      "deferred_row_contract": null,
+      "dimensions": {},
+      "entity_id": "T14.3.4.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "cell_level",
+      "layout_reference": null,
+      "physical_shape": {
+        "grid_columns": 3,
+        "horizontal_merges": 0,
+        "physical_cells": 12,
+        "rows": 4,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        9
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 0,
+        "column_ids": [
+          "PBO",
+          "C1_0PCT_QD"
+        ],
+        "expected_row_semantic_source": null,
+        "header_row_count": 1,
+        "placeholder_row_count": 0,
+        "placeholder_row_ids_sha256": null,
+        "row_ids_sha256": "d47f97d6e70aa9e7547f4de02b38e71a8e8f2f669e2877bfac0313b286d5ed79",
+        "semantic_cell_count": 6,
+        "semantic_column_count": 2,
+        "semantic_row_count": 3,
+        "stable_structural_group_hashes": 0,
+        "visual_spanner_inferences": 0
+      },
+      "title_character_count": 21,
+      "title_sha256": "2c43b3a103dda2593822bb2488cca4be2d625e159815ceff6a0b434cc13b45a3"
+    }
+  ],
+  "layout_reference_config": {
+    "data_driven_row_classifier_ids": [
+      "soc-pt"
+    ],
+    "pattern_ids": [
+      "template-output-cn",
+      "same-table-cn"
+    ],
+    "sha256": "1a06a27ef6652d421f7daed1245d6e2eda311351cc1f79190fafac90ce4facdc"
+  },
+  "metrics": {
+    "all_story_table_cells": 99,
+    "all_story_table_objects": 9,
+    "batch_review_entities": 3,
+    "cell_level_entities": 6,
+    "columns_only_deferred_rows_entities": 2,
+    "deferred_shell_placeholder_rows": 7,
+    "elapsed_seconds": 0.025,
+    "figure_entities": 0,
+    "high_confidence_entities": 6,
+    "high_confidence_entity_rate": 0.6667,
+    "human_review_batches": 1,
+    "layout_full_grid_inherited_entities": 0,
+    "layout_inherited_grid_entities": 0,
+    "layout_mixed_column_inherited_row_deferred_entities": 0,
+    "layout_reference_entities": 0,
+    "layout_reference_occurrences_detected": 0,
+    "listing_entities": 0,
+    "metadata_only_entities": 0,
+    "mixed_stable_and_deferred_rows_entities": 1,
+    "object_level_auto_proposals": 9,
+    "object_level_proposal_rate": 1.0,
+    "object_roles": {
+      "entity_main": 9
+    },
+    "table_entities": 9,
+    "tfl_body_physical_cells": 99,
+    "tfl_body_table_objects": 9,
+    "unique_tfl_entities": 9,
+    "unresolved_analysis_set_entities": 0
+  },
+  "prefix_normalization": {
+    "ascii_key_layer": true,
+    "图": "F",
+    "清单": "L",
+    "表": "T"
+  },
+  "privacy": {
+    "source_cell_labels_written": false,
+    "source_path_written": false,
+    "source_titles_written": false,
+    "subject_identifiers_written": false
+  },
+  "report_sha256": "8da47bbb9443ee6eb47f3a66b1d10b4a46399cb2343311a6d38a131d1b4149cf",
+  "review_queue": [
+    {
+      "allowed_decisions": [
+        "confirm",
+        "revise",
+        "defer"
+      ],
+      "batch_id": "BATCH-001",
+      "entity_count": 3,
+      "entity_ids": [
+        "T14.1.4.1",
+        "T14.3.1.3.1",
+        "T14.3.1.3.2"
+      ],
+      "family": "POLICY_GROUP",
+      "reason": "one or more shell rows lacked readable semantic IDs and were deferred"
+    }
+  ],
+  "schema_version": "1.0",
+  "source_sha256": "a8765db67f086f89b40e46ddf651a690992b9797ddca0fab63e3b14d62024d3f",
+  "status": "review_required"
+}

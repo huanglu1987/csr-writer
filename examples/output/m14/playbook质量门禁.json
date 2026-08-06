@@ -1,0 +1,659 @@
+{
+  "playbook_count": 19,
+  "policy": {
+    "minimum_common_review_issues": 5,
+    "minimum_line_count": 150,
+    "required_elements": [
+      "authority",
+      "must_answer",
+      "source_mapping",
+      "numeric_and_conclusion_rules",
+      "paragraph_structure",
+      "common_review_issues",
+      "section_specific_pitfalls"
+    ],
+    "required_process_separation": [
+      "writer_constraints",
+      "csr_standard_sentences"
+    ],
+    "required_style_phrases": [
+      "禁用表达",
+      "每节至多 1 次",
+      "每段至多 1 个",
+      "单句不超过 60 字",
+      "放在段末"
+    ],
+    "required_style_section": "## 文风规范"
+  },
+  "records": [
+    {
+      "failures": [],
+      "filename": "s9-randomization-blinding-controls.md",
+      "line_count": 174,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "7fe139dddaef4869ddc5898b8aa831671749ee0f24bb5b4d98cccba27773eb80",
+      "standard_sentence_internal_language_findings": [],
+      "standard_sentence_style_findings": [],
+      "status": "pass",
+      "style_requirements": {
+        "单句不超过 60 字": true,
+        "放在段末": true,
+        "每段至多 1 个": true,
+        "每节至多 1 次": true,
+        "禁用表达": true
+      },
+      "style_section_present": true
+    },
+    {
+      "failures": [],
+      "filename": "s10-subject-disposition.md",
+      "line_count": 178,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "18b7c8aeef06bc95d8a34d3b1c931763547142416ab69197d25c364d43055e4c",
+      "standard_sentence_internal_language_findings": [],
+      "standard_sentence_style_findings": [],
+      "status": "pass",
+      "style_requirements": {
+        "单句不超过 60 字": true,
+        "放在段末": true,
+        "每段至多 1 个": true,
+        "每节至多 1 次": true,
+        "禁用表达": true
+      },
+      "style_section_present": true
+    },
+    {
+      "failures": [],
+      "filename": "s11-2-demographics-baseline.md",
+      "line_count": 176,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "aa8f2926cd8999dac33d36aba1c929a9f31fe9b4f2824306b7a259424f5deb0b",
+      "standard_sentence_internal_language_findings": [],
+      "standard_sentence_style_findings": [],
+      "status": "pass",
+      "style_requirements": {
+        "单句不超过 60 字": true,
+        "放在段末": true,
+        "每段至多 1 个": true,
+        "每节至多 1 次": true,
+        "禁用表达": true
+      },
+      "style_section_present": true
+    },
+    {
+      "failures": [],
+      "filename": "s11-3-treatment-compliance.md",
+      "line_count": 174,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 12,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "139002b2a9d75ea494aa8c687e1d98440270a08487e43aa5a94356136d2eeea7",
+      "standard_sentence_internal_language_findings": [],
+      "standard_sentence_style_findings": [],
+      "status": "pass",
+      "style_requirements": {
+        "单句不超过 60 字": true,
+        "放在段末": true,
+        "每段至多 1 个": true,
+        "每节至多 1 次": true,
+        "禁用表达": true
+      },
+      "style_section_present": true
+    },
+    {
+      "failures": [],
+      "filename": "s11-4-primary-efficacy.md",
+      "line_count": 198,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 9,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "ebe86030bd5cd0673a2ba30f6c2d34b3ad8c939037d2f520f7e0327da7c14ff8",
+      "standard_sentence_internal_language_findings": [],
+      "standard_sentence_style_findings": [],
+      "status": "pass",
+      "style_requirements": {
+        "单句不超过 60 字": true,
+        "放在段末": true,
+        "每段至多 1 个": true,
+        "每节至多 1 次": true,
+        "禁用表达": true
+      },
+      "style_section_present": true
+    },
+    {
+      "failures": [],
+      "filename": "s11-a-dose-escalation.md",
+      "line_count": 202,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "eab9130c497c9348aeab8f6b422e0d118d0dfdb9e2183717cc67d97d4db084b4",
+      "standard_sentence_internal_language_findings": [],
+      "standard_sentence_style_findings": [],
+      "status": "pass",
+      "style_requirements": {
+        "单句不超过 60 字": true,
+        "放在段末": true,
+        "每段至多 1 个": true,
+        "每节至多 1 次": true,
+        "禁用表达": true
+      },
+      "style_section_present": true
+    },
+    {
+      "failures": [],
+      "filename": "s11-clinpharm-special-pop-endpoints.md",
+      "line_count": 204,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 9,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "0ba65e69c1cce16c01f1864062c8f29168ab53f8442f851e2398062ef7dd8a11",
+      "standard_sentence_internal_language_findings": [],
+      "standard_sentence_style_findings": [],
+      "status": "pass",
+      "style_requirements": {
+        "单句不超过 60 字": true,
+        "放在段末": true,
+        "每段至多 1 个": true,
+        "每节至多 1 次": true,
+        "禁用表达": true
+      },
+      "style_section_present": true
+    },
+    {
+      "failures": [],
+      "filename": "s11-topical-pk.md",
+      "line_count": 173,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "7edc5a7dcb7c5e4008097b09c9e78fc9695924df7779fb3075192d84706fde17",
+      "standard_sentence_internal_language_findings": [],
+      "standard_sentence_style_findings": [],
+      "status": "pass",
+      "style_requirements": {
+        "单句不超过 60 字": true,
+        "放在段末": true,
+        "每段至多 1 个": true,
+        "每节至多 1 次": true,
+        "禁用表达": true
+      },
+      "style_section_present": true
+    },
+    {
+      "failures": [],
+      "filename": "s11-5-10-pk-conclusion.md",
+      "line_count": 174,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 10,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "88a111e5d00b1e4f9ea1a46b1eca15857f8ae1b5db218cd6ca01d09c3c3fab66",
+      "standard_sentence_internal_language_findings": [],
+      "standard_sentence_style_findings": [],
+      "status": "pass",
+      "style_requirements": {
+        "单句不超过 60 字": true,
+        "放在段末": true,
+        "每段至多 1 个": true,
+        "每节至多 1 次": true,
+        "禁用表达": true
+      },
+      "style_section_present": true
+    },
+    {
+      "failures": [],
+      "filename": "s11-6-7-exploratory-efficacy-conclusion.md",
+      "line_count": 174,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 10,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "3825ffc2a944ec53a8ce267ef9d765da09e650ddb9f566712e909333c2ffea0b",
+      "standard_sentence_internal_language_findings": [],
+      "standard_sentence_style_findings": [],
+      "status": "pass",
+      "style_requirements": {
+        "单句不超过 60 字": true,
+        "放在段末": true,
+        "每段至多 1 个": true,
+        "每节至多 1 次": true,
+        "禁用表达": true
+      },
+      "style_section_present": true
+    },
+    {
+      "failures": [],
+      "filename": "s12-2-adverse-events.md",
+      "line_count": 190,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 9,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "4f4b602819db1fcb675160799b29011424409da1b0774e5577745bb149de6c50",
+      "standard_sentence_internal_language_findings": [],
+      "standard_sentence_style_findings": [],
+      "status": "pass",
+      "style_requirements": {
+        "单句不超过 60 字": true,
+        "放在段末": true,
+        "每段至多 1 个": true,
+        "每节至多 1 次": true,
+        "禁用表达": true
+      },
+      "style_section_present": true
+    },
+    {
+      "failures": [],
+      "filename": "s12-3-1-deaths-serious-significant-listings.md",
+      "line_count": 178,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 12,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "f53bd636ae012a8afb48f03d87d4129a03874246e3ae92d16d87076196fe13c8",
+      "standard_sentence_internal_language_findings": [],
+      "standard_sentence_style_findings": [],
+      "status": "pass",
+      "style_requirements": {
+        "单句不超过 60 字": true,
+        "放在段末": true,
+        "每段至多 1 个": true,
+        "每节至多 1 次": true,
+        "禁用表达": true
+      },
+      "style_section_present": true
+    },
+    {
+      "failures": [],
+      "filename": "s12-3-2-sae-narratives-boundary.md",
+      "line_count": 176,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 12,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "f790fbf6f0bca324192b564a8cf63e9c857bb5a3ca61604685533521b562ef64",
+      "standard_sentence_internal_language_findings": [],
+      "standard_sentence_style_findings": [],
+      "status": "pass",
+      "style_requirements": {
+        "单句不超过 60 字": true,
+        "放在段末": true,
+        "每段至多 1 个": true,
+        "每节至多 1 次": true,
+        "禁用表达": true
+      },
+      "style_section_present": true
+    },
+    {
+      "failures": [],
+      "filename": "s12-3-3-serious-event-analysis.md",
+      "line_count": 175,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 12,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "c1f505dbb4d1c9fb8e2070e86d5b01aeafd58eb98245e5a02acd91a137876dcb",
+      "standard_sentence_internal_language_findings": [],
+      "standard_sentence_style_findings": [],
+      "status": "pass",
+      "style_requirements": {
+        "单句不超过 60 字": true,
+        "放在段末": true,
+        "每段至多 1 个": true,
+        "每节至多 1 次": true,
+        "禁用表达": true
+      },
+      "style_section_present": true
+    },
+    {
+      "failures": [],
+      "filename": "s12-4-2-laboratory-evaluation.md",
+      "line_count": 179,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 12,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "5d789c70aad8bf37b0a51df72bc71cb41742a347d8db7dd1f6a2d62f8ca0914c",
+      "standard_sentence_internal_language_findings": [],
+      "standard_sentence_style_findings": [],
+      "status": "pass",
+      "style_requirements": {
+        "单句不超过 60 字": true,
+        "放在段末": true,
+        "每段至多 1 个": true,
+        "每节至多 1 次": true,
+        "禁用表达": true
+      },
+      "style_section_present": true
+    },
+    {
+      "failures": [],
+      "filename": "s12-exposure.md",
+      "line_count": 175,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "9dbbae7cf410d28bd36fb692e93943c4b5396a0c16ccaf0a13afd98f412e5f5e",
+      "standard_sentence_internal_language_findings": [],
+      "standard_sentence_style_findings": [],
+      "status": "pass",
+      "style_requirements": {
+        "单句不超过 60 字": true,
+        "放在段末": true,
+        "每段至多 1 个": true,
+        "每节至多 1 次": true,
+        "禁用表达": true
+      },
+      "style_section_present": true
+    },
+    {
+      "failures": [],
+      "filename": "s12-route-specific-safety.md",
+      "line_count": 189,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "21965011a8705ba36213c8d9760f4828888c9815adc4a4579dce87e17202672d",
+      "standard_sentence_internal_language_findings": [],
+      "standard_sentence_style_findings": [],
+      "status": "pass",
+      "style_requirements": {
+        "单句不超过 60 字": true,
+        "放在段末": true,
+        "每段至多 1 个": true,
+        "每节至多 1 次": true,
+        "禁用表达": true
+      },
+      "style_section_present": true
+    },
+    {
+      "failures": [],
+      "filename": "s13-discussion-overall-conclusions.md",
+      "line_count": 179,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 12,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "204cd7b05e8dc50b98975b195219691307a615b73631b0efe1b66a1e0c1b738e",
+      "standard_sentence_internal_language_findings": [],
+      "standard_sentence_style_findings": [],
+      "status": "pass",
+      "style_requirements": {
+        "单句不超过 60 字": true,
+        "放在段末": true,
+        "每段至多 1 个": true,
+        "每节至多 1 次": true,
+        "禁用表达": true
+      },
+      "style_section_present": true
+    },
+    {
+      "failures": [],
+      "filename": "s13-overall-conclusion-conditioned.md",
+      "line_count": 183,
+      "minimum_line_count": 150,
+      "minimum_review_issue_count": 5,
+      "process_separation": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true
+      },
+      "review_issue_count": 12,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "sha256": "8bbfd7f16d087bd0a50878cc478f9fad4fdd7a5d42e0f6e15556fb54bed6189d",
+      "standard_sentence_internal_language_findings": [],
+      "standard_sentence_style_findings": [],
+      "status": "pass",
+      "style_requirements": {
+        "单句不超过 60 字": true,
+        "放在段末": true,
+        "每段至多 1 个": true,
+        "每节至多 1 次": true,
+        "禁用表达": true
+      },
+      "style_section_present": true
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "pass"
+}

@@ -1,0 +1,120 @@
+{
+  "datapack_sha256": "abba74b7c4668c2393da56298f437060ec6479726ddffd0942d7b5809fe88a84",
+  "draft_sha256": "e5e5c5c843e7d0e04a69c40a3b6757349867470163cd6add759a44c2e52a3a38",
+  "resolved_sha256": "3e83248591312e0c5ea629c4d94633b2816719f210329635dd17702fda105943",
+  "rules": [
+    {
+      "all_roles_rendered": true,
+      "branch": "no_critical_events",
+      "confirmed_body_only": false,
+      "critical_roles": [
+        {
+          "cell_present": true,
+          "key": "T14.3.1.2|POP=SS|ROW=ANY_TEAE|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "teae_result",
+          "value_sha256": "fa36dddb9fea13d91d94439d693d42dece067f3f8a8652b691f241ee2a4bfbf5"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.3.1.2|POP=SS|ROW=ANY_SAE|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "sae_count",
+          "value_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.3.1.2|POP=SS|ROW=DEATH|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "death_count",
+          "value_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.3.1.2|POP=SS|ROW=AE_DISCONTINUATION|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "discontinuation_count",
+          "value_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.3.1.2|POP=SS|ROW=GRADE_3_PLUS|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "grade3plus_count",
+          "value_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+        }
+      ],
+      "derived_zero_event_roles": [],
+      "medical_review_marker_required": true,
+      "missing_roles": [],
+      "numeric_values_not_logged": true,
+      "render_mode": "legacy_role_driven",
+      "role_renderings": [
+        {
+          "key": "T14.3.1.2|POP=SS|ROW=ANY_TEAE|COL=ACTIVE_TOTAL",
+          "rendering_mode": "legacy_role_statement",
+          "role": "teae_result"
+        },
+        {
+          "key": "T14.3.1.2|POP=SS|ROW=ANY_SAE|COL=ACTIVE_TOTAL",
+          "rendering_mode": "legacy_role_statement",
+          "role": "sae_count"
+        },
+        {
+          "key": "T14.3.1.2|POP=SS|ROW=DEATH|COL=ACTIVE_TOTAL",
+          "rendering_mode": "legacy_role_statement",
+          "role": "death_count"
+        },
+        {
+          "key": "T14.3.1.2|POP=SS|ROW=AE_DISCONTINUATION|COL=ACTIVE_TOTAL",
+          "rendering_mode": "legacy_role_statement",
+          "role": "discontinuation_count"
+        },
+        {
+          "key": "T14.3.1.2|POP=SS|ROW=GRADE_3_PLUS|COL=ACTIVE_TOTAL",
+          "rendering_mode": "legacy_role_statement",
+          "role": "grade3plus_count"
+        }
+      ],
+      "rule_id": "SAFETY_TOLERABILITY_V1"
+    }
+  ],
+  "schema_version": "1.1",
+  "status": "pass",
+  "style_qc": {
+    "blocked": false,
+    "findings": [
+      {
+        "category": "sentence_length",
+        "code": "W-STYLE-SENTENCE-LENGTH",
+        "matched_text": "[待医学负责人确认] 严重不良事件、死亡、导致永久停用研究治疗的事件和重度事件例数依次为 〔数值〕、〔数值〕、〔数值〕 和 〔数值〕。",
+        "message": "单句 67 字，超过 60 字建议拆分",
+        "paragraph_index": null,
+        "sentence_length": 67,
+        "severity": "warning"
+      }
+    ],
+    "metrics": {
+      "abstract_noun_count": 1,
+      "average_sentence_length": 35.3,
+      "field_enumeration_paragraph_count": 0,
+      "maximum_sentence_length": 67,
+      "overlong_sentence_count": 1,
+      "prespecified_qualifier_count": 0,
+      "reviewed_qualifier_count": 0,
+      "semicolon_count": 1,
+      "sentence_count": 7,
+      "summary_copula_count": 0
+    },
+    "policy": {
+      "banned_expression_is_blocking": true,
+      "literal_zero_event_claim_requires_conditioned_data": true,
+      "qualifier_per_section": 1,
+      "semicolon_per_paragraph": 1,
+      "sentence_length_warning_threshold": 60
+    },
+    "schema_version": "1.0",
+    "status": "pass_with_warning"
+  },
+  "warnings": []
+}

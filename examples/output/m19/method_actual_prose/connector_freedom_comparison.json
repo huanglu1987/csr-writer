@@ -1,0 +1,22 @@
+{
+  "connector_count_after_method_policy": 104,
+  "connector_count_before_general_glue": 99,
+  "example_section": "9.4.3",
+  "m18_exact_surface_path": {
+    "sentence": "本研究采用中央随机化，并按等比例分配。分层因素为研究中心和基线严重程度。随机化清单由独立统计人员生成，授权人员通过系统实施分配。",
+    "status": "blocked"
+  },
+  "m19_method_path": {
+    "authorized_surface_forms_used_for_release": false,
+    "sentence": "本研究采用中央随机化，并按等比例分配。分层因素为研究中心和基线严重程度。随机化清单由独立统计人员生成，授权人员通过系统实施分配。",
+    "status": "pass"
+  },
+  "new_structural_connectors": [
+    "分配",
+    "是",
+    "本研究",
+    "研究",
+    "设计"
+  ],
+  "schema_version": "1.0"
+}

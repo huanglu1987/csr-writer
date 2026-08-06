@@ -1,0 +1,5103 @@
+{
+  "admission_count": 4,
+  "body_rewrite_performed": false,
+  "composition_plan": {
+    "admissions": [
+      {
+        "admission_path": "ordinary_resolver_bridge",
+        "evidence_status": "demo_only",
+        "guard_stages": {
+          "A_key_existence": "pass",
+          "B_residual": "pass",
+          "C_bare_numbers": "pass",
+          "D_result_format": "pass"
+        },
+        "guard_status": "pass",
+        "input_sha256": {
+          "draft_path": "1daf0795562027c6244b6c3fcb507585c647571fb8b016c588d03ca9743951ab",
+          "guard_path": "03e41659928a498a115301d18b52cfe270d40e3fa8565aa3b9022b1f9c4236cc",
+          "metadata_path": "ac5b6ce1b68fb1065987945596e89f900736ff8370d281dde5a4c4ab849daf55",
+          "resolved_path": "fadd114dda0d768e84c21e27c93acdcc4e6298edaa01a52e197b39675a0295db"
+        },
+        "section_id": "11.6.1.4"
+      },
+      {
+        "admission_path": "positive_coverage_bridge",
+        "evidence_status": "demo_only",
+        "forward_coverage_release_eligible": true,
+        "forward_coverage_status": "pass",
+        "guard_status": "pass",
+        "input_sha256": {
+          "markdown_path": "e370fbdde0d610460a3328506ffef96692f16d2f87669ab975d72852f95b94e7",
+          "metadata_path": "efd1477f9a11098b20d4534f344333c9f0a3820da97dd24e1586d430fcab60ec"
+        },
+        "section_id": "9.4.3",
+        "style_status": "pass"
+      },
+      {
+        "admission_path": "positive_coverage_bridge",
+        "evidence_status": "demo_only",
+        "forward_coverage_release_eligible": true,
+        "forward_coverage_status": "pass",
+        "guard_status": "pass",
+        "input_sha256": {
+          "markdown_path": "6cf47db9d482fd3dc8861b848de37317f8921e8161056494ae4d349bb389eda0",
+          "metadata_path": "6081648a2a845325e73e6755715d7bb41d2dcb5bac5c29120ea2509245f8d6c5"
+        },
+        "section_id": "9.4.6",
+        "style_status": "pass"
+      },
+      {
+        "admission_path": "positive_coverage_bridge",
+        "evidence_status": "demo_only",
+        "forward_coverage_release_eligible": true,
+        "forward_coverage_status": "pass",
+        "guard_status": "pass",
+        "input_sha256": {
+          "markdown_path": "9913ef7ab6a38136b3a677669e3cb90e3fcb664bcdfd5f373a46c1d9f58ef94b",
+          "metadata_path": "b2abace58d4f103a3770be6587392e30949bdc8702083ccc7c1e1cb75579de04"
+        },
+        "section_id": "12.3.2",
+        "style_status": "pass"
+      }
+    ],
+    "composition_plan_sha256": "ef5ea9e50381511c4f8316bdce9822d24e39e0955a6a56a375010ed27a7b3268",
+    "deterministic_bundle": {
+      "artifact_hashes": [
+        {
+          "artifact_sha256": "761f5ce07d0d50157d66cff34dfeae5b2f55acc412aab39f2e3aafb18c639e5d",
+          "section_id": "1"
+        },
+        {
+          "artifact_sha256": "9f65de5a4eaeea96a3eba48a0a1104d8e57e93951c74c4d79df6c13bacf5beaf",
+          "section_id": "2"
+        },
+        {
+          "artifact_sha256": "f7ea215d03ea5f4a5ae419e69975b50585095b7b9414b7ae6337de8b6db18849",
+          "section_id": "3.1"
+        },
+        {
+          "artifact_sha256": "84f2780d7d403441ae0e1019156585ea42f8afa3537d6e8921644536d5bde08d",
+          "section_id": "3.2"
+        },
+        {
+          "artifact_sha256": "2dafe15e51e05d90fe082a6e979cd53cd9959a18525fd3213ce31a4a51638edd",
+          "section_id": "3.3"
+        },
+        {
+          "artifact_sha256": "fec9ca8a06f5eb5226d4546f0a930c543da2d4459b2fdf6b0f460e6cd2d0e475",
+          "section_id": "3.4"
+        },
+        {
+          "artifact_sha256": "4948debfe1a8e30c04eefafe5327295cd0434873cb67e7bc72b1bfc6cfabfaf7",
+          "section_id": "3.5"
+        },
+        {
+          "artifact_sha256": "6f2b50df6219a6f5649c9c4379bb1cf8a65d25f1e941f3e8cf041307bfc9e2c9",
+          "section_id": "3.6"
+        },
+        {
+          "artifact_sha256": "41415f9f474f6a639cc51a3ed200d70b3187d1d1d78aaca00324e2ac368e0b6d",
+          "section_id": "5.1"
+        },
+        {
+          "artifact_sha256": "e7da4552a29ea13829c3267e2543185dcff7012679f295d7b1ceabc47a8bf630",
+          "section_id": "5.2"
+        },
+        {
+          "artifact_sha256": "424213febd897a7b6d31f9f53d1b63127a5ba50837485ae0b3496d0cfe74ad2e",
+          "section_id": "5.3"
+        },
+        {
+          "artifact_sha256": "7b1ed49ddbcf024ce576f015de1ea35c2e0e6368d45fd4c79abf3ffe9dd8f8bc",
+          "section_id": "11.4.3"
+        },
+        {
+          "artifact_sha256": "6dbfbf3c14573171b5cf6b273058d548752b53b22879510e26dab29dee1977ae",
+          "section_id": "11.4.6"
+        },
+        {
+          "artifact_sha256": "c9353d227125278d4293381e3f75ffa9a52028f608044897e0ab334cf00e7265",
+          "section_id": "12.2.2"
+        },
+        {
+          "artifact_sha256": "ce759c42f9a6375e3658b4d31a9e0b32c415f289b4b0d99bcf12856c836f27ff",
+          "section_id": "12.2.4"
+        },
+        {
+          "artifact_sha256": "a6f645e86a589dabb25bd9edebf015aa1c702b34db52d1d5ee2f5599dff0cd6e",
+          "section_id": "12.3.1.1"
+        },
+        {
+          "artifact_sha256": "d478bf78e40a45547de5dc717f0f823c013ae7c967aa628d03a611b036df2507",
+          "section_id": "12.3.1.2"
+        },
+        {
+          "artifact_sha256": "ffb76d01de04be7d9fc10c954b7a408ae18e2917bca626b1030a320d24412da0",
+          "section_id": "12.3.1.3"
+        },
+        {
+          "artifact_sha256": "43fe8ce1e829cc8ea043c27f8f9f7e61a56fb85fa75f8875c9ef1f9f7562df58",
+          "section_id": "12.4.1"
+        },
+        {
+          "artifact_sha256": "ea61af863a46b67347981771a07011c21349e5437b1ce38e8a53f8b5e25feea8",
+          "section_id": "14.1.1"
+        },
+        {
+          "artifact_sha256": "12f65409194c9c2b07ee3585fccb7360ada1478444a252aa46f6fa6846b1c1cd",
+          "section_id": "14.1.2"
+        },
+        {
+          "artifact_sha256": "add5c7e7bf3c27445d6d39a699dc00dcb1fca3406ec9a4ab571267e04a49133a",
+          "section_id": "14.1.3"
+        },
+        {
+          "artifact_sha256": "631407c32887328321964a11bbcb7499beaa3561e7c6d9459b19d579cae2d530",
+          "section_id": "14.2"
+        },
+        {
+          "artifact_sha256": "5f16abb741bbf781528ec675f2f52754fc2188faaed4699c2df9994b2e743b8f",
+          "section_id": "14.3.1"
+        },
+        {
+          "artifact_sha256": "32a5ec8fd0494c9805a1b92e81d13b485b727bb34d448dc403a6ff410af3f2a7",
+          "section_id": "14.3.2"
+        },
+        {
+          "artifact_sha256": "f34fcea29b66a41646f65a2d3a166c5298ade4b901e385c76bfceb3126a82d39",
+          "section_id": "14.3.3"
+        },
+        {
+          "artifact_sha256": "a66ab071bd3dd90e8ffa82a82a6d0b1bdd6a034bf33380801ada4d91281a8197",
+          "section_id": "14.3.4"
+        },
+        {
+          "artifact_sha256": "7dfa96ae9fb1a859661a5b2f570696a898166d0e4cbd39c2b89dc09d58d31e69",
+          "section_id": "15"
+        },
+        {
+          "artifact_sha256": "8d166f6dad65a6fd695503dbe5a8d7bc07a5f4ffb2e54fc9ce03988fafcae670",
+          "section_id": "16.0"
+        },
+        {
+          "artifact_sha256": "0de6cdca0b9834ad89868a280745fb6e87c62f6a3f04381cae0292ed81ac2f49",
+          "section_id": "16.1.1"
+        },
+        {
+          "artifact_sha256": "429dd6b6e2ba2c4348b05754e4ac4b13ab4507252b4b4032a79b16e6a7a78447",
+          "section_id": "16.1.2"
+        },
+        {
+          "artifact_sha256": "87d48f665ecf7d41a7779d418f9aa49b604a78ad63fa479ea6b351c411ffef1c",
+          "section_id": "16.1.3"
+        },
+        {
+          "artifact_sha256": "66d5431fb051b417110badfa06cca82d1dc75db7f18906796d5096530ed36996",
+          "section_id": "16.1.4"
+        },
+        {
+          "artifact_sha256": "fb8a362183e4d9e011f5b04122f7d5f8e27115f9ede1b8553532ca6f62ce5981",
+          "section_id": "16.1.5"
+        },
+        {
+          "artifact_sha256": "dec56d5e431c5d1f0017ca64c5b5513db8ff9a8d3889aa2dccf8eff69bd1a2f3",
+          "section_id": "16.1.6"
+        },
+        {
+          "artifact_sha256": "52224e792ea3eb879ce708b58c41d93645f72da59b02267b9d42274c44da2d63",
+          "section_id": "16.1.7"
+        },
+        {
+          "artifact_sha256": "12fc3f8509b0a4c2663107af7ae699472fae9b8044884332adc5c34b95f1c730",
+          "section_id": "16.1.8"
+        },
+        {
+          "artifact_sha256": "3e2e8ddc6855cf67da0bcffb3b502da5e71c2382699f62d4e74efeafef6797ee",
+          "section_id": "16.1.9"
+        },
+        {
+          "artifact_sha256": "f94c34fe32b42da52bb9d29798eb2d670c9ddc48d975b3455e21adf13b57fec6",
+          "section_id": "16.1.10"
+        },
+        {
+          "artifact_sha256": "d35c5506f518faf949473d8a0ae8409f01ea7c5483f5e343a304e668ed92ae05",
+          "section_id": "16.1.11"
+        },
+        {
+          "artifact_sha256": "409956ec9873912e067ee074bb3768beef9326548dce8147c8a10b76b23ecf48",
+          "section_id": "16.1.12"
+        },
+        {
+          "artifact_sha256": "3b76a4d716abd0b398297e75860d2a580b69693b72d54b5c9795a130f32291e1",
+          "section_id": "16.2.1"
+        },
+        {
+          "artifact_sha256": "d6b7c99a6071a96fa781b6296b716fa3a668c12f18f98572b8743d45b32baebf",
+          "section_id": "16.2.2"
+        },
+        {
+          "artifact_sha256": "e8e56077256d953f62cedf7d34b3cb7a832568919206e305616ce4370f0db853",
+          "section_id": "16.2.3"
+        },
+        {
+          "artifact_sha256": "6a177d9eb29e8cb87cc91812cda76f247b01e4cd8b3d120a556ee4823374e416",
+          "section_id": "16.2.4"
+        },
+        {
+          "artifact_sha256": "c2af5d62a23e3d6f20f540626d8be56230d70209329bfd386c2379b3369dcf9f",
+          "section_id": "16.2.5"
+        },
+        {
+          "artifact_sha256": "c79267cfb01cb0b5fe76e130d64b478fbbffb63003ab558978a4e5b0ef89c3db",
+          "section_id": "16.2.6"
+        },
+        {
+          "artifact_sha256": "8c05589d98233a11190d89c672d28c8f0664e74766b261fda1a388bbb66a1ab2",
+          "section_id": "16.2.7"
+        },
+        {
+          "artifact_sha256": "c9964187edc785136665b2d83a9c04026aa77af3c29a0490dab718c5698ceac1",
+          "section_id": "16.2.8"
+        },
+        {
+          "artifact_sha256": "a016f4bdee2593dd2e4f322202348d0d56a8e456a6933df799755a89161f4309",
+          "section_id": "16.3.1"
+        },
+        {
+          "artifact_sha256": "d59d333cf9e27075ea90b638488e589cc4a6971532e4d5aaae572d795856fb82",
+          "section_id": "16.3.2"
+        },
+        {
+          "artifact_sha256": "9d01a50bddd158f8b6a13818db670132272146398ea3a6f8d9548bfe049030bc",
+          "section_id": "16.4"
+        }
+      ],
+      "bundle_sha256": "636bb83f072c57ffce0160fab8f3e333d8b12fd63cbf60395d9c3eff88678b9b",
+      "model_called": false,
+      "schema_version": "1.0",
+      "section_ids": [
+        "1",
+        "2",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "3.5",
+        "3.6",
+        "5.1",
+        "5.2",
+        "5.3",
+        "11.4.3",
+        "11.4.6",
+        "12.2.2",
+        "12.2.4",
+        "12.3.1.1",
+        "12.3.1.2",
+        "12.3.1.3",
+        "12.4.1",
+        "14.1.1",
+        "14.1.2",
+        "14.1.3",
+        "14.2",
+        "14.3.1",
+        "14.3.2",
+        "14.3.3",
+        "14.3.4",
+        "15",
+        "16.0",
+        "16.1.1",
+        "16.1.2",
+        "16.1.3",
+        "16.1.4",
+        "16.1.5",
+        "16.1.6",
+        "16.1.7",
+        "16.1.8",
+        "16.1.9",
+        "16.1.10",
+        "16.1.11",
+        "16.1.12",
+        "16.2.1",
+        "16.2.2",
+        "16.2.3",
+        "16.2.4",
+        "16.2.5",
+        "16.2.6",
+        "16.2.7",
+        "16.2.8",
+        "16.3.1",
+        "16.3.2",
+        "16.4"
+      ],
+      "status": "pass",
+      "unit_count": 52
+    },
+    "guarded_sections": [
+      {
+        "draft_sha256": "1daf0795562027c6244b6c3fcb507585c647571fb8b016c588d03ca9743951ab",
+        "heading": "探索性终点结果",
+        "metadata_sha256": "ac5b6ce1b68fb1065987945596e89f900736ff8370d281dde5a4c4ab849daf55",
+        "paragraphs": [
+          {
+            "needs_human": false,
+            "para_id": "p_11_6_1_4_001",
+            "sources": [
+              "SRC-M21-IB-ENDPOINT",
+              "SRC-M21-IB-SAP"
+            ],
+            "text_sha256": "4b1e838af2329d627b43a1b09042d0d7748acf9e606352a1b242aae14f76e752"
+          },
+          {
+            "needs_human": false,
+            "para_id": "p_11_6_1_4_002",
+            "sources": [
+              "T14.2.2.1.1"
+            ],
+            "text_sha256": "bbb9207d0ceea1c827bfbe8ce86a23151cc1fdc6c22651d5c337fb54a455b7dc"
+          },
+          {
+            "needs_human": true,
+            "para_id": "p_11_6_1_4_003",
+            "sources": [
+              "SRC-M21-IB-ENDPOINT"
+            ],
+            "text_sha256": "d0e0d5a7b3825459f23fc15a827accaeea6a8cf8dacace393fa8ddd226429e0d"
+          }
+        ],
+        "reference_entities": [
+          "T14.2.2.1.1"
+        ],
+        "resolved_sha256": "fadd114dda0d768e84c21e27c93acdcc4e6298edaa01a52e197b39675a0295db",
+        "section_id": "11.6.1.4"
+      },
+      {
+        "draft_sha256": "bb3873d608242890fc29b18d39cb085868a61965b0efe385314fa84f114686b2",
+        "heading": "患者的治疗组分配方法",
+        "metadata_sha256": "efd1477f9a11098b20d4534f344333c9f0a3820da97dd24e1586d430fcab60ec",
+        "paragraphs": [
+          {
+            "needs_human": false,
+            "para_id": "p_9_4_3_001",
+            "sources": [
+              "src_9_4_3_1",
+              "src_9_4_3_2",
+              "fact:M16-METHOD-9-4-3/V01",
+              "fact:M16-METHOD-9-4-3/V02",
+              "fact:M16-METHOD-9-4-3/V03",
+              "fact:M16-METHOD-9-4-3/S01"
+            ],
+            "text_sha256": "d29e50fbf1eaee2a71d0912561319c9fc4ad5b083fcd69b9d1d0b17ed73e15ef"
+          },
+          {
+            "needs_human": false,
+            "para_id": "p_9_4_3_002",
+            "sources": [
+              "src_9_4_3_1",
+              "src_9_4_3_2",
+              "fact:M16-METHOD-9-4-3/V04",
+              "fact:M16-METHOD-9-4-3/V05",
+              "fact:M16-METHOD-9-4-3/V06",
+              "fact:M16-METHOD-9-4-3/V07"
+            ],
+            "text_sha256": "a3a56d8e32d75b2c488e3574df576ea7c0396917db01ef7cc9da16c999a0f6ce"
+          }
+        ],
+        "reference_entities": [],
+        "resolved_sha256": "e370fbdde0d610460a3328506ffef96692f16d2f87669ab975d72852f95b94e7",
+        "section_id": "9.4.3"
+      },
+      {
+        "draft_sha256": "3dfe500e53fbb76e50542ac0c6277af555cfeac592997b78cc89f9d930b049e8",
+        "heading": "盲法",
+        "metadata_sha256": "6081648a2a845325e73e6755715d7bb41d2dcb5bac5c29120ea2509245f8d6c5",
+        "paragraphs": [
+          {
+            "needs_human": false,
+            "para_id": "p_9_4_6_001",
+            "sources": [
+              "src_9_4_6_1",
+              "src_9_4_6_2",
+              "fact:M16-METHOD-9-4-6/V01",
+              "fact:M16-METHOD-9-4-6/V02",
+              "fact:M16-METHOD-9-4-6/V03",
+              "fact:M16-METHOD-9-4-6/V04"
+            ],
+            "text_sha256": "a4d9b949ae1fc5f5dbb6e950cd9ff46f426c7d03d4434678b35e28aed7e5707a"
+          },
+          {
+            "needs_human": false,
+            "para_id": "p_9_4_6_002",
+            "sources": [
+              "src_9_4_6_1",
+              "src_9_4_6_2",
+              "fact:M16-METHOD-9-4-6/V05",
+              "fact:M16-METHOD-9-4-6/V06",
+              "fact:M16-METHOD-9-4-6/V07",
+              "fact:M16-METHOD-9-4-6/S01"
+            ],
+            "text_sha256": "62b3259478b2eb0a2aece6ff868b1a3be5bb7a0881933dca95df0a8108d3d180"
+          }
+        ],
+        "reference_entities": [],
+        "resolved_sha256": "6cf47db9d482fd3dc8861b848de37317f8921e8161056494ae4d349bb389eda0",
+        "section_id": "9.4.6"
+      },
+      {
+        "draft_sha256": "55d82d9333c2c20fafbde2d57ba11b117000ab95e6c2031529fefa2bb42e3c3b",
+        "heading": "严重不良事件个例叙述（脱敏合成）",
+        "metadata_sha256": "b2abace58d4f103a3770be6587392e30949bdc8702083ccc7c1e1cb75579de04",
+        "paragraphs": [
+          {
+            "needs_human": false,
+            "para_id": "p_12_3_2_001",
+            "sources": [
+              "m21_ib_safety_record",
+              "m21_ib_crf_narrative",
+              "fact:M21-IB-SAE-EXACT-01/A01",
+              "fact:M21-IB-SAE-EXACT-01/A02"
+            ],
+            "text_sha256": "1980130b8f41e9dc7a74f4e94151bd8d6ee1403ad36afed643088a6d605572c5"
+          },
+          {
+            "needs_human": false,
+            "para_id": "p_12_3_2_002",
+            "sources": [
+              "m21_ib_safety_record",
+              "m21_ib_crf_narrative",
+              "fact:M21-IB-SAE-EXACT-01/A01",
+              "fact:M21-IB-SAE-EXACT-01/A03"
+            ],
+            "text_sha256": "9f66cab2fae6b430fe14dce7d7e02900b434102442cf996f394994d0c4982b8a"
+          },
+          {
+            "needs_human": false,
+            "para_id": "p_12_3_2_003",
+            "sources": [
+              "m21_ib_safety_record",
+              "m21_ib_crf_narrative",
+              "fact:M21-IB-SAE-EXACT-01/A04",
+              "fact:M21-IB-SAE-EXACT-01/A05",
+              "fact:M21-IB-SAE-EXACT-01/A06",
+              "fact:M21-IB-SAE-EXACT-01/A07"
+            ],
+            "text_sha256": "5dfd821e5a793c1777446ed536b0a87c59cb8409ae028bb541e33d271b5c70c3"
+          },
+          {
+            "needs_human": false,
+            "para_id": "p_12_3_2_004",
+            "sources": [
+              "m21_ib_safety_record",
+              "m21_ib_crf_narrative",
+              "fact:M21-IB-SAE-EXACT-01/A01",
+              "fact:M21-IB-SAE-EXACT-01/A08",
+              "fact:M21-IB-SAE-EXACT-01/A09"
+            ],
+            "text_sha256": "2c2ef335fbd5e8f97a46bea013e69d91ca44897d21fed8f176816b9db8ebdc2c"
+          },
+          {
+            "needs_human": false,
+            "para_id": "p_12_3_2_005",
+            "sources": [
+              "m21_ib_safety_record",
+              "m21_ib_crf_narrative",
+              "fact:M21-IB-SAE-EXACT-01/A10"
+            ],
+            "text_sha256": "8f66ad864f4b785dea316b5c01edb0de33b82e1294ef0f25637d1103e37ffc89"
+          },
+          {
+            "needs_human": false,
+            "para_id": "p_12_3_2_006",
+            "sources": [
+              "m21_ib_safety_record",
+              "m21_ib_crf_narrative",
+              "fact:M21-IB-SAE-EXACT-01/A11",
+              "fact:M21-IB-SAE-EXACT-01/A12"
+            ],
+            "text_sha256": "59a0234e7621870b31c52702d59a5d82dda3829b97ddc444a4f7d410ac2882b6"
+          },
+          {
+            "needs_human": false,
+            "para_id": "p_12_3_2_007",
+            "sources": [
+              "m21_ib_safety_record",
+              "m21_ib_crf_narrative",
+              "fact:M21-IB-SAE-EXACT-01/B01"
+            ],
+            "text_sha256": "21bf57a130115d88ca61413de867566f01b5d05a2d28557f3f6d6c0d2020ab4d"
+          },
+          {
+            "needs_human": true,
+            "para_id": "p_12_3_2_008",
+            "sources": [
+              "m21_ib_safety_record",
+              "m21_ib_crf_narrative",
+              "fact:M21-IB-SAE-EXACT-01/C01"
+            ],
+            "text_sha256": "e24d07668cde557b3511b9022131c5a22ebf9aa98efa7510f332eabfb116800f"
+          }
+        ],
+        "reference_entities": [],
+        "resolved_sha256": "9913ef7ab6a38136b3a677669e3cb90e3fcb664bcdfd5f373a46c1d9f58ef94b",
+        "section_id": "12.3.2"
+      }
+    ],
+    "interface": "csr-writer-unified-composition-v1",
+    "omitted_sections": [
+      {
+        "appendix_status_managed": false,
+        "basis": [
+          {
+            "path": "analyses.analysis_sets",
+            "value": [
+              "FAS",
+              "mFAS",
+              "SS",
+              "PKCS",
+              "PKPS"
+            ]
+          },
+          {
+            "path": "relocated_to",
+            "value": "10.3"
+          }
+        ],
+        "classification": "relocated",
+        "disposition": "relocated",
+        "driving_modules": [],
+        "human_reason": "分析数据集同时服务受试者处置、疗效、安全性和药代动力学评价，已统一移至 10.3 呈现。",
+        "layer": "ich-official",
+        "reason": "本节内容已按跨结果域结构调整移至 10.3。",
+        "relocate_to": "10.3",
+        "render_title": "分析数据集",
+        "retained": false,
+        "section_id": "11.1",
+        "semantic_role": null,
+        "title": "分析数据集",
+        "title_drivers": []
+      },
+      {
+        "appendix_status_managed": false,
+        "basis": [
+          {
+            "capability": "has_confirmatory_efficacy",
+            "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+            "facts": [
+              {
+                "path": "analyses.hypothesis_test",
+                "value": false
+              },
+              {
+                "path": "objectives.confirmatory_efficacy",
+                "value": false
+              }
+            ],
+            "value": false
+          }
+        ],
+        "classification": "conditional_omitted",
+        "disposition": "not_applicable",
+        "driving_modules": [],
+        "human_reason": "本研究未设定确证性疗效目的，疗效结果按探索性结构在 11.6.1 呈现。",
+        "layer": "ich-official",
+        "reason": "研究事实不满足本节适用条件。",
+        "relocate_to": null,
+        "render_title": "疗效分析",
+        "retained": false,
+        "section_id": "11.4.1",
+        "semantic_role": null,
+        "title": "疗效分析",
+        "title_drivers": []
+      },
+      {
+        "appendix_status_managed": false,
+        "basis": [
+          {
+            "capability": "has_confirmatory_efficacy",
+            "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+            "facts": [
+              {
+                "path": "analyses.hypothesis_test",
+                "value": false
+              },
+              {
+                "path": "objectives.confirmatory_efficacy",
+                "value": false
+              }
+            ],
+            "value": false
+          }
+        ],
+        "classification": "conditional_omitted",
+        "disposition": "not_applicable",
+        "driving_modules": [],
+        "human_reason": "本研究未设定确证性疗效分析，本项未作为独立确证性分析节呈现；适用方法须在探索性统计分析内容中依据 SAP 核对。",
+        "layer": "ich-official",
+        "reason": "研究事实不满足本节适用条件。",
+        "relocate_to": null,
+        "render_title": "统计/分析内容",
+        "retained": false,
+        "section_id": "11.4.2",
+        "semantic_role": null,
+        "title": "统计/分析内容",
+        "title_drivers": []
+      },
+      {
+        "appendix_status_managed": false,
+        "basis": [
+          {
+            "capability": "has_confirmatory_efficacy",
+            "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+            "facts": [
+              {
+                "path": "analyses.hypothesis_test",
+                "value": false
+              },
+              {
+                "path": "objectives.confirmatory_efficacy",
+                "value": false
+              }
+            ],
+            "value": false
+          }
+        ],
+        "classification": "conditional_omitted",
+        "disposition": "not_applicable",
+        "driving_modules": [],
+        "human_reason": "本研究未设定确证性疗效目的，适用的协变量校正分析在 11.6.2.1 呈现。",
+        "layer": "ich-official",
+        "reason": "研究事实不满足本节适用条件。",
+        "relocate_to": null,
+        "render_title": "协变量的调整",
+        "retained": false,
+        "section_id": "11.4.2.1",
+        "semantic_role": null,
+        "title": "协变量的调整",
+        "title_drivers": []
+      },
+      {
+        "appendix_status_managed": false,
+        "basis": [
+          {
+            "capability": "has_confirmatory_efficacy",
+            "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+            "facts": [
+              {
+                "path": "analyses.hypothesis_test",
+                "value": false
+              },
+              {
+                "path": "objectives.confirmatory_efficacy",
+                "value": false
+              }
+            ],
+            "value": false
+          }
+        ],
+        "classification": "conditional_omitted",
+        "disposition": "not_applicable",
+        "driving_modules": [],
+        "human_reason": "本研究未设定确证性疗效分析，本项未作为独立确证性分析节呈现；适用方法须在探索性统计分析内容中依据 SAP 核对。",
+        "layer": "ich-official",
+        "reason": "研究事实不满足本节适用条件。",
+        "relocate_to": null,
+        "render_title": "脱落或缺失数据的处理",
+        "retained": false,
+        "section_id": "11.4.2.2",
+        "semantic_role": null,
+        "title": "脱落或缺失数据的处理",
+        "title_drivers": []
+      },
+      {
+        "appendix_status_managed": false,
+        "basis": [
+          {
+            "capability": "has_confirmatory_efficacy",
+            "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+            "facts": [
+              {
+                "path": "analyses.hypothesis_test",
+                "value": false
+              },
+              {
+                "path": "objectives.confirmatory_efficacy",
+                "value": false
+              }
+            ],
+            "value": false
+          },
+          {
+            "capability": "has_interim_analysis",
+            "condition": "design.interim_analysis",
+            "facts": [
+              {
+                "path": "design.interim_analysis",
+                "value": false
+              }
+            ],
+            "value": false
+          }
+        ],
+        "classification": "conditional_omitted",
+        "disposition": "not_applicable",
+        "driving_modules": [],
+        "human_reason": "方案未设置期中分析或独立数据监查安排。",
+        "layer": "ich-official",
+        "reason": "研究事实不满足本节适用条件。",
+        "relocate_to": null,
+        "render_title": "试验期中分析和数据监查",
+        "retained": false,
+        "section_id": "11.4.2.3",
+        "semantic_role": null,
+        "title": "试验期中分析和数据监查",
+        "title_drivers": []
+      },
+      {
+        "appendix_status_managed": false,
+        "basis": [
+          {
+            "capability": "has_confirmatory_efficacy",
+            "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+            "facts": [
+              {
+                "path": "analyses.hypothesis_test",
+                "value": false
+              },
+              {
+                "path": "objectives.confirmatory_efficacy",
+                "value": false
+              }
+            ],
+            "value": false
+          },
+          {
+            "capability": "is_multicenter",
+            "condition": "design.n_centers > 1",
+            "facts": [
+              {
+                "path": "design.n_centers",
+                "value": 2
+              }
+            ],
+            "value": true
+          }
+        ],
+        "classification": "conditional_omitted",
+        "disposition": "not_applicable",
+        "driving_modules": [],
+        "human_reason": "本研究未设定确证性疗效目的，适用的多中心分析在 11.6.2.4 呈现。",
+        "layer": "ich-official",
+        "reason": "研究事实不满足本节适用条件。",
+        "relocate_to": null,
+        "render_title": "多中心研究",
+        "retained": false,
+        "section_id": "11.4.2.4",
+        "semantic_role": null,
+        "title": "多中心研究",
+        "title_drivers": []
+      },
+      {
+        "appendix_status_managed": false,
+        "basis": [
+          {
+            "capability": "has_confirmatory_efficacy",
+            "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+            "facts": [
+              {
+                "path": "analyses.hypothesis_test",
+                "value": false
+              },
+              {
+                "path": "objectives.confirmatory_efficacy",
+                "value": false
+              }
+            ],
+            "value": false
+          },
+          {
+            "capability": "has_multiplicity_control",
+            "condition": "analyses.multiplicity_control",
+            "facts": [
+              {
+                "path": "analyses.multiplicity_control",
+                "value": false
+              }
+            ],
+            "value": false
+          }
+        ],
+        "classification": "conditional_omitted",
+        "disposition": "not_applicable",
+        "driving_modules": [],
+        "human_reason": "统计分析未设置多重比较或多重性控制。",
+        "layer": "ich-official",
+        "reason": "研究事实不满足本节适用条件。",
+        "relocate_to": null,
+        "render_title": "多重比较/多重性",
+        "retained": false,
+        "section_id": "11.4.2.5",
+        "semantic_role": null,
+        "title": "多重比较/多重性",
+        "title_drivers": []
+      },
+      {
+        "appendix_status_managed": false,
+        "basis": [
+          {
+            "capability": "has_confirmatory_efficacy",
+            "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+            "facts": [
+              {
+                "path": "analyses.hypothesis_test",
+                "value": false
+              },
+              {
+                "path": "objectives.confirmatory_efficacy",
+                "value": false
+              }
+            ],
+            "value": false
+          },
+          {
+            "capability": "has_estimand_framework",
+            "condition": "analyses.estimand_framework",
+            "facts": [
+              {
+                "path": "analyses.estimand_framework",
+                "value": false
+              }
+            ],
+            "value": false
+          }
+        ],
+        "classification": "conditional_omitted",
+        "disposition": "not_applicable",
+        "driving_modules": [],
+        "human_reason": "方案和统计分析未采用估计目标框架。",
+        "layer": "ich-official",
+        "reason": "研究事实不满足本节适用条件。",
+        "relocate_to": null,
+        "render_title": "患者『疗效子集』的使用",
+        "retained": false,
+        "section_id": "11.4.2.6",
+        "semantic_role": null,
+        "title": "患者『疗效子集』的使用",
+        "title_drivers": []
+      },
+      {
+        "appendix_status_managed": false,
+        "basis": [
+          {
+            "capability": "has_confirmatory_efficacy",
+            "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+            "facts": [
+              {
+                "path": "analyses.hypothesis_test",
+                "value": false
+              },
+              {
+                "path": "objectives.confirmatory_efficacy",
+                "value": false
+              }
+            ],
+            "value": false
+          },
+          {
+            "capability": "has_noninferiority",
+            "condition": "design.noninferiority",
+            "facts": [
+              {
+                "path": "design.noninferiority",
+                "value": false
+              }
+            ],
+            "value": false
+          },
+          {
+            "capability": "is_bioequivalence_study",
+            "condition": "design.study_type == bioequivalence || bioequivalence in design.clinical_pharmacology_studies",
+            "facts": [
+              {
+                "path": "design.clinical_pharmacology_studies",
+                "value": []
+              },
+              {
+                "path": "design.study_type",
+                "value": "general_interventional"
+              }
+            ],
+            "value": false
+          }
+        ],
+        "classification": "conditional_omitted",
+        "disposition": "not_applicable",
+        "driving_modules": [],
+        "human_reason": "本研究不是非劣效或等效性设计。",
+        "layer": "ich-official",
+        "reason": "研究事实不满足本节适用条件。",
+        "relocate_to": null,
+        "render_title": "旨在表明等效性的阳性对照研究",
+        "retained": false,
+        "section_id": "11.4.2.7",
+        "semantic_role": null,
+        "title": "旨在表明等效性的阳性对照研究",
+        "title_drivers": []
+      },
+      {
+        "appendix_status_managed": false,
+        "basis": [
+          {
+            "capability": "has_confirmatory_efficacy",
+            "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+            "facts": [
+              {
+                "path": "analyses.hypothesis_test",
+                "value": false
+              },
+              {
+                "path": "objectives.confirmatory_efficacy",
+                "value": false
+              }
+            ],
+            "value": false
+          },
+          {
+            "capability": "has_subgroup_analysis",
+            "condition": "analyses.subgroup",
+            "facts": [
+              {
+                "path": "analyses.subgroup",
+                "value": false
+              }
+            ],
+            "value": false
+          }
+        ],
+        "classification": "conditional_omitted",
+        "disposition": "not_applicable",
+        "driving_modules": [],
+        "human_reason": "统计分析未预设亚组分析。",
+        "layer": "ich-official",
+        "reason": "研究事实不满足本节适用条件。",
+        "relocate_to": null,
+        "render_title": "亚组的考察",
+        "retained": false,
+        "section_id": "11.4.2.8",
+        "semantic_role": null,
+        "title": "亚组的考察",
+        "title_drivers": []
+      },
+      {
+        "appendix_status_managed": false,
+        "basis": [
+          {
+            "capability": "has_exposure_response",
+            "condition": "analyses.exposure_response",
+            "facts": [
+              {
+                "path": "analyses.exposure_response",
+                "value": false
+              }
+            ],
+            "value": false
+          }
+        ],
+        "classification": "conditional_omitted",
+        "disposition": "not_applicable",
+        "driving_modules": [],
+        "human_reason": "方案未设置暴露量或剂量与疗效反应关系分析。",
+        "layer": "ich-official",
+        "reason": "研究事实不满足本节适用条件。",
+        "relocate_to": null,
+        "render_title": "药物剂量、药物浓度以及与效应之间的关系",
+        "retained": false,
+        "section_id": "11.4.4",
+        "semantic_role": null,
+        "title": "药物剂量、药物浓度以及与效应之间的关系",
+        "title_drivers": []
+      },
+      {
+        "appendix_status_managed": false,
+        "basis": [
+          {
+            "capability": "is_ddi_study",
+            "condition": "design.study_type == drug_drug_interaction || drug_drug_interaction in design.clinical_pharmacology_studies",
+            "facts": [
+              {
+                "path": "design.clinical_pharmacology_studies",
+                "value": []
+              },
+              {
+                "path": "design.study_type",
+                "value": "general_interventional"
+              }
+            ],
+            "value": false
+          }
+        ],
+        "classification": "conditional_omitted",
+        "disposition": "not_applicable",
+        "driving_modules": [],
+        "human_reason": "方案未设置药物相互作用或药物与疾病相互作用评价。",
+        "layer": "ich-official",
+        "reason": "研究事实不满足本节适用条件。",
+        "relocate_to": null,
+        "render_title": "药物-药物和药物-疾病相互作用",
+        "retained": false,
+        "section_id": "11.4.5",
+        "semantic_role": null,
+        "title": "药物-药物和药物-疾病相互作用",
+        "title_drivers": []
+      },
+      {
+        "appendix_status_managed": false,
+        "basis": [
+          {
+            "capability": "has_confirmatory_efficacy",
+            "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+            "facts": [
+              {
+                "path": "analyses.hypothesis_test",
+                "value": false
+              },
+              {
+                "path": "objectives.confirmatory_efficacy",
+                "value": false
+              }
+            ],
+            "value": false
+          }
+        ],
+        "classification": "conditional_omitted",
+        "disposition": "not_applicable",
+        "driving_modules": [],
+        "human_reason": "本研究未设定确证性疗效目的，探索性疗效结论在 11.6.7 呈现。",
+        "layer": "ich-official",
+        "reason": "研究事实不满足本节适用条件。",
+        "relocate_to": null,
+        "render_title": "疗效结论",
+        "retained": false,
+        "section_id": "11.4.7",
+        "semantic_role": "efficacy_conclusion",
+        "title": "疗效结论",
+        "title_drivers": []
+      }
+    ],
+    "publication_reference_map_sha256": "d5b5fcb5e7614b88e04ac955180795d323282afe2641d6aea17f051166992859",
+    "rendering": {
+      "body_rewrite_allowed": false,
+      "clean_and_annotated_share_plan": true,
+      "directory_fields_remain_word_fields": true,
+      "format_spec_sha256": "364e4f524681a54d6634f113370562d176fc9891345d77dc4b3af97b30b57a7b",
+      "numbering_policy": "retain_gaps_with_visible_declarations",
+      "section_order_source": "ICH-E3 structure plus reviewed title overrides",
+      "structure_sha256": "87ea56d599120e265c1649881a9d3ad1c08db540a91be13de6a2bd31a6bc0942",
+      "template_sha256": "58522a883c7cb6f15b57fdd58258670d0241ec1310df0384c479050e24d48210",
+      "title_overrides_sha256": "0dca2d66e54221e3634ad8cf91e4e15fdf53d2c28f77184b5218446a64b2048b"
+    },
+    "review_decisions_sha256": "224cab86ac3c29ff3333b76c4b8f33939cc972516ee7c2c9160bddcb9d1f332a",
+    "routing_sha256": "c8c90ee5bdfb965acd5a95fe58c74bed8f688efbe20f2c4004f939b78ed8ddb1",
+    "schema_version": "1.0",
+    "study_facts_sha256": "6128d7dd5731f7bb0b6eb0e4b8191f6d20520e99bc34b87653fc1e9f44ce4e97"
+  },
+  "guard_bypass_available": false,
+  "guarded_section_count": 4,
+  "outputs": {
+    "annotated": {
+      "ooxml_qc": {
+        "centered_page_field_count": 1,
+        "checks": {
+          "composition_plan_bound": "pass",
+          "no_unresolved_placeholders": "pass",
+          "omission_declarations_present": "pass",
+          "page_field_centered": "pass",
+          "page_field_present": "pass",
+          "six_directory_fields_preserved": "pass",
+          "word_fields_enabled_for_update": "pass"
+        },
+        "composition_plan_sha256": "ef5ea9e50381511c4f8316bdce9822d24e39e0955a6a56a375010ed27a7b3268",
+        "directory_word_field_count": 6,
+        "omission_reason_line_count": 14,
+        "page_field_count": 1,
+        "ref_field_count": 9,
+        "status": "pass"
+      },
+      "path": "/Users/huanglu/临床试验总结报告撰写/csr-writer/examples/output/m21/ib_randomized_double_blind/08_unified_composition/M21_Ib_randomized_double_blind.annotated.docx",
+      "render": {
+        "appendix_status_plan": {
+          "rows": [
+            {
+              "appendix_id": "16.1.1",
+              "category": "csr_required",
+              "category_title": "1. CSR 必需审评附件",
+              "e3_submit_metadata": "always",
+              "file_name": "方案和方案修订案",
+              "qa_basis": "",
+              "reason_or_on_request": "E3 核心审评附件；具体文件版本以正式附件清单为准。",
+              "submission_location": "CSR 16.1.1",
+              "submitted": "是"
+            },
+            {
+              "appendix_id": "16.1.2",
+              "category": "csr_required",
+              "category_title": "1. CSR 必需审评附件",
+              "e3_submit_metadata": "always",
+              "file_name": "病例报告表样本（仅提供唯一页面）",
+              "qa_basis": "",
+              "reason_or_on_request": "E3 核心审评附件；具体文件版本以正式附件清单为准。",
+              "submission_location": "CSR 16.1.2",
+              "submitted": "是"
+            },
+            {
+              "appendix_id": "16.1.5",
+              "category": "csr_required",
+              "category_title": "1. CSR 必需审评附件",
+              "e3_submit_metadata": "not-specified",
+              "file_name": "主要或协调研究者或申办方负责医学专员的签名",
+              "qa_basis": "",
+              "reason_or_on_request": "E3 核心审评附件；具体文件版本以正式附件清单为准。",
+              "submission_location": "CSR 16.1.5",
+              "submitted": "是"
+            },
+            {
+              "appendix_id": "16.1.9",
+              "category": "csr_required",
+              "category_title": "1. CSR 必需审评附件",
+              "e3_submit_metadata": "always",
+              "file_name": "统计学方法的文件",
+              "qa_basis": "",
+              "reason_or_on_request": "E3 核心审评附件；具体文件版本以正式附件清单为准。",
+              "submission_location": "CSR 16.1.9",
+              "submitted": "是"
+            },
+            {
+              "appendix_id": "16.1.7",
+              "category": "csr_required",
+              "category_title": "1. CSR 必需审评附件",
+              "e3_submit_metadata": "always",
+              "file_name": "随机方案和编号",
+              "qa_basis": "",
+              "reason_or_on_request": "本研究为随机化设计。",
+              "submission_location": "CSR 16.1.7",
+              "submitted": "是"
+            },
+            {
+              "appendix_id": "16.1.4",
+              "category": "csr_required",
+              "category_title": "1. CSR 必需审评附件",
+              "e3_submit_metadata": "conditional",
+              "file_name": "研究者及其他重要研究参与者的列表和描述，包括个人简历（名单部分）",
+              "qa_basis": "⚠ Q&A Q3：研究者 **CV 通常不放入** CSR 附录；但研究者与中心名单『always be needed』",
+              "reason_or_on_request": "研究者和中心名单纳入附件；个人简历按 E3 Q&A Q3 留 TMF。",
+              "submission_location": "CSR 16.1.4",
+              "submitted": "部分提交"
+            },
+            {
+              "appendix_id": "16.2.1",
+              "category": "regional",
+              "category_title": "2. 本次注册申请需提交的地区性附件",
+              "e3_submit_metadata": "not-specified",
+              "file_name": "终止研究患者",
+              "qa_basis": "",
+              "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+              "submission_location": "地区性申报附件位置",
+              "submitted": "条件性"
+            },
+            {
+              "appendix_id": "16.2.2",
+              "category": "regional",
+              "category_title": "2. 本次注册申请需提交的地区性附件",
+              "e3_submit_metadata": "not-specified",
+              "file_name": "方案偏离",
+              "qa_basis": "",
+              "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+              "submission_location": "地区性申报附件位置",
+              "submitted": "条件性"
+            },
+            {
+              "appendix_id": "16.2.3",
+              "category": "regional",
+              "category_title": "2. 本次注册申请需提交的地区性附件",
+              "e3_submit_metadata": "not-specified",
+              "file_name": "疗效分析中排除的患者",
+              "qa_basis": "",
+              "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+              "submission_location": "地区性申报附件位置",
+              "submitted": "条件性"
+            },
+            {
+              "appendix_id": "16.2.4",
+              "category": "regional",
+              "category_title": "2. 本次注册申请需提交的地区性附件",
+              "e3_submit_metadata": "not-specified",
+              "file_name": "人口统计学数据",
+              "qa_basis": "",
+              "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+              "submission_location": "地区性申报附件位置",
+              "submitted": "条件性"
+            },
+            {
+              "appendix_id": "16.2.5",
+              "category": "regional",
+              "category_title": "2. 本次注册申请需提交的地区性附件",
+              "e3_submit_metadata": "not-specified",
+              "file_name": "依从性和/或药物浓度数据",
+              "qa_basis": "",
+              "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+              "submission_location": "地区性申报附件位置",
+              "submitted": "条件性"
+            },
+            {
+              "appendix_id": "16.2.6",
+              "category": "regional",
+              "category_title": "2. 本次注册申请需提交的地区性附件",
+              "e3_submit_metadata": "not-specified",
+              "file_name": "个体疗效数据",
+              "qa_basis": "",
+              "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+              "submission_location": "地区性申报附件位置",
+              "submitted": "条件性"
+            },
+            {
+              "appendix_id": "16.2.7",
+              "category": "regional",
+              "category_title": "2. 本次注册申请需提交的地区性附件",
+              "e3_submit_metadata": "not-specified",
+              "file_name": "不良事件列表（各患者）",
+              "qa_basis": "",
+              "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+              "submission_location": "地区性申报附件位置",
+              "submitted": "条件性"
+            },
+            {
+              "appendix_id": "16.2.8",
+              "category": "regional",
+              "category_title": "2. 本次注册申请需提交的地区性附件",
+              "e3_submit_metadata": "conditional",
+              "file_name": "按患者列出的个体实验室测量值列表",
+              "qa_basis": "",
+              "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+              "submission_location": "地区性申报附件位置",
+              "submitted": "条件性"
+            },
+            {
+              "appendix_id": "16.3.1",
+              "category": "regional",
+              "category_title": "2. 本次注册申请需提交的地区性附件",
+              "e3_submit_metadata": "not-specified",
+              "file_name": "死亡、其他严重不良事件或 AE 导致的退出的 CRF",
+              "qa_basis": "",
+              "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+              "submission_location": "地区性申报附件位置",
+              "submitted": "条件性"
+            },
+            {
+              "appendix_id": "16.3.2",
+              "category": "regional",
+              "category_title": "2. 本次注册申请需提交的地区性附件",
+              "e3_submit_metadata": "not-specified",
+              "file_name": "递交的其他 CRF",
+              "qa_basis": "",
+              "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+              "submission_location": "地区性申报附件位置",
+              "submitted": "条件性"
+            },
+            {
+              "appendix_id": "16.1.3",
+              "category": "tmf_on_request",
+              "category_title": "3. TMF 留存、可按要求提供的附件",
+              "e3_submit_metadata": "conditional",
+              "file_name": "IEC 或 IRB 列表 - 代表性患者书面信息和同意书样本",
+              "qa_basis": "⚠ Q&A Q3：伦理批件与知情同意书**通常不放入 CSR 附录**，留 TMF",
+              "reason_or_on_request": "伦理批件、患者书面信息和知情同意文件通常留 TMF，可按监管要求提供（E3 Q&A Q3）。",
+              "submission_location": "TMF",
+              "submitted": "否"
+            },
+            {
+              "appendix_id": "16.1.4",
+              "category": "tmf_on_request",
+              "category_title": "3. TMF 留存、可按要求提供的附件",
+              "e3_submit_metadata": "conditional",
+              "file_name": "研究者及其他重要研究参与者的列表和描述，包括个人简历（个人简历部分）",
+              "qa_basis": "⚠ Q&A Q3：研究者 **CV 通常不放入** CSR 附录；但研究者与中心名单『always be needed』",
+              "reason_or_on_request": "研究者个人简历通常不纳入 CSR，可按要求提供（E3 Q&A Q3）。",
+              "submission_location": "TMF",
+              "submitted": "否"
+            },
+            {
+              "appendix_id": "16.1.6",
+              "category": "tmf_on_request",
+              "category_title": "3. TMF 留存、可按要求提供的附件",
+              "e3_submit_metadata": "conditional",
+              "file_name": "如使用 1 批以上药物，接受特定批次试验药品的患者列表",
+              "qa_basis": "⚠ Q&A Q3：每例受试者的批号通常不放入 CSR 附录",
+              "reason_or_on_request": "按受试者列出的批号信息通常留 TMF，可按要求提供（E3 Q&A Q3）。",
+              "submission_location": "TMF",
+              "submitted": "否"
+            },
+            {
+              "appendix_id": "16.1.8",
+              "category": "not_applicable",
+              "category_title": "4. 不适用附件",
+              "e3_submit_metadata": "conditional",
+              "file_name": "稽查证书（如有）",
+              "qa_basis": "",
+              "reason_or_on_request": "当前已确认研究事实未证实存在可提交的稽查证书。",
+              "submission_location": "不适用",
+              "submitted": "否"
+            },
+            {
+              "appendix_id": "16.1.10",
+              "category": "not_applicable",
+              "category_title": "4. 不适用附件",
+              "e3_submit_metadata": "conditional",
+              "file_name": "实验室间标准化方法和质量保证程序的文件（如使用）",
+              "qa_basis": "",
+              "reason_or_on_request": "当前已确认研究事实未证实使用实验室间标准化方法。",
+              "submission_location": "不适用",
+              "submitted": "否"
+            },
+            {
+              "appendix_id": "16.1.11",
+              "category": "not_applicable",
+              "category_title": "4. 不适用附件",
+              "e3_submit_metadata": "conditional",
+              "file_name": "基于研究的发表文章",
+              "qa_basis": "",
+              "reason_or_on_request": "当前已确认研究事实未证实存在基于本研究的发表文章。",
+              "submission_location": "不适用",
+              "submitted": "否"
+            },
+            {
+              "appendix_id": "16.1.12",
+              "category": "not_applicable",
+              "category_title": "4. 不适用附件",
+              "e3_submit_metadata": "conditional",
+              "file_name": "报告中引用的重要发表文章",
+              "qa_basis": "",
+              "reason_or_on_request": "当前已确认研究事实未证实存在需作为附件的重要引用文献。",
+              "submission_location": "不适用",
+              "submitted": "否"
+            },
+            {
+              "appendix_id": "16.4",
+              "category": "not_applicable",
+              "category_title": "4. 不适用附件",
+              "e3_submit_metadata": "US only",
+              "file_name": "个例患者数据列表（US 存档列表）",
+              "qa_basis": "",
+              "reason_or_on_request": "本次提交地区为 CDE；16.4 仅为 US 存档列表。",
+              "submission_location": "不适用",
+              "submitted": "否"
+            }
+          ]
+        },
+        "appendix_status_row_count": 24,
+        "composition_plan_sha256": "ef5ea9e50381511c4f8316bdce9822d24e39e0955a6a56a375010ed27a7b3268",
+        "conclusion_order": [
+          {
+            "last": true,
+            "section_id": "11.5.10",
+            "semantic_role": "pk_conclusion",
+            "visible_siblings": [
+              "11.5.1",
+              "11.5.2",
+              "11.5.3",
+              "11.5.4",
+              "11.5.5",
+              "11.5.6",
+              "11.5.7",
+              "11.5.8",
+              "11.5.9",
+              "11.5.10"
+            ]
+          },
+          {
+            "last": true,
+            "section_id": "11.6.7",
+            "semantic_role": "exploratory_efficacy_conclusion",
+            "visible_siblings": [
+              "11.6.1",
+              "11.6.2",
+              "11.6.7"
+            ]
+          },
+          {
+            "last": true,
+            "section_id": "12.7",
+            "semantic_role": "safety_conclusion",
+            "visible_siblings": [
+              "12.1",
+              "12.2",
+              "12.3",
+              "12.4",
+              "12.5",
+              "12.6",
+              "12.7"
+            ]
+          }
+        ],
+        "content_block_count": 123,
+        "cross_references": {
+          "bookmark_count": 159,
+          "field_count": 9,
+          "status": "pass",
+          "unique_target_count": 5
+        },
+        "deterministic_bundle": {
+          "appendix_status_row_count": 24,
+          "artifact_hashes": [
+            {
+              "artifact_sha256": "761f5ce07d0d50157d66cff34dfeae5b2f55acc412aab39f2e3aafb18c639e5d",
+              "section_id": "1"
+            },
+            {
+              "artifact_sha256": "9f65de5a4eaeea96a3eba48a0a1104d8e57e93951c74c4d79df6c13bacf5beaf",
+              "section_id": "2"
+            },
+            {
+              "artifact_sha256": "f7ea215d03ea5f4a5ae419e69975b50585095b7b9414b7ae6337de8b6db18849",
+              "section_id": "3.1"
+            },
+            {
+              "artifact_sha256": "84f2780d7d403441ae0e1019156585ea42f8afa3537d6e8921644536d5bde08d",
+              "section_id": "3.2"
+            },
+            {
+              "artifact_sha256": "2dafe15e51e05d90fe082a6e979cd53cd9959a18525fd3213ce31a4a51638edd",
+              "section_id": "3.3"
+            },
+            {
+              "artifact_sha256": "fec9ca8a06f5eb5226d4546f0a930c543da2d4459b2fdf6b0f460e6cd2d0e475",
+              "section_id": "3.4"
+            },
+            {
+              "artifact_sha256": "4948debfe1a8e30c04eefafe5327295cd0434873cb67e7bc72b1bfc6cfabfaf7",
+              "section_id": "3.5"
+            },
+            {
+              "artifact_sha256": "6f2b50df6219a6f5649c9c4379bb1cf8a65d25f1e941f3e8cf041307bfc9e2c9",
+              "section_id": "3.6"
+            },
+            {
+              "artifact_sha256": "41415f9f474f6a639cc51a3ed200d70b3187d1d1d78aaca00324e2ac368e0b6d",
+              "section_id": "5.1"
+            },
+            {
+              "artifact_sha256": "e7da4552a29ea13829c3267e2543185dcff7012679f295d7b1ceabc47a8bf630",
+              "section_id": "5.2"
+            },
+            {
+              "artifact_sha256": "424213febd897a7b6d31f9f53d1b63127a5ba50837485ae0b3496d0cfe74ad2e",
+              "section_id": "5.3"
+            },
+            {
+              "artifact_sha256": "7b1ed49ddbcf024ce576f015de1ea35c2e0e6368d45fd4c79abf3ffe9dd8f8bc",
+              "section_id": "11.4.3"
+            },
+            {
+              "artifact_sha256": "6dbfbf3c14573171b5cf6b273058d548752b53b22879510e26dab29dee1977ae",
+              "section_id": "11.4.6"
+            },
+            {
+              "artifact_sha256": "c9353d227125278d4293381e3f75ffa9a52028f608044897e0ab334cf00e7265",
+              "section_id": "12.2.2"
+            },
+            {
+              "artifact_sha256": "ce759c42f9a6375e3658b4d31a9e0b32c415f289b4b0d99bcf12856c836f27ff",
+              "section_id": "12.2.4"
+            },
+            {
+              "artifact_sha256": "a6f645e86a589dabb25bd9edebf015aa1c702b34db52d1d5ee2f5599dff0cd6e",
+              "section_id": "12.3.1.1"
+            },
+            {
+              "artifact_sha256": "d478bf78e40a45547de5dc717f0f823c013ae7c967aa628d03a611b036df2507",
+              "section_id": "12.3.1.2"
+            },
+            {
+              "artifact_sha256": "ffb76d01de04be7d9fc10c954b7a408ae18e2917bca626b1030a320d24412da0",
+              "section_id": "12.3.1.3"
+            },
+            {
+              "artifact_sha256": "43fe8ce1e829cc8ea043c27f8f9f7e61a56fb85fa75f8875c9ef1f9f7562df58",
+              "section_id": "12.4.1"
+            },
+            {
+              "artifact_sha256": "ea61af863a46b67347981771a07011c21349e5437b1ce38e8a53f8b5e25feea8",
+              "section_id": "14.1.1"
+            },
+            {
+              "artifact_sha256": "12f65409194c9c2b07ee3585fccb7360ada1478444a252aa46f6fa6846b1c1cd",
+              "section_id": "14.1.2"
+            },
+            {
+              "artifact_sha256": "add5c7e7bf3c27445d6d39a699dc00dcb1fca3406ec9a4ab571267e04a49133a",
+              "section_id": "14.1.3"
+            },
+            {
+              "artifact_sha256": "631407c32887328321964a11bbcb7499beaa3561e7c6d9459b19d579cae2d530",
+              "section_id": "14.2"
+            },
+            {
+              "artifact_sha256": "5f16abb741bbf781528ec675f2f52754fc2188faaed4699c2df9994b2e743b8f",
+              "section_id": "14.3.1"
+            },
+            {
+              "artifact_sha256": "32a5ec8fd0494c9805a1b92e81d13b485b727bb34d448dc403a6ff410af3f2a7",
+              "section_id": "14.3.2"
+            },
+            {
+              "artifact_sha256": "f34fcea29b66a41646f65a2d3a166c5298ade4b901e385c76bfceb3126a82d39",
+              "section_id": "14.3.3"
+            },
+            {
+              "artifact_sha256": "a66ab071bd3dd90e8ffa82a82a6d0b1bdd6a034bf33380801ada4d91281a8197",
+              "section_id": "14.3.4"
+            },
+            {
+              "artifact_sha256": "7dfa96ae9fb1a859661a5b2f570696a898166d0e4cbd39c2b89dc09d58d31e69",
+              "section_id": "15"
+            },
+            {
+              "artifact_sha256": "8d166f6dad65a6fd695503dbe5a8d7bc07a5f4ffb2e54fc9ce03988fafcae670",
+              "section_id": "16.0"
+            },
+            {
+              "artifact_sha256": "0de6cdca0b9834ad89868a280745fb6e87c62f6a3f04381cae0292ed81ac2f49",
+              "section_id": "16.1.1"
+            },
+            {
+              "artifact_sha256": "429dd6b6e2ba2c4348b05754e4ac4b13ab4507252b4b4032a79b16e6a7a78447",
+              "section_id": "16.1.2"
+            },
+            {
+              "artifact_sha256": "87d48f665ecf7d41a7779d418f9aa49b604a78ad63fa479ea6b351c411ffef1c",
+              "section_id": "16.1.3"
+            },
+            {
+              "artifact_sha256": "66d5431fb051b417110badfa06cca82d1dc75db7f18906796d5096530ed36996",
+              "section_id": "16.1.4"
+            },
+            {
+              "artifact_sha256": "fb8a362183e4d9e011f5b04122f7d5f8e27115f9ede1b8553532ca6f62ce5981",
+              "section_id": "16.1.5"
+            },
+            {
+              "artifact_sha256": "dec56d5e431c5d1f0017ca64c5b5513db8ff9a8d3889aa2dccf8eff69bd1a2f3",
+              "section_id": "16.1.6"
+            },
+            {
+              "artifact_sha256": "52224e792ea3eb879ce708b58c41d93645f72da59b02267b9d42274c44da2d63",
+              "section_id": "16.1.7"
+            },
+            {
+              "artifact_sha256": "12fc3f8509b0a4c2663107af7ae699472fae9b8044884332adc5c34b95f1c730",
+              "section_id": "16.1.8"
+            },
+            {
+              "artifact_sha256": "3e2e8ddc6855cf67da0bcffb3b502da5e71c2382699f62d4e74efeafef6797ee",
+              "section_id": "16.1.9"
+            },
+            {
+              "artifact_sha256": "f94c34fe32b42da52bb9d29798eb2d670c9ddc48d975b3455e21adf13b57fec6",
+              "section_id": "16.1.10"
+            },
+            {
+              "artifact_sha256": "d35c5506f518faf949473d8a0ae8409f01ea7c5483f5e343a304e668ed92ae05",
+              "section_id": "16.1.11"
+            },
+            {
+              "artifact_sha256": "409956ec9873912e067ee074bb3768beef9326548dce8147c8a10b76b23ecf48",
+              "section_id": "16.1.12"
+            },
+            {
+              "artifact_sha256": "3b76a4d716abd0b398297e75860d2a580b69693b72d54b5c9795a130f32291e1",
+              "section_id": "16.2.1"
+            },
+            {
+              "artifact_sha256": "d6b7c99a6071a96fa781b6296b716fa3a668c12f18f98572b8743d45b32baebf",
+              "section_id": "16.2.2"
+            },
+            {
+              "artifact_sha256": "e8e56077256d953f62cedf7d34b3cb7a832568919206e305616ce4370f0db853",
+              "section_id": "16.2.3"
+            },
+            {
+              "artifact_sha256": "6a177d9eb29e8cb87cc91812cda76f247b01e4cd8b3d120a556ee4823374e416",
+              "section_id": "16.2.4"
+            },
+            {
+              "artifact_sha256": "c2af5d62a23e3d6f20f540626d8be56230d70209329bfd386c2379b3369dcf9f",
+              "section_id": "16.2.5"
+            },
+            {
+              "artifact_sha256": "c79267cfb01cb0b5fe76e130d64b478fbbffb63003ab558978a4e5b0ef89c3db",
+              "section_id": "16.2.6"
+            },
+            {
+              "artifact_sha256": "8c05589d98233a11190d89c672d28c8f0664e74766b261fda1a388bbb66a1ab2",
+              "section_id": "16.2.7"
+            },
+            {
+              "artifact_sha256": "c9964187edc785136665b2d83a9c04026aa77af3c29a0490dab718c5698ceac1",
+              "section_id": "16.2.8"
+            },
+            {
+              "artifact_sha256": "a016f4bdee2593dd2e4f322202348d0d56a8e456a6933df799755a89161f4309",
+              "section_id": "16.3.1"
+            },
+            {
+              "artifact_sha256": "d59d333cf9e27075ea90b638488e589cc4a6971532e4d5aaae572d795856fb82",
+              "section_id": "16.3.2"
+            },
+            {
+              "artifact_sha256": "9d01a50bddd158f8b6a13818db670132272146398ea3a6f8d9548bfe049030bc",
+              "section_id": "16.4"
+            }
+          ],
+          "bundle_sha256": "636bb83f072c57ffce0160fab8f3e333d8b12fd63cbf60395d9c3eff88678b9b",
+          "directory_word_field_count": 6,
+          "inserted": [
+            {
+              "content_kind": "title_page_template",
+              "section_id": "1"
+            },
+            {
+              "content_kind": "confirmed_text_copy",
+              "section_id": "2"
+            },
+            {
+              "content_kind": "word_field",
+              "section_id": "3.1"
+            },
+            {
+              "content_kind": "word_field",
+              "section_id": "3.2"
+            },
+            {
+              "content_kind": "word_field",
+              "section_id": "3.3"
+            },
+            {
+              "content_kind": "word_field",
+              "section_id": "3.4"
+            },
+            {
+              "content_kind": "word_field",
+              "section_id": "3.5"
+            },
+            {
+              "content_kind": "word_field",
+              "section_id": "3.6"
+            },
+            {
+              "content_kind": "fixed_template_with_slots",
+              "section_id": "5.1"
+            },
+            {
+              "content_kind": "fixed_template_with_slots",
+              "section_id": "5.2"
+            },
+            {
+              "content_kind": "fixed_template_with_slots",
+              "section_id": "5.3"
+            },
+            {
+              "content_kind": "word_ref",
+              "section_id": "11.4.3"
+            },
+            {
+              "content_kind": "word_ref",
+              "section_id": "11.4.6"
+            },
+            {
+              "content_kind": "word_ref",
+              "section_id": "12.2.2"
+            },
+            {
+              "content_kind": "word_ref",
+              "section_id": "12.2.4"
+            },
+            {
+              "content_kind": "word_ref",
+              "section_id": "12.3.1.1"
+            },
+            {
+              "content_kind": "word_ref",
+              "section_id": "12.3.1.2"
+            },
+            {
+              "content_kind": "word_ref",
+              "section_id": "12.3.1.3"
+            },
+            {
+              "content_kind": "word_ref",
+              "section_id": "12.4.1"
+            },
+            {
+              "content_kind": "chapter14_entities",
+              "section_id": "14.1.1"
+            },
+            {
+              "content_kind": "chapter14_entities",
+              "section_id": "14.1.2"
+            },
+            {
+              "content_kind": "chapter14_entities",
+              "section_id": "14.1.3"
+            },
+            {
+              "content_kind": "chapter14_entities",
+              "section_id": "14.2"
+            },
+            {
+              "content_kind": "chapter14_entities",
+              "section_id": "14.3.1"
+            },
+            {
+              "content_kind": "chapter14_entities",
+              "section_id": "14.3.2"
+            },
+            {
+              "content_kind": "chapter14_entities",
+              "section_id": "14.3.3"
+            },
+            {
+              "content_kind": "chapter14_entities",
+              "section_id": "14.3.4"
+            },
+            {
+              "content_kind": "reference_list",
+              "section_id": "15"
+            },
+            {
+              "content_kind": "appendix_status_table",
+              "section_id": "16.0"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.1.1"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.1.2"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.1.3"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.1.4"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.1.5"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.1.6"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.1.7"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.1.8"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.1.9"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.1.10"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.1.11"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.1.12"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.2.1"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.2.2"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.2.3"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.2.4"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.2.5"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.2.6"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.2.7"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.2.8"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.3.1"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.3.2"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.4"
+            }
+          ],
+          "inserted_unit_count": 52,
+          "model_called": false,
+          "publication_bookmark_count": 9,
+          "schema_version": "1.0",
+          "section_ids": [
+            "1",
+            "2",
+            "3.1",
+            "3.2",
+            "3.3",
+            "3.4",
+            "3.5",
+            "3.6",
+            "5.1",
+            "5.2",
+            "5.3",
+            "11.4.3",
+            "11.4.6",
+            "12.2.2",
+            "12.2.4",
+            "12.3.1.1",
+            "12.3.1.2",
+            "12.3.1.3",
+            "12.4.1",
+            "14.1.1",
+            "14.1.2",
+            "14.1.3",
+            "14.2",
+            "14.3.1",
+            "14.3.2",
+            "14.3.3",
+            "14.3.4",
+            "15",
+            "16.0",
+            "16.1.1",
+            "16.1.2",
+            "16.1.3",
+            "16.1.4",
+            "16.1.5",
+            "16.1.6",
+            "16.1.7",
+            "16.1.8",
+            "16.1.9",
+            "16.1.10",
+            "16.1.11",
+            "16.1.12",
+            "16.2.1",
+            "16.2.2",
+            "16.2.3",
+            "16.2.4",
+            "16.2.5",
+            "16.2.6",
+            "16.2.7",
+            "16.2.8",
+            "16.3.1",
+            "16.3.2",
+            "16.4"
+          ],
+          "skipped": [],
+          "skipped_unit_count": 0,
+          "status": "pass",
+          "title_page_control_count": 6,
+          "unit_count": 52
+        },
+        "directory_subsection_count": 6,
+        "formal_extension_count": 36,
+        "full_scaffold_official_heading_count": 122,
+        "manual_review_queue": [
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "path": "manual_review",
+                "value": "specific protocol fact required"
+              }
+            ],
+            "classification": "manual_review_required",
+            "disposition": "retained",
+            "driving_modules": [],
+            "human_reason": "缺少可支持自动删节的具体方案事实；本节保留并进入人工确认队列。",
+            "layer": "ich-official",
+            "reason": "缺少可支持自动删节的具体方案事实；本节保留并进入人工确认队列。",
+            "relocate_to": null,
+            "render_title": "个体疗效数据列表",
+            "retained": true,
+            "section_id": "11.4.3",
+            "semantic_role": null,
+            "title": "个体疗效数据列表",
+            "title_drivers": []
+          },
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "path": "manual_review",
+                "value": "specific protocol fact required"
+              }
+            ],
+            "classification": "manual_review_required",
+            "disposition": "retained",
+            "driving_modules": [],
+            "human_reason": "缺少可支持自动删节的具体方案事实；本节保留并进入人工确认队列。",
+            "layer": "ich-official",
+            "reason": "缺少可支持自动删节的具体方案事实；本节保留并进入人工确认队列。",
+            "relocate_to": null,
+            "render_title": "按患者列出",
+            "retained": true,
+            "section_id": "11.4.6",
+            "semantic_role": null,
+            "title": "按患者列出",
+            "title_drivers": []
+          }
+        ],
+        "mode": "annotated_pruned_project_skeleton",
+        "numbering_order": {
+          "inversions": [],
+          "status": "pass",
+          "visible_heading_count": 150
+        },
+        "omission_declaration_blocks": [
+          {
+            "chapter": "11",
+            "items": [
+              {
+                "disposition": "relocated",
+                "human_reason": "分析数据集同时服务受试者处置、疗效、安全性和药代动力学评价，已统一移至 10.3 呈现。",
+                "section_id": "11.1",
+                "title": "分析数据集"
+              },
+              {
+                "disposition": "not_applicable",
+                "human_reason": "本研究未设定确证性疗效目的，疗效结果按探索性结构在 11.6.1 呈现。",
+                "section_id": "11.4.1",
+                "title": "疗效分析"
+              },
+              {
+                "disposition": "not_applicable",
+                "human_reason": "本研究未设定确证性疗效分析，本项未作为独立确证性分析节呈现；适用方法须在探索性统计分析内容中依据 SAP 核对。",
+                "section_id": "11.4.2",
+                "title": "统计/分析内容"
+              },
+              {
+                "disposition": "not_applicable",
+                "human_reason": "本研究未设定确证性疗效目的，适用的协变量校正分析在 11.6.2.1 呈现。",
+                "section_id": "11.4.2.1",
+                "title": "协变量的调整"
+              },
+              {
+                "disposition": "not_applicable",
+                "human_reason": "本研究未设定确证性疗效分析，本项未作为独立确证性分析节呈现；适用方法须在探索性统计分析内容中依据 SAP 核对。",
+                "section_id": "11.4.2.2",
+                "title": "脱落或缺失数据的处理"
+              },
+              {
+                "disposition": "not_applicable",
+                "human_reason": "方案未设置期中分析或独立数据监查安排。",
+                "section_id": "11.4.2.3",
+                "title": "试验期中分析和数据监查"
+              },
+              {
+                "disposition": "not_applicable",
+                "human_reason": "本研究未设定确证性疗效目的，适用的多中心分析在 11.6.2.4 呈现。",
+                "section_id": "11.4.2.4",
+                "title": "多中心研究"
+              },
+              {
+                "disposition": "not_applicable",
+                "human_reason": "统计分析未设置多重比较或多重性控制。",
+                "section_id": "11.4.2.5",
+                "title": "多重比较/多重性"
+              },
+              {
+                "disposition": "not_applicable",
+                "human_reason": "方案和统计分析未采用估计目标框架。",
+                "section_id": "11.4.2.6",
+                "title": "患者『疗效子集』的使用"
+              },
+              {
+                "disposition": "not_applicable",
+                "human_reason": "本研究不是非劣效或等效性设计。",
+                "section_id": "11.4.2.7",
+                "title": "旨在表明等效性的阳性对照研究"
+              },
+              {
+                "disposition": "not_applicable",
+                "human_reason": "统计分析未预设亚组分析。",
+                "section_id": "11.4.2.8",
+                "title": "亚组的考察"
+              },
+              {
+                "disposition": "not_applicable",
+                "human_reason": "方案未设置暴露量或剂量与疗效反应关系分析。",
+                "section_id": "11.4.4",
+                "title": "药物剂量、药物浓度以及与效应之间的关系"
+              },
+              {
+                "disposition": "not_applicable",
+                "human_reason": "方案未设置药物相互作用或药物与疾病相互作用评价。",
+                "section_id": "11.4.5",
+                "title": "药物-药物和药物-疾病相互作用"
+              },
+              {
+                "disposition": "not_applicable",
+                "human_reason": "本研究未设定确证性疗效目的，探索性疗效结论在 11.6.7 呈现。",
+                "section_id": "11.4.7",
+                "title": "疗效结论"
+              }
+            ],
+            "omitted_count": 14,
+            "physical_form": "body_paragraphs"
+          }
+        ],
+        "omission_policy": "remove",
+        "omitted_official_heading_count": 14,
+        "omitted_sections": [
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "path": "analyses.analysis_sets",
+                "value": [
+                  "FAS",
+                  "mFAS",
+                  "SS",
+                  "PKCS",
+                  "PKPS"
+                ]
+              },
+              {
+                "path": "relocated_to",
+                "value": "10.3"
+              }
+            ],
+            "classification": "relocated",
+            "disposition": "relocated",
+            "driving_modules": [],
+            "human_reason": "分析数据集同时服务受试者处置、疗效、安全性和药代动力学评价，已统一移至 10.3 呈现。",
+            "layer": "ich-official",
+            "reason": "本节内容已按跨结果域结构调整移至 10.3。",
+            "relocate_to": "10.3",
+            "render_title": "分析数据集",
+            "retained": false,
+            "section_id": "11.1",
+            "semantic_role": null,
+            "title": "分析数据集",
+            "title_drivers": []
+          },
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "capability": "has_confirmatory_efficacy",
+                "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+                "facts": [
+                  {
+                    "path": "analyses.hypothesis_test",
+                    "value": false
+                  },
+                  {
+                    "path": "objectives.confirmatory_efficacy",
+                    "value": false
+                  }
+                ],
+                "value": false
+              }
+            ],
+            "classification": "conditional_omitted",
+            "disposition": "not_applicable",
+            "driving_modules": [],
+            "human_reason": "本研究未设定确证性疗效目的，疗效结果按探索性结构在 11.6.1 呈现。",
+            "layer": "ich-official",
+            "reason": "研究事实不满足本节适用条件。",
+            "relocate_to": null,
+            "render_title": "疗效分析",
+            "retained": false,
+            "section_id": "11.4.1",
+            "semantic_role": null,
+            "title": "疗效分析",
+            "title_drivers": []
+          },
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "capability": "has_confirmatory_efficacy",
+                "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+                "facts": [
+                  {
+                    "path": "analyses.hypothesis_test",
+                    "value": false
+                  },
+                  {
+                    "path": "objectives.confirmatory_efficacy",
+                    "value": false
+                  }
+                ],
+                "value": false
+              }
+            ],
+            "classification": "conditional_omitted",
+            "disposition": "not_applicable",
+            "driving_modules": [],
+            "human_reason": "本研究未设定确证性疗效分析，本项未作为独立确证性分析节呈现；适用方法须在探索性统计分析内容中依据 SAP 核对。",
+            "layer": "ich-official",
+            "reason": "研究事实不满足本节适用条件。",
+            "relocate_to": null,
+            "render_title": "统计/分析内容",
+            "retained": false,
+            "section_id": "11.4.2",
+            "semantic_role": null,
+            "title": "统计/分析内容",
+            "title_drivers": []
+          },
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "capability": "has_confirmatory_efficacy",
+                "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+                "facts": [
+                  {
+                    "path": "analyses.hypothesis_test",
+                    "value": false
+                  },
+                  {
+                    "path": "objectives.confirmatory_efficacy",
+                    "value": false
+                  }
+                ],
+                "value": false
+              }
+            ],
+            "classification": "conditional_omitted",
+            "disposition": "not_applicable",
+            "driving_modules": [],
+            "human_reason": "本研究未设定确证性疗效目的，适用的协变量校正分析在 11.6.2.1 呈现。",
+            "layer": "ich-official",
+            "reason": "研究事实不满足本节适用条件。",
+            "relocate_to": null,
+            "render_title": "协变量的调整",
+            "retained": false,
+            "section_id": "11.4.2.1",
+            "semantic_role": null,
+            "title": "协变量的调整",
+            "title_drivers": []
+          },
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "capability": "has_confirmatory_efficacy",
+                "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+                "facts": [
+                  {
+                    "path": "analyses.hypothesis_test",
+                    "value": false
+                  },
+                  {
+                    "path": "objectives.confirmatory_efficacy",
+                    "value": false
+                  }
+                ],
+                "value": false
+              }
+            ],
+            "classification": "conditional_omitted",
+            "disposition": "not_applicable",
+            "driving_modules": [],
+            "human_reason": "本研究未设定确证性疗效分析，本项未作为独立确证性分析节呈现；适用方法须在探索性统计分析内容中依据 SAP 核对。",
+            "layer": "ich-official",
+            "reason": "研究事实不满足本节适用条件。",
+            "relocate_to": null,
+            "render_title": "脱落或缺失数据的处理",
+            "retained": false,
+            "section_id": "11.4.2.2",
+            "semantic_role": null,
+            "title": "脱落或缺失数据的处理",
+            "title_drivers": []
+          },
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "capability": "has_confirmatory_efficacy",
+                "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+                "facts": [
+                  {
+                    "path": "analyses.hypothesis_test",
+                    "value": false
+                  },
+                  {
+                    "path": "objectives.confirmatory_efficacy",
+                    "value": false
+                  }
+                ],
+                "value": false
+              },
+              {
+                "capability": "has_interim_analysis",
+                "condition": "design.interim_analysis",
+                "facts": [
+                  {
+                    "path": "design.interim_analysis",
+                    "value": false
+                  }
+                ],
+                "value": false
+              }
+            ],
+            "classification": "conditional_omitted",
+            "disposition": "not_applicable",
+            "driving_modules": [],
+            "human_reason": "方案未设置期中分析或独立数据监查安排。",
+            "layer": "ich-official",
+            "reason": "研究事实不满足本节适用条件。",
+            "relocate_to": null,
+            "render_title": "试验期中分析和数据监查",
+            "retained": false,
+            "section_id": "11.4.2.3",
+            "semantic_role": null,
+            "title": "试验期中分析和数据监查",
+            "title_drivers": []
+          },
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "capability": "has_confirmatory_efficacy",
+                "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+                "facts": [
+                  {
+                    "path": "analyses.hypothesis_test",
+                    "value": false
+                  },
+                  {
+                    "path": "objectives.confirmatory_efficacy",
+                    "value": false
+                  }
+                ],
+                "value": false
+              },
+              {
+                "capability": "is_multicenter",
+                "condition": "design.n_centers > 1",
+                "facts": [
+                  {
+                    "path": "design.n_centers",
+                    "value": 2
+                  }
+                ],
+                "value": true
+              }
+            ],
+            "classification": "conditional_omitted",
+            "disposition": "not_applicable",
+            "driving_modules": [],
+            "human_reason": "本研究未设定确证性疗效目的，适用的多中心分析在 11.6.2.4 呈现。",
+            "layer": "ich-official",
+            "reason": "研究事实不满足本节适用条件。",
+            "relocate_to": null,
+            "render_title": "多中心研究",
+            "retained": false,
+            "section_id": "11.4.2.4",
+            "semantic_role": null,
+            "title": "多中心研究",
+            "title_drivers": []
+          },
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "capability": "has_confirmatory_efficacy",
+                "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+                "facts": [
+                  {
+                    "path": "analyses.hypothesis_test",
+                    "value": false
+                  },
+                  {
+                    "path": "objectives.confirmatory_efficacy",
+                    "value": false
+                  }
+                ],
+                "value": false
+              },
+              {
+                "capability": "has_multiplicity_control",
+                "condition": "analyses.multiplicity_control",
+                "facts": [
+                  {
+                    "path": "analyses.multiplicity_control",
+                    "value": false
+                  }
+                ],
+                "value": false
+              }
+            ],
+            "classification": "conditional_omitted",
+            "disposition": "not_applicable",
+            "driving_modules": [],
+            "human_reason": "统计分析未设置多重比较或多重性控制。",
+            "layer": "ich-official",
+            "reason": "研究事实不满足本节适用条件。",
+            "relocate_to": null,
+            "render_title": "多重比较/多重性",
+            "retained": false,
+            "section_id": "11.4.2.5",
+            "semantic_role": null,
+            "title": "多重比较/多重性",
+            "title_drivers": []
+          },
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "capability": "has_confirmatory_efficacy",
+                "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+                "facts": [
+                  {
+                    "path": "analyses.hypothesis_test",
+                    "value": false
+                  },
+                  {
+                    "path": "objectives.confirmatory_efficacy",
+                    "value": false
+                  }
+                ],
+                "value": false
+              },
+              {
+                "capability": "has_estimand_framework",
+                "condition": "analyses.estimand_framework",
+                "facts": [
+                  {
+                    "path": "analyses.estimand_framework",
+                    "value": false
+                  }
+                ],
+                "value": false
+              }
+            ],
+            "classification": "conditional_omitted",
+            "disposition": "not_applicable",
+            "driving_modules": [],
+            "human_reason": "方案和统计分析未采用估计目标框架。",
+            "layer": "ich-official",
+            "reason": "研究事实不满足本节适用条件。",
+            "relocate_to": null,
+            "render_title": "患者『疗效子集』的使用",
+            "retained": false,
+            "section_id": "11.4.2.6",
+            "semantic_role": null,
+            "title": "患者『疗效子集』的使用",
+            "title_drivers": []
+          },
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "capability": "has_confirmatory_efficacy",
+                "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+                "facts": [
+                  {
+                    "path": "analyses.hypothesis_test",
+                    "value": false
+                  },
+                  {
+                    "path": "objectives.confirmatory_efficacy",
+                    "value": false
+                  }
+                ],
+                "value": false
+              },
+              {
+                "capability": "has_noninferiority",
+                "condition": "design.noninferiority",
+                "facts": [
+                  {
+                    "path": "design.noninferiority",
+                    "value": false
+                  }
+                ],
+                "value": false
+              },
+              {
+                "capability": "is_bioequivalence_study",
+                "condition": "design.study_type == bioequivalence || bioequivalence in design.clinical_pharmacology_studies",
+                "facts": [
+                  {
+                    "path": "design.clinical_pharmacology_studies",
+                    "value": []
+                  },
+                  {
+                    "path": "design.study_type",
+                    "value": "general_interventional"
+                  }
+                ],
+                "value": false
+              }
+            ],
+            "classification": "conditional_omitted",
+            "disposition": "not_applicable",
+            "driving_modules": [],
+            "human_reason": "本研究不是非劣效或等效性设计。",
+            "layer": "ich-official",
+            "reason": "研究事实不满足本节适用条件。",
+            "relocate_to": null,
+            "render_title": "旨在表明等效性的阳性对照研究",
+            "retained": false,
+            "section_id": "11.4.2.7",
+            "semantic_role": null,
+            "title": "旨在表明等效性的阳性对照研究",
+            "title_drivers": []
+          },
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "capability": "has_confirmatory_efficacy",
+                "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+                "facts": [
+                  {
+                    "path": "analyses.hypothesis_test",
+                    "value": false
+                  },
+                  {
+                    "path": "objectives.confirmatory_efficacy",
+                    "value": false
+                  }
+                ],
+                "value": false
+              },
+              {
+                "capability": "has_subgroup_analysis",
+                "condition": "analyses.subgroup",
+                "facts": [
+                  {
+                    "path": "analyses.subgroup",
+                    "value": false
+                  }
+                ],
+                "value": false
+              }
+            ],
+            "classification": "conditional_omitted",
+            "disposition": "not_applicable",
+            "driving_modules": [],
+            "human_reason": "统计分析未预设亚组分析。",
+            "layer": "ich-official",
+            "reason": "研究事实不满足本节适用条件。",
+            "relocate_to": null,
+            "render_title": "亚组的考察",
+            "retained": false,
+            "section_id": "11.4.2.8",
+            "semantic_role": null,
+            "title": "亚组的考察",
+            "title_drivers": []
+          },
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "capability": "has_exposure_response",
+                "condition": "analyses.exposure_response",
+                "facts": [
+                  {
+                    "path": "analyses.exposure_response",
+                    "value": false
+                  }
+                ],
+                "value": false
+              }
+            ],
+            "classification": "conditional_omitted",
+            "disposition": "not_applicable",
+            "driving_modules": [],
+            "human_reason": "方案未设置暴露量或剂量与疗效反应关系分析。",
+            "layer": "ich-official",
+            "reason": "研究事实不满足本节适用条件。",
+            "relocate_to": null,
+            "render_title": "药物剂量、药物浓度以及与效应之间的关系",
+            "retained": false,
+            "section_id": "11.4.4",
+            "semantic_role": null,
+            "title": "药物剂量、药物浓度以及与效应之间的关系",
+            "title_drivers": []
+          },
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "capability": "is_ddi_study",
+                "condition": "design.study_type == drug_drug_interaction || drug_drug_interaction in design.clinical_pharmacology_studies",
+                "facts": [
+                  {
+                    "path": "design.clinical_pharmacology_studies",
+                    "value": []
+                  },
+                  {
+                    "path": "design.study_type",
+                    "value": "general_interventional"
+                  }
+                ],
+                "value": false
+              }
+            ],
+            "classification": "conditional_omitted",
+            "disposition": "not_applicable",
+            "driving_modules": [],
+            "human_reason": "方案未设置药物相互作用或药物与疾病相互作用评价。",
+            "layer": "ich-official",
+            "reason": "研究事实不满足本节适用条件。",
+            "relocate_to": null,
+            "render_title": "药物-药物和药物-疾病相互作用",
+            "retained": false,
+            "section_id": "11.4.5",
+            "semantic_role": null,
+            "title": "药物-药物和药物-疾病相互作用",
+            "title_drivers": []
+          },
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "capability": "has_confirmatory_efficacy",
+                "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+                "facts": [
+                  {
+                    "path": "analyses.hypothesis_test",
+                    "value": false
+                  },
+                  {
+                    "path": "objectives.confirmatory_efficacy",
+                    "value": false
+                  }
+                ],
+                "value": false
+              }
+            ],
+            "classification": "conditional_omitted",
+            "disposition": "not_applicable",
+            "driving_modules": [],
+            "human_reason": "本研究未设定确证性疗效目的，探索性疗效结论在 11.6.7 呈现。",
+            "layer": "ich-official",
+            "reason": "研究事实不满足本节适用条件。",
+            "relocate_to": null,
+            "render_title": "疗效结论",
+            "retained": false,
+            "section_id": "11.4.7",
+            "semantic_role": "efficacy_conclusion",
+            "title": "疗效结论",
+            "title_drivers": []
+          }
+        ],
+        "output_sha256": "21e8d281df9d8c430fc166f10c29068ce5e70fe07c7a903c046a306565072c08",
+        "pending_count": 121,
+        "publication_anchor_count": 9,
+        "publication_reference_count": 9,
+        "retained_official_heading_count": 108,
+        "retained_section_ids": [
+          "1",
+          "2",
+          "3",
+          "3.1",
+          "3.2",
+          "3.3",
+          "3.4",
+          "3.5",
+          "3.6",
+          "4",
+          "5",
+          "5.1",
+          "5.2",
+          "5.3",
+          "6",
+          "7",
+          "8",
+          "9",
+          "9.1",
+          "9.2",
+          "9.3",
+          "9.3.1",
+          "9.3.2",
+          "9.3.3",
+          "9.4",
+          "9.4.1",
+          "9.4.2",
+          "9.4.3",
+          "9.4.4",
+          "9.4.5",
+          "9.4.6",
+          "9.4.7",
+          "9.4.8",
+          "9.5",
+          "9.5.1",
+          "9.5.1.1",
+          "9.5.2",
+          "9.5.3",
+          "9.5.4",
+          "9.5.6",
+          "9.5.7",
+          "9.5.8",
+          "9.5.9",
+          "9.6",
+          "9.7",
+          "9.7.1",
+          "9.7.2",
+          "9.8",
+          "10",
+          "10.1",
+          "10.2",
+          "10.3",
+          "10.3.1",
+          "10.3.2",
+          "10.3.3",
+          "10.3.4",
+          "10.3.5",
+          "11",
+          "11.2",
+          "11.3",
+          "11.4",
+          "11.4.3",
+          "11.4.6",
+          "11.5",
+          "11.5.1",
+          "11.5.2",
+          "11.5.3",
+          "11.5.4",
+          "11.5.5",
+          "11.5.6",
+          "11.5.7",
+          "11.5.8",
+          "11.5.9",
+          "11.5.10",
+          "11.6",
+          "11.6.1",
+          "11.6.1.4",
+          "11.6.2",
+          "11.6.2.1",
+          "11.6.2.4",
+          "11.6.7",
+          "12",
+          "12.1",
+          "12.2",
+          "12.2.1",
+          "12.2.2",
+          "12.2.3",
+          "12.2.4",
+          "12.2.6",
+          "12.2.7",
+          "12.2.9",
+          "12.3",
+          "12.3.1",
+          "12.3.1.1",
+          "12.3.1.2",
+          "12.3.1.3",
+          "12.3.2",
+          "12.3.3",
+          "12.4",
+          "12.4.1",
+          "12.4.2",
+          "12.4.2.1",
+          "12.4.2.2",
+          "12.4.2.3",
+          "12.5",
+          "12.5.1",
+          "12.5.2",
+          "12.6",
+          "12.7",
+          "13",
+          "14",
+          "14.1",
+          "14.1.1",
+          "14.1.2",
+          "14.1.3",
+          "14.2",
+          "14.3",
+          "14.3.1",
+          "14.3.2",
+          "14.3.3",
+          "14.3.4",
+          "15",
+          "16",
+          "16.0",
+          "16.1",
+          "16.1.1",
+          "16.1.2",
+          "16.1.3",
+          "16.1.4",
+          "16.1.5",
+          "16.1.6",
+          "16.1.7",
+          "16.1.8",
+          "16.1.9",
+          "16.1.10",
+          "16.1.11",
+          "16.1.12",
+          "16.2",
+          "16.2.1",
+          "16.2.2",
+          "16.2.3",
+          "16.2.4",
+          "16.2.5",
+          "16.2.6",
+          "16.2.7",
+          "16.2.8",
+          "16.3",
+          "16.3.1",
+          "16.3.2",
+          "16.4"
+        ],
+        "route_contribution_count": 48,
+        "route_coverage": [
+          {
+            "module_id": "M-CORE",
+            "section_id": "1-8",
+            "status": "official_scaffold_range",
+            "variant": "core"
+          },
+          {
+            "module_id": "M-CORE",
+            "section_id": "9.1-9.6",
+            "status": "official_scaffold_range",
+            "variant": "core"
+          },
+          {
+            "module_id": "M-CORE",
+            "section_id": "10",
+            "status": "source_gap",
+            "variant": "core"
+          },
+          {
+            "module_id": "M-CORE",
+            "section_id": "13-16",
+            "status": "official_scaffold_range",
+            "variant": "core"
+          },
+          {
+            "module_id": "M-DOSE-ESC",
+            "section_id": "12.6",
+            "status": "source_gap",
+            "variant": "dose_escalation"
+          },
+          {
+            "module_id": "M-PK-NCA",
+            "section_id": "11.5",
+            "status": "source_gap",
+            "variant": "pk_nca"
+          },
+          {
+            "module_id": "M-PK-NCA",
+            "section_id": "11.5.1",
+            "status": "source_gap",
+            "variant": "pk_analysis_set"
+          },
+          {
+            "module_id": "M-PK-NCA",
+            "section_id": "11.5.2",
+            "status": "source_gap",
+            "variant": "pk_concentration"
+          },
+          {
+            "module_id": "M-PK-NCA",
+            "section_id": "11.5.3",
+            "status": "source_gap",
+            "variant": "pk_blq"
+          },
+          {
+            "module_id": "M-PK-NCA",
+            "section_id": "11.5.4",
+            "status": "source_gap",
+            "variant": "pk_parameters"
+          },
+          {
+            "module_id": "M-PK-NCA",
+            "section_id": "11.5.5",
+            "status": "source_gap",
+            "variant": "pk_exposure"
+          },
+          {
+            "module_id": "M-PK-NCA",
+            "section_id": "11.5.6",
+            "status": "source_gap",
+            "variant": "pk_dose_proportionality"
+          },
+          {
+            "module_id": "M-PK-NCA",
+            "section_id": "11.5.7",
+            "status": "source_gap",
+            "variant": "pk_accumulation"
+          },
+          {
+            "module_id": "M-PK-NCA",
+            "section_id": "11.5.8",
+            "status": "source_gap",
+            "variant": "pk_application_factors"
+          },
+          {
+            "module_id": "M-PK-NCA",
+            "section_id": "11.5.9",
+            "status": "source_gap",
+            "variant": "pk_individual_outliers"
+          },
+          {
+            "module_id": "M-PK-NCA",
+            "section_id": "11.5.10",
+            "status": "source_gap",
+            "variant": "pk_conclusion"
+          },
+          {
+            "module_id": "M-PK-NCA",
+            "section_id": "9.5.4",
+            "status": "source_gap",
+            "variant": "pk_sampling"
+          },
+          {
+            "module_id": "M-EFF-EXPLORE",
+            "section_id": "11.6",
+            "status": "source_gap",
+            "variant": "exploratory"
+          },
+          {
+            "module_id": "M-EFF-EXPLORE",
+            "section_id": "11.6.1",
+            "status": "source_gap",
+            "variant": "exploratory_primary"
+          },
+          {
+            "module_id": "M-EFF-EXPLORE",
+            "section_id": "11.6.7",
+            "status": "source_gap",
+            "variant": "exploratory_efficacy_conclusion"
+          },
+          {
+            "module_id": "M-MULTICENTER",
+            "section_id": "11.6.2.4",
+            "status": "source_gap",
+            "variant": "center_effect"
+          },
+          {
+            "module_id": "M-MULTICENTER",
+            "section_id": "10.2",
+            "status": "source_gap",
+            "variant": "by_center"
+          },
+          {
+            "module_id": "M-MULTICENTER",
+            "section_id": "16.2.2",
+            "status": "source_gap",
+            "variant": "by_center"
+          },
+          {
+            "module_id": "M-LOCAL-TOLERANCE",
+            "section_id": "12.2.9",
+            "status": "source_gap",
+            "variant": "application_site_reactions"
+          },
+          {
+            "module_id": "M-LOCAL-TOLERANCE",
+            "section_id": "12.5.1",
+            "status": "source_gap",
+            "variant": "local_tolerance_ae_subset"
+          },
+          {
+            "module_id": "M-AE-CONSEQUENCE",
+            "section_id": "12.2",
+            "status": "source_gap",
+            "variant": "ae_consequence_pairs"
+          },
+          {
+            "module_id": "M-AE-CONSEQUENCE",
+            "section_id": "12.2.6",
+            "status": "source_gap",
+            "variant": "ae_permanent_discontinuation"
+          },
+          {
+            "module_id": "M-AE-CONSEQUENCE",
+            "section_id": "12.2.7",
+            "status": "source_gap",
+            "variant": "ae_interruption_or_adjustment"
+          },
+          {
+            "module_id": "M-TOPICAL-PK",
+            "section_id": "11.5",
+            "status": "source_gap",
+            "variant": "topical_low_systemic_exposure"
+          },
+          {
+            "module_id": "M-TOPICAL-PK",
+            "section_id": "11.5.1",
+            "status": "source_gap",
+            "variant": "pk_analysis_set"
+          },
+          {
+            "module_id": "M-TOPICAL-PK",
+            "section_id": "11.5.2",
+            "status": "source_gap",
+            "variant": "pk_concentration"
+          },
+          {
+            "module_id": "M-TOPICAL-PK",
+            "section_id": "11.5.3",
+            "status": "source_gap",
+            "variant": "pk_blq"
+          },
+          {
+            "module_id": "M-TOPICAL-PK",
+            "section_id": "11.5.4",
+            "status": "source_gap",
+            "variant": "pk_parameters"
+          },
+          {
+            "module_id": "M-TOPICAL-PK",
+            "section_id": "11.5.5",
+            "status": "source_gap",
+            "variant": "pk_exposure"
+          },
+          {
+            "module_id": "M-TOPICAL-PK",
+            "section_id": "11.5.6",
+            "status": "source_gap",
+            "variant": "pk_dose_proportionality"
+          },
+          {
+            "module_id": "M-TOPICAL-PK",
+            "section_id": "11.5.7",
+            "status": "source_gap",
+            "variant": "pk_accumulation"
+          },
+          {
+            "module_id": "M-TOPICAL-PK",
+            "section_id": "11.5.8",
+            "status": "source_gap",
+            "variant": "pk_application_factors"
+          },
+          {
+            "module_id": "M-TOPICAL-PK",
+            "section_id": "11.5.9",
+            "status": "source_gap",
+            "variant": "pk_individual_outliers"
+          },
+          {
+            "module_id": "M-TOPICAL-PK",
+            "section_id": "11.5.10",
+            "status": "source_gap",
+            "variant": "pk_conclusion"
+          },
+          {
+            "module_id": "M-TOPICAL-PK",
+            "section_id": "9.5.4",
+            "status": "source_gap",
+            "variant": "topical_pk_sampling"
+          },
+          {
+            "module_id": "M-RANDOMIZED",
+            "section_id": "9.4.3",
+            "status": "source_gap",
+            "variant": "randomization"
+          },
+          {
+            "module_id": "M-RANDOMIZED",
+            "section_id": "16.1.7",
+            "status": "source_gap",
+            "variant": "randomization_schedule"
+          },
+          {
+            "module_id": "M-BLINDING",
+            "section_id": "9.4.6",
+            "status": "source_gap",
+            "variant": "blinding"
+          },
+          {
+            "module_id": "M-PLACEBO-CTRL",
+            "section_id": "9.2",
+            "status": "source_gap",
+            "variant": "placebo_control"
+          },
+          {
+            "module_id": "M-PLACEBO-CTRL",
+            "section_id": "9.4.1",
+            "status": "source_gap",
+            "variant": "placebo_matching"
+          },
+          {
+            "module_id": "M-DERMATOLOGY",
+            "section_id": "11.6.1",
+            "status": "source_gap",
+            "variant": "dermatology_scales"
+          },
+          {
+            "module_id": "M-DERMATOLOGY",
+            "section_id": "11.6.2.1",
+            "status": "source_gap",
+            "variant": "dermatology_ancova"
+          },
+          {
+            "module_id": "M-ECG",
+            "section_id": "12.5.2",
+            "status": "source_gap",
+            "variant": "ecg_evaluation"
+          }
+        ],
+        "route_coverage_count": 48,
+        "schema_version": "2.0",
+        "source_gap_block_count": 119,
+        "status": "pass",
+        "synopsis_contract": {
+          "independent_drafting_allowed": false,
+          "status": "blocked_until_body_confirmed"
+        },
+        "title_overrides": {
+          "applied": [
+            {
+              "localized_zh": "本临床研究报告目录",
+              "official_en": "TABLE OF CONTENTS FOR THE INDIVIDUAL CLINICAL STUDY REPORT",
+              "official_zh": "个例临床研究报告目录",
+              "reason": "「个例」易被误解为单个受试者病例；审阅意见 §一.4。",
+              "section_id": "3"
+            }
+          ],
+          "config_sha256": "0dca2d66e54221e3634ad8cf91e4e15fdf53d2c28f77184b5218446a64b2048b",
+          "structure_sha256": "87ea56d599120e265c1649881a9d3ad1c08db540a91be13de6a2bd31a6bc0942"
+        }
+      },
+      "sha256": "21e8d281df9d8c430fc166f10c29068ce5e70fe07c7a903c046a306565072c08"
+    },
+    "clean": {
+      "ooxml_qc": {
+        "centered_page_field_count": 1,
+        "checks": {
+          "composition_plan_bound": "pass",
+          "no_unresolved_placeholders": "pass",
+          "omission_declarations_present": "pass",
+          "page_field_centered": "pass",
+          "page_field_present": "pass",
+          "six_directory_fields_preserved": "pass",
+          "word_fields_enabled_for_update": "pass"
+        },
+        "composition_plan_sha256": "ef5ea9e50381511c4f8316bdce9822d24e39e0955a6a56a375010ed27a7b3268",
+        "directory_word_field_count": 6,
+        "omission_reason_line_count": 14,
+        "page_field_count": 1,
+        "ref_field_count": 9,
+        "status": "pass"
+      },
+      "path": "/Users/huanglu/临床试验总结报告撰写/csr-writer/examples/output/m21/ib_randomized_double_blind/08_unified_composition/M21_Ib_randomized_double_blind.clean.docx",
+      "render": {
+        "appendix_status_plan": {
+          "rows": [
+            {
+              "appendix_id": "16.1.1",
+              "category": "csr_required",
+              "category_title": "1. CSR 必需审评附件",
+              "e3_submit_metadata": "always",
+              "file_name": "方案和方案修订案",
+              "qa_basis": "",
+              "reason_or_on_request": "E3 核心审评附件；具体文件版本以正式附件清单为准。",
+              "submission_location": "CSR 16.1.1",
+              "submitted": "是"
+            },
+            {
+              "appendix_id": "16.1.2",
+              "category": "csr_required",
+              "category_title": "1. CSR 必需审评附件",
+              "e3_submit_metadata": "always",
+              "file_name": "病例报告表样本（仅提供唯一页面）",
+              "qa_basis": "",
+              "reason_or_on_request": "E3 核心审评附件；具体文件版本以正式附件清单为准。",
+              "submission_location": "CSR 16.1.2",
+              "submitted": "是"
+            },
+            {
+              "appendix_id": "16.1.5",
+              "category": "csr_required",
+              "category_title": "1. CSR 必需审评附件",
+              "e3_submit_metadata": "not-specified",
+              "file_name": "主要或协调研究者或申办方负责医学专员的签名",
+              "qa_basis": "",
+              "reason_or_on_request": "E3 核心审评附件；具体文件版本以正式附件清单为准。",
+              "submission_location": "CSR 16.1.5",
+              "submitted": "是"
+            },
+            {
+              "appendix_id": "16.1.9",
+              "category": "csr_required",
+              "category_title": "1. CSR 必需审评附件",
+              "e3_submit_metadata": "always",
+              "file_name": "统计学方法的文件",
+              "qa_basis": "",
+              "reason_or_on_request": "E3 核心审评附件；具体文件版本以正式附件清单为准。",
+              "submission_location": "CSR 16.1.9",
+              "submitted": "是"
+            },
+            {
+              "appendix_id": "16.1.7",
+              "category": "csr_required",
+              "category_title": "1. CSR 必需审评附件",
+              "e3_submit_metadata": "always",
+              "file_name": "随机方案和编号",
+              "qa_basis": "",
+              "reason_or_on_request": "本研究为随机化设计。",
+              "submission_location": "CSR 16.1.7",
+              "submitted": "是"
+            },
+            {
+              "appendix_id": "16.1.4",
+              "category": "csr_required",
+              "category_title": "1. CSR 必需审评附件",
+              "e3_submit_metadata": "conditional",
+              "file_name": "研究者及其他重要研究参与者的列表和描述，包括个人简历（名单部分）",
+              "qa_basis": "⚠ Q&A Q3：研究者 **CV 通常不放入** CSR 附录；但研究者与中心名单『always be needed』",
+              "reason_or_on_request": "研究者和中心名单纳入附件；个人简历按 E3 Q&A Q3 留 TMF。",
+              "submission_location": "CSR 16.1.4",
+              "submitted": "部分提交"
+            },
+            {
+              "appendix_id": "16.2.1",
+              "category": "regional",
+              "category_title": "2. 本次注册申请需提交的地区性附件",
+              "e3_submit_metadata": "not-specified",
+              "file_name": "终止研究患者",
+              "qa_basis": "",
+              "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+              "submission_location": "地区性申报附件位置",
+              "submitted": "条件性"
+            },
+            {
+              "appendix_id": "16.2.2",
+              "category": "regional",
+              "category_title": "2. 本次注册申请需提交的地区性附件",
+              "e3_submit_metadata": "not-specified",
+              "file_name": "方案偏离",
+              "qa_basis": "",
+              "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+              "submission_location": "地区性申报附件位置",
+              "submitted": "条件性"
+            },
+            {
+              "appendix_id": "16.2.3",
+              "category": "regional",
+              "category_title": "2. 本次注册申请需提交的地区性附件",
+              "e3_submit_metadata": "not-specified",
+              "file_name": "疗效分析中排除的患者",
+              "qa_basis": "",
+              "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+              "submission_location": "地区性申报附件位置",
+              "submitted": "条件性"
+            },
+            {
+              "appendix_id": "16.2.4",
+              "category": "regional",
+              "category_title": "2. 本次注册申请需提交的地区性附件",
+              "e3_submit_metadata": "not-specified",
+              "file_name": "人口统计学数据",
+              "qa_basis": "",
+              "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+              "submission_location": "地区性申报附件位置",
+              "submitted": "条件性"
+            },
+            {
+              "appendix_id": "16.2.5",
+              "category": "regional",
+              "category_title": "2. 本次注册申请需提交的地区性附件",
+              "e3_submit_metadata": "not-specified",
+              "file_name": "依从性和/或药物浓度数据",
+              "qa_basis": "",
+              "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+              "submission_location": "地区性申报附件位置",
+              "submitted": "条件性"
+            },
+            {
+              "appendix_id": "16.2.6",
+              "category": "regional",
+              "category_title": "2. 本次注册申请需提交的地区性附件",
+              "e3_submit_metadata": "not-specified",
+              "file_name": "个体疗效数据",
+              "qa_basis": "",
+              "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+              "submission_location": "地区性申报附件位置",
+              "submitted": "条件性"
+            },
+            {
+              "appendix_id": "16.2.7",
+              "category": "regional",
+              "category_title": "2. 本次注册申请需提交的地区性附件",
+              "e3_submit_metadata": "not-specified",
+              "file_name": "不良事件列表（各患者）",
+              "qa_basis": "",
+              "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+              "submission_location": "地区性申报附件位置",
+              "submitted": "条件性"
+            },
+            {
+              "appendix_id": "16.2.8",
+              "category": "regional",
+              "category_title": "2. 本次注册申请需提交的地区性附件",
+              "e3_submit_metadata": "conditional",
+              "file_name": "按患者列出的个体实验室测量值列表",
+              "qa_basis": "",
+              "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+              "submission_location": "地区性申报附件位置",
+              "submitted": "条件性"
+            },
+            {
+              "appendix_id": "16.3.1",
+              "category": "regional",
+              "category_title": "2. 本次注册申请需提交的地区性附件",
+              "e3_submit_metadata": "not-specified",
+              "file_name": "死亡、其他严重不良事件或 AE 导致的退出的 CRF",
+              "qa_basis": "",
+              "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+              "submission_location": "地区性申报附件位置",
+              "submitted": "条件性"
+            },
+            {
+              "appendix_id": "16.3.2",
+              "category": "regional",
+              "category_title": "2. 本次注册申请需提交的地区性附件",
+              "e3_submit_metadata": "not-specified",
+              "file_name": "递交的其他 CRF",
+              "qa_basis": "",
+              "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+              "submission_location": "地区性申报附件位置",
+              "submitted": "条件性"
+            },
+            {
+              "appendix_id": "16.1.3",
+              "category": "tmf_on_request",
+              "category_title": "3. TMF 留存、可按要求提供的附件",
+              "e3_submit_metadata": "conditional",
+              "file_name": "IEC 或 IRB 列表 - 代表性患者书面信息和同意书样本",
+              "qa_basis": "⚠ Q&A Q3：伦理批件与知情同意书**通常不放入 CSR 附录**，留 TMF",
+              "reason_or_on_request": "伦理批件、患者书面信息和知情同意文件通常留 TMF，可按监管要求提供（E3 Q&A Q3）。",
+              "submission_location": "TMF",
+              "submitted": "否"
+            },
+            {
+              "appendix_id": "16.1.4",
+              "category": "tmf_on_request",
+              "category_title": "3. TMF 留存、可按要求提供的附件",
+              "e3_submit_metadata": "conditional",
+              "file_name": "研究者及其他重要研究参与者的列表和描述，包括个人简历（个人简历部分）",
+              "qa_basis": "⚠ Q&A Q3：研究者 **CV 通常不放入** CSR 附录；但研究者与中心名单『always be needed』",
+              "reason_or_on_request": "研究者个人简历通常不纳入 CSR，可按要求提供（E3 Q&A Q3）。",
+              "submission_location": "TMF",
+              "submitted": "否"
+            },
+            {
+              "appendix_id": "16.1.6",
+              "category": "tmf_on_request",
+              "category_title": "3. TMF 留存、可按要求提供的附件",
+              "e3_submit_metadata": "conditional",
+              "file_name": "如使用 1 批以上药物，接受特定批次试验药品的患者列表",
+              "qa_basis": "⚠ Q&A Q3：每例受试者的批号通常不放入 CSR 附录",
+              "reason_or_on_request": "按受试者列出的批号信息通常留 TMF，可按要求提供（E3 Q&A Q3）。",
+              "submission_location": "TMF",
+              "submitted": "否"
+            },
+            {
+              "appendix_id": "16.1.8",
+              "category": "not_applicable",
+              "category_title": "4. 不适用附件",
+              "e3_submit_metadata": "conditional",
+              "file_name": "稽查证书（如有）",
+              "qa_basis": "",
+              "reason_or_on_request": "当前已确认研究事实未证实存在可提交的稽查证书。",
+              "submission_location": "不适用",
+              "submitted": "否"
+            },
+            {
+              "appendix_id": "16.1.10",
+              "category": "not_applicable",
+              "category_title": "4. 不适用附件",
+              "e3_submit_metadata": "conditional",
+              "file_name": "实验室间标准化方法和质量保证程序的文件（如使用）",
+              "qa_basis": "",
+              "reason_or_on_request": "当前已确认研究事实未证实使用实验室间标准化方法。",
+              "submission_location": "不适用",
+              "submitted": "否"
+            },
+            {
+              "appendix_id": "16.1.11",
+              "category": "not_applicable",
+              "category_title": "4. 不适用附件",
+              "e3_submit_metadata": "conditional",
+              "file_name": "基于研究的发表文章",
+              "qa_basis": "",
+              "reason_or_on_request": "当前已确认研究事实未证实存在基于本研究的发表文章。",
+              "submission_location": "不适用",
+              "submitted": "否"
+            },
+            {
+              "appendix_id": "16.1.12",
+              "category": "not_applicable",
+              "category_title": "4. 不适用附件",
+              "e3_submit_metadata": "conditional",
+              "file_name": "报告中引用的重要发表文章",
+              "qa_basis": "",
+              "reason_or_on_request": "当前已确认研究事实未证实存在需作为附件的重要引用文献。",
+              "submission_location": "不适用",
+              "submitted": "否"
+            },
+            {
+              "appendix_id": "16.4",
+              "category": "not_applicable",
+              "category_title": "4. 不适用附件",
+              "e3_submit_metadata": "US only",
+              "file_name": "个例患者数据列表（US 存档列表）",
+              "qa_basis": "",
+              "reason_or_on_request": "本次提交地区为 CDE；16.4 仅为 US 存档列表。",
+              "submission_location": "不适用",
+              "submitted": "否"
+            }
+          ]
+        },
+        "appendix_status_row_count": 24,
+        "composition_plan_sha256": "ef5ea9e50381511c4f8316bdce9822d24e39e0955a6a56a375010ed27a7b3268",
+        "conclusion_order": [
+          {
+            "last": true,
+            "section_id": "11.5.10",
+            "semantic_role": "pk_conclusion",
+            "visible_siblings": [
+              "11.5.1",
+              "11.5.2",
+              "11.5.3",
+              "11.5.4",
+              "11.5.5",
+              "11.5.6",
+              "11.5.7",
+              "11.5.8",
+              "11.5.9",
+              "11.5.10"
+            ]
+          },
+          {
+            "last": true,
+            "section_id": "11.6.7",
+            "semantic_role": "exploratory_efficacy_conclusion",
+            "visible_siblings": [
+              "11.6.1",
+              "11.6.2",
+              "11.6.7"
+            ]
+          },
+          {
+            "last": true,
+            "section_id": "12.7",
+            "semantic_role": "safety_conclusion",
+            "visible_siblings": [
+              "12.1",
+              "12.2",
+              "12.3",
+              "12.4",
+              "12.5",
+              "12.6",
+              "12.7"
+            ]
+          }
+        ],
+        "content_block_count": 4,
+        "cross_references": {
+          "bookmark_count": 159,
+          "field_count": 9,
+          "status": "pass",
+          "unique_target_count": 5
+        },
+        "deterministic_bundle": {
+          "appendix_status_row_count": 24,
+          "artifact_hashes": [
+            {
+              "artifact_sha256": "761f5ce07d0d50157d66cff34dfeae5b2f55acc412aab39f2e3aafb18c639e5d",
+              "section_id": "1"
+            },
+            {
+              "artifact_sha256": "9f65de5a4eaeea96a3eba48a0a1104d8e57e93951c74c4d79df6c13bacf5beaf",
+              "section_id": "2"
+            },
+            {
+              "artifact_sha256": "f7ea215d03ea5f4a5ae419e69975b50585095b7b9414b7ae6337de8b6db18849",
+              "section_id": "3.1"
+            },
+            {
+              "artifact_sha256": "84f2780d7d403441ae0e1019156585ea42f8afa3537d6e8921644536d5bde08d",
+              "section_id": "3.2"
+            },
+            {
+              "artifact_sha256": "2dafe15e51e05d90fe082a6e979cd53cd9959a18525fd3213ce31a4a51638edd",
+              "section_id": "3.3"
+            },
+            {
+              "artifact_sha256": "fec9ca8a06f5eb5226d4546f0a930c543da2d4459b2fdf6b0f460e6cd2d0e475",
+              "section_id": "3.4"
+            },
+            {
+              "artifact_sha256": "4948debfe1a8e30c04eefafe5327295cd0434873cb67e7bc72b1bfc6cfabfaf7",
+              "section_id": "3.5"
+            },
+            {
+              "artifact_sha256": "6f2b50df6219a6f5649c9c4379bb1cf8a65d25f1e941f3e8cf041307bfc9e2c9",
+              "section_id": "3.6"
+            },
+            {
+              "artifact_sha256": "41415f9f474f6a639cc51a3ed200d70b3187d1d1d78aaca00324e2ac368e0b6d",
+              "section_id": "5.1"
+            },
+            {
+              "artifact_sha256": "e7da4552a29ea13829c3267e2543185dcff7012679f295d7b1ceabc47a8bf630",
+              "section_id": "5.2"
+            },
+            {
+              "artifact_sha256": "424213febd897a7b6d31f9f53d1b63127a5ba50837485ae0b3496d0cfe74ad2e",
+              "section_id": "5.3"
+            },
+            {
+              "artifact_sha256": "7b1ed49ddbcf024ce576f015de1ea35c2e0e6368d45fd4c79abf3ffe9dd8f8bc",
+              "section_id": "11.4.3"
+            },
+            {
+              "artifact_sha256": "6dbfbf3c14573171b5cf6b273058d548752b53b22879510e26dab29dee1977ae",
+              "section_id": "11.4.6"
+            },
+            {
+              "artifact_sha256": "c9353d227125278d4293381e3f75ffa9a52028f608044897e0ab334cf00e7265",
+              "section_id": "12.2.2"
+            },
+            {
+              "artifact_sha256": "ce759c42f9a6375e3658b4d31a9e0b32c415f289b4b0d99bcf12856c836f27ff",
+              "section_id": "12.2.4"
+            },
+            {
+              "artifact_sha256": "a6f645e86a589dabb25bd9edebf015aa1c702b34db52d1d5ee2f5599dff0cd6e",
+              "section_id": "12.3.1.1"
+            },
+            {
+              "artifact_sha256": "d478bf78e40a45547de5dc717f0f823c013ae7c967aa628d03a611b036df2507",
+              "section_id": "12.3.1.2"
+            },
+            {
+              "artifact_sha256": "ffb76d01de04be7d9fc10c954b7a408ae18e2917bca626b1030a320d24412da0",
+              "section_id": "12.3.1.3"
+            },
+            {
+              "artifact_sha256": "43fe8ce1e829cc8ea043c27f8f9f7e61a56fb85fa75f8875c9ef1f9f7562df58",
+              "section_id": "12.4.1"
+            },
+            {
+              "artifact_sha256": "ea61af863a46b67347981771a07011c21349e5437b1ce38e8a53f8b5e25feea8",
+              "section_id": "14.1.1"
+            },
+            {
+              "artifact_sha256": "12f65409194c9c2b07ee3585fccb7360ada1478444a252aa46f6fa6846b1c1cd",
+              "section_id": "14.1.2"
+            },
+            {
+              "artifact_sha256": "add5c7e7bf3c27445d6d39a699dc00dcb1fca3406ec9a4ab571267e04a49133a",
+              "section_id": "14.1.3"
+            },
+            {
+              "artifact_sha256": "631407c32887328321964a11bbcb7499beaa3561e7c6d9459b19d579cae2d530",
+              "section_id": "14.2"
+            },
+            {
+              "artifact_sha256": "5f16abb741bbf781528ec675f2f52754fc2188faaed4699c2df9994b2e743b8f",
+              "section_id": "14.3.1"
+            },
+            {
+              "artifact_sha256": "32a5ec8fd0494c9805a1b92e81d13b485b727bb34d448dc403a6ff410af3f2a7",
+              "section_id": "14.3.2"
+            },
+            {
+              "artifact_sha256": "f34fcea29b66a41646f65a2d3a166c5298ade4b901e385c76bfceb3126a82d39",
+              "section_id": "14.3.3"
+            },
+            {
+              "artifact_sha256": "a66ab071bd3dd90e8ffa82a82a6d0b1bdd6a034bf33380801ada4d91281a8197",
+              "section_id": "14.3.4"
+            },
+            {
+              "artifact_sha256": "7dfa96ae9fb1a859661a5b2f570696a898166d0e4cbd39c2b89dc09d58d31e69",
+              "section_id": "15"
+            },
+            {
+              "artifact_sha256": "8d166f6dad65a6fd695503dbe5a8d7bc07a5f4ffb2e54fc9ce03988fafcae670",
+              "section_id": "16.0"
+            },
+            {
+              "artifact_sha256": "0de6cdca0b9834ad89868a280745fb6e87c62f6a3f04381cae0292ed81ac2f49",
+              "section_id": "16.1.1"
+            },
+            {
+              "artifact_sha256": "429dd6b6e2ba2c4348b05754e4ac4b13ab4507252b4b4032a79b16e6a7a78447",
+              "section_id": "16.1.2"
+            },
+            {
+              "artifact_sha256": "87d48f665ecf7d41a7779d418f9aa49b604a78ad63fa479ea6b351c411ffef1c",
+              "section_id": "16.1.3"
+            },
+            {
+              "artifact_sha256": "66d5431fb051b417110badfa06cca82d1dc75db7f18906796d5096530ed36996",
+              "section_id": "16.1.4"
+            },
+            {
+              "artifact_sha256": "fb8a362183e4d9e011f5b04122f7d5f8e27115f9ede1b8553532ca6f62ce5981",
+              "section_id": "16.1.5"
+            },
+            {
+              "artifact_sha256": "dec56d5e431c5d1f0017ca64c5b5513db8ff9a8d3889aa2dccf8eff69bd1a2f3",
+              "section_id": "16.1.6"
+            },
+            {
+              "artifact_sha256": "52224e792ea3eb879ce708b58c41d93645f72da59b02267b9d42274c44da2d63",
+              "section_id": "16.1.7"
+            },
+            {
+              "artifact_sha256": "12fc3f8509b0a4c2663107af7ae699472fae9b8044884332adc5c34b95f1c730",
+              "section_id": "16.1.8"
+            },
+            {
+              "artifact_sha256": "3e2e8ddc6855cf67da0bcffb3b502da5e71c2382699f62d4e74efeafef6797ee",
+              "section_id": "16.1.9"
+            },
+            {
+              "artifact_sha256": "f94c34fe32b42da52bb9d29798eb2d670c9ddc48d975b3455e21adf13b57fec6",
+              "section_id": "16.1.10"
+            },
+            {
+              "artifact_sha256": "d35c5506f518faf949473d8a0ae8409f01ea7c5483f5e343a304e668ed92ae05",
+              "section_id": "16.1.11"
+            },
+            {
+              "artifact_sha256": "409956ec9873912e067ee074bb3768beef9326548dce8147c8a10b76b23ecf48",
+              "section_id": "16.1.12"
+            },
+            {
+              "artifact_sha256": "3b76a4d716abd0b398297e75860d2a580b69693b72d54b5c9795a130f32291e1",
+              "section_id": "16.2.1"
+            },
+            {
+              "artifact_sha256": "d6b7c99a6071a96fa781b6296b716fa3a668c12f18f98572b8743d45b32baebf",
+              "section_id": "16.2.2"
+            },
+            {
+              "artifact_sha256": "e8e56077256d953f62cedf7d34b3cb7a832568919206e305616ce4370f0db853",
+              "section_id": "16.2.3"
+            },
+            {
+              "artifact_sha256": "6a177d9eb29e8cb87cc91812cda76f247b01e4cd8b3d120a556ee4823374e416",
+              "section_id": "16.2.4"
+            },
+            {
+              "artifact_sha256": "c2af5d62a23e3d6f20f540626d8be56230d70209329bfd386c2379b3369dcf9f",
+              "section_id": "16.2.5"
+            },
+            {
+              "artifact_sha256": "c79267cfb01cb0b5fe76e130d64b478fbbffb63003ab558978a4e5b0ef89c3db",
+              "section_id": "16.2.6"
+            },
+            {
+              "artifact_sha256": "8c05589d98233a11190d89c672d28c8f0664e74766b261fda1a388bbb66a1ab2",
+              "section_id": "16.2.7"
+            },
+            {
+              "artifact_sha256": "c9964187edc785136665b2d83a9c04026aa77af3c29a0490dab718c5698ceac1",
+              "section_id": "16.2.8"
+            },
+            {
+              "artifact_sha256": "a016f4bdee2593dd2e4f322202348d0d56a8e456a6933df799755a89161f4309",
+              "section_id": "16.3.1"
+            },
+            {
+              "artifact_sha256": "d59d333cf9e27075ea90b638488e589cc4a6971532e4d5aaae572d795856fb82",
+              "section_id": "16.3.2"
+            },
+            {
+              "artifact_sha256": "9d01a50bddd158f8b6a13818db670132272146398ea3a6f8d9548bfe049030bc",
+              "section_id": "16.4"
+            }
+          ],
+          "bundle_sha256": "636bb83f072c57ffce0160fab8f3e333d8b12fd63cbf60395d9c3eff88678b9b",
+          "directory_word_field_count": 6,
+          "inserted": [
+            {
+              "content_kind": "title_page_template",
+              "section_id": "1"
+            },
+            {
+              "content_kind": "confirmed_text_copy",
+              "section_id": "2"
+            },
+            {
+              "content_kind": "word_field",
+              "section_id": "3.1"
+            },
+            {
+              "content_kind": "word_field",
+              "section_id": "3.2"
+            },
+            {
+              "content_kind": "word_field",
+              "section_id": "3.3"
+            },
+            {
+              "content_kind": "word_field",
+              "section_id": "3.4"
+            },
+            {
+              "content_kind": "word_field",
+              "section_id": "3.5"
+            },
+            {
+              "content_kind": "word_field",
+              "section_id": "3.6"
+            },
+            {
+              "content_kind": "fixed_template_with_slots",
+              "section_id": "5.1"
+            },
+            {
+              "content_kind": "fixed_template_with_slots",
+              "section_id": "5.2"
+            },
+            {
+              "content_kind": "fixed_template_with_slots",
+              "section_id": "5.3"
+            },
+            {
+              "content_kind": "word_ref",
+              "section_id": "11.4.3"
+            },
+            {
+              "content_kind": "word_ref",
+              "section_id": "11.4.6"
+            },
+            {
+              "content_kind": "word_ref",
+              "section_id": "12.2.2"
+            },
+            {
+              "content_kind": "word_ref",
+              "section_id": "12.2.4"
+            },
+            {
+              "content_kind": "word_ref",
+              "section_id": "12.3.1.1"
+            },
+            {
+              "content_kind": "word_ref",
+              "section_id": "12.3.1.2"
+            },
+            {
+              "content_kind": "word_ref",
+              "section_id": "12.3.1.3"
+            },
+            {
+              "content_kind": "word_ref",
+              "section_id": "12.4.1"
+            },
+            {
+              "content_kind": "chapter14_entities",
+              "section_id": "14.1.1"
+            },
+            {
+              "content_kind": "chapter14_entities",
+              "section_id": "14.1.2"
+            },
+            {
+              "content_kind": "chapter14_entities",
+              "section_id": "14.1.3"
+            },
+            {
+              "content_kind": "chapter14_entities",
+              "section_id": "14.2"
+            },
+            {
+              "content_kind": "chapter14_entities",
+              "section_id": "14.3.1"
+            },
+            {
+              "content_kind": "chapter14_entities",
+              "section_id": "14.3.2"
+            },
+            {
+              "content_kind": "chapter14_entities",
+              "section_id": "14.3.3"
+            },
+            {
+              "content_kind": "chapter14_entities",
+              "section_id": "14.3.4"
+            },
+            {
+              "content_kind": "reference_list",
+              "section_id": "15"
+            },
+            {
+              "content_kind": "appendix_status_table",
+              "section_id": "16.0"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.1.1"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.1.2"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.1.3"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.1.4"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.1.5"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.1.6"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.1.7"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.1.8"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.1.9"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.1.10"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.1.11"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.1.12"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.2.1"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.2.2"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.2.3"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.2.4"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.2.5"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.2.6"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.2.7"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.2.8"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.3.1"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.3.2"
+            },
+            {
+              "content_kind": "appendix_status_entry",
+              "section_id": "16.4"
+            }
+          ],
+          "inserted_unit_count": 52,
+          "model_called": false,
+          "publication_bookmark_count": 9,
+          "schema_version": "1.0",
+          "section_ids": [
+            "1",
+            "2",
+            "3.1",
+            "3.2",
+            "3.3",
+            "3.4",
+            "3.5",
+            "3.6",
+            "5.1",
+            "5.2",
+            "5.3",
+            "11.4.3",
+            "11.4.6",
+            "12.2.2",
+            "12.2.4",
+            "12.3.1.1",
+            "12.3.1.2",
+            "12.3.1.3",
+            "12.4.1",
+            "14.1.1",
+            "14.1.2",
+            "14.1.3",
+            "14.2",
+            "14.3.1",
+            "14.3.2",
+            "14.3.3",
+            "14.3.4",
+            "15",
+            "16.0",
+            "16.1.1",
+            "16.1.2",
+            "16.1.3",
+            "16.1.4",
+            "16.1.5",
+            "16.1.6",
+            "16.1.7",
+            "16.1.8",
+            "16.1.9",
+            "16.1.10",
+            "16.1.11",
+            "16.1.12",
+            "16.2.1",
+            "16.2.2",
+            "16.2.3",
+            "16.2.4",
+            "16.2.5",
+            "16.2.6",
+            "16.2.7",
+            "16.2.8",
+            "16.3.1",
+            "16.3.2",
+            "16.4"
+          ],
+          "skipped": [],
+          "skipped_unit_count": 0,
+          "status": "pass",
+          "title_page_control_count": 6,
+          "unit_count": 52
+        },
+        "directory_subsection_count": 6,
+        "formal_extension_count": 36,
+        "full_scaffold_official_heading_count": 122,
+        "manual_review_queue": [
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "path": "manual_review",
+                "value": "specific protocol fact required"
+              }
+            ],
+            "classification": "manual_review_required",
+            "disposition": "retained",
+            "driving_modules": [],
+            "human_reason": "缺少可支持自动删节的具体方案事实；本节保留并进入人工确认队列。",
+            "layer": "ich-official",
+            "reason": "缺少可支持自动删节的具体方案事实；本节保留并进入人工确认队列。",
+            "relocate_to": null,
+            "render_title": "个体疗效数据列表",
+            "retained": true,
+            "section_id": "11.4.3",
+            "semantic_role": null,
+            "title": "个体疗效数据列表",
+            "title_drivers": []
+          },
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "path": "manual_review",
+                "value": "specific protocol fact required"
+              }
+            ],
+            "classification": "manual_review_required",
+            "disposition": "retained",
+            "driving_modules": [],
+            "human_reason": "缺少可支持自动删节的具体方案事实；本节保留并进入人工确认队列。",
+            "layer": "ich-official",
+            "reason": "缺少可支持自动删节的具体方案事实；本节保留并进入人工确认队列。",
+            "relocate_to": null,
+            "render_title": "按患者列出",
+            "retained": true,
+            "section_id": "11.4.6",
+            "semantic_role": null,
+            "title": "按患者列出",
+            "title_drivers": []
+          }
+        ],
+        "mode": "clean_pruned_project_skeleton",
+        "numbering_order": {
+          "inversions": [],
+          "status": "pass",
+          "visible_heading_count": 150
+        },
+        "omission_declaration_blocks": [
+          {
+            "chapter": "11",
+            "items": [
+              {
+                "disposition": "relocated",
+                "human_reason": "分析数据集同时服务受试者处置、疗效、安全性和药代动力学评价，已统一移至 10.3 呈现。",
+                "section_id": "11.1",
+                "title": "分析数据集"
+              },
+              {
+                "disposition": "not_applicable",
+                "human_reason": "本研究未设定确证性疗效目的，疗效结果按探索性结构在 11.6.1 呈现。",
+                "section_id": "11.4.1",
+                "title": "疗效分析"
+              },
+              {
+                "disposition": "not_applicable",
+                "human_reason": "本研究未设定确证性疗效分析，本项未作为独立确证性分析节呈现；适用方法须在探索性统计分析内容中依据 SAP 核对。",
+                "section_id": "11.4.2",
+                "title": "统计/分析内容"
+              },
+              {
+                "disposition": "not_applicable",
+                "human_reason": "本研究未设定确证性疗效目的，适用的协变量校正分析在 11.6.2.1 呈现。",
+                "section_id": "11.4.2.1",
+                "title": "协变量的调整"
+              },
+              {
+                "disposition": "not_applicable",
+                "human_reason": "本研究未设定确证性疗效分析，本项未作为独立确证性分析节呈现；适用方法须在探索性统计分析内容中依据 SAP 核对。",
+                "section_id": "11.4.2.2",
+                "title": "脱落或缺失数据的处理"
+              },
+              {
+                "disposition": "not_applicable",
+                "human_reason": "方案未设置期中分析或独立数据监查安排。",
+                "section_id": "11.4.2.3",
+                "title": "试验期中分析和数据监查"
+              },
+              {
+                "disposition": "not_applicable",
+                "human_reason": "本研究未设定确证性疗效目的，适用的多中心分析在 11.6.2.4 呈现。",
+                "section_id": "11.4.2.4",
+                "title": "多中心研究"
+              },
+              {
+                "disposition": "not_applicable",
+                "human_reason": "统计分析未设置多重比较或多重性控制。",
+                "section_id": "11.4.2.5",
+                "title": "多重比较/多重性"
+              },
+              {
+                "disposition": "not_applicable",
+                "human_reason": "方案和统计分析未采用估计目标框架。",
+                "section_id": "11.4.2.6",
+                "title": "患者『疗效子集』的使用"
+              },
+              {
+                "disposition": "not_applicable",
+                "human_reason": "本研究不是非劣效或等效性设计。",
+                "section_id": "11.4.2.7",
+                "title": "旨在表明等效性的阳性对照研究"
+              },
+              {
+                "disposition": "not_applicable",
+                "human_reason": "统计分析未预设亚组分析。",
+                "section_id": "11.4.2.8",
+                "title": "亚组的考察"
+              },
+              {
+                "disposition": "not_applicable",
+                "human_reason": "方案未设置暴露量或剂量与疗效反应关系分析。",
+                "section_id": "11.4.4",
+                "title": "药物剂量、药物浓度以及与效应之间的关系"
+              },
+              {
+                "disposition": "not_applicable",
+                "human_reason": "方案未设置药物相互作用或药物与疾病相互作用评价。",
+                "section_id": "11.4.5",
+                "title": "药物-药物和药物-疾病相互作用"
+              },
+              {
+                "disposition": "not_applicable",
+                "human_reason": "本研究未设定确证性疗效目的，探索性疗效结论在 11.6.7 呈现。",
+                "section_id": "11.4.7",
+                "title": "疗效结论"
+              }
+            ],
+            "omitted_count": 14,
+            "physical_form": "body_paragraphs"
+          }
+        ],
+        "omission_policy": "remove",
+        "omitted_official_heading_count": 14,
+        "omitted_sections": [
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "path": "analyses.analysis_sets",
+                "value": [
+                  "FAS",
+                  "mFAS",
+                  "SS",
+                  "PKCS",
+                  "PKPS"
+                ]
+              },
+              {
+                "path": "relocated_to",
+                "value": "10.3"
+              }
+            ],
+            "classification": "relocated",
+            "disposition": "relocated",
+            "driving_modules": [],
+            "human_reason": "分析数据集同时服务受试者处置、疗效、安全性和药代动力学评价，已统一移至 10.3 呈现。",
+            "layer": "ich-official",
+            "reason": "本节内容已按跨结果域结构调整移至 10.3。",
+            "relocate_to": "10.3",
+            "render_title": "分析数据集",
+            "retained": false,
+            "section_id": "11.1",
+            "semantic_role": null,
+            "title": "分析数据集",
+            "title_drivers": []
+          },
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "capability": "has_confirmatory_efficacy",
+                "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+                "facts": [
+                  {
+                    "path": "analyses.hypothesis_test",
+                    "value": false
+                  },
+                  {
+                    "path": "objectives.confirmatory_efficacy",
+                    "value": false
+                  }
+                ],
+                "value": false
+              }
+            ],
+            "classification": "conditional_omitted",
+            "disposition": "not_applicable",
+            "driving_modules": [],
+            "human_reason": "本研究未设定确证性疗效目的，疗效结果按探索性结构在 11.6.1 呈现。",
+            "layer": "ich-official",
+            "reason": "研究事实不满足本节适用条件。",
+            "relocate_to": null,
+            "render_title": "疗效分析",
+            "retained": false,
+            "section_id": "11.4.1",
+            "semantic_role": null,
+            "title": "疗效分析",
+            "title_drivers": []
+          },
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "capability": "has_confirmatory_efficacy",
+                "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+                "facts": [
+                  {
+                    "path": "analyses.hypothesis_test",
+                    "value": false
+                  },
+                  {
+                    "path": "objectives.confirmatory_efficacy",
+                    "value": false
+                  }
+                ],
+                "value": false
+              }
+            ],
+            "classification": "conditional_omitted",
+            "disposition": "not_applicable",
+            "driving_modules": [],
+            "human_reason": "本研究未设定确证性疗效分析，本项未作为独立确证性分析节呈现；适用方法须在探索性统计分析内容中依据 SAP 核对。",
+            "layer": "ich-official",
+            "reason": "研究事实不满足本节适用条件。",
+            "relocate_to": null,
+            "render_title": "统计/分析内容",
+            "retained": false,
+            "section_id": "11.4.2",
+            "semantic_role": null,
+            "title": "统计/分析内容",
+            "title_drivers": []
+          },
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "capability": "has_confirmatory_efficacy",
+                "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+                "facts": [
+                  {
+                    "path": "analyses.hypothesis_test",
+                    "value": false
+                  },
+                  {
+                    "path": "objectives.confirmatory_efficacy",
+                    "value": false
+                  }
+                ],
+                "value": false
+              }
+            ],
+            "classification": "conditional_omitted",
+            "disposition": "not_applicable",
+            "driving_modules": [],
+            "human_reason": "本研究未设定确证性疗效目的，适用的协变量校正分析在 11.6.2.1 呈现。",
+            "layer": "ich-official",
+            "reason": "研究事实不满足本节适用条件。",
+            "relocate_to": null,
+            "render_title": "协变量的调整",
+            "retained": false,
+            "section_id": "11.4.2.1",
+            "semantic_role": null,
+            "title": "协变量的调整",
+            "title_drivers": []
+          },
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "capability": "has_confirmatory_efficacy",
+                "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+                "facts": [
+                  {
+                    "path": "analyses.hypothesis_test",
+                    "value": false
+                  },
+                  {
+                    "path": "objectives.confirmatory_efficacy",
+                    "value": false
+                  }
+                ],
+                "value": false
+              }
+            ],
+            "classification": "conditional_omitted",
+            "disposition": "not_applicable",
+            "driving_modules": [],
+            "human_reason": "本研究未设定确证性疗效分析，本项未作为独立确证性分析节呈现；适用方法须在探索性统计分析内容中依据 SAP 核对。",
+            "layer": "ich-official",
+            "reason": "研究事实不满足本节适用条件。",
+            "relocate_to": null,
+            "render_title": "脱落或缺失数据的处理",
+            "retained": false,
+            "section_id": "11.4.2.2",
+            "semantic_role": null,
+            "title": "脱落或缺失数据的处理",
+            "title_drivers": []
+          },
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "capability": "has_confirmatory_efficacy",
+                "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+                "facts": [
+                  {
+                    "path": "analyses.hypothesis_test",
+                    "value": false
+                  },
+                  {
+                    "path": "objectives.confirmatory_efficacy",
+                    "value": false
+                  }
+                ],
+                "value": false
+              },
+              {
+                "capability": "has_interim_analysis",
+                "condition": "design.interim_analysis",
+                "facts": [
+                  {
+                    "path": "design.interim_analysis",
+                    "value": false
+                  }
+                ],
+                "value": false
+              }
+            ],
+            "classification": "conditional_omitted",
+            "disposition": "not_applicable",
+            "driving_modules": [],
+            "human_reason": "方案未设置期中分析或独立数据监查安排。",
+            "layer": "ich-official",
+            "reason": "研究事实不满足本节适用条件。",
+            "relocate_to": null,
+            "render_title": "试验期中分析和数据监查",
+            "retained": false,
+            "section_id": "11.4.2.3",
+            "semantic_role": null,
+            "title": "试验期中分析和数据监查",
+            "title_drivers": []
+          },
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "capability": "has_confirmatory_efficacy",
+                "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+                "facts": [
+                  {
+                    "path": "analyses.hypothesis_test",
+                    "value": false
+                  },
+                  {
+                    "path": "objectives.confirmatory_efficacy",
+                    "value": false
+                  }
+                ],
+                "value": false
+              },
+              {
+                "capability": "is_multicenter",
+                "condition": "design.n_centers > 1",
+                "facts": [
+                  {
+                    "path": "design.n_centers",
+                    "value": 2
+                  }
+                ],
+                "value": true
+              }
+            ],
+            "classification": "conditional_omitted",
+            "disposition": "not_applicable",
+            "driving_modules": [],
+            "human_reason": "本研究未设定确证性疗效目的，适用的多中心分析在 11.6.2.4 呈现。",
+            "layer": "ich-official",
+            "reason": "研究事实不满足本节适用条件。",
+            "relocate_to": null,
+            "render_title": "多中心研究",
+            "retained": false,
+            "section_id": "11.4.2.4",
+            "semantic_role": null,
+            "title": "多中心研究",
+            "title_drivers": []
+          },
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "capability": "has_confirmatory_efficacy",
+                "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+                "facts": [
+                  {
+                    "path": "analyses.hypothesis_test",
+                    "value": false
+                  },
+                  {
+                    "path": "objectives.confirmatory_efficacy",
+                    "value": false
+                  }
+                ],
+                "value": false
+              },
+              {
+                "capability": "has_multiplicity_control",
+                "condition": "analyses.multiplicity_control",
+                "facts": [
+                  {
+                    "path": "analyses.multiplicity_control",
+                    "value": false
+                  }
+                ],
+                "value": false
+              }
+            ],
+            "classification": "conditional_omitted",
+            "disposition": "not_applicable",
+            "driving_modules": [],
+            "human_reason": "统计分析未设置多重比较或多重性控制。",
+            "layer": "ich-official",
+            "reason": "研究事实不满足本节适用条件。",
+            "relocate_to": null,
+            "render_title": "多重比较/多重性",
+            "retained": false,
+            "section_id": "11.4.2.5",
+            "semantic_role": null,
+            "title": "多重比较/多重性",
+            "title_drivers": []
+          },
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "capability": "has_confirmatory_efficacy",
+                "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+                "facts": [
+                  {
+                    "path": "analyses.hypothesis_test",
+                    "value": false
+                  },
+                  {
+                    "path": "objectives.confirmatory_efficacy",
+                    "value": false
+                  }
+                ],
+                "value": false
+              },
+              {
+                "capability": "has_estimand_framework",
+                "condition": "analyses.estimand_framework",
+                "facts": [
+                  {
+                    "path": "analyses.estimand_framework",
+                    "value": false
+                  }
+                ],
+                "value": false
+              }
+            ],
+            "classification": "conditional_omitted",
+            "disposition": "not_applicable",
+            "driving_modules": [],
+            "human_reason": "方案和统计分析未采用估计目标框架。",
+            "layer": "ich-official",
+            "reason": "研究事实不满足本节适用条件。",
+            "relocate_to": null,
+            "render_title": "患者『疗效子集』的使用",
+            "retained": false,
+            "section_id": "11.4.2.6",
+            "semantic_role": null,
+            "title": "患者『疗效子集』的使用",
+            "title_drivers": []
+          },
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "capability": "has_confirmatory_efficacy",
+                "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+                "facts": [
+                  {
+                    "path": "analyses.hypothesis_test",
+                    "value": false
+                  },
+                  {
+                    "path": "objectives.confirmatory_efficacy",
+                    "value": false
+                  }
+                ],
+                "value": false
+              },
+              {
+                "capability": "has_noninferiority",
+                "condition": "design.noninferiority",
+                "facts": [
+                  {
+                    "path": "design.noninferiority",
+                    "value": false
+                  }
+                ],
+                "value": false
+              },
+              {
+                "capability": "is_bioequivalence_study",
+                "condition": "design.study_type == bioequivalence || bioequivalence in design.clinical_pharmacology_studies",
+                "facts": [
+                  {
+                    "path": "design.clinical_pharmacology_studies",
+                    "value": []
+                  },
+                  {
+                    "path": "design.study_type",
+                    "value": "general_interventional"
+                  }
+                ],
+                "value": false
+              }
+            ],
+            "classification": "conditional_omitted",
+            "disposition": "not_applicable",
+            "driving_modules": [],
+            "human_reason": "本研究不是非劣效或等效性设计。",
+            "layer": "ich-official",
+            "reason": "研究事实不满足本节适用条件。",
+            "relocate_to": null,
+            "render_title": "旨在表明等效性的阳性对照研究",
+            "retained": false,
+            "section_id": "11.4.2.7",
+            "semantic_role": null,
+            "title": "旨在表明等效性的阳性对照研究",
+            "title_drivers": []
+          },
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "capability": "has_confirmatory_efficacy",
+                "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+                "facts": [
+                  {
+                    "path": "analyses.hypothesis_test",
+                    "value": false
+                  },
+                  {
+                    "path": "objectives.confirmatory_efficacy",
+                    "value": false
+                  }
+                ],
+                "value": false
+              },
+              {
+                "capability": "has_subgroup_analysis",
+                "condition": "analyses.subgroup",
+                "facts": [
+                  {
+                    "path": "analyses.subgroup",
+                    "value": false
+                  }
+                ],
+                "value": false
+              }
+            ],
+            "classification": "conditional_omitted",
+            "disposition": "not_applicable",
+            "driving_modules": [],
+            "human_reason": "统计分析未预设亚组分析。",
+            "layer": "ich-official",
+            "reason": "研究事实不满足本节适用条件。",
+            "relocate_to": null,
+            "render_title": "亚组的考察",
+            "retained": false,
+            "section_id": "11.4.2.8",
+            "semantic_role": null,
+            "title": "亚组的考察",
+            "title_drivers": []
+          },
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "capability": "has_exposure_response",
+                "condition": "analyses.exposure_response",
+                "facts": [
+                  {
+                    "path": "analyses.exposure_response",
+                    "value": false
+                  }
+                ],
+                "value": false
+              }
+            ],
+            "classification": "conditional_omitted",
+            "disposition": "not_applicable",
+            "driving_modules": [],
+            "human_reason": "方案未设置暴露量或剂量与疗效反应关系分析。",
+            "layer": "ich-official",
+            "reason": "研究事实不满足本节适用条件。",
+            "relocate_to": null,
+            "render_title": "药物剂量、药物浓度以及与效应之间的关系",
+            "retained": false,
+            "section_id": "11.4.4",
+            "semantic_role": null,
+            "title": "药物剂量、药物浓度以及与效应之间的关系",
+            "title_drivers": []
+          },
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "capability": "is_ddi_study",
+                "condition": "design.study_type == drug_drug_interaction || drug_drug_interaction in design.clinical_pharmacology_studies",
+                "facts": [
+                  {
+                    "path": "design.clinical_pharmacology_studies",
+                    "value": []
+                  },
+                  {
+                    "path": "design.study_type",
+                    "value": "general_interventional"
+                  }
+                ],
+                "value": false
+              }
+            ],
+            "classification": "conditional_omitted",
+            "disposition": "not_applicable",
+            "driving_modules": [],
+            "human_reason": "方案未设置药物相互作用或药物与疾病相互作用评价。",
+            "layer": "ich-official",
+            "reason": "研究事实不满足本节适用条件。",
+            "relocate_to": null,
+            "render_title": "药物-药物和药物-疾病相互作用",
+            "retained": false,
+            "section_id": "11.4.5",
+            "semantic_role": null,
+            "title": "药物-药物和药物-疾病相互作用",
+            "title_drivers": []
+          },
+          {
+            "appendix_status_managed": false,
+            "basis": [
+              {
+                "capability": "has_confirmatory_efficacy",
+                "condition": "objectives.confirmatory_efficacy && analyses.hypothesis_test",
+                "facts": [
+                  {
+                    "path": "analyses.hypothesis_test",
+                    "value": false
+                  },
+                  {
+                    "path": "objectives.confirmatory_efficacy",
+                    "value": false
+                  }
+                ],
+                "value": false
+              }
+            ],
+            "classification": "conditional_omitted",
+            "disposition": "not_applicable",
+            "driving_modules": [],
+            "human_reason": "本研究未设定确证性疗效目的，探索性疗效结论在 11.6.7 呈现。",
+            "layer": "ich-official",
+            "reason": "研究事实不满足本节适用条件。",
+            "relocate_to": null,
+            "render_title": "疗效结论",
+            "retained": false,
+            "section_id": "11.4.7",
+            "semantic_role": "efficacy_conclusion",
+            "title": "疗效结论",
+            "title_drivers": []
+          }
+        ],
+        "output_sha256": "a9df0955132d4da86ba4c8595f9ee073e127fcb7914190801b22f2dd8e312500",
+        "pending_count": 0,
+        "publication_anchor_count": 9,
+        "publication_reference_count": 9,
+        "retained_official_heading_count": 108,
+        "retained_section_ids": [
+          "1",
+          "2",
+          "3",
+          "3.1",
+          "3.2",
+          "3.3",
+          "3.4",
+          "3.5",
+          "3.6",
+          "4",
+          "5",
+          "5.1",
+          "5.2",
+          "5.3",
+          "6",
+          "7",
+          "8",
+          "9",
+          "9.1",
+          "9.2",
+          "9.3",
+          "9.3.1",
+          "9.3.2",
+          "9.3.3",
+          "9.4",
+          "9.4.1",
+          "9.4.2",
+          "9.4.3",
+          "9.4.4",
+          "9.4.5",
+          "9.4.6",
+          "9.4.7",
+          "9.4.8",
+          "9.5",
+          "9.5.1",
+          "9.5.1.1",
+          "9.5.2",
+          "9.5.3",
+          "9.5.4",
+          "9.5.6",
+          "9.5.7",
+          "9.5.8",
+          "9.5.9",
+          "9.6",
+          "9.7",
+          "9.7.1",
+          "9.7.2",
+          "9.8",
+          "10",
+          "10.1",
+          "10.2",
+          "10.3",
+          "10.3.1",
+          "10.3.2",
+          "10.3.3",
+          "10.3.4",
+          "10.3.5",
+          "11",
+          "11.2",
+          "11.3",
+          "11.4",
+          "11.4.3",
+          "11.4.6",
+          "11.5",
+          "11.5.1",
+          "11.5.2",
+          "11.5.3",
+          "11.5.4",
+          "11.5.5",
+          "11.5.6",
+          "11.5.7",
+          "11.5.8",
+          "11.5.9",
+          "11.5.10",
+          "11.6",
+          "11.6.1",
+          "11.6.1.4",
+          "11.6.2",
+          "11.6.2.1",
+          "11.6.2.4",
+          "11.6.7",
+          "12",
+          "12.1",
+          "12.2",
+          "12.2.1",
+          "12.2.2",
+          "12.2.3",
+          "12.2.4",
+          "12.2.6",
+          "12.2.7",
+          "12.2.9",
+          "12.3",
+          "12.3.1",
+          "12.3.1.1",
+          "12.3.1.2",
+          "12.3.1.3",
+          "12.3.2",
+          "12.3.3",
+          "12.4",
+          "12.4.1",
+          "12.4.2",
+          "12.4.2.1",
+          "12.4.2.2",
+          "12.4.2.3",
+          "12.5",
+          "12.5.1",
+          "12.5.2",
+          "12.6",
+          "12.7",
+          "13",
+          "14",
+          "14.1",
+          "14.1.1",
+          "14.1.2",
+          "14.1.3",
+          "14.2",
+          "14.3",
+          "14.3.1",
+          "14.3.2",
+          "14.3.3",
+          "14.3.4",
+          "15",
+          "16",
+          "16.0",
+          "16.1",
+          "16.1.1",
+          "16.1.2",
+          "16.1.3",
+          "16.1.4",
+          "16.1.5",
+          "16.1.6",
+          "16.1.7",
+          "16.1.8",
+          "16.1.9",
+          "16.1.10",
+          "16.1.11",
+          "16.1.12",
+          "16.2",
+          "16.2.1",
+          "16.2.2",
+          "16.2.3",
+          "16.2.4",
+          "16.2.5",
+          "16.2.6",
+          "16.2.7",
+          "16.2.8",
+          "16.3",
+          "16.3.1",
+          "16.3.2",
+          "16.4"
+        ],
+        "route_contribution_count": 48,
+        "route_coverage": [
+          {
+            "module_id": "M-CORE",
+            "section_id": "1-8",
+            "status": "official_scaffold_range",
+            "variant": "core"
+          },
+          {
+            "module_id": "M-CORE",
+            "section_id": "9.1-9.6",
+            "status": "official_scaffold_range",
+            "variant": "core"
+          },
+          {
+            "module_id": "M-CORE",
+            "section_id": "10",
+            "status": "heading_only_clean",
+            "variant": "core"
+          },
+          {
+            "module_id": "M-CORE",
+            "section_id": "13-16",
+            "status": "official_scaffold_range",
+            "variant": "core"
+          },
+          {
+            "module_id": "M-DOSE-ESC",
+            "section_id": "12.6",
+            "status": "heading_only_clean",
+            "variant": "dose_escalation"
+          },
+          {
+            "module_id": "M-PK-NCA",
+            "section_id": "11.5",
+            "status": "heading_only_clean",
+            "variant": "pk_nca"
+          },
+          {
+            "module_id": "M-PK-NCA",
+            "section_id": "11.5.1",
+            "status": "heading_only_clean",
+            "variant": "pk_analysis_set"
+          },
+          {
+            "module_id": "M-PK-NCA",
+            "section_id": "11.5.2",
+            "status": "heading_only_clean",
+            "variant": "pk_concentration"
+          },
+          {
+            "module_id": "M-PK-NCA",
+            "section_id": "11.5.3",
+            "status": "heading_only_clean",
+            "variant": "pk_blq"
+          },
+          {
+            "module_id": "M-PK-NCA",
+            "section_id": "11.5.4",
+            "status": "heading_only_clean",
+            "variant": "pk_parameters"
+          },
+          {
+            "module_id": "M-PK-NCA",
+            "section_id": "11.5.5",
+            "status": "heading_only_clean",
+            "variant": "pk_exposure"
+          },
+          {
+            "module_id": "M-PK-NCA",
+            "section_id": "11.5.6",
+            "status": "heading_only_clean",
+            "variant": "pk_dose_proportionality"
+          },
+          {
+            "module_id": "M-PK-NCA",
+            "section_id": "11.5.7",
+            "status": "heading_only_clean",
+            "variant": "pk_accumulation"
+          },
+          {
+            "module_id": "M-PK-NCA",
+            "section_id": "11.5.8",
+            "status": "heading_only_clean",
+            "variant": "pk_application_factors"
+          },
+          {
+            "module_id": "M-PK-NCA",
+            "section_id": "11.5.9",
+            "status": "heading_only_clean",
+            "variant": "pk_individual_outliers"
+          },
+          {
+            "module_id": "M-PK-NCA",
+            "section_id": "11.5.10",
+            "status": "heading_only_clean",
+            "variant": "pk_conclusion"
+          },
+          {
+            "module_id": "M-PK-NCA",
+            "section_id": "9.5.4",
+            "status": "heading_only_clean",
+            "variant": "pk_sampling"
+          },
+          {
+            "module_id": "M-EFF-EXPLORE",
+            "section_id": "11.6",
+            "status": "heading_only_clean",
+            "variant": "exploratory"
+          },
+          {
+            "module_id": "M-EFF-EXPLORE",
+            "section_id": "11.6.1",
+            "status": "heading_only_clean",
+            "variant": "exploratory_primary"
+          },
+          {
+            "module_id": "M-EFF-EXPLORE",
+            "section_id": "11.6.7",
+            "status": "heading_only_clean",
+            "variant": "exploratory_efficacy_conclusion"
+          },
+          {
+            "module_id": "M-MULTICENTER",
+            "section_id": "11.6.2.4",
+            "status": "heading_only_clean",
+            "variant": "center_effect"
+          },
+          {
+            "module_id": "M-MULTICENTER",
+            "section_id": "10.2",
+            "status": "heading_only_clean",
+            "variant": "by_center"
+          },
+          {
+            "module_id": "M-MULTICENTER",
+            "section_id": "16.2.2",
+            "status": "heading_only_clean",
+            "variant": "by_center"
+          },
+          {
+            "module_id": "M-LOCAL-TOLERANCE",
+            "section_id": "12.2.9",
+            "status": "heading_only_clean",
+            "variant": "application_site_reactions"
+          },
+          {
+            "module_id": "M-LOCAL-TOLERANCE",
+            "section_id": "12.5.1",
+            "status": "heading_only_clean",
+            "variant": "local_tolerance_ae_subset"
+          },
+          {
+            "module_id": "M-AE-CONSEQUENCE",
+            "section_id": "12.2",
+            "status": "heading_only_clean",
+            "variant": "ae_consequence_pairs"
+          },
+          {
+            "module_id": "M-AE-CONSEQUENCE",
+            "section_id": "12.2.6",
+            "status": "heading_only_clean",
+            "variant": "ae_permanent_discontinuation"
+          },
+          {
+            "module_id": "M-AE-CONSEQUENCE",
+            "section_id": "12.2.7",
+            "status": "heading_only_clean",
+            "variant": "ae_interruption_or_adjustment"
+          },
+          {
+            "module_id": "M-TOPICAL-PK",
+            "section_id": "11.5",
+            "status": "heading_only_clean",
+            "variant": "topical_low_systemic_exposure"
+          },
+          {
+            "module_id": "M-TOPICAL-PK",
+            "section_id": "11.5.1",
+            "status": "heading_only_clean",
+            "variant": "pk_analysis_set"
+          },
+          {
+            "module_id": "M-TOPICAL-PK",
+            "section_id": "11.5.2",
+            "status": "heading_only_clean",
+            "variant": "pk_concentration"
+          },
+          {
+            "module_id": "M-TOPICAL-PK",
+            "section_id": "11.5.3",
+            "status": "heading_only_clean",
+            "variant": "pk_blq"
+          },
+          {
+            "module_id": "M-TOPICAL-PK",
+            "section_id": "11.5.4",
+            "status": "heading_only_clean",
+            "variant": "pk_parameters"
+          },
+          {
+            "module_id": "M-TOPICAL-PK",
+            "section_id": "11.5.5",
+            "status": "heading_only_clean",
+            "variant": "pk_exposure"
+          },
+          {
+            "module_id": "M-TOPICAL-PK",
+            "section_id": "11.5.6",
+            "status": "heading_only_clean",
+            "variant": "pk_dose_proportionality"
+          },
+          {
+            "module_id": "M-TOPICAL-PK",
+            "section_id": "11.5.7",
+            "status": "heading_only_clean",
+            "variant": "pk_accumulation"
+          },
+          {
+            "module_id": "M-TOPICAL-PK",
+            "section_id": "11.5.8",
+            "status": "heading_only_clean",
+            "variant": "pk_application_factors"
+          },
+          {
+            "module_id": "M-TOPICAL-PK",
+            "section_id": "11.5.9",
+            "status": "heading_only_clean",
+            "variant": "pk_individual_outliers"
+          },
+          {
+            "module_id": "M-TOPICAL-PK",
+            "section_id": "11.5.10",
+            "status": "heading_only_clean",
+            "variant": "pk_conclusion"
+          },
+          {
+            "module_id": "M-TOPICAL-PK",
+            "section_id": "9.5.4",
+            "status": "heading_only_clean",
+            "variant": "topical_pk_sampling"
+          },
+          {
+            "module_id": "M-RANDOMIZED",
+            "section_id": "9.4.3",
+            "status": "heading_only_clean",
+            "variant": "randomization"
+          },
+          {
+            "module_id": "M-RANDOMIZED",
+            "section_id": "16.1.7",
+            "status": "heading_only_clean",
+            "variant": "randomization_schedule"
+          },
+          {
+            "module_id": "M-BLINDING",
+            "section_id": "9.4.6",
+            "status": "heading_only_clean",
+            "variant": "blinding"
+          },
+          {
+            "module_id": "M-PLACEBO-CTRL",
+            "section_id": "9.2",
+            "status": "heading_only_clean",
+            "variant": "placebo_control"
+          },
+          {
+            "module_id": "M-PLACEBO-CTRL",
+            "section_id": "9.4.1",
+            "status": "heading_only_clean",
+            "variant": "placebo_matching"
+          },
+          {
+            "module_id": "M-DERMATOLOGY",
+            "section_id": "11.6.1",
+            "status": "heading_only_clean",
+            "variant": "dermatology_scales"
+          },
+          {
+            "module_id": "M-DERMATOLOGY",
+            "section_id": "11.6.2.1",
+            "status": "heading_only_clean",
+            "variant": "dermatology_ancova"
+          },
+          {
+            "module_id": "M-ECG",
+            "section_id": "12.5.2",
+            "status": "heading_only_clean",
+            "variant": "ecg_evaluation"
+          }
+        ],
+        "route_coverage_count": 48,
+        "schema_version": "2.0",
+        "source_gap_block_count": 0,
+        "status": "pass",
+        "synopsis_contract": {
+          "independent_drafting_allowed": false,
+          "status": "blocked_until_body_confirmed"
+        },
+        "title_overrides": {
+          "applied": [
+            {
+              "localized_zh": "本临床研究报告目录",
+              "official_en": "TABLE OF CONTENTS FOR THE INDIVIDUAL CLINICAL STUDY REPORT",
+              "official_zh": "个例临床研究报告目录",
+              "reason": "「个例」易被误解为单个受试者病例；审阅意见 §一.4。",
+              "section_id": "3"
+            }
+          ],
+          "config_sha256": "0dca2d66e54221e3634ad8cf91e4e15fdf53d2c28f77184b5218446a64b2048b",
+          "structure_sha256": "87ea56d599120e265c1649881a9d3ad1c08db540a91be13de6a2bd31a6bc0942"
+        }
+      },
+      "sha256": "a9df0955132d4da86ba4c8595f9ee073e127fcb7914190801b22f2dd8e312500"
+    }
+  },
+  "reproducibility": {
+    "annotated": {
+      "byte_identical": true,
+      "first_sha256": "21e8d281df9d8c430fc166f10c29068ce5e70fe07c7a903c046a306565072c08",
+      "second_sha256": "21e8d281df9d8c430fc166f10c29068ce5e70fe07c7a903c046a306565072c08"
+    },
+    "clean": {
+      "byte_identical": true,
+      "first_sha256": "a9df0955132d4da86ba4c8595f9ee073e127fcb7914190801b22f2dd8e312500",
+      "second_sha256": "a9df0955132d4da86ba4c8595f9ee073e127fcb7914190801b22f2dd8e312500"
+    }
+  },
+  "schema_version": "1.0",
+  "status": "pass"
+}

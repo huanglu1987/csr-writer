@@ -1,0 +1,206 @@
+{
+  "binding_manifest": [],
+  "card_external_entities": [],
+  "card_id": "M16-METHOD-9-1",
+  "causality_control": {
+    "allowed_terms": [
+      "不太可能有关",
+      "可能有关",
+      "很可能有关",
+      "无关",
+      "无法评价",
+      "明确相关",
+      "未评价"
+    ],
+    "exact_match": true,
+    "observed_terms": []
+  },
+  "draft_sha256": "1902f9f84e9367ca31091636d32da0e23374369e351121437b3cf4ec417527b6",
+  "envelope_sha256": "cb56e43b813e61964b072daa451e876ac1a792ee7957acbcfbecdda03b8232b5",
+  "external_model_api_called": false,
+  "fact_card_sha256": "7d417e58e57acb962b93227b0632914130ca43eba662712be9ae96e495f0c848",
+  "field_checks": [
+    {
+      "fact_id": "V01",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V02",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V03",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V04",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V05",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V06",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V07",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "S01",
+      "match_mode": "required_terms",
+      "status": "pass"
+    }
+  ],
+  "field_count": 8,
+  "field_coverage_percent": 100.0,
+  "field_reference_count": 8,
+  "findings": [],
+  "forward_coverage": {
+    "coverage_mode": "whole_declared_values",
+    "guard_version": "2.0",
+    "paragraph_checks": [
+      {
+        "allowed_source_unit_count": 0,
+        "coverage_mode": "whole_declared_values",
+        "eligible_authorized_surface_ids": [
+          "SF-9-1-01",
+          "SF-9-1-02",
+          "SF-9-1-03"
+        ],
+        "fact_ids": [
+          "V01",
+          "V02",
+          "V03",
+          "V04",
+          "V05",
+          "V06"
+        ],
+        "paragraph_index": 1,
+        "residual_content_terms": [],
+        "status": "pass"
+      },
+      {
+        "allowed_source_unit_count": 0,
+        "coverage_mode": "whole_declared_values",
+        "eligible_authorized_surface_ids": [
+          "SF-9-1-03"
+        ],
+        "fact_ids": [
+          "V03"
+        ],
+        "paragraph_index": 2,
+        "residual_content_terms": [],
+        "status": "pass"
+      },
+      {
+        "allowed_source_unit_count": 0,
+        "coverage_mode": "whole_declared_values",
+        "eligible_authorized_surface_ids": [
+          "SF-9-1-04"
+        ],
+        "fact_ids": [
+          "V07",
+          "S01"
+        ],
+        "paragraph_index": 3,
+        "residual_content_terms": [],
+        "status": "pass"
+      }
+    ],
+    "release_eligible": true,
+    "status": "pass"
+  },
+  "narration": "constrained_llm",
+  "numeric_placeholders": [],
+  "paragraphs": [
+    {
+      "fact_ids": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V06"
+      ],
+      "para_id": "p_9_1_001",
+      "text_sha256": "bdef66ddb75e1bb4ef865b61d35d8536e0b78848f5b19049287696c0e81233ac"
+    },
+    {
+      "fact_ids": [
+        "V03"
+      ],
+      "para_id": "p_9_1_002",
+      "text_sha256": "4c4d9c84ee304f5165641ccb26d3787b06751e5d2c4c0481b921835a556bf71f"
+    },
+    {
+      "fact_ids": [
+        "V07",
+        "S01"
+      ],
+      "para_id": "p_9_1_003",
+      "text_sha256": "ed84b79af20409bb4bb0d70e14a48134426e8269fbc41e0050939889a2503e06"
+    }
+  ],
+  "production_method": "extraction",
+  "schema_version": "1.0",
+  "section_id": "9.1",
+  "source_manifest": [
+    {
+      "content_sha256": "122bd18c5f53be84d3f25ef1847b4d24c2c3097fa65a2e2301b1b52ca6666633",
+      "file_role": "protocol",
+      "locator": "方案 §9.1 整体研究设计和计划",
+      "source_id": "src_9_1_1",
+      "version": "synthetic-reviewed-v1"
+    }
+  ],
+  "status": "pass",
+  "style_qc": {
+    "blocked": false,
+    "findings": [],
+    "metrics": {
+      "abstract_noun_count": 0,
+      "average_sentence_length": 29.5,
+      "field_enumeration_paragraph_count": 0,
+      "maximum_sentence_length": 38,
+      "n_percent_format_error_count": 0,
+      "overlong_sentence_count": 0,
+      "prespecified_qualifier_count": 0,
+      "reviewed_qualifier_count": 0,
+      "semicolon_count": 0,
+      "sentence_count": 4,
+      "summary_copula_count": 0
+    },
+    "policy": {
+      "banned_expression_is_blocking": true,
+      "literal_zero_event_claim_requires_conditioned_data": true,
+      "n_percent_prose_requires_count_unit_and_percent_sign": true,
+      "qualifier_per_section": 1,
+      "semicolon_per_paragraph": 1,
+      "sentence_length_hard_threshold": 60
+    },
+    "schema_version": "1.0",
+    "status": "pass"
+  },
+  "zone_distribution": {
+    "counts": {
+      "A": 0,
+      "B": 0,
+      "C": 0
+    },
+    "percent": {
+      "A": 0.0,
+      "B": 0.0,
+      "C": 0.0
+    }
+  }
+}

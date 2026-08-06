@@ -1,0 +1,29 @@
+{
+  "banned_expression_regression": true,
+  "m14_body": {
+    "abstract_noun_count": 2,
+    "average_sentence_length": 24.7,
+    "field_enumeration_paragraph_count": 1,
+    "maximum_sentence_length": 55,
+    "overlong_sentence_count": 0,
+    "prespecified_qualifier_count": 0,
+    "reviewed_qualifier_count": 0,
+    "semicolon_count": 0,
+    "sentence_count": 50,
+    "summary_copula_count": 0
+  },
+  "m15_body": {
+    "abstract_noun_count": 1,
+    "average_sentence_length": 31.0,
+    "field_enumeration_paragraph_count": 0,
+    "maximum_sentence_length": 43,
+    "overlong_sentence_count": 0,
+    "prespecified_qualifier_count": 0,
+    "reviewed_qualifier_count": 0,
+    "semicolon_count": 0,
+    "sentence_count": 12,
+    "summary_copula_count": 0
+  },
+  "schema_version": "1.0",
+  "status": "pass"
+}

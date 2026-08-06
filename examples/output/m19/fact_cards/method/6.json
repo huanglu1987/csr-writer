@@ -1,0 +1,107 @@
+{
+  "authorized_surface_forms": [],
+  "card_id": "M19-METHOD-6-UNFAMILIAR",
+  "controlled_entities": [],
+  "facts": [
+    {
+      "entity_type": "governance_role",
+      "fact_id": "V01",
+      "fixed_gap_sentence": null,
+      "label": "总体管理职责",
+      "missing_behavior": "hard_fail",
+      "required": true,
+      "required_terms": [],
+      "source_id": "m19_protocol_admin",
+      "source_kind": "protocol",
+      "source_locator": "脱敏合成来源定位",
+      "value": "申办方负责研究总体管理",
+      "value_kind": "verbatim_text",
+      "verbatim_required": true,
+      "zone": "method"
+    },
+    {
+      "entity_type": "medical_monitoring_role",
+      "fact_id": "V02",
+      "fixed_gap_sentence": null,
+      "label": "安全性医学审阅职责",
+      "missing_behavior": "hard_fail",
+      "required": true,
+      "required_terms": [],
+      "source_id": "m19_role_register",
+      "source_kind": "protocol",
+      "source_locator": "脱敏合成来源定位",
+      "value": "医学监查人员负责安全性医学审阅",
+      "value_kind": "verbatim_text",
+      "verbatim_required": true,
+      "zone": "method"
+    },
+    {
+      "entity_type": "statistics_role",
+      "fact_id": "V03",
+      "fixed_gap_sentence": null,
+      "label": "统计职责",
+      "missing_behavior": "hard_fail",
+      "required": true,
+      "required_terms": [],
+      "source_id": "m19_role_register",
+      "source_kind": "protocol",
+      "source_locator": "脱敏合成来源定位",
+      "value": "独立统计团队负责随机化与统计分析",
+      "value_kind": "verbatim_text",
+      "verbatim_required": true,
+      "zone": "method"
+    },
+    {
+      "entity_type": "governance_relationship",
+      "fact_id": "S01",
+      "fixed_gap_sentence": null,
+      "label": "协作关系",
+      "missing_behavior": "hard_fail",
+      "required": true,
+      "required_terms": [],
+      "source_id": "m19_protocol_admin",
+      "source_kind": "protocol",
+      "source_locator": "脱敏合成来源定位",
+      "value": "各职能依据经确认的职责分工开展研究管理",
+      "value_kind": "verbatim_text",
+      "verbatim_required": true,
+      "zone": "method"
+    }
+  ],
+  "narration": "constrained_llm",
+  "policy": {
+    "controlled_causality_terms": [
+      "明确相关",
+      "很可能有关",
+      "可能有关",
+      "不太可能有关",
+      "无关",
+      "未评价",
+      "无法评价"
+    ],
+    "database_numeric_policy": "placeholders_only",
+    "medical_review_marker_required": false,
+    "missing_required_fact": "hard_fail",
+    "outside_fact_content": "hard_fail"
+  },
+  "production_method": "extraction",
+  "schema_version": "1.1",
+  "section_id": "6",
+  "source_manifest": [
+    {
+      "content_sha256": "430b8f6a63cc3d33840234c45e5f508f73423b6944ea365ea7c17f6fffa2cea2",
+      "file_role": "protocol",
+      "locator": "脱敏方案 研究管理章节",
+      "source_id": "m19_protocol_admin",
+      "version": "deidentified-synthetic-v1"
+    },
+    {
+      "content_sha256": "e396731992d2b86b2fb8185ab306d734c30b5382c18aaddb20973103e86f9e42",
+      "file_role": "confirmed_site_and_role_register",
+      "locator": "脱敏并经确认的职责登记",
+      "source_id": "m19_role_register",
+      "version": "deidentified-synthetic-v1"
+    }
+  ],
+  "title": "6 研究者和研究管理结构"
+}

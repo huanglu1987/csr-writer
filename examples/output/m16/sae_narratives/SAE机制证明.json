@@ -1,0 +1,107 @@
+{
+  "automated_zone_percent": 92.8,
+  "causality_comparison": [
+    {
+      "case_id": "A",
+      "exact_match": true,
+      "source_term": "可能有关"
+    },
+    {
+      "case_id": "B",
+      "exact_match": true,
+      "source_term": "无关"
+    },
+    {
+      "case_id": "C",
+      "exact_match": true,
+      "source_term": "无法评价"
+    }
+  ],
+  "clinical_course_gap_proof": {
+    "case_id": "C",
+    "exact_sentence": "本例临床经过待源病历/CRF 叙述资料到位后补充",
+    "source_present": false,
+    "used": true
+  },
+  "example_count": 3,
+  "human_only_zone_percent": 7.1,
+  "records": [
+    {
+      "case_id": "A",
+      "causality_rendered_exactly": true,
+      "causality_source": "可能有关",
+      "clinical_course_source_present": true,
+      "fixed_gap_sentence_used": false,
+      "placeholder_count": 3,
+      "resolve_status": "pass",
+      "zone_distribution": {
+        "counts": {
+          "A": 12,
+          "B": 1,
+          "C": 1
+        },
+        "percent": {
+          "A": 85.7,
+          "B": 7.1,
+          "C": 7.1
+        }
+      }
+    },
+    {
+      "case_id": "B",
+      "causality_rendered_exactly": true,
+      "causality_source": "无关",
+      "clinical_course_source_present": true,
+      "fixed_gap_sentence_used": false,
+      "placeholder_count": 3,
+      "resolve_status": "pass",
+      "zone_distribution": {
+        "counts": {
+          "A": 12,
+          "B": 1,
+          "C": 1
+        },
+        "percent": {
+          "A": 85.7,
+          "B": 7.1,
+          "C": 7.1
+        }
+      }
+    },
+    {
+      "case_id": "C",
+      "causality_rendered_exactly": true,
+      "causality_source": "无法评价",
+      "clinical_course_source_present": false,
+      "fixed_gap_sentence_used": true,
+      "placeholder_count": 3,
+      "resolve_status": "pass",
+      "zone_distribution": {
+        "counts": {
+          "A": 12,
+          "B": 1,
+          "C": 1
+        },
+        "percent": {
+          "A": 85.7,
+          "B": 7.1,
+          "C": 7.1
+        }
+      }
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "pass",
+  "zone_field_distribution_per_case": {
+    "counts": {
+      "A": 12,
+      "B": 1,
+      "C": 1
+    },
+    "percent": {
+      "A": 85.7,
+      "B": 7.1,
+      "C": 7.1
+    }
+  }
+}

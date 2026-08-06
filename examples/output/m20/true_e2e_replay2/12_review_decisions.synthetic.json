@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "sections": {
+    "12.3.2": {
+      "draft_sha256": "558b0db8b7b92c5e7ab54623e437d0f1e344acb8dfe077570b3145eb38ac2986",
+      "paragraphs": {
+        "p_12_3_2_008": {
+          "replacement_text": "申办方医学综合评价由医学负责人另行完成。",
+          "status": "resolved"
+        }
+      }
+    },
+    "12.3.3": {
+      "draft_sha256": "c1f1ab1566369864d32759489fda84197f7173f7c062a30c5dd3ea9814b977a1",
+      "paragraphs": {
+        "p_12_3_3_001": {
+          "replacement_text": "未发生死亡。发生严重不良事件者为 2例（4.2%）。发生其他重要不良事件者为 3例（6.3%）。发生导致永久停用研究治疗的不良事件者为 1例（2.1%）。详见{{@ref:T14.3.2.1}}。关键事件指标中存在非零结果。事件分布、转归及临床意义须结合个例资料和暴露情况，由医学负责人确认。",
+          "status": "resolved"
+        }
+      }
+    },
+    "9.1": {
+      "draft_sha256": "e7500d91cca030f5f7ca6280feafd874f9eab7a4fc333e3d7b025047f6fc0310",
+      "paragraphs": {}
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "checks": {
+    "三条产出路径": {
+      "status": "pass",
+      "summary": "确定性生成、方法学有限自由和 SAE 逐字预审路径的本地守卫均已执行。"
+    },
+    "双向追溯": {
+      "status": "pass",
+      "summary": "未发现所执行的合成方案至 CSR 四层路径断链。"
+    },
+    "数值与结论守卫": {
+      "status": "pass",
+      "summary": "12.3.3 的条件化结论和三道数值守卫通过，附加无源判断句被硬阻断。"
+    },
+    "文档合卷": {
+      "status": "blocked",
+      "summary": "确定性单元卷与受控正文卷尚无统一合卷入口。"
+    },
+    "模块路由": {
+      "status": "pass",
+      "summary": "未激活随机化和盲法模块，与单臂开放性设计一致。"
+    },
+    "结果映射": {
+      "status": "blocked",
+      "summary": "发现 1 张 shell-only 表和 1 张 result-only 表，严格套值已阻断。"
+    }
+  },
+  "conclusion": "本次已执行自动检查发现需处理或人工确认的问题，详见上表；本结果不替代人工 QC、QA 或申办方决策。",
+  "issue_categories": [
+    "文档合卷",
+    "结果映射"
+  ],
+  "regulatory_readiness_assessed": false,
+  "schema_version": "1.0",
+  "scope": "executed_checks_only",
+  "status": "attention_required"
+}

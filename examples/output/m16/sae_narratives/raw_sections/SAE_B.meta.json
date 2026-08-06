@@ -1,0 +1,328 @@
+{
+  "binding_manifest": [
+    {
+      "context": "fact_card=M16-SAE-B; zone=A; locator=脱敏合成 SAE 记录",
+      "key": "T16.3.1|POP=SS|ROW=SUBJ_B/EXPOSURE|COL=DOSE",
+      "role": "A03",
+      "source_id": "T16.3.1"
+    },
+    {
+      "context": "fact_card=M16-SAE-B; zone=A; locator=脱敏合成 SAE 记录",
+      "key": "T16.3.1|POP=SS|ROW=SUBJ_B/EVENT|COL=START_DATE",
+      "role": "A05",
+      "source_id": "T16.3.1"
+    },
+    {
+      "context": "fact_card=M16-SAE-B; zone=A; locator=脱敏合成 SAE 记录",
+      "key": "T16.3.1|POP=SS|ROW=SUBJ_B/TEST|COL=RESULT",
+      "role": "A09",
+      "source_id": "T16.3.1"
+    }
+  ],
+  "card_external_entities": [],
+  "card_id": "M16-SAE-B",
+  "causality_control": {
+    "allowed_terms": [
+      "无关"
+    ],
+    "exact_match": true,
+    "observed_terms": [
+      "无关"
+    ]
+  },
+  "draft_sha256": "07dbbccc1119e4db5c62f0929f6f0995ff60fb6b5d1bfd334feefe8f48d78fd5",
+  "envelope_sha256": "2c89d548e78867c24aac7ef4ce8b01c22c1a2c0521add02c3a411892ecfeca60",
+  "external_model_api_called": false,
+  "fact_card_sha256": "360e7504540eaac54c1636ca052c7ddc417a496fcb69866d37c76d0289060bdf",
+  "field_checks": [
+    {
+      "fact_id": "A01",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "A02",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "A03",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "A04",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "A05",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "A06",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "A07",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "A08",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "A09",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "A10",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "A11",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "A12",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "B01",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "C01",
+      "match_mode": "human_slot",
+      "status": "pass"
+    }
+  ],
+  "field_count": 14,
+  "field_coverage_percent": 100.0,
+  "field_reference_count": 14,
+  "findings": [],
+  "forward_coverage": {
+    "coverage_mode": "whole_declared_values",
+    "guard_version": "2.0",
+    "paragraph_checks": [
+      {
+        "allowed_source_unit_count": 0,
+        "coverage_mode": "whole_declared_values",
+        "eligible_authorized_surface_ids": [
+          "SF-12-3-2-B-01",
+          "SF-12-3-2-B-02"
+        ],
+        "fact_ids": [
+          "A01",
+          "A02",
+          "A03"
+        ],
+        "paragraph_index": 1,
+        "residual_content_terms": [],
+        "status": "pass"
+      },
+      {
+        "allowed_source_unit_count": 0,
+        "coverage_mode": "whole_declared_values",
+        "eligible_authorized_surface_ids": [
+          "SF-12-3-2-B-03"
+        ],
+        "fact_ids": [
+          "A04",
+          "A05",
+          "A06",
+          "A07"
+        ],
+        "paragraph_index": 2,
+        "residual_content_terms": [],
+        "status": "pass"
+      },
+      {
+        "allowed_source_unit_count": 0,
+        "coverage_mode": "whole_declared_values",
+        "eligible_authorized_surface_ids": [
+          "SF-12-3-2-B-04",
+          "SF-12-3-2-B-05"
+        ],
+        "fact_ids": [
+          "A08",
+          "A09",
+          "A10"
+        ],
+        "paragraph_index": 3,
+        "residual_content_terms": [],
+        "status": "pass"
+      },
+      {
+        "allowed_source_unit_count": 0,
+        "coverage_mode": "whole_declared_values",
+        "eligible_authorized_surface_ids": [
+          "SF-12-3-2-B-06",
+          "SF-12-3-2-B-07"
+        ],
+        "fact_ids": [
+          "A11",
+          "A12"
+        ],
+        "paragraph_index": 4,
+        "residual_content_terms": [],
+        "status": "pass"
+      },
+      {
+        "allowed_source_unit_count": 0,
+        "coverage_mode": "whole_declared_values",
+        "eligible_authorized_surface_ids": [
+          "SF-12-3-2-B-08"
+        ],
+        "fact_ids": [
+          "B01"
+        ],
+        "paragraph_index": 5,
+        "residual_content_terms": [],
+        "status": "pass"
+      },
+      {
+        "allowed_source_unit_count": 0,
+        "coverage_mode": "whole_declared_values",
+        "eligible_authorized_surface_ids": [
+          "SF-12-3-2-B-09",
+          "SF-12-3-2-B-10"
+        ],
+        "fact_ids": [
+          "C01"
+        ],
+        "paragraph_index": 6,
+        "residual_content_terms": [],
+        "status": "pass"
+      }
+    ],
+    "release_eligible": true,
+    "status": "pass"
+  },
+  "narration": "constrained_llm",
+  "numeric_placeholders": [
+    "{{T16.3.1|POP=SS|ROW=SUBJ_B/EVENT|COL=START_DATE}}",
+    "{{T16.3.1|POP=SS|ROW=SUBJ_B/EXPOSURE|COL=DOSE}}",
+    "{{T16.3.1|POP=SS|ROW=SUBJ_B/TEST|COL=RESULT}}"
+  ],
+  "paragraphs": [
+    {
+      "fact_ids": [
+        "A01",
+        "A02",
+        "A03"
+      ],
+      "para_id": "p_12_3_2_001",
+      "text_sha256": "ada2b005c234bcd72aec750734e4b180a75957af5fbfe6c9708bde6b15f23e25"
+    },
+    {
+      "fact_ids": [
+        "A04",
+        "A05",
+        "A06",
+        "A07"
+      ],
+      "para_id": "p_12_3_2_002",
+      "text_sha256": "3ac4b939851da854b8e441049e19745954b7aa6b3febaefea3ca8886843dd979"
+    },
+    {
+      "fact_ids": [
+        "A08",
+        "A09",
+        "A10"
+      ],
+      "para_id": "p_12_3_2_003",
+      "text_sha256": "53085d0d28f472042640cc4b3fad7f60b57514dec7d77b1a54b0b3c4fd80bed4"
+    },
+    {
+      "fact_ids": [
+        "A11",
+        "A12"
+      ],
+      "para_id": "p_12_3_2_004",
+      "text_sha256": "05b45f9e50aa9762f11ad59201f07d135d5e4b7e9f3094f3182d6ab8a65ff691"
+    },
+    {
+      "fact_ids": [
+        "B01"
+      ],
+      "para_id": "p_12_3_2_005",
+      "text_sha256": "37d2fe77f03b1a5b64fd155d5ecdbce8162b611ada26078f963a2f5deb01b54d"
+    },
+    {
+      "fact_ids": [
+        "C01"
+      ],
+      "para_id": "p_12_3_2_006",
+      "text_sha256": "e24d07668cde557b3511b9022131c5a22ebf9aa98efa7510f332eabfb116800f"
+    }
+  ],
+  "production_method": "llm_drafting",
+  "schema_version": "1.0",
+  "section_id": "12.3.2",
+  "source_manifest": [
+    {
+      "content_sha256": "fe4b1a5f2c520381432e5843ea9974e5311121da693f76b824fe850c5a72fd31",
+      "file_role": "frozen_safety_dataset",
+      "locator": "脱敏合成 SAE B",
+      "source_id": "safety_B",
+      "version": "synthetic-cut"
+    },
+    {
+      "content_sha256": "1eb3dd3ab350dd0c67aead2f53a83704bc2f64ec15dd55667ec99cf806387a7b",
+      "file_role": "crf_or_medical_record_free_text",
+      "locator": "脱敏合成 CRF B",
+      "source_id": "crf_B",
+      "version": "synthetic-reviewed"
+    }
+  ],
+  "status": "pass",
+  "style_qc": {
+    "blocked": false,
+    "findings": [],
+    "metrics": {
+      "abstract_noun_count": 1,
+      "average_sentence_length": 16.3,
+      "field_enumeration_paragraph_count": 0,
+      "maximum_sentence_length": 35,
+      "n_percent_format_error_count": 0,
+      "overlong_sentence_count": 0,
+      "prespecified_qualifier_count": 0,
+      "reviewed_qualifier_count": 0,
+      "semicolon_count": 0,
+      "sentence_count": 10,
+      "summary_copula_count": 0
+    },
+    "policy": {
+      "banned_expression_is_blocking": true,
+      "literal_zero_event_claim_requires_conditioned_data": true,
+      "n_percent_prose_requires_count_unit_and_percent_sign": true,
+      "qualifier_per_section": 1,
+      "semicolon_per_paragraph": 1,
+      "sentence_length_hard_threshold": 60
+    },
+    "schema_version": "1.0",
+    "status": "pass"
+  },
+  "zone_distribution": {
+    "counts": {
+      "A": 12,
+      "B": 1,
+      "C": 1
+    },
+    "percent": {
+      "A": 85.7,
+      "B": 7.1,
+      "C": 7.1
+    }
+  }
+}

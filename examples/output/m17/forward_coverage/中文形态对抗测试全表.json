@@ -1,0 +1,96 @@
+{
+  "adversarial_case_count": 6,
+  "blocked_case_count": 6,
+  "content_lexicon_source": "fact-card-derived; no disease/drug/test static whitelist",
+  "fixed_whitelist_scope": "particles, conjunctions and prepositions only; no medical/reporting verbs",
+  "guard_mode": "per_paragraph_declared_fact_ids_forward_coverage",
+  "legacy_evidence_basis": {
+    "known_independent_bypasses": 3,
+    "replay_passes": 5,
+    "source": "M16 independent acceptance §3.2 plus ASCII-only legacy guard replay",
+    "source_sha256": "b1a7895c35d3f57ecd8e4a76135e16cce1c90e4b986e46c5d277634ff03cc822"
+  },
+  "normal_positive": {
+    "false_positive": false,
+    "paragraph_count": 6,
+    "released_after_certification": true,
+    "status": "pass"
+  },
+  "records": [
+    {
+      "actual": "blocked",
+      "attack_content": "同期报告心悸。",
+      "attack_type": "编造中文事件名",
+      "error_codes": [
+        "E-SAE-FORWARD-COVERAGE"
+      ],
+      "expected": "blocked",
+      "legacy_reverse_only_replay": "pass",
+      "passed": true
+    },
+    {
+      "actual": "blocked",
+      "attack_content": "受试者另有糖尿病和高血压病史。",
+      "attack_type": "编造中文既往史",
+      "error_codes": [
+        "E-SAE-FORWARD-COVERAGE"
+      ],
+      "expected": "blocked",
+      "legacy_reverse_only_replay": "pass",
+      "passed": true
+    },
+    {
+      "actual": "blocked",
+      "attack_content": "同时给予甲泼尼龙冲击治疗。",
+      "attack_type": "编造中文药名",
+      "error_codes": [
+        "E-SAE-FORWARD-COVERAGE"
+      ],
+      "expected": "blocked",
+      "legacy_reverse_only_replay": "pass",
+      "passed": true
+    },
+    {
+      "actual": "blocked",
+      "attack_content": "入院后行血培养，予静脉抗生素治疗，皮损范围逐渐缩小。",
+      "attack_type": "保留留槽句另加编造经过",
+      "error_codes": [
+        "E-SAE-CLINICAL-COURSE-SYNTHESIS",
+        "E-SAE-FORWARD-COVERAGE"
+      ],
+      "expected": "blocked",
+      "legacy_reverse_only_replay": "pass",
+      "passed": true
+    },
+    {
+      "actual": "blocked",
+      "attack_content": "复查肝功能未见异常。",
+      "attack_type": "编造检查项目",
+      "error_codes": [
+        "E-SAE-FORWARD-COVERAGE"
+      ],
+      "expected": "blocked",
+      "legacy_reverse_only_replay": "pass",
+      "passed": true
+    },
+    {
+      "actual": "blocked",
+      "attack_content": "中度 → 较重",
+      "attack_type": "字段近义词改写",
+      "error_codes": [
+        "E-FACT-CARD-VERBATIM-MISMATCH",
+        "E-SAE-FORWARD-COVERAGE"
+      ],
+      "expected": "blocked",
+      "legacy_reverse_only_replay": "blocked_by_missing_exact_value",
+      "passed": true
+    }
+  ],
+  "release_lock": {
+    "certified_sae_release": "pass",
+    "error_code": "E-SAE-POSITIVE-COVERAGE-RELEASE-BLOCKED",
+    "uncertified_sae_release": "blocked"
+  },
+  "schema_version": "1.0",
+  "status": "pass"
+}

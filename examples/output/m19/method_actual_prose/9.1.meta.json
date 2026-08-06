@@ -1,0 +1,231 @@
+{
+  "binding_manifest": [],
+  "card_external_entities": [],
+  "card_id": "M16-METHOD-9-1",
+  "causality_control": {
+    "allowed_terms": [
+      "不太可能有关",
+      "可能有关",
+      "很可能有关",
+      "无关",
+      "无法评价",
+      "明确相关",
+      "未评价"
+    ],
+    "exact_match": true,
+    "observed_terms": []
+  },
+  "draft_sha256": "4eded546232d7be1242a814bb7c42b03041b3576ebeee84b1ec8d7d9e58130bf",
+  "envelope_sha256": "1d7c4196530a23984b4d6665bccbde141ea4506735951881eba37ea4e1c65fda",
+  "external_model_api_called": false,
+  "fact_card_sha256": "a0fa76f5d055b260f914c5a4403ea465019427fa7ab9dc9708bd662f1e0dee1e",
+  "field_checks": [
+    {
+      "fact_id": "V01",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V02",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V03",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V04",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V05",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V06",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V07",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    },
+    {
+      "fact_id": "S01",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    }
+  ],
+  "field_count": 8,
+  "field_coverage_percent": 100.0,
+  "field_reference_count": 8,
+  "findings": [],
+  "forward_coverage": {
+    "coverage_mode": "whole_values_label_bound",
+    "guard_policy_sha256": "3694e5964b6da327a106ef30e38a216d4233bf7e6f4bef7e298b8c7235f1697a",
+    "guard_profile": "method_whole_value_label_bound",
+    "guard_version": "3.0",
+    "paragraph_checks": [
+      {
+        "anchored_fact_ids": [
+          "V01",
+          "V02",
+          "V03",
+          "V04"
+        ],
+        "coverage_mode": "whole_values_label_bound",
+        "fact_ids": [
+          "V01",
+          "V02",
+          "V03",
+          "V04"
+        ],
+        "label_binding_checks": [],
+        "label_token_count": 0,
+        "missing_value_fact_ids": [],
+        "paragraph_index": 1,
+        "policy_sha256": "3694e5964b6da327a106ef30e38a216d4233bf7e6f4bef7e298b8c7235f1697a",
+        "residual_content_terms": [],
+        "status": "pass",
+        "whole_value_token_count": 8
+      },
+      {
+        "anchored_fact_ids": [
+          "S01",
+          "V05",
+          "V06",
+          "V07"
+        ],
+        "coverage_mode": "whole_values_label_bound",
+        "fact_ids": [
+          "V05",
+          "V06",
+          "V07",
+          "S01"
+        ],
+        "label_binding_checks": [
+          {
+            "adjacent_value_fact_ids": [
+              [
+                "V05"
+              ]
+            ],
+            "adjacent_values": [
+              "双盲"
+            ],
+            "label": "盲法",
+            "label_fact_ids": [
+              "V05"
+            ],
+            "status": "pass"
+          },
+          {
+            "adjacent_value_fact_ids": [
+              [
+                "V06"
+              ]
+            ],
+            "adjacent_values": [
+              "安慰剂对照"
+            ],
+            "label": "对照",
+            "label_fact_ids": [
+              "V06"
+            ],
+            "status": "pass"
+          }
+        ],
+        "label_token_count": 2,
+        "missing_value_fact_ids": [],
+        "paragraph_index": 2,
+        "policy_sha256": "3694e5964b6da327a106ef30e38a216d4233bf7e6f4bef7e298b8c7235f1697a",
+        "residual_content_terms": [],
+        "status": "pass",
+        "whole_value_token_count": 5
+      }
+    ],
+    "release_eligible": true,
+    "status": "pass"
+  },
+  "narration": "constrained_llm",
+  "numeric_placeholders": [],
+  "paragraphs": [
+    {
+      "fact_ids": [
+        "V01",
+        "V02",
+        "V03",
+        "V04"
+      ],
+      "para_id": "p_9_1_001",
+      "text_sha256": "13b8688eecc066cd26e904d10dcad0ff30cfe02f1271e038f35aa79319b721aa"
+    },
+    {
+      "fact_ids": [
+        "V05",
+        "V06",
+        "V07",
+        "S01"
+      ],
+      "para_id": "p_9_1_002",
+      "text_sha256": "24d53c940a865795c82563b245b4aac5fcdcd53ae7247d2c7e9f6564b8445d49"
+    }
+  ],
+  "production_method": "extraction",
+  "schema_version": "1.0",
+  "section_id": "9.1",
+  "source_manifest": [
+    {
+      "content_sha256": "122bd18c5f53be84d3f25ef1847b4d24c2c3097fa65a2e2301b1b52ca6666633",
+      "file_role": "protocol",
+      "locator": "方案 §9.1 整体研究设计和计划",
+      "source_id": "src_9_1_1",
+      "version": "synthetic-reviewed-v1"
+    }
+  ],
+  "status": "pass",
+  "style_qc": {
+    "blocked": false,
+    "findings": [],
+    "metrics": {
+      "abstract_noun_count": 0,
+      "average_sentence_length": 22.4,
+      "field_enumeration_paragraph_count": 1,
+      "maximum_sentence_length": 39,
+      "n_percent_format_error_count": 0,
+      "overlong_sentence_count": 0,
+      "prespecified_qualifier_count": 0,
+      "reviewed_qualifier_count": 0,
+      "semicolon_count": 0,
+      "sentence_count": 5,
+      "summary_copula_count": 0
+    },
+    "policy": {
+      "banned_expression_is_blocking": true,
+      "literal_zero_event_claim_requires_conditioned_data": true,
+      "n_percent_prose_requires_count_unit_and_percent_sign": true,
+      "qualifier_per_section": 1,
+      "semicolon_per_paragraph": 1,
+      "sentence_length_hard_threshold": 60
+    },
+    "schema_version": "1.0",
+    "status": "pass"
+  },
+  "zone_distribution": {
+    "counts": {
+      "A": 0,
+      "B": 0,
+      "C": 0
+    },
+    "percent": {
+      "A": 0.0,
+      "B": 0.0,
+      "C": 0.0
+    }
+  }
+}

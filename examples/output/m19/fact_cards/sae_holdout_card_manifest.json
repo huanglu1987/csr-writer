@@ -1,0 +1,24 @@
+{
+  "card_count": 3,
+  "cards": [
+    {
+      "authorized_surface_form_count": 0,
+      "card_id": "M16-SAE-A",
+      "path": "examples/output/m19/fact_cards/sae_holdout_views/SAE_A.json",
+      "sha256": "7d350ed4cb925148a6c16366cf8827eb40eeb8de4e71c972cd1babcc6f3f2d6f"
+    },
+    {
+      "authorized_surface_form_count": 0,
+      "card_id": "M16-SAE-B",
+      "path": "examples/output/m19/fact_cards/sae_holdout_views/SAE_B.json",
+      "sha256": "d7a70bf04bf89dac096397310f3e8f6332dbc5ebf5e45f742b44d1c0f66aab44"
+    },
+    {
+      "authorized_surface_form_count": 0,
+      "card_id": "M16-SAE-C",
+      "path": "examples/output/m19/fact_cards/sae_holdout_views/SAE_C.json",
+      "sha256": "ddac357edf6e77cd7f092a38f8ec44ab2231afc8d7a6c65906a8f13d4e99f9bd"
+    }
+  ],
+  "schema_version": "1.0"
+}

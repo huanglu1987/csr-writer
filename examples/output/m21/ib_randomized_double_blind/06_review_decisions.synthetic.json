@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "sections": {
+    "11.6.1.4": {
+      "draft_sha256": "1daf0795562027c6244b6c3fcb507585c647571fb8b016c588d03ca9743951ab",
+      "paragraphs": {
+        "p_11_6_1_4_003": {
+          "replacement_text": "本项结果为探索性分析，不用于确证性结论。",
+          "status": "resolved"
+        }
+      }
+    },
+    "12.3.2": {
+      "draft_sha256": "55d82d9333c2c20fafbde2d57ba11b117000ab95e6c2031529fefa2bb42e3c3b",
+      "paragraphs": {
+        "p_12_3_2_008": {
+          "replacement_text": "申办方医学综合评价由医学负责人另行完成。",
+          "status": "resolved"
+        }
+      }
+    },
+    "9.4.3": {
+      "draft_sha256": "bb3873d608242890fc29b18d39cb085868a61965b0efe385314fa84f114686b2",
+      "paragraphs": {}
+    },
+    "9.4.6": {
+      "draft_sha256": "3dfe500e53fbb76e50542ac0c6277af555cfeac592997b78cc89f9d930b049e8",
+      "paragraphs": {}
+    }
+  }
+}

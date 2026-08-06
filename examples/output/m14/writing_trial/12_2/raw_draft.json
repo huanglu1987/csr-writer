@@ -1,0 +1,38 @@
+{
+  "paragraphs": [
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "sources": [
+        "SRC-AE-SET",
+        "SRC-AE-DEFINITION"
+      ],
+      "text": "安全性分析采用安全性分析集。治疗期间不良事件按观察期、严重程度、严重性和记录类别分析，受试者数与事件数分别统计。"
+    },
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "sources": [
+        "T14.3.1.2"
+      ],
+      "text": "发生 TEAE 和 TRAE 的受试者数（含比例）分别为 {{T14.3.1.2|POP=SS|ROW=ANY_TEAE|COL=ACTIVE_TOTAL}} 和 {{T14.3.1.2|POP=SS|ROW=ANY_TRAE|COL=ACTIVE_TOTAL}}。完整事件分布详见{{@ref:T14.3.1.2}}。"
+    },
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "sources": [
+        "T14.3.1.2"
+      ],
+      "text": "严重不良事件、死亡、导致永久停用研究治疗的事件和重度事件例数依次为 {{T14.3.1.2|POP=SS|ROW=ANY_SAE|COL=ACTIVE_TOTAL}}、{{T14.3.1.2|POP=SS|ROW=DEATH|COL=ACTIVE_TOTAL}}、{{T14.3.1.2|POP=SS|ROW=AE_DISCONTINUATION|COL=ACTIVE_TOTAL}} 和 {{T14.3.1.2|POP=SS|ROW=GRADE_3_PLUS|COL=ACTIVE_TOTAL}}。"
+    },
+    {
+      "confidence": "inferred",
+      "needs_human": true,
+      "sources": [
+        "SRC-AE-SET",
+        "SRC-AE-DEFINITION"
+      ],
+      "text": "[待医学负责人确认] {{@conclusion:SAFETY_TOLERABILITY_V1}}"
+    }
+  ]
+}

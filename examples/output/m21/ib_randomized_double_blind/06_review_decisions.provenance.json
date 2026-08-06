@@ -1,0 +1,20 @@
+{
+  "records": [
+    {
+      "decision": "synthetic-fixture-only replacement",
+      "para_id": "p_12_3_2_008",
+      "section_id": "12.3.2"
+    },
+    {
+      "decision": "synthetic-fixture-only replacement",
+      "para_id": "p_11_6_1_4_003",
+      "section_id": "11.6.1.4"
+    }
+  ],
+  "release_authority": false,
+  "reviewed_at": "2026-08-06T18:00:00+08:00",
+  "reviewer_role": "synthetic_medical_reviewer",
+  "schema_version": "1.0",
+  "status": "synthetic_simulation_only",
+  "warning": "本记录仅用于验证 clean 闸门，不是真实医学负责人签核。"
+}

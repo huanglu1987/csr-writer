@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "sections": [
+    {
+      "draft": "writing_trial/9_4_6/project/sections/9.4.6.md",
+      "guard": "writing_trial/9_4_6/resolve_guard.json",
+      "metadata": "writing_trial/9_4_6/project/sections/9.4.6.meta.json",
+      "resolved": "writing_trial/9_4_6/resolved.md"
+    },
+    {
+      "draft": "writing_trial/10_1/project/sections/10.1.md",
+      "guard": "writing_trial/10_1/resolve_guard.json",
+      "metadata": "writing_trial/10_1/project/sections/10.1.meta.json",
+      "resolved": "writing_trial/10_1/resolved.md"
+    },
+    {
+      "draft": "writing_trial/11_5_4/project/sections/11.5.4.md",
+      "guard": "writing_trial/11_5_4/resolve_guard.json",
+      "metadata": "writing_trial/11_5_4/project/sections/11.5.4.meta.json",
+      "resolved": "writing_trial/11_5_4/resolved.md"
+    },
+    {
+      "draft": "conclusion_scenarios/11_5_10/normal/project/sections/11.5.10.md",
+      "guard": "conclusion_scenarios/11_5_10/normal/resolve_guard.json",
+      "metadata": "conclusion_scenarios/11_5_10/normal/project/sections/11.5.10.meta.json",
+      "resolved": "conclusion_scenarios/11_5_10/normal/resolved.md"
+    },
+    {
+      "draft": "conclusion_scenarios/11_6_7/normal/project/sections/11.6.7.md",
+      "guard": "conclusion_scenarios/11_6_7/normal/resolve_guard.json",
+      "metadata": "conclusion_scenarios/11_6_7/normal/project/sections/11.6.7.meta.json",
+      "resolved": "conclusion_scenarios/11_6_7/normal/resolved.md"
+    },
+    {
+      "draft": "writing_trial/12_2/project/sections/12.2.md",
+      "guard": "writing_trial/12_2/resolve_guard.json",
+      "metadata": "writing_trial/12_2/project/sections/12.2.meta.json",
+      "resolved": "writing_trial/12_2/resolved.md"
+    },
+    {
+      "draft": "conclusion_scenarios/13/normal/project/sections/13.md",
+      "guard": "conclusion_scenarios/13/normal/resolve_guard.json",
+      "metadata": "conclusion_scenarios/13/normal/project/sections/13.meta.json",
+      "resolved": "conclusion_scenarios/13/normal/resolved.md"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "entity_ids": [
+    "T14.1.3.1",
+    "T14.1.4.2",
+    "T14.1.1.3"
+  ],
+  "items": [
+    {
+      "entity_id": "T14.1.1.3",
+      "expected_from": "SAP/偏离判定计划确认的分类，最终行标签取自结果 TFL",
+      "frozen_column_ids": [
+        "PBO",
+        "C0_5PCT_BID",
+        "C0_75PCT_BID",
+        "C1_0PCT_BID",
+        "C1_0PCT_QD",
+        "ACTIVE_TOTAL",
+        "TOTAL_N_XXX_N"
+      ],
+      "result_arrival_behavior": {
+        "hard_fail": [
+          "冻结列 ID 漂移",
+          "同一层级内分类重名",
+          "结果行无法语义化"
+        ],
+        "new_semantic_rows_materialized_at_result": true,
+        "position_hash_keys_allowed": false,
+        "warn_only": [
+          "分类数与 shell 占位行数不同",
+          "出现未在 shell 中展示的新分类"
+        ]
+      },
+      "row_count_expectation": {
+        "already_stable_rows": 0,
+        "basis": "shell 占位行数仅用于工作量提示；分类增删必须在结果阶段显式呈现",
+        "binding": false,
+        "estimated_deferred_rows": 9,
+        "mode": "non_binding_shell_placeholder_count",
+        "shell_placeholder_rows": 9,
+        "template_placeholder_rows": 0
+      },
+      "semantic_source_id": "protocol_deviation_category_from_result_tfl",
+      "semantic_source_label": "方案偏离分类结果"
+    },
+    {
+      "entity_id": "T14.1.3.1",
+      "expected_from": "结果 TFL 中经 MedDRA 编码的 SOC/PT 层级；字典版本由 SAP 或编码计划确认",
+      "frozen_column_ids": [
+        "PBO",
+        "C0_5PCT_BID",
+        "C0_75PCT_BID",
+        "C1_0PCT_BID",
+        "C1_0PCT_QD",
+        "ACTIVE_TOTAL",
+        "TOTAL_N_XXX_N"
+      ],
+      "result_arrival_behavior": {
+        "hard_fail": [
+          "冻结列 ID 漂移",
+          "PT 缺少父级 SOC 路径",
+          "同一父级内语义行重名",
+          "结果行仍无法生成可读语义 ID"
+        ],
+        "new_semantic_rows_materialized_at_result": true,
+        "position_hash_keys_allowed": false,
+        "warn_only": [
+          "结果行数与 shell 占位行数不同",
+          "出现 shell 中未展示的新 SOC/PT"
+        ]
+      },
+      "row_count_expectation": {
+        "already_stable_rows": 0,
+        "basis": "取决于实际发生并完成编码的术语；shell 占位行数不构成预期行数",
+        "binding": false,
+        "estimated_deferred_rows": null,
+        "mode": "unknown_data_driven",
+        "shell_placeholder_rows": 7,
+        "template_placeholder_rows": 0
+      },
+      "semantic_source_id": "meddra_soc_pt_from_result_tfl",
+      "semantic_source_label": "MedDRA SOC/PT 编码结果"
+    },
+    {
+      "entity_id": "T14.1.4.2",
+      "expected_from": "结果 TFL 中经 WHODrug 编码的 ATC 层级及药物名；字典版本由 SAP 或编码计划确认",
+      "frozen_column_ids": [
+        "PBO",
+        "C0_5PCT_BID",
+        "C0_75PCT_BID",
+        "C1_0PCT_BID",
+        "C1_0PCT_QD",
+        "ACTIVE_TOTAL",
+        "TOTAL_N_XXX_N"
+      ],
+      "result_arrival_behavior": {
+        "hard_fail": [
+          "冻结列 ID 漂移",
+          "药物名缺少约定的 ATC 父级路径",
+          "同一父级内语义行重名",
+          "结果行仍无法生成可读语义 ID"
+        ],
+        "new_semantic_rows_materialized_at_result": true,
+        "position_hash_keys_allowed": false,
+        "warn_only": [
+          "结果行数与 shell 占位行数不同",
+          "出现 shell 中未展示的新 ATC/药物名"
+        ]
+      },
+      "row_count_expectation": {
+        "already_stable_rows": 0,
+        "basis": "取决于实际记录并完成编码的用药；shell 占位行数不构成预期行数",
+        "binding": false,
+        "estimated_deferred_rows": null,
+        "mode": "unknown_data_driven",
+        "shell_placeholder_rows": 0,
+        "template_placeholder_rows": 9
+      },
+      "semantic_source_id": "whodrug_atc_and_drug_name_from_result_tfl",
+      "semantic_source_label": "WHODrug ATC/药物名编码结果"
+    }
+  ],
+  "schema_version": "1.0"
+}

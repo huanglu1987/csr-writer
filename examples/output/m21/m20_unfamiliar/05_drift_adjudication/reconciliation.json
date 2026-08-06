@@ -1,0 +1,1835 @@
+{
+  "added_entities": [
+    {
+      "entity_id": "T14.3.9.1",
+      "ingest_strategy": "cell_level",
+      "semantic_cell_count": 5,
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 0,
+        "column_ids": [
+          "ACTIVE_TOTAL"
+        ],
+        "expected_row_semantic_source": null,
+        "header_row_count": 1,
+        "placeholder_row_count": 0,
+        "placeholder_row_ids_sha256": null,
+        "row_ids_sha256": "e1072d18bd78d5901be25936a888d2a1d67c08bfd96690fd10c6b88593a4427a",
+        "semantic_cell_count": 5,
+        "semantic_column_count": 1,
+        "semantic_row_count": 5,
+        "stable_structural_group_hashes": 0,
+        "visual_spanner_inferences": 0
+      }
+    }
+  ],
+  "candidate": {
+    "candidate_sha256": "66709e7283e9f352f0f1c8784af5d75dc69b5b7cf4c1bdf44224aa83d07cf516",
+    "entities": [
+      {
+        "cell_contracts": [],
+        "deferred_row_contract": null,
+        "dimensions": {},
+        "entity_id": "T14.1.1.1",
+        "entity_kind": "table",
+        "ich_e3_sections": [
+          "10.1"
+        ],
+        "ingest_strategy": "metadata_only",
+        "layout_reference": null,
+        "population": "ITT",
+        "semantic_keys": [],
+        "structure_sha256": "803a5a49921e6adfdf5d5d2feef9ca27a841f8387732f69cab985c70bd9cbcdc",
+        "titles": []
+      },
+      {
+        "cell_contracts": [
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.1.2.1|POP=ITT|ROW=MEAN_SD|COL=ACTIVE_TOTAL",
+            "row_id": "MEAN_SD",
+            "row_indent": 0,
+            "row_index": 2,
+            "row_label": "MEAN_SD",
+            "row_parent_path": null,
+            "type": "statistic"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.1.2.1|POP=ITT|ROW=MEDIAN|COL=ACTIVE_TOTAL",
+            "row_id": "MEDIAN",
+            "row_indent": 0,
+            "row_index": 3,
+            "row_label": "MEDIAN",
+            "row_parent_path": null,
+            "type": "statistic"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.1.2.1|POP=ITT|ROW=MIN_MAX|COL=ACTIVE_TOTAL",
+            "row_id": "MIN_MAX",
+            "row_indent": 0,
+            "row_index": 4,
+            "row_label": "MIN_MAX",
+            "row_parent_path": null,
+            "type": "statistic"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.1.2.1|POP=ITT|ROW=N|COL=ACTIVE_TOTAL",
+            "row_id": "N",
+            "row_indent": 0,
+            "row_index": 1,
+            "row_label": "N",
+            "row_parent_path": null,
+            "type": "count"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.1.2.1|POP=ITT|ROW=P_VALUE|COL=ACTIVE_TOTAL",
+            "row_id": "P_VALUE",
+            "row_indent": 0,
+            "row_index": 5,
+            "row_label": "P_VALUE",
+            "row_parent_path": null,
+            "type": "pvalue"
+          }
+        ],
+        "deferred_row_contract": null,
+        "dimensions": {},
+        "entity_id": "T14.1.2.1",
+        "entity_kind": "table",
+        "ich_e3_sections": [
+          "11.2"
+        ],
+        "ingest_strategy": "cell_level",
+        "layout_reference": null,
+        "population": "ITT",
+        "semantic_keys": [
+          "T14.1.2.1|POP=ITT|ROW=MEAN_SD|COL=ACTIVE_TOTAL",
+          "T14.1.2.1|POP=ITT|ROW=MEDIAN|COL=ACTIVE_TOTAL",
+          "T14.1.2.1|POP=ITT|ROW=MIN_MAX|COL=ACTIVE_TOTAL",
+          "T14.1.2.1|POP=ITT|ROW=N|COL=ACTIVE_TOTAL",
+          "T14.1.2.1|POP=ITT|ROW=P_VALUE|COL=ACTIVE_TOTAL"
+        ],
+        "structure_sha256": "6c49e3f038acf4fe508d189743df047b0cbdf797ecbe733d91d72fae1b363f39",
+        "titles": []
+      },
+      {
+        "cell_contracts": [
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.1.3.1|POP=ITT|ROW=MEAN_SD|COL=ACTIVE_TOTAL",
+            "row_id": "MEAN_SD",
+            "row_indent": 0,
+            "row_index": 2,
+            "row_label": "MEAN_SD",
+            "row_parent_path": null,
+            "type": "statistic"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.1.3.1|POP=ITT|ROW=MEDIAN|COL=ACTIVE_TOTAL",
+            "row_id": "MEDIAN",
+            "row_indent": 0,
+            "row_index": 3,
+            "row_label": "MEDIAN",
+            "row_parent_path": null,
+            "type": "statistic"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.1.3.1|POP=ITT|ROW=MIN_MAX|COL=ACTIVE_TOTAL",
+            "row_id": "MIN_MAX",
+            "row_indent": 0,
+            "row_index": 4,
+            "row_label": "MIN_MAX",
+            "row_parent_path": null,
+            "type": "statistic"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.1.3.1|POP=ITT|ROW=N|COL=ACTIVE_TOTAL",
+            "row_id": "N",
+            "row_indent": 0,
+            "row_index": 1,
+            "row_label": "N",
+            "row_parent_path": null,
+            "type": "count"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.1.3.1|POP=ITT|ROW=P_VALUE|COL=ACTIVE_TOTAL",
+            "row_id": "P_VALUE",
+            "row_indent": 0,
+            "row_index": 5,
+            "row_label": "P_VALUE",
+            "row_parent_path": null,
+            "type": "pvalue"
+          }
+        ],
+        "deferred_row_contract": null,
+        "dimensions": {},
+        "entity_id": "T14.1.3.1",
+        "entity_kind": "table",
+        "ich_e3_sections": [
+          "11.2"
+        ],
+        "ingest_strategy": "cell_level",
+        "layout_reference": null,
+        "population": "ITT",
+        "semantic_keys": [
+          "T14.1.3.1|POP=ITT|ROW=MEAN_SD|COL=ACTIVE_TOTAL",
+          "T14.1.3.1|POP=ITT|ROW=MEDIAN|COL=ACTIVE_TOTAL",
+          "T14.1.3.1|POP=ITT|ROW=MIN_MAX|COL=ACTIVE_TOTAL",
+          "T14.1.3.1|POP=ITT|ROW=N|COL=ACTIVE_TOTAL",
+          "T14.1.3.1|POP=ITT|ROW=P_VALUE|COL=ACTIVE_TOTAL"
+        ],
+        "structure_sha256": "166bd84e190d9e9a555cf8e19422c9d59e4eaa13ca7d014a6455d2423414a3e0",
+        "titles": []
+      },
+      {
+        "cell_contracts": [
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.2.1|POP=ITT|ROW=MEAN_SD|COL=ACTIVE_TOTAL",
+            "row_id": "MEAN_SD",
+            "row_indent": 0,
+            "row_index": 2,
+            "row_label": "MEAN_SD",
+            "row_parent_path": null,
+            "type": "statistic"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.2.1|POP=ITT|ROW=MEDIAN|COL=ACTIVE_TOTAL",
+            "row_id": "MEDIAN",
+            "row_indent": 0,
+            "row_index": 3,
+            "row_label": "MEDIAN",
+            "row_parent_path": null,
+            "type": "statistic"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.2.1|POP=ITT|ROW=MIN_MAX|COL=ACTIVE_TOTAL",
+            "row_id": "MIN_MAX",
+            "row_indent": 0,
+            "row_index": 4,
+            "row_label": "MIN_MAX",
+            "row_parent_path": null,
+            "type": "statistic"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.2.1|POP=ITT|ROW=N|COL=ACTIVE_TOTAL",
+            "row_id": "N",
+            "row_indent": 0,
+            "row_index": 1,
+            "row_label": "N",
+            "row_parent_path": null,
+            "type": "count"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.2.1|POP=ITT|ROW=P_VALUE|COL=ACTIVE_TOTAL",
+            "row_id": "P_VALUE",
+            "row_indent": 0,
+            "row_index": 5,
+            "row_label": "P_VALUE",
+            "row_parent_path": null,
+            "type": "pvalue"
+          }
+        ],
+        "deferred_row_contract": null,
+        "dimensions": {},
+        "entity_id": "T14.2.1",
+        "entity_kind": "table",
+        "ich_e3_sections": [
+          "11.4"
+        ],
+        "ingest_strategy": "cell_level",
+        "layout_reference": null,
+        "population": "ITT",
+        "semantic_keys": [
+          "T14.2.1|POP=ITT|ROW=MEAN_SD|COL=ACTIVE_TOTAL",
+          "T14.2.1|POP=ITT|ROW=MEDIAN|COL=ACTIVE_TOTAL",
+          "T14.2.1|POP=ITT|ROW=MIN_MAX|COL=ACTIVE_TOTAL",
+          "T14.2.1|POP=ITT|ROW=N|COL=ACTIVE_TOTAL",
+          "T14.2.1|POP=ITT|ROW=P_VALUE|COL=ACTIVE_TOTAL"
+        ],
+        "structure_sha256": "ca65c6bafcb497239dfa0c028f4ce11e62295e0669a288b8be6ef9491ffe3012",
+        "titles": []
+      },
+      {
+        "cell_contracts": [
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.2.2|POP=PPS|ROW=MEAN_SD|COL=ACTIVE_TOTAL",
+            "row_id": "MEAN_SD",
+            "row_indent": 0,
+            "row_index": 2,
+            "row_label": "MEAN_SD",
+            "row_parent_path": null,
+            "type": "statistic"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.2.2|POP=PPS|ROW=MEDIAN|COL=ACTIVE_TOTAL",
+            "row_id": "MEDIAN",
+            "row_indent": 0,
+            "row_index": 3,
+            "row_label": "MEDIAN",
+            "row_parent_path": null,
+            "type": "statistic"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.2.2|POP=PPS|ROW=MIN_MAX|COL=ACTIVE_TOTAL",
+            "row_id": "MIN_MAX",
+            "row_indent": 0,
+            "row_index": 4,
+            "row_label": "MIN_MAX",
+            "row_parent_path": null,
+            "type": "statistic"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.2.2|POP=PPS|ROW=N|COL=ACTIVE_TOTAL",
+            "row_id": "N",
+            "row_indent": 0,
+            "row_index": 1,
+            "row_label": "N",
+            "row_parent_path": null,
+            "type": "count"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.2.2|POP=PPS|ROW=P_VALUE|COL=ACTIVE_TOTAL",
+            "row_id": "P_VALUE",
+            "row_indent": 0,
+            "row_index": 5,
+            "row_label": "P_VALUE",
+            "row_parent_path": null,
+            "type": "pvalue"
+          }
+        ],
+        "deferred_row_contract": null,
+        "dimensions": {},
+        "entity_id": "T14.2.2",
+        "entity_kind": "table",
+        "ich_e3_sections": [
+          "11.4"
+        ],
+        "ingest_strategy": "cell_level",
+        "layout_reference": null,
+        "population": "PPS",
+        "semantic_keys": [
+          "T14.2.2|POP=PPS|ROW=MEAN_SD|COL=ACTIVE_TOTAL",
+          "T14.2.2|POP=PPS|ROW=MEDIAN|COL=ACTIVE_TOTAL",
+          "T14.2.2|POP=PPS|ROW=MIN_MAX|COL=ACTIVE_TOTAL",
+          "T14.2.2|POP=PPS|ROW=N|COL=ACTIVE_TOTAL",
+          "T14.2.2|POP=PPS|ROW=P_VALUE|COL=ACTIVE_TOTAL"
+        ],
+        "structure_sha256": "f096c748887d2474a97879282aa344d061510a420084c3b944a68cbf5511d598",
+        "titles": []
+      },
+      {
+        "cell_contracts": [
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.3.1.1|POP=SAF|ROW=MEAN_SD|COL=ACTIVE_TOTAL",
+            "row_id": "MEAN_SD",
+            "row_indent": 0,
+            "row_index": 2,
+            "row_label": "MEAN_SD",
+            "row_parent_path": null,
+            "type": "statistic"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.3.1.1|POP=SAF|ROW=MEDIAN|COL=ACTIVE_TOTAL",
+            "row_id": "MEDIAN",
+            "row_indent": 0,
+            "row_index": 3,
+            "row_label": "MEDIAN",
+            "row_parent_path": null,
+            "type": "statistic"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.3.1.1|POP=SAF|ROW=MIN_MAX|COL=ACTIVE_TOTAL",
+            "row_id": "MIN_MAX",
+            "row_indent": 0,
+            "row_index": 4,
+            "row_label": "MIN_MAX",
+            "row_parent_path": null,
+            "type": "statistic"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.3.1.1|POP=SAF|ROW=N|COL=ACTIVE_TOTAL",
+            "row_id": "N",
+            "row_indent": 0,
+            "row_index": 1,
+            "row_label": "N",
+            "row_parent_path": null,
+            "type": "count"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.3.1.1|POP=SAF|ROW=P_VALUE|COL=ACTIVE_TOTAL",
+            "row_id": "P_VALUE",
+            "row_indent": 0,
+            "row_index": 5,
+            "row_label": "P_VALUE",
+            "row_parent_path": null,
+            "type": "pvalue"
+          }
+        ],
+        "deferred_row_contract": null,
+        "dimensions": {},
+        "entity_id": "T14.3.1.1",
+        "entity_kind": "table",
+        "ich_e3_sections": [
+          "12.1"
+        ],
+        "ingest_strategy": "cell_level",
+        "layout_reference": null,
+        "population": "SAF",
+        "semantic_keys": [
+          "T14.3.1.1|POP=SAF|ROW=MEAN_SD|COL=ACTIVE_TOTAL",
+          "T14.3.1.1|POP=SAF|ROW=MEDIAN|COL=ACTIVE_TOTAL",
+          "T14.3.1.1|POP=SAF|ROW=MIN_MAX|COL=ACTIVE_TOTAL",
+          "T14.3.1.1|POP=SAF|ROW=N|COL=ACTIVE_TOTAL",
+          "T14.3.1.1|POP=SAF|ROW=P_VALUE|COL=ACTIVE_TOTAL"
+        ],
+        "structure_sha256": "cbeae125a036ebe8a1506e7fc423847c110c83a1f49a3321ad48b23b224cd090",
+        "titles": []
+      },
+      {
+        "cell_contracts": [],
+        "deferred_row_contract": {
+          "detection": "nonsemantic_row_id",
+          "expected_semantic_source": "result_tfl_row_labels",
+          "frozen_column_ids": [
+            "ACTIVE_TOTAL_N_PCT"
+          ],
+          "materialize_at": "result_tfl",
+          "schema_version": "1.0",
+          "shell_placeholder_row_count": 4,
+          "stable_row_count": 0,
+          "template_placeholder_row_count": 0
+        },
+        "dimensions": {},
+        "entity_id": "T14.3.2.1",
+        "entity_kind": "table",
+        "ich_e3_sections": [
+          "12"
+        ],
+        "ingest_strategy": "columns_only_deferred_rows",
+        "layout_reference": null,
+        "population": "SAF",
+        "semantic_keys": [],
+        "structure_sha256": "6a28331ae94403d8b4d53f27d538a60a4a695753c65b18d3ad42f90920227052",
+        "titles": []
+      },
+      {
+        "cell_contracts": [
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.3.3.1|POP=SAF|ROW=MEAN_SD|COL=ACTIVE_TOTAL",
+            "row_id": "MEAN_SD",
+            "row_indent": 0,
+            "row_index": 2,
+            "row_label": "MEAN_SD",
+            "row_parent_path": null,
+            "type": "statistic"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.3.3.1|POP=SAF|ROW=MEDIAN|COL=ACTIVE_TOTAL",
+            "row_id": "MEDIAN",
+            "row_indent": 0,
+            "row_index": 3,
+            "row_label": "MEDIAN",
+            "row_parent_path": null,
+            "type": "statistic"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.3.3.1|POP=SAF|ROW=MIN_MAX|COL=ACTIVE_TOTAL",
+            "row_id": "MIN_MAX",
+            "row_indent": 0,
+            "row_index": 4,
+            "row_label": "MIN_MAX",
+            "row_parent_path": null,
+            "type": "statistic"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.3.3.1|POP=SAF|ROW=N|COL=ACTIVE_TOTAL",
+            "row_id": "N",
+            "row_indent": 0,
+            "row_index": 1,
+            "row_label": "N",
+            "row_parent_path": null,
+            "type": "count"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.3.3.1|POP=SAF|ROW=P_VALUE|COL=ACTIVE_TOTAL",
+            "row_id": "P_VALUE",
+            "row_indent": 0,
+            "row_index": 5,
+            "row_label": "P_VALUE",
+            "row_parent_path": null,
+            "type": "pvalue"
+          }
+        ],
+        "deferred_row_contract": null,
+        "dimensions": {},
+        "entity_id": "T14.3.3.1",
+        "entity_kind": "table",
+        "ich_e3_sections": [
+          "12"
+        ],
+        "ingest_strategy": "cell_level",
+        "layout_reference": null,
+        "population": "SAF",
+        "semantic_keys": [
+          "T14.3.3.1|POP=SAF|ROW=MEAN_SD|COL=ACTIVE_TOTAL",
+          "T14.3.3.1|POP=SAF|ROW=MEDIAN|COL=ACTIVE_TOTAL",
+          "T14.3.3.1|POP=SAF|ROW=MIN_MAX|COL=ACTIVE_TOTAL",
+          "T14.3.3.1|POP=SAF|ROW=N|COL=ACTIVE_TOTAL",
+          "T14.3.3.1|POP=SAF|ROW=P_VALUE|COL=ACTIVE_TOTAL"
+        ],
+        "structure_sha256": "e7d740d7445b0dfee6f9b9be5e3624080f7174818a825a884fe316f4ae948596",
+        "titles": []
+      },
+      {
+        "cell_contracts": [
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.3.4.1|POP=SAF|ROW=MEAN_SD|COL=ACTIVE_TOTAL",
+            "row_id": "MEAN_SD",
+            "row_indent": 0,
+            "row_index": 2,
+            "row_label": "MEAN_SD",
+            "row_parent_path": null,
+            "type": "statistic"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.3.4.1|POP=SAF|ROW=MEDIAN|COL=ACTIVE_TOTAL",
+            "row_id": "MEDIAN",
+            "row_indent": 0,
+            "row_index": 3,
+            "row_label": "MEDIAN",
+            "row_parent_path": null,
+            "type": "statistic"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.3.4.1|POP=SAF|ROW=MIN_MAX|COL=ACTIVE_TOTAL",
+            "row_id": "MIN_MAX",
+            "row_indent": 0,
+            "row_index": 4,
+            "row_label": "MIN_MAX",
+            "row_parent_path": null,
+            "type": "statistic"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.3.4.1|POP=SAF|ROW=N|COL=ACTIVE_TOTAL",
+            "row_id": "N",
+            "row_indent": 0,
+            "row_index": 1,
+            "row_label": "N",
+            "row_parent_path": null,
+            "type": "count"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.3.4.1|POP=SAF|ROW=P_VALUE|COL=ACTIVE_TOTAL",
+            "row_id": "P_VALUE",
+            "row_indent": 0,
+            "row_index": 5,
+            "row_label": "P_VALUE",
+            "row_parent_path": null,
+            "type": "pvalue"
+          }
+        ],
+        "deferred_row_contract": null,
+        "dimensions": {},
+        "entity_id": "T14.3.4.1",
+        "entity_kind": "table",
+        "ich_e3_sections": [
+          "12"
+        ],
+        "ingest_strategy": "cell_level",
+        "layout_reference": null,
+        "population": "SAF",
+        "semantic_keys": [
+          "T14.3.4.1|POP=SAF|ROW=MEAN_SD|COL=ACTIVE_TOTAL",
+          "T14.3.4.1|POP=SAF|ROW=MEDIAN|COL=ACTIVE_TOTAL",
+          "T14.3.4.1|POP=SAF|ROW=MIN_MAX|COL=ACTIVE_TOTAL",
+          "T14.3.4.1|POP=SAF|ROW=N|COL=ACTIVE_TOTAL",
+          "T14.3.4.1|POP=SAF|ROW=P_VALUE|COL=ACTIVE_TOTAL"
+        ],
+        "structure_sha256": "7dba86bb74559fa2ea07bd0faa7d2bd70ad19f8e5df135b2790bd9a1196164b1",
+        "titles": []
+      },
+      {
+        "cell_contracts": [
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.3.9.1|POP=SAF|ROW=MEAN_SD|COL=ACTIVE_TOTAL",
+            "row_id": "MEAN_SD",
+            "row_indent": 0,
+            "row_index": 2,
+            "row_label": "MEAN_SD",
+            "row_parent_path": null,
+            "type": "statistic"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.3.9.1|POP=SAF|ROW=MEDIAN|COL=ACTIVE_TOTAL",
+            "row_id": "MEDIAN",
+            "row_indent": 0,
+            "row_index": 3,
+            "row_label": "MEDIAN",
+            "row_parent_path": null,
+            "type": "statistic"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.3.9.1|POP=SAF|ROW=MIN_MAX|COL=ACTIVE_TOTAL",
+            "row_id": "MIN_MAX",
+            "row_indent": 0,
+            "row_index": 4,
+            "row_label": "MIN_MAX",
+            "row_parent_path": null,
+            "type": "statistic"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.3.9.1|POP=SAF|ROW=N|COL=ACTIVE_TOTAL",
+            "row_id": "N",
+            "row_indent": 0,
+            "row_index": 1,
+            "row_label": "N",
+            "row_parent_path": null,
+            "type": "count"
+          },
+          {
+            "column_id": "ACTIVE_TOTAL",
+            "column_index": 1,
+            "column_label": "ACTIVE_TOTAL",
+            "dimensions": {},
+            "key": "T14.3.9.1|POP=SAF|ROW=P_VALUE|COL=ACTIVE_TOTAL",
+            "row_id": "P_VALUE",
+            "row_indent": 0,
+            "row_index": 5,
+            "row_label": "P_VALUE",
+            "row_parent_path": null,
+            "type": "pvalue"
+          }
+        ],
+        "deferred_row_contract": null,
+        "dimensions": {},
+        "entity_id": "T14.3.9.1",
+        "entity_kind": "table",
+        "ich_e3_sections": [
+          "12.4.3"
+        ],
+        "ingest_strategy": "cell_level",
+        "layout_reference": null,
+        "population": "SAF",
+        "semantic_keys": [
+          "T14.3.9.1|POP=SAF|ROW=MEAN_SD|COL=ACTIVE_TOTAL",
+          "T14.3.9.1|POP=SAF|ROW=MEDIAN|COL=ACTIVE_TOTAL",
+          "T14.3.9.1|POP=SAF|ROW=MIN_MAX|COL=ACTIVE_TOTAL",
+          "T14.3.9.1|POP=SAF|ROW=N|COL=ACTIVE_TOTAL",
+          "T14.3.9.1|POP=SAF|ROW=P_VALUE|COL=ACTIVE_TOTAL"
+        ],
+        "structure_sha256": "6ac1c30131e4ddb23f25d4c5dc3b36e07d1a5901d066ad8f6738007548678e83",
+        "titles": []
+      }
+    ],
+    "map_version": "M20-UNFAMILIAR-V1.drift-0a84707a",
+    "numbering_system": {
+      "description": "explicit ICH 14.x to CSR section profile",
+      "id": "configured-ich-14x"
+    },
+    "schema_version": "1.0",
+    "shell_datapack_sha256": "a644a2658f2ea859cec928dd84ce06674bd4d78e634ccd4d0beea22f42f0d187",
+    "status": "awaiting_human_confirmation"
+  },
+  "decision_record_sha256": "146493fad99cd000794fa5ce118acbd48e857428e759dc955b1be375270ccc2c",
+  "previous_frozen_sha256": "eb84bfd3f5bb367ff5d94c73798b954f342195439d1c12ac1806184a5123a393",
+  "queue_sha256": "0a84707ac78647773436f3d27fb95b1589d06e1007646a7e348f7f2efa763a02",
+  "reconciliation_sha256": "d517312233cbef3c629bdc0caf87a42e0bfa8b459d50a5cebaa62c6a512390e9",
+  "release_eligible": false,
+  "retired_entities": [
+    "T14.2.9.1"
+  ],
+  "revised_shell_datapack": {
+    "adapter_scope": "privacy-safe real DOCX shell proposal",
+    "cells": {
+      "T14.1.2.1|POP=ITT|ROW=MEAN_SD|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "MEAN_SD",
+          "indent": 0,
+          "label": "MEAN_SD",
+          "parent_path": null,
+          "physical_path": "MEAN_SD"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 2,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "statistic",
+        "v": "xx"
+      },
+      "T14.1.2.1|POP=ITT|ROW=MEDIAN|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "MEDIAN",
+          "indent": 0,
+          "label": "MEDIAN",
+          "parent_path": null,
+          "physical_path": "MEDIAN"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 3,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "statistic",
+        "v": "xx"
+      },
+      "T14.1.2.1|POP=ITT|ROW=MIN_MAX|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "MIN_MAX",
+          "indent": 0,
+          "label": "MIN_MAX",
+          "parent_path": null,
+          "physical_path": "MIN_MAX"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 4,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "statistic",
+        "v": "xx"
+      },
+      "T14.1.2.1|POP=ITT|ROW=N|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "N",
+          "indent": 0,
+          "label": "N",
+          "parent_path": null,
+          "physical_path": "N"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 1,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "count",
+        "v": "xx"
+      },
+      "T14.1.2.1|POP=ITT|ROW=P_VALUE|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "P_VALUE",
+          "indent": 0,
+          "label": "P_VALUE",
+          "parent_path": null,
+          "physical_path": "P_VALUE"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 5,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "pvalue",
+        "v": "xx"
+      },
+      "T14.1.3.1|POP=ITT|ROW=MEAN_SD|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "MEAN_SD",
+          "indent": 0,
+          "label": "MEAN_SD",
+          "parent_path": null,
+          "physical_path": "MEAN_SD"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 2,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "statistic",
+        "v": "xx"
+      },
+      "T14.1.3.1|POP=ITT|ROW=MEDIAN|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "MEDIAN",
+          "indent": 0,
+          "label": "MEDIAN",
+          "parent_path": null,
+          "physical_path": "MEDIAN"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 3,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "statistic",
+        "v": "xx"
+      },
+      "T14.1.3.1|POP=ITT|ROW=MIN_MAX|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "MIN_MAX",
+          "indent": 0,
+          "label": "MIN_MAX",
+          "parent_path": null,
+          "physical_path": "MIN_MAX"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 4,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "statistic",
+        "v": "xx"
+      },
+      "T14.1.3.1|POP=ITT|ROW=N|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "N",
+          "indent": 0,
+          "label": "N",
+          "parent_path": null,
+          "physical_path": "N"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 1,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "count",
+        "v": "xx"
+      },
+      "T14.1.3.1|POP=ITT|ROW=P_VALUE|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "P_VALUE",
+          "indent": 0,
+          "label": "P_VALUE",
+          "parent_path": null,
+          "physical_path": "P_VALUE"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 5,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "pvalue",
+        "v": "xx"
+      },
+      "T14.2.1|POP=ITT|ROW=MEAN_SD|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "MEAN_SD",
+          "indent": 0,
+          "label": "MEAN_SD",
+          "parent_path": null,
+          "physical_path": "MEAN_SD"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 2,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "statistic",
+        "v": "xx"
+      },
+      "T14.2.1|POP=ITT|ROW=MEDIAN|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "MEDIAN",
+          "indent": 0,
+          "label": "MEDIAN",
+          "parent_path": null,
+          "physical_path": "MEDIAN"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 3,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "statistic",
+        "v": "xx"
+      },
+      "T14.2.1|POP=ITT|ROW=MIN_MAX|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "MIN_MAX",
+          "indent": 0,
+          "label": "MIN_MAX",
+          "parent_path": null,
+          "physical_path": "MIN_MAX"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 4,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "statistic",
+        "v": "xx"
+      },
+      "T14.2.1|POP=ITT|ROW=N|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "N",
+          "indent": 0,
+          "label": "N",
+          "parent_path": null,
+          "physical_path": "N"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 1,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "count",
+        "v": "xx"
+      },
+      "T14.2.1|POP=ITT|ROW=P_VALUE|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "P_VALUE",
+          "indent": 0,
+          "label": "P_VALUE",
+          "parent_path": null,
+          "physical_path": "P_VALUE"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 5,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "pvalue",
+        "v": "xx"
+      },
+      "T14.2.2|POP=PPS|ROW=MEAN_SD|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "MEAN_SD",
+          "indent": 0,
+          "label": "MEAN_SD",
+          "parent_path": null,
+          "physical_path": "MEAN_SD"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 2,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "statistic",
+        "v": "xx"
+      },
+      "T14.2.2|POP=PPS|ROW=MEDIAN|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "MEDIAN",
+          "indent": 0,
+          "label": "MEDIAN",
+          "parent_path": null,
+          "physical_path": "MEDIAN"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 3,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "statistic",
+        "v": "xx"
+      },
+      "T14.2.2|POP=PPS|ROW=MIN_MAX|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "MIN_MAX",
+          "indent": 0,
+          "label": "MIN_MAX",
+          "parent_path": null,
+          "physical_path": "MIN_MAX"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 4,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "statistic",
+        "v": "xx"
+      },
+      "T14.2.2|POP=PPS|ROW=N|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "N",
+          "indent": 0,
+          "label": "N",
+          "parent_path": null,
+          "physical_path": "N"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 1,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "count",
+        "v": "xx"
+      },
+      "T14.2.2|POP=PPS|ROW=P_VALUE|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "P_VALUE",
+          "indent": 0,
+          "label": "P_VALUE",
+          "parent_path": null,
+          "physical_path": "P_VALUE"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 5,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "pvalue",
+        "v": "xx"
+      },
+      "T14.3.1.1|POP=SAF|ROW=MEAN_SD|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "MEAN_SD",
+          "indent": 0,
+          "label": "MEAN_SD",
+          "parent_path": null,
+          "physical_path": "MEAN_SD"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 2,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "statistic",
+        "v": "xx"
+      },
+      "T14.3.1.1|POP=SAF|ROW=MEDIAN|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "MEDIAN",
+          "indent": 0,
+          "label": "MEDIAN",
+          "parent_path": null,
+          "physical_path": "MEDIAN"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 3,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "statistic",
+        "v": "xx"
+      },
+      "T14.3.1.1|POP=SAF|ROW=MIN_MAX|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "MIN_MAX",
+          "indent": 0,
+          "label": "MIN_MAX",
+          "parent_path": null,
+          "physical_path": "MIN_MAX"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 4,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "statistic",
+        "v": "xx"
+      },
+      "T14.3.1.1|POP=SAF|ROW=N|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "N",
+          "indent": 0,
+          "label": "N",
+          "parent_path": null,
+          "physical_path": "N"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 1,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "count",
+        "v": "xx"
+      },
+      "T14.3.1.1|POP=SAF|ROW=P_VALUE|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "P_VALUE",
+          "indent": 0,
+          "label": "P_VALUE",
+          "parent_path": null,
+          "physical_path": "P_VALUE"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 5,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "pvalue",
+        "v": "xx"
+      },
+      "T14.3.3.1|POP=SAF|ROW=MEAN_SD|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "MEAN_SD",
+          "indent": 0,
+          "label": "MEAN_SD",
+          "parent_path": null,
+          "physical_path": "MEAN_SD"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 2,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "statistic",
+        "v": "xx"
+      },
+      "T14.3.3.1|POP=SAF|ROW=MEDIAN|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "MEDIAN",
+          "indent": 0,
+          "label": "MEDIAN",
+          "parent_path": null,
+          "physical_path": "MEDIAN"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 3,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "statistic",
+        "v": "xx"
+      },
+      "T14.3.3.1|POP=SAF|ROW=MIN_MAX|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "MIN_MAX",
+          "indent": 0,
+          "label": "MIN_MAX",
+          "parent_path": null,
+          "physical_path": "MIN_MAX"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 4,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "statistic",
+        "v": "xx"
+      },
+      "T14.3.3.1|POP=SAF|ROW=N|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "N",
+          "indent": 0,
+          "label": "N",
+          "parent_path": null,
+          "physical_path": "N"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 1,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "count",
+        "v": "xx"
+      },
+      "T14.3.3.1|POP=SAF|ROW=P_VALUE|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "P_VALUE",
+          "indent": 0,
+          "label": "P_VALUE",
+          "parent_path": null,
+          "physical_path": "P_VALUE"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 5,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "pvalue",
+        "v": "xx"
+      },
+      "T14.3.4.1|POP=SAF|ROW=MEAN_SD|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "MEAN_SD",
+          "indent": 0,
+          "label": "MEAN_SD",
+          "parent_path": null,
+          "physical_path": "MEAN_SD"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 2,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "statistic",
+        "v": "xx"
+      },
+      "T14.3.4.1|POP=SAF|ROW=MEDIAN|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "MEDIAN",
+          "indent": 0,
+          "label": "MEDIAN",
+          "parent_path": null,
+          "physical_path": "MEDIAN"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 3,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "statistic",
+        "v": "xx"
+      },
+      "T14.3.4.1|POP=SAF|ROW=MIN_MAX|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "MIN_MAX",
+          "indent": 0,
+          "label": "MIN_MAX",
+          "parent_path": null,
+          "physical_path": "MIN_MAX"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 4,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "statistic",
+        "v": "xx"
+      },
+      "T14.3.4.1|POP=SAF|ROW=N|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "N",
+          "indent": 0,
+          "label": "N",
+          "parent_path": null,
+          "physical_path": "N"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 1,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "count",
+        "v": "xx"
+      },
+      "T14.3.4.1|POP=SAF|ROW=P_VALUE|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "P_VALUE",
+          "indent": 0,
+          "label": "P_VALUE",
+          "parent_path": null,
+          "physical_path": "P_VALUE"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 5,
+          "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+        },
+        "type": "pvalue",
+        "v": "xx"
+      },
+      "T14.3.9.1|POP=SAF|ROW=MEAN_SD|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "MEAN_SD",
+          "indent": 0,
+          "label": "MEAN_SD",
+          "parent_path": null,
+          "physical_path": "MEAN_SD"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 2,
+          "source_id": "sha256:46c6f4c6e3d39b4826b9892d8cf3d1d7968dbcaf7d3bbe43241824e199ede8d5"
+        },
+        "type": "statistic",
+        "v": "xx"
+      },
+      "T14.3.9.1|POP=SAF|ROW=MEDIAN|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "MEDIAN",
+          "indent": 0,
+          "label": "MEDIAN",
+          "parent_path": null,
+          "physical_path": "MEDIAN"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 3,
+          "source_id": "sha256:46c6f4c6e3d39b4826b9892d8cf3d1d7968dbcaf7d3bbe43241824e199ede8d5"
+        },
+        "type": "statistic",
+        "v": "xx"
+      },
+      "T14.3.9.1|POP=SAF|ROW=MIN_MAX|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "MIN_MAX",
+          "indent": 0,
+          "label": "MIN_MAX",
+          "parent_path": null,
+          "physical_path": "MIN_MAX"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 4,
+          "source_id": "sha256:46c6f4c6e3d39b4826b9892d8cf3d1d7968dbcaf7d3bbe43241824e199ede8d5"
+        },
+        "type": "statistic",
+        "v": "xx"
+      },
+      "T14.3.9.1|POP=SAF|ROW=N|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "N",
+          "indent": 0,
+          "label": "N",
+          "parent_path": null,
+          "physical_path": "N"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 1,
+          "source_id": "sha256:46c6f4c6e3d39b4826b9892d8cf3d1d7968dbcaf7d3bbe43241824e199ede8d5"
+        },
+        "type": "count",
+        "v": "xx"
+      },
+      "T14.3.9.1|POP=SAF|ROW=P_VALUE|COL=ACTIVE_TOTAL": {
+        "column": {
+          "id": "ACTIVE_TOTAL",
+          "label": "ACTIVE_TOTAL"
+        },
+        "dimensions": {},
+        "display_value": "xx",
+        "row": {
+          "id": "P_VALUE",
+          "indent": 0,
+          "label": "P_VALUE",
+          "parent_path": null,
+          "physical_path": "P_VALUE"
+        },
+        "source_locator": {
+          "column_index": 1,
+          "row_index": 5,
+          "source_id": "sha256:46c6f4c6e3d39b4826b9892d8cf3d1d7968dbcaf7d3bbe43241824e199ede8d5"
+        },
+        "type": "pvalue",
+        "v": "xx"
+      }
+    },
+    "listing_policy": {
+      "default": "cell_level",
+      "layout_reference_data_driven_rows": "columns_only_deferred_rows",
+      "mixed_placeholder_rows": "mixed_stable_and_deferred_rows",
+      "rationale": "subject-level cells and non-semantic shell placeholder rows are not materialized into frozen result keys",
+      "subject_level_wide_listing": "metadata_only"
+    },
+    "mapping_manifest": {
+      "filename": "human-adjudicated-drift.json",
+      "sha256": "146493fad99cd000794fa5ce118acbd48e857428e759dc955b1be375270ccc2c"
+    },
+    "schema_version": "1.0",
+    "semantic_key_version": "2.0",
+    "sources": [
+      {
+        "decode_replacements": 0,
+        "filename": "real-shell.docx",
+        "format": "docx-shell-ooxml-auto-v2",
+        "manifest_path": "read-only external source",
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      {
+        "decode_replacements": 0,
+        "filename": "reviewed-result-structure.docx",
+        "format": "docx-result-structure-refreeze-v1",
+        "manifest_path": "human-adjudicated drift refreeze",
+        "source_id": "sha256:46c6f4c6e3d39b4826b9892d8cf3d1d7968dbcaf7d3bbe43241824e199ede8d5"
+      }
+    ],
+    "tables": [
+      {
+        "adapter": "docx-shell-ooxml-auto-v2",
+        "dimensions": {},
+        "footnotes": [],
+        "ingest_strategy": "metadata_only",
+        "metadata_only_reason": "subject-level wide disposition listing; privacy-minimizing metadata only",
+        "population": "ITT",
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2",
+        "table_id": "T14.1.1.1",
+        "titles": [],
+        "trailer": {}
+      },
+      {
+        "adapter": "docx-shell-ooxml-auto-v2",
+        "dimensions": {},
+        "footnotes": [],
+        "ingest_strategy": "cell_level",
+        "population": "ITT",
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2",
+        "table_id": "T14.1.2.1",
+        "titles": [],
+        "trailer": {}
+      },
+      {
+        "adapter": "docx-shell-ooxml-auto-v2",
+        "dimensions": {},
+        "footnotes": [],
+        "ingest_strategy": "cell_level",
+        "population": "ITT",
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2",
+        "table_id": "T14.1.3.1",
+        "titles": [],
+        "trailer": {}
+      },
+      {
+        "adapter": "docx-shell-ooxml-auto-v2",
+        "dimensions": {},
+        "footnotes": [],
+        "ingest_strategy": "cell_level",
+        "population": "ITT",
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2",
+        "table_id": "T14.2.1",
+        "titles": [],
+        "trailer": {}
+      },
+      {
+        "adapter": "docx-shell-ooxml-auto-v2",
+        "dimensions": {},
+        "footnotes": [],
+        "ingest_strategy": "cell_level",
+        "population": "PPS",
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2",
+        "table_id": "T14.2.2",
+        "titles": [],
+        "trailer": {}
+      },
+      {
+        "adapter": "docx-shell-ooxml-auto-v2",
+        "dimensions": {},
+        "footnotes": [],
+        "ingest_strategy": "cell_level",
+        "population": "SAF",
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2",
+        "table_id": "T14.3.1.1",
+        "titles": [],
+        "trailer": {}
+      },
+      {
+        "adapter": "docx-shell-ooxml-auto-v2",
+        "deferred_row_contract": {
+          "detection": "nonsemantic_row_id",
+          "expected_semantic_source": "result_tfl_row_labels",
+          "frozen_column_ids": [
+            "ACTIVE_TOTAL_N_PCT"
+          ],
+          "materialize_at": "result_tfl",
+          "schema_version": "1.0",
+          "shell_placeholder_row_count": 4,
+          "stable_row_count": 0,
+          "template_placeholder_row_count": 0
+        },
+        "dimensions": {},
+        "footnotes": [],
+        "ingest_strategy": "columns_only_deferred_rows",
+        "population": "SAF",
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2",
+        "table_id": "T14.3.2.1",
+        "titles": [],
+        "trailer": {}
+      },
+      {
+        "adapter": "docx-shell-ooxml-auto-v2",
+        "dimensions": {},
+        "footnotes": [],
+        "ingest_strategy": "cell_level",
+        "population": "SAF",
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2",
+        "table_id": "T14.3.3.1",
+        "titles": [],
+        "trailer": {}
+      },
+      {
+        "adapter": "docx-shell-ooxml-auto-v2",
+        "dimensions": {},
+        "footnotes": [],
+        "ingest_strategy": "cell_level",
+        "population": "SAF",
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2",
+        "table_id": "T14.3.4.1",
+        "titles": [],
+        "trailer": {}
+      },
+      {
+        "adapter": "docx-shell-ooxml-auto-v2",
+        "dimensions": {},
+        "footnotes": [],
+        "ingest_strategy": "cell_level",
+        "population": "SAF",
+        "source_id": "sha256:46c6f4c6e3d39b4826b9892d8cf3d1d7968dbcaf7d3bbe43241824e199ede8d5",
+        "table_id": "T14.3.9.1",
+        "titles": [],
+        "trailer": {}
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "status": "awaiting_refreeze_confirmation"
+}

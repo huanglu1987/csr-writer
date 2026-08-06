@@ -1,0 +1,36 @@
+{
+  "checks": {
+    "csr_to_tfl_to_sap_to_protocol": "pass",
+    "no_orphan_reviewed_nodes_or_links": "pass",
+    "protocol_to_sap_to_tfl_to_csr": "pass",
+    "tfl_to_sap_to_protocol": "pass"
+  },
+  "issues": [],
+  "manifest_sha256": "51c57af9f57e935fd4f830b8854f759f215d5677ea915896712ad57447aff6f6",
+  "path_count": 1,
+  "paths": [
+    {
+      "forward": [
+        "PROTOCOL1",
+        "SAP1",
+        "TFL1",
+        "CSR1"
+      ],
+      "reverse_from_csr": [
+        "CSR1",
+        "TFL1",
+        "SAP1",
+        "PROTOCOL1"
+      ],
+      "reverse_from_tfl": [
+        "TFL1",
+        "SAP1",
+        "PROTOCOL1"
+      ],
+      "status": "pass",
+      "trace_id": "M20TRACE1"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "pass"
+}

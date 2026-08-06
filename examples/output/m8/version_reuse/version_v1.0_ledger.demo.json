@@ -1,0 +1,104 @@
+{
+  "coverage": {
+    "deferred_group_ids": [],
+    "extra_group_ids": [],
+    "missing_group_ids": [],
+    "recorded_group_count": 3,
+    "required_group_count": 3
+  },
+  "ledger_sha256": "6efe154e9e5461cf9258c17992f31ab3bb1ff2aa08fef621233d7a5fc98e24ba",
+  "proposal_report_sha256": "44a882d87ff9f51e06c6c622fe4cb04fd6cce661ea8908968a06d797e67e1b8c",
+  "queue_sha256": "a1bb26a48b84f9e5c1dd21bdd4d42a1d8e009397fa53d98570a118635d96c189",
+  "records": [
+    {
+      "basis": {
+        "origin": "direct_proposal",
+        "template_applicability_explicitly_confirmed": false,
+        "template_sha256": null
+      },
+      "decided_at": "2026-08-04T00:00:00+08:00",
+      "decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {
+          "dictionary_version": "DEIDENTIFIED-DEMO-V1"
+        },
+        "selected_action": "confirm_dictionary_and_late_bound_hierarchy"
+      },
+      "decision_group_sha256": "c81e6f4a64694fd0f32f8913c4af4630edc13c73490c19142463d2d305b99b5e",
+      "decision_type": "coding_dictionary_dependency",
+      "group_id": "DG-CODE-WHODRUG-MEDICATION",
+      "override_reason": null,
+      "proposal_report_sha256": "44a882d87ff9f51e06c6c622fe4cb04fd6cce661ea8908968a06d797e67e1b8c",
+      "queue_sha256": "a1bb26a48b84f9e5c1dd21bdd4d42a1d8e009397fa53d98570a118635d96c189",
+      "record_id": "DEC-5063ABCC247005177F4A",
+      "record_sha256": "3ec86900f9d910c2cea34e430d5aed759a55310b0807beac5d8ea14d14da688b",
+      "reviewer": {
+        "identifier": "reviewer_demo_001",
+        "role": "lead_statistician"
+      },
+      "schema_version": "1.0"
+    },
+    {
+      "basis": {
+        "origin": "direct_proposal",
+        "template_applicability_explicitly_confirmed": false,
+        "template_sha256": null
+      },
+      "decided_at": "2026-08-04T02:00:00+08:00",
+      "decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_layout_target_and_scope"
+      },
+      "decision_group_sha256": "f2d905ffb1a291974c914d0ea5212447e20ba68076fe5bcfa6b82fdd9315b5c1",
+      "decision_type": "layout_inheritance_scope",
+      "group_id": "DG-LAYOUT-BASELINE",
+      "override_reason": null,
+      "proposal_report_sha256": "44a882d87ff9f51e06c6c622fe4cb04fd6cce661ea8908968a06d797e67e1b8c",
+      "queue_sha256": "a1bb26a48b84f9e5c1dd21bdd4d42a1d8e009397fa53d98570a118635d96c189",
+      "record_id": "DEC-4D9FCB5A949EE9FFDBD0",
+      "record_sha256": "5a6d963bbcead22a3d9797580563da8957b4f335d5bf593da9c5e7a484ef5bf1",
+      "reviewer": {
+        "identifier": "reviewer_demo_001",
+        "role": "lead_statistician"
+      },
+      "schema_version": "1.0"
+    },
+    {
+      "basis": {
+        "origin": "direct_proposal",
+        "template_applicability_explicitly_confirmed": false,
+        "template_sha256": null
+      },
+      "decided_at": "2026-08-04T01:00:00+08:00",
+      "decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {
+          "category_authority": "DEIDENTIFIED-DEMO-V1"
+        },
+        "selected_action": "confirm_result_driven_rows"
+      },
+      "decision_group_sha256": "d18d153a6b3ac63aa9def806f28b43c4e5a180c1261bb83557e41d87c35c268b",
+      "decision_type": "deferred_row_source_contract",
+      "group_id": "DG-ROWS-PROTOCOL-DEVIATION",
+      "override_reason": null,
+      "proposal_report_sha256": "44a882d87ff9f51e06c6c622fe4cb04fd6cce661ea8908968a06d797e67e1b8c",
+      "queue_sha256": "a1bb26a48b84f9e5c1dd21bdd4d42a1d8e009397fa53d98570a118635d96c189",
+      "record_id": "DEC-5D183616C3ECCF2D7188",
+      "record_sha256": "43be07690dcc8831ab8f5f6379c51ea041c97c605dcb9a3da90ab1236f34471b",
+      "reviewer": {
+        "identifier": "reviewer_demo_001",
+        "role": "lead_statistician"
+      },
+      "schema_version": "1.0"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "complete"
+}

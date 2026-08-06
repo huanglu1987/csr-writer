@@ -1,0 +1,42 @@
+{
+  "read_only_inputs": true,
+  "records": [
+    {
+      "expected_sha256": "6053ea6fffa79f98d1c92840a812cd2cf12b4a329fb9420d1efcca5c6fb06bdb",
+      "match": true,
+      "observed_sha256": "6053ea6fffa79f98d1c92840a812cd2cf12b4a329fb9420d1efcca5c6fb06bdb",
+      "path_recorded": false,
+      "role": "development_specification"
+    },
+    {
+      "expected_sha256": "87ea56d599120e265c1649881a9d3ad1c08db540a91be13de6a2bd31a6bc0942",
+      "match": true,
+      "observed_sha256": "87ea56d599120e265c1649881a9d3ad1c08db540a91be13de6a2bd31a6bc0942",
+      "path_recorded": false,
+      "role": "verified_ich_e3_chapter_tree"
+    },
+    {
+      "expected_sha256": "21374f376270f1c7d8352e7e3808e7d9385aa5e8d51cd46d12c9f178d682192b",
+      "match": true,
+      "observed_sha256": "21374f376270f1c7d8352e7e3808e7d9385aa5e8d51cd46d12c9f178d682192b",
+      "path_recorded": false,
+      "role": "cde_submission_checklist"
+    },
+    {
+      "expected_sha256": "12581d0e5fefee3bf0b8c7d4e7e95147a5add099f394a73a89bf3031e4383e0c",
+      "match": true,
+      "observed_sha256": "12581d0e5fefee3bf0b8c7d4e7e95147a5add099f394a73a89bf3031e4383e0c",
+      "path_recorded": false,
+      "role": "external_solution_evaluation"
+    },
+    {
+      "expected_sha256": "76338581eb2295e0ed6552a348da369a1f72aaa61a62421fba4fd22174a56c4a",
+      "match": true,
+      "observed_sha256": "76338581eb2295e0ed6552a348da369a1f72aaa61a62421fba4fd22174a56c4a",
+      "path_recorded": false,
+      "role": "synthetic_result_fixture"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "pass"
+}

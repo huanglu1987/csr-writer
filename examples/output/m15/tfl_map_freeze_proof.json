@@ -1,0 +1,10 @@
+{
+  "candidate_sha256": "1b5b54106219c1169aa651633b03b0c8946498517b61eb2f9ce43223e9f03edf",
+  "confirmed_at": "2026-08-05T00:00:00+08:00",
+  "confirmed_batch_count": 3,
+  "confirmed_by_role": "deterministic_demo_reviewer",
+  "confirmed_entity_count": 63,
+  "evidence_status": "deterministic_demo_confirmation_not_production_approval",
+  "frozen_sha256": "b612007eea64f7aa63053d33a3b0dd37551cce2568bcadfd1086df81ef7b0323",
+  "status": "pass"
+}

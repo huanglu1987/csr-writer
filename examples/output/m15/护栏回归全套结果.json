@@ -1,0 +1,29 @@
+{
+  "coverage": {
+    "conditioned_conclusions": true,
+    "cross_references": true,
+    "group_semantics": true,
+    "internal_process_language": true,
+    "three_numeric_guards": true,
+    "zero_event_placeholder_cross_check": true
+  },
+  "output_tail": [
+    "...................................................",
+    "----------------------------------------------------------------------",
+    "Ran 51 tests in 0.229s",
+    "",
+    "OK"
+  ],
+  "return_code": 0,
+  "schema_version": "1.0",
+  "status": "pass",
+  "test_modules": [
+    "tests.test_m2_guards",
+    "tests.test_m2_datapack",
+    "tests.test_m4_group_semantics",
+    "tests.test_m13_internal_process_language",
+    "tests.test_m13_conditioned_conclusions",
+    "tests.test_m14_writing_style",
+    "tests.test_m5_cross_references"
+  ]
+}

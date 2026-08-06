@@ -1,0 +1,98 @@
+{
+  "datapack_sha256": "b6c5ed95ec1680f28387898046bb6d698ccaab5c11774615056a24a705f57bb8",
+  "draft_sha256": "69422d5cbf5130326ec80f75ddc7fd3f4ec0d401148db8f9400d62efcb352a68",
+  "resolved_sha256": "63081b71cf18e05462de296223d638f366ff3942dda2520d282fdffd082662f7",
+  "rules": [
+    {
+      "all_roles_rendered": true,
+      "branch": "prespecified_hypothesis_test",
+      "confirmed_body_only": false,
+      "critical_roles": [
+        {
+          "cell_present": true,
+          "key": "T14.2.2.1.1|POP=FAS|ROW=PRIMARY_ENDPOINT|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "primary_endpoint_result",
+          "value_sha256": "c5a56b68b35bfa2482cbb21649e32960af121ea00c3477c18da6b299f906c081"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.2.2.1.1|POP=FAS|ROW=ANALYSIS_SET|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "analysis_set",
+          "value_sha256": "aafb4482e5974c58463e1f9637958e17f514f566c808e415b1e776a75c0ecd5d"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.2.2.1.1|POP=FAS|ROW=PRESPECIFIED|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "prespecified",
+          "value_sha256": "f1de1e2621deb2e14e32a992e8e0cd6d5e88b2f2352d52c4daf06826a274b5e0"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.2.2.1.1|POP=FAS|ROW=HYPOTHESIS_TEST|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "hypothesis_test",
+          "value_sha256": "e12227beae0ac5990ceee65f9d7c9afae2671111cb9c4d822ea7a6d1249fc14f"
+        }
+      ],
+      "derived_zero_event_roles": [],
+      "medical_review_marker_required": true,
+      "missing_roles": [],
+      "numeric_values_not_logged": true,
+      "render_mode": "sentence_driven",
+      "role_renderings": [
+        {
+          "key": "T14.2.2.1.1|POP=FAS|ROW=PRIMARY_ENDPOINT|COL=ACTIVE_TOTAL",
+          "rendering_mode": "value_placeholder",
+          "role": "primary_endpoint_result"
+        },
+        {
+          "key": "T14.2.2.1.1|POP=FAS|ROW=ANALYSIS_SET|COL=ACTIVE_TOTAL",
+          "rendering_mode": "value_placeholder",
+          "role": "analysis_set"
+        },
+        {
+          "key": "T14.2.2.1.1|POP=FAS|ROW=PRESPECIFIED|COL=ACTIVE_TOTAL",
+          "rendering_mode": "conditioned_phrase",
+          "role": "prespecified"
+        },
+        {
+          "key": "T14.2.2.1.1|POP=FAS|ROW=HYPOTHESIS_TEST|COL=ACTIVE_TOTAL",
+          "rendering_mode": "conditioned_phrase",
+          "role": "hypothesis_test"
+        }
+      ],
+      "rule_id": "EXPLORATORY_EFFICACY_CONCLUSION_V1"
+    }
+  ],
+  "schema_version": "1.1",
+  "status": "pass",
+  "style_qc": {
+    "blocked": false,
+    "findings": [],
+    "metrics": {
+      "abstract_noun_count": 2,
+      "average_sentence_length": 19.0,
+      "field_enumeration_paragraph_count": 0,
+      "maximum_sentence_length": 33,
+      "overlong_sentence_count": 0,
+      "prespecified_qualifier_count": 0,
+      "reviewed_qualifier_count": 0,
+      "semicolon_count": 1,
+      "sentence_count": 5,
+      "summary_copula_count": 0
+    },
+    "policy": {
+      "banned_expression_is_blocking": true,
+      "literal_zero_event_claim_requires_conditioned_data": true,
+      "qualifier_per_section": 1,
+      "semicolon_per_paragraph": 1,
+      "sentence_length_warning_threshold": 60
+    },
+    "schema_version": "1.0",
+    "status": "pass"
+  },
+  "warnings": []
+}

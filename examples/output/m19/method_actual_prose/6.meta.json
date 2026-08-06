@@ -1,0 +1,154 @@
+{
+  "binding_manifest": [],
+  "card_external_entities": [],
+  "card_id": "M19-METHOD-6-UNFAMILIAR",
+  "causality_control": {
+    "allowed_terms": [
+      "不太可能有关",
+      "可能有关",
+      "很可能有关",
+      "无关",
+      "无法评价",
+      "明确相关",
+      "未评价"
+    ],
+    "exact_match": true,
+    "observed_terms": []
+  },
+  "draft_sha256": "d6ef58e25ed266451e1c6976ad050830b67610fa4b1ec91ade9f76a5f9a19804",
+  "envelope_sha256": "d6b735d1822876444f55a60bb4894b30ec95f56a869599ed00201dfb98d9646b",
+  "external_model_api_called": false,
+  "fact_card_sha256": "3a38a94cc031438c72435e19e572290567a9c1f959a82a58dc29e7bc9fd904f0",
+  "field_checks": [
+    {
+      "fact_id": "V01",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V02",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V03",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    },
+    {
+      "fact_id": "S01",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    }
+  ],
+  "field_count": 4,
+  "field_coverage_percent": 100.0,
+  "field_reference_count": 4,
+  "findings": [],
+  "forward_coverage": {
+    "coverage_mode": "whole_values_label_bound",
+    "guard_policy_sha256": "3694e5964b6da327a106ef30e38a216d4233bf7e6f4bef7e298b8c7235f1697a",
+    "guard_profile": "method_whole_value_label_bound",
+    "guard_version": "3.0",
+    "paragraph_checks": [
+      {
+        "anchored_fact_ids": [
+          "S01",
+          "V01",
+          "V02",
+          "V03"
+        ],
+        "coverage_mode": "whole_values_label_bound",
+        "fact_ids": [
+          "V01",
+          "V02",
+          "V03",
+          "S01"
+        ],
+        "label_binding_checks": [],
+        "label_token_count": 0,
+        "missing_value_fact_ids": [],
+        "paragraph_index": 1,
+        "policy_sha256": "3694e5964b6da327a106ef30e38a216d4233bf7e6f4bef7e298b8c7235f1697a",
+        "residual_content_terms": [],
+        "status": "pass",
+        "whole_value_token_count": 4
+      }
+    ],
+    "release_eligible": true,
+    "status": "pass"
+  },
+  "narration": "constrained_llm",
+  "numeric_placeholders": [],
+  "paragraphs": [
+    {
+      "fact_ids": [
+        "V01",
+        "V02",
+        "V03",
+        "S01"
+      ],
+      "para_id": "p_6_001",
+      "text_sha256": "a594e4f1cecb3001260d90a9c50af1e49dc008df6f53aedccba8b89feea73dda"
+    }
+  ],
+  "production_method": "extraction",
+  "schema_version": "1.0",
+  "section_id": "6",
+  "source_manifest": [
+    {
+      "content_sha256": "430b8f6a63cc3d33840234c45e5f508f73423b6944ea365ea7c17f6fffa2cea2",
+      "file_role": "protocol",
+      "locator": "脱敏方案 研究管理章节",
+      "source_id": "m19_protocol_admin",
+      "version": "deidentified-synthetic-v1"
+    },
+    {
+      "content_sha256": "e396731992d2b86b2fb8185ab306d734c30b5382c18aaddb20973103e86f9e42",
+      "file_role": "confirmed_site_and_role_register",
+      "locator": "脱敏并经确认的职责登记",
+      "source_id": "m19_role_register",
+      "version": "deidentified-synthetic-v1"
+    }
+  ],
+  "status": "pass",
+  "style_qc": {
+    "blocked": false,
+    "findings": [],
+    "metrics": {
+      "abstract_noun_count": 0,
+      "average_sentence_length": 16.2,
+      "field_enumeration_paragraph_count": 0,
+      "maximum_sentence_length": 20,
+      "n_percent_format_error_count": 0,
+      "overlong_sentence_count": 0,
+      "prespecified_qualifier_count": 0,
+      "reviewed_qualifier_count": 0,
+      "semicolon_count": 0,
+      "sentence_count": 4,
+      "summary_copula_count": 0
+    },
+    "policy": {
+      "banned_expression_is_blocking": true,
+      "literal_zero_event_claim_requires_conditioned_data": true,
+      "n_percent_prose_requires_count_unit_and_percent_sign": true,
+      "qualifier_per_section": 1,
+      "semicolon_per_paragraph": 1,
+      "sentence_length_hard_threshold": 60
+    },
+    "schema_version": "1.0",
+    "status": "pass"
+  },
+  "zone_distribution": {
+    "counts": {
+      "A": 0,
+      "B": 0,
+      "C": 0
+    },
+    "percent": {
+      "A": 0.0,
+      "B": 0.0,
+      "C": 0.0
+    }
+  }
+}

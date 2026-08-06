@@ -1,0 +1,35 @@
+{
+  "real_clinical_files_accessed": false,
+  "records": [
+    {
+      "expected_sha256": "78488a876ab203aa382f60d468209c70c2efe71896cc59ad6a8a6a36416de7a3",
+      "observed_sha256": "78488a876ab203aa382f60d468209c70c2efe71896cc59ad6a8a6a36416de7a3",
+      "path": "examples/fixtures/m20_unfamiliar/protocol.single_arm_migraine.deidentified.docx",
+      "role": "protocol",
+      "unchanged": true
+    },
+    {
+      "expected_sha256": "e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2",
+      "observed_sha256": "e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2",
+      "path": "examples/fixtures/m20_unfamiliar/tfl_shell.single_arm_migraine.deidentified.docx",
+      "role": "shell",
+      "unchanged": true
+    },
+    {
+      "expected_sha256": "46c6f4c6e3d39b4826b9892d8cf3d1d7968dbcaf7d3bbe43241824e199ede8d5",
+      "observed_sha256": "46c6f4c6e3d39b4826b9892d8cf3d1d7968dbcaf7d3bbe43241824e199ede8d5",
+      "path": "examples/fixtures/m20_unfamiliar/result_tfl.single_arm_migraine.deidentified.docx",
+      "role": "result",
+      "unchanged": true
+    },
+    {
+      "expected_sha256": "763b7feb486d1c6a280657e87e10aed9bca01625facca65c34a0188613334947",
+      "observed_sha256": "763b7feb486d1c6a280657e87e10aed9bca01625facca65c34a0188613334947",
+      "path": "examples/fixtures/m20_unfamiliar/study_facts.single_arm_migraine.deidentified.json",
+      "role": "study_facts",
+      "unchanged": true
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "pass"
+}

@@ -1,0 +1,136 @@
+{
+  "datapack_sha256": "e2b14a6022fe7ddc029b13042d81f61f31b8432c471483e5dd2744961c72e12a",
+  "draft_sha256": "0cd47e68d033156f0d17c39e2845832f71c40ece2a22ef1f02ada6308b5cd86c",
+  "resolved_sha256": "0ac68909f60d8850eec50b4d3c3fd026d394bfb54e369942f9c7faa84d71eb26",
+  "rules": [
+    {
+      "all_roles_rendered": true,
+      "branch": "critical_binding_missing",
+      "confirmed_body_only": true,
+      "critical_roles": [
+        {
+          "cell_present": true,
+          "key": "T14.2.2.1.1|POP=FAS|ROW=PRIMARY_ENDPOINT|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "primary_endpoint_result",
+          "value_sha256": "c5a56b68b35bfa2482cbb21649e32960af121ea00c3477c18da6b299f906c081"
+        },
+        {
+          "cell_present": false,
+          "key": null,
+          "machine_readable": false,
+          "role": "pk_key_finding",
+          "value_sha256": null
+        },
+        {
+          "cell_present": true,
+          "key": "T14.3.1.2|POP=SS|ROW=ANY_TEAE|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "teae_result",
+          "value_sha256": "fa36dddb9fea13d91d94439d693d42dece067f3f8a8652b691f241ee2a4bfbf5"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.3.1.2|POP=SS|ROW=ANY_SAE|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "sae_count",
+          "value_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.3.1.2|POP=SS|ROW=DEATH|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "death_count",
+          "value_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.3.1.2|POP=SS|ROW=AE_DISCONTINUATION|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "discontinuation_count",
+          "value_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+        }
+      ],
+      "derived_zero_event_roles": [
+        "sae_count",
+        "death_count",
+        "discontinuation_count"
+      ],
+      "medical_review_marker_required": true,
+      "missing_roles": [
+        "pk_key_finding"
+      ],
+      "numeric_values_not_logged": true,
+      "render_mode": "sentence_driven",
+      "role_renderings": [
+        {
+          "key": "T14.2.2.1.1|POP=FAS|ROW=PRIMARY_ENDPOINT|COL=ACTIVE_TOTAL",
+          "rendering_mode": "value_placeholder",
+          "role": "primary_endpoint_result"
+        },
+        {
+          "key": "",
+          "rendering_mode": "missing_no_value_rendered",
+          "role": "pk_key_finding"
+        },
+        {
+          "key": "T14.3.1.2|POP=SS|ROW=ANY_TEAE|COL=ACTIVE_TOTAL",
+          "rendering_mode": "value_placeholder",
+          "role": "teae_result"
+        },
+        {
+          "key": "T14.3.1.2|POP=SS|ROW=ANY_SAE|COL=ACTIVE_TOTAL",
+          "rendering_mode": "conditioned_zero_event_phrase",
+          "role": "sae_count"
+        },
+        {
+          "key": "T14.3.1.2|POP=SS|ROW=DEATH|COL=ACTIVE_TOTAL",
+          "rendering_mode": "conditioned_zero_event_phrase",
+          "role": "death_count"
+        },
+        {
+          "key": "T14.3.1.2|POP=SS|ROW=AE_DISCONTINUATION|COL=ACTIVE_TOTAL",
+          "rendering_mode": "conditioned_zero_event_phrase",
+          "role": "discontinuation_count"
+        }
+      ],
+      "rule_id": "OVERALL_CONCLUSION_V1"
+    }
+  ],
+  "schema_version": "1.1",
+  "status": "pass_with_warning",
+  "style_qc": {
+    "blocked": false,
+    "findings": [],
+    "metrics": {
+      "abstract_noun_count": 0,
+      "average_sentence_length": 22.0,
+      "field_enumeration_paragraph_count": 0,
+      "maximum_sentence_length": 36,
+      "overlong_sentence_count": 0,
+      "prespecified_qualifier_count": 0,
+      "reviewed_qualifier_count": 0,
+      "semicolon_count": 1,
+      "sentence_count": 6,
+      "summary_copula_count": 0
+    },
+    "policy": {
+      "banned_expression_is_blocking": true,
+      "literal_zero_event_claim_requires_conditioned_data": true,
+      "qualifier_per_section": 1,
+      "semicolon_per_paragraph": 1,
+      "sentence_length_warning_threshold": 60
+    },
+    "schema_version": "1.0",
+    "status": "pass"
+  },
+  "warnings": [
+    {
+      "code": "W-OVERALL-CONCLUSION-BINDING-MISSING",
+      "message": "Overall conclusion lacks a confirmed efficacy, PK, or safety result",
+      "missing_roles": [
+        "pk_key_finding"
+      ]
+    }
+  ]
+}

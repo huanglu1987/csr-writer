@@ -1,0 +1,31 @@
+{
+  "path": "sae_exact_reviewed_surface",
+  "records": [
+    {
+      "card_id": "M16-SAE-A",
+      "punctuation_variant_error_codes": [
+        "E-SAE-FORWARD-COVERAGE"
+      ],
+      "punctuation_variant_status": "blocked",
+      "reviewed_surface_status": "pass"
+    },
+    {
+      "card_id": "M16-SAE-B",
+      "punctuation_variant_error_codes": [
+        "E-SAE-FORWARD-COVERAGE"
+      ],
+      "punctuation_variant_status": "blocked",
+      "reviewed_surface_status": "pass"
+    },
+    {
+      "card_id": "M16-SAE-C",
+      "punctuation_variant_error_codes": [
+        "E-SAE-FORWARD-COVERAGE"
+      ],
+      "punctuation_variant_status": "blocked",
+      "reviewed_surface_status": "pass"
+    }
+  ],
+  "release_requires_authorized_surface_forms": true,
+  "schema_version": "1.0"
+}

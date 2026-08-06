@@ -1,0 +1,2584 @@
+{
+  "case_count": 77,
+  "cases": [
+    {
+      "card_id": "M19-METHOD-6-UNFAMILIAR",
+      "case_id": "HOLDOUT-M19-METHOD-6-UNFAMILIAR-ordered_label_value",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "V03",
+            "S01"
+          ],
+          "text": "总体管理职责为申办方负责研究总体管理。医学监查人员负责安全性医学审阅。独立统计团队负责随机化与统计分析。各职能依据经确认的职责分工开展研究管理。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "6",
+      "transformation": "语序调整"
+    },
+    {
+      "card_id": "M19-METHOD-6-UNFAMILIAR",
+      "case_id": "HOLDOUT-M19-METHOD-6-UNFAMILIAR-reverse_order",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "S01",
+            "V03",
+            "V02",
+            "V01"
+          ],
+          "text": "各职能依据经确认的职责分工开展研究管理。独立统计团队负责随机化与统计分析。医学监查人员负责安全性医学审阅。总体管理职责为申办方负责研究总体管理。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "6",
+      "transformation": "语序调整"
+    },
+    {
+      "card_id": "M19-METHOD-6-UNFAMILIAR",
+      "case_id": "HOLDOUT-M19-METHOD-6-UNFAMILIAR-one_fact_per_paragraph",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01"
+          ],
+          "text": "总体管理职责为申办方负责研究总体管理。"
+        },
+        {
+          "fact_ids": [
+            "V02"
+          ],
+          "text": "医学监查人员负责安全性医学审阅。"
+        },
+        {
+          "fact_ids": [
+            "V03"
+          ],
+          "text": "独立统计团队负责随机化与统计分析。"
+        },
+        {
+          "fact_ids": [
+            "S01"
+          ],
+          "text": "各职能依据经确认的职责分工开展研究管理。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "6",
+      "transformation": "分段"
+    },
+    {
+      "card_id": "M19-METHOD-6-UNFAMILIAR",
+      "case_id": "HOLDOUT-M19-METHOD-6-UNFAMILIAR-paired_paragraphs",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02"
+          ],
+          "text": "总体管理职责为申办方负责研究总体管理。医学监查人员负责安全性医学审阅。"
+        },
+        {
+          "fact_ids": [
+            "V03",
+            "S01"
+          ],
+          "text": "独立统计团队负责随机化与统计分析。各职能依据经确认的职责分工开展研究管理。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "6",
+      "transformation": "合段"
+    },
+    {
+      "card_id": "M19-METHOD-6-UNFAMILIAR",
+      "case_id": "HOLDOUT-M19-METHOD-6-UNFAMILIAR-value_before_label",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "V03",
+            "S01"
+          ],
+          "text": "申办方负责研究总体管理作为总体管理职责。医学监查人员负责安全性医学审阅。独立统计团队负责随机化与统计分析。各职能依据经确认的职责分工开展研究管理。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "6",
+      "transformation": "主被动与句式变换"
+    },
+    {
+      "card_id": "M19-METHOD-6-UNFAMILIAR",
+      "case_id": "HOLDOUT-M19-METHOD-6-UNFAMILIAR-section_specific_natural",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "V03",
+            "S01"
+          ],
+          "text": "关于总体管理职责，申办方负责研究总体管理。医学监查人员负责安全性医学审阅。独立统计团队负责随机化与统计分析。各职能依据经确认的职责分工开展研究管理。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "6",
+      "transformation": "同义句式"
+    },
+    {
+      "card_id": "M19-METHOD-6-UNFAMILIAR",
+      "case_id": "HOLDOUT-M19-METHOD-6-UNFAMILIAR-punctuation_variant",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "V03",
+            "S01"
+          ],
+          "text": "总体管理职责为申办方负责研究总体管理；医学监查人员负责安全性医学审阅；独立统计团队负责随机化与统计分析；各职能依据经确认的职责分工开展研究管理。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "6",
+      "transformation": "标点变体"
+    },
+    {
+      "card_id": "M19-METHOD-7-UNFAMILIAR",
+      "case_id": "HOLDOUT-M19-METHOD-7-UNFAMILIAR-ordered_label_value",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "V03",
+            "S01",
+            "S02"
+          ],
+          "text": "研究适应证为目标皮肤病。研究产品为脱敏研究制剂。现有治疗仍存在未满足的临床需求。本研究用于评价脱敏研究制剂在目标人群中的临床特征。研究设计依据现有非临床和早期临床资料确定。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "7",
+      "transformation": "语序调整"
+    },
+    {
+      "card_id": "M19-METHOD-7-UNFAMILIAR",
+      "case_id": "HOLDOUT-M19-METHOD-7-UNFAMILIAR-reverse_order",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "S02",
+            "S01",
+            "V03",
+            "V02",
+            "V01"
+          ],
+          "text": "研究设计依据现有非临床和早期临床资料确定。本研究用于评价脱敏研究制剂在目标人群中的临床特征。现有治疗仍存在未满足的临床需求。研究产品为脱敏研究制剂。研究适应证为目标皮肤病。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "7",
+      "transformation": "语序调整"
+    },
+    {
+      "card_id": "M19-METHOD-7-UNFAMILIAR",
+      "case_id": "HOLDOUT-M19-METHOD-7-UNFAMILIAR-one_fact_per_paragraph",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01"
+          ],
+          "text": "研究适应证为目标皮肤病。"
+        },
+        {
+          "fact_ids": [
+            "V02"
+          ],
+          "text": "研究产品为脱敏研究制剂。"
+        },
+        {
+          "fact_ids": [
+            "V03"
+          ],
+          "text": "现有治疗仍存在未满足的临床需求。"
+        },
+        {
+          "fact_ids": [
+            "S01"
+          ],
+          "text": "本研究用于评价脱敏研究制剂在目标人群中的临床特征。"
+        },
+        {
+          "fact_ids": [
+            "S02"
+          ],
+          "text": "研究设计依据现有非临床和早期临床资料确定。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "7",
+      "transformation": "分段"
+    },
+    {
+      "card_id": "M19-METHOD-7-UNFAMILIAR",
+      "case_id": "HOLDOUT-M19-METHOD-7-UNFAMILIAR-paired_paragraphs",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02"
+          ],
+          "text": "研究适应证为目标皮肤病。研究产品为脱敏研究制剂。"
+        },
+        {
+          "fact_ids": [
+            "V03",
+            "S01"
+          ],
+          "text": "现有治疗仍存在未满足的临床需求。本研究用于评价脱敏研究制剂在目标人群中的临床特征。"
+        },
+        {
+          "fact_ids": [
+            "S02"
+          ],
+          "text": "研究设计依据现有非临床和早期临床资料确定。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "7",
+      "transformation": "合段"
+    },
+    {
+      "card_id": "M19-METHOD-7-UNFAMILIAR",
+      "case_id": "HOLDOUT-M19-METHOD-7-UNFAMILIAR-value_before_label",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "V03",
+            "S01",
+            "S02"
+          ],
+          "text": "目标皮肤病作为研究适应证。脱敏研究制剂作为研究产品。现有治疗仍存在未满足的临床需求。本研究用于评价脱敏研究制剂在目标人群中的临床特征。研究设计依据现有非临床和早期临床资料确定。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "7",
+      "transformation": "主被动与句式变换"
+    },
+    {
+      "card_id": "M19-METHOD-7-UNFAMILIAR",
+      "case_id": "HOLDOUT-M19-METHOD-7-UNFAMILIAR-section_specific_natural",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "V03",
+            "S01",
+            "S02"
+          ],
+          "text": "研究适应证为目标皮肤病。研究产品为脱敏研究制剂。现有治疗仍存在未满足的临床需求。本研究用于评价脱敏研究制剂在目标人群中的临床特征。研究设计依据现有非临床和早期临床资料确定。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "7",
+      "transformation": "同义句式"
+    },
+    {
+      "card_id": "M19-METHOD-7-UNFAMILIAR",
+      "case_id": "HOLDOUT-M19-METHOD-7-UNFAMILIAR-punctuation_variant",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "V03",
+            "S01",
+            "S02"
+          ],
+          "text": "研究适应证为目标皮肤病；研究产品为脱敏研究制剂；现有治疗仍存在未满足的临床需求；本研究用于评价脱敏研究制剂在目标人群中的临床特征；研究设计依据现有非临床和早期临床资料确定。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "7",
+      "transformation": "标点变体"
+    },
+    {
+      "card_id": "M16-METHOD-9-1",
+      "case_id": "HOLDOUT-M16-METHOD-9-1-ordered_label_value",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "V03",
+            "V04",
+            "V05",
+            "V06",
+            "V07",
+            "S01"
+          ],
+          "text": "随机、双盲、安慰剂对照研究。设计框架为平行组设计。治疗组包括安慰剂组、低浓度组、中浓度组、高浓度每日两次组和高浓度每日一次组。分配比为等比例。盲法为双盲。对照为安慰剂对照。给药期和随访期包括连续给药期和安全性随访期。研究依次经过筛选、随机、给药和随访。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.1",
+      "transformation": "语序调整"
+    },
+    {
+      "card_id": "M16-METHOD-9-1",
+      "case_id": "HOLDOUT-M16-METHOD-9-1-reverse_order",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "S01",
+            "V07",
+            "V06",
+            "V05",
+            "V04",
+            "V03",
+            "V02",
+            "V01"
+          ],
+          "text": "研究依次经过筛选、随机、给药和随访。给药期和随访期包括连续给药期和安全性随访期。对照为安慰剂对照。盲法为双盲。分配比为等比例。治疗组包括安慰剂组、低浓度组、中浓度组、高浓度每日两次组和高浓度每日一次组。设计框架为平行组设计。随机、双盲、安慰剂对照研究。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.1",
+      "transformation": "语序调整"
+    },
+    {
+      "card_id": "M16-METHOD-9-1",
+      "case_id": "HOLDOUT-M16-METHOD-9-1-one_fact_per_paragraph",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01"
+          ],
+          "text": "随机、双盲、安慰剂对照研究。"
+        },
+        {
+          "fact_ids": [
+            "V02"
+          ],
+          "text": "设计框架为平行组设计。"
+        },
+        {
+          "fact_ids": [
+            "V03"
+          ],
+          "text": "治疗组包括安慰剂组、低浓度组、中浓度组、高浓度每日两次组和高浓度每日一次组。"
+        },
+        {
+          "fact_ids": [
+            "V04"
+          ],
+          "text": "分配比为等比例。"
+        },
+        {
+          "fact_ids": [
+            "V05"
+          ],
+          "text": "盲法为双盲。"
+        },
+        {
+          "fact_ids": [
+            "V06"
+          ],
+          "text": "对照为安慰剂对照。"
+        },
+        {
+          "fact_ids": [
+            "V07"
+          ],
+          "text": "给药期和随访期包括连续给药期和安全性随访期。"
+        },
+        {
+          "fact_ids": [
+            "S01"
+          ],
+          "text": "研究依次经过筛选、随机、给药和随访。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.1",
+      "transformation": "分段"
+    },
+    {
+      "card_id": "M16-METHOD-9-1",
+      "case_id": "HOLDOUT-M16-METHOD-9-1-paired_paragraphs",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02"
+          ],
+          "text": "随机、双盲、安慰剂对照研究。设计框架为平行组设计。"
+        },
+        {
+          "fact_ids": [
+            "V03",
+            "V04"
+          ],
+          "text": "治疗组包括安慰剂组、低浓度组、中浓度组、高浓度每日两次组和高浓度每日一次组。分配比为等比例。"
+        },
+        {
+          "fact_ids": [
+            "V05",
+            "V06"
+          ],
+          "text": "盲法为双盲。对照为安慰剂对照。"
+        },
+        {
+          "fact_ids": [
+            "V07",
+            "S01"
+          ],
+          "text": "给药期和随访期包括连续给药期和安全性随访期。研究依次经过筛选、随机、给药和随访。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.1",
+      "transformation": "合段"
+    },
+    {
+      "card_id": "M16-METHOD-9-1",
+      "case_id": "HOLDOUT-M16-METHOD-9-1-value_before_label",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "V03",
+            "V04",
+            "V05",
+            "V06",
+            "V07",
+            "S01"
+          ],
+          "text": "随机、双盲、安慰剂对照研究。平行组设计作为设计框架。安慰剂组、低浓度组、中浓度组、高浓度每日两次组和高浓度每日一次组均列为治疗组。等比例作为分配比。双盲作为盲法。安慰剂对照作为对照。连续给药期和安全性随访期均列为给药期和随访期。研究依次经过筛选、随机、给药和随访。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.1",
+      "transformation": "主被动与句式变换"
+    },
+    {
+      "card_id": "M16-METHOD-9-1",
+      "case_id": "HOLDOUT-M16-METHOD-9-1-section_specific_natural",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "V03",
+            "V04",
+            "V05",
+            "V06",
+            "V07",
+            "S01"
+          ],
+          "text": "本研究为随机、双盲、安慰剂对照研究。研究采用平行组设计。治疗组包括安慰剂组、低浓度组、中浓度组、高浓度每日两次组和高浓度每日一次组。分配比为等比例。盲法为双盲。对照为安慰剂对照。给药期和随访期包括连续给药期和安全性随访期。研究依次经过筛选、随机、给药和随访。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.1",
+      "transformation": "同义句式"
+    },
+    {
+      "card_id": "M16-METHOD-9-1",
+      "case_id": "HOLDOUT-M16-METHOD-9-1-punctuation_variant",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "V03",
+            "V04",
+            "V05",
+            "V06",
+            "V07",
+            "S01"
+          ],
+          "text": "随机、双盲、安慰剂对照研究；设计框架为平行组设计；治疗组包括安慰剂组、低浓度组、中浓度组、高浓度每日两次组和高浓度每日一次组；分配比为等比例；盲法为双盲；对照为安慰剂对照；给药期和随访期包括连续给药期和安全性随访期；研究依次经过筛选、随机、给药和随访。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.1",
+      "transformation": "标点变体"
+    },
+    {
+      "card_id": "M16-METHOD-9-2",
+      "case_id": "HOLDOUT-M16-METHOD-9-2-ordered_label_value",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "S01",
+            "S02"
+          ],
+          "text": "对照类型为安慰剂对照。研究对象为目标适应证成人受试者。随机平行组设计用于比较各治疗组的观察结果。安慰剂对照用于区分治疗变化与疾病自然波动。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.2",
+      "transformation": "语序调整"
+    },
+    {
+      "card_id": "M16-METHOD-9-2",
+      "case_id": "HOLDOUT-M16-METHOD-9-2-reverse_order",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "S02",
+            "S01",
+            "V02",
+            "V01"
+          ],
+          "text": "安慰剂对照用于区分治疗变化与疾病自然波动。随机平行组设计用于比较各治疗组的观察结果。研究对象为目标适应证成人受试者。对照类型为安慰剂对照。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.2",
+      "transformation": "语序调整"
+    },
+    {
+      "card_id": "M16-METHOD-9-2",
+      "case_id": "HOLDOUT-M16-METHOD-9-2-one_fact_per_paragraph",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01"
+          ],
+          "text": "对照类型为安慰剂对照。"
+        },
+        {
+          "fact_ids": [
+            "V02"
+          ],
+          "text": "研究对象为目标适应证成人受试者。"
+        },
+        {
+          "fact_ids": [
+            "S01"
+          ],
+          "text": "随机平行组设计用于比较各治疗组的观察结果。"
+        },
+        {
+          "fact_ids": [
+            "S02"
+          ],
+          "text": "安慰剂对照用于区分治疗变化与疾病自然波动。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.2",
+      "transformation": "分段"
+    },
+    {
+      "card_id": "M16-METHOD-9-2",
+      "case_id": "HOLDOUT-M16-METHOD-9-2-paired_paragraphs",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02"
+          ],
+          "text": "对照类型为安慰剂对照。研究对象为目标适应证成人受试者。"
+        },
+        {
+          "fact_ids": [
+            "S01",
+            "S02"
+          ],
+          "text": "随机平行组设计用于比较各治疗组的观察结果。安慰剂对照用于区分治疗变化与疾病自然波动。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.2",
+      "transformation": "合段"
+    },
+    {
+      "card_id": "M16-METHOD-9-2",
+      "case_id": "HOLDOUT-M16-METHOD-9-2-value_before_label",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "S01",
+            "S02"
+          ],
+          "text": "安慰剂对照作为对照类型。研究对象为目标适应证成人受试者。随机平行组设计用于比较各治疗组的观察结果。安慰剂对照用于区分治疗变化与疾病自然波动。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.2",
+      "transformation": "主被动与句式变换"
+    },
+    {
+      "card_id": "M16-METHOD-9-2",
+      "case_id": "HOLDOUT-M16-METHOD-9-2-section_specific_natural",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "S01",
+            "S02"
+          ],
+          "text": "本研究采用安慰剂对照。研究对象为目标适应证成人受试者。随机平行组设计用于比较各治疗组的观察结果。安慰剂对照用于区分治疗变化与疾病自然波动。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.2",
+      "transformation": "同义句式"
+    },
+    {
+      "card_id": "M16-METHOD-9-2",
+      "case_id": "HOLDOUT-M16-METHOD-9-2-punctuation_variant",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "S01",
+            "S02"
+          ],
+          "text": "对照类型为安慰剂对照；研究对象为目标适应证成人受试者；随机平行组设计用于比较各治疗组的观察结果。安慰剂对照用于区分治疗变化与疾病自然波动。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.2",
+      "transformation": "标点变体"
+    },
+    {
+      "card_id": "M16-METHOD-9-4-1",
+      "case_id": "HOLDOUT-M16-METHOD-9-4-1-ordered_label_value",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "V03",
+            "V04",
+            "V05",
+            "V06",
+            "V07",
+            "S01"
+          ],
+          "text": "各治疗组包括安慰剂组、低浓度组、中浓度组、高浓度每日两次组和高浓度每日一次组。剂型为乳膏剂。规格为多种浓度规格。浓度或剂量为按组使用相应浓度。频次包括每日一次和每日两次。途径为皮肤局部外用。疗程为连续治疗期。研究治疗按分组、浓度和频次实施给药。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.4.1",
+      "transformation": "语序调整"
+    },
+    {
+      "card_id": "M16-METHOD-9-4-1",
+      "case_id": "HOLDOUT-M16-METHOD-9-4-1-reverse_order",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "S01",
+            "V07",
+            "V06",
+            "V05",
+            "V04",
+            "V03",
+            "V02",
+            "V01"
+          ],
+          "text": "研究治疗按分组、浓度和频次实施给药。疗程为连续治疗期。途径为皮肤局部外用。频次包括每日一次和每日两次。浓度或剂量为按组使用相应浓度。规格为多种浓度规格。剂型为乳膏剂。各治疗组包括安慰剂组、低浓度组、中浓度组、高浓度每日两次组和高浓度每日一次组。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.4.1",
+      "transformation": "语序调整"
+    },
+    {
+      "card_id": "M16-METHOD-9-4-1",
+      "case_id": "HOLDOUT-M16-METHOD-9-4-1-one_fact_per_paragraph",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01"
+          ],
+          "text": "各治疗组包括安慰剂组、低浓度组、中浓度组、高浓度每日两次组和高浓度每日一次组。"
+        },
+        {
+          "fact_ids": [
+            "V02"
+          ],
+          "text": "剂型为乳膏剂。"
+        },
+        {
+          "fact_ids": [
+            "V03"
+          ],
+          "text": "规格为多种浓度规格。"
+        },
+        {
+          "fact_ids": [
+            "V04"
+          ],
+          "text": "浓度或剂量为按组使用相应浓度。"
+        },
+        {
+          "fact_ids": [
+            "V05"
+          ],
+          "text": "频次包括每日一次和每日两次。"
+        },
+        {
+          "fact_ids": [
+            "V06"
+          ],
+          "text": "途径为皮肤局部外用。"
+        },
+        {
+          "fact_ids": [
+            "V07"
+          ],
+          "text": "疗程为连续治疗期。"
+        },
+        {
+          "fact_ids": [
+            "S01"
+          ],
+          "text": "研究治疗按分组、浓度和频次实施给药。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.4.1",
+      "transformation": "分段"
+    },
+    {
+      "card_id": "M16-METHOD-9-4-1",
+      "case_id": "HOLDOUT-M16-METHOD-9-4-1-paired_paragraphs",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02"
+          ],
+          "text": "各治疗组包括安慰剂组、低浓度组、中浓度组、高浓度每日两次组和高浓度每日一次组。剂型为乳膏剂。"
+        },
+        {
+          "fact_ids": [
+            "V03",
+            "V04"
+          ],
+          "text": "规格为多种浓度规格。浓度或剂量为按组使用相应浓度。"
+        },
+        {
+          "fact_ids": [
+            "V05",
+            "V06"
+          ],
+          "text": "频次包括每日一次和每日两次。途径为皮肤局部外用。"
+        },
+        {
+          "fact_ids": [
+            "V07",
+            "S01"
+          ],
+          "text": "疗程为连续治疗期。研究治疗按分组、浓度和频次实施给药。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.4.1",
+      "transformation": "合段"
+    },
+    {
+      "card_id": "M16-METHOD-9-4-1",
+      "case_id": "HOLDOUT-M16-METHOD-9-4-1-value_before_label",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "V03",
+            "V04",
+            "V05",
+            "V06",
+            "V07",
+            "S01"
+          ],
+          "text": "安慰剂组、低浓度组、中浓度组、高浓度每日两次组和高浓度每日一次组均列为各治疗组。乳膏剂作为剂型。多种浓度规格作为规格。按组使用相应浓度作为浓度或剂量。每日一次和每日两次均列为频次。皮肤局部外用作为途径。连续治疗期作为疗程。研究治疗按分组、浓度和频次实施给药。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.4.1",
+      "transformation": "主被动与句式变换"
+    },
+    {
+      "card_id": "M16-METHOD-9-4-1",
+      "case_id": "HOLDOUT-M16-METHOD-9-4-1-section_specific_natural",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "V03",
+            "V04",
+            "V05",
+            "V06",
+            "V07",
+            "S01"
+          ],
+          "text": "各治疗组包括安慰剂组、低浓度组、中浓度组、高浓度每日两次组和高浓度每日一次组。剂型为乳膏剂。规格为多种浓度规格。浓度或剂量为按组使用相应浓度。频次包括每日一次和每日两次。研究治疗经皮肤局部外用。疗程为连续治疗期。研究治疗按分组、浓度和频次实施给药。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.4.1",
+      "transformation": "同义句式"
+    },
+    {
+      "card_id": "M16-METHOD-9-4-1",
+      "case_id": "HOLDOUT-M16-METHOD-9-4-1-punctuation_variant",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "V03",
+            "V04",
+            "V05",
+            "V06",
+            "V07",
+            "S01"
+          ],
+          "text": "各治疗组包括安慰剂组、低浓度组、中浓度组、高浓度每日两次组和高浓度每日一次组；剂型为乳膏剂；规格为多种浓度规格；浓度或剂量为按组使用相应浓度；频次包括每日一次和每日两次；途径为皮肤局部外用；疗程为连续治疗期；研究治疗按分组、浓度和频次实施给药。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.4.1",
+      "transformation": "标点变体"
+    },
+    {
+      "card_id": "M16-METHOD-9-4-3",
+      "case_id": "HOLDOUT-M16-METHOD-9-4-3-ordered_label_value",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "V03",
+            "V04",
+            "V05",
+            "V06",
+            "V07",
+            "S01"
+          ],
+          "text": "随机化方式为中央随机化。分配比为等比例。分层因素包括研究中心和基线严重程度。区组长度为由独立统计师保密保存。随机号生成方为独立统计人员。随机系统为交互式网络应答系统。授权人员登录后按顺序取得分配结果。随机化清单由独立统计人员生成，授权人员通过系统实施分配。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.4.3",
+      "transformation": "语序调整"
+    },
+    {
+      "card_id": "M16-METHOD-9-4-3",
+      "case_id": "HOLDOUT-M16-METHOD-9-4-3-reverse_order",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "S01",
+            "V07",
+            "V06",
+            "V05",
+            "V04",
+            "V03",
+            "V02",
+            "V01"
+          ],
+          "text": "随机化清单由独立统计人员生成，授权人员通过系统实施分配。授权人员登录后按顺序取得分配结果。随机系统为交互式网络应答系统。随机号生成方为独立统计人员。区组长度为由独立统计师保密保存。分层因素包括研究中心和基线严重程度。分配比为等比例。随机化方式为中央随机化。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.4.3",
+      "transformation": "语序调整"
+    },
+    {
+      "card_id": "M16-METHOD-9-4-3",
+      "case_id": "HOLDOUT-M16-METHOD-9-4-3-one_fact_per_paragraph",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01"
+          ],
+          "text": "随机化方式为中央随机化。"
+        },
+        {
+          "fact_ids": [
+            "V02"
+          ],
+          "text": "分配比为等比例。"
+        },
+        {
+          "fact_ids": [
+            "V03"
+          ],
+          "text": "分层因素包括研究中心和基线严重程度。"
+        },
+        {
+          "fact_ids": [
+            "V04"
+          ],
+          "text": "区组长度为由独立统计师保密保存。"
+        },
+        {
+          "fact_ids": [
+            "V05"
+          ],
+          "text": "随机号生成方为独立统计人员。"
+        },
+        {
+          "fact_ids": [
+            "V06"
+          ],
+          "text": "随机系统为交互式网络应答系统。"
+        },
+        {
+          "fact_ids": [
+            "V07"
+          ],
+          "text": "授权人员登录后按顺序取得分配结果。"
+        },
+        {
+          "fact_ids": [
+            "S01"
+          ],
+          "text": "随机化清单由独立统计人员生成，授权人员通过系统实施分配。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.4.3",
+      "transformation": "分段"
+    },
+    {
+      "card_id": "M16-METHOD-9-4-3",
+      "case_id": "HOLDOUT-M16-METHOD-9-4-3-paired_paragraphs",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02"
+          ],
+          "text": "随机化方式为中央随机化。分配比为等比例。"
+        },
+        {
+          "fact_ids": [
+            "V03",
+            "V04"
+          ],
+          "text": "分层因素包括研究中心和基线严重程度。区组长度为由独立统计师保密保存。"
+        },
+        {
+          "fact_ids": [
+            "V05",
+            "V06"
+          ],
+          "text": "随机号生成方为独立统计人员。随机系统为交互式网络应答系统。"
+        },
+        {
+          "fact_ids": [
+            "V07",
+            "S01"
+          ],
+          "text": "授权人员登录后按顺序取得分配结果。随机化清单由独立统计人员生成，授权人员通过系统实施分配。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.4.3",
+      "transformation": "合段"
+    },
+    {
+      "card_id": "M16-METHOD-9-4-3",
+      "case_id": "HOLDOUT-M16-METHOD-9-4-3-value_before_label",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "V03",
+            "V04",
+            "V05",
+            "V06",
+            "V07",
+            "S01"
+          ],
+          "text": "中央随机化作为随机化方式。等比例作为分配比。研究中心和基线严重程度均列为分层因素。由独立统计师保密保存作为区组长度。独立统计人员作为随机号生成方。交互式网络应答系统作为随机系统。授权人员登录后按顺序取得分配结果。随机化清单由独立统计人员生成，授权人员通过系统实施分配。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.4.3",
+      "transformation": "主被动与句式变换"
+    },
+    {
+      "card_id": "M16-METHOD-9-4-3",
+      "case_id": "HOLDOUT-M16-METHOD-9-4-3-section_specific_natural",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "V03",
+            "V04",
+            "V05",
+            "V06",
+            "V07",
+            "S01"
+          ],
+          "text": "本研究采用中央随机化。分配比为等比例。研究中心和基线严重程度均为分层因素。区组长度为由独立统计师保密保存。随机号生成方为独立统计人员。随机系统为交互式网络应答系统。授权人员登录后按顺序取得分配结果。随机化清单由独立统计人员生成，授权人员通过系统实施分配。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.4.3",
+      "transformation": "同义句式"
+    },
+    {
+      "card_id": "M16-METHOD-9-4-3",
+      "case_id": "HOLDOUT-M16-METHOD-9-4-3-punctuation_variant",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "V03",
+            "V04",
+            "V05",
+            "V06",
+            "V07",
+            "S01"
+          ],
+          "text": "随机化方式为中央随机化；分配比为等比例；分层因素包括研究中心和基线严重程度；区组长度为由独立统计师保密保存；随机号生成方为独立统计人员；随机系统为交互式网络应答系统；授权人员登录后按顺序取得分配结果；随机化清单由独立统计人员生成，授权人员通过系统实施分配。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.4.3",
+      "transformation": "标点变体"
+    },
+    {
+      "card_id": "M16-METHOD-9-4-6",
+      "case_id": "HOLDOUT-M16-METHOD-9-4-6-ordered_label_value",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "V03",
+            "V04",
+            "V05",
+            "V06",
+            "V07",
+            "S01"
+          ],
+          "text": "盲法类型为双盲。设盲对象包括受试者、研究者和疗效评价人员。研究药物在外观和包装上保持一致。盲底管理为盲底由独立人员保管。发生需要知晓治疗信息的紧急医疗情形。授权研究者通过应急揭盲程序提出申请。揭盲权限为仅获授权人员可执行揭盲。研究期间维持盲态，并完整记录应急揭盲。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.4.6",
+      "transformation": "语序调整"
+    },
+    {
+      "card_id": "M16-METHOD-9-4-6",
+      "case_id": "HOLDOUT-M16-METHOD-9-4-6-reverse_order",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "S01",
+            "V07",
+            "V06",
+            "V05",
+            "V04",
+            "V03",
+            "V02",
+            "V01"
+          ],
+          "text": "研究期间维持盲态，并完整记录应急揭盲。揭盲权限为仅获授权人员可执行揭盲。授权研究者通过应急揭盲程序提出申请。发生需要知晓治疗信息的紧急医疗情形。盲底管理为盲底由独立人员保管。研究药物在外观和包装上保持一致。设盲对象包括受试者、研究者和疗效评价人员。盲法类型为双盲。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.4.6",
+      "transformation": "语序调整"
+    },
+    {
+      "card_id": "M16-METHOD-9-4-6",
+      "case_id": "HOLDOUT-M16-METHOD-9-4-6-one_fact_per_paragraph",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01"
+          ],
+          "text": "盲法类型为双盲。"
+        },
+        {
+          "fact_ids": [
+            "V02"
+          ],
+          "text": "设盲对象包括受试者、研究者和疗效评价人员。"
+        },
+        {
+          "fact_ids": [
+            "V03"
+          ],
+          "text": "研究药物在外观和包装上保持一致。"
+        },
+        {
+          "fact_ids": [
+            "V04"
+          ],
+          "text": "盲底管理为盲底由独立人员保管。"
+        },
+        {
+          "fact_ids": [
+            "V05"
+          ],
+          "text": "发生需要知晓治疗信息的紧急医疗情形。"
+        },
+        {
+          "fact_ids": [
+            "V06"
+          ],
+          "text": "授权研究者通过应急揭盲程序提出申请。"
+        },
+        {
+          "fact_ids": [
+            "V07"
+          ],
+          "text": "揭盲权限为仅获授权人员可执行揭盲。"
+        },
+        {
+          "fact_ids": [
+            "S01"
+          ],
+          "text": "研究期间维持盲态，并完整记录应急揭盲。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.4.6",
+      "transformation": "分段"
+    },
+    {
+      "card_id": "M16-METHOD-9-4-6",
+      "case_id": "HOLDOUT-M16-METHOD-9-4-6-paired_paragraphs",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02"
+          ],
+          "text": "盲法类型为双盲。设盲对象包括受试者、研究者和疗效评价人员。"
+        },
+        {
+          "fact_ids": [
+            "V03",
+            "V04"
+          ],
+          "text": "研究药物在外观和包装上保持一致。盲底管理为盲底由独立人员保管。"
+        },
+        {
+          "fact_ids": [
+            "V05",
+            "V06"
+          ],
+          "text": "发生需要知晓治疗信息的紧急医疗情形。授权研究者通过应急揭盲程序提出申请。"
+        },
+        {
+          "fact_ids": [
+            "V07",
+            "S01"
+          ],
+          "text": "揭盲权限为仅获授权人员可执行揭盲。研究期间维持盲态，并完整记录应急揭盲。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.4.6",
+      "transformation": "合段"
+    },
+    {
+      "card_id": "M16-METHOD-9-4-6",
+      "case_id": "HOLDOUT-M16-METHOD-9-4-6-value_before_label",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "V03",
+            "V04",
+            "V05",
+            "V06",
+            "V07",
+            "S01"
+          ],
+          "text": "双盲作为盲法类型。受试者、研究者和疗效评价人员均列为设盲对象。研究药物在外观和包装上保持一致。盲底由独立人员保管作为盲底管理。发生需要知晓治疗信息的紧急医疗情形。授权研究者通过应急揭盲程序提出申请。仅获授权人员可执行揭盲作为揭盲权限。研究期间维持盲态，并完整记录应急揭盲。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.4.6",
+      "transformation": "主被动与句式变换"
+    },
+    {
+      "card_id": "M16-METHOD-9-4-6",
+      "case_id": "HOLDOUT-M16-METHOD-9-4-6-section_specific_natural",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "V03",
+            "V04",
+            "V05",
+            "V06",
+            "V07",
+            "S01"
+          ],
+          "text": "本研究为双盲设计。受试者、研究者和疗效评价人员均为设盲对象。研究药物在外观和包装上保持一致。盲底管理为盲底由独立人员保管。发生需要知晓治疗信息的紧急医疗情形。授权研究者通过应急揭盲程序提出申请。揭盲权限为仅获授权人员可执行揭盲。研究期间维持盲态，并完整记录应急揭盲。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.4.6",
+      "transformation": "同义句式"
+    },
+    {
+      "card_id": "M16-METHOD-9-4-6",
+      "case_id": "HOLDOUT-M16-METHOD-9-4-6-punctuation_variant",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "V03",
+            "V04",
+            "V05",
+            "V06",
+            "V07",
+            "S01"
+          ],
+          "text": "盲法类型为双盲；设盲对象包括受试者、研究者和疗效评价人员；研究药物在外观和包装上保持一致；盲底管理为盲底由独立人员保管；发生需要知晓治疗信息的紧急医疗情形；授权研究者通过应急揭盲程序提出申请；揭盲权限为仅获授权人员可执行揭盲；研究期间维持盲态，并完整记录应急揭盲。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.4.6",
+      "transformation": "标点变体"
+    },
+    {
+      "card_id": "M16-METHOD-9-5-3",
+      "case_id": "HOLDOUT-M16-METHOD-9-5-3-ordered_label_value",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "V03",
+            "V04",
+            "V05",
+            "V06"
+          ],
+          "text": "主要终点为目标量表治疗成功率。按方案规定的量表等级变化判定治疗成功。在方案规定的主要评价访视判定。按 SAP 规定计算各组治疗成功率。分析集为FAS。本研究未采用正式 estimand 框架。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.5.3",
+      "transformation": "语序调整"
+    },
+    {
+      "card_id": "M16-METHOD-9-5-3",
+      "case_id": "HOLDOUT-M16-METHOD-9-5-3-reverse_order",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V06",
+            "V05",
+            "V04",
+            "V03",
+            "V02",
+            "V01"
+          ],
+          "text": "本研究未采用正式 estimand 框架。分析集为FAS。按 SAP 规定计算各组治疗成功率。在方案规定的主要评价访视判定。按方案规定的量表等级变化判定治疗成功。主要终点为目标量表治疗成功率。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.5.3",
+      "transformation": "语序调整"
+    },
+    {
+      "card_id": "M16-METHOD-9-5-3",
+      "case_id": "HOLDOUT-M16-METHOD-9-5-3-one_fact_per_paragraph",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01"
+          ],
+          "text": "主要终点为目标量表治疗成功率。"
+        },
+        {
+          "fact_ids": [
+            "V02"
+          ],
+          "text": "按方案规定的量表等级变化判定治疗成功。"
+        },
+        {
+          "fact_ids": [
+            "V03"
+          ],
+          "text": "在方案规定的主要评价访视判定。"
+        },
+        {
+          "fact_ids": [
+            "V04"
+          ],
+          "text": "按 SAP 规定计算各组治疗成功率。"
+        },
+        {
+          "fact_ids": [
+            "V05"
+          ],
+          "text": "分析集为FAS。"
+        },
+        {
+          "fact_ids": [
+            "V06"
+          ],
+          "text": "本研究未采用正式 estimand 框架。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.5.3",
+      "transformation": "分段"
+    },
+    {
+      "card_id": "M16-METHOD-9-5-3",
+      "case_id": "HOLDOUT-M16-METHOD-9-5-3-paired_paragraphs",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02"
+          ],
+          "text": "主要终点为目标量表治疗成功率。按方案规定的量表等级变化判定治疗成功。"
+        },
+        {
+          "fact_ids": [
+            "V03",
+            "V04"
+          ],
+          "text": "在方案规定的主要评价访视判定。按 SAP 规定计算各组治疗成功率。"
+        },
+        {
+          "fact_ids": [
+            "V05",
+            "V06"
+          ],
+          "text": "分析集为FAS。本研究未采用正式 estimand 框架。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.5.3",
+      "transformation": "合段"
+    },
+    {
+      "card_id": "M16-METHOD-9-5-3",
+      "case_id": "HOLDOUT-M16-METHOD-9-5-3-value_before_label",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "V03",
+            "V04",
+            "V05",
+            "V06"
+          ],
+          "text": "主要终点为目标量表治疗成功率。按方案规定的量表等级变化判定治疗成功。在方案规定的主要评价访视判定。按 SAP 规定计算各组治疗成功率。FAS作为分析集。本研究未采用正式 estimand 框架。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.5.3",
+      "transformation": "主被动与句式变换"
+    },
+    {
+      "card_id": "M16-METHOD-9-5-3",
+      "case_id": "HOLDOUT-M16-METHOD-9-5-3-section_specific_natural",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "V03",
+            "V04",
+            "V05",
+            "V06"
+          ],
+          "text": "主要终点为目标量表治疗成功率。按方案规定的量表等级变化判定治疗成功。在方案规定的主要评价访视判定。按 SAP 规定计算各组治疗成功率。FAS作为分析集。本研究未采用正式 estimand 框架。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.5.3",
+      "transformation": "同义句式"
+    },
+    {
+      "card_id": "M16-METHOD-9-5-3",
+      "case_id": "HOLDOUT-M16-METHOD-9-5-3-punctuation_variant",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "V01",
+            "V02",
+            "V03",
+            "V04",
+            "V05",
+            "V06"
+          ],
+          "text": "主要终点为目标量表治疗成功率；按方案规定的量表等级变化判定治疗成功；在方案规定的主要评价访视判定；按 SAP 规定计算各组治疗成功率；分析集为FAS；本研究未采用正式 estimand 框架。"
+        }
+      ],
+      "path": "method_label_bound",
+      "section_id": "9.5.3",
+      "transformation": "标点变体"
+    },
+    {
+      "card_id": "M16-SAE-A",
+      "case_id": "HOLDOUT-M16-SAE-A-ordered_label_value",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "B01"
+          ],
+          "text": "受试者标识为受试者甲。相关病史为既往有过敏性鼻炎。{{T16.3.1|POP=SS|ROW=SUBJ_A/EXPOSURE|COL=DOSE}}。事件术语为用药部位红斑。{{T16.3.1|POP=SS|ROW=SUBJ_A/EVENT|COL=START_DATE}}。严重程度为中度。严重性标准为需要住院治疗。合并用药为接受对症处理。{{T16.3.1|POP=SS|ROW=SUBJ_A/TEST|COL=RESULT}}。对研究治疗采取的措施为研究治疗暂停。转归为已恢复。研究者判断该事件与研究药物可能有关。入院后接受对症处理，局部症状逐渐缓解。"
+        },
+        {
+          "fact_ids": [
+            "C01"
+          ],
+          "text": "申办方医学综合评价由医学负责人另行完成。[待医学负责人确认]"
+        }
+      ],
+      "path": "sae_exact_surface",
+      "section_id": "12.3.2",
+      "transformation": "语序调整"
+    },
+    {
+      "card_id": "M16-SAE-A",
+      "case_id": "HOLDOUT-M16-SAE-A-reverse_order",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "B01",
+            "A12",
+            "A11",
+            "A10",
+            "A09",
+            "A08",
+            "A07",
+            "A06",
+            "A05",
+            "A04",
+            "A03",
+            "A02",
+            "A01"
+          ],
+          "text": "入院后接受对症处理，局部症状逐渐缓解。研究者判断该事件与研究药物可能有关。转归为已恢复。对研究治疗采取的措施为研究治疗暂停。{{T16.3.1|POP=SS|ROW=SUBJ_A/TEST|COL=RESULT}}。合并用药为接受对症处理。严重性标准为需要住院治疗。严重程度为中度。{{T16.3.1|POP=SS|ROW=SUBJ_A/EVENT|COL=START_DATE}}。事件术语为用药部位红斑。{{T16.3.1|POP=SS|ROW=SUBJ_A/EXPOSURE|COL=DOSE}}。相关病史为既往有过敏性鼻炎。受试者标识为受试者甲。"
+        },
+        {
+          "fact_ids": [
+            "C01"
+          ],
+          "text": "申办方医学综合评价由医学负责人另行完成。[待医学负责人确认]"
+        }
+      ],
+      "path": "sae_exact_surface",
+      "section_id": "12.3.2",
+      "transformation": "语序调整"
+    },
+    {
+      "card_id": "M16-SAE-A",
+      "case_id": "HOLDOUT-M16-SAE-A-one_fact_per_paragraph",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "A01"
+          ],
+          "text": "受试者标识为受试者甲。"
+        },
+        {
+          "fact_ids": [
+            "A02"
+          ],
+          "text": "相关病史为既往有过敏性鼻炎。"
+        },
+        {
+          "fact_ids": [
+            "A03"
+          ],
+          "text": "{{T16.3.1|POP=SS|ROW=SUBJ_A/EXPOSURE|COL=DOSE}}。"
+        },
+        {
+          "fact_ids": [
+            "A04"
+          ],
+          "text": "事件术语为用药部位红斑。"
+        },
+        {
+          "fact_ids": [
+            "A05"
+          ],
+          "text": "{{T16.3.1|POP=SS|ROW=SUBJ_A/EVENT|COL=START_DATE}}。"
+        },
+        {
+          "fact_ids": [
+            "A06"
+          ],
+          "text": "严重程度为中度。"
+        },
+        {
+          "fact_ids": [
+            "A07"
+          ],
+          "text": "严重性标准为需要住院治疗。"
+        },
+        {
+          "fact_ids": [
+            "A08"
+          ],
+          "text": "合并用药为接受对症处理。"
+        },
+        {
+          "fact_ids": [
+            "A09"
+          ],
+          "text": "{{T16.3.1|POP=SS|ROW=SUBJ_A/TEST|COL=RESULT}}。"
+        },
+        {
+          "fact_ids": [
+            "A10"
+          ],
+          "text": "对研究治疗采取的措施为研究治疗暂停。"
+        },
+        {
+          "fact_ids": [
+            "A11"
+          ],
+          "text": "转归为已恢复。"
+        },
+        {
+          "fact_ids": [
+            "A12"
+          ],
+          "text": "研究者判断该事件与研究药物可能有关。"
+        },
+        {
+          "fact_ids": [
+            "B01"
+          ],
+          "text": "入院后接受对症处理，局部症状逐渐缓解。"
+        },
+        {
+          "fact_ids": [
+            "C01"
+          ],
+          "text": "申办方医学综合评价由医学负责人另行完成。[待医学负责人确认]"
+        }
+      ],
+      "path": "sae_exact_surface",
+      "section_id": "12.3.2",
+      "transformation": "分段"
+    },
+    {
+      "card_id": "M16-SAE-A",
+      "case_id": "HOLDOUT-M16-SAE-A-paired_paragraphs",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "A01",
+            "A02"
+          ],
+          "text": "受试者标识为受试者甲。相关病史为既往有过敏性鼻炎。"
+        },
+        {
+          "fact_ids": [
+            "A03",
+            "A04"
+          ],
+          "text": "{{T16.3.1|POP=SS|ROW=SUBJ_A/EXPOSURE|COL=DOSE}}。事件术语为用药部位红斑。"
+        },
+        {
+          "fact_ids": [
+            "A05",
+            "A06"
+          ],
+          "text": "{{T16.3.1|POP=SS|ROW=SUBJ_A/EVENT|COL=START_DATE}}。严重程度为中度。"
+        },
+        {
+          "fact_ids": [
+            "A07",
+            "A08"
+          ],
+          "text": "严重性标准为需要住院治疗。合并用药为接受对症处理。"
+        },
+        {
+          "fact_ids": [
+            "A09",
+            "A10"
+          ],
+          "text": "{{T16.3.1|POP=SS|ROW=SUBJ_A/TEST|COL=RESULT}}。对研究治疗采取的措施为研究治疗暂停。"
+        },
+        {
+          "fact_ids": [
+            "A11",
+            "A12"
+          ],
+          "text": "转归为已恢复。研究者判断该事件与研究药物可能有关。"
+        },
+        {
+          "fact_ids": [
+            "B01"
+          ],
+          "text": "入院后接受对症处理，局部症状逐渐缓解。"
+        },
+        {
+          "fact_ids": [
+            "C01"
+          ],
+          "text": "申办方医学综合评价由医学负责人另行完成。[待医学负责人确认]"
+        }
+      ],
+      "path": "sae_exact_surface",
+      "section_id": "12.3.2",
+      "transformation": "合段"
+    },
+    {
+      "card_id": "M16-SAE-A",
+      "case_id": "HOLDOUT-M16-SAE-A-value_before_label",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "B01"
+          ],
+          "text": "受试者甲作为受试者标识。既往有过敏性鼻炎作为相关病史。{{T16.3.1|POP=SS|ROW=SUBJ_A/EXPOSURE|COL=DOSE}}。用药部位红斑作为事件术语。{{T16.3.1|POP=SS|ROW=SUBJ_A/EVENT|COL=START_DATE}}。中度作为严重程度。需要住院治疗作为严重性标准。接受对症处理作为合并用药。{{T16.3.1|POP=SS|ROW=SUBJ_A/TEST|COL=RESULT}}。研究治疗暂停作为对研究治疗采取的措施。已恢复作为转归。研究者判断该事件与研究药物可能有关。入院后接受对症处理，局部症状逐渐缓解。"
+        },
+        {
+          "fact_ids": [
+            "C01"
+          ],
+          "text": "申办方医学综合评价由医学负责人另行完成。[待医学负责人确认]"
+        }
+      ],
+      "path": "sae_exact_surface",
+      "section_id": "12.3.2",
+      "transformation": "主被动与句式变换"
+    },
+    {
+      "card_id": "M16-SAE-A",
+      "case_id": "HOLDOUT-M16-SAE-A-section_specific_natural",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "B01"
+          ],
+          "text": "受试者标识为受试者甲。相关病史为既往有过敏性鼻炎。{{T16.3.1|POP=SS|ROW=SUBJ_A/EXPOSURE|COL=DOSE}}。事件术语为用药部位红斑。{{T16.3.1|POP=SS|ROW=SUBJ_A/EVENT|COL=START_DATE}}。严重程度为中度。严重性标准为需要住院治疗。合并用药为接受对症处理。{{T16.3.1|POP=SS|ROW=SUBJ_A/TEST|COL=RESULT}}。对研究治疗采取的措施为研究治疗暂停。转归为已恢复。研究者判断该事件与研究药物可能有关。入院后接受对症处理，局部症状逐渐缓解。"
+        },
+        {
+          "fact_ids": [
+            "C01"
+          ],
+          "text": "申办方医学综合评价由医学负责人另行完成。[待医学负责人确认]"
+        }
+      ],
+      "path": "sae_exact_surface",
+      "section_id": "12.3.2",
+      "transformation": "同义句式"
+    },
+    {
+      "card_id": "M16-SAE-A",
+      "case_id": "HOLDOUT-M16-SAE-A-punctuation_variant",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "B01"
+          ],
+          "text": "受试者标识为受试者甲；相关病史为既往有过敏性鼻炎；{{T16.3.1|POP=SS|ROW=SUBJ_A/EXPOSURE|COL=DOSE}}；事件术语为用药部位红斑；{{T16.3.1|POP=SS|ROW=SUBJ_A/EVENT|COL=START_DATE}}；严重程度为中度；严重性标准为需要住院治疗；合并用药为接受对症处理；{{T16.3.1|POP=SS|ROW=SUBJ_A/TEST|COL=RESULT}}；对研究治疗采取的措施为研究治疗暂停；转归为已恢复；研究者判断该事件与研究药物可能有关。入院后接受对症处理，局部症状逐渐缓解。"
+        },
+        {
+          "fact_ids": [
+            "C01"
+          ],
+          "text": "申办方医学综合评价由医学负责人另行完成。[待医学负责人确认]"
+        }
+      ],
+      "path": "sae_exact_surface",
+      "section_id": "12.3.2",
+      "transformation": "标点变体"
+    },
+    {
+      "card_id": "M16-SAE-B",
+      "case_id": "HOLDOUT-M16-SAE-B-ordered_label_value",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "B01"
+          ],
+          "text": "受试者标识为受试者乙。相关病史为既往无同类事件记录。{{T16.3.1|POP=SS|ROW=SUBJ_B/EXPOSURE|COL=DOSE}}。事件术语为晕厥。{{T16.3.1|POP=SS|ROW=SUBJ_B/EVENT|COL=START_DATE}}。严重程度为重度。严重性标准为其他医学重要事件。合并用药为接受补液和观察。{{T16.3.1|POP=SS|ROW=SUBJ_B/TEST|COL=RESULT}}。对研究治疗采取的措施为研究治疗永久停止。转归为已恢复。研究者判断该事件与研究药物无关。事件发生后接受观察和支持治疗，症状缓解后离院。"
+        },
+        {
+          "fact_ids": [
+            "C01"
+          ],
+          "text": "申办方医学综合评价由医学负责人另行完成。[待医学负责人确认]"
+        }
+      ],
+      "path": "sae_exact_surface",
+      "section_id": "12.3.2",
+      "transformation": "语序调整"
+    },
+    {
+      "card_id": "M16-SAE-B",
+      "case_id": "HOLDOUT-M16-SAE-B-reverse_order",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "B01",
+            "A12",
+            "A11",
+            "A10",
+            "A09",
+            "A08",
+            "A07",
+            "A06",
+            "A05",
+            "A04",
+            "A03",
+            "A02",
+            "A01"
+          ],
+          "text": "事件发生后接受观察和支持治疗，症状缓解后离院。研究者判断该事件与研究药物无关。转归为已恢复。对研究治疗采取的措施为研究治疗永久停止。{{T16.3.1|POP=SS|ROW=SUBJ_B/TEST|COL=RESULT}}。合并用药为接受补液和观察。严重性标准为其他医学重要事件。严重程度为重度。{{T16.3.1|POP=SS|ROW=SUBJ_B/EVENT|COL=START_DATE}}。事件术语为晕厥。{{T16.3.1|POP=SS|ROW=SUBJ_B/EXPOSURE|COL=DOSE}}。相关病史为既往无同类事件记录。受试者标识为受试者乙。"
+        },
+        {
+          "fact_ids": [
+            "C01"
+          ],
+          "text": "申办方医学综合评价由医学负责人另行完成。[待医学负责人确认]"
+        }
+      ],
+      "path": "sae_exact_surface",
+      "section_id": "12.3.2",
+      "transformation": "语序调整"
+    },
+    {
+      "card_id": "M16-SAE-B",
+      "case_id": "HOLDOUT-M16-SAE-B-one_fact_per_paragraph",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "A01"
+          ],
+          "text": "受试者标识为受试者乙。"
+        },
+        {
+          "fact_ids": [
+            "A02"
+          ],
+          "text": "相关病史为既往无同类事件记录。"
+        },
+        {
+          "fact_ids": [
+            "A03"
+          ],
+          "text": "{{T16.3.1|POP=SS|ROW=SUBJ_B/EXPOSURE|COL=DOSE}}。"
+        },
+        {
+          "fact_ids": [
+            "A04"
+          ],
+          "text": "事件术语为晕厥。"
+        },
+        {
+          "fact_ids": [
+            "A05"
+          ],
+          "text": "{{T16.3.1|POP=SS|ROW=SUBJ_B/EVENT|COL=START_DATE}}。"
+        },
+        {
+          "fact_ids": [
+            "A06"
+          ],
+          "text": "严重程度为重度。"
+        },
+        {
+          "fact_ids": [
+            "A07"
+          ],
+          "text": "严重性标准为其他医学重要事件。"
+        },
+        {
+          "fact_ids": [
+            "A08"
+          ],
+          "text": "合并用药为接受补液和观察。"
+        },
+        {
+          "fact_ids": [
+            "A09"
+          ],
+          "text": "{{T16.3.1|POP=SS|ROW=SUBJ_B/TEST|COL=RESULT}}。"
+        },
+        {
+          "fact_ids": [
+            "A10"
+          ],
+          "text": "对研究治疗采取的措施为研究治疗永久停止。"
+        },
+        {
+          "fact_ids": [
+            "A11"
+          ],
+          "text": "转归为已恢复。"
+        },
+        {
+          "fact_ids": [
+            "A12"
+          ],
+          "text": "研究者判断该事件与研究药物无关。"
+        },
+        {
+          "fact_ids": [
+            "B01"
+          ],
+          "text": "事件发生后接受观察和支持治疗，症状缓解后离院。"
+        },
+        {
+          "fact_ids": [
+            "C01"
+          ],
+          "text": "申办方医学综合评价由医学负责人另行完成。[待医学负责人确认]"
+        }
+      ],
+      "path": "sae_exact_surface",
+      "section_id": "12.3.2",
+      "transformation": "分段"
+    },
+    {
+      "card_id": "M16-SAE-B",
+      "case_id": "HOLDOUT-M16-SAE-B-paired_paragraphs",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "A01",
+            "A02"
+          ],
+          "text": "受试者标识为受试者乙。相关病史为既往无同类事件记录。"
+        },
+        {
+          "fact_ids": [
+            "A03",
+            "A04"
+          ],
+          "text": "{{T16.3.1|POP=SS|ROW=SUBJ_B/EXPOSURE|COL=DOSE}}。事件术语为晕厥。"
+        },
+        {
+          "fact_ids": [
+            "A05",
+            "A06"
+          ],
+          "text": "{{T16.3.1|POP=SS|ROW=SUBJ_B/EVENT|COL=START_DATE}}。严重程度为重度。"
+        },
+        {
+          "fact_ids": [
+            "A07",
+            "A08"
+          ],
+          "text": "严重性标准为其他医学重要事件。合并用药为接受补液和观察。"
+        },
+        {
+          "fact_ids": [
+            "A09",
+            "A10"
+          ],
+          "text": "{{T16.3.1|POP=SS|ROW=SUBJ_B/TEST|COL=RESULT}}。对研究治疗采取的措施为研究治疗永久停止。"
+        },
+        {
+          "fact_ids": [
+            "A11",
+            "A12"
+          ],
+          "text": "转归为已恢复。研究者判断该事件与研究药物无关。"
+        },
+        {
+          "fact_ids": [
+            "B01"
+          ],
+          "text": "事件发生后接受观察和支持治疗，症状缓解后离院。"
+        },
+        {
+          "fact_ids": [
+            "C01"
+          ],
+          "text": "申办方医学综合评价由医学负责人另行完成。[待医学负责人确认]"
+        }
+      ],
+      "path": "sae_exact_surface",
+      "section_id": "12.3.2",
+      "transformation": "合段"
+    },
+    {
+      "card_id": "M16-SAE-B",
+      "case_id": "HOLDOUT-M16-SAE-B-value_before_label",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "B01"
+          ],
+          "text": "受试者乙作为受试者标识。既往无同类事件记录作为相关病史。{{T16.3.1|POP=SS|ROW=SUBJ_B/EXPOSURE|COL=DOSE}}。晕厥作为事件术语。{{T16.3.1|POP=SS|ROW=SUBJ_B/EVENT|COL=START_DATE}}。重度作为严重程度。其他医学重要事件作为严重性标准。接受补液和观察作为合并用药。{{T16.3.1|POP=SS|ROW=SUBJ_B/TEST|COL=RESULT}}。研究治疗永久停止作为对研究治疗采取的措施。已恢复作为转归。研究者判断该事件与研究药物无关。事件发生后接受观察和支持治疗，症状缓解后离院。"
+        },
+        {
+          "fact_ids": [
+            "C01"
+          ],
+          "text": "申办方医学综合评价由医学负责人另行完成。[待医学负责人确认]"
+        }
+      ],
+      "path": "sae_exact_surface",
+      "section_id": "12.3.2",
+      "transformation": "主被动与句式变换"
+    },
+    {
+      "card_id": "M16-SAE-B",
+      "case_id": "HOLDOUT-M16-SAE-B-section_specific_natural",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "B01"
+          ],
+          "text": "受试者标识为受试者乙。相关病史为既往无同类事件记录。{{T16.3.1|POP=SS|ROW=SUBJ_B/EXPOSURE|COL=DOSE}}。事件术语为晕厥。{{T16.3.1|POP=SS|ROW=SUBJ_B/EVENT|COL=START_DATE}}。严重程度为重度。严重性标准为其他医学重要事件。合并用药为接受补液和观察。{{T16.3.1|POP=SS|ROW=SUBJ_B/TEST|COL=RESULT}}。对研究治疗采取的措施为研究治疗永久停止。转归为已恢复。研究者判断该事件与研究药物无关。事件发生后接受观察和支持治疗，症状缓解后离院。"
+        },
+        {
+          "fact_ids": [
+            "C01"
+          ],
+          "text": "申办方医学综合评价由医学负责人另行完成。[待医学负责人确认]"
+        }
+      ],
+      "path": "sae_exact_surface",
+      "section_id": "12.3.2",
+      "transformation": "同义句式"
+    },
+    {
+      "card_id": "M16-SAE-B",
+      "case_id": "HOLDOUT-M16-SAE-B-punctuation_variant",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "B01"
+          ],
+          "text": "受试者标识为受试者乙；相关病史为既往无同类事件记录；{{T16.3.1|POP=SS|ROW=SUBJ_B/EXPOSURE|COL=DOSE}}；事件术语为晕厥；{{T16.3.1|POP=SS|ROW=SUBJ_B/EVENT|COL=START_DATE}}；严重程度为重度；严重性标准为其他医学重要事件；合并用药为接受补液和观察；{{T16.3.1|POP=SS|ROW=SUBJ_B/TEST|COL=RESULT}}；对研究治疗采取的措施为研究治疗永久停止；转归为已恢复；研究者判断该事件与研究药物无关。事件发生后接受观察和支持治疗，症状缓解后离院。"
+        },
+        {
+          "fact_ids": [
+            "C01"
+          ],
+          "text": "申办方医学综合评价由医学负责人另行完成。[待医学负责人确认]"
+        }
+      ],
+      "path": "sae_exact_surface",
+      "section_id": "12.3.2",
+      "transformation": "标点变体"
+    },
+    {
+      "card_id": "M16-SAE-C",
+      "case_id": "HOLDOUT-M16-SAE-C-ordered_label_value",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12"
+          ],
+          "text": "受试者标识为受试者丙。相关病史为既往有反复皮炎史。{{T16.3.1|POP=SS|ROW=SUBJ_C/EXPOSURE|COL=DOSE}}。事件术语为感染性皮炎。{{T16.3.1|POP=SS|ROW=SUBJ_C/EVENT|COL=START_DATE}}。严重程度为重度。严重性标准为需要住院治疗。合并用药为接受抗感染治疗。{{T16.3.1|POP=SS|ROW=SUBJ_C/TEST|COL=RESULT}}。对研究治疗采取的措施为研究治疗暂停。转归为恢复中。研究者无法评价该事件与研究药物的关系。"
+        },
+        {
+          "fact_ids": [
+            "B01"
+          ],
+          "text": "本例临床经过待源病历/CRF 叙述资料到位后补充"
+        },
+        {
+          "fact_ids": [
+            "C01"
+          ],
+          "text": "申办方医学综合评价由医学负责人另行完成。[待医学负责人确认]"
+        }
+      ],
+      "path": "sae_exact_surface",
+      "section_id": "12.3.2",
+      "transformation": "语序调整"
+    },
+    {
+      "card_id": "M16-SAE-C",
+      "case_id": "HOLDOUT-M16-SAE-C-reverse_order",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "A12",
+            "A11",
+            "A10",
+            "A09",
+            "A08",
+            "A07",
+            "A06",
+            "A05",
+            "A04",
+            "A03",
+            "A02",
+            "A01"
+          ],
+          "text": "研究者无法评价该事件与研究药物的关系。转归为恢复中。对研究治疗采取的措施为研究治疗暂停。{{T16.3.1|POP=SS|ROW=SUBJ_C/TEST|COL=RESULT}}。合并用药为接受抗感染治疗。严重性标准为需要住院治疗。严重程度为重度。{{T16.3.1|POP=SS|ROW=SUBJ_C/EVENT|COL=START_DATE}}。事件术语为感染性皮炎。{{T16.3.1|POP=SS|ROW=SUBJ_C/EXPOSURE|COL=DOSE}}。相关病史为既往有反复皮炎史。受试者标识为受试者丙。"
+        },
+        {
+          "fact_ids": [
+            "B01"
+          ],
+          "text": "本例临床经过待源病历/CRF 叙述资料到位后补充"
+        },
+        {
+          "fact_ids": [
+            "C01"
+          ],
+          "text": "申办方医学综合评价由医学负责人另行完成。[待医学负责人确认]"
+        }
+      ],
+      "path": "sae_exact_surface",
+      "section_id": "12.3.2",
+      "transformation": "语序调整"
+    },
+    {
+      "card_id": "M16-SAE-C",
+      "case_id": "HOLDOUT-M16-SAE-C-one_fact_per_paragraph",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "A01"
+          ],
+          "text": "受试者标识为受试者丙。"
+        },
+        {
+          "fact_ids": [
+            "A02"
+          ],
+          "text": "相关病史为既往有反复皮炎史。"
+        },
+        {
+          "fact_ids": [
+            "A03"
+          ],
+          "text": "{{T16.3.1|POP=SS|ROW=SUBJ_C/EXPOSURE|COL=DOSE}}。"
+        },
+        {
+          "fact_ids": [
+            "A04"
+          ],
+          "text": "事件术语为感染性皮炎。"
+        },
+        {
+          "fact_ids": [
+            "A05"
+          ],
+          "text": "{{T16.3.1|POP=SS|ROW=SUBJ_C/EVENT|COL=START_DATE}}。"
+        },
+        {
+          "fact_ids": [
+            "A06"
+          ],
+          "text": "严重程度为重度。"
+        },
+        {
+          "fact_ids": [
+            "A07"
+          ],
+          "text": "严重性标准为需要住院治疗。"
+        },
+        {
+          "fact_ids": [
+            "A08"
+          ],
+          "text": "合并用药为接受抗感染治疗。"
+        },
+        {
+          "fact_ids": [
+            "A09"
+          ],
+          "text": "{{T16.3.1|POP=SS|ROW=SUBJ_C/TEST|COL=RESULT}}。"
+        },
+        {
+          "fact_ids": [
+            "A10"
+          ],
+          "text": "对研究治疗采取的措施为研究治疗暂停。"
+        },
+        {
+          "fact_ids": [
+            "A11"
+          ],
+          "text": "转归为恢复中。"
+        },
+        {
+          "fact_ids": [
+            "A12"
+          ],
+          "text": "研究者无法评价该事件与研究药物的关系。"
+        },
+        {
+          "fact_ids": [
+            "B01"
+          ],
+          "text": "本例临床经过待源病历/CRF 叙述资料到位后补充"
+        },
+        {
+          "fact_ids": [
+            "C01"
+          ],
+          "text": "申办方医学综合评价由医学负责人另行完成。[待医学负责人确认]"
+        }
+      ],
+      "path": "sae_exact_surface",
+      "section_id": "12.3.2",
+      "transformation": "分段"
+    },
+    {
+      "card_id": "M16-SAE-C",
+      "case_id": "HOLDOUT-M16-SAE-C-paired_paragraphs",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "A01",
+            "A02"
+          ],
+          "text": "受试者标识为受试者丙。相关病史为既往有反复皮炎史。"
+        },
+        {
+          "fact_ids": [
+            "A03",
+            "A04"
+          ],
+          "text": "{{T16.3.1|POP=SS|ROW=SUBJ_C/EXPOSURE|COL=DOSE}}。事件术语为感染性皮炎。"
+        },
+        {
+          "fact_ids": [
+            "A05",
+            "A06"
+          ],
+          "text": "{{T16.3.1|POP=SS|ROW=SUBJ_C/EVENT|COL=START_DATE}}。严重程度为重度。"
+        },
+        {
+          "fact_ids": [
+            "A07",
+            "A08"
+          ],
+          "text": "严重性标准为需要住院治疗。合并用药为接受抗感染治疗。"
+        },
+        {
+          "fact_ids": [
+            "A09",
+            "A10"
+          ],
+          "text": "{{T16.3.1|POP=SS|ROW=SUBJ_C/TEST|COL=RESULT}}。对研究治疗采取的措施为研究治疗暂停。"
+        },
+        {
+          "fact_ids": [
+            "A11",
+            "A12"
+          ],
+          "text": "转归为恢复中。研究者无法评价该事件与研究药物的关系。"
+        },
+        {
+          "fact_ids": [
+            "B01"
+          ],
+          "text": "本例临床经过待源病历/CRF 叙述资料到位后补充"
+        },
+        {
+          "fact_ids": [
+            "C01"
+          ],
+          "text": "申办方医学综合评价由医学负责人另行完成。[待医学负责人确认]"
+        }
+      ],
+      "path": "sae_exact_surface",
+      "section_id": "12.3.2",
+      "transformation": "合段"
+    },
+    {
+      "card_id": "M16-SAE-C",
+      "case_id": "HOLDOUT-M16-SAE-C-value_before_label",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12"
+          ],
+          "text": "受试者丙作为受试者标识。既往有反复皮炎史作为相关病史。{{T16.3.1|POP=SS|ROW=SUBJ_C/EXPOSURE|COL=DOSE}}。感染性皮炎作为事件术语。{{T16.3.1|POP=SS|ROW=SUBJ_C/EVENT|COL=START_DATE}}。重度作为严重程度。需要住院治疗作为严重性标准。接受抗感染治疗作为合并用药。{{T16.3.1|POP=SS|ROW=SUBJ_C/TEST|COL=RESULT}}。研究治疗暂停作为对研究治疗采取的措施。恢复中作为转归。研究者无法评价该事件与研究药物的关系。"
+        },
+        {
+          "fact_ids": [
+            "B01"
+          ],
+          "text": "本例临床经过待源病历/CRF 叙述资料到位后补充"
+        },
+        {
+          "fact_ids": [
+            "C01"
+          ],
+          "text": "申办方医学综合评价由医学负责人另行完成。[待医学负责人确认]"
+        }
+      ],
+      "path": "sae_exact_surface",
+      "section_id": "12.3.2",
+      "transformation": "主被动与句式变换"
+    },
+    {
+      "card_id": "M16-SAE-C",
+      "case_id": "HOLDOUT-M16-SAE-C-section_specific_natural",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12"
+          ],
+          "text": "受试者标识为受试者丙。相关病史为既往有反复皮炎史。{{T16.3.1|POP=SS|ROW=SUBJ_C/EXPOSURE|COL=DOSE}}。事件术语为感染性皮炎。{{T16.3.1|POP=SS|ROW=SUBJ_C/EVENT|COL=START_DATE}}。严重程度为重度。严重性标准为需要住院治疗。合并用药为接受抗感染治疗。{{T16.3.1|POP=SS|ROW=SUBJ_C/TEST|COL=RESULT}}。对研究治疗采取的措施为研究治疗暂停。转归为恢复中。研究者无法评价该事件与研究药物的关系。"
+        },
+        {
+          "fact_ids": [
+            "B01"
+          ],
+          "text": "本例临床经过待源病历/CRF 叙述资料到位后补充"
+        },
+        {
+          "fact_ids": [
+            "C01"
+          ],
+          "text": "申办方医学综合评价由医学负责人另行完成。[待医学负责人确认]"
+        }
+      ],
+      "path": "sae_exact_surface",
+      "section_id": "12.3.2",
+      "transformation": "同义句式"
+    },
+    {
+      "card_id": "M16-SAE-C",
+      "case_id": "HOLDOUT-M16-SAE-C-punctuation_variant",
+      "legality_basis": "仅重排该事实卡的完整字段值、完整标签和固定缺口句；未读取 authorized_surface_forms 或既有成文产物。",
+      "paragraphs": [
+        {
+          "fact_ids": [
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12"
+          ],
+          "text": "受试者标识为受试者丙；相关病史为既往有反复皮炎史；{{T16.3.1|POP=SS|ROW=SUBJ_C/EXPOSURE|COL=DOSE}}；事件术语为感染性皮炎；{{T16.3.1|POP=SS|ROW=SUBJ_C/EVENT|COL=START_DATE}}；严重程度为重度；严重性标准为需要住院治疗；合并用药为接受抗感染治疗；{{T16.3.1|POP=SS|ROW=SUBJ_C/TEST|COL=RESULT}}；对研究治疗采取的措施为研究治疗暂停；转归为恢复中；研究者无法评价该事件与研究药物的关系。"
+        },
+        {
+          "fact_ids": [
+            "B01"
+          ],
+          "text": "本例临床经过待源病历/CRF 叙述资料到位后补充"
+        },
+        {
+          "fact_ids": [
+            "C01"
+          ],
+          "text": "申办方医学综合评价由医学负责人另行完成。[待医学负责人确认]"
+        }
+      ],
+      "path": "sae_exact_surface",
+      "section_id": "12.3.2",
+      "transformation": "标点变体"
+    }
+  ],
+  "construction": {
+    "authorized_surface_forms_read": false,
+    "builder_path": "scripts/build_m19_holdout.py",
+    "builder_sha256": "b77bf756e693ff0c4ec3dd50d59c7b968c5856613a1a6275b75cbd3459bbdd41",
+    "card_files": [
+      {
+        "path": "examples/output/m19/fact_cards/method/6.json",
+        "sha256": "6a4ffebd82fe32125b72c3b89f2933f098d0b5b70f3ab92176723ae9c67a2fbc"
+      },
+      {
+        "path": "examples/output/m19/fact_cards/method/7.json",
+        "sha256": "169ded91d03836af5e25017f3753a585a3e471d2e5672c7f5202971a3a3f41dd"
+      },
+      {
+        "path": "examples/output/m19/fact_cards/method/9.1.json",
+        "sha256": "969f8a2fc2ff0cd4a3d354d50495e6fa0c0a4a7be352a1feb3848ccee6cbaf8f"
+      },
+      {
+        "path": "examples/output/m19/fact_cards/method/9.2.json",
+        "sha256": "68dd6c9ab799295ced3d9cd5be0f046ac172b9ba2828ad2d8d78e84ec810987f"
+      },
+      {
+        "path": "examples/output/m19/fact_cards/method/9.4.1.json",
+        "sha256": "6590d3a1689299dde7f6562627cec0241d16f7cd94c44c3e0dc255a2d11e753c"
+      },
+      {
+        "path": "examples/output/m19/fact_cards/method/9.4.3.json",
+        "sha256": "17772be01c227bc6591c4398ba2355179004e8b2d2ade75fab581b867c1708f7"
+      },
+      {
+        "path": "examples/output/m19/fact_cards/method/9.4.6.json",
+        "sha256": "e8aeadc7d6910a6085fa511a14828c64568751fe2c1842f7aab220a2a82b696a"
+      },
+      {
+        "path": "examples/output/m19/fact_cards/method/9.5.3.json",
+        "sha256": "55c8fbcafc76067574112d857af9d0d0487e7ff8005cb7842e7e8ac25a347746"
+      },
+      {
+        "path": "examples/output/m19/fact_cards/sae_holdout_views/SAE_A.json",
+        "sha256": "7d350ed4cb925148a6c16366cf8827eb40eeb8de4e71c972cd1babcc6f3f2d6f"
+      },
+      {
+        "path": "examples/output/m19/fact_cards/sae_holdout_views/SAE_B.json",
+        "sha256": "d7a70bf04bf89dac096397310f3e8f6332dbc5ebf5e45f742b44d1c0f66aab44"
+      },
+      {
+        "path": "examples/output/m19/fact_cards/sae_holdout_views/SAE_C.json",
+        "sha256": "ddac357edf6e77cd7f092a38f8ec44ab2231afc8d7a6c65906a8f13d4e99f9bd"
+      }
+    ],
+    "existing_narrative_outputs_read": false,
+    "guard_configuration_read": false,
+    "guard_module_imported": false,
+    "input_scope": "surface-free fact cards only",
+    "transformations": [
+      "语序调整",
+      "分段",
+      "合段",
+      "主被动与句式变换",
+      "同义句式",
+      "标点变体"
+    ]
+  },
+  "guard_bundle_sha256_opaque_marker": "2c7892318ac6a01a42d07ee61a74f7f1a61eea5d99ae7d2fae9a6cc046611797",
+  "method_case_count": 56,
+  "sae_case_count": 21,
+  "schema_version": "1.0",
+  "status": "authored_after_guard_policy_freeze"
+}

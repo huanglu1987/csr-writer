@@ -1,0 +1,150 @@
+{
+  "agent_interface": {
+    "agent_draft_sha256": "e5861884cf6fe074bfc2d95432a7df892cd19bb4d9b8363b3068067a1b6e700e",
+    "envelope_sha256": "c62a40bfa802fbf0e31b3411af294c45ac630dc7448fe5fe6c0a207bd47eefa6",
+    "external_model_api_called": false,
+    "interface": "csr-writer-agent-section-v1",
+    "prior_guard_report_sha256s": []
+  },
+  "binding_manifest": [
+    {
+      "context_sha256": "fd8f0fd8359d3b1e915a4bce655c4d4cfab39a91752700a31df7d1723c814cc0",
+      "key": "T14.2.4.3.1|POP=PKPS|ROW=BLQ_RATIO|COL=ACTIVE_TOTAL",
+      "role": "blq_ratio",
+      "source_id": "T14.2.4.3.1"
+    },
+    {
+      "context_sha256": "fd8f0fd8359d3b1e915a4bce655c4d4cfab39a91752700a31df7d1723c814cc0",
+      "key": "T14.2.4.3.1|POP=PKPS|ROW=QUANTIFIABLE_TIMEPOINT_COUNT|COL=ACTIVE_TOTAL",
+      "role": "quantifiable_timepoint_count",
+      "source_id": "T14.2.4.3.1"
+    },
+    {
+      "context_sha256": "fd8f0fd8359d3b1e915a4bce655c4d4cfab39a91752700a31df7d1723c814cc0",
+      "key": "T14.2.4.3.1|POP=PKPS|ROW=CMAX_CALCULABLE|COL=ACTIVE_TOTAL",
+      "role": "cmax_calculable",
+      "source_id": "T14.2.4.3.1"
+    },
+    {
+      "context_sha256": "fd8f0fd8359d3b1e915a4bce655c4d4cfab39a91752700a31df7d1723c814cc0",
+      "key": "T14.2.4.3.1|POP=PKPS|ROW=AUC_CALCULABLE|COL=ACTIVE_TOTAL",
+      "role": "auc_calculable",
+      "source_id": "T14.2.4.3.1"
+    },
+    {
+      "context_sha256": "fd8f0fd8359d3b1e915a4bce655c4d4cfab39a91752700a31df7d1723c814cc0",
+      "key": "T14.2.4.3.1|POP=PKPS|ROW=LLOQ|COL=ACTIVE_TOTAL",
+      "role": "lloq",
+      "source_id": "T14.2.4.3.1"
+    },
+    {
+      "context_sha256": "fd8f0fd8359d3b1e915a4bce655c4d4cfab39a91752700a31df7d1723c814cc0",
+      "key": "T14.2.4.3.1|POP=PKPS|ROW=NONCALCULABLE_REASON|COL=ACTIVE_TOTAL",
+      "role": "noncalculable_reason",
+      "source_id": "T14.2.4.3.1"
+    }
+  ],
+  "draft_sha256": "cd1bc46e5b25e43179939b649b38ab9fb9dd9da574bb2e6c18e0a2145d447837",
+  "evidence_status": "demo_only",
+  "generation_attempts": 1,
+  "guard_retry_count": 0,
+  "input_sha256": "091aa8ee095a41fa94669bcab1afb5997fa81e8b53701b76c87428642f404a87",
+  "paragraphs": [
+    {
+      "conditional_conclusions": [
+        "PK_CONCLUSION_V1"
+      ],
+      "confidence": "inferred",
+      "needs_human": true,
+      "para_id": "p_11_5_10_001",
+      "placeholders": [
+        "T14.2.4.3.1|POP=PKPS|ROW=BLQ_RATIO|COL=ACTIVE_TOTAL",
+        "T14.2.4.3.1|POP=PKPS|ROW=QUANTIFIABLE_TIMEPOINT_COUNT|COL=ACTIVE_TOTAL",
+        "T14.2.4.3.1|POP=PKPS|ROW=CMAX_CALCULABLE|COL=ACTIVE_TOTAL",
+        "T14.2.4.3.1|POP=PKPS|ROW=AUC_CALCULABLE|COL=ACTIVE_TOTAL",
+        "T14.2.4.3.1|POP=PKPS|ROW=LLOQ|COL=ACTIVE_TOTAL",
+        "T14.2.4.3.1|POP=PKPS|ROW=NONCALCULABLE_REASON|COL=ACTIVE_TOTAL"
+      ],
+      "references": [
+        "T14.2.4.3.1"
+      ],
+      "semantic_findings": [
+        {
+          "category": "conclusion_section_default",
+          "code": "S-CONCLUSION-REVIEW",
+          "end": 43,
+          "matched_text": "<entire-paragraph>",
+          "message": "Conclusion-section paragraph requires medical-owner review",
+          "pattern_id": "conclusion-section-default",
+          "start": 0
+        }
+      ],
+      "sources": [
+        "T14.2.4.3.1",
+        "SRC-PK"
+      ]
+    }
+  ],
+  "playbook": {
+    "filename": "s11-5-10-pk-conclusion.md",
+    "sha256": "88a111e5d00b1e4f9ea1a46b1eca15857f8ae1b5db218cd6ca01d09c3c3fab66"
+  },
+  "prompt_audit": [],
+  "reference_manifest": [
+    {
+      "entity_id": "T14.2.4.3.1",
+      "frozen_map_sha256": null,
+      "verified_by": "binding_manifest"
+    }
+  ],
+  "schema_version": "1.1",
+  "section": "11.5.10",
+  "semantic_findings": [
+    {
+      "category": "conclusion_section_default",
+      "code": "S-CONCLUSION-REVIEW",
+      "end": 43,
+      "matched_text": "<entire-paragraph>",
+      "message": "Conclusion-section paragraph requires medical-owner review",
+      "para_id": "p_11_5_10_001",
+      "pattern_id": "conclusion-section-default",
+      "start": 0
+    }
+  ],
+  "source_manifest": [
+    {
+      "content_sha256": "f43f3673f745f44eaff7139a3bab0abe72f520df58dbd03a9bf2e07e22d7119d",
+      "locator": "脱敏方案/PK评价",
+      "purpose": "pk_method",
+      "source_id": "SRC-PK"
+    }
+  ],
+  "style_qc": {
+    "blocked": false,
+    "findings": [],
+    "metrics": {
+      "abstract_noun_count": 0,
+      "average_sentence_length": 17.0,
+      "field_enumeration_paragraph_count": 0,
+      "maximum_sentence_length": 17,
+      "overlong_sentence_count": 0,
+      "prespecified_qualifier_count": 0,
+      "reviewed_qualifier_count": 0,
+      "semicolon_count": 0,
+      "sentence_count": 1,
+      "summary_copula_count": 0
+    },
+    "policy": {
+      "banned_expression_is_blocking": true,
+      "literal_zero_event_claim_requires_conditioned_data": true,
+      "qualifier_per_section": 1,
+      "semicolon_per_paragraph": 1,
+      "sentence_length_warning_threshold": 60
+    },
+    "schema_version": "1.0",
+    "status": "pass"
+  },
+  "system_prompt_sha256": "0f8201e0a496a147c422a6569abe89302cf168b98ea3502a541c001335bb85ba",
+  "variant": "pk_conclusion_conditioned",
+  "writer": "AgentEnvelopeIngest"
+}

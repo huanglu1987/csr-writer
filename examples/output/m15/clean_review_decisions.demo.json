@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "sections": {
+    "11.5.4": {
+      "draft_sha256": "a675b6a5ad764bdd22bed0be778b6c1cc9089c3e51de9fbeaeea26358c23409a",
+      "paragraphs": {}
+    },
+    "11.6.1.4": {
+      "draft_sha256": "8f4ffe0f3f72071d61fcade2e60cf39641d46d6ea0a05793839b22c29e90f8d9",
+      "paragraphs": {}
+    },
+    "12.2.3": {
+      "draft_sha256": "ca8c350742114a4bc78713a2cb0d38f90cdcaacd1bd1b92cc8c16c1c091c1392",
+      "paragraphs": {}
+    },
+    "12.2.9": {
+      "draft_sha256": "2f49aaad991eec7476c02cbb39c35230e712253a8c7afda6235025c946004848",
+      "paragraphs": {}
+    }
+  }
+}

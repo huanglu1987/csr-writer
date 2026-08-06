@@ -1,0 +1,253 @@
+{
+  "application_policy": {
+    "auto_confirm": false,
+    "human_applicability_confirmation_required": true,
+    "upstream_structure_hash_must_still_match": true
+  },
+  "rules": [
+    {
+      "applicability": "requires_project_specific_confirmation",
+      "decision_type": "coding_dictionary_dependency",
+      "rule_id": "TPL-357F98916B33F478",
+      "source_record_sha256": "f6ea5dc8097d73eb47973840f35e887ce45b50c7b794a21a5040288123b787f5",
+      "suggested_decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {
+          "dictionary_version": "DEIDENTIFIED-DEMO-V1"
+        },
+        "selected_action": "confirm_dictionary_and_late_bound_hierarchy"
+      },
+      "suggested_override_reason": null,
+      "template_match_signature": "357f98916b33f478fe16f7795ce689aefe03c8b91fa857349ee2de62508e8678"
+    },
+    {
+      "applicability": "requires_project_specific_confirmation",
+      "decision_type": "coding_dictionary_dependency",
+      "rule_id": "TPL-4AF68C08B1E283E9",
+      "source_record_sha256": "ed2afd8ab152ff5dedfe303932acbfdfca78139c7cf6ee7e4335108f30cd8fa3",
+      "suggested_decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {
+          "dictionary_version": "DEIDENTIFIED-DEMO-V1"
+        },
+        "selected_action": "confirm_dictionary_and_late_bound_hierarchy"
+      },
+      "suggested_override_reason": null,
+      "template_match_signature": "4af68c08b1e283e9162c0980ca934ea41e5b8c7714b7279e824b75e336351092"
+    },
+    {
+      "applicability": "requires_project_specific_confirmation",
+      "decision_type": "deferred_row_source_contract",
+      "rule_id": "TPL-9A0F0B4DB5FD8CAE",
+      "source_record_sha256": "92dd9e6a24b4ca2562c9e87f17451653ae13e98aa4b060a63bd160f35f5b9ad6",
+      "suggested_decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {
+          "category_authority": "DEIDENTIFIED-DEMO-V1"
+        },
+        "selected_action": "confirm_result_driven_rows"
+      },
+      "suggested_override_reason": null,
+      "template_match_signature": "9a0f0b4db5fd8cae3e0ea4f4dcc24b869af34b9f2853507632d7e395378d8718"
+    },
+    {
+      "applicability": "requires_project_specific_confirmation",
+      "decision_type": "deferred_row_source_contract",
+      "rule_id": "TPL-F4417BD33DD03958",
+      "source_record_sha256": "e0066e562ffa20ed74d2e9436f8b20d07a3228b778ff604ebcf6a3deb3113980",
+      "suggested_decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {
+          "parameter_authority": "DEIDENTIFIED-DEMO-V1"
+        },
+        "selected_action": "confirm_result_driven_rows"
+      },
+      "suggested_override_reason": null,
+      "template_match_signature": "f4417bd33dd03958b08d9762a0a1a0df3c714d87ca3453f8e42724afbc49c249"
+    },
+    {
+      "applicability": "requires_project_specific_confirmation",
+      "decision_type": "deferred_row_source_contract",
+      "rule_id": "TPL-4DB34A4453F80002",
+      "source_record_sha256": "da68250c00a9d858953ab2681bac52b78b2cba3d0684f51f00b901c31018b269",
+      "suggested_decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_result_driven_rows"
+      },
+      "suggested_override_reason": null,
+      "template_match_signature": "4db34a4453f80002174bf4cb232c1ecbf49ac264aaab07afa7e5336881c5c0e7"
+    },
+    {
+      "applicability": "requires_project_specific_confirmation",
+      "decision_type": "deferred_row_source_contract",
+      "rule_id": "TPL-7622438AEC1C81A6",
+      "source_record_sha256": "2f9a38db7af0e28ea0c9f97b39630c1986128ec11a99c580fbb25cd67b2e07b4",
+      "suggested_decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_result_driven_rows"
+      },
+      "suggested_override_reason": null,
+      "template_match_signature": "7622438aec1c81a614691ad559f94a65013defae6f7cee846f23144d86b13ff5"
+    },
+    {
+      "applicability": "requires_project_specific_confirmation",
+      "decision_type": "deferred_row_source_contract",
+      "rule_id": "TPL-BDDE37941E140F00",
+      "source_record_sha256": "c8d3368d03fc00f3b11a85bb48a685cad442c637bb0b8989281eecc08d83eeb7",
+      "suggested_decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_result_driven_rows"
+      },
+      "suggested_override_reason": null,
+      "template_match_signature": "bdde37941e140f00b711b98d65b3803c96f3a4d460f0996c656ac70a39cae3a8"
+    },
+    {
+      "applicability": "requires_project_specific_confirmation",
+      "decision_type": "analysis_set_parallelism",
+      "rule_id": "TPL-91CA4AB973338143",
+      "source_record_sha256": "9b26636bce5cdc4c8b5b6da453f244bb440be8ec5f8865432b358015a36ead85",
+      "suggested_decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_parallel_structure_keep_population_separate"
+      },
+      "suggested_override_reason": null,
+      "template_match_signature": "91ca4ab973338143429253d31deb6346a5179bd9ba99a17adfea6b9813b6bf23"
+    },
+    {
+      "applicability": "requires_project_specific_confirmation",
+      "decision_type": "layout_inheritance_scope",
+      "rule_id": "TPL-3C7FEF741E258B0B",
+      "source_record_sha256": "6acce75b04855faf800e230d4bf2ac6b614fbcbb44b6304dc6c0f4ff9c59252f",
+      "suggested_decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_layout_target_and_scope"
+      },
+      "suggested_override_reason": null,
+      "template_match_signature": "3c7fef741e258b0b8eb0c715fc0a5b98ded93387520082439a0dca520039df9b"
+    },
+    {
+      "applicability": "requires_project_specific_confirmation",
+      "decision_type": "layout_inheritance_scope",
+      "rule_id": "TPL-9DFCCCD299CE19BE",
+      "source_record_sha256": "51a3489505e1210439fa0cda5ae6cca27a5b0a613ae68354f2f29428fdc829d6",
+      "suggested_decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_layout_target_and_scope"
+      },
+      "suggested_override_reason": null,
+      "template_match_signature": "9dfcccd299ce19be498c57638bb052fc07acd57120720d1ca4be32169c3db163"
+    },
+    {
+      "applicability": "requires_project_specific_confirmation",
+      "decision_type": "layout_inheritance_scope",
+      "rule_id": "TPL-113178151FFC3D59",
+      "source_record_sha256": "c9ed9d3145772a6e3ac2cc6014664922843193b9315467c49735015e751ac598",
+      "suggested_decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_layout_target_and_scope"
+      },
+      "suggested_override_reason": null,
+      "template_match_signature": "113178151ffc3d59fb7b212b95eda1b840fd3473acebaa5e1d7404857d3ffbdd"
+    },
+    {
+      "applicability": "requires_project_specific_confirmation",
+      "decision_type": "layout_inheritance_scope",
+      "rule_id": "TPL-EAD8795755347491",
+      "source_record_sha256": "b3fe5d6081954820ea07dedf2f33c587b052ebcf058a99a9946857029f7235f7",
+      "suggested_decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_layout_target_and_scope"
+      },
+      "suggested_override_reason": null,
+      "template_match_signature": "ead8795755347491af837fcd850b1c8557c6f32b7732ee4300b1a99165060355"
+    },
+    {
+      "applicability": "requires_project_specific_confirmation",
+      "decision_type": "family_batch_policy",
+      "rule_id": "TPL-BB9C727342C99B67",
+      "source_record_sha256": "c17cd8292e008229ff4fdfc045de403ff9a927bc78c7828b9d02497aac468571",
+      "suggested_decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_family_policy"
+      },
+      "suggested_override_reason": null,
+      "template_match_signature": "bb9c727342c99b67b2cf52963beab0374b6b071d1cf7b315e2ff4c6672834472"
+    },
+    {
+      "applicability": "requires_project_specific_confirmation",
+      "decision_type": "family_batch_policy",
+      "rule_id": "TPL-EE10D87D7A41AB4A",
+      "source_record_sha256": "34081ca6cbe67360a870e27fc6e798c118a52b4ca8c46fa9c35656d262aa3482",
+      "suggested_decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_family_policy"
+      },
+      "suggested_override_reason": null,
+      "template_match_signature": "ee10d87d7a41ab4a1562555f7b751d298d1910e94a35cc41b8a3d7f6d53b8e72"
+    },
+    {
+      "applicability": "requires_project_specific_confirmation",
+      "decision_type": "structural_exception",
+      "rule_id": "TPL-4B259570958A5D4F",
+      "source_record_sha256": "4c83732a3fd879a9e7b02c210f86bfd3ec6ede3cc542405abcd067a151dbae65",
+      "suggested_decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {
+          "subtable_boundary_disposition": "DEIDENTIFIED-DEMO-V1"
+        },
+        "selected_action": "confirm_metadata_only_until_subtables_classified"
+      },
+      "suggested_override_reason": null,
+      "template_match_signature": "4b259570958a5d4f7fbd44a7d0e9cb2fcfdf79d61709e1b504fced87517cacbf"
+    }
+  ],
+  "schema_version": "1.0",
+  "source": {
+    "entity_ids_used_for_matching": false,
+    "proposal_report_sha256": "8f40b76001f4f7b557276953ce0f0b4bb36ae52770c508249b05196338e7052c",
+    "queue_sha256": "7504a393eb4c53740b05b8c73e6ee04b92e8e977c392949ca557669886d57d08",
+    "reviewer_identity_exported": false
+  },
+  "template_id": "DEIDENTIFIED-SPONSOR-VENDOR-DEMO",
+  "template_sha256": "3ca8f02b01f3195a3983c1e42f57a19dda76291fb6e53b17751df6fc28a5f1e7"
+}

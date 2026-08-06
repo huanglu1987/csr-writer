@@ -1,0 +1,105 @@
+[
+  {
+    "evidence": "4456/61751 对抗候选放行",
+    "finding": "完整真值之间可被连接成卡内未声明的关系",
+    "id": "M19-N1",
+    "severity": "requires_sponsor_decision",
+    "status": "reported_not_thresholded"
+  },
+  {
+    "evidence": "16/16 留出改写被拦",
+    "finding": "SAE 逐字预审路径对未参与句式库构建的合法改写保持高误伤",
+    "id": "M19-N2",
+    "severity": "expected_product_tradeoff",
+    "status": "accepted_split_path_cost"
+  },
+  {
+    "evidence": [
+      "11.5.10",
+      "11.6.7",
+      "13"
+    ],
+    "finding": "sentence_driven 零占位符分支可放行附加的无数值无源正文",
+    "id": "M19-N3",
+    "severity": "serious",
+    "status": "open_reported_per_scope"
+  },
+  {
+    "evidence": [
+      "11.3",
+      "12.3.1.1",
+      "12.3.1.2",
+      "12.3.1.3",
+      "12.3.3",
+      "12.4.2.1",
+      "12.4.2.2",
+      "12.4.2.3"
+    ],
+    "finding": "34 个清单单元中有 8 个没有运行时 playbook/variant 接线",
+    "id": "M19-N4",
+    "severity": "serious",
+    "status": "open_reported_per_scope"
+  },
+  {
+    "evidence": [
+      {
+        "blocking_code": "E-ANALYSIS-SET-UNSPECIFIED-MIGRATION-PENDING",
+        "entity_id": "T14.1.1.2",
+        "migration_action": "reparse_source_shell_then_human_confirm",
+        "reason": "The legacy artifact has no reviewed table-level population. Row labels alone cannot establish the missing POP dimension.",
+        "replacement_keys": [],
+        "retired_keys": [
+          "T14.1.1.2|POP=UNSPECIFIED|ROW=FAS|COL=ACTIVE_TOTAL",
+          "T14.1.1.2|POP=UNSPECIFIED|ROW=FAS|COL=C0_5PCT_BID",
+          "T14.1.1.2|POP=UNSPECIFIED|ROW=FAS|COL=C0_75PCT_BID",
+          "T14.1.1.2|POP=UNSPECIFIED|ROW=FAS|COL=C1_0PCT_BID",
+          "T14.1.1.2|POP=UNSPECIFIED|ROW=FAS|COL=C1_0PCT_QD",
+          "T14.1.1.2|POP=UNSPECIFIED|ROW=FAS|COL=PBO",
+          "T14.1.1.2|POP=UNSPECIFIED|ROW=FAS|COL=TOTAL_N",
+          "T14.1.1.2|POP=UNSPECIFIED|ROW=MFAS|COL=ACTIVE_TOTAL",
+          "T14.1.1.2|POP=UNSPECIFIED|ROW=MFAS|COL=C0_5PCT_BID",
+          "T14.1.1.2|POP=UNSPECIFIED|ROW=MFAS|COL=C0_75PCT_BID",
+          "T14.1.1.2|POP=UNSPECIFIED|ROW=MFAS|COL=C1_0PCT_BID",
+          "T14.1.1.2|POP=UNSPECIFIED|ROW=MFAS|COL=C1_0PCT_QD",
+          "T14.1.1.2|POP=UNSPECIFIED|ROW=MFAS|COL=PBO",
+          "T14.1.1.2|POP=UNSPECIFIED|ROW=MFAS|COL=TOTAL_N",
+          "T14.1.1.2|POP=UNSPECIFIED|ROW=PKS|COL=ACTIVE_TOTAL",
+          "T14.1.1.2|POP=UNSPECIFIED|ROW=PKS|COL=C0_5PCT_BID",
+          "T14.1.1.2|POP=UNSPECIFIED|ROW=PKS|COL=C0_75PCT_BID",
+          "T14.1.1.2|POP=UNSPECIFIED|ROW=PKS|COL=C1_0PCT_BID",
+          "T14.1.1.2|POP=UNSPECIFIED|ROW=PKS|COL=C1_0PCT_QD",
+          "T14.1.1.2|POP=UNSPECIFIED|ROW=PKS|COL=PBO",
+          "T14.1.1.2|POP=UNSPECIFIED|ROW=PKS|COL=TOTAL_N",
+          "T14.1.1.2|POP=UNSPECIFIED|ROW=SS|COL=ACTIVE_TOTAL",
+          "T14.1.1.2|POP=UNSPECIFIED|ROW=SS|COL=C0_5PCT_BID",
+          "T14.1.1.2|POP=UNSPECIFIED|ROW=SS|COL=C0_75PCT_BID",
+          "T14.1.1.2|POP=UNSPECIFIED|ROW=SS|COL=C1_0PCT_BID",
+          "T14.1.1.2|POP=UNSPECIFIED|ROW=SS|COL=C1_0PCT_QD",
+          "T14.1.1.2|POP=UNSPECIFIED|ROW=SS|COL=PBO",
+          "T14.1.1.2|POP=UNSPECIFIED|ROW=SS|COL=TOTAL_N"
+        ],
+        "retired_population": "UNSPECIFIED",
+        "source_structure_sha256": "afcb54cc0d49280794a0924db5484962daa0ba435e9b02cf90a6e5283f69f11b",
+        "status": "needs_reparse_and_human_confirmation"
+      }
+    ],
+    "finding": "历史未解析 POP 已从活跃映射退役，但在重新解析前无替代键",
+    "id": "M19-N5",
+    "severity": "migration_block",
+    "status": "blocked_pending_reparse"
+  },
+  {
+    "evidence": "22/364",
+    "finding": "冻结壳显式契约的填值覆盖率仅为壳侧口径",
+    "id": "M19-N6",
+    "severity": "known_coverage_limit",
+    "status": "reported_with_correct_denominator"
+  },
+  {
+    "evidence": 5,
+    "finding": "留出构造集中有少数样本与 SAE 已审整句意外相同",
+    "id": "M19-N7",
+    "severity": "measurement_note",
+    "status": "excluded_before_rate_calculation"
+  }
+]

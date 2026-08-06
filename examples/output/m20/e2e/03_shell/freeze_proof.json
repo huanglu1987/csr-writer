@@ -1,0 +1,9 @@
+{
+  "candidate_sha256": "41df0cecddff8ffcafdf3da779155cc6bc07c4b12a1a58f38fe75a189a5e0329",
+  "confirmed_at": "2026-08-06T12:00:00+08:00",
+  "confirmed_batch_count": 1,
+  "confirmed_by_role": "synthetic_fixture_reviewer",
+  "confirmed_entity_count": 4,
+  "frozen_sha256": "c77267025543802cde4c5bcb2ef5528777a7f3d349d462c6431553ca6784d8f1",
+  "status": "pass"
+}

@@ -1,0 +1,157 @@
+{
+  "binding_manifest": [],
+  "card_external_entities": [],
+  "card_id": "M16-METHOD-9-2",
+  "causality_control": {
+    "allowed_terms": [
+      "不太可能有关",
+      "可能有关",
+      "很可能有关",
+      "无关",
+      "无法评价",
+      "明确相关",
+      "未评价"
+    ],
+    "exact_match": true,
+    "observed_terms": []
+  },
+  "draft_sha256": "8e0bbca5b748c60214c8fd3d3b1fa79a76a4823f8d4b4aacf17b3f139b94acf1",
+  "envelope_sha256": "8d2b2d5b6eae3df87a674868d2efce05b51512cc38fab9a89e1a1c65de9c5e07",
+  "external_model_api_called": false,
+  "fact_card_sha256": "2a9e6948ffea4358497bd31c1b99badb491fa042dca80a4016960b7627325ebc",
+  "field_checks": [
+    {
+      "fact_id": "V01",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V02",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "S01",
+      "match_mode": "required_terms",
+      "status": "pass"
+    },
+    {
+      "fact_id": "S02",
+      "match_mode": "required_terms",
+      "status": "pass"
+    }
+  ],
+  "field_count": 4,
+  "field_coverage_percent": 100.0,
+  "field_reference_count": 4,
+  "findings": [],
+  "forward_coverage": {
+    "coverage_mode": "whole_declared_values",
+    "guard_version": "2.0",
+    "paragraph_checks": [
+      {
+        "allowed_source_unit_count": 0,
+        "coverage_mode": "whole_declared_values",
+        "eligible_authorized_surface_ids": [
+          "SF-9-2-01"
+        ],
+        "fact_ids": [
+          "V01",
+          "V02"
+        ],
+        "paragraph_index": 1,
+        "residual_content_terms": [],
+        "status": "pass"
+      },
+      {
+        "allowed_source_unit_count": 0,
+        "coverage_mode": "whole_declared_values",
+        "eligible_authorized_surface_ids": [
+          "SF-9-2-02",
+          "SF-9-2-03"
+        ],
+        "fact_ids": [
+          "S01",
+          "S02"
+        ],
+        "paragraph_index": 2,
+        "residual_content_terms": [],
+        "status": "pass"
+      }
+    ],
+    "release_eligible": true,
+    "status": "pass"
+  },
+  "narration": "constrained_llm",
+  "numeric_placeholders": [],
+  "paragraphs": [
+    {
+      "fact_ids": [
+        "V01",
+        "V02"
+      ],
+      "para_id": "p_9_2_001",
+      "text_sha256": "2595e1a659bb4c624197e40f9fa1a95a8de490b5fbc66be2448554ee3ea5cbad"
+    },
+    {
+      "fact_ids": [
+        "S01",
+        "S02"
+      ],
+      "para_id": "p_9_2_002",
+      "text_sha256": "e6a2ce51029859d485f84b4012d4ea163b4f1346215f9abaf1c219ba12cad1e4"
+    }
+  ],
+  "production_method": "extraction",
+  "schema_version": "1.0",
+  "section_id": "9.2",
+  "source_manifest": [
+    {
+      "content_sha256": "c720d5be11ad853d2b5f395cf37fc6ea71b5c05f4fd505209a7b12e37e754b06",
+      "file_role": "protocol",
+      "locator": "方案 §9.2 研究设计及对照选择依据",
+      "source_id": "src_9_2_1",
+      "version": "synthetic-reviewed-v1"
+    }
+  ],
+  "status": "pass",
+  "style_qc": {
+    "blocked": false,
+    "findings": [],
+    "metrics": {
+      "abstract_noun_count": 0,
+      "average_sentence_length": 23.3,
+      "field_enumeration_paragraph_count": 0,
+      "maximum_sentence_length": 27,
+      "n_percent_format_error_count": 0,
+      "overlong_sentence_count": 0,
+      "prespecified_qualifier_count": 0,
+      "reviewed_qualifier_count": 0,
+      "semicolon_count": 0,
+      "sentence_count": 3,
+      "summary_copula_count": 0
+    },
+    "policy": {
+      "banned_expression_is_blocking": true,
+      "literal_zero_event_claim_requires_conditioned_data": true,
+      "n_percent_prose_requires_count_unit_and_percent_sign": true,
+      "qualifier_per_section": 1,
+      "semicolon_per_paragraph": 1,
+      "sentence_length_hard_threshold": 60
+    },
+    "schema_version": "1.0",
+    "status": "pass"
+  },
+  "zone_distribution": {
+    "counts": {
+      "A": 0,
+      "B": 0,
+      "C": 0
+    },
+    "percent": {
+      "A": 0.0,
+      "B": 0.0,
+      "C": 0.0
+    }
+  }
+}

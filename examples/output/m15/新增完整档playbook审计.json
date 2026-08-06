@@ -1,0 +1,332 @@
+{
+  "full_playbook_coverage_units": 35,
+  "full_units_with_existing_playbook": 35,
+  "full_units_without_existing_playbook": 0,
+  "minimum_lines": 150,
+  "new_complete_playbook_count": 16,
+  "records": [
+    {
+      "filename": "s11-5-1-pk-analysis-set.md",
+      "line_count": 156,
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "status": "pass",
+      "three_partitions": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true,
+        "writing_style": true
+      }
+    },
+    {
+      "filename": "s11-5-2-concentration-data.md",
+      "line_count": 157,
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "status": "pass",
+      "three_partitions": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true,
+        "writing_style": true
+      }
+    },
+    {
+      "filename": "s11-5-3-blq-handling.md",
+      "line_count": 157,
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "status": "pass",
+      "three_partitions": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true,
+        "writing_style": true
+      }
+    },
+    {
+      "filename": "s11-5-5-peak-systemic-exposure.md",
+      "line_count": 157,
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "status": "pass",
+      "three_partitions": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true,
+        "writing_style": true
+      }
+    },
+    {
+      "filename": "s11-5-6-dose-proportionality.md",
+      "line_count": 168,
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "status": "pass",
+      "three_partitions": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true,
+        "writing_style": true
+      }
+    },
+    {
+      "filename": "s11-5-7-accumulation.md",
+      "line_count": 168,
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "status": "pass",
+      "three_partitions": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true,
+        "writing_style": true
+      }
+    },
+    {
+      "filename": "s11-5-8-application-site-effects.md",
+      "line_count": 168,
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "status": "pass",
+      "three_partitions": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true,
+        "writing_style": true
+      }
+    },
+    {
+      "filename": "s11-5-9-individual-pk.md",
+      "line_count": 168,
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "status": "pass",
+      "three_partitions": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true,
+        "writing_style": true
+      }
+    },
+    {
+      "filename": "s11-6-1-4-exploratory-endpoints.md",
+      "line_count": 168,
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "status": "pass",
+      "three_partitions": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true,
+        "writing_style": true
+      }
+    },
+    {
+      "filename": "s11-6-2-4-multicenter.md",
+      "line_count": 168,
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "status": "pass",
+      "three_partitions": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true,
+        "writing_style": true
+      }
+    },
+    {
+      "filename": "s12-2-1-ae-overview.md",
+      "line_count": 168,
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "status": "pass",
+      "three_partitions": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true,
+        "writing_style": true
+      }
+    },
+    {
+      "filename": "s12-2-3-ae-analysis.md",
+      "line_count": 168,
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "status": "pass",
+      "three_partitions": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true,
+        "writing_style": true
+      }
+    },
+    {
+      "filename": "s12-2-6-permanent-discontinuation-ae.md",
+      "line_count": 168,
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "status": "pass",
+      "three_partitions": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true,
+        "writing_style": true
+      }
+    },
+    {
+      "filename": "s12-2-7-interruption-dose-adjustment-ae.md",
+      "line_count": 168,
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "status": "pass",
+      "three_partitions": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true,
+        "writing_style": true
+      }
+    },
+    {
+      "filename": "s12-2-9-application-site-adverse-reactions.md",
+      "line_count": 168,
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "status": "pass",
+      "three_partitions": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true,
+        "writing_style": true
+      }
+    },
+    {
+      "filename": "s12-5-2-ecg-evaluation.md",
+      "line_count": 168,
+      "review_issue_count": 8,
+      "seven_elements": {
+        "authority": true,
+        "common_review_issues": true,
+        "must_answer": true,
+        "numeric_and_conclusion_rules": true,
+        "paragraph_structure": true,
+        "section_specific_pitfalls": true,
+        "source_mapping": true
+      },
+      "status": "pass",
+      "three_partitions": {
+        "csr_standard_sentences": true,
+        "writer_constraints": true,
+        "writing_style": true
+      }
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "pass",
+  "total_complete_playbook_count": 35
+}

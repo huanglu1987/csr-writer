@@ -1,0 +1,18 @@
+{
+  "advisory_findings_after": 3,
+  "advisory_findings_before": 5,
+  "appendix_status_rows": 24,
+  "causality_values": 7,
+  "deterministic_units": 45,
+  "directory_word_fields": 6,
+  "endpoint_units_reclassified": 6,
+  "forward_coverage_attacks_blocked": 6,
+  "forward_coverage_positive_passed": true,
+  "n_percent_errors_after": 0,
+  "n_percent_errors_before": 2,
+  "privacy_scan": "pass",
+  "real_clinical_files_accessed": false,
+  "schema_version": "1.0",
+  "status": "pass",
+  "template_units": 4
+}

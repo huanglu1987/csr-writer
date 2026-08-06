@@ -1,0 +1,57 @@
+{
+  "generation_mode": "confirmed_body_only",
+  "keys": [
+    "T14.2.2.1.1|POP=FAS|ROW=PRIMARY_ENDPOINT|COL=ACTIVE_TOTAL",
+    "T14.2.4.3.1|POP=PKPS|ROW=CMAX_CALCULABLE|COL=ACTIVE_TOTAL",
+    "T14.3.1.2|POP=SS|ROW=ANY_TEAE|COL=ACTIVE_TOTAL",
+    "T14.3.1.2|POP=SS|ROW=ANY_SAE|COL=ACTIVE_TOTAL",
+    "T14.3.1.2|POP=SS|ROW=DEATH|COL=ACTIVE_TOTAL",
+    "T14.3.1.2|POP=SS|ROW=AE_DISCONTINUATION|COL=ACTIVE_TOTAL"
+  ],
+  "manifest_sha256": "c6e041cc2ea0dcbf9a566d80fb8927ea335e5597a03e2e5da42d20a24a3e49c8",
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "confirmed_text_sha256": "d95dc47173af470203f4c746a7628051cb16802eb6c641a4f57555e275262567",
+      "key": "T14.2.2.1.1|POP=FAS|ROW=PRIMARY_ENDPOINT|COL=ACTIVE_TOTAL",
+      "para_id": "p_11_6_7_001",
+      "resolved_sha256": "7f34fad9ae6bb784cfcaa2a44f6e424b9e7cbee84a76e303a155d35d62218276",
+      "section_id": "11.6.7"
+    },
+    {
+      "confirmed_text_sha256": "583c7eaa8dcda398992323861897fff26f582ce52fa99047db07ee5eddd7545f",
+      "key": "T14.2.4.3.1|POP=PKPS|ROW=CMAX_CALCULABLE|COL=ACTIVE_TOTAL",
+      "para_id": "p_11_5_10_001",
+      "resolved_sha256": "72ccf06fe5839321dc92793c7a71d5f546980513e099abf40c8c9252b7200458",
+      "section_id": "11.5.10"
+    },
+    {
+      "confirmed_text_sha256": "30e05b162f570cfdf99f6d1beeef1182c2b6733268202b8e91e9aec5baed7cfb",
+      "key": "T14.3.1.2|POP=SS|ROW=ANY_TEAE|COL=ACTIVE_TOTAL",
+      "para_id": "p_12_2_002",
+      "resolved_sha256": "5243c7c527c78b1cce66401f98f830ee617060665dde54e7f1fd0956fef39279",
+      "section_id": "12.2"
+    },
+    {
+      "confirmed_text_sha256": "d495c00b75e2b615ffb44d370bbfcdeb6e1324d9ac8d4b4eca0d501a6be05b30",
+      "key": "T14.3.1.2|POP=SS|ROW=ANY_SAE|COL=ACTIVE_TOTAL",
+      "para_id": "p_12_2_003",
+      "resolved_sha256": "5243c7c527c78b1cce66401f98f830ee617060665dde54e7f1fd0956fef39279",
+      "section_id": "12.2"
+    },
+    {
+      "confirmed_text_sha256": "d495c00b75e2b615ffb44d370bbfcdeb6e1324d9ac8d4b4eca0d501a6be05b30",
+      "key": "T14.3.1.2|POP=SS|ROW=DEATH|COL=ACTIVE_TOTAL",
+      "para_id": "p_12_2_003",
+      "resolved_sha256": "5243c7c527c78b1cce66401f98f830ee617060665dde54e7f1fd0956fef39279",
+      "section_id": "12.2"
+    },
+    {
+      "confirmed_text_sha256": "d495c00b75e2b615ffb44d370bbfcdeb6e1324d9ac8d4b4eca0d501a6be05b30",
+      "key": "T14.3.1.2|POP=SS|ROW=AE_DISCONTINUATION|COL=ACTIVE_TOTAL",
+      "para_id": "p_12_2_003",
+      "resolved_sha256": "5243c7c527c78b1cce66401f98f830ee617060665dde54e7f1fd0956fef39279",
+      "section_id": "12.2"
+    }
+  ]
+}

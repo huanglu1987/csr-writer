@@ -1,0 +1,13 @@
+{
+  "paragraphs": [
+    {
+      "confidence": "inferred",
+      "needs_human": true,
+      "sources": [
+        "T14.2.4.3.1",
+        "SRC-PK"
+      ],
+      "text": "[待医学负责人确认] {{@conclusion:PK_CONCLUSION_V1}}"
+    }
+  ]
+}

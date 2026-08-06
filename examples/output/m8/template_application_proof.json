@@ -1,0 +1,262 @@
+{
+  "application_sha256": "804838e46944caef97c08a2403447f452ddbf50c0c578bbc5738169ce6b364e5",
+  "automatic_decision_count": 0,
+  "matched_group_count": 15,
+  "queue_sha256": "7504a393eb4c53740b05b8c73e6ee04b92e8e977c392949ca557669886d57d08",
+  "schema_version": "1.0",
+  "status": "applicability_confirmation_required",
+  "suggestions": [
+    {
+      "applicability_status": "requires_human_confirmation",
+      "auto_applied": false,
+      "decision_type": "coding_dictionary_dependency",
+      "group_id": "DG-CODE-MEDDRA",
+      "origin": "imported_template",
+      "rule_id": "TPL-357F98916B33F478",
+      "suggested_decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {
+          "dictionary_version": "DEIDENTIFIED-DEMO-V1"
+        },
+        "selected_action": "confirm_dictionary_and_late_bound_hierarchy"
+      },
+      "suggested_override_reason": null
+    },
+    {
+      "applicability_status": "requires_human_confirmation",
+      "auto_applied": false,
+      "decision_type": "coding_dictionary_dependency",
+      "group_id": "DG-CODE-WHODRUG-MEDICATION",
+      "origin": "imported_template",
+      "rule_id": "TPL-4AF68C08B1E283E9",
+      "suggested_decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {
+          "dictionary_version": "DEIDENTIFIED-DEMO-V1"
+        },
+        "selected_action": "confirm_dictionary_and_late_bound_hierarchy"
+      },
+      "suggested_override_reason": null
+    },
+    {
+      "applicability_status": "requires_human_confirmation",
+      "auto_applied": false,
+      "decision_type": "deferred_row_source_contract",
+      "group_id": "DG-ROWS-PROTOCOL-DEVIATION",
+      "origin": "imported_template",
+      "rule_id": "TPL-9A0F0B4DB5FD8CAE",
+      "suggested_decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {
+          "category_authority": "DEIDENTIFIED-DEMO-V1"
+        },
+        "selected_action": "confirm_result_driven_rows"
+      },
+      "suggested_override_reason": null
+    },
+    {
+      "applicability_status": "requires_human_confirmation",
+      "auto_applied": false,
+      "decision_type": "deferred_row_source_contract",
+      "group_id": "DG-ROWS-PK-PARAMETERS",
+      "origin": "imported_template",
+      "rule_id": "TPL-F4417BD33DD03958",
+      "suggested_decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {
+          "parameter_authority": "DEIDENTIFIED-DEMO-V1"
+        },
+        "selected_action": "confirm_result_driven_rows"
+      },
+      "suggested_override_reason": null
+    },
+    {
+      "applicability_status": "requires_human_confirmation",
+      "auto_applied": false,
+      "decision_type": "deferred_row_source_contract",
+      "group_id": "DG-ROWS-BASELINE-EFFICACY",
+      "origin": "imported_template",
+      "rule_id": "TPL-4DB34A4453F80002",
+      "suggested_decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_result_driven_rows"
+      },
+      "suggested_override_reason": null
+    },
+    {
+      "applicability_status": "requires_human_confirmation",
+      "auto_applied": false,
+      "decision_type": "deferred_row_source_contract",
+      "group_id": "DG-ROWS-SAFETY-SUMMARY",
+      "origin": "imported_template",
+      "rule_id": "TPL-7622438AEC1C81A6",
+      "suggested_decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_result_driven_rows"
+      },
+      "suggested_override_reason": null
+    },
+    {
+      "applicability_status": "requires_human_confirmation",
+      "auto_applied": false,
+      "decision_type": "deferred_row_source_contract",
+      "group_id": "DG-ROWS-OTHER-SAFETY",
+      "origin": "imported_template",
+      "rule_id": "TPL-BDDE37941E140F00",
+      "suggested_decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_result_driven_rows"
+      },
+      "suggested_override_reason": null
+    },
+    {
+      "applicability_status": "requires_human_confirmation",
+      "auto_applied": false,
+      "decision_type": "analysis_set_parallelism",
+      "group_id": "DG-POP-PARALLEL",
+      "origin": "imported_template",
+      "rule_id": "TPL-91CA4AB973338143",
+      "suggested_decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_parallel_structure_keep_population_separate"
+      },
+      "suggested_override_reason": null
+    },
+    {
+      "applicability_status": "requires_human_confirmation",
+      "auto_applied": false,
+      "decision_type": "layout_inheritance_scope",
+      "group_id": "DG-LAYOUT-BASELINE",
+      "origin": "imported_template",
+      "rule_id": "TPL-3C7FEF741E258B0B",
+      "suggested_decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_layout_target_and_scope"
+      },
+      "suggested_override_reason": null
+    },
+    {
+      "applicability_status": "requires_human_confirmation",
+      "auto_applied": false,
+      "decision_type": "layout_inheritance_scope",
+      "group_id": "DG-LAYOUT-EFFICACY",
+      "origin": "imported_template",
+      "rule_id": "TPL-9DFCCCD299CE19BE",
+      "suggested_decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_layout_target_and_scope"
+      },
+      "suggested_override_reason": null
+    },
+    {
+      "applicability_status": "requires_human_confirmation",
+      "auto_applied": false,
+      "decision_type": "layout_inheritance_scope",
+      "group_id": "DG-LAYOUT-AE-FAMILY",
+      "origin": "imported_template",
+      "rule_id": "TPL-113178151FFC3D59",
+      "suggested_decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_layout_target_and_scope"
+      },
+      "suggested_override_reason": null
+    },
+    {
+      "applicability_status": "requires_human_confirmation",
+      "auto_applied": false,
+      "decision_type": "layout_inheritance_scope",
+      "group_id": "DG-LAYOUT-OTHER-SAFETY",
+      "origin": "imported_template",
+      "rule_id": "TPL-EAD8795755347491",
+      "suggested_decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_layout_target_and_scope"
+      },
+      "suggested_override_reason": null
+    },
+    {
+      "applicability_status": "requires_human_confirmation",
+      "auto_applied": false,
+      "decision_type": "family_batch_policy",
+      "group_id": "DG-FAMILY-AE",
+      "origin": "imported_template",
+      "rule_id": "TPL-BB9C727342C99B67",
+      "suggested_decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_family_policy"
+      },
+      "suggested_override_reason": null
+    },
+    {
+      "applicability_status": "requires_human_confirmation",
+      "auto_applied": false,
+      "decision_type": "family_batch_policy",
+      "group_id": "DG-FAMILY-OTHER-SAFETY",
+      "origin": "imported_template",
+      "rule_id": "TPL-EE10D87D7A41AB4A",
+      "suggested_decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_family_policy"
+      },
+      "suggested_override_reason": null
+    },
+    {
+      "applicability_status": "requires_human_confirmation",
+      "auto_applied": false,
+      "decision_type": "structural_exception",
+      "group_id": "DG-STRUCTURE-ANOMALY",
+      "origin": "imported_template",
+      "rule_id": "TPL-4B259570958A5D4F",
+      "suggested_decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {
+          "subtable_boundary_disposition": "DEIDENTIFIED-DEMO-V1"
+        },
+        "selected_action": "confirm_metadata_only_until_subtables_classified"
+      },
+      "suggested_override_reason": null
+    }
+  ],
+  "template_sha256": "3ca8f02b01f3195a3983c1e42f57a19dda76291fb6e53b17751df6fc28a5f1e7",
+  "unmatched_group_count": 0
+}

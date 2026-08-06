@@ -1,0 +1,12 @@
+{
+  "attempt": 1,
+  "draft_sha256": "0fc668d5ce8a92896adf37e76d2576dd33da792ed986038b6d41a1e96c36ffa8",
+  "envelope_sha256": "be8fb1fff291561591cedbab0f559c183dc9ba42cad35d626783a3917fb9370e",
+  "prior_guard_report_sha256s": [],
+  "published_section": null,
+  "reason": "SectionWriterError: E-CONCLUSION-UNSOURCED-PROSE: sentence-driven conclusion accepts only the reviewed medical-confirmation marker and its single conclusion token",
+  "reason_code": "section_guard_rejected",
+  "report_sha256": "080b65d54330355f5d99a5ae7c45026393d207d24ae9191c7816a3bdfa581e2d",
+  "schema_version": "1.0",
+  "status": "rejected"
+}

@@ -1,0 +1,121 @@
+{
+  "card_id": "M16-METHOD-9-3-2",
+  "controlled_entities": [
+    "SAP",
+    "FAS"
+  ],
+  "facts": [
+    {
+      "entity_type": "全部编号标准",
+      "fact_id": "V01",
+      "fixed_gap_sentence": null,
+      "label": "全部编号标准",
+      "missing_behavior": "hard_fail",
+      "required": true,
+      "required_terms": [],
+      "source_id": "src_9_3_2_1",
+      "source_kind": "protocol",
+      "source_locator": "方案 §9.3.2 排除标准",
+      "value": [
+        "存在方案规定的排除性疾病",
+        "存在研究者判断不宜参加的情况"
+      ],
+      "value_kind": "list",
+      "verbatim_required": true,
+      "zone": "method"
+    },
+    {
+      "entity_type": "数值阈值",
+      "fact_id": "V02",
+      "fixed_gap_sentence": null,
+      "label": "数值阈值",
+      "missing_behavior": "hard_fail",
+      "required": true,
+      "required_terms": [],
+      "source_id": "src_9_3_2_1",
+      "source_kind": "protocol",
+      "source_locator": "方案 §9.3.2 排除标准",
+      "value": "达到方案规定的排除阈值",
+      "value_kind": "verbatim_text",
+      "verbatim_required": true,
+      "zone": "method"
+    },
+    {
+      "entity_type": "时间窗",
+      "fact_id": "V03",
+      "fixed_gap_sentence": null,
+      "label": "时间窗",
+      "missing_behavior": "hard_fail",
+      "required": true,
+      "required_terms": [],
+      "source_id": "src_9_3_2_1",
+      "source_kind": "protocol",
+      "source_locator": "方案 §9.3.2 排除标准",
+      "value": "在方案规定时间窗内存在排除情形",
+      "value_kind": "verbatim_text",
+      "verbatim_required": true,
+      "zone": "method"
+    },
+    {
+      "entity_type": "禁用药物",
+      "fact_id": "V04",
+      "fixed_gap_sentence": null,
+      "label": "禁用药物",
+      "missing_behavior": "hard_fail",
+      "required": true,
+      "required_terms": [],
+      "source_id": "src_9_3_2_1",
+      "source_kind": "protocol",
+      "source_locator": "方案 §9.3.2 排除标准",
+      "value": "使用方案列明的禁用药物",
+      "value_kind": "verbatim_text",
+      "verbatim_required": true,
+      "zone": "method"
+    },
+    {
+      "entity_type": "例外和限定词",
+      "fact_id": "V05",
+      "fixed_gap_sentence": null,
+      "label": "例外和限定词",
+      "missing_behavior": "hard_fail",
+      "required": true,
+      "required_terms": [],
+      "source_id": "src_9_3_2_1",
+      "source_kind": "protocol",
+      "source_locator": "方案 §9.3.2 排除标准",
+      "value": "所有例外均按方案限定条件处理",
+      "value_kind": "verbatim_text",
+      "verbatim_required": true,
+      "zone": "method"
+    }
+  ],
+  "narration": "verbatim_list",
+  "policy": {
+    "controlled_causality_terms": [
+      "明确相关",
+      "很可能有关",
+      "可能有关",
+      "不太可能有关",
+      "无关",
+      "未评价",
+      "无法评价"
+    ],
+    "database_numeric_policy": "placeholders_only",
+    "medical_review_marker_required": false,
+    "missing_required_fact": "hard_fail",
+    "outside_fact_content": "hard_fail"
+  },
+  "production_method": "extraction",
+  "schema_version": "1.0",
+  "section_id": "9.3.2",
+  "source_manifest": [
+    {
+      "content_sha256": "db7e38a289ad2ec3aad5cce44e63fd37713a637ce13ef9675aee2fb39cd3055a",
+      "file_role": "protocol",
+      "locator": "方案 §9.3.2 排除标准",
+      "source_id": "src_9_3_2_1",
+      "version": "synthetic-reviewed-v1"
+    }
+  ],
+  "title": "9.3.2 排除标准"
+}

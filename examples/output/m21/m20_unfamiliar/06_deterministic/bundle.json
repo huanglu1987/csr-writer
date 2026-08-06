@@ -1,0 +1,2418 @@
+{
+  "appendix_status_entry_count": 24,
+  "artifacts": [
+    {
+      "content": {
+        "annex_ii_control": {
+          "control_id": "CDE-7",
+          "evidence_status": "合成已确认",
+          "label": "申办方负责医学专员签名",
+          "location": "16.1.5",
+          "value": "脱敏测试槽位"
+        },
+        "basis": "CDE 2025年第14号§3.2/第15号§3.4.2；第7项归16.1.5",
+        "fields": {
+          "confidentiality": "合成测试资料",
+          "protocol_id": "SYN-MIG-II-001",
+          "report_date": "2026-08-06",
+          "report_version": "M21-M20-unified",
+          "sponsor": "脱敏合成申办方",
+          "study_title": "一项评价研究药物 A 用于成人偏头痛预防治疗的单臂开放性Ⅱ期研究"
+        },
+        "title_page_controls": [
+          {
+            "control_id": "CDE-1",
+            "evidence_status": "合成已确认",
+            "label": "药品注册申请人签字及盖章",
+            "location": "标题页",
+            "value": "脱敏测试槽位"
+          },
+          {
+            "control_id": "CDE-2",
+            "evidence_status": "合成已确认",
+            "label": "主要或协调研究者签字",
+            "location": "标题页",
+            "value": "脱敏测试槽位"
+          },
+          {
+            "control_id": "CDE-3",
+            "evidence_status": "合成已确认",
+            "label": "负责或协调研究单位名称",
+            "location": "标题页",
+            "value": "脱敏测试槽位"
+          },
+          {
+            "control_id": "CDE-4",
+            "evidence_status": "合成已确认",
+            "label": "统计学负责人签字",
+            "location": "标题页",
+            "value": "脱敏测试槽位"
+          },
+          {
+            "control_id": "CDE-5",
+            "evidence_status": "合成已确认",
+            "label": "统计单位名称",
+            "location": "标题页",
+            "value": "脱敏测试槽位"
+          },
+          {
+            "control_id": "CDE-6",
+            "evidence_status": "合成已确认",
+            "label": "ICH E3要求的其他标题页信息",
+            "location": "标题页",
+            "value": "脱敏测试槽位"
+          }
+        ]
+      },
+      "content_kind": "title_page_template",
+      "production_method": "template_slot",
+      "production_profile": "title_page",
+      "section_id": "1",
+      "title": "标题页",
+      "validation": {
+        "checks": {
+          "all_required_slots_present": true,
+          "annex_ii_control_routed_to_16_1_5": true,
+          "six_title_page_controls_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "1",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "paragraphs": [
+          {
+            "source_paragraph_index": 0,
+            "source_section_id": "9.1",
+            "source_text_sha256": "2c04f87cb10cb5d845b0a1950a1a7b577c9703c93bf079d086469e24d3bb7274",
+            "text": "本研究采用单臂设计，为单臂开放性研究，仅设研究药物 A 组。"
+          },
+          {
+            "source_paragraph_index": 0,
+            "source_section_id": "12.3.3",
+            "source_text_sha256": "098571d41c77974fda6b71945f4312e12ccb2aea3dce4019ce64446fc6b53758",
+            "text": "未发生死亡。发生严重不良事件者为 2例（4.2%）。发生其他重要不良事件者为 3例（6.3%）。发生导致永久停用研究治疗的不良事件者为 1例（2.1%）。详见{{@ref:T14.3.2.1}}。关键事件指标中存在非零结果。事件分布、转归及临床意义须结合个例资料和暴露情况，由医学负责人确认。"
+          }
+        ]
+      },
+      "content_kind": "confirmed_text_copy",
+      "production_method": "deterministic_generation",
+      "production_profile": "synopsis",
+      "section_id": "2",
+      "title": "概要",
+      "validation": {
+        "checks": {
+          "all_text_copied_verbatim": true,
+          "selection_nonempty": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "2",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "instruction": " TOC \\o \"1-5\" \\h \\z \\u ",
+        "source_key": "document_heading_styles"
+      },
+      "content_kind": "word_field",
+      "production_method": "deterministic_generation",
+      "production_profile": "body_toc",
+      "section_id": "3.1",
+      "title": "正文章节目录",
+      "validation": {
+        "checks": {
+          "source_validated": true,
+          "word_field_instruction_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "3.1",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "instruction": " TOC \\c \"Table\" \\h \\z ",
+        "source_key": "caption_style_table"
+      },
+      "content_kind": "word_field",
+      "production_method": "deterministic_generation",
+      "production_profile": "body_table_toc",
+      "section_id": "3.2",
+      "title": "正文表格目录",
+      "validation": {
+        "checks": {
+          "source_validated": true,
+          "word_field_instruction_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "3.2",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "instruction": " TOC \\c \"Figure\" \\h \\z ",
+        "source_key": "caption_style_figure"
+      },
+      "content_kind": "word_field",
+      "production_method": "deterministic_generation",
+      "production_profile": "body_figure_toc",
+      "section_id": "3.3",
+      "title": "正文图目录",
+      "validation": {
+        "checks": {
+          "source_validated": true,
+          "word_field_instruction_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "3.3",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "instruction": " TOC \\f \"TFL\" \\h \\z ",
+        "source_key": "publication_reference_map"
+      },
+      "content_kind": "word_field",
+      "production_method": "deterministic_generation",
+      "production_profile": "chapter14_catalog",
+      "section_id": "3.4",
+      "title": "第 14 章表图目录",
+      "validation": {
+        "checks": {
+          "source_validated": true,
+          "word_field_instruction_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "3.4",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "instruction": " TOC \\f \"APP\" \\h \\z ",
+        "source_key": "appendix_status_plan"
+      },
+      "content_kind": "word_field",
+      "production_method": "deterministic_generation",
+      "production_profile": "appendix_catalog",
+      "section_id": "3.5",
+      "title": "附录目录",
+      "validation": {
+        "checks": {
+          "source_validated": true,
+          "word_field_instruction_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "3.5",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "instruction": " TOC \\f \"SUP\" \\h \\z ",
+        "source_key": "confirmed_submission_registry"
+      },
+      "content_kind": "word_field",
+      "production_method": "deterministic_generation",
+      "production_profile": "support_report_catalog",
+      "section_id": "3.6",
+      "title": "单独递交的支持性报告目录",
+      "validation": {
+        "checks": {
+          "source_validated": true,
+          "word_field_instruction_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "3.6",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "filled_slots": [
+          "committee_register",
+          "approval_identifier",
+          "approval_date",
+          "protocol_version"
+        ],
+        "text": "本研究方案synthetic-reviewed-v1已由脱敏合成伦理委员会审查并批准，批件编号为SYN-IEC-M21，批准日期为2026-08-06。"
+      },
+      "content_kind": "fixed_template_with_slots",
+      "production_method": "template_slot",
+      "production_profile": "ethics_committee",
+      "section_id": "5.1",
+      "title": "独立伦理委员会（IEC）或机构审查委员会（IRB）",
+      "validation": {
+        "checks": {
+          "all_slots_present": true,
+          "fixed_template_used": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "5.1",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "filled_slots": [
+          "applicable_ethics_standard",
+          "gcp_standard",
+          "confirmed_ethics_deviations"
+        ],
+        "text": "本研究按照《赫尔辛基宣言》和药物临床试验质量管理规范开展。经确认的伦理相关偏离情况为：合成夹具未登记伦理相关偏离。"
+      },
+      "content_kind": "fixed_template_with_slots",
+      "production_method": "template_slot",
+      "production_profile": "ethical_conduct",
+      "section_id": "5.2",
+      "title": "研究的伦理行为",
+      "validation": {
+        "checks": {
+          "all_slots_present": true,
+          "fixed_template_used": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "5.2",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "filled_slots": [
+          "consent_form_versions",
+          "consent_process_register",
+          "waiver_if_any"
+        ],
+        "text": "研究使用的知情同意文件版本为synthetic-reviewed-v1。合成夹具设定为研究前完成书面知情同意。豁免情况：无豁免。"
+      },
+      "content_kind": "fixed_template_with_slots",
+      "production_method": "template_slot",
+      "production_profile": "informed_consent",
+      "section_id": "5.3",
+      "title": "患者知情与同意",
+      "validation": {
+        "checks": {
+          "all_slots_present": true,
+          "fixed_template_used": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "5.3",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "bookmark": "_Ref_Sec_16_2_6",
+        "display": "附录16.2.6",
+        "prefix": "相关个体数据详见",
+        "suffix": "。"
+      },
+      "content_kind": "word_ref",
+      "production_method": "deterministic_generation",
+      "production_profile": "individual_listing_reference",
+      "section_id": "11.4.3",
+      "title": "个体疗效数据列表",
+      "validation": {
+        "checks": {
+          "confirmed_target_present": true,
+          "target_retained_in_appendix_status_plan": true,
+          "word_ref_not_literal_reference": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "11.4.3",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "bookmark": "_Ref_Sec_16_2_6",
+        "display": "附录16.2.6",
+        "prefix": "相关个体数据详见",
+        "suffix": "。"
+      },
+      "content_kind": "word_ref",
+      "production_method": "deterministic_generation",
+      "production_profile": "individual_listing_reference",
+      "section_id": "11.4.6",
+      "title": "按患者列出",
+      "validation": {
+        "checks": {
+          "confirmed_target_present": true,
+          "target_retained_in_appendix_status_plan": true,
+          "word_ref_not_literal_reference": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "11.4.6",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "bookmark": "_Ref_Sec_16_2_7",
+        "display": "附录16.2.7",
+        "prefix": "相关个体数据详见",
+        "suffix": "。"
+      },
+      "content_kind": "word_ref",
+      "production_method": "deterministic_generation",
+      "production_profile": "individual_listing_reference",
+      "section_id": "12.2.2",
+      "title": "不良事件的列出",
+      "validation": {
+        "checks": {
+          "confirmed_target_present": true,
+          "target_retained_in_appendix_status_plan": true,
+          "word_ref_not_literal_reference": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "12.2.2",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "bookmark": "_Ref_Sec_16_2_7",
+        "display": "附录16.2.7",
+        "prefix": "相关个体数据详见",
+        "suffix": "。"
+      },
+      "content_kind": "word_ref",
+      "production_method": "deterministic_generation",
+      "production_profile": "individual_listing_reference",
+      "section_id": "12.2.4",
+      "title": "各患者不良事件列表",
+      "validation": {
+        "checks": {
+          "confirmed_target_present": true,
+          "target_retained_in_appendix_status_plan": true,
+          "word_ref_not_literal_reference": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "12.2.4",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "bookmark": "_Ref_Tab_14_3_2",
+        "display": "表14.3-2",
+        "prefix": "死亡列表详见",
+        "suffix": "。"
+      },
+      "content_kind": "word_ref",
+      "production_method": "deterministic_generation",
+      "production_profile": "individual_listing_reference",
+      "section_id": "12.3.1.1",
+      "title": "死亡",
+      "validation": {
+        "checks": {
+          "confirmed_target_present": true,
+          "target_retained_in_publication_reference_map": true,
+          "word_ref_not_literal_reference": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "12.3.1.1",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "bookmark": "_Ref_Tab_14_3_2",
+        "display": "表14.3-2",
+        "prefix": "其他严重不良事件列表详见",
+        "suffix": "。"
+      },
+      "content_kind": "word_ref",
+      "production_method": "deterministic_generation",
+      "production_profile": "individual_listing_reference",
+      "section_id": "12.3.1.2",
+      "title": "其他严重不良事件",
+      "validation": {
+        "checks": {
+          "confirmed_target_present": true,
+          "target_retained_in_publication_reference_map": true,
+          "word_ref_not_literal_reference": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "12.3.1.2",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "bookmark": "_Ref_Tab_14_3_2",
+        "display": "表14.3-2",
+        "prefix": "其他重要不良事件列表详见",
+        "suffix": "。"
+      },
+      "content_kind": "word_ref",
+      "production_method": "deterministic_generation",
+      "production_profile": "individual_listing_reference",
+      "section_id": "12.3.1.3",
+      "title": "其他重要不良事件",
+      "validation": {
+        "checks": {
+          "confirmed_target_present": true,
+          "target_retained_in_publication_reference_map": true,
+          "word_ref_not_literal_reference": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "12.3.1.3",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "bookmark": "_Ref_Sec_16_2_8",
+        "display": "附录16.2.8",
+        "prefix": "相关个体数据详见",
+        "suffix": "。"
+      },
+      "content_kind": "word_ref",
+      "production_method": "deterministic_generation",
+      "production_profile": "individual_listing_reference",
+      "section_id": "12.4.1",
+      "title": "各患者的个例实验室测量值列表（16.2.8）和各异常实验室值（14.3.4）",
+      "validation": {
+        "checks": {
+          "confirmed_target_present": true,
+          "target_retained_in_appendix_status_plan": true,
+          "word_ref_not_literal_reference": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "12.4.1",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "entries": [
+          {
+            "expected_section": "§10.1",
+            "publication_entity_id": "T14.1-1",
+            "source_entity_id": "T14.1.1.1",
+            "title": "脱敏合成表图 T14.1-1"
+          }
+        ]
+      },
+      "content_kind": "chapter14_entities",
+      "production_method": "deterministic_generation",
+      "production_profile": "chapter14_material",
+      "section_id": "14.1.1",
+      "title": "受试者处置",
+      "validation": {
+        "checks": {
+          "bookmark_per_entity": true,
+          "entity_count_positive": true,
+          "frozen_publication_result_three_way_match": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "14.1.1",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "entries": [
+          {
+            "expected_section": "§11.2",
+            "publication_entity_id": "T14.1-2",
+            "source_entity_id": "T14.1.2.1",
+            "title": "脱敏合成表图 T14.1-2"
+          }
+        ]
+      },
+      "content_kind": "chapter14_entities",
+      "production_method": "deterministic_generation",
+      "production_profile": "chapter14_material",
+      "section_id": "14.1.2",
+      "title": "方案偏离",
+      "validation": {
+        "checks": {
+          "bookmark_per_entity": true,
+          "entity_count_positive": true,
+          "frozen_publication_result_three_way_match": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "14.1.2",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "entries": [
+          {
+            "expected_section": "§11.2",
+            "publication_entity_id": "T14.1-3",
+            "source_entity_id": "T14.1.3.1",
+            "title": "脱敏合成表图 T14.1-3"
+          }
+        ]
+      },
+      "content_kind": "chapter14_entities",
+      "production_method": "deterministic_generation",
+      "production_profile": "chapter14_material",
+      "section_id": "14.1.3",
+      "title": "人口学与基线特征",
+      "validation": {
+        "checks": {
+          "bookmark_per_entity": true,
+          "entity_count_positive": true,
+          "frozen_publication_result_three_way_match": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "14.1.3",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "entries": [
+          {
+            "expected_section": "§11.4",
+            "publication_entity_id": "T14.2-1",
+            "source_entity_id": "T14.2.1",
+            "title": "脱敏合成表图 T14.2-1"
+          },
+          {
+            "expected_section": "§11.4",
+            "publication_entity_id": "T14.2-2",
+            "source_entity_id": "T14.2.2",
+            "title": "脱敏合成表图 T14.2-2"
+          }
+        ]
+      },
+      "content_kind": "chapter14_entities",
+      "production_method": "deterministic_generation",
+      "production_profile": "chapter14_material",
+      "section_id": "14.2",
+      "title": "药代动力学和探索性疗效数据",
+      "validation": {
+        "checks": {
+          "bookmark_per_entity": true,
+          "entity_count_positive": true,
+          "frozen_publication_result_three_way_match": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "14.2",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "entries": [
+          {
+            "expected_section": "§12.1",
+            "publication_entity_id": "T14.3-1",
+            "source_entity_id": "T14.3.1.1",
+            "title": "脱敏合成表图 T14.3-1"
+          }
+        ]
+      },
+      "content_kind": "chapter14_entities",
+      "production_method": "deterministic_generation",
+      "production_profile": "chapter14_material",
+      "section_id": "14.3.1",
+      "title": "不良事件列表",
+      "validation": {
+        "checks": {
+          "bookmark_per_entity": true,
+          "entity_count_positive": true,
+          "frozen_publication_result_three_way_match": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "14.3.1",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "entries": [
+          {
+            "expected_section": "§12",
+            "publication_entity_id": "T14.3-2",
+            "source_entity_id": "T14.3.2.1",
+            "title": "脱敏合成表图 T14.3-2"
+          }
+        ]
+      },
+      "content_kind": "chapter14_entities",
+      "production_method": "deterministic_generation",
+      "production_profile": "chapter14_material",
+      "section_id": "14.3.2",
+      "title": "死亡、其他严重和重要不良事件的列表",
+      "validation": {
+        "checks": {
+          "bookmark_per_entity": true,
+          "entity_count_positive": true,
+          "frozen_publication_result_three_way_match": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "14.3.2",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "entries": [
+          {
+            "expected_section": "§12",
+            "publication_entity_id": "T14.3-3",
+            "source_entity_id": "T14.3.3.1",
+            "title": "脱敏合成表图 T14.3-3"
+          }
+        ]
+      },
+      "content_kind": "chapter14_entities",
+      "production_method": "deterministic_generation",
+      "production_profile": "chapter14_material",
+      "section_id": "14.3.3",
+      "title": "死亡、其他严重和某些其他重要不良事件的叙述",
+      "validation": {
+        "checks": {
+          "bookmark_per_entity": true,
+          "entity_count_positive": true,
+          "frozen_publication_result_three_way_match": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "14.3.3",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "entries": [
+          {
+            "expected_section": "§12",
+            "publication_entity_id": "T14.3-4",
+            "source_entity_id": "T14.3.4.1",
+            "title": "脱敏合成表图 T14.3-4"
+          },
+          {
+            "expected_section": "§12.4.3",
+            "publication_entity_id": "T14.3-5",
+            "source_entity_id": "T14.3.9.1",
+            "title": "脱敏合成表图 T14.3-5"
+          }
+        ]
+      },
+      "content_kind": "chapter14_entities",
+      "production_method": "deterministic_generation",
+      "production_profile": "chapter14_material",
+      "section_id": "14.3.4",
+      "title": "异常实验室数值列表（各患者）",
+      "validation": {
+        "checks": {
+          "bookmark_per_entity": true,
+          "entity_count_positive": true,
+          "frozen_publication_result_three_way_match": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "14.3.4",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "entries": [
+          {
+            "citation": "ICH E3：临床研究报告的结构和内容。",
+            "source_id": "ICH-E3"
+          }
+        ]
+      },
+      "content_kind": "reference_list",
+      "production_method": "deterministic_generation",
+      "production_profile": "reference_list",
+      "section_id": "15",
+      "title": "参考文献列表",
+      "validation": {
+        "checks": {
+          "all_sources_registered": true,
+          "cited_sources_only": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "15",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "rows": [
+          {
+            "appendix_id": "16.1.1",
+            "category": "csr_required",
+            "category_title": "1. CSR 必需审评附件",
+            "e3_submit_metadata": "always",
+            "file_name": "方案和方案修订案",
+            "qa_basis": "",
+            "reason_or_on_request": "E3 核心审评附件；具体文件版本以正式附件清单为准。",
+            "submission_location": "CSR 16.1.1",
+            "submitted": "是"
+          },
+          {
+            "appendix_id": "16.1.2",
+            "category": "csr_required",
+            "category_title": "1. CSR 必需审评附件",
+            "e3_submit_metadata": "always",
+            "file_name": "病例报告表样本（仅提供唯一页面）",
+            "qa_basis": "",
+            "reason_or_on_request": "E3 核心审评附件；具体文件版本以正式附件清单为准。",
+            "submission_location": "CSR 16.1.2",
+            "submitted": "是"
+          },
+          {
+            "appendix_id": "16.1.5",
+            "category": "csr_required",
+            "category_title": "1. CSR 必需审评附件",
+            "e3_submit_metadata": "not-specified",
+            "file_name": "主要或协调研究者或申办方负责医学专员的签名",
+            "qa_basis": "",
+            "reason_or_on_request": "E3 核心审评附件；具体文件版本以正式附件清单为准。",
+            "submission_location": "CSR 16.1.5",
+            "submitted": "是"
+          },
+          {
+            "appendix_id": "16.1.9",
+            "category": "csr_required",
+            "category_title": "1. CSR 必需审评附件",
+            "e3_submit_metadata": "always",
+            "file_name": "统计学方法的文件",
+            "qa_basis": "",
+            "reason_or_on_request": "E3 核心审评附件；具体文件版本以正式附件清单为准。",
+            "submission_location": "CSR 16.1.9",
+            "submitted": "是"
+          },
+          {
+            "appendix_id": "16.1.7",
+            "category": "not_applicable",
+            "category_title": "4. 不适用附件",
+            "e3_submit_metadata": "always",
+            "file_name": "随机方案和编号",
+            "qa_basis": "",
+            "reason_or_on_request": "本研究为非随机化设计。",
+            "submission_location": "不适用",
+            "submitted": "否"
+          },
+          {
+            "appendix_id": "16.1.4",
+            "category": "csr_required",
+            "category_title": "1. CSR 必需审评附件",
+            "e3_submit_metadata": "conditional",
+            "file_name": "研究者及其他重要研究参与者的列表和描述，包括个人简历（名单部分）",
+            "qa_basis": "⚠ Q&A Q3：研究者 **CV 通常不放入** CSR 附录；但研究者与中心名单『always be needed』",
+            "reason_or_on_request": "研究者和中心名单纳入附件；个人简历按 E3 Q&A Q3 留 TMF。",
+            "submission_location": "CSR 16.1.4",
+            "submitted": "部分提交"
+          },
+          {
+            "appendix_id": "16.2.1",
+            "category": "regional",
+            "category_title": "2. 本次注册申请需提交的地区性附件",
+            "e3_submit_metadata": "not-specified",
+            "file_name": "终止研究患者",
+            "qa_basis": "",
+            "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+            "submission_location": "地区性申报附件位置",
+            "submitted": "条件性"
+          },
+          {
+            "appendix_id": "16.2.2",
+            "category": "regional",
+            "category_title": "2. 本次注册申请需提交的地区性附件",
+            "e3_submit_metadata": "not-specified",
+            "file_name": "方案偏离",
+            "qa_basis": "",
+            "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+            "submission_location": "地区性申报附件位置",
+            "submitted": "条件性"
+          },
+          {
+            "appendix_id": "16.2.3",
+            "category": "regional",
+            "category_title": "2. 本次注册申请需提交的地区性附件",
+            "e3_submit_metadata": "not-specified",
+            "file_name": "疗效分析中排除的患者",
+            "qa_basis": "",
+            "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+            "submission_location": "地区性申报附件位置",
+            "submitted": "条件性"
+          },
+          {
+            "appendix_id": "16.2.4",
+            "category": "regional",
+            "category_title": "2. 本次注册申请需提交的地区性附件",
+            "e3_submit_metadata": "not-specified",
+            "file_name": "人口统计学数据",
+            "qa_basis": "",
+            "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+            "submission_location": "地区性申报附件位置",
+            "submitted": "条件性"
+          },
+          {
+            "appendix_id": "16.2.5",
+            "category": "regional",
+            "category_title": "2. 本次注册申请需提交的地区性附件",
+            "e3_submit_metadata": "not-specified",
+            "file_name": "依从性和/或药物浓度数据",
+            "qa_basis": "",
+            "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+            "submission_location": "地区性申报附件位置",
+            "submitted": "条件性"
+          },
+          {
+            "appendix_id": "16.2.6",
+            "category": "regional",
+            "category_title": "2. 本次注册申请需提交的地区性附件",
+            "e3_submit_metadata": "not-specified",
+            "file_name": "个体疗效数据",
+            "qa_basis": "",
+            "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+            "submission_location": "地区性申报附件位置",
+            "submitted": "条件性"
+          },
+          {
+            "appendix_id": "16.2.7",
+            "category": "regional",
+            "category_title": "2. 本次注册申请需提交的地区性附件",
+            "e3_submit_metadata": "not-specified",
+            "file_name": "不良事件列表（各患者）",
+            "qa_basis": "",
+            "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+            "submission_location": "地区性申报附件位置",
+            "submitted": "条件性"
+          },
+          {
+            "appendix_id": "16.2.8",
+            "category": "regional",
+            "category_title": "2. 本次注册申请需提交的地区性附件",
+            "e3_submit_metadata": "conditional",
+            "file_name": "按患者列出的个体实验室测量值列表",
+            "qa_basis": "",
+            "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+            "submission_location": "地区性申报附件位置",
+            "submitted": "条件性"
+          },
+          {
+            "appendix_id": "16.3.1",
+            "category": "regional",
+            "category_title": "2. 本次注册申请需提交的地区性附件",
+            "e3_submit_metadata": "not-specified",
+            "file_name": "死亡、其他严重不良事件或 AE 导致的退出的 CRF",
+            "qa_basis": "",
+            "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+            "submission_location": "地区性申报附件位置",
+            "submitted": "条件性"
+          },
+          {
+            "appendix_id": "16.3.2",
+            "category": "regional",
+            "category_title": "2. 本次注册申请需提交的地区性附件",
+            "e3_submit_metadata": "not-specified",
+            "file_name": "递交的其他 CRF",
+            "qa_basis": "",
+            "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+            "submission_location": "地区性申报附件位置",
+            "submitted": "条件性"
+          },
+          {
+            "appendix_id": "16.1.3",
+            "category": "tmf_on_request",
+            "category_title": "3. TMF 留存、可按要求提供的附件",
+            "e3_submit_metadata": "conditional",
+            "file_name": "IEC 或 IRB 列表 - 代表性患者书面信息和同意书样本",
+            "qa_basis": "⚠ Q&A Q3：伦理批件与知情同意书**通常不放入 CSR 附录**，留 TMF",
+            "reason_or_on_request": "伦理批件、患者书面信息和知情同意文件通常留 TMF，可按监管要求提供（E3 Q&A Q3）。",
+            "submission_location": "TMF",
+            "submitted": "否"
+          },
+          {
+            "appendix_id": "16.1.4",
+            "category": "tmf_on_request",
+            "category_title": "3. TMF 留存、可按要求提供的附件",
+            "e3_submit_metadata": "conditional",
+            "file_name": "研究者及其他重要研究参与者的列表和描述，包括个人简历（个人简历部分）",
+            "qa_basis": "⚠ Q&A Q3：研究者 **CV 通常不放入** CSR 附录；但研究者与中心名单『always be needed』",
+            "reason_or_on_request": "研究者个人简历通常不纳入 CSR，可按要求提供（E3 Q&A Q3）。",
+            "submission_location": "TMF",
+            "submitted": "否"
+          },
+          {
+            "appendix_id": "16.1.6",
+            "category": "tmf_on_request",
+            "category_title": "3. TMF 留存、可按要求提供的附件",
+            "e3_submit_metadata": "conditional",
+            "file_name": "如使用 1 批以上药物，接受特定批次试验药品的患者列表",
+            "qa_basis": "⚠ Q&A Q3：每例受试者的批号通常不放入 CSR 附录",
+            "reason_or_on_request": "按受试者列出的批号信息通常留 TMF，可按要求提供（E3 Q&A Q3）。",
+            "submission_location": "TMF",
+            "submitted": "否"
+          },
+          {
+            "appendix_id": "16.1.8",
+            "category": "not_applicable",
+            "category_title": "4. 不适用附件",
+            "e3_submit_metadata": "conditional",
+            "file_name": "稽查证书（如有）",
+            "qa_basis": "",
+            "reason_or_on_request": "当前已确认研究事实未证实存在可提交的稽查证书。",
+            "submission_location": "不适用",
+            "submitted": "否"
+          },
+          {
+            "appendix_id": "16.1.10",
+            "category": "not_applicable",
+            "category_title": "4. 不适用附件",
+            "e3_submit_metadata": "conditional",
+            "file_name": "实验室间标准化方法和质量保证程序的文件（如使用）",
+            "qa_basis": "",
+            "reason_or_on_request": "当前已确认研究事实未证实使用实验室间标准化方法。",
+            "submission_location": "不适用",
+            "submitted": "否"
+          },
+          {
+            "appendix_id": "16.1.11",
+            "category": "not_applicable",
+            "category_title": "4. 不适用附件",
+            "e3_submit_metadata": "conditional",
+            "file_name": "基于研究的发表文章",
+            "qa_basis": "",
+            "reason_or_on_request": "当前已确认研究事实未证实存在基于本研究的发表文章。",
+            "submission_location": "不适用",
+            "submitted": "否"
+          },
+          {
+            "appendix_id": "16.1.12",
+            "category": "not_applicable",
+            "category_title": "4. 不适用附件",
+            "e3_submit_metadata": "conditional",
+            "file_name": "报告中引用的重要发表文章",
+            "qa_basis": "",
+            "reason_or_on_request": "当前已确认研究事实未证实存在需作为附件的重要引用文献。",
+            "submission_location": "不适用",
+            "submitted": "否"
+          },
+          {
+            "appendix_id": "16.4",
+            "category": "not_applicable",
+            "category_title": "4. 不适用附件",
+            "e3_submit_metadata": "US only",
+            "file_name": "个例患者数据列表（US 存档列表）",
+            "qa_basis": "",
+            "reason_or_on_request": "本次提交地区为 CDE；16.4 仅为 US 存档列表。",
+            "submission_location": "不适用",
+            "submitted": "否"
+          }
+        ]
+      },
+      "content_kind": "appendix_status_table",
+      "production_method": "deterministic_generation",
+      "production_profile": "appendix_entry",
+      "section_id": "16.0",
+      "title": "附录目录及提交状态",
+      "validation": {
+        "checks": {
+          "all_24_rows_present": true,
+          "five_columns_present": true,
+          "status_entry_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "16.0",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "rows": [
+          {
+            "appendix_id": "16.1.1",
+            "category": "csr_required",
+            "category_title": "1. CSR 必需审评附件",
+            "e3_submit_metadata": "always",
+            "file_name": "方案和方案修订案",
+            "qa_basis": "",
+            "reason_or_on_request": "E3 核心审评附件；具体文件版本以正式附件清单为准。",
+            "submission_location": "CSR 16.1.1",
+            "submitted": "是"
+          }
+        ]
+      },
+      "content_kind": "appendix_status_entry",
+      "production_method": "deterministic_generation",
+      "production_profile": "appendix_entry",
+      "section_id": "16.1.1",
+      "title": "方案和方案修订案",
+      "validation": {
+        "checks": {
+          "entry_preserved": true,
+          "five_columns_present": true,
+          "status_entry_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "16.1.1",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "rows": [
+          {
+            "appendix_id": "16.1.2",
+            "category": "csr_required",
+            "category_title": "1. CSR 必需审评附件",
+            "e3_submit_metadata": "always",
+            "file_name": "病例报告表样本（仅提供唯一页面）",
+            "qa_basis": "",
+            "reason_or_on_request": "E3 核心审评附件；具体文件版本以正式附件清单为准。",
+            "submission_location": "CSR 16.1.2",
+            "submitted": "是"
+          }
+        ]
+      },
+      "content_kind": "appendix_status_entry",
+      "production_method": "deterministic_generation",
+      "production_profile": "appendix_entry",
+      "section_id": "16.1.2",
+      "title": "病例报告表样本（仅提供唯一页面）",
+      "validation": {
+        "checks": {
+          "entry_preserved": true,
+          "five_columns_present": true,
+          "status_entry_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "16.1.2",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "rows": [
+          {
+            "appendix_id": "16.1.3",
+            "category": "tmf_on_request",
+            "category_title": "3. TMF 留存、可按要求提供的附件",
+            "e3_submit_metadata": "conditional",
+            "file_name": "IEC 或 IRB 列表 - 代表性患者书面信息和同意书样本",
+            "qa_basis": "⚠ Q&A Q3：伦理批件与知情同意书**通常不放入 CSR 附录**，留 TMF",
+            "reason_or_on_request": "伦理批件、患者书面信息和知情同意文件通常留 TMF，可按监管要求提供（E3 Q&A Q3）。",
+            "submission_location": "TMF",
+            "submitted": "否"
+          }
+        ]
+      },
+      "content_kind": "appendix_status_entry",
+      "production_method": "deterministic_generation",
+      "production_profile": "appendix_entry",
+      "section_id": "16.1.3",
+      "title": "IEC 或 IRB 列表 - 代表性患者书面信息和同意书样本",
+      "validation": {
+        "checks": {
+          "entry_preserved": true,
+          "five_columns_present": true,
+          "status_entry_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "16.1.3",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "rows": [
+          {
+            "appendix_id": "16.1.4",
+            "category": "csr_required",
+            "category_title": "1. CSR 必需审评附件",
+            "e3_submit_metadata": "conditional",
+            "file_name": "研究者及其他重要研究参与者的列表和描述，包括个人简历（名单部分）",
+            "qa_basis": "⚠ Q&A Q3：研究者 **CV 通常不放入** CSR 附录；但研究者与中心名单『always be needed』",
+            "reason_or_on_request": "研究者和中心名单纳入附件；个人简历按 E3 Q&A Q3 留 TMF。",
+            "submission_location": "CSR 16.1.4",
+            "submitted": "部分提交"
+          },
+          {
+            "appendix_id": "16.1.4",
+            "category": "tmf_on_request",
+            "category_title": "3. TMF 留存、可按要求提供的附件",
+            "e3_submit_metadata": "conditional",
+            "file_name": "研究者及其他重要研究参与者的列表和描述，包括个人简历（个人简历部分）",
+            "qa_basis": "⚠ Q&A Q3：研究者 **CV 通常不放入** CSR 附录；但研究者与中心名单『always be needed』",
+            "reason_or_on_request": "研究者个人简历通常不纳入 CSR，可按要求提供（E3 Q&A Q3）。",
+            "submission_location": "TMF",
+            "submitted": "否"
+          }
+        ]
+      },
+      "content_kind": "appendix_status_entry",
+      "production_method": "deterministic_generation",
+      "production_profile": "appendix_entry",
+      "section_id": "16.1.4",
+      "title": "研究者及其他重要研究参与者的列表和描述，包括个人简历",
+      "validation": {
+        "checks": {
+          "entry_preserved": true,
+          "five_columns_present": true,
+          "status_entry_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "16.1.4",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "annex_ii_signature": {
+          "control_id": "CDE-7",
+          "evidence_status": "合成已确认",
+          "label": "申办方负责医学专员签名",
+          "location": "16.1.5",
+          "value": "脱敏测试槽位"
+        },
+        "rows": [
+          {
+            "appendix_id": "16.1.5",
+            "category": "csr_required",
+            "category_title": "1. CSR 必需审评附件",
+            "e3_submit_metadata": "not-specified",
+            "file_name": "主要或协调研究者或申办方负责医学专员的签名",
+            "qa_basis": "",
+            "reason_or_on_request": "E3 核心审评附件；具体文件版本以正式附件清单为准。",
+            "submission_location": "CSR 16.1.5",
+            "submitted": "是"
+          }
+        ]
+      },
+      "content_kind": "appendix_status_entry",
+      "production_method": "deterministic_generation",
+      "production_profile": "appendix_entry",
+      "section_id": "16.1.5",
+      "title": "主要或协调研究者或申办方负责医学专员的签名",
+      "validation": {
+        "checks": {
+          "entry_preserved": true,
+          "five_columns_present": true,
+          "status_entry_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "16.1.5",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "rows": [
+          {
+            "appendix_id": "16.1.6",
+            "category": "tmf_on_request",
+            "category_title": "3. TMF 留存、可按要求提供的附件",
+            "e3_submit_metadata": "conditional",
+            "file_name": "如使用 1 批以上药物，接受特定批次试验药品的患者列表",
+            "qa_basis": "⚠ Q&A Q3：每例受试者的批号通常不放入 CSR 附录",
+            "reason_or_on_request": "按受试者列出的批号信息通常留 TMF，可按要求提供（E3 Q&A Q3）。",
+            "submission_location": "TMF",
+            "submitted": "否"
+          }
+        ]
+      },
+      "content_kind": "appendix_status_entry",
+      "production_method": "deterministic_generation",
+      "production_profile": "appendix_entry",
+      "section_id": "16.1.6",
+      "title": "如使用 1 批以上药物，接受特定批次试验药品的患者列表",
+      "validation": {
+        "checks": {
+          "entry_preserved": true,
+          "five_columns_present": true,
+          "status_entry_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "16.1.6",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "rows": [
+          {
+            "appendix_id": "16.1.7",
+            "category": "not_applicable",
+            "category_title": "4. 不适用附件",
+            "e3_submit_metadata": "always",
+            "file_name": "随机方案和编号",
+            "qa_basis": "",
+            "reason_or_on_request": "本研究为非随机化设计。",
+            "submission_location": "不适用",
+            "submitted": "否"
+          }
+        ]
+      },
+      "content_kind": "appendix_status_entry",
+      "production_method": "deterministic_generation",
+      "production_profile": "appendix_entry",
+      "section_id": "16.1.7",
+      "title": "随机方案和编号",
+      "validation": {
+        "checks": {
+          "entry_preserved": true,
+          "five_columns_present": true,
+          "status_entry_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "16.1.7",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "rows": [
+          {
+            "appendix_id": "16.1.8",
+            "category": "not_applicable",
+            "category_title": "4. 不适用附件",
+            "e3_submit_metadata": "conditional",
+            "file_name": "稽查证书（如有）",
+            "qa_basis": "",
+            "reason_or_on_request": "当前已确认研究事实未证实存在可提交的稽查证书。",
+            "submission_location": "不适用",
+            "submitted": "否"
+          }
+        ]
+      },
+      "content_kind": "appendix_status_entry",
+      "production_method": "deterministic_generation",
+      "production_profile": "appendix_entry",
+      "section_id": "16.1.8",
+      "title": "稽查证书（如有）",
+      "validation": {
+        "checks": {
+          "entry_preserved": true,
+          "five_columns_present": true,
+          "status_entry_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "16.1.8",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "rows": [
+          {
+            "appendix_id": "16.1.9",
+            "category": "csr_required",
+            "category_title": "1. CSR 必需审评附件",
+            "e3_submit_metadata": "always",
+            "file_name": "统计学方法的文件",
+            "qa_basis": "",
+            "reason_or_on_request": "E3 核心审评附件；具体文件版本以正式附件清单为准。",
+            "submission_location": "CSR 16.1.9",
+            "submitted": "是"
+          }
+        ]
+      },
+      "content_kind": "appendix_status_entry",
+      "production_method": "deterministic_generation",
+      "production_profile": "appendix_entry",
+      "section_id": "16.1.9",
+      "title": "统计学方法的文件",
+      "validation": {
+        "checks": {
+          "entry_preserved": true,
+          "five_columns_present": true,
+          "status_entry_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "16.1.9",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "rows": [
+          {
+            "appendix_id": "16.1.10",
+            "category": "not_applicable",
+            "category_title": "4. 不适用附件",
+            "e3_submit_metadata": "conditional",
+            "file_name": "实验室间标准化方法和质量保证程序的文件（如使用）",
+            "qa_basis": "",
+            "reason_or_on_request": "当前已确认研究事实未证实使用实验室间标准化方法。",
+            "submission_location": "不适用",
+            "submitted": "否"
+          }
+        ]
+      },
+      "content_kind": "appendix_status_entry",
+      "production_method": "deterministic_generation",
+      "production_profile": "appendix_entry",
+      "section_id": "16.1.10",
+      "title": "实验室间标准化方法和质量保证程序的文件（如使用）",
+      "validation": {
+        "checks": {
+          "entry_preserved": true,
+          "five_columns_present": true,
+          "status_entry_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "16.1.10",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "rows": [
+          {
+            "appendix_id": "16.1.11",
+            "category": "not_applicable",
+            "category_title": "4. 不适用附件",
+            "e3_submit_metadata": "conditional",
+            "file_name": "基于研究的发表文章",
+            "qa_basis": "",
+            "reason_or_on_request": "当前已确认研究事实未证实存在基于本研究的发表文章。",
+            "submission_location": "不适用",
+            "submitted": "否"
+          }
+        ]
+      },
+      "content_kind": "appendix_status_entry",
+      "production_method": "deterministic_generation",
+      "production_profile": "appendix_entry",
+      "section_id": "16.1.11",
+      "title": "基于研究的发表文章",
+      "validation": {
+        "checks": {
+          "entry_preserved": true,
+          "five_columns_present": true,
+          "status_entry_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "16.1.11",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "rows": [
+          {
+            "appendix_id": "16.1.12",
+            "category": "not_applicable",
+            "category_title": "4. 不适用附件",
+            "e3_submit_metadata": "conditional",
+            "file_name": "报告中引用的重要发表文章",
+            "qa_basis": "",
+            "reason_or_on_request": "当前已确认研究事实未证实存在需作为附件的重要引用文献。",
+            "submission_location": "不适用",
+            "submitted": "否"
+          }
+        ]
+      },
+      "content_kind": "appendix_status_entry",
+      "production_method": "deterministic_generation",
+      "production_profile": "appendix_entry",
+      "section_id": "16.1.12",
+      "title": "报告中引用的重要发表文章",
+      "validation": {
+        "checks": {
+          "entry_preserved": true,
+          "five_columns_present": true,
+          "status_entry_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "16.1.12",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "rows": [
+          {
+            "appendix_id": "16.2.1",
+            "category": "regional",
+            "category_title": "2. 本次注册申请需提交的地区性附件",
+            "e3_submit_metadata": "not-specified",
+            "file_name": "终止研究患者",
+            "qa_basis": "",
+            "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+            "submission_location": "地区性申报附件位置",
+            "submitted": "条件性"
+          }
+        ]
+      },
+      "content_kind": "appendix_status_entry",
+      "production_method": "deterministic_generation",
+      "production_profile": "appendix_entry",
+      "section_id": "16.2.1",
+      "title": "终止研究患者",
+      "validation": {
+        "checks": {
+          "entry_preserved": true,
+          "five_columns_present": true,
+          "status_entry_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "16.2.1",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "rows": [
+          {
+            "appendix_id": "16.2.2",
+            "category": "regional",
+            "category_title": "2. 本次注册申请需提交的地区性附件",
+            "e3_submit_metadata": "not-specified",
+            "file_name": "方案偏离",
+            "qa_basis": "",
+            "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+            "submission_location": "地区性申报附件位置",
+            "submitted": "条件性"
+          }
+        ]
+      },
+      "content_kind": "appendix_status_entry",
+      "production_method": "deterministic_generation",
+      "production_profile": "appendix_entry",
+      "section_id": "16.2.2",
+      "title": "方案偏离",
+      "validation": {
+        "checks": {
+          "entry_preserved": true,
+          "five_columns_present": true,
+          "status_entry_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "16.2.2",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "rows": [
+          {
+            "appendix_id": "16.2.3",
+            "category": "regional",
+            "category_title": "2. 本次注册申请需提交的地区性附件",
+            "e3_submit_metadata": "not-specified",
+            "file_name": "疗效分析中排除的患者",
+            "qa_basis": "",
+            "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+            "submission_location": "地区性申报附件位置",
+            "submitted": "条件性"
+          }
+        ]
+      },
+      "content_kind": "appendix_status_entry",
+      "production_method": "deterministic_generation",
+      "production_profile": "appendix_entry",
+      "section_id": "16.2.3",
+      "title": "疗效分析中排除的患者",
+      "validation": {
+        "checks": {
+          "entry_preserved": true,
+          "five_columns_present": true,
+          "status_entry_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "16.2.3",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "rows": [
+          {
+            "appendix_id": "16.2.4",
+            "category": "regional",
+            "category_title": "2. 本次注册申请需提交的地区性附件",
+            "e3_submit_metadata": "not-specified",
+            "file_name": "人口统计学数据",
+            "qa_basis": "",
+            "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+            "submission_location": "地区性申报附件位置",
+            "submitted": "条件性"
+          }
+        ]
+      },
+      "content_kind": "appendix_status_entry",
+      "production_method": "deterministic_generation",
+      "production_profile": "appendix_entry",
+      "section_id": "16.2.4",
+      "title": "人口统计学数据",
+      "validation": {
+        "checks": {
+          "entry_preserved": true,
+          "five_columns_present": true,
+          "status_entry_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "16.2.4",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "rows": [
+          {
+            "appendix_id": "16.2.5",
+            "category": "regional",
+            "category_title": "2. 本次注册申请需提交的地区性附件",
+            "e3_submit_metadata": "not-specified",
+            "file_name": "依从性和/或药物浓度数据",
+            "qa_basis": "",
+            "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+            "submission_location": "地区性申报附件位置",
+            "submitted": "条件性"
+          }
+        ]
+      },
+      "content_kind": "appendix_status_entry",
+      "production_method": "deterministic_generation",
+      "production_profile": "appendix_entry",
+      "section_id": "16.2.5",
+      "title": "依从性和/或药物浓度数据",
+      "validation": {
+        "checks": {
+          "entry_preserved": true,
+          "five_columns_present": true,
+          "status_entry_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "16.2.5",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "rows": [
+          {
+            "appendix_id": "16.2.6",
+            "category": "regional",
+            "category_title": "2. 本次注册申请需提交的地区性附件",
+            "e3_submit_metadata": "not-specified",
+            "file_name": "个体疗效数据",
+            "qa_basis": "",
+            "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+            "submission_location": "地区性申报附件位置",
+            "submitted": "条件性"
+          }
+        ]
+      },
+      "content_kind": "appendix_status_entry",
+      "production_method": "deterministic_generation",
+      "production_profile": "appendix_entry",
+      "section_id": "16.2.6",
+      "title": "个体疗效数据",
+      "validation": {
+        "checks": {
+          "entry_preserved": true,
+          "five_columns_present": true,
+          "status_entry_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "16.2.6",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "rows": [
+          {
+            "appendix_id": "16.2.7",
+            "category": "regional",
+            "category_title": "2. 本次注册申请需提交的地区性附件",
+            "e3_submit_metadata": "not-specified",
+            "file_name": "不良事件列表（各患者）",
+            "qa_basis": "",
+            "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+            "submission_location": "地区性申报附件位置",
+            "submitted": "条件性"
+          }
+        ]
+      },
+      "content_kind": "appendix_status_entry",
+      "production_method": "deterministic_generation",
+      "production_profile": "appendix_entry",
+      "section_id": "16.2.7",
+      "title": "不良事件列表（各患者）",
+      "validation": {
+        "checks": {
+          "entry_preserved": true,
+          "five_columns_present": true,
+          "status_entry_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "16.2.7",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "rows": [
+          {
+            "appendix_id": "16.2.8",
+            "category": "regional",
+            "category_title": "2. 本次注册申请需提交的地区性附件",
+            "e3_submit_metadata": "conditional",
+            "file_name": "按患者列出的个体实验室测量值列表",
+            "qa_basis": "",
+            "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+            "submission_location": "地区性申报附件位置",
+            "submitted": "条件性"
+          }
+        ]
+      },
+      "content_kind": "appendix_status_entry",
+      "production_method": "deterministic_generation",
+      "production_profile": "appendix_entry",
+      "section_id": "16.2.8",
+      "title": "按患者列出的个体实验室测量值列表",
+      "validation": {
+        "checks": {
+          "entry_preserved": true,
+          "five_columns_present": true,
+          "status_entry_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "16.2.8",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "rows": [
+          {
+            "appendix_id": "16.3.1",
+            "category": "regional",
+            "category_title": "2. 本次注册申请需提交的地区性附件",
+            "e3_submit_metadata": "not-specified",
+            "file_name": "死亡、其他严重不良事件或 AE 导致的退出的 CRF",
+            "qa_basis": "",
+            "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+            "submission_location": "地区性申报附件位置",
+            "submitted": "条件性"
+          }
+        ]
+      },
+      "content_kind": "appendix_status_entry",
+      "production_method": "deterministic_generation",
+      "production_profile": "appendix_entry",
+      "section_id": "16.3.1",
+      "title": "死亡、其他严重不良事件或 AE 导致的退出的 CRF",
+      "validation": {
+        "checks": {
+          "entry_preserved": true,
+          "five_columns_present": true,
+          "status_entry_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "16.3.1",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "rows": [
+          {
+            "appendix_id": "16.3.2",
+            "category": "regional",
+            "category_title": "2. 本次注册申请需提交的地区性附件",
+            "e3_submit_metadata": "not-specified",
+            "file_name": "递交的其他 CRF",
+            "qa_basis": "",
+            "reason_or_on_request": "由本次申报资料清单和实际事件集合决定；本结构轮不推断文件是否存在。",
+            "submission_location": "地区性申报附件位置",
+            "submitted": "条件性"
+          }
+        ]
+      },
+      "content_kind": "appendix_status_entry",
+      "production_method": "deterministic_generation",
+      "production_profile": "appendix_entry",
+      "section_id": "16.3.2",
+      "title": "递交的其他 CRF",
+      "validation": {
+        "checks": {
+          "entry_preserved": true,
+          "five_columns_present": true,
+          "status_entry_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "16.3.2",
+        "status": "pass"
+      }
+    },
+    {
+      "content": {
+        "rows": [
+          {
+            "appendix_id": "16.4",
+            "category": "not_applicable",
+            "category_title": "4. 不适用附件",
+            "e3_submit_metadata": "US only",
+            "file_name": "个例患者数据列表（US 存档列表）",
+            "qa_basis": "",
+            "reason_or_on_request": "本次提交地区为 CDE；16.4 仅为 US 存档列表。",
+            "submission_location": "不适用",
+            "submitted": "否"
+          }
+        ]
+      },
+      "content_kind": "appendix_status_entry",
+      "production_method": "deterministic_generation",
+      "production_profile": "appendix_entry",
+      "section_id": "16.4",
+      "title": "个例患者数据列表（US 存档列表）",
+      "validation": {
+        "checks": {
+          "entry_preserved": true,
+          "five_columns_present": true,
+          "status_entry_present": true
+        },
+        "failed_checks": [],
+        "model_called": false,
+        "section_id": "16.4",
+        "status": "pass"
+      }
+    }
+  ],
+  "context_sha256": "379944d68e5786261737da1ee4cfa13203ab3cf80306c053bc9a47a229e00fd5",
+  "minimal_validations": [
+    {
+      "checks": {
+        "all_required_slots_present": true,
+        "annex_ii_control_routed_to_16_1_5": true,
+        "six_title_page_controls_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "1",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "all_text_copied_verbatim": true,
+        "selection_nonempty": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "2",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "source_validated": true,
+        "word_field_instruction_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "3.1",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "source_validated": true,
+        "word_field_instruction_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "3.2",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "source_validated": true,
+        "word_field_instruction_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "3.3",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "source_validated": true,
+        "word_field_instruction_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "3.4",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "source_validated": true,
+        "word_field_instruction_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "3.5",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "source_validated": true,
+        "word_field_instruction_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "3.6",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "all_slots_present": true,
+        "fixed_template_used": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "5.1",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "all_slots_present": true,
+        "fixed_template_used": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "5.2",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "all_slots_present": true,
+        "fixed_template_used": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "5.3",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "confirmed_target_present": true,
+        "target_retained_in_appendix_status_plan": true,
+        "word_ref_not_literal_reference": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "11.4.3",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "confirmed_target_present": true,
+        "target_retained_in_appendix_status_plan": true,
+        "word_ref_not_literal_reference": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "11.4.6",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "confirmed_target_present": true,
+        "target_retained_in_appendix_status_plan": true,
+        "word_ref_not_literal_reference": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "12.2.2",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "confirmed_target_present": true,
+        "target_retained_in_appendix_status_plan": true,
+        "word_ref_not_literal_reference": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "12.2.4",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "confirmed_target_present": true,
+        "target_retained_in_publication_reference_map": true,
+        "word_ref_not_literal_reference": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "12.3.1.1",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "confirmed_target_present": true,
+        "target_retained_in_publication_reference_map": true,
+        "word_ref_not_literal_reference": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "12.3.1.2",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "confirmed_target_present": true,
+        "target_retained_in_publication_reference_map": true,
+        "word_ref_not_literal_reference": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "12.3.1.3",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "confirmed_target_present": true,
+        "target_retained_in_appendix_status_plan": true,
+        "word_ref_not_literal_reference": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "12.4.1",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "bookmark_per_entity": true,
+        "entity_count_positive": true,
+        "frozen_publication_result_three_way_match": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "14.1.1",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "bookmark_per_entity": true,
+        "entity_count_positive": true,
+        "frozen_publication_result_three_way_match": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "14.1.2",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "bookmark_per_entity": true,
+        "entity_count_positive": true,
+        "frozen_publication_result_three_way_match": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "14.1.3",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "bookmark_per_entity": true,
+        "entity_count_positive": true,
+        "frozen_publication_result_three_way_match": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "14.2",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "bookmark_per_entity": true,
+        "entity_count_positive": true,
+        "frozen_publication_result_three_way_match": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "14.3.1",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "bookmark_per_entity": true,
+        "entity_count_positive": true,
+        "frozen_publication_result_three_way_match": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "14.3.2",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "bookmark_per_entity": true,
+        "entity_count_positive": true,
+        "frozen_publication_result_three_way_match": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "14.3.3",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "bookmark_per_entity": true,
+        "entity_count_positive": true,
+        "frozen_publication_result_three_way_match": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "14.3.4",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "all_sources_registered": true,
+        "cited_sources_only": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "15",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "all_24_rows_present": true,
+        "five_columns_present": true,
+        "status_entry_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "16.0",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "entry_preserved": true,
+        "five_columns_present": true,
+        "status_entry_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "16.1.1",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "entry_preserved": true,
+        "five_columns_present": true,
+        "status_entry_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "16.1.2",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "entry_preserved": true,
+        "five_columns_present": true,
+        "status_entry_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "16.1.3",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "entry_preserved": true,
+        "five_columns_present": true,
+        "status_entry_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "16.1.4",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "entry_preserved": true,
+        "five_columns_present": true,
+        "status_entry_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "16.1.5",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "entry_preserved": true,
+        "five_columns_present": true,
+        "status_entry_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "16.1.6",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "entry_preserved": true,
+        "five_columns_present": true,
+        "status_entry_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "16.1.7",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "entry_preserved": true,
+        "five_columns_present": true,
+        "status_entry_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "16.1.8",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "entry_preserved": true,
+        "five_columns_present": true,
+        "status_entry_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "16.1.9",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "entry_preserved": true,
+        "five_columns_present": true,
+        "status_entry_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "16.1.10",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "entry_preserved": true,
+        "five_columns_present": true,
+        "status_entry_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "16.1.11",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "entry_preserved": true,
+        "five_columns_present": true,
+        "status_entry_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "16.1.12",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "entry_preserved": true,
+        "five_columns_present": true,
+        "status_entry_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "16.2.1",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "entry_preserved": true,
+        "five_columns_present": true,
+        "status_entry_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "16.2.2",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "entry_preserved": true,
+        "five_columns_present": true,
+        "status_entry_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "16.2.3",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "entry_preserved": true,
+        "five_columns_present": true,
+        "status_entry_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "16.2.4",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "entry_preserved": true,
+        "five_columns_present": true,
+        "status_entry_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "16.2.5",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "entry_preserved": true,
+        "five_columns_present": true,
+        "status_entry_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "16.2.6",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "entry_preserved": true,
+        "five_columns_present": true,
+        "status_entry_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "16.2.7",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "entry_preserved": true,
+        "five_columns_present": true,
+        "status_entry_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "16.2.8",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "entry_preserved": true,
+        "five_columns_present": true,
+        "status_entry_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "16.3.1",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "entry_preserved": true,
+        "five_columns_present": true,
+        "status_entry_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "16.3.2",
+      "status": "pass"
+    },
+    {
+      "checks": {
+        "entry_preserved": true,
+        "five_columns_present": true,
+        "status_entry_present": true
+      },
+      "failed_checks": [],
+      "model_called": false,
+      "section_id": "16.4",
+      "status": "pass"
+    }
+  ],
+  "model_called": false,
+  "producer_counts": {
+    "deterministic_generation": 48,
+    "template_slot": 4
+  },
+  "production_registry_sha256": "991507aae39b03b6c21156e7a900770d6e16707591cec2f05bd520db30f3c79d",
+  "publication_entity_count": 10,
+  "schema_version": "1.0",
+  "status": "pass",
+  "support_report_entries": [
+    {
+      "report_id": "NONE-CONFIRMED",
+      "status": "合成确认",
+      "submission_location": "不适用",
+      "title": "合成夹具未登记单独递交的支持性报告"
+    }
+  ],
+  "unit_count": 52
+}

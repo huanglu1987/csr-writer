@@ -1,0 +1,47 @@
+{
+  "external_model_api_called": false,
+  "field_checks": [
+    {
+      "fact_id": "V01",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V02",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V03",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V04",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V05",
+      "match_mode": "exact_string",
+      "status": "pass"
+    }
+  ],
+  "field_count": 5,
+  "field_coverage_percent": 100.0,
+  "field_reference_count": 5,
+  "narration": "verbatim_list",
+  "production_method": "extraction",
+  "schema_version": "1.0",
+  "section_id": "9.3.1",
+  "source_manifest": [
+    {
+      "content_sha256": "20006995a7308a28376a811ba6f96b57ea27b739dd95adf629c0f733183d09b9",
+      "file_role": "protocol",
+      "locator": "方案 §9.3.1 入选标准",
+      "source_id": "src_9_3_1_1",
+      "version": "synthetic-reviewed-v1"
+    }
+  ],
+  "status": "pass"
+}

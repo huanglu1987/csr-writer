@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "sections": [
+    {
+      "draft": "writing_trial/project/sections/11.5.4.md",
+      "guard": "writing_trial/11_5_4/resolve_guard.json",
+      "metadata": "writing_trial/project/sections/11.5.4.meta.json",
+      "resolved": "writing_trial/11_5_4/resolved.md"
+    },
+    {
+      "draft": "writing_trial/project/sections/11.6.1.4.md",
+      "guard": "writing_trial/11_6_1_4/resolve_guard.json",
+      "metadata": "writing_trial/project/sections/11.6.1.4.meta.json",
+      "resolved": "writing_trial/11_6_1_4/resolved.md"
+    },
+    {
+      "draft": "writing_trial/project/sections/12.2.3.md",
+      "guard": "writing_trial/12_2_3/resolve_guard.json",
+      "metadata": "writing_trial/project/sections/12.2.3.meta.json",
+      "resolved": "writing_trial/12_2_3/resolved.md"
+    },
+    {
+      "draft": "writing_trial/project/sections/12.2.9.md",
+      "guard": "writing_trial/12_2_9/resolve_guard.json",
+      "metadata": "writing_trial/project/sections/12.2.9.meta.json",
+      "resolved": "writing_trial/12_2_9/resolved.md"
+    }
+  ]
+}

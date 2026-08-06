@@ -1,0 +1,109 @@
+{
+  "authorized_surface_forms": [],
+  "card_id": "M16-METHOD-9-2",
+  "controlled_entities": [
+    "SAP",
+    "FAS"
+  ],
+  "facts": [
+    {
+      "entity_type": "对照类型",
+      "fact_id": "V01",
+      "fixed_gap_sentence": null,
+      "label": "对照类型",
+      "missing_behavior": "hard_fail",
+      "required": true,
+      "required_terms": [],
+      "source_id": "src_9_2_1",
+      "source_kind": "protocol",
+      "source_locator": "方案 §9.2 研究设计及对照选择依据",
+      "value": "安慰剂对照",
+      "value_kind": "verbatim_text",
+      "verbatim_required": true,
+      "zone": "method"
+    },
+    {
+      "entity_type": "设计选择的限定条件",
+      "fact_id": "V02",
+      "fixed_gap_sentence": null,
+      "label": "设计选择的限定条件",
+      "missing_behavior": "hard_fail",
+      "required": true,
+      "required_terms": [],
+      "source_id": "src_9_2_1",
+      "source_kind": "protocol",
+      "source_locator": "方案 §9.2 研究设计及对照选择依据",
+      "value": "研究对象为目标适应证成人受试者",
+      "value_kind": "verbatim_text",
+      "verbatim_required": true,
+      "zone": "method"
+    },
+    {
+      "entity_type": "设计理由",
+      "fact_id": "S01",
+      "fixed_gap_sentence": null,
+      "label": "设计理由",
+      "missing_behavior": "hard_fail",
+      "required": true,
+      "required_terms": [
+        "随机",
+        "平行组"
+      ],
+      "source_id": "src_9_2_1",
+      "source_kind": "protocol",
+      "source_locator": "方案 §9.2 研究设计及对照选择依据",
+      "value": "随机平行组设计用于比较各治疗组的观察结果。",
+      "value_kind": "text",
+      "verbatim_required": false,
+      "zone": "method"
+    },
+    {
+      "entity_type": "对照选择理由",
+      "fact_id": "S02",
+      "fixed_gap_sentence": null,
+      "label": "对照选择理由",
+      "missing_behavior": "hard_fail",
+      "required": true,
+      "required_terms": [
+        "安慰剂",
+        "自然波动"
+      ],
+      "source_id": "src_9_2_1",
+      "source_kind": "protocol",
+      "source_locator": "方案 §9.2 研究设计及对照选择依据",
+      "value": "安慰剂对照用于区分治疗变化与疾病自然波动。",
+      "value_kind": "text",
+      "verbatim_required": false,
+      "zone": "method"
+    }
+  ],
+  "narration": "constrained_llm",
+  "policy": {
+    "controlled_causality_terms": [
+      "明确相关",
+      "很可能有关",
+      "可能有关",
+      "不太可能有关",
+      "无关",
+      "未评价",
+      "无法评价"
+    ],
+    "database_numeric_policy": "placeholders_only",
+    "medical_review_marker_required": false,
+    "missing_required_fact": "hard_fail",
+    "outside_fact_content": "hard_fail"
+  },
+  "production_method": "extraction",
+  "schema_version": "1.1",
+  "section_id": "9.2",
+  "source_manifest": [
+    {
+      "content_sha256": "c720d5be11ad853d2b5f395cf37fc6ea71b5c05f4fd505209a7b12e37e754b06",
+      "file_role": "protocol",
+      "locator": "方案 §9.2 研究设计及对照选择依据",
+      "source_id": "src_9_2_1",
+      "version": "synthetic-reviewed-v1"
+    }
+  ],
+  "title": "9.2 研究设计的讨论，包括对照组的选择"
+}

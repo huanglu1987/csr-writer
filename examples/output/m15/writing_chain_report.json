@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "sections": [
+    {
+      "all_bound_values_observed_result": true,
+      "bound_keys": [
+        "T14.2.4.3.1|POP=PKS|ROW=CMAX_UNIT/GM|COL=C0_5PCT_BID|STAGE=D1",
+        "T14.2.4.3.1|POP=PKS|ROW=AUC0_UNIT/GM|COL=C0_5PCT_BID|STAGE=D1"
+      ],
+      "guard_stages": {
+        "A_key_existence": "pass",
+        "B_residual": "pass",
+        "C_bare_numbers": "pass"
+      },
+      "ingest_status": "pass",
+      "manual_polishing_after_guard": false,
+      "playbook": "s11-topical-pk.md",
+      "resolve_status": "pass",
+      "retry_count": 0,
+      "section_id": "11.5.4"
+    },
+    {
+      "all_bound_values_observed_result": true,
+      "bound_keys": [
+        "T14.2.2.1.1|POP=FAS|ROW=BASELINE/OBSERVED_VALUE/MEAN_SD|COL=PBO"
+      ],
+      "guard_stages": {
+        "A_key_existence": "pass",
+        "B_residual": "pass",
+        "C_bare_numbers": "pass"
+      },
+      "ingest_status": "pass",
+      "manual_polishing_after_guard": false,
+      "playbook": "s11-6-1-4-exploratory-endpoints.md",
+      "resolve_status": "pass",
+      "retry_count": 0,
+      "section_id": "11.6.1.4"
+    },
+    {
+      "all_bound_values_observed_result": true,
+      "bound_keys": [
+        "T14.3.1.3.1|POP=SS|ROW=SOC_全身性疾病及给药部位各种反应/PT_用药部位红斑|COL=ACTIVE_TOTAL_N_PCT"
+      ],
+      "guard_stages": {
+        "A_key_existence": "pass",
+        "B_residual": "pass",
+        "C_bare_numbers": "pass"
+      },
+      "ingest_status": "pass",
+      "manual_polishing_after_guard": false,
+      "playbook": "s12-2-3-ae-analysis.md",
+      "resolve_status": "pass",
+      "retry_count": 0,
+      "section_id": "12.2.3"
+    },
+    {
+      "all_bound_values_observed_result": true,
+      "bound_keys": [
+        "T14.3.1.3.3|POP=SS|ROW=SOC_皮肤及皮下组织类疾病/PT_用药部位红斑|COL=ACTIVE_TOTAL_N_PCT"
+      ],
+      "guard_stages": {
+        "A_key_existence": "pass",
+        "B_residual": "pass",
+        "C_bare_numbers": "pass"
+      },
+      "ingest_status": "pass",
+      "manual_polishing_after_guard": false,
+      "playbook": "s12-2-9-application-site-adverse-reactions.md",
+      "resolve_status": "pass",
+      "retry_count": 0,
+      "section_id": "12.2.9"
+    }
+  ],
+  "status": "pass"
+}

@@ -1,0 +1,67 @@
+{
+  "evidence_status": "demo_only",
+  "schema_version": "1.1",
+  "section_id": "12.2",
+  "source_fragments": [
+    {
+      "locator": "脱敏方案/安全性定义",
+      "purpose": "safety_definition",
+      "source_id": "SRC-AE-DEFINITION",
+      "text": "治疗期间不良事件按预设观察期、严重程度、严重性和记录类别汇总。"
+    },
+    {
+      "locator": "脱敏统计分析计划/安全性分析集",
+      "purpose": "analysis_set",
+      "source_id": "SRC-AE-SET",
+      "text": "安全性分析采用经审核的安全性分析集，受试者和事件计数口径分开。"
+    },
+    {
+      "locator": "脱敏数据规范/事件编码",
+      "purpose": "safety_definition",
+      "source_id": "SRC-AE-CODING",
+      "text": "事件按经审核的编码字典版本汇总，正文只提炼关键结果，完整分布保留在支持表。"
+    }
+  ],
+  "tfl_bindings": [
+    {
+      "context": "脱敏合成结果；仅用于 M12 行文质量和守卫验收",
+      "key": "T14.3.1.2|POP=SS|ROW=ANY_TEAE|COL=ACTIVE_TOTAL",
+      "role": "teae_result",
+      "source_id": "T14.3.1.2"
+    },
+    {
+      "context": "脱敏合成结果；仅用于 M12 行文质量和守卫验收",
+      "key": "T14.3.1.2|POP=SS|ROW=ANY_TRAE|COL=ACTIVE_TOTAL",
+      "role": "trae_result",
+      "source_id": "T14.3.1.2"
+    },
+    {
+      "context": "脱敏合成结果；仅用于 M12 行文质量和守卫验收",
+      "key": "T14.3.1.2|POP=SS|ROW=ANY_SAE|COL=ACTIVE_TOTAL",
+      "role": "sae_count",
+      "source_id": "T14.3.1.2"
+    },
+    {
+      "context": "脱敏合成结果；仅用于 M12 行文质量和守卫验收",
+      "key": "T14.3.1.2|POP=SS|ROW=DEATH|COL=ACTIVE_TOTAL",
+      "role": "death_count",
+      "source_id": "T14.3.1.2"
+    },
+    {
+      "context": "脱敏合成结果；仅用于 M12 行文质量和守卫验收",
+      "key": "T14.3.1.2|POP=SS|ROW=AE_DISCONTINUATION|COL=ACTIVE_TOTAL",
+      "role": "discontinuation_count",
+      "source_id": "T14.3.1.2"
+    },
+    {
+      "context": "脱敏合成结果；仅用于 M12 行文质量和守卫验收",
+      "key": "T14.3.1.2|POP=SS|ROW=GRADE_3_PLUS|COL=ACTIVE_TOTAL",
+      "role": "grade3plus_count",
+      "source_id": "T14.3.1.2"
+    }
+  ],
+  "tfl_references": [
+    "T14.3.1.2"
+  ],
+  "variant": "adverse_events_conditioned"
+}

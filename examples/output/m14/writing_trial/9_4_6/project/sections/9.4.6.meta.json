@@ -1,0 +1,128 @@
+{
+  "agent_interface": {
+    "agent_draft_sha256": "7b7c063449e2b3cf03031292da619ce19d83efc0e545c2895dda32ce17b1e390",
+    "envelope_sha256": "67e00876ff272ab972960ef4ab74ea86485b70346681f329143a565e41745e2a",
+    "external_model_api_called": false,
+    "interface": "csr-writer-agent-section-v1",
+    "prior_guard_report_sha256s": []
+  },
+  "binding_manifest": [],
+  "draft_sha256": "7b1d9726c3b2eb16099f94c06a040cf555d612cf31f84f2dd3d862c531626f8c",
+  "evidence_status": "demo_only",
+  "generation_attempts": 1,
+  "guard_retry_count": 0,
+  "input_sha256": "1786d587447962d566b06638f17a90fdd82aacaac583df2f134c84529a09a7c8",
+  "paragraphs": [
+    {
+      "conditional_conclusions": [],
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_9_4_6_001",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "SRC-BLIND-DESIGN"
+      ]
+    },
+    {
+      "conditional_conclusions": [],
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_9_4_6_002",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "SRC-BLIND-MAINTENANCE"
+      ]
+    },
+    {
+      "conditional_conclusions": [],
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_9_4_6_003",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "SRC-UNBLIND-PROCEDURE"
+      ]
+    },
+    {
+      "conditional_conclusions": [],
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_9_4_6_004",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "SRC-UNBLIND-RECORD"
+      ]
+    }
+  ],
+  "playbook": {
+    "filename": "s9-randomization-blinding-controls.md",
+    "sha256": "7fe139dddaef4869ddc5898b8aa831671749ee0f24bb5b4d98cccba27773eb80"
+  },
+  "prompt_audit": [],
+  "reference_manifest": [],
+  "schema_version": "1.1",
+  "section": "9.4.6",
+  "semantic_findings": [],
+  "source_manifest": [
+    {
+      "content_sha256": "8cf18f450d0e4893c1d4baa283f73aca39a967d87f3a13e36e8aeaf8adae1028",
+      "locator": "脱敏方案/盲法设计",
+      "purpose": "blinding_method",
+      "source_id": "SRC-BLIND-DESIGN"
+    },
+    {
+      "content_sha256": "270c5b015782d3f75376878633ddc7805ee4b72c4e3f7aca2dc846d56e1d6784",
+      "locator": "脱敏方案/盲法维持",
+      "purpose": "blinding_method",
+      "source_id": "SRC-BLIND-MAINTENANCE"
+    },
+    {
+      "content_sha256": "154e11c48ef9afd9ca59bc512ca5a1fd1cbad5416d64e6344f5f6154b821220b",
+      "locator": "脱敏方案/应急揭盲",
+      "purpose": "unblinding_record",
+      "source_id": "SRC-UNBLIND-PROCEDURE"
+    },
+    {
+      "content_sha256": "0df7aef3b734dec199dfd033720c76870f5157e0cb083e8957897122b695b294",
+      "locator": "脱敏盲态维护记录",
+      "purpose": "unblinding_record",
+      "source_id": "SRC-UNBLIND-RECORD"
+    }
+  ],
+  "style_qc": {
+    "blocked": false,
+    "findings": [],
+    "metrics": {
+      "abstract_noun_count": 0,
+      "average_sentence_length": 20.5,
+      "field_enumeration_paragraph_count": 0,
+      "maximum_sentence_length": 29,
+      "overlong_sentence_count": 0,
+      "prespecified_qualifier_count": 0,
+      "reviewed_qualifier_count": 0,
+      "semicolon_count": 0,
+      "sentence_count": 8,
+      "summary_copula_count": 0
+    },
+    "policy": {
+      "banned_expression_is_blocking": true,
+      "literal_zero_event_claim_requires_conditioned_data": true,
+      "qualifier_per_section": 1,
+      "semicolon_per_paragraph": 1,
+      "sentence_length_warning_threshold": 60
+    },
+    "schema_version": "1.0",
+    "status": "pass"
+  },
+  "system_prompt_sha256": "0f8201e0a496a147c422a6569abe89302cf168b98ea3502a541c001335bb85ba",
+  "variant": "blinding",
+  "writer": "AgentEnvelopeIngest"
+}

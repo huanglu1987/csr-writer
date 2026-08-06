@@ -1,0 +1,29 @@
+{
+  "paragraphs": [
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "sources": [
+        "SRC-M21-IB-ENDPOINT",
+        "SRC-M21-IB-SAP"
+      ],
+      "text": "本项皮肤科量表终点采用全分析集，并以基线值为协变量进行探索性分析。"
+    },
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "sources": [
+        "T14.2.2.1.1"
+      ],
+      "text": "试验制剂组相较安慰剂组的最小二乘均值差为 {{T14.2.2.1.1|POP=FAS|ROW=LS_MEAN_DIFFERENCE|COL=C1_0PCT_QD}}，详见{{@ref:T14.2.2.1.1}}。"
+    },
+    {
+      "confidence": "inferred",
+      "needs_human": true,
+      "sources": [
+        "SRC-M21-IB-ENDPOINT"
+      ],
+      "text": "本项结果为探索性分析，不用于确证性结论。[待医学负责人确认]"
+    }
+  ]
+}

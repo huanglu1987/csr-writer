@@ -1,0 +1,42 @@
+{
+  "real_clinical_files_accessed": false,
+  "records": [
+    {
+      "after_sha256": "87ea56d599120e265c1649881a9d3ad1c08db540a91be13de6a2bd31a6bc0942",
+      "before_sha256": "87ea56d599120e265c1649881a9d3ad1c08db540a91be13de6a2bd31a6bc0942",
+      "expected_sha256": "87ea56d599120e265c1649881a9d3ad1c08db540a91be13de6a2bd31a6bc0942",
+      "path": "ICH-E3章节树.yaml",
+      "status": "pass"
+    },
+    {
+      "after_sha256": "6053ea6fffa79f98d1c92840a812cd2cf12b4a329fb9420d1efcca5c6fb06bdb",
+      "before_sha256": "6053ea6fffa79f98d1c92840a812cd2cf12b4a329fb9420d1efcca5c6fb06bdb",
+      "expected_sha256": "6053ea6fffa79f98d1c92840a812cd2cf12b4a329fb9420d1efcca5c6fb06bdb",
+      "path": "CSR撰写Skill开发规格书.md",
+      "status": "pass"
+    },
+    {
+      "after_sha256": "21374f376270f1c7d8352e7e3808e7d9385aa5e8d51cd46d12c9f178d682192b",
+      "before_sha256": "21374f376270f1c7d8352e7e3808e7d9385aa5e8d51cd46d12c9f178d682192b",
+      "expected_sha256": "21374f376270f1c7d8352e7e3808e7d9385aa5e8d51cd46d12c9f178d682192b",
+      "path": "CDE申报要求核查表.md",
+      "status": "pass"
+    },
+    {
+      "after_sha256": "12581d0e5fefee3bf0b8c7d4e7e95147a5add099f394a73a89bf3031e4383e0c",
+      "before_sha256": "12581d0e5fefee3bf0b8c7d4e7e95147a5add099f394a73a89bf3031e4383e0c",
+      "expected_sha256": "12581d0e5fefee3bf0b8c7d4e7e95147a5add099f394a73a89bf3031e4383e0c",
+      "path": "外部方案评估.md",
+      "status": "pass"
+    },
+    {
+      "after_sha256": "76338581eb2295e0ed6552a348da369a1f72aaa61a62421fba4fd22174a56c4a",
+      "before_sha256": "76338581eb2295e0ed6552a348da369a1f72aaa61a62421fba4fd22174a56c4a",
+      "expected_sha256": "76338581eb2295e0ed6552a348da369a1f72aaa61a62421fba4fd22174a56c4a",
+      "path": "csr-writer/examples/fixtures/synthetic_result_tfl.deidentified.docx",
+      "status": "pass"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "pass"
+}

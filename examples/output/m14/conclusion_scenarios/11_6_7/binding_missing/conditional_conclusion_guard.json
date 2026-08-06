@@ -1,0 +1,108 @@
+{
+  "datapack_sha256": "c60cca6754cd3faa7a1a2d0f4a82b7e48c6afdd6a179eba9ad0012f95931b346",
+  "draft_sha256": "69422d5cbf5130326ec80f75ddc7fd3f4ec0d401148db8f9400d62efcb352a68",
+  "resolved_sha256": "88aa7fd55c84746a8dbe0ee199646cc244658d1430fb063a923a50d73d4099bd",
+  "rules": [
+    {
+      "all_roles_rendered": true,
+      "branch": "critical_binding_missing",
+      "confirmed_body_only": false,
+      "critical_roles": [
+        {
+          "cell_present": true,
+          "key": "T14.2.2.1.1|POP=FAS|ROW=PRIMARY_ENDPOINT|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "primary_endpoint_result",
+          "value_sha256": "c5a56b68b35bfa2482cbb21649e32960af121ea00c3477c18da6b299f906c081"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.2.2.1.1|POP=FAS|ROW=ANALYSIS_SET|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "analysis_set",
+          "value_sha256": "aafb4482e5974c58463e1f9637958e17f514f566c808e415b1e776a75c0ecd5d"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.2.2.1.1|POP=FAS|ROW=PRESPECIFIED|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "prespecified",
+          "value_sha256": "f1de1e2621deb2e14e32a992e8e0cd6d5e88b2f2352d52c4daf06826a274b5e0"
+        },
+        {
+          "cell_present": false,
+          "key": null,
+          "machine_readable": false,
+          "role": "hypothesis_test",
+          "value_sha256": null
+        }
+      ],
+      "derived_zero_event_roles": [],
+      "medical_review_marker_required": true,
+      "missing_roles": [
+        "hypothesis_test"
+      ],
+      "numeric_values_not_logged": true,
+      "render_mode": "sentence_driven",
+      "role_renderings": [
+        {
+          "key": "T14.2.2.1.1|POP=FAS|ROW=PRIMARY_ENDPOINT|COL=ACTIVE_TOTAL",
+          "rendering_mode": "value_placeholder",
+          "role": "primary_endpoint_result"
+        },
+        {
+          "key": "T14.2.2.1.1|POP=FAS|ROW=ANALYSIS_SET|COL=ACTIVE_TOTAL",
+          "rendering_mode": "value_placeholder",
+          "role": "analysis_set"
+        },
+        {
+          "key": "T14.2.2.1.1|POP=FAS|ROW=PRESPECIFIED|COL=ACTIVE_TOTAL",
+          "rendering_mode": "conditioned_phrase",
+          "role": "prespecified"
+        },
+        {
+          "key": "",
+          "rendering_mode": "missing_no_value_rendered",
+          "role": "hypothesis_test"
+        }
+      ],
+      "rule_id": "EXPLORATORY_EFFICACY_CONCLUSION_V1"
+    }
+  ],
+  "schema_version": "1.1",
+  "status": "pass_with_warning",
+  "style_qc": {
+    "blocked": false,
+    "findings": [],
+    "metrics": {
+      "abstract_noun_count": 2,
+      "average_sentence_length": 20.0,
+      "field_enumeration_paragraph_count": 0,
+      "maximum_sentence_length": 40,
+      "overlong_sentence_count": 0,
+      "prespecified_qualifier_count": 0,
+      "reviewed_qualifier_count": 0,
+      "semicolon_count": 1,
+      "sentence_count": 5,
+      "summary_copula_count": 0
+    },
+    "policy": {
+      "banned_expression_is_blocking": true,
+      "literal_zero_event_claim_requires_conditioned_data": true,
+      "qualifier_per_section": 1,
+      "semicolon_per_paragraph": 1,
+      "sentence_length_warning_threshold": 60
+    },
+    "schema_version": "1.0",
+    "status": "pass"
+  },
+  "warnings": [
+    {
+      "code": "W-EXPLORATORY-EFFICACY-CONCLUSION-BINDING-MISSING",
+      "message": "Exploratory efficacy conclusion lacks a critical design or result binding",
+      "missing_roles": [
+        "hypothesis_test"
+      ]
+    }
+  ]
+}

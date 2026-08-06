@@ -1,0 +1,120 @@
+{
+  "branch_drift_count": 0,
+  "conditioned_scenarios": 9,
+  "external_model_api_called": false,
+  "group_swap_blocked": true,
+  "internal_language_cases": {
+    "allowed": 6,
+    "blocked": 7
+  },
+  "m13_metrics": {
+    "abstract_noun_count": 12,
+    "average_sentence_length": 29.2,
+    "field_enumeration_paragraph_count": 7,
+    "maximum_sentence_length": 72,
+    "overlong_sentence_count": 4,
+    "prespecified_qualifier_count": 4,
+    "reviewed_qualifier_count": 8,
+    "semicolon_count": 28,
+    "sentence_count": 55,
+    "summary_copula_count": 15
+  },
+  "m14_body_metrics": {
+    "abstract_noun_count": 2,
+    "average_sentence_length": 24.7,
+    "field_enumeration_paragraph_count": 1,
+    "maximum_sentence_length": 55,
+    "overlong_sentence_count": 0,
+    "prespecified_qualifier_count": 0,
+    "reviewed_qualifier_count": 0,
+    "semicolon_count": 0,
+    "sentence_count": 50,
+    "summary_copula_count": 0
+  },
+  "m14_metrics": {
+    "abstract_noun_count": 3,
+    "average_sentence_length": 24.7,
+    "field_enumeration_paragraph_count": 1,
+    "maximum_sentence_length": 55,
+    "overlong_sentence_count": 0,
+    "prespecified_qualifier_count": 0,
+    "reviewed_qualifier_count": 0,
+    "semicolon_count": 7,
+    "sentence_count": 50,
+    "summary_copula_count": 0
+  },
+  "manual_polishing_after_guard": false,
+  "new_playbooks": 0,
+  "numeric_guard_status": "pass",
+  "numeric_quantity_regression": {
+    "blocked_cases_expected": 11,
+    "blocked_cases_passed": 11,
+    "case_results": [
+      {
+        "blocked": true,
+        "case": "ascii_percentage"
+      },
+      {
+        "blocked": true,
+        "case": "written_percentage"
+      },
+      {
+        "blocked": true,
+        "case": "chinese_count"
+      },
+      {
+        "blocked": true,
+        "case": "percentage_points"
+      },
+      {
+        "blocked": true,
+        "case": "tenths"
+      },
+      {
+        "blocked": true,
+        "case": "tenths_decimal"
+      },
+      {
+        "blocked": true,
+        "case": "fraction"
+      },
+      {
+        "blocked": true,
+        "case": "multiple"
+      },
+      {
+        "blocked": true,
+        "case": "financial_count"
+      },
+      {
+        "blocked": true,
+        "case": "fuzzy_half"
+      },
+      {
+        "blocked": true,
+        "case": "combined_original"
+      }
+    ],
+    "schedule_whitelist_status": "pass"
+  },
+  "ooxml_status": "pass",
+  "playbooks_updated": 19,
+  "privacy_scan": "pass",
+  "schema_version": "1.0",
+  "source_hash_audit": "pass",
+  "status": "pass",
+  "zero_event_cross_check": {
+    "literal_ingest_blocked": true,
+    "literal_style_blocked": true,
+    "nonzero_branch": "important_events_present",
+    "nonzero_sae_not_described_as_absent": true,
+    "zero_branch": "no_critical_events",
+    "zero_sentence_generated": true,
+    "zero_source_roles": [
+      "sae_count",
+      "death_count",
+      "discontinuation_count",
+      "grade3plus_count"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "false_positive_count": 1,
+  "finding_count": 5,
+  "layer_value": "发现 4 条确定性规则层没有表达的语义/申报惯例问题；误报仅增加人工扫读成本，不改变发布状态。",
+  "records": [
+    {
+      "adjudication": "true_issue",
+      "basis": "数值可追溯但缺少组别、阶段和单位，规则层未评估语义完整性。",
+      "finding_index": 1
+    },
+    {
+      "adjudication": "true_issue",
+      "basis": "限定句未指出具体缺口，属于逻辑清晰度问题。",
+      "finding_index": 2
+    },
+    {
+      "adjudication": "true_issue",
+      "basis": "2 (4.2) 的显示语义不自明，需明确百分比和分母。",
+      "finding_index": 3
+    },
+    {
+      "adjudication": "true_issue",
+      "basis": "与上一条相同，局部耐受性子集仍需明确发生率语境。",
+      "finding_index": 4
+    },
+    {
+      "adjudication": "false_positive",
+      "basis": "完整 CSR 已在 §10.3 定义分析集，结果节无需逐次重复定义；样例截取导致误报。",
+      "finding_index": 5
+    }
+  ],
+  "rule_layer_missed_true_issue_count": 4,
+  "schema_version": "1.0",
+  "status": "complete",
+  "true_issue_count": 4
+}

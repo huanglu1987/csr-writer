@@ -1,0 +1,72 @@
+{
+  "real_clinical_files_accessed": false,
+  "real_clinical_files_copied_or_logged": false,
+  "records": [
+    {
+      "expected_sha256": "6053ea6fffa79f98d1c92840a812cd2cf12b4a329fb9420d1efcca5c6fb06bdb",
+      "observed_sha256": "6053ea6fffa79f98d1c92840a812cd2cf12b4a329fb9420d1efcca5c6fb06bdb",
+      "path": "CSR撰写Skill开发规格书.md",
+      "role": "development_specification_v1_4",
+      "unchanged": true
+    },
+    {
+      "expected_sha256": "87ea56d599120e265c1649881a9d3ad1c08db540a91be13de6a2bd31a6bc0942",
+      "observed_sha256": "87ea56d599120e265c1649881a9d3ad1c08db540a91be13de6a2bd31a6bc0942",
+      "path": "ICH-E3章节树.yaml",
+      "role": "verified_ich_e3_chapter_tree",
+      "unchanged": true
+    },
+    {
+      "expected_sha256": "21374f376270f1c7d8352e7e3808e7d9385aa5e8d51cd46d12c9f178d682192b",
+      "observed_sha256": "21374f376270f1c7d8352e7e3808e7d9385aa5e8d51cd46d12c9f178d682192b",
+      "path": "CDE申报要求核查表.md",
+      "role": "cde_submission_checklist",
+      "unchanged": true
+    },
+    {
+      "expected_sha256": "12581d0e5fefee3bf0b8c7d4e7e95147a5add099f394a73a89bf3031e4383e0c",
+      "observed_sha256": "12581d0e5fefee3bf0b8c7d4e7e95147a5add099f394a73a89bf3031e4383e0c",
+      "path": "外部方案评估.md",
+      "role": "external_solution_evaluation",
+      "unchanged": true
+    },
+    {
+      "expected_sha256": "76338581eb2295e0ed6552a348da369a1f72aaa61a62421fba4fd22174a56c4a",
+      "observed_sha256": "76338581eb2295e0ed6552a348da369a1f72aaa61a62421fba4fd22174a56c4a",
+      "path": "csr-writer/examples/fixtures/synthetic_result_tfl.deidentified.docx",
+      "role": "synthetic_result_fixture",
+      "unchanged": true
+    },
+    {
+      "expected_sha256": "78488a876ab203aa382f60d468209c70c2efe71896cc59ad6a8a6a36416de7a3",
+      "observed_sha256": "78488a876ab203aa382f60d468209c70c2efe71896cc59ad6a8a6a36416de7a3",
+      "path": "csr-writer/examples/fixtures/m20_unfamiliar/protocol.single_arm_migraine.deidentified.docx",
+      "role": "m20_protocol",
+      "unchanged": true
+    },
+    {
+      "expected_sha256": "e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2",
+      "observed_sha256": "e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2",
+      "path": "csr-writer/examples/fixtures/m20_unfamiliar/tfl_shell.single_arm_migraine.deidentified.docx",
+      "role": "m20_shell",
+      "unchanged": true
+    },
+    {
+      "expected_sha256": "46c6f4c6e3d39b4826b9892d8cf3d1d7968dbcaf7d3bbe43241824e199ede8d5",
+      "observed_sha256": "46c6f4c6e3d39b4826b9892d8cf3d1d7968dbcaf7d3bbe43241824e199ede8d5",
+      "path": "csr-writer/examples/fixtures/m20_unfamiliar/result_tfl.single_arm_migraine.deidentified.docx",
+      "role": "m20_result",
+      "unchanged": true
+    },
+    {
+      "expected_sha256": "763b7feb486d1c6a280657e87e10aed9bca01625facca65c34a0188613334947",
+      "observed_sha256": "763b7feb486d1c6a280657e87e10aed9bca01625facca65c34a0188613334947",
+      "path": "csr-writer/examples/fixtures/m20_unfamiliar/study_facts.single_arm_migraine.deidentified.json",
+      "role": "m20_facts",
+      "unchanged": true
+    }
+  ],
+  "schema_version": "1.0",
+  "stage": "before",
+  "status": "pass"
+}

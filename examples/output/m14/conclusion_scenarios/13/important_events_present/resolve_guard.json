@@ -1,0 +1,151 @@
+{
+  "datapack_sha256": "ef8cdf440956bce183461ed39d45089c86f65ac95ab3b89380be50c5006d06bd",
+  "draft_sha256": "4f09c4b0344536ef2acf4682f01f813484048c85ab780eed73cc0c352ba694d1",
+  "issues": [],
+  "placeholder_count": 4,
+  "placeholder_keys": [
+    "T14.2.2.1.1|POP=FAS|ROW=PRIMARY_ENDPOINT|COL=ACTIVE_TOTAL",
+    "T14.3.1.2|POP=SS|ROW=ANY_TEAE|COL=ACTIVE_TOTAL",
+    "T14.3.1.2|POP=SS|ROW=ANY_SAE|COL=ACTIVE_TOTAL",
+    "T14.3.1.2|POP=SS|ROW=AE_DISCONTINUATION|COL=ACTIVE_TOTAL"
+  ],
+  "protocol_facts_sha256": "83b82984e2e28b1eac6561d01810e608e7526d5c6669a1d139db17c97f63dea8",
+  "reference_count": 3,
+  "reference_entities": [
+    "T14.2.2.1.1",
+    "T14.2.4.3.1",
+    "T14.3.1.2"
+  ],
+  "resolved_sha256": "15d9d3d73fa84b9de2bd5ac0ce06dfcf536726953514493382dab748be764add",
+  "schema_version": "1.0",
+  "stages": {
+    "A_key_existence": {
+      "status": "pass"
+    },
+    "B_residual": {
+      "status": "pass"
+    },
+    "C_bare_numbers": {
+      "status": "pass"
+    }
+  },
+  "status": "pass",
+  "whitelist": [
+    {
+      "pattern": "ICH\\s*E\\d+\\s*\\(?R?\\d*\\)?",
+      "source": "static:standard identifier"
+    },
+    {
+      "pattern": "第\\s*\\d+(?:\\.\\d+)*\\s*[章节]",
+      "source": "static:section reference"
+    },
+    {
+      "pattern": "\\d{4}\\s*年\\s*\\d{1,2}\\s*月\\s*\\d{1,2}\\s*日",
+      "source": "static:calendar date"
+    },
+    {
+      "pattern": "\\d{4}-\\d{2}-\\d{2}",
+      "source": "static:ISO date"
+    },
+    {
+      "pattern": "CTCAE\\s*v?\\d+(?:\\.\\d+)*",
+      "source": "static:coding standard version"
+    },
+    {
+      "pattern": "MedDRA\\s*(?:版本)?\\s*\\d+(?:\\.\\d+)*",
+      "source": "static:coding dictionary version"
+    },
+    {
+      "pattern": "[1-5]\\s*级",
+      "source": "static:AE grade vocabulary"
+    },
+    {
+      "pattern": "[IVX]+\\s*期",
+      "source": "static:study phase label; never used for structural routing"
+    },
+    {
+      "pattern": "95\\s*%\\s*(?:置信区间|CI)",
+      "source": "static:fixed confidence-interval term"
+    },
+    {
+      "pattern": "双侧\\s*0?\\.\\d+",
+      "source": "static:fixed analysis-method term"
+    },
+    {
+      "pattern": "XYZ\\-001\\-101",
+      "source": "fact:protocol_id"
+    },
+    {
+      "pattern": "3\\s*\\+\\s*3",
+      "source": "fact:design.escalation_scheme"
+    },
+    {
+      "pattern": "(?<![\\d.])50(?:\\.0+)?(?![\\d.])\\s*mg(?![A-Za-z/])",
+      "source": "fact:design.dose_levels[0]"
+    },
+    {
+      "pattern": "(?<![\\d.])100(?:\\.0+)?(?![\\d.])\\s*mg(?![A-Za-z/])",
+      "source": "fact:design.dose_levels[1]"
+    },
+    {
+      "pattern": "(?<![\\d.])200(?:\\.0+)?(?![\\d.])\\s*mg(?![A-Za-z/])",
+      "source": "fact:design.dose_levels[2]"
+    },
+    {
+      "pattern": "(?<![\\d.])400(?:\\.0+)?(?![\\d.])\\s*mg(?![A-Za-z/])",
+      "source": "fact:design.dose_levels[3]"
+    },
+    {
+      "pattern": "(?<![\\d.])4(?:\\.0+)?(?![\\d.])\\s*个剂量(?:水平|组)",
+      "source": "derived:length(design.dose_levels)"
+    },
+    {
+      "pattern": "每\\s*(?<![\\d.])21(?:\\.0+)?(?![\\d.])\\s*天\\s*为\\s*(?<![\\d.])1(?:\\.0+)?(?![\\d.])\\s*个周期",
+      "source": "derived:one cycle per design.cycle_days"
+    },
+    {
+      "pattern": "每\\s*(?<![\\d.])21(?:\\.0+)?(?![\\d.])\\s*天",
+      "source": "fact:design.cycle_days"
+    },
+    {
+      "pattern": "(?<![\\d.])21(?:\\.0+)?(?![\\d.])\\s*天",
+      "source": "fact:design.cycle_days"
+    },
+    {
+      "pattern": "第\\s*(?<![\\d.])1(?:\\.0+)?(?![\\d.])\\s*周期",
+      "source": "fact:design.dlt_window.cycle"
+    },
+    {
+      "pattern": "第\\s*(?<![\\d.])1(?:\\.0+)?(?![\\d.])\\s*天",
+      "source": "fact:design.dlt_window.day_from"
+    },
+    {
+      "pattern": "第\\s*(?<![\\d.])21(?:\\.0+)?(?![\\d.])\\s*天",
+      "source": "fact:design.dlt_window.day_to"
+    },
+    {
+      "pattern": "(?<![\\d.])0\\.50*(?![\\d.])(?=\\s*(?:[、,，]|小时))",
+      "source": "fact:data_domains.pk_sampling_timepoints_h[0]"
+    },
+    {
+      "pattern": "(?<![\\d.])1(?:\\.0+)?(?![\\d.])(?=\\s*(?:[、,，]|小时))",
+      "source": "fact:data_domains.pk_sampling_timepoints_h[1]"
+    },
+    {
+      "pattern": "(?<![\\d.])2(?:\\.0+)?(?![\\d.])(?=\\s*(?:[、,，]|小时))",
+      "source": "fact:data_domains.pk_sampling_timepoints_h[2]"
+    },
+    {
+      "pattern": "(?<![\\d.])4(?:\\.0+)?(?![\\d.])(?=\\s*(?:[、,，]|小时))",
+      "source": "fact:data_domains.pk_sampling_timepoints_h[3]"
+    },
+    {
+      "pattern": "(?<![\\d.])8(?:\\.0+)?(?![\\d.])(?=\\s*(?:[、,，]|小时))",
+      "source": "fact:data_domains.pk_sampling_timepoints_h[4]"
+    },
+    {
+      "pattern": "(?<![\\d.])24(?:\\.0+)?(?![\\d.])(?=\\s*(?:[、,，]|小时))",
+      "source": "fact:data_domains.pk_sampling_timepoints_h[5]"
+    }
+  ]
+}

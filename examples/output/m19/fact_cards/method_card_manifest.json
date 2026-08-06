@@ -1,0 +1,54 @@
+{
+  "card_count": 8,
+  "cards": [
+    {
+      "authorized_surface_form_count": 0,
+      "path": "examples/output/m19/fact_cards/method/6.json",
+      "section_id": "6",
+      "sha256": "6a4ffebd82fe32125b72c3b89f2933f098d0b5b70f3ab92176723ae9c67a2fbc"
+    },
+    {
+      "authorized_surface_form_count": 0,
+      "path": "examples/output/m19/fact_cards/method/7.json",
+      "section_id": "7",
+      "sha256": "169ded91d03836af5e25017f3753a585a3e471d2e5672c7f5202971a3a3f41dd"
+    },
+    {
+      "authorized_surface_form_count": 0,
+      "path": "examples/output/m19/fact_cards/method/9.1.json",
+      "section_id": "9.1",
+      "sha256": "969f8a2fc2ff0cd4a3d354d50495e6fa0c0a4a7be352a1feb3848ccee6cbaf8f"
+    },
+    {
+      "authorized_surface_form_count": 0,
+      "path": "examples/output/m19/fact_cards/method/9.2.json",
+      "section_id": "9.2",
+      "sha256": "68dd6c9ab799295ced3d9cd5be0f046ac172b9ba2828ad2d8d78e84ec810987f"
+    },
+    {
+      "authorized_surface_form_count": 0,
+      "path": "examples/output/m19/fact_cards/method/9.4.1.json",
+      "section_id": "9.4.1",
+      "sha256": "6590d3a1689299dde7f6562627cec0241d16f7cd94c44c3e0dc255a2d11e753c"
+    },
+    {
+      "authorized_surface_form_count": 0,
+      "path": "examples/output/m19/fact_cards/method/9.4.3.json",
+      "section_id": "9.4.3",
+      "sha256": "17772be01c227bc6591c4398ba2355179004e8b2d2ade75fab581b867c1708f7"
+    },
+    {
+      "authorized_surface_form_count": 0,
+      "path": "examples/output/m19/fact_cards/method/9.4.6.json",
+      "section_id": "9.4.6",
+      "sha256": "e8aeadc7d6910a6085fa511a14828c64568751fe2c1842f7aab220a2a82b696a"
+    },
+    {
+      "authorized_surface_form_count": 0,
+      "path": "examples/output/m19/fact_cards/method/9.5.3.json",
+      "section_id": "9.5.3",
+      "sha256": "55c8fbcafc76067574112d857af9d0d0487e7ff8005cb7842e7e8ac25a347746"
+    }
+  ],
+  "schema_version": "1.0"
+}

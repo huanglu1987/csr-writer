@@ -1,0 +1,55 @@
+{
+  "links": [
+    {
+      "from": "PROTOCOL1",
+      "relation": "specified_by",
+      "to": "SAP1"
+    },
+    {
+      "from": "SAP1",
+      "relation": "implemented_by",
+      "to": "TFL1"
+    },
+    {
+      "from": "TFL1",
+      "relation": "reported_in",
+      "to": "CSR1"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "PROTOCOL1",
+      "label": "研究目标与评价",
+      "layer": "protocol",
+      "locator": "脱敏方案已确认节"
+    },
+    {
+      "id": "SAP1",
+      "label": "分析规格",
+      "layer": "sap",
+      "locator": "脱敏 SAP/TFL shell"
+    },
+    {
+      "id": "TFL1",
+      "label": "已接受结果表",
+      "layer": "tfl",
+      "locator": "T14.3.2.1"
+    },
+    {
+      "id": "CSR1",
+      "label": "已守卫正文",
+      "layer": "csr",
+      "locator": "§12.3.3"
+    }
+  ],
+  "required_paths": [
+    {
+      "csr": "CSR1",
+      "protocol": "PROTOCOL1",
+      "sap": "SAP1",
+      "tfl": "TFL1",
+      "trace_id": "M21TRACE1"
+    }
+  ],
+  "schema_version": "1.0"
+}

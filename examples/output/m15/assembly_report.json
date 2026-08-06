@@ -1,0 +1,82 @@
+{
+  "annotated": {
+    "cross_references": {
+      "bookmark_count": 4,
+      "field_count": 4,
+      "status": "pass",
+      "unique_target_count": 4
+    },
+    "mode": "annotated",
+    "output": "examples/output/m15/CSR_M15_deidentified_annotated.docx",
+    "pending_count": 0,
+    "pending_paragraphs": [],
+    "schema_version": "1.0",
+    "sha256": "7bffc607453ea08d0c3454ac0bd286da868eba6dcf46139aabebb1da8784c7aa",
+    "status": "pass"
+  },
+  "annotated_reference_check": {
+    "bookmark_count": 4,
+    "field_count": 4,
+    "status": "pass",
+    "unique_target_count": 4
+  },
+  "clean_and_synopsis": {
+    "clean": {
+      "cross_references": {
+        "bookmark_count": 4,
+        "field_count": 4,
+        "status": "pass",
+        "unique_target_count": 4
+      },
+      "path": "examples/output/m15/CSR_M15_deidentified_clean.docx",
+      "validation": {
+        "checks": {
+          "no_internal_provenance": "pass",
+          "no_pending_markers": "pass",
+          "no_tool_or_process_language": "pass"
+        },
+        "sha256": "999fc25d08ca7d42ae6e82f7f12dea13079b39dff86639e6b30e812c500ce40b",
+        "status": "pass"
+      }
+    },
+    "schema_version": "1.0",
+    "status": "pass",
+    "synopsis": {
+      "copy_check": {
+        "generation_mode": "derived_copy_only",
+        "independent_drafting_allowed": false,
+        "paragraph_count": 4,
+        "status": "pass",
+        "synopsis_text_sha256": "ed943b0a439c728e68c870e5491366bdd1f7d1848c75e51bc57ff0713f6b0c65"
+      },
+      "cross_references": {
+        "bookmark_count": 4,
+        "field_count": 0,
+        "status": "pass",
+        "unique_target_count": 0
+      },
+      "manifest": "examples/output/m15/synopsis_manifest.json",
+      "path": "examples/output/m15/CSR_M15_deidentified_synopsis.docx",
+      "validation": {
+        "checks": {
+          "no_internal_provenance": "pass",
+          "no_pending_markers": "pass",
+          "no_tool_or_process_language": "pass"
+        },
+        "sha256": "1f3bf80804ece7c37baaefe40218a87c1d2171151f553a7f74d51fd1358dc2ba",
+        "status": "pass"
+      }
+    }
+  },
+  "clean_validation": {
+    "checks": {
+      "no_internal_provenance": "pass",
+      "no_pending_markers": "pass",
+      "no_tool_or_process_language": "pass"
+    },
+    "sha256": "999fc25d08ca7d42ae6e82f7f12dea13079b39dff86639e6b30e812c500ce40b",
+    "status": "pass"
+  },
+  "schema_version": "1.0",
+  "status": "pass"
+}

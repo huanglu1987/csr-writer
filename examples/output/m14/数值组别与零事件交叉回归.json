@@ -1,0 +1,88 @@
+{
+  "group_semantics": {
+    "code": "E-GROUP-ROLE-COLUMN",
+    "normal": "pass",
+    "swapped": "blocked"
+  },
+  "numeric_guards": {
+    "stages": {
+      "A_key_existence": {
+        "status": "pass"
+      },
+      "B_residual": {
+        "status": "pass"
+      },
+      "C_bare_numbers": {
+        "status": "pass"
+      }
+    },
+    "status": "pass"
+  },
+  "numeric_quantity_regression": {
+    "blocked_cases_expected": 11,
+    "blocked_cases_passed": 11,
+    "case_results": [
+      {
+        "blocked": true,
+        "case": "ascii_percentage"
+      },
+      {
+        "blocked": true,
+        "case": "written_percentage"
+      },
+      {
+        "blocked": true,
+        "case": "chinese_count"
+      },
+      {
+        "blocked": true,
+        "case": "percentage_points"
+      },
+      {
+        "blocked": true,
+        "case": "tenths"
+      },
+      {
+        "blocked": true,
+        "case": "tenths_decimal"
+      },
+      {
+        "blocked": true,
+        "case": "fraction"
+      },
+      {
+        "blocked": true,
+        "case": "multiple"
+      },
+      {
+        "blocked": true,
+        "case": "financial_count"
+      },
+      {
+        "blocked": true,
+        "case": "fuzzy_half"
+      },
+      {
+        "blocked": true,
+        "case": "combined_original"
+      }
+    ],
+    "schedule_whitelist_status": "pass"
+  },
+  "schema_version": "1.0",
+  "status": "pass",
+  "zero_event": {
+    "literal_ingest_blocked": true,
+    "literal_style_blocked": true,
+    "nonzero_branch": "important_events_present",
+    "nonzero_sae_not_described_as_absent": true,
+    "zero_branch": "no_critical_events",
+    "zero_sentence_generated": true,
+    "zero_source_roles": [
+      "sae_count",
+      "death_count",
+      "discontinuation_count",
+      "grade3plus_count"
+    ]
+  }
+}

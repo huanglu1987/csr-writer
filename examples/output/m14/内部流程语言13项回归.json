@@ -1,0 +1,62 @@
+{
+  "allowed_cases": [
+    {
+      "blocked": false,
+      "text": "本节完成与退出情况待相应统计结果到位后补充。"
+    },
+    {
+      "blocked": false,
+      "text": "本节结论基于现有盲态维护记录，未涵盖记录范围之外的情形。"
+    },
+    {
+      "blocked": false,
+      "text": "上述为可计算参数的汇总结果，不代表全部采样时点。"
+    },
+    {
+      "blocked": false,
+      "text": "分析集定义以经审核的统计分析计划为准。"
+    },
+    {
+      "blocked": false,
+      "text": "不良事件按系统器官分类和首选术语汇总。"
+    },
+    {
+      "blocked": false,
+      "text": "受试者处置按筛选、随机、完成和退出状态汇总。"
+    }
+  ],
+  "allowed_passed": 6,
+  "blocked_cases": [
+    {
+      "blocked": true,
+      "text": "退出原因沿用经审核分类，不由写手合并或改写。"
+    },
+    {
+      "blocked": true,
+      "text": "当前证据包未提供完成、退出及退出原因的结果绑定。"
+    },
+    {
+      "blocked": true,
+      "text": "这些结果只反映当前绑定的参数汇总。"
+    },
+    {
+      "blocked": true,
+      "text": "本工具依据占位符机制填充上述数值。"
+    },
+    {
+      "blocked": true,
+      "text": "该段落置信度为 inferred。"
+    },
+    {
+      "blocked": true,
+      "text": "语义键未覆盖该项。"
+    },
+    {
+      "blocked": true,
+      "text": "该陈述仅限已提供的记录范围，不外推至未核验资料。"
+    }
+  ],
+  "blocked_passed": 7,
+  "schema_version": "1.0",
+  "status": "pass"
+}

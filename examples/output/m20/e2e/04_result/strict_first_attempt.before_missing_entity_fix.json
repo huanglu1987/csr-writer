@@ -1,0 +1,224 @@
+{
+  "error_code": "E-TFL-MAP-DRIFT",
+  "message": "E-TFL-MAP-DRIFT: DOCX result is not fully compatible with the frozen shell map",
+  "report": {
+    "checks": {
+      "frozen_structure_gate": "pass",
+      "population_and_dimensions": "pass",
+      "source_hash": "pass",
+      "source_unchanged": "pass",
+      "strict_value_completeness": "fail"
+    },
+    "coverage_denominators": {
+      "reporting_policy": "all denominators must be reported together; none may be relabeled as overall coverage",
+      "result_oriented": "matched result values / semantic values observed in the result TFL",
+      "shell_oriented_all": "matched cells / (matched cells + unresolved frozen/materialized cells)",
+      "shell_oriented_explicit_contracts": "matched cells / frozen_contract_cell_count for entities with an explicit fixed-size contract; this is the conservative fill-readiness view"
+    },
+    "diagnostic_partial_mode": false,
+    "entity_reports": [
+      {
+        "body_rows_indexed_as_metadata": 2,
+        "entity_id": "T14.1.1.1",
+        "frozen_contract_cell_count": 0,
+        "matched_keys": [],
+        "matched_result_value_count": 0,
+        "result_semantic_value_count": 0,
+        "strategy": "metadata_only",
+        "unmatched_reasons": {},
+        "unmatched_result_value_count": 0,
+        "unresolved_frozen_cell_count": 0,
+        "visual_spanner_inferences": 0
+      },
+      {
+        "entity_id": "T14.1.2.1",
+        "frozen_contract_cell_count": 5,
+        "matched_keys": [
+          "T14.1.2.1|POP=ITT|ROW=N|COL=ACTIVE_TOTAL",
+          "T14.1.2.1|POP=ITT|ROW=MEAN_SD|COL=ACTIVE_TOTAL",
+          "T14.1.2.1|POP=ITT|ROW=MEDIAN|COL=ACTIVE_TOTAL",
+          "T14.1.2.1|POP=ITT|ROW=MIN_MAX|COL=ACTIVE_TOTAL",
+          "T14.1.2.1|POP=ITT|ROW=P_VALUE|COL=ACTIVE_TOTAL"
+        ],
+        "matched_result_value_count": 5,
+        "result_semantic_value_count": 5,
+        "strategy": "stable_rows_exact_semantic_subset",
+        "unmatched_reasons": {},
+        "unmatched_result_value_count": 0,
+        "unresolved_frozen_cell_count": 0,
+        "visual_spanner_inferences": 0
+      },
+      {
+        "entity_id": "T14.1.3.1",
+        "frozen_contract_cell_count": 5,
+        "matched_keys": [
+          "T14.1.3.1|POP=ITT|ROW=N|COL=ACTIVE_TOTAL",
+          "T14.1.3.1|POP=ITT|ROW=MEAN_SD|COL=ACTIVE_TOTAL",
+          "T14.1.3.1|POP=ITT|ROW=MEDIAN|COL=ACTIVE_TOTAL",
+          "T14.1.3.1|POP=ITT|ROW=MIN_MAX|COL=ACTIVE_TOTAL",
+          "T14.1.3.1|POP=ITT|ROW=P_VALUE|COL=ACTIVE_TOTAL"
+        ],
+        "matched_result_value_count": 5,
+        "result_semantic_value_count": 5,
+        "strategy": "stable_rows_exact_semantic_subset",
+        "unmatched_reasons": {},
+        "unmatched_result_value_count": 0,
+        "unresolved_frozen_cell_count": 0,
+        "visual_spanner_inferences": 0
+      },
+      {
+        "entity_id": "T14.2.1",
+        "frozen_contract_cell_count": 5,
+        "matched_keys": [
+          "T14.2.1|POP=ITT|ROW=N|COL=ACTIVE_TOTAL",
+          "T14.2.1|POP=ITT|ROW=MEAN_SD|COL=ACTIVE_TOTAL",
+          "T14.2.1|POP=ITT|ROW=MEDIAN|COL=ACTIVE_TOTAL",
+          "T14.2.1|POP=ITT|ROW=MIN_MAX|COL=ACTIVE_TOTAL",
+          "T14.2.1|POP=ITT|ROW=P_VALUE|COL=ACTIVE_TOTAL"
+        ],
+        "matched_result_value_count": 5,
+        "result_semantic_value_count": 5,
+        "strategy": "stable_rows_exact_semantic_subset",
+        "unmatched_reasons": {},
+        "unmatched_result_value_count": 0,
+        "unresolved_frozen_cell_count": 0,
+        "visual_spanner_inferences": 0
+      },
+      {
+        "entity_id": "T14.2.2",
+        "frozen_contract_cell_count": 5,
+        "matched_keys": [
+          "T14.2.2|POP=PPS|ROW=N|COL=ACTIVE_TOTAL",
+          "T14.2.2|POP=PPS|ROW=MEAN_SD|COL=ACTIVE_TOTAL",
+          "T14.2.2|POP=PPS|ROW=MEDIAN|COL=ACTIVE_TOTAL",
+          "T14.2.2|POP=PPS|ROW=MIN_MAX|COL=ACTIVE_TOTAL",
+          "T14.2.2|POP=PPS|ROW=P_VALUE|COL=ACTIVE_TOTAL"
+        ],
+        "matched_result_value_count": 5,
+        "result_semantic_value_count": 5,
+        "strategy": "stable_rows_exact_semantic_subset",
+        "unmatched_reasons": {},
+        "unmatched_result_value_count": 0,
+        "unresolved_frozen_cell_count": 0,
+        "visual_spanner_inferences": 0
+      },
+      {
+        "entity_id": "T14.3.1.1",
+        "frozen_contract_cell_count": 5,
+        "matched_keys": [
+          "T14.3.1.1|POP=SAF|ROW=N|COL=ACTIVE_TOTAL",
+          "T14.3.1.1|POP=SAF|ROW=MEAN_SD|COL=ACTIVE_TOTAL",
+          "T14.3.1.1|POP=SAF|ROW=MEDIAN|COL=ACTIVE_TOTAL",
+          "T14.3.1.1|POP=SAF|ROW=MIN_MAX|COL=ACTIVE_TOTAL",
+          "T14.3.1.1|POP=SAF|ROW=P_VALUE|COL=ACTIVE_TOTAL"
+        ],
+        "matched_result_value_count": 5,
+        "result_semantic_value_count": 5,
+        "strategy": "stable_rows_exact_semantic_subset",
+        "unmatched_reasons": {},
+        "unmatched_result_value_count": 0,
+        "unresolved_frozen_cell_count": 0,
+        "visual_spanner_inferences": 0
+      },
+      {
+        "entity_id": "T14.3.3.1",
+        "frozen_contract_cell_count": 5,
+        "matched_keys": [
+          "T14.3.3.1|POP=SAF|ROW=N|COL=ACTIVE_TOTAL",
+          "T14.3.3.1|POP=SAF|ROW=MEAN_SD|COL=ACTIVE_TOTAL",
+          "T14.3.3.1|POP=SAF|ROW=MEDIAN|COL=ACTIVE_TOTAL",
+          "T14.3.3.1|POP=SAF|ROW=MIN_MAX|COL=ACTIVE_TOTAL",
+          "T14.3.3.1|POP=SAF|ROW=P_VALUE|COL=ACTIVE_TOTAL"
+        ],
+        "matched_result_value_count": 5,
+        "result_semantic_value_count": 5,
+        "strategy": "stable_rows_exact_semantic_subset",
+        "unmatched_reasons": {},
+        "unmatched_result_value_count": 0,
+        "unresolved_frozen_cell_count": 0,
+        "visual_spanner_inferences": 0
+      },
+      {
+        "entity_id": "T14.3.4.1",
+        "frozen_contract_cell_count": 5,
+        "matched_keys": [
+          "T14.3.4.1|POP=SAF|ROW=N|COL=ACTIVE_TOTAL",
+          "T14.3.4.1|POP=SAF|ROW=MEAN_SD|COL=ACTIVE_TOTAL",
+          "T14.3.4.1|POP=SAF|ROW=MEDIAN|COL=ACTIVE_TOTAL",
+          "T14.3.4.1|POP=SAF|ROW=MIN_MAX|COL=ACTIVE_TOTAL",
+          "T14.3.4.1|POP=SAF|ROW=P_VALUE|COL=ACTIVE_TOTAL"
+        ],
+        "matched_result_value_count": 5,
+        "result_semantic_value_count": 5,
+        "strategy": "stable_rows_exact_semantic_subset",
+        "unmatched_reasons": {},
+        "unmatched_result_value_count": 0,
+        "unresolved_frozen_cell_count": 0,
+        "visual_spanner_inferences": 0
+      },
+      {
+        "cross_parent_duplicate_leaf_count": 0,
+        "entity_id": "T14.3.2.1",
+        "frozen_contracted_cells_materialized": 4,
+        "matched_keys": [
+          "T14.3.2.1|POP=SAF|ROW=RESULT_重要医学事件/RESULT_死亡|COL=ACTIVE_TOTAL_N_PCT",
+          "T14.3.2.1|POP=SAF|ROW=RESULT_重要医学事件/RESULT_严重不良事件|COL=ACTIVE_TOTAL_N_PCT",
+          "T14.3.2.1|POP=SAF|ROW=RESULT_重要医学事件/RESULT_其他重要不良事件|COL=ACTIVE_TOTAL_N_PCT",
+          "T14.3.2.1|POP=SAF|ROW=RESULT_重要医学事件/RESULT_导致永久停药|COL=ACTIVE_TOTAL_N_PCT"
+        ],
+        "matched_result_value_count": 4,
+        "matched_stable_cell_count": 0,
+        "matching_columns": [
+          "ACTIVE_TOTAL_N_PCT"
+        ],
+        "missing_frozen_columns": [],
+        "result_leaf_row_count": 4,
+        "result_only_columns": [],
+        "result_semantic_value_count": 4,
+        "shell_placeholder_row_count": 4,
+        "stable_result_row_count": 0,
+        "strategy": "deferred_leaf_rows_against_frozen_columns",
+        "template_placeholder_row_count": 0,
+        "unmatched_reasons": {},
+        "unmatched_result_value_count": 0,
+        "unresolved_frozen_cell_count": 0,
+        "visual_spanner_inferences": 0
+      }
+    ],
+    "matched_entity_count": 9,
+    "metrics": {
+      "deferred_frozen_contracted_cells_materialized": 4,
+      "deferred_result_semantic_keys_detected": 4,
+      "deferred_shell_placeholder_rows": 4,
+      "explicit_frozen_contract_cell_count": 35,
+      "explicit_frozen_contract_entity_count": 8,
+      "explicit_frozen_contract_match_rate": 1.0,
+      "explicit_frozen_contract_matched_count": 35,
+      "frozen_shell_side_contract_cell_count": 35,
+      "frozen_shell_side_match_rate": 1.0,
+      "frozen_shell_side_matched_cell_count": 35,
+      "matched_result_value_count": 39,
+      "result_oriented_match_rate": 1.0,
+      "result_semantic_value_count": 39,
+      "result_side_match_rate": 1.0,
+      "result_side_matched_value_count": 39,
+      "result_side_semantic_value_count": 39,
+      "shell_oriented_expected_cell_count": 39,
+      "shell_oriented_match_rate": 1.0,
+      "unmatched_result_value_count": 0,
+      "unresolved_frozen_cell_count": 0
+    },
+    "physical_cell_count": 123,
+    "physical_table_count": 10,
+    "release_eligible": false,
+    "result_entity_count": 10,
+    "schema_version": "1.0",
+    "source_sha256": "46c6f4c6e3d39b4826b9892d8cf3d1d7968dbcaf7d3bbe43241824e199ede8d5",
+    "source_unchanged_after_read": true,
+    "status": "diagnostic_partial",
+    "unmatched_entities": [
+      "T14.3.9.1"
+    ]
+  },
+  "status": "blocked"
+}

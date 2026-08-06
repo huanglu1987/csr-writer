@@ -1,0 +1,42 @@
+{
+  "policy": "非 llm_drafting、verbatim_list、constrained_llm 均不得进入自由 section-writer。",
+  "records": [
+    {
+      "reason": "E-PRODUCTION-METHOD-WRITER-BLOCK: section 3.1 is assigned to deterministic_generation/deterministic_generation; it must not enter the section-writer pipeline",
+      "section_id": "3.1",
+      "status": "blocked"
+    },
+    {
+      "reason": "E-PRODUCTION-METHOD-WRITER-BLOCK: section 5.1 is assigned to template_slot/template_wrap; it must not enter the section-writer pipeline",
+      "section_id": "5.1",
+      "status": "blocked"
+    },
+    {
+      "reason": "E-PRODUCTION-METHOD-WRITER-BLOCK: section 9.3.1 is assigned to extraction/verbatim_list; it must not enter the section-writer pipeline",
+      "section_id": "9.3.1",
+      "status": "blocked"
+    },
+    {
+      "reason": "E-PRODUCTION-METHOD-WRITER-BLOCK: section 9.4.3 is assigned to extraction/constrained_llm; it must not enter the section-writer pipeline",
+      "section_id": "9.4.3",
+      "status": "blocked"
+    },
+    {
+      "reason": "E-PRODUCTION-METHOD-WRITER-BLOCK: section 10.1 is assigned to mixed/constrained_llm; it must not enter the section-writer pipeline",
+      "section_id": "10.1",
+      "status": "blocked"
+    },
+    {
+      "reason": "E-PRODUCTION-METHOD-WRITER-BLOCK: section 12.3.2 is assigned to llm_drafting/constrained_llm; it must not enter the section-writer pipeline",
+      "section_id": "12.3.2",
+      "status": "blocked"
+    },
+    {
+      "narration": "guarded_section_writer",
+      "section_id": "11.5.4",
+      "status": "allowed"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "pass"
+}

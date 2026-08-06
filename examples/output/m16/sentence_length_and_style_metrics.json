@@ -1,0 +1,57 @@
+{
+  "hard_threshold_proof": {
+    "blocked": true,
+    "codes": [
+      "E-STYLE-SENTENCE-LENGTH"
+    ],
+    "input_length": 91
+  },
+  "m15_sample": {
+    "blocked": true,
+    "findings": [
+      {
+        "category": "n_percent_format",
+        "code": "E-STYLE-N-PERCENT-FORMAT",
+        "matched_text": "2 (4.2)",
+        "message": "正文 n (%) 表达必须同时含例数单位和百分号",
+        "paragraph_index": null,
+        "sentence_length": null,
+        "severity": "block"
+      },
+      {
+        "category": "n_percent_format",
+        "code": "E-STYLE-N-PERCENT-FORMAT",
+        "matched_text": "2 (4.2)",
+        "message": "正文 n (%) 表达必须同时含例数单位和百分号",
+        "paragraph_index": null,
+        "sentence_length": null,
+        "severity": "block"
+      }
+    ],
+    "metrics": {
+      "abstract_noun_count": 2,
+      "average_sentence_length": 33.0,
+      "field_enumeration_paragraph_count": 0,
+      "maximum_sentence_length": 49,
+      "n_percent_format_error_count": 2,
+      "overlong_sentence_count": 0,
+      "prespecified_qualifier_count": 0,
+      "reviewed_qualifier_count": 0,
+      "semicolon_count": 3,
+      "sentence_count": 12,
+      "summary_copula_count": 0
+    },
+    "policy": {
+      "banned_expression_is_blocking": true,
+      "literal_zero_event_claim_requires_conditioned_data": true,
+      "n_percent_prose_requires_count_unit_and_percent_sign": true,
+      "qualifier_per_section": 1,
+      "semicolon_per_paragraph": 1,
+      "sentence_length_hard_threshold": 60
+    },
+    "schema_version": "1.0",
+    "status": "blocked"
+  },
+  "schema_version": "1.0",
+  "status": "pass"
+}

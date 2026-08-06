@@ -1,0 +1,210 @@
+{
+  "agent_interface": {
+    "agent_draft_sha256": "f7373b1200dba0e48afcf8f3089ef0604095dfb20626e1fbe47668e2993a50ea",
+    "envelope_sha256": "53f1de20005722c915a8fae8931e4f0b597f8d6428b08d26eedeccd45fea8ce8",
+    "external_model_api_called": false,
+    "interface": "csr-writer-agent-section-v1",
+    "prior_guard_report_sha256s": []
+  },
+  "binding_manifest": [
+    {
+      "context_sha256": "6e0d813f67b14acc4fa120e88ca05f9b4717a078224a7d681e6ab0ced60671f6",
+      "key": "T14.3.1.2|POP=SS|ROW=ANY_TEAE|COL=ACTIVE_TOTAL",
+      "role": "teae_result",
+      "source_id": "T14.3.1.2"
+    },
+    {
+      "context_sha256": "6e0d813f67b14acc4fa120e88ca05f9b4717a078224a7d681e6ab0ced60671f6",
+      "key": "T14.3.1.2|POP=SS|ROW=ANY_TRAE|COL=ACTIVE_TOTAL",
+      "role": "trae_result",
+      "source_id": "T14.3.1.2"
+    },
+    {
+      "context_sha256": "6e0d813f67b14acc4fa120e88ca05f9b4717a078224a7d681e6ab0ced60671f6",
+      "key": "T14.3.1.2|POP=SS|ROW=ANY_SAE|COL=ACTIVE_TOTAL",
+      "role": "sae_count",
+      "source_id": "T14.3.1.2"
+    },
+    {
+      "context_sha256": "6e0d813f67b14acc4fa120e88ca05f9b4717a078224a7d681e6ab0ced60671f6",
+      "key": "T14.3.1.2|POP=SS|ROW=DEATH|COL=ACTIVE_TOTAL",
+      "role": "death_count",
+      "source_id": "T14.3.1.2"
+    },
+    {
+      "context_sha256": "6e0d813f67b14acc4fa120e88ca05f9b4717a078224a7d681e6ab0ced60671f6",
+      "key": "T14.3.1.2|POP=SS|ROW=AE_DISCONTINUATION|COL=ACTIVE_TOTAL",
+      "role": "discontinuation_count",
+      "source_id": "T14.3.1.2"
+    },
+    {
+      "context_sha256": "6e0d813f67b14acc4fa120e88ca05f9b4717a078224a7d681e6ab0ced60671f6",
+      "key": "T14.3.1.2|POP=SS|ROW=GRADE_3_PLUS|COL=ACTIVE_TOTAL",
+      "role": "grade3plus_count",
+      "source_id": "T14.3.1.2"
+    }
+  ],
+  "draft_sha256": "e5e5c5c843e7d0e04a69c40a3b6757349867470163cd6add759a44c2e52a3a38",
+  "evidence_status": "demo_only",
+  "generation_attempts": 1,
+  "guard_retry_count": 0,
+  "input_sha256": "f43b62a457c0b0f9bdfe4a4bfe0b879ee8a0585f6929f76e43e7cbe6f9e7d30d",
+  "paragraphs": [
+    {
+      "conditional_conclusions": [],
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_12_2_001",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "SRC-AE-SET",
+        "SRC-AE-DEFINITION"
+      ]
+    },
+    {
+      "conditional_conclusions": [],
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_12_2_002",
+      "placeholders": [
+        "T14.3.1.2|POP=SS|ROW=ANY_TEAE|COL=ACTIVE_TOTAL",
+        "T14.3.1.2|POP=SS|ROW=ANY_TRAE|COL=ACTIVE_TOTAL"
+      ],
+      "references": [
+        "T14.3.1.2"
+      ],
+      "semantic_findings": [],
+      "sources": [
+        "T14.3.1.2"
+      ]
+    },
+    {
+      "conditional_conclusions": [],
+      "confidence": "inferred",
+      "needs_human": true,
+      "para_id": "p_12_2_003",
+      "placeholders": [
+        "T14.3.1.2|POP=SS|ROW=ANY_SAE|COL=ACTIVE_TOTAL",
+        "T14.3.1.2|POP=SS|ROW=DEATH|COL=ACTIVE_TOTAL",
+        "T14.3.1.2|POP=SS|ROW=AE_DISCONTINUATION|COL=ACTIVE_TOTAL",
+        "T14.3.1.2|POP=SS|ROW=GRADE_3_PLUS|COL=ACTIVE_TOTAL"
+      ],
+      "references": [],
+      "semantic_findings": [
+        {
+          "category": "sae_medical_narrative",
+          "code": "S-SEMANTIC-REDLINE",
+          "end": 9,
+          "matched_text": "严重不良事件、死亡",
+          "message": "SAE narrative medical content requires reviewed source data and an authorized reviewer",
+          "pattern_id": "sae-medical-narrative",
+          "start": 0
+        }
+      ],
+      "sources": [
+        "T14.3.1.2"
+      ]
+    },
+    {
+      "conditional_conclusions": [
+        "SAFETY_TOLERABILITY_V1"
+      ],
+      "confidence": "inferred",
+      "needs_human": true,
+      "para_id": "p_12_2_004",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "SRC-AE-SET",
+        "SRC-AE-DEFINITION"
+      ]
+    }
+  ],
+  "playbook": {
+    "filename": "s12-2-adverse-events.md",
+    "sha256": "4f4b602819db1fcb675160799b29011424409da1b0774e5577745bb149de6c50"
+  },
+  "prompt_audit": [],
+  "reference_manifest": [
+    {
+      "entity_id": "T14.3.1.2",
+      "frozen_map_sha256": null,
+      "verified_by": "binding_manifest"
+    }
+  ],
+  "schema_version": "1.1",
+  "section": "12.2",
+  "semantic_findings": [
+    {
+      "category": "sae_medical_narrative",
+      "code": "S-SEMANTIC-REDLINE",
+      "end": 9,
+      "matched_text": "严重不良事件、死亡",
+      "message": "SAE narrative medical content requires reviewed source data and an authorized reviewer",
+      "para_id": "p_12_2_003",
+      "pattern_id": "sae-medical-narrative",
+      "start": 0
+    }
+  ],
+  "source_manifest": [
+    {
+      "content_sha256": "19b62bd1c20c1b3fa5eecc171f2157014c51a0cf0661b15bbe6baf70c9c01e75",
+      "locator": "脱敏方案/安全性定义",
+      "purpose": "safety_definition",
+      "source_id": "SRC-AE-DEFINITION"
+    },
+    {
+      "content_sha256": "f7204a805a1655f0fd33bc8432b65bad4bf4cbcdf3a9f97c95b7fc5302b8cd8e",
+      "locator": "脱敏统计分析计划/安全性分析集",
+      "purpose": "analysis_set",
+      "source_id": "SRC-AE-SET"
+    },
+    {
+      "content_sha256": "49df5f25c172762907d8b75af9656d8bab37d28fc2938fd486fc3413a82d0450",
+      "locator": "脱敏数据规范/事件编码",
+      "purpose": "safety_definition",
+      "source_id": "SRC-AE-CODING"
+    }
+  ],
+  "style_qc": {
+    "blocked": false,
+    "findings": [
+      {
+        "category": "sentence_length",
+        "code": "W-STYLE-SENTENCE-LENGTH",
+        "matched_text": "[待医学负责人确认] 严重不良事件、死亡、导致永久停用研究治疗的事件和重度事件例数依次为 〔数值〕、〔数值〕、〔数值〕 和 〔数值〕。",
+        "message": "单句 67 字，超过 60 字建议拆分",
+        "paragraph_index": null,
+        "sentence_length": 67,
+        "severity": "warning"
+      }
+    ],
+    "metrics": {
+      "abstract_noun_count": 1,
+      "average_sentence_length": 32.7,
+      "field_enumeration_paragraph_count": 0,
+      "maximum_sentence_length": 67,
+      "overlong_sentence_count": 1,
+      "prespecified_qualifier_count": 0,
+      "reviewed_qualifier_count": 0,
+      "semicolon_count": 0,
+      "sentence_count": 6,
+      "summary_copula_count": 0
+    },
+    "policy": {
+      "banned_expression_is_blocking": true,
+      "literal_zero_event_claim_requires_conditioned_data": true,
+      "qualifier_per_section": 1,
+      "semicolon_per_paragraph": 1,
+      "sentence_length_warning_threshold": 60
+    },
+    "schema_version": "1.0",
+    "status": "pass_with_warning"
+  },
+  "system_prompt_sha256": "0f8201e0a496a147c422a6569abe89302cf168b98ea3502a541c001335bb85ba",
+  "variant": "adverse_events_conditioned",
+  "writer": "AgentEnvelopeIngest"
+}

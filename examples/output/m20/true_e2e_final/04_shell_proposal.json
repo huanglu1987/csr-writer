@@ -1,0 +1,529 @@
+{
+  "candidate_sha256": "55ad2f5bcb6f0468708aaac8303565ab26d3818f9ae79fc1c8cedae465698d80",
+  "entities": [
+    {
+      "analysis_set": "ITT",
+      "batch_id": null,
+      "confidence": "high",
+      "deferred_row_contract": null,
+      "dimensions": {},
+      "entity_id": "T14.1.1.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "10.1"
+      ],
+      "ingest_strategy": "metadata_only",
+      "layout_reference": null,
+      "physical_shape": {
+        "grid_columns": 5,
+        "horizontal_merges": 0,
+        "physical_cells": 15,
+        "rows": 3,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        1
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "semantic_cell_count": 0,
+        "semantic_column_count": 0,
+        "semantic_row_count": 0
+      },
+      "title_character_count": 23,
+      "title_sha256": "a296beecf1586cc2f90c197899742bdb4123d197dac8ebfa6ee560b30b0e7cd6"
+    },
+    {
+      "analysis_set": "ITT",
+      "batch_id": null,
+      "confidence": "high",
+      "deferred_row_contract": null,
+      "dimensions": {},
+      "entity_id": "T14.1.2.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.2"
+      ],
+      "ingest_strategy": "cell_level",
+      "layout_reference": null,
+      "physical_shape": {
+        "grid_columns": 2,
+        "horizontal_merges": 0,
+        "physical_cells": 12,
+        "rows": 6,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        2
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 0,
+        "column_ids": [
+          "ACTIVE_TOTAL"
+        ],
+        "expected_row_semantic_source": null,
+        "header_row_count": 1,
+        "placeholder_row_count": 0,
+        "placeholder_row_ids_sha256": null,
+        "row_ids_sha256": "e1072d18bd78d5901be25936a888d2a1d67c08bfd96690fd10c6b88593a4427a",
+        "semantic_cell_count": 5,
+        "semantic_column_count": 1,
+        "semantic_row_count": 5,
+        "stable_structural_group_hashes": 0,
+        "visual_spanner_inferences": 0
+      },
+      "title_character_count": 21,
+      "title_sha256": "30544ae225c52b1b8dc305f103152d2ca5dcf82d4b12f8a9b1e5dc8860422dcd"
+    },
+    {
+      "analysis_set": "ITT",
+      "batch_id": null,
+      "confidence": "high",
+      "deferred_row_contract": null,
+      "dimensions": {},
+      "entity_id": "T14.1.3.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.2"
+      ],
+      "ingest_strategy": "cell_level",
+      "layout_reference": null,
+      "physical_shape": {
+        "grid_columns": 2,
+        "horizontal_merges": 0,
+        "physical_cells": 12,
+        "rows": 6,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        3
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 0,
+        "column_ids": [
+          "ACTIVE_TOTAL"
+        ],
+        "expected_row_semantic_source": null,
+        "header_row_count": 1,
+        "placeholder_row_count": 0,
+        "placeholder_row_ids_sha256": null,
+        "row_ids_sha256": "e1072d18bd78d5901be25936a888d2a1d67c08bfd96690fd10c6b88593a4427a",
+        "semantic_cell_count": 5,
+        "semantic_column_count": 1,
+        "semantic_row_count": 5,
+        "stable_structural_group_hashes": 0,
+        "visual_spanner_inferences": 0
+      },
+      "title_character_count": 22,
+      "title_sha256": "6a6f9a58f858ad96d33fc28038216db6945764f513898d5da4010513c6f9d0c4"
+    },
+    {
+      "analysis_set": "ITT",
+      "batch_id": null,
+      "confidence": "high",
+      "deferred_row_contract": null,
+      "dimensions": {},
+      "entity_id": "T14.2.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.4"
+      ],
+      "ingest_strategy": "cell_level",
+      "layout_reference": null,
+      "physical_shape": {
+        "grid_columns": 2,
+        "horizontal_merges": 0,
+        "physical_cells": 12,
+        "rows": 6,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        4
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 0,
+        "column_ids": [
+          "ACTIVE_TOTAL"
+        ],
+        "expected_row_semantic_source": null,
+        "header_row_count": 1,
+        "placeholder_row_count": 0,
+        "placeholder_row_ids_sha256": null,
+        "row_ids_sha256": "e1072d18bd78d5901be25936a888d2a1d67c08bfd96690fd10c6b88593a4427a",
+        "semantic_cell_count": 5,
+        "semantic_column_count": 1,
+        "semantic_row_count": 5,
+        "stable_structural_group_hashes": 0,
+        "visual_spanner_inferences": 0
+      },
+      "title_character_count": 23,
+      "title_sha256": "79ceab897cb741816faa6ff25b8ca9b989d5ecd73e4b98c8b4bd63721925b33e"
+    },
+    {
+      "analysis_set": "PPS",
+      "batch_id": null,
+      "confidence": "high",
+      "deferred_row_contract": null,
+      "dimensions": {},
+      "entity_id": "T14.2.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.4"
+      ],
+      "ingest_strategy": "cell_level",
+      "layout_reference": null,
+      "physical_shape": {
+        "grid_columns": 2,
+        "horizontal_merges": 0,
+        "physical_cells": 12,
+        "rows": 6,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        5
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 0,
+        "column_ids": [
+          "ACTIVE_TOTAL"
+        ],
+        "expected_row_semantic_source": null,
+        "header_row_count": 1,
+        "placeholder_row_count": 0,
+        "placeholder_row_ids_sha256": null,
+        "row_ids_sha256": "e1072d18bd78d5901be25936a888d2a1d67c08bfd96690fd10c6b88593a4427a",
+        "semantic_cell_count": 5,
+        "semantic_column_count": 1,
+        "semantic_row_count": 5,
+        "stable_structural_group_hashes": 0,
+        "visual_spanner_inferences": 0
+      },
+      "title_character_count": 24,
+      "title_sha256": "d281c2e636e6f044133a16d34774b2b280a3a0dbb44d5086b3a4a04bf087cc7b"
+    },
+    {
+      "analysis_set": "SAF",
+      "batch_id": "BATCH-001",
+      "confidence": "low",
+      "deferred_row_contract": null,
+      "dimensions": {},
+      "entity_id": "T14.3.1.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12.1"
+      ],
+      "ingest_strategy": "cell_level",
+      "layout_reference": null,
+      "physical_shape": {
+        "grid_columns": 2,
+        "horizontal_merges": 0,
+        "physical_cells": 12,
+        "rows": 6,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        6
+      ],
+      "reasons": [
+        "analysis set used a safe non-registry title marker; exact spelling requires confirmation"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 0,
+        "column_ids": [
+          "ACTIVE_TOTAL"
+        ],
+        "expected_row_semantic_source": null,
+        "header_row_count": 1,
+        "placeholder_row_count": 0,
+        "placeholder_row_ids_sha256": null,
+        "row_ids_sha256": "e1072d18bd78d5901be25936a888d2a1d67c08bfd96690fd10c6b88593a4427a",
+        "semantic_cell_count": 5,
+        "semantic_column_count": 1,
+        "semantic_row_count": 5,
+        "stable_structural_group_hashes": 0,
+        "visual_spanner_inferences": 0
+      },
+      "title_character_count": 22,
+      "title_sha256": "8db230a93024db265490969313009051e42c543537170def12646c72012e1027"
+    },
+    {
+      "analysis_set": "SAF",
+      "batch_id": "BATCH-001",
+      "confidence": "low",
+      "deferred_row_contract": null,
+      "dimensions": {},
+      "entity_id": "T14.3.3.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "cell_level",
+      "layout_reference": null,
+      "physical_shape": {
+        "grid_columns": 2,
+        "horizontal_merges": 0,
+        "physical_cells": 12,
+        "rows": 6,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        7
+      ],
+      "reasons": [
+        "analysis set used a safe non-registry title marker; exact spelling requires confirmation"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 0,
+        "column_ids": [
+          "ACTIVE_TOTAL"
+        ],
+        "expected_row_semantic_source": null,
+        "header_row_count": 1,
+        "placeholder_row_count": 0,
+        "placeholder_row_ids_sha256": null,
+        "row_ids_sha256": "e1072d18bd78d5901be25936a888d2a1d67c08bfd96690fd10c6b88593a4427a",
+        "semantic_cell_count": 5,
+        "semantic_column_count": 1,
+        "semantic_row_count": 5,
+        "stable_structural_group_hashes": 0,
+        "visual_spanner_inferences": 0
+      },
+      "title_character_count": 24,
+      "title_sha256": "16343f0645b36c8a1f67e3ea68aadf710fd1c77769edac2b0ac9784bf9f9faa1"
+    },
+    {
+      "analysis_set": "SAF",
+      "batch_id": "BATCH-001",
+      "confidence": "low",
+      "deferred_row_contract": null,
+      "dimensions": {},
+      "entity_id": "T14.3.4.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "cell_level",
+      "layout_reference": null,
+      "physical_shape": {
+        "grid_columns": 2,
+        "horizontal_merges": 0,
+        "physical_cells": 12,
+        "rows": 6,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        8
+      ],
+      "reasons": [
+        "analysis set used a safe non-registry title marker; exact spelling requires confirmation"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 0,
+        "column_ids": [
+          "ACTIVE_TOTAL"
+        ],
+        "expected_row_semantic_source": null,
+        "header_row_count": 1,
+        "placeholder_row_count": 0,
+        "placeholder_row_ids_sha256": null,
+        "row_ids_sha256": "e1072d18bd78d5901be25936a888d2a1d67c08bfd96690fd10c6b88593a4427a",
+        "semantic_cell_count": 5,
+        "semantic_column_count": 1,
+        "semantic_row_count": 5,
+        "stable_structural_group_hashes": 0,
+        "visual_spanner_inferences": 0
+      },
+      "title_character_count": 25,
+      "title_sha256": "310018cc9267955bfe28ed2778103931db4577687d4d0883379def56c5595b9a"
+    },
+    {
+      "analysis_set": "SAF",
+      "batch_id": "BATCH-001",
+      "confidence": "low",
+      "deferred_row_contract": {
+        "detection": "nonsemantic_row_id",
+        "expected_semantic_source": "result_tfl_row_labels",
+        "frozen_column_ids": [
+          "ACTIVE_TOTAL_N_PCT"
+        ],
+        "materialize_at": "result_tfl",
+        "schema_version": "1.0",
+        "shell_placeholder_row_count": 4,
+        "stable_row_count": 0,
+        "template_placeholder_row_count": 0
+      },
+      "dimensions": {},
+      "entity_id": "T14.3.2.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "columns_only_deferred_rows",
+      "layout_reference": null,
+      "physical_shape": {
+        "grid_columns": 2,
+        "horizontal_merges": 0,
+        "physical_cells": 12,
+        "rows": 6,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        9
+      ],
+      "reasons": [
+        "analysis set used a safe non-registry title marker; exact spelling requires confirmation",
+        "one or more shell rows lacked readable semantic IDs and were deferred"
+      ],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 0,
+        "column_ids": [
+          "ACTIVE_TOTAL_N_PCT"
+        ],
+        "expected_row_semantic_source": "result_tfl_row_labels",
+        "header_row_count": 1,
+        "placeholder_row_count": 4,
+        "placeholder_row_ids_sha256": "fbeb98a63fd37bec7da04379f854460fa5ab6ebc844cddac147cd74d036686d6",
+        "row_ids_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "semantic_cell_count": 0,
+        "semantic_column_count": 1,
+        "semantic_row_count": 0,
+        "stable_structural_group_hashes": 1,
+        "visual_spanner_inferences": 0
+      },
+      "title_character_count": 27,
+      "title_sha256": "da1c8f457fb55fb3c3aeceb15ddfc08c60e27d98d9544de9e18ad9aa3dfdfed5"
+    },
+    {
+      "analysis_set": "ITT",
+      "batch_id": null,
+      "confidence": "high",
+      "deferred_row_contract": null,
+      "dimensions": {},
+      "entity_id": "T14.2.9.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.4"
+      ],
+      "ingest_strategy": "cell_level",
+      "layout_reference": null,
+      "physical_shape": {
+        "grid_columns": 2,
+        "horizontal_merges": 0,
+        "physical_cells": 12,
+        "rows": 6,
+        "vertical_merges": 0
+      },
+      "physical_table_indexes": [
+        10
+      ],
+      "reasons": [],
+      "semantic_proof": {
+        "automatic_header_ambiguities": 0,
+        "automatic_row_ambiguities": 0,
+        "column_ids": [
+          "ACTIVE_TOTAL"
+        ],
+        "expected_row_semantic_source": null,
+        "header_row_count": 1,
+        "placeholder_row_count": 0,
+        "placeholder_row_ids_sha256": null,
+        "row_ids_sha256": "e1072d18bd78d5901be25936a888d2a1d67c08bfd96690fd10c6b88593a4427a",
+        "semantic_cell_count": 5,
+        "semantic_column_count": 1,
+        "semantic_row_count": 5,
+        "stable_structural_group_hashes": 0,
+        "visual_spanner_inferences": 0
+      },
+      "title_character_count": 32,
+      "title_sha256": "dbfbd33db91f0d4993dcfbbdb1e0b5923338ebfb376e4b4c204009e5889d23e7"
+    }
+  ],
+  "layout_reference_config": {
+    "data_driven_row_classifier_ids": [
+      "soc-pt"
+    ],
+    "pattern_ids": [
+      "template-output-cn",
+      "same-table-cn"
+    ],
+    "sha256": "1a06a27ef6652d421f7daed1245d6e2eda311351cc1f79190fafac90ce4facdc"
+  },
+  "metrics": {
+    "all_story_table_cells": 123,
+    "all_story_table_objects": 10,
+    "batch_review_entities": 4,
+    "cell_level_entities": 8,
+    "columns_only_deferred_rows_entities": 1,
+    "deferred_shell_placeholder_rows": 4,
+    "elapsed_seconds": 0.03,
+    "figure_entities": 0,
+    "high_confidence_entities": 6,
+    "high_confidence_entity_rate": 0.6,
+    "human_review_batches": 1,
+    "layout_full_grid_inherited_entities": 0,
+    "layout_inherited_grid_entities": 0,
+    "layout_mixed_column_inherited_row_deferred_entities": 0,
+    "layout_reference_entities": 0,
+    "layout_reference_occurrences_detected": 0,
+    "listing_entities": 0,
+    "metadata_only_entities": 1,
+    "mixed_stable_and_deferred_rows_entities": 0,
+    "object_level_auto_proposals": 10,
+    "object_level_proposal_rate": 1.0,
+    "object_roles": {
+      "entity_main": 10
+    },
+    "table_entities": 10,
+    "tfl_body_physical_cells": 123,
+    "tfl_body_table_objects": 10,
+    "unique_tfl_entities": 10,
+    "unresolved_analysis_set_entities": 0
+  },
+  "prefix_normalization": {
+    "ascii_key_layer": true,
+    "图": "F",
+    "清单": "L",
+    "表": "T"
+  },
+  "privacy": {
+    "source_cell_labels_written": false,
+    "source_path_written": false,
+    "source_titles_written": false,
+    "subject_identifiers_written": false
+  },
+  "report_sha256": "752a9d0a7af1ec5e373b62214a70eb68d570a3e2de545287c147646b685efcc7",
+  "review_queue": [
+    {
+      "allowed_decisions": [
+        "confirm",
+        "revise",
+        "defer"
+      ],
+      "batch_id": "BATCH-001",
+      "entity_count": 4,
+      "entity_ids": [
+        "T14.3.1.1",
+        "T14.3.2.1",
+        "T14.3.3.1",
+        "T14.3.4.1"
+      ],
+      "family": "POLICY_GROUP",
+      "reason": "analysis set used a safe non-registry title marker; exact spelling requires confirmation"
+    }
+  ],
+  "schema_version": "1.0",
+  "source_sha256": "e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2",
+  "status": "review_required"
+}

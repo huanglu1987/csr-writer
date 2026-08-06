@@ -7,9 +7,18 @@ venv/
 # macOS
 .DS_Store
 
-# 开发轮次的中间产物（M1–M21，约 55MB）
-# 本地保留作为验证证据链；仓库只带 examples/reference 下的参考产物
-examples/output/
+# 开发轮次的中间产物
+# 注意：其中 8 轮被回归测试当作冻结夹具引用，必须入库，见下方白名单。
+# 其余轮次仅为诊断产物，本地保留即可。
+examples/output/*
+!examples/output/m8/
+!examples/output/m14/
+!examples/output/m15/
+!examples/output/m16/
+!examples/output/m17/
+!examples/output/m19/
+!examples/output/m20/
+!examples/output/m21/
 
 # 渲染与视觉检查的临时目录
 .visualcheck_tmp/

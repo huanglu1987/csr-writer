@@ -1,0 +1,123 @@
+{
+  "authorized_surface_forms": [],
+  "card_id": "M19-METHOD-7-UNFAMILIAR",
+  "controlled_entities": [],
+  "facts": [
+    {
+      "entity_type": "indication",
+      "fact_id": "V01",
+      "fixed_gap_sentence": null,
+      "label": "研究适应证",
+      "missing_behavior": "hard_fail",
+      "required": true,
+      "required_terms": [],
+      "source_id": "m19_protocol_intro",
+      "source_kind": "protocol",
+      "source_locator": "脱敏合成来源定位",
+      "value": "目标皮肤病",
+      "value_kind": "verbatim_text",
+      "verbatim_required": true,
+      "zone": "method"
+    },
+    {
+      "entity_type": "investigational_product",
+      "fact_id": "V02",
+      "fixed_gap_sentence": null,
+      "label": "研究产品",
+      "missing_behavior": "hard_fail",
+      "required": true,
+      "required_terms": [],
+      "source_id": "m19_brochure",
+      "source_kind": "protocol",
+      "source_locator": "脱敏合成来源定位",
+      "value": "脱敏研究制剂",
+      "value_kind": "verbatim_text",
+      "verbatim_required": true,
+      "zone": "method"
+    },
+    {
+      "entity_type": "rationale_scope",
+      "fact_id": "V03",
+      "fixed_gap_sentence": null,
+      "label": "研究背景限定",
+      "missing_behavior": "hard_fail",
+      "required": true,
+      "required_terms": [],
+      "source_id": "m19_protocol_intro",
+      "source_kind": "protocol",
+      "source_locator": "脱敏合成来源定位",
+      "value": "现有治疗仍存在未满足的临床需求",
+      "value_kind": "verbatim_text",
+      "verbatim_required": true,
+      "zone": "method"
+    },
+    {
+      "entity_type": "development_context",
+      "fact_id": "S01",
+      "fixed_gap_sentence": null,
+      "label": "开发背景",
+      "missing_behavior": "hard_fail",
+      "required": true,
+      "required_terms": [],
+      "source_id": "m19_protocol_intro",
+      "source_kind": "protocol",
+      "source_locator": "脱敏合成来源定位",
+      "value": "本研究用于评价脱敏研究制剂在目标人群中的临床特征",
+      "value_kind": "verbatim_text",
+      "verbatim_required": true,
+      "zone": "method"
+    },
+    {
+      "entity_type": "study_rationale",
+      "fact_id": "S02",
+      "fixed_gap_sentence": null,
+      "label": "研究依据",
+      "missing_behavior": "hard_fail",
+      "required": true,
+      "required_terms": [],
+      "source_id": "m19_brochure",
+      "source_kind": "protocol",
+      "source_locator": "脱敏合成来源定位",
+      "value": "研究设计依据现有非临床和早期临床资料确定",
+      "value_kind": "verbatim_text",
+      "verbatim_required": true,
+      "zone": "method"
+    }
+  ],
+  "narration": "constrained_llm",
+  "policy": {
+    "controlled_causality_terms": [
+      "明确相关",
+      "很可能有关",
+      "可能有关",
+      "不太可能有关",
+      "无关",
+      "未评价",
+      "无法评价"
+    ],
+    "database_numeric_policy": "placeholders_only",
+    "medical_review_marker_required": false,
+    "missing_required_fact": "hard_fail",
+    "outside_fact_content": "hard_fail"
+  },
+  "production_method": "extraction",
+  "schema_version": "1.1",
+  "section_id": "7",
+  "source_manifest": [
+    {
+      "content_sha256": "54c4095730f20a5da167c202fcdfd4cabde7b47159956add49072b2a8fe1636e",
+      "file_role": "protocol",
+      "locator": "脱敏方案 研究背景章节",
+      "source_id": "m19_protocol_intro",
+      "version": "deidentified-synthetic-v1"
+    },
+    {
+      "content_sha256": "9fbe2fc731a341a11918950b574d4e160556c12a9e9dca0161cf961cf0461369",
+      "file_role": "investigator_brochure",
+      "locator": "脱敏研究者手册相关章节",
+      "source_id": "m19_brochure",
+      "version": "deidentified-synthetic-v1"
+    }
+  ],
+  "title": "7 简介"
+}

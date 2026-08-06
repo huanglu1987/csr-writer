@@ -1,0 +1,121 @@
+{
+  "card_id": "M16-METHOD-9-3-1",
+  "controlled_entities": [
+    "SAP",
+    "FAS"
+  ],
+  "facts": [
+    {
+      "entity_type": "全部编号标准",
+      "fact_id": "V01",
+      "fixed_gap_sentence": null,
+      "label": "全部编号标准",
+      "missing_behavior": "hard_fail",
+      "required": true,
+      "required_terms": [],
+      "source_id": "src_9_3_1_1",
+      "source_kind": "protocol",
+      "source_locator": "方案 §9.3.1 入选标准",
+      "value": [
+        "受试者自愿参加并签署知情同意书",
+        "符合方案规定的诊断标准"
+      ],
+      "value_kind": "list",
+      "verbatim_required": true,
+      "zone": "method"
+    },
+    {
+      "entity_type": "数值阈值",
+      "fact_id": "V02",
+      "fixed_gap_sentence": null,
+      "label": "数值阈值",
+      "missing_behavior": "hard_fail",
+      "required": true,
+      "required_terms": [],
+      "source_id": "src_9_3_1_1",
+      "source_kind": "protocol",
+      "source_locator": "方案 §9.3.1 入选标准",
+      "value": "符合方案规定的年龄范围",
+      "value_kind": "verbatim_text",
+      "verbatim_required": true,
+      "zone": "method"
+    },
+    {
+      "entity_type": "时间窗",
+      "fact_id": "V03",
+      "fixed_gap_sentence": null,
+      "label": "时间窗",
+      "missing_behavior": "hard_fail",
+      "required": true,
+      "required_terms": [],
+      "source_id": "src_9_3_1_1",
+      "source_kind": "protocol",
+      "source_locator": "方案 §9.3.1 入选标准",
+      "value": "在筛选期内完成评估",
+      "value_kind": "verbatim_text",
+      "verbatim_required": true,
+      "zone": "method"
+    },
+    {
+      "entity_type": "检查要求",
+      "fact_id": "V04",
+      "fixed_gap_sentence": null,
+      "label": "检查要求",
+      "missing_behavior": "hard_fail",
+      "required": true,
+      "required_terms": [],
+      "source_id": "src_9_3_1_1",
+      "source_kind": "protocol",
+      "source_locator": "方案 §9.3.1 入选标准",
+      "value": "按方案完成规定检查",
+      "value_kind": "verbatim_text",
+      "verbatim_required": true,
+      "zone": "method"
+    },
+    {
+      "entity_type": "例外和限定词",
+      "fact_id": "V05",
+      "fixed_gap_sentence": null,
+      "label": "例外和限定词",
+      "missing_behavior": "hard_fail",
+      "required": true,
+      "required_terms": [],
+      "source_id": "src_9_3_1_1",
+      "source_kind": "protocol",
+      "source_locator": "方案 §9.3.1 入选标准",
+      "value": "适用时遵循方案列明的例外条件",
+      "value_kind": "verbatim_text",
+      "verbatim_required": true,
+      "zone": "method"
+    }
+  ],
+  "narration": "verbatim_list",
+  "policy": {
+    "controlled_causality_terms": [
+      "明确相关",
+      "很可能有关",
+      "可能有关",
+      "不太可能有关",
+      "无关",
+      "未评价",
+      "无法评价"
+    ],
+    "database_numeric_policy": "placeholders_only",
+    "medical_review_marker_required": false,
+    "missing_required_fact": "hard_fail",
+    "outside_fact_content": "hard_fail"
+  },
+  "production_method": "extraction",
+  "schema_version": "1.0",
+  "section_id": "9.3.1",
+  "source_manifest": [
+    {
+      "content_sha256": "20006995a7308a28376a811ba6f96b57ea27b739dd95adf629c0f733183d09b9",
+      "file_role": "protocol",
+      "locator": "方案 §9.3.1 入选标准",
+      "source_id": "src_9_3_1_1",
+      "version": "synthetic-reviewed-v1"
+    }
+  ],
+  "title": "9.3.1 入选标准"
+}

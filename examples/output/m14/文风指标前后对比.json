@@ -1,0 +1,41 @@
+{
+  "m13": {
+    "abstract_noun_count": 12,
+    "average_sentence_length": 29.2,
+    "field_enumeration_paragraph_count": 7,
+    "maximum_sentence_length": 72,
+    "overlong_sentence_count": 4,
+    "prespecified_qualifier_count": 4,
+    "reviewed_qualifier_count": 8,
+    "semicolon_count": 28,
+    "sentence_count": 55,
+    "summary_copula_count": 15
+  },
+  "m14": {
+    "abstract_noun_count": 3,
+    "average_sentence_length": 24.7,
+    "field_enumeration_paragraph_count": 1,
+    "maximum_sentence_length": 55,
+    "overlong_sentence_count": 0,
+    "prespecified_qualifier_count": 0,
+    "reviewed_qualifier_count": 0,
+    "semicolon_count": 7,
+    "sentence_count": 50,
+    "summary_copula_count": 0
+  },
+  "m14_body": {
+    "abstract_noun_count": 2,
+    "average_sentence_length": 24.7,
+    "field_enumeration_paragraph_count": 1,
+    "maximum_sentence_length": 55,
+    "overlong_sentence_count": 0,
+    "prespecified_qualifier_count": 0,
+    "reviewed_qualifier_count": 0,
+    "semicolon_count": 0,
+    "sentence_count": 50,
+    "summary_copula_count": 0
+  },
+  "m14_findings": [],
+  "schema_version": "1.0",
+  "status": "pass"
+}

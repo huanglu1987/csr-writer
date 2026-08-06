@@ -1,0 +1,147 @@
+{
+  "breakpoints": [
+    {
+      "code": "E-TFL-MAP-DRIFT",
+      "failure_location": "csr_writer/docx_result.py:816",
+      "id": "BP-M20-RESULT-DRIFT",
+      "manual_action": "确认 shell-only 和 result-only 实体的处置后重新冻结映射",
+      "release_blocking": true,
+      "stage": "结果 TFL 套值"
+    },
+    {
+      "code": "E-CONSTRAINED-ASSEMBLY-CONTRACT",
+      "failure_location": "csr_writer/cross_chapter.py:151",
+      "id": "BP-M20-CONSTRAINED-ASSEMBLY",
+      "manual_action": null,
+      "release_blocking": false,
+      "resolution": "新增仅接受正向覆盖、文风通过且零占位符产物的严格桥接层",
+      "stage": "受控事实卡产物装配"
+    },
+    {
+      "code": "N-DETERMINISTIC-ASSEMBLY-NOT-UNIFIED",
+      "failure_location": "csr_writer/deterministic_sections.py + csr_writer/m4_assembly.py",
+      "id": "BP-M20-DOCUMENT-COMPOSITION",
+      "manual_action": "当前需人工合卷；本轮不伪装成单一完整 CSR",
+      "release_blocking": true,
+      "stage": "完整 CSR 合卷"
+    }
+  ],
+  "closeout_entered": false,
+  "closeout_reason": "存在映射漂移、人工闸门和两卷未合并的阻断项。",
+  "manual_intervention_gate_count": 4,
+  "manual_intervention_gates": [
+    "study_facts 人工确认",
+    "TFL map 人工确认",
+    "2 段医学负责人确认（本次仅用合成决定演示 clean 闸门）",
+    "shell/result 漂移裁决"
+  ],
+  "mismatched_tables": {
+    "diagnostic_action": "explicit non-release partial datapack",
+    "result_only": [
+      "T14.3.9.1"
+    ],
+    "shell_only": [
+      "T14.2.9.1"
+    ],
+    "strict_action": "hard_fail"
+  },
+  "outputs": {
+    "annotated": "/Users/huanglu/临床试验总结报告撰写/csr-writer/examples/output/m20/true_e2e_final/13_assembly/M20_unfamiliar.annotated.docx",
+    "clean": "/Users/huanglu/临床试验总结报告撰写/csr-writer/examples/output/m20/true_e2e_final/13_assembly/M20_unfamiliar.clean.docx",
+    "deterministic_volume": "/Users/huanglu/临床试验总结报告撰写/csr-writer/examples/output/m20/true_e2e_final/14_deterministic/M20_deterministic_units.docx",
+    "synopsis": "/Users/huanglu/临床试验总结报告撰写/csr-writer/examples/output/m20/true_e2e_final/13_assembly/M20_unfamiliar.synopsis.docx"
+  },
+  "release_eligible": false,
+  "routing_assertions": {
+    "blinding_section_generated": false,
+    "randomization_section_generated": false
+  },
+  "schema_version": "1.0",
+  "status": "completed_with_release_blockers",
+  "steps": [
+    {
+      "code": null,
+      "status": "pass",
+      "step": "输入哈希"
+    },
+    {
+      "code": null,
+      "status": "pass",
+      "step": "方案抽取"
+    },
+    {
+      "code": "H-STUDY-FACTS-CONFIRM",
+      "status": "manual_gate_simulated",
+      "step": "study_facts 人工确认输入"
+    },
+    {
+      "blinding_generated": false,
+      "code": null,
+      "randomization_generated": false,
+      "status": "pass",
+      "step": "模块路由"
+    },
+    {
+      "code": null,
+      "status": "pass",
+      "step": "TFL shell 提议"
+    },
+    {
+      "code": "H-TFL-MAP-CONFIRM",
+      "status": "manual_gate_simulated",
+      "step": "TFL map 确认与冻结"
+    },
+    {
+      "code": "E-TFL-MAP-DRIFT",
+      "failure_location": "csr_writer/docx_result.py:816",
+      "status": "blocked",
+      "step": "结果 TFL 严格套值"
+    },
+    {
+      "code": null,
+      "release_eligible": false,
+      "status": "diagnostic_only",
+      "step": "诊断性部分套值"
+    },
+    {
+      "code": "E-FACT-CARD-FORWARD-COVERAGE",
+      "failure_location": "csr_writer/constrained_narration.py:1812",
+      "status": "blocked_then_retried",
+      "step": "方法学有限自由首稿"
+    },
+    {
+      "code": null,
+      "status": "pass",
+      "step": "SAE 逐字预审句"
+    },
+    {
+      "code": null,
+      "n3_unsourced_attack": "blocked",
+      "status": "pass",
+      "step": "结果写手+条件化结论+三道数值守卫"
+    },
+    {
+      "code": null,
+      "simulated_medical_decisions": 2,
+      "status": "diagnostic_only",
+      "step": "clean/annotated 正文装配"
+    },
+    {
+      "code": "N-DETERMINISTIC-ASSEMBLY-NOT-UNIFIED",
+      "model_called": false,
+      "status": "pass_separate_volume",
+      "step": "48 个确定性单元+4 个模板"
+    },
+    {
+      "code": null,
+      "status": "attention_required",
+      "step": "反向溯源与 QC"
+    }
+  ],
+  "three_paths": {
+    "deterministic_generation": "pass_separate_volume",
+    "guarded_result_writer": "pass",
+    "method_limited_free": "pass_after_one_guarded_retry",
+    "sae_exact_reviewed_surface": "pass"
+  }
+}

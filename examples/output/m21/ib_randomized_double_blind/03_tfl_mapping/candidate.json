@@ -1,0 +1,683 @@
+{
+  "candidate_sha256": "a6c6b8abc0a5bbfe74ee97c02044825df27557505e444fd467a143fa52ed68a6",
+  "entities": [
+    {
+      "cell_contracts": [
+        {
+          "column_id": "C1_0PCT_QD",
+          "column_index": 2,
+          "column_label": "C1_0PCT_QD",
+          "dimensions": {},
+          "key": "T14.1.1.2|POP=FAS|ROW=COMPLETED|COL=C1_0PCT_QD",
+          "row_id": "COMPLETED",
+          "row_indent": 0,
+          "row_index": 2,
+          "row_label": "COMPLETED",
+          "row_parent_path": null,
+          "type": "statistic"
+        },
+        {
+          "column_id": "PBO",
+          "column_index": 1,
+          "column_label": "PBO",
+          "dimensions": {},
+          "key": "T14.1.1.2|POP=FAS|ROW=COMPLETED|COL=PBO",
+          "row_id": "COMPLETED",
+          "row_indent": 0,
+          "row_index": 2,
+          "row_label": "COMPLETED",
+          "row_parent_path": null,
+          "type": "statistic"
+        },
+        {
+          "column_id": "C1_0PCT_QD",
+          "column_index": 2,
+          "column_label": "C1_0PCT_QD",
+          "dimensions": {},
+          "key": "T14.1.1.2|POP=FAS|ROW=N|COL=C1_0PCT_QD",
+          "row_id": "N",
+          "row_indent": 0,
+          "row_index": 1,
+          "row_label": "N",
+          "row_parent_path": null,
+          "type": "count"
+        },
+        {
+          "column_id": "PBO",
+          "column_index": 1,
+          "column_label": "PBO",
+          "dimensions": {},
+          "key": "T14.1.1.2|POP=FAS|ROW=N|COL=PBO",
+          "row_id": "N",
+          "row_indent": 0,
+          "row_index": 1,
+          "row_label": "N",
+          "row_parent_path": null,
+          "type": "count"
+        }
+      ],
+      "deferred_row_contract": null,
+      "dimensions": {},
+      "entity_id": "T14.1.1.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "10.1"
+      ],
+      "ingest_strategy": "cell_level",
+      "layout_reference": null,
+      "population": "FAS",
+      "semantic_keys": [
+        "T14.1.1.2|POP=FAS|ROW=COMPLETED|COL=C1_0PCT_QD",
+        "T14.1.1.2|POP=FAS|ROW=COMPLETED|COL=PBO",
+        "T14.1.1.2|POP=FAS|ROW=N|COL=C1_0PCT_QD",
+        "T14.1.1.2|POP=FAS|ROW=N|COL=PBO"
+      ],
+      "structure_sha256": "ccfd96ca090521e6cc928a71d2f832154c50417552ed5dd42cd19ef4789d763e",
+      "titles": []
+    },
+    {
+      "cell_contracts": [
+        {
+          "column_id": "C1_0PCT_QD",
+          "column_index": 2,
+          "column_label": "C1_0PCT_QD",
+          "dimensions": {},
+          "key": "T14.1.2.1|POP=FAS|ROW=MEAN|COL=C1_0PCT_QD",
+          "row_id": "MEAN",
+          "row_indent": 0,
+          "row_index": 2,
+          "row_label": "MEAN",
+          "row_parent_path": null,
+          "type": "statistic"
+        },
+        {
+          "column_id": "PBO",
+          "column_index": 1,
+          "column_label": "PBO",
+          "dimensions": {},
+          "key": "T14.1.2.1|POP=FAS|ROW=MEAN|COL=PBO",
+          "row_id": "MEAN",
+          "row_indent": 0,
+          "row_index": 2,
+          "row_label": "MEAN",
+          "row_parent_path": null,
+          "type": "statistic"
+        },
+        {
+          "column_id": "C1_0PCT_QD",
+          "column_index": 2,
+          "column_label": "C1_0PCT_QD",
+          "dimensions": {},
+          "key": "T14.1.2.1|POP=FAS|ROW=N|COL=C1_0PCT_QD",
+          "row_id": "N",
+          "row_indent": 0,
+          "row_index": 1,
+          "row_label": "N",
+          "row_parent_path": null,
+          "type": "count"
+        },
+        {
+          "column_id": "PBO",
+          "column_index": 1,
+          "column_label": "PBO",
+          "dimensions": {},
+          "key": "T14.1.2.1|POP=FAS|ROW=N|COL=PBO",
+          "row_id": "N",
+          "row_indent": 0,
+          "row_index": 1,
+          "row_label": "N",
+          "row_parent_path": null,
+          "type": "count"
+        },
+        {
+          "column_id": "C1_0PCT_QD",
+          "column_index": 2,
+          "column_label": "C1_0PCT_QD",
+          "dimensions": {},
+          "key": "T14.1.2.1|POP=FAS|ROW=SD|COL=C1_0PCT_QD",
+          "row_id": "SD",
+          "row_indent": 0,
+          "row_index": 3,
+          "row_label": "SD",
+          "row_parent_path": null,
+          "type": "statistic"
+        },
+        {
+          "column_id": "PBO",
+          "column_index": 1,
+          "column_label": "PBO",
+          "dimensions": {},
+          "key": "T14.1.2.1|POP=FAS|ROW=SD|COL=PBO",
+          "row_id": "SD",
+          "row_indent": 0,
+          "row_index": 3,
+          "row_label": "SD",
+          "row_parent_path": null,
+          "type": "statistic"
+        }
+      ],
+      "deferred_row_contract": null,
+      "dimensions": {},
+      "entity_id": "T14.1.2.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.2"
+      ],
+      "ingest_strategy": "cell_level",
+      "layout_reference": null,
+      "population": "FAS",
+      "semantic_keys": [
+        "T14.1.2.1|POP=FAS|ROW=MEAN|COL=C1_0PCT_QD",
+        "T14.1.2.1|POP=FAS|ROW=MEAN|COL=PBO",
+        "T14.1.2.1|POP=FAS|ROW=N|COL=C1_0PCT_QD",
+        "T14.1.2.1|POP=FAS|ROW=N|COL=PBO",
+        "T14.1.2.1|POP=FAS|ROW=SD|COL=C1_0PCT_QD",
+        "T14.1.2.1|POP=FAS|ROW=SD|COL=PBO"
+      ],
+      "structure_sha256": "e9a127646ca2db9ae88b08211214d51ef83d2997a808d3468c90a01d4b872e7f",
+      "titles": []
+    },
+    {
+      "cell_contracts": [],
+      "deferred_row_contract": {
+        "detection": "nonsemantic_row_id",
+        "expected_semantic_source": "whodrug_atc_and_drug_name_from_result_tfl",
+        "frozen_column_ids": [
+          "PBO",
+          "C1_0PCT_QD"
+        ],
+        "materialize_at": "result_tfl",
+        "schema_version": "1.0",
+        "shell_placeholder_row_count": 2,
+        "stable_row_count": 0,
+        "template_placeholder_row_count": 0
+      },
+      "dimensions": {},
+      "entity_id": "T14.1.4.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.2"
+      ],
+      "ingest_strategy": "columns_only_deferred_rows",
+      "layout_reference": null,
+      "population": "FAS",
+      "semantic_keys": [],
+      "structure_sha256": "b715fd2292113428bfe25f2700b9b86572e45324cdba78703c083acbfdd11f54",
+      "titles": []
+    },
+    {
+      "cell_contracts": [
+        {
+          "column_id": "C1_0PCT_QD",
+          "column_index": 2,
+          "column_label": "C1_0PCT_QD",
+          "dimensions": {},
+          "key": "T14.2.2.1.1|POP=FAS|ROW=LS_MEAN_DIFFERENCE_CI95|COL=C1_0PCT_QD",
+          "row_id": "LS_MEAN_DIFFERENCE_CI95",
+          "row_indent": 0,
+          "row_index": 5,
+          "row_label": "LS_MEAN_DIFFERENCE_CI95",
+          "row_parent_path": null,
+          "type": "ci95"
+        },
+        {
+          "column_id": "PBO",
+          "column_index": 1,
+          "column_label": "PBO",
+          "dimensions": {},
+          "key": "T14.2.2.1.1|POP=FAS|ROW=LS_MEAN_DIFFERENCE_CI95|COL=PBO",
+          "row_id": "LS_MEAN_DIFFERENCE_CI95",
+          "row_indent": 0,
+          "row_index": 5,
+          "row_label": "LS_MEAN_DIFFERENCE_CI95",
+          "row_parent_path": null,
+          "type": "ci95"
+        },
+        {
+          "column_id": "C1_0PCT_QD",
+          "column_index": 2,
+          "column_label": "C1_0PCT_QD",
+          "dimensions": {},
+          "key": "T14.2.2.1.1|POP=FAS|ROW=LS_MEAN_DIFFERENCE|COL=C1_0PCT_QD",
+          "row_id": "LS_MEAN_DIFFERENCE",
+          "row_indent": 0,
+          "row_index": 4,
+          "row_label": "LS_MEAN_DIFFERENCE",
+          "row_parent_path": null,
+          "type": "statistic"
+        },
+        {
+          "column_id": "PBO",
+          "column_index": 1,
+          "column_label": "PBO",
+          "dimensions": {},
+          "key": "T14.2.2.1.1|POP=FAS|ROW=LS_MEAN_DIFFERENCE|COL=PBO",
+          "row_id": "LS_MEAN_DIFFERENCE",
+          "row_indent": 0,
+          "row_index": 4,
+          "row_label": "LS_MEAN_DIFFERENCE",
+          "row_parent_path": null,
+          "type": "statistic"
+        },
+        {
+          "column_id": "C1_0PCT_QD",
+          "column_index": 2,
+          "column_label": "C1_0PCT_QD",
+          "dimensions": {},
+          "key": "T14.2.2.1.1|POP=FAS|ROW=MEAN|COL=C1_0PCT_QD",
+          "row_id": "MEAN",
+          "row_indent": 0,
+          "row_index": 2,
+          "row_label": "MEAN",
+          "row_parent_path": null,
+          "type": "statistic"
+        },
+        {
+          "column_id": "PBO",
+          "column_index": 1,
+          "column_label": "PBO",
+          "dimensions": {},
+          "key": "T14.2.2.1.1|POP=FAS|ROW=MEAN|COL=PBO",
+          "row_id": "MEAN",
+          "row_indent": 0,
+          "row_index": 2,
+          "row_label": "MEAN",
+          "row_parent_path": null,
+          "type": "statistic"
+        },
+        {
+          "column_id": "C1_0PCT_QD",
+          "column_index": 2,
+          "column_label": "C1_0PCT_QD",
+          "dimensions": {},
+          "key": "T14.2.2.1.1|POP=FAS|ROW=N|COL=C1_0PCT_QD",
+          "row_id": "N",
+          "row_indent": 0,
+          "row_index": 1,
+          "row_label": "N",
+          "row_parent_path": null,
+          "type": "count"
+        },
+        {
+          "column_id": "PBO",
+          "column_index": 1,
+          "column_label": "PBO",
+          "dimensions": {},
+          "key": "T14.2.2.1.1|POP=FAS|ROW=N|COL=PBO",
+          "row_id": "N",
+          "row_indent": 0,
+          "row_index": 1,
+          "row_label": "N",
+          "row_parent_path": null,
+          "type": "count"
+        },
+        {
+          "column_id": "C1_0PCT_QD",
+          "column_index": 2,
+          "column_label": "C1_0PCT_QD",
+          "dimensions": {},
+          "key": "T14.2.2.1.1|POP=FAS|ROW=P_VALUE|COL=C1_0PCT_QD",
+          "row_id": "P_VALUE",
+          "row_indent": 0,
+          "row_index": 6,
+          "row_label": "P_VALUE",
+          "row_parent_path": null,
+          "type": "pvalue"
+        },
+        {
+          "column_id": "PBO",
+          "column_index": 1,
+          "column_label": "PBO",
+          "dimensions": {},
+          "key": "T14.2.2.1.1|POP=FAS|ROW=P_VALUE|COL=PBO",
+          "row_id": "P_VALUE",
+          "row_indent": 0,
+          "row_index": 6,
+          "row_label": "P_VALUE",
+          "row_parent_path": null,
+          "type": "pvalue"
+        },
+        {
+          "column_id": "C1_0PCT_QD",
+          "column_index": 2,
+          "column_label": "C1_0PCT_QD",
+          "dimensions": {},
+          "key": "T14.2.2.1.1|POP=FAS|ROW=SD|COL=C1_0PCT_QD",
+          "row_id": "SD",
+          "row_indent": 0,
+          "row_index": 3,
+          "row_label": "SD",
+          "row_parent_path": null,
+          "type": "statistic"
+        },
+        {
+          "column_id": "PBO",
+          "column_index": 1,
+          "column_label": "PBO",
+          "dimensions": {},
+          "key": "T14.2.2.1.1|POP=FAS|ROW=SD|COL=PBO",
+          "row_id": "SD",
+          "row_indent": 0,
+          "row_index": 3,
+          "row_label": "SD",
+          "row_parent_path": null,
+          "type": "statistic"
+        }
+      ],
+      "deferred_row_contract": null,
+      "dimensions": {},
+      "entity_id": "T14.2.2.1.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "11.4"
+      ],
+      "ingest_strategy": "cell_level",
+      "layout_reference": null,
+      "population": "FAS",
+      "semantic_keys": [
+        "T14.2.2.1.1|POP=FAS|ROW=LS_MEAN_DIFFERENCE_CI95|COL=C1_0PCT_QD",
+        "T14.2.2.1.1|POP=FAS|ROW=LS_MEAN_DIFFERENCE_CI95|COL=PBO",
+        "T14.2.2.1.1|POP=FAS|ROW=LS_MEAN_DIFFERENCE|COL=C1_0PCT_QD",
+        "T14.2.2.1.1|POP=FAS|ROW=LS_MEAN_DIFFERENCE|COL=PBO",
+        "T14.2.2.1.1|POP=FAS|ROW=MEAN|COL=C1_0PCT_QD",
+        "T14.2.2.1.1|POP=FAS|ROW=MEAN|COL=PBO",
+        "T14.2.2.1.1|POP=FAS|ROW=N|COL=C1_0PCT_QD",
+        "T14.2.2.1.1|POP=FAS|ROW=N|COL=PBO",
+        "T14.2.2.1.1|POP=FAS|ROW=P_VALUE|COL=C1_0PCT_QD",
+        "T14.2.2.1.1|POP=FAS|ROW=P_VALUE|COL=PBO",
+        "T14.2.2.1.1|POP=FAS|ROW=SD|COL=C1_0PCT_QD",
+        "T14.2.2.1.1|POP=FAS|ROW=SD|COL=PBO"
+      ],
+      "structure_sha256": "31e4354677957db3493ae7a8e38a21787500aafff00300437e4c0756d2865c76",
+      "titles": []
+    },
+    {
+      "cell_contracts": [],
+      "deferred_row_contract": {
+        "detection": "nonsemantic_row_id",
+        "expected_semantic_source": "meddra_soc_pt_from_result_tfl",
+        "frozen_column_ids": [
+          "PBO",
+          "C1_0PCT_QD"
+        ],
+        "materialize_at": "result_tfl",
+        "schema_version": "1.0",
+        "shell_placeholder_row_count": 3,
+        "stable_row_count": 0,
+        "template_placeholder_row_count": 0
+      },
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12.2"
+      ],
+      "ingest_strategy": "columns_only_deferred_rows",
+      "layout_reference": null,
+      "population": "SS",
+      "semantic_keys": [],
+      "structure_sha256": "3635b09eade09c8b0073ac6539bd61165ac85c917f4916a5d7625180b1438b57",
+      "titles": []
+    },
+    {
+      "cell_contracts": [
+        {
+          "column_id": "C1_0PCT_QD",
+          "column_index": 2,
+          "column_label": "C1_0PCT_QD",
+          "dimensions": {},
+          "key": "T14.3.1.3.2|POP=SS|ROW=N|COL=C1_0PCT_QD",
+          "row_id": "N",
+          "row_indent": 0,
+          "row_index": 1,
+          "row_label": "N",
+          "row_parent_path": null,
+          "type": "count"
+        },
+        {
+          "column_id": "PBO",
+          "column_index": 1,
+          "column_label": "PBO",
+          "dimensions": {},
+          "key": "T14.3.1.3.2|POP=SS|ROW=N|COL=PBO",
+          "row_id": "N",
+          "row_indent": 0,
+          "row_index": 1,
+          "row_label": "N",
+          "row_parent_path": null,
+          "type": "count"
+        }
+      ],
+      "deferred_row_contract": {
+        "detection": "nonsemantic_row_id",
+        "expected_semantic_source": "meddra_soc_pt_from_result_tfl",
+        "frozen_column_ids": [
+          "PBO",
+          "C1_0PCT_QD"
+        ],
+        "materialize_at": "result_tfl",
+        "schema_version": "1.0",
+        "shell_placeholder_row_count": 2,
+        "stable_row_count": 1,
+        "template_placeholder_row_count": 0
+      },
+      "dimensions": {},
+      "entity_id": "T14.3.1.3.2",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12.2"
+      ],
+      "ingest_strategy": "mixed_stable_and_deferred_rows",
+      "layout_reference": null,
+      "population": "SS",
+      "semantic_keys": [
+        "T14.3.1.3.2|POP=SS|ROW=N|COL=C1_0PCT_QD",
+        "T14.3.1.3.2|POP=SS|ROW=N|COL=PBO"
+      ],
+      "structure_sha256": "d7b8d555a1dd2c6ffdead63e80e9a42c6533944664c7a08c8cabff6b5fd8c562",
+      "titles": []
+    },
+    {
+      "cell_contracts": [
+        {
+          "column_id": "C1_0PCT_QD",
+          "column_index": 2,
+          "column_label": "C1_0PCT_QD",
+          "dimensions": {},
+          "key": "T14.3.2.1|POP=SS|ROW=N|COL=C1_0PCT_QD",
+          "row_id": "N",
+          "row_indent": 0,
+          "row_index": 1,
+          "row_label": "N",
+          "row_parent_path": null,
+          "type": "count"
+        },
+        {
+          "column_id": "PBO",
+          "column_index": 1,
+          "column_label": "PBO",
+          "dimensions": {},
+          "key": "T14.3.2.1|POP=SS|ROW=N|COL=PBO",
+          "row_id": "N",
+          "row_indent": 0,
+          "row_index": 1,
+          "row_label": "N",
+          "row_parent_path": null,
+          "type": "count"
+        }
+      ],
+      "deferred_row_contract": null,
+      "dimensions": {},
+      "entity_id": "T14.3.2.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "cell_level",
+      "layout_reference": null,
+      "population": "SS",
+      "semantic_keys": [
+        "T14.3.2.1|POP=SS|ROW=N|COL=C1_0PCT_QD",
+        "T14.3.2.1|POP=SS|ROW=N|COL=PBO"
+      ],
+      "structure_sha256": "c1ddc9f226226e1c510f051ccfe2b756ec122933cdab01c901a17abf0620fb5c",
+      "titles": []
+    },
+    {
+      "cell_contracts": [
+        {
+          "column_id": "C1_0PCT_QD",
+          "column_index": 2,
+          "column_label": "C1_0PCT_QD",
+          "dimensions": {},
+          "key": "T14.3.3.1|POP=SS|ROW=N|COL=C1_0PCT_QD",
+          "row_id": "N",
+          "row_indent": 0,
+          "row_index": 1,
+          "row_label": "N",
+          "row_parent_path": null,
+          "type": "count"
+        },
+        {
+          "column_id": "PBO",
+          "column_index": 1,
+          "column_label": "PBO",
+          "dimensions": {},
+          "key": "T14.3.3.1|POP=SS|ROW=N|COL=PBO",
+          "row_id": "N",
+          "row_indent": 0,
+          "row_index": 1,
+          "row_label": "N",
+          "row_parent_path": null,
+          "type": "count"
+        }
+      ],
+      "deferred_row_contract": null,
+      "dimensions": {},
+      "entity_id": "T14.3.3.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "cell_level",
+      "layout_reference": null,
+      "population": "SS",
+      "semantic_keys": [
+        "T14.3.3.1|POP=SS|ROW=N|COL=C1_0PCT_QD",
+        "T14.3.3.1|POP=SS|ROW=N|COL=PBO"
+      ],
+      "structure_sha256": "75d0706fff405f64fe7a7a6d57b6658855e4645f94d90f583eae157388180f8f",
+      "titles": []
+    },
+    {
+      "cell_contracts": [
+        {
+          "column_id": "C1_0PCT_QD",
+          "column_index": 2,
+          "column_label": "C1_0PCT_QD",
+          "dimensions": {},
+          "key": "T14.3.4.1|POP=SS|ROW=MEAN|COL=C1_0PCT_QD",
+          "row_id": "MEAN",
+          "row_indent": 0,
+          "row_index": 2,
+          "row_label": "MEAN",
+          "row_parent_path": null,
+          "type": "statistic"
+        },
+        {
+          "column_id": "PBO",
+          "column_index": 1,
+          "column_label": "PBO",
+          "dimensions": {},
+          "key": "T14.3.4.1|POP=SS|ROW=MEAN|COL=PBO",
+          "row_id": "MEAN",
+          "row_indent": 0,
+          "row_index": 2,
+          "row_label": "MEAN",
+          "row_parent_path": null,
+          "type": "statistic"
+        },
+        {
+          "column_id": "C1_0PCT_QD",
+          "column_index": 2,
+          "column_label": "C1_0PCT_QD",
+          "dimensions": {},
+          "key": "T14.3.4.1|POP=SS|ROW=N|COL=C1_0PCT_QD",
+          "row_id": "N",
+          "row_indent": 0,
+          "row_index": 1,
+          "row_label": "N",
+          "row_parent_path": null,
+          "type": "count"
+        },
+        {
+          "column_id": "PBO",
+          "column_index": 1,
+          "column_label": "PBO",
+          "dimensions": {},
+          "key": "T14.3.4.1|POP=SS|ROW=N|COL=PBO",
+          "row_id": "N",
+          "row_indent": 0,
+          "row_index": 1,
+          "row_label": "N",
+          "row_parent_path": null,
+          "type": "count"
+        },
+        {
+          "column_id": "C1_0PCT_QD",
+          "column_index": 2,
+          "column_label": "C1_0PCT_QD",
+          "dimensions": {},
+          "key": "T14.3.4.1|POP=SS|ROW=SD|COL=C1_0PCT_QD",
+          "row_id": "SD",
+          "row_indent": 0,
+          "row_index": 3,
+          "row_label": "SD",
+          "row_parent_path": null,
+          "type": "statistic"
+        },
+        {
+          "column_id": "PBO",
+          "column_index": 1,
+          "column_label": "PBO",
+          "dimensions": {},
+          "key": "T14.3.4.1|POP=SS|ROW=SD|COL=PBO",
+          "row_id": "SD",
+          "row_indent": 0,
+          "row_index": 3,
+          "row_label": "SD",
+          "row_parent_path": null,
+          "type": "statistic"
+        }
+      ],
+      "deferred_row_contract": null,
+      "dimensions": {},
+      "entity_id": "T14.3.4.1",
+      "entity_kind": "table",
+      "ich_e3_sections": [
+        "12"
+      ],
+      "ingest_strategy": "cell_level",
+      "layout_reference": null,
+      "population": "SS",
+      "semantic_keys": [
+        "T14.3.4.1|POP=SS|ROW=MEAN|COL=C1_0PCT_QD",
+        "T14.3.4.1|POP=SS|ROW=MEAN|COL=PBO",
+        "T14.3.4.1|POP=SS|ROW=N|COL=C1_0PCT_QD",
+        "T14.3.4.1|POP=SS|ROW=N|COL=PBO",
+        "T14.3.4.1|POP=SS|ROW=SD|COL=C1_0PCT_QD",
+        "T14.3.4.1|POP=SS|ROW=SD|COL=PBO"
+      ],
+      "structure_sha256": "1e191edf9fda27efd121325c9b09dd65ddad8d92205371ac54ba8d3cbdc30cb5",
+      "titles": []
+    }
+  ],
+  "map_version": "M21-IB-RANDOMIZED-DOUBLE-BLIND-1",
+  "numbering_system": {
+    "description": "explicit ICH 14.x to CSR section profile",
+    "id": "configured-ich-14x"
+  },
+  "schema_version": "1.0",
+  "shell_datapack_sha256": "a9933c7db5e194f523b6970197a942873d742dd676252956736e07a5c78c6085",
+  "status": "awaiting_human_confirmation"
+}

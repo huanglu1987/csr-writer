@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "compliance_no_source_no_inference": true,
+    "compliance_source_available_rule": true,
+    "sae_old_blanket_ban_removed": true,
+    "sae_v14_authority": true,
+    "sae_zone_a_automatic": true,
+    "sae_zone_b_source_boundary": true,
+    "sae_zone_c_human_only": true
+  },
+  "files": [
+    {
+      "role": "sae_narrative_playbook",
+      "sha256": "90d8ed8578c8baed98873b1ac743b14f3cbe92d991f6a539c9297d646a08a8e5"
+    },
+    {
+      "role": "treatment_compliance_playbook",
+      "sha256": "5e24e9dce3de4ab36402db143b3a41eb4abdfaba92b14240387d9e276ef0c254"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "pass"
+}

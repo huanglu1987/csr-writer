@@ -1,0 +1,10 @@
+{
+  "actual": "rejected",
+  "attack": "forward_coverage status changed from pass to blocked",
+  "error": "E-COMPOSE-GUARD-PROOF: constrained artifact 0 was rejected: E-CONSTRAINED-ASSEMBLY-COVERAGE: positive-coverage certification is absent",
+  "error_code": "E-COMPOSE-GUARD-PROOF",
+  "failure_location": "csr_writer/unified_orchestrator.py:144",
+  "output_created": false,
+  "schema_version": "1.0",
+  "status": "pass"
+}

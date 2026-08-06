@@ -1,0 +1,47 @@
+{
+  "external_model_api_called": false,
+  "field_checks": [
+    {
+      "fact_id": "V01",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V02",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V03",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V04",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V05",
+      "match_mode": "exact_string",
+      "status": "pass"
+    }
+  ],
+  "field_count": 5,
+  "field_coverage_percent": 100.0,
+  "field_reference_count": 5,
+  "narration": "verbatim_list",
+  "production_method": "extraction",
+  "schema_version": "1.0",
+  "section_id": "9.3.2",
+  "source_manifest": [
+    {
+      "content_sha256": "db7e38a289ad2ec3aad5cce44e63fd37713a637ce13ef9675aee2fb39cd3055a",
+      "file_role": "protocol",
+      "locator": "方案 §9.3.2 排除标准",
+      "source_id": "src_9_3_2_1",
+      "version": "synthetic-reviewed-v1"
+    }
+  ],
+  "status": "pass"
+}

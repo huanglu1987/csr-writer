@@ -1,0 +1,114 @@
+{
+  "adversary": {
+    "method": {
+      "candidates": 61751,
+      "pass_percent": 7.2161,
+      "passes": 4456
+    },
+    "sae": {
+      "candidates": 17037,
+      "pass_percent": 0.0,
+      "passes": 0
+    }
+  },
+  "f8": {
+    "frozen_shell_side": {
+      "denominator": 364,
+      "matched": 22,
+      "question": "壳阶段明确冻结的单元契约有多少已被结果值填满？",
+      "rate": 0.0604
+    },
+    "result_side": {
+      "denominator": 250,
+      "matched": 147,
+      "question": "结果 TFL 中已识别的语义值有多少能套入冻结映射？",
+      "rate": 0.588
+    }
+  },
+  "guard_bundle_sha256": "2c7892318ac6a01a42d07ee61a74f7f1a61eea5d99ae7d2fae9a6cc046611797",
+  "guarded_section_writer": {
+    "attacks": 451,
+    "raw_passes": 3,
+    "runtime_unwired": [
+      "11.3",
+      "12.3.1.1",
+      "12.3.1.2",
+      "12.3.1.3",
+      "12.3.3",
+      "12.4.2.1",
+      "12.4.2.2",
+      "12.4.2.3"
+    ],
+    "sentence_driven_open_finding": [
+      "11.5.10",
+      "11.6.7",
+      "13"
+    ],
+    "units": 34
+  },
+  "holdout": {
+    "method": {
+      "blocked": 9,
+      "denominator": 56,
+      "false_positive_percent": 16.07
+    },
+    "sae": {
+      "blocked": 16,
+      "denominator": 16,
+      "false_positive_percent": 100.0
+    }
+  },
+  "method_actual_prose_unit_count": 8,
+  "n5": {
+    "active_unspecified_keys": 0,
+    "release_eligible": false,
+    "retired_unspecified_keys": 28
+  },
+  "new_finding_count": 7,
+  "sae_exact_path_card_count": 3,
+  "schema_version": "1.0",
+  "split_paths": {
+    "methodology": {
+      "mode": "whole atomic values plus optional own-label binding",
+      "section_ids": [
+        "6",
+        "7",
+        "9.1",
+        "9.2",
+        "9.4.1",
+        "9.4.2",
+        "9.4.3",
+        "9.4.4",
+        "9.4.5",
+        "9.4.6",
+        "9.4.8",
+        "9.5.2",
+        "9.5.3",
+        "9.5.4",
+        "9.5.6",
+        "9.5.7",
+        "9.5.8",
+        "9.5.9",
+        "9.6",
+        "9.7.1",
+        "9.7.2",
+        "9.8",
+        "10.1",
+        "10.2",
+        "10.3.1",
+        "10.3.2",
+        "10.3.3",
+        "10.3.4",
+        "10.3.5"
+      ]
+    },
+    "sae": {
+      "mode": "exact reviewed authorized_surface_forms",
+      "section_ids": [
+        "12.3.2"
+      ]
+    }
+  },
+  "status": "implemented_with_open_findings_reported",
+  "threshold_selected_by_implementation": false
+}

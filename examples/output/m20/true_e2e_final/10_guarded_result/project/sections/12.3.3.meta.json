@@ -1,0 +1,148 @@
+{
+  "agent_interface": {
+    "agent_draft_sha256": "04a71bd6081d9d863873cd6666b27b9ce5b49460054df023334d21f5ecb488aa",
+    "envelope_sha256": "be8fb1fff291561591cedbab0f559c183dc9ba42cad35d626783a3917fb9370e",
+    "external_model_api_called": false,
+    "interface": "csr-writer-agent-section-v1",
+    "prior_guard_report_sha256s": []
+  },
+  "binding_manifest": [
+    {
+      "context_sha256": "aa328f72870f3590325e0b2b830b397d8e5c45f0b60b8e4f8c4526824c86eb31",
+      "key": "T14.3.2.1|POP=SAF|ROW=RESULT_重要医学事件/RESULT_死亡|COL=ACTIVE_TOTAL_N_PCT",
+      "role": "death_count",
+      "source_id": "T14.3.2.1"
+    },
+    {
+      "context_sha256": "90364cd145ba9bff91c411955c7a21302652c81716bb97b9f0a2d0113998cdae",
+      "key": "T14.3.2.1|POP=SAF|ROW=RESULT_重要医学事件/RESULT_严重不良事件|COL=ACTIVE_TOTAL_N_PCT",
+      "role": "sae_count",
+      "source_id": "T14.3.2.1"
+    },
+    {
+      "context_sha256": "5c22ed0c71ff4089c84c33ae7be2229a98878164f047a9fd347c3b2a7ac9924f",
+      "key": "T14.3.2.1|POP=SAF|ROW=RESULT_重要医学事件/RESULT_其他重要不良事件|COL=ACTIVE_TOTAL_N_PCT",
+      "role": "important_ae_count",
+      "source_id": "T14.3.2.1"
+    },
+    {
+      "context_sha256": "638f410d2075564a237d7a95fcf40d883b3185b3698457fab2ab54e41121c2f2",
+      "key": "T14.3.2.1|POP=SAF|ROW=RESULT_重要医学事件/RESULT_导致永久停药|COL=ACTIVE_TOTAL_N_PCT",
+      "role": "discontinuation_count",
+      "source_id": "T14.3.2.1"
+    }
+  ],
+  "draft_sha256": "c1f1ab1566369864d32759489fda84197f7173f7c062a30c5dd3ea9814b977a1",
+  "evidence_status": "demo_only",
+  "generation_attempts": 1,
+  "guard_retry_count": 0,
+  "input_sha256": "e6ff93c1c3aa0b49005b344836fb713a27a3b9c5998a5b3a91f0a779cde8a591",
+  "paragraphs": [
+    {
+      "conditional_conclusions": [
+        "SERIOUS_EVENT_ANALYSIS_V1"
+      ],
+      "confidence": "inferred",
+      "needs_human": true,
+      "para_id": "p_12_3_3_001",
+      "placeholders": [
+        "T14.3.2.1|POP=SAF|ROW=RESULT_重要医学事件/RESULT_死亡|COL=ACTIVE_TOTAL_N_PCT",
+        "T14.3.2.1|POP=SAF|ROW=RESULT_重要医学事件/RESULT_严重不良事件|COL=ACTIVE_TOTAL_N_PCT",
+        "T14.3.2.1|POP=SAF|ROW=RESULT_重要医学事件/RESULT_其他重要不良事件|COL=ACTIVE_TOTAL_N_PCT",
+        "T14.3.2.1|POP=SAF|ROW=RESULT_重要医学事件/RESULT_导致永久停药|COL=ACTIVE_TOTAL_N_PCT"
+      ],
+      "references": [
+        "T14.3.2.1"
+      ],
+      "semantic_findings": [
+        {
+          "category": "conclusion_section_default",
+          "code": "S-CONCLUSION-REVIEW",
+          "end": 52,
+          "matched_text": "<entire-paragraph>",
+          "message": "Conclusion-section paragraph requires medical-owner review",
+          "pattern_id": "conclusion-section-default",
+          "start": 0
+        }
+      ],
+      "sources": [
+        "T14.3.2.1",
+        "M20-SAFETY-METHOD"
+      ]
+    }
+  ],
+  "playbook": {
+    "filename": "s12-3-3-serious-event-analysis.md",
+    "sha256": "c1f505dbb4d1c9fb8e2070e86d5b01aeafd58eb98245e5a02acd91a137876dcb"
+  },
+  "production_authorization": {
+    "authoring_unit": true,
+    "narration": "guarded_section_writer",
+    "production_method": "llm_drafting",
+    "production_profile": "guarded_result_drafting",
+    "release_scope": "registered_authoring_unit",
+    "runtime_alias_only": false,
+    "section_id": "12.3.3"
+  },
+  "prompt_audit": [],
+  "reference_manifest": [
+    {
+      "entity_id": "T14.3.2.1",
+      "frozen_map_sha256": null,
+      "verified_by": "binding_manifest"
+    }
+  ],
+  "schema_version": "1.2",
+  "section": "12.3.3",
+  "semantic_findings": [
+    {
+      "category": "conclusion_section_default",
+      "code": "S-CONCLUSION-REVIEW",
+      "end": 52,
+      "matched_text": "<entire-paragraph>",
+      "message": "Conclusion-section paragraph requires medical-owner review",
+      "para_id": "p_12_3_3_001",
+      "pattern_id": "conclusion-section-default",
+      "start": 0
+    }
+  ],
+  "source_manifest": [
+    {
+      "content_sha256": "1c7e63e3a5a2a14a210f5a6ee546916586859a3fd4e51c9dcb8f53458e914755",
+      "locator": "脱敏合成方案 §12 安全性评价",
+      "purpose": "safety_definition",
+      "source_id": "M20-SAFETY-METHOD"
+    }
+  ],
+  "style_qc": {
+    "blocked": false,
+    "findings": [],
+    "metrics": {
+      "abstract_noun_count": 0,
+      "average_sentence_length": 17.0,
+      "field_dump_sequence_count": 0,
+      "field_enumeration_paragraph_count": 0,
+      "maximum_sentence_length": 17,
+      "n_percent_format_error_count": 0,
+      "overlong_sentence_count": 0,
+      "prespecified_qualifier_count": 0,
+      "reviewed_qualifier_count": 0,
+      "semicolon_count": 0,
+      "sentence_count": 1,
+      "summary_copula_count": 0
+    },
+    "policy": {
+      "banned_expression_is_blocking": true,
+      "literal_zero_event_claim_requires_conditioned_data": true,
+      "n_percent_prose_requires_count_unit_and_percent_sign": true,
+      "qualifier_per_section": 1,
+      "semicolon_per_paragraph": 1,
+      "sentence_length_hard_threshold": 60
+    },
+    "schema_version": "1.0",
+    "status": "pass"
+  },
+  "system_prompt_sha256": "0f8201e0a496a147c422a6569abe89302cf168b98ea3502a541c001335bb85ba",
+  "variant": "serious_event_analysis_conditioned",
+  "writer": "AgentEnvelopeIngest"
+}

@@ -1,0 +1,1032 @@
+{
+  "adapter_scope": "privacy-safe real DOCX shell proposal",
+  "cells": {
+    "T14.1.2.1|POP=ITT|ROW=MEAN_SD|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "MEAN_SD",
+        "indent": 0,
+        "label": "MEAN_SD",
+        "parent_path": null,
+        "physical_path": "MEAN_SD"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 2,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "statistic",
+      "v": "xx"
+    },
+    "T14.1.2.1|POP=ITT|ROW=MEDIAN|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "MEDIAN",
+        "indent": 0,
+        "label": "MEDIAN",
+        "parent_path": null,
+        "physical_path": "MEDIAN"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 3,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "statistic",
+      "v": "xx"
+    },
+    "T14.1.2.1|POP=ITT|ROW=MIN_MAX|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "MIN_MAX",
+        "indent": 0,
+        "label": "MIN_MAX",
+        "parent_path": null,
+        "physical_path": "MIN_MAX"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 4,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "statistic",
+      "v": "xx"
+    },
+    "T14.1.2.1|POP=ITT|ROW=N|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "N",
+        "indent": 0,
+        "label": "N",
+        "parent_path": null,
+        "physical_path": "N"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 1,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "count",
+      "v": "xx"
+    },
+    "T14.1.2.1|POP=ITT|ROW=P_VALUE|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "P_VALUE",
+        "indent": 0,
+        "label": "P_VALUE",
+        "parent_path": null,
+        "physical_path": "P_VALUE"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 5,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "pvalue",
+      "v": "xx"
+    },
+    "T14.1.3.1|POP=ITT|ROW=MEAN_SD|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "MEAN_SD",
+        "indent": 0,
+        "label": "MEAN_SD",
+        "parent_path": null,
+        "physical_path": "MEAN_SD"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 2,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "statistic",
+      "v": "xx"
+    },
+    "T14.1.3.1|POP=ITT|ROW=MEDIAN|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "MEDIAN",
+        "indent": 0,
+        "label": "MEDIAN",
+        "parent_path": null,
+        "physical_path": "MEDIAN"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 3,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "statistic",
+      "v": "xx"
+    },
+    "T14.1.3.1|POP=ITT|ROW=MIN_MAX|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "MIN_MAX",
+        "indent": 0,
+        "label": "MIN_MAX",
+        "parent_path": null,
+        "physical_path": "MIN_MAX"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 4,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "statistic",
+      "v": "xx"
+    },
+    "T14.1.3.1|POP=ITT|ROW=N|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "N",
+        "indent": 0,
+        "label": "N",
+        "parent_path": null,
+        "physical_path": "N"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 1,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "count",
+      "v": "xx"
+    },
+    "T14.1.3.1|POP=ITT|ROW=P_VALUE|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "P_VALUE",
+        "indent": 0,
+        "label": "P_VALUE",
+        "parent_path": null,
+        "physical_path": "P_VALUE"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 5,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "pvalue",
+      "v": "xx"
+    },
+    "T14.2.1|POP=ITT|ROW=MEAN_SD|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "MEAN_SD",
+        "indent": 0,
+        "label": "MEAN_SD",
+        "parent_path": null,
+        "physical_path": "MEAN_SD"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 2,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "statistic",
+      "v": "xx"
+    },
+    "T14.2.1|POP=ITT|ROW=MEDIAN|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "MEDIAN",
+        "indent": 0,
+        "label": "MEDIAN",
+        "parent_path": null,
+        "physical_path": "MEDIAN"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 3,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "statistic",
+      "v": "xx"
+    },
+    "T14.2.1|POP=ITT|ROW=MIN_MAX|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "MIN_MAX",
+        "indent": 0,
+        "label": "MIN_MAX",
+        "parent_path": null,
+        "physical_path": "MIN_MAX"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 4,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "statistic",
+      "v": "xx"
+    },
+    "T14.2.1|POP=ITT|ROW=N|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "N",
+        "indent": 0,
+        "label": "N",
+        "parent_path": null,
+        "physical_path": "N"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 1,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "count",
+      "v": "xx"
+    },
+    "T14.2.1|POP=ITT|ROW=P_VALUE|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "P_VALUE",
+        "indent": 0,
+        "label": "P_VALUE",
+        "parent_path": null,
+        "physical_path": "P_VALUE"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 5,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "pvalue",
+      "v": "xx"
+    },
+    "T14.2.2|POP=PPS|ROW=MEAN_SD|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "MEAN_SD",
+        "indent": 0,
+        "label": "MEAN_SD",
+        "parent_path": null,
+        "physical_path": "MEAN_SD"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 2,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "statistic",
+      "v": "xx"
+    },
+    "T14.2.2|POP=PPS|ROW=MEDIAN|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "MEDIAN",
+        "indent": 0,
+        "label": "MEDIAN",
+        "parent_path": null,
+        "physical_path": "MEDIAN"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 3,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "statistic",
+      "v": "xx"
+    },
+    "T14.2.2|POP=PPS|ROW=MIN_MAX|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "MIN_MAX",
+        "indent": 0,
+        "label": "MIN_MAX",
+        "parent_path": null,
+        "physical_path": "MIN_MAX"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 4,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "statistic",
+      "v": "xx"
+    },
+    "T14.2.2|POP=PPS|ROW=N|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "N",
+        "indent": 0,
+        "label": "N",
+        "parent_path": null,
+        "physical_path": "N"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 1,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "count",
+      "v": "xx"
+    },
+    "T14.2.2|POP=PPS|ROW=P_VALUE|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "P_VALUE",
+        "indent": 0,
+        "label": "P_VALUE",
+        "parent_path": null,
+        "physical_path": "P_VALUE"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 5,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "pvalue",
+      "v": "xx"
+    },
+    "T14.2.9.1|POP=ITT|ROW=MEAN_SD|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "MEAN_SD",
+        "indent": 0,
+        "label": "MEAN_SD",
+        "parent_path": null,
+        "physical_path": "MEAN_SD"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 2,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "statistic",
+      "v": "xx"
+    },
+    "T14.2.9.1|POP=ITT|ROW=MEDIAN|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "MEDIAN",
+        "indent": 0,
+        "label": "MEDIAN",
+        "parent_path": null,
+        "physical_path": "MEDIAN"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 3,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "statistic",
+      "v": "xx"
+    },
+    "T14.2.9.1|POP=ITT|ROW=MIN_MAX|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "MIN_MAX",
+        "indent": 0,
+        "label": "MIN_MAX",
+        "parent_path": null,
+        "physical_path": "MIN_MAX"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 4,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "statistic",
+      "v": "xx"
+    },
+    "T14.2.9.1|POP=ITT|ROW=N|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "N",
+        "indent": 0,
+        "label": "N",
+        "parent_path": null,
+        "physical_path": "N"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 1,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "count",
+      "v": "xx"
+    },
+    "T14.2.9.1|POP=ITT|ROW=P_VALUE|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "P_VALUE",
+        "indent": 0,
+        "label": "P_VALUE",
+        "parent_path": null,
+        "physical_path": "P_VALUE"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 5,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "pvalue",
+      "v": "xx"
+    },
+    "T14.3.1.1|POP=SAF|ROW=MEAN_SD|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "MEAN_SD",
+        "indent": 0,
+        "label": "MEAN_SD",
+        "parent_path": null,
+        "physical_path": "MEAN_SD"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 2,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "statistic",
+      "v": "xx"
+    },
+    "T14.3.1.1|POP=SAF|ROW=MEDIAN|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "MEDIAN",
+        "indent": 0,
+        "label": "MEDIAN",
+        "parent_path": null,
+        "physical_path": "MEDIAN"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 3,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "statistic",
+      "v": "xx"
+    },
+    "T14.3.1.1|POP=SAF|ROW=MIN_MAX|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "MIN_MAX",
+        "indent": 0,
+        "label": "MIN_MAX",
+        "parent_path": null,
+        "physical_path": "MIN_MAX"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 4,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "statistic",
+      "v": "xx"
+    },
+    "T14.3.1.1|POP=SAF|ROW=N|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "N",
+        "indent": 0,
+        "label": "N",
+        "parent_path": null,
+        "physical_path": "N"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 1,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "count",
+      "v": "xx"
+    },
+    "T14.3.1.1|POP=SAF|ROW=P_VALUE|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "P_VALUE",
+        "indent": 0,
+        "label": "P_VALUE",
+        "parent_path": null,
+        "physical_path": "P_VALUE"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 5,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "pvalue",
+      "v": "xx"
+    },
+    "T14.3.3.1|POP=SAF|ROW=MEAN_SD|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "MEAN_SD",
+        "indent": 0,
+        "label": "MEAN_SD",
+        "parent_path": null,
+        "physical_path": "MEAN_SD"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 2,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "statistic",
+      "v": "xx"
+    },
+    "T14.3.3.1|POP=SAF|ROW=MEDIAN|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "MEDIAN",
+        "indent": 0,
+        "label": "MEDIAN",
+        "parent_path": null,
+        "physical_path": "MEDIAN"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 3,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "statistic",
+      "v": "xx"
+    },
+    "T14.3.3.1|POP=SAF|ROW=MIN_MAX|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "MIN_MAX",
+        "indent": 0,
+        "label": "MIN_MAX",
+        "parent_path": null,
+        "physical_path": "MIN_MAX"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 4,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "statistic",
+      "v": "xx"
+    },
+    "T14.3.3.1|POP=SAF|ROW=N|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "N",
+        "indent": 0,
+        "label": "N",
+        "parent_path": null,
+        "physical_path": "N"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 1,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "count",
+      "v": "xx"
+    },
+    "T14.3.3.1|POP=SAF|ROW=P_VALUE|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "P_VALUE",
+        "indent": 0,
+        "label": "P_VALUE",
+        "parent_path": null,
+        "physical_path": "P_VALUE"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 5,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "pvalue",
+      "v": "xx"
+    },
+    "T14.3.4.1|POP=SAF|ROW=MEAN_SD|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "MEAN_SD",
+        "indent": 0,
+        "label": "MEAN_SD",
+        "parent_path": null,
+        "physical_path": "MEAN_SD"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 2,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "statistic",
+      "v": "xx"
+    },
+    "T14.3.4.1|POP=SAF|ROW=MEDIAN|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "MEDIAN",
+        "indent": 0,
+        "label": "MEDIAN",
+        "parent_path": null,
+        "physical_path": "MEDIAN"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 3,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "statistic",
+      "v": "xx"
+    },
+    "T14.3.4.1|POP=SAF|ROW=MIN_MAX|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "MIN_MAX",
+        "indent": 0,
+        "label": "MIN_MAX",
+        "parent_path": null,
+        "physical_path": "MIN_MAX"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 4,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "statistic",
+      "v": "xx"
+    },
+    "T14.3.4.1|POP=SAF|ROW=N|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "N",
+        "indent": 0,
+        "label": "N",
+        "parent_path": null,
+        "physical_path": "N"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 1,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "count",
+      "v": "xx"
+    },
+    "T14.3.4.1|POP=SAF|ROW=P_VALUE|COL=ACTIVE_TOTAL": {
+      "column": {
+        "id": "ACTIVE_TOTAL",
+        "label": "ACTIVE_TOTAL"
+      },
+      "dimensions": {},
+      "display_value": "xx",
+      "row": {
+        "id": "P_VALUE",
+        "indent": 0,
+        "label": "P_VALUE",
+        "parent_path": null,
+        "physical_path": "P_VALUE"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 5,
+        "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+      },
+      "type": "pvalue",
+      "v": "xx"
+    }
+  },
+  "listing_policy": {
+    "default": "cell_level",
+    "layout_reference_data_driven_rows": "columns_only_deferred_rows",
+    "mixed_placeholder_rows": "mixed_stable_and_deferred_rows",
+    "rationale": "subject-level cells and non-semantic shell placeholder rows are not materialized into frozen result keys",
+    "subject_level_wide_listing": "metadata_only"
+  },
+  "mapping_manifest": {
+    "filename": "deidentified-real-shell-proposal.json",
+    "sha256": "5ae5528f712dff04b10e028121aa202b57180ad7fae6838faa6ac2e584bcb878"
+  },
+  "schema_version": "1.0",
+  "semantic_key_version": "2.0",
+  "sources": [
+    {
+      "decode_replacements": 0,
+      "filename": "real-shell.docx",
+      "format": "docx-shell-ooxml-auto-v2",
+      "manifest_path": "read-only external source",
+      "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2"
+    }
+  ],
+  "tables": [
+    {
+      "adapter": "docx-shell-ooxml-auto-v2",
+      "dimensions": {},
+      "footnotes": [],
+      "ingest_strategy": "metadata_only",
+      "metadata_only_reason": "subject-level wide disposition listing; privacy-minimizing metadata only",
+      "population": "ITT",
+      "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2",
+      "table_id": "T14.1.1.1",
+      "titles": [],
+      "trailer": {}
+    },
+    {
+      "adapter": "docx-shell-ooxml-auto-v2",
+      "dimensions": {},
+      "footnotes": [],
+      "ingest_strategy": "cell_level",
+      "population": "ITT",
+      "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2",
+      "table_id": "T14.1.2.1",
+      "titles": [],
+      "trailer": {}
+    },
+    {
+      "adapter": "docx-shell-ooxml-auto-v2",
+      "dimensions": {},
+      "footnotes": [],
+      "ingest_strategy": "cell_level",
+      "population": "ITT",
+      "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2",
+      "table_id": "T14.1.3.1",
+      "titles": [],
+      "trailer": {}
+    },
+    {
+      "adapter": "docx-shell-ooxml-auto-v2",
+      "dimensions": {},
+      "footnotes": [],
+      "ingest_strategy": "cell_level",
+      "population": "ITT",
+      "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2",
+      "table_id": "T14.2.1",
+      "titles": [],
+      "trailer": {}
+    },
+    {
+      "adapter": "docx-shell-ooxml-auto-v2",
+      "dimensions": {},
+      "footnotes": [],
+      "ingest_strategy": "cell_level",
+      "population": "PPS",
+      "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2",
+      "table_id": "T14.2.2",
+      "titles": [],
+      "trailer": {}
+    },
+    {
+      "adapter": "docx-shell-ooxml-auto-v2",
+      "dimensions": {},
+      "footnotes": [],
+      "ingest_strategy": "cell_level",
+      "population": "SAF",
+      "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2",
+      "table_id": "T14.3.1.1",
+      "titles": [],
+      "trailer": {}
+    },
+    {
+      "adapter": "docx-shell-ooxml-auto-v2",
+      "dimensions": {},
+      "footnotes": [],
+      "ingest_strategy": "cell_level",
+      "population": "SAF",
+      "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2",
+      "table_id": "T14.3.3.1",
+      "titles": [],
+      "trailer": {}
+    },
+    {
+      "adapter": "docx-shell-ooxml-auto-v2",
+      "dimensions": {},
+      "footnotes": [],
+      "ingest_strategy": "cell_level",
+      "population": "SAF",
+      "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2",
+      "table_id": "T14.3.4.1",
+      "titles": [],
+      "trailer": {}
+    },
+    {
+      "adapter": "docx-shell-ooxml-auto-v2",
+      "deferred_row_contract": {
+        "detection": "nonsemantic_row_id",
+        "expected_semantic_source": "result_tfl_row_labels",
+        "frozen_column_ids": [
+          "ACTIVE_TOTAL_N_PCT"
+        ],
+        "materialize_at": "result_tfl",
+        "schema_version": "1.0",
+        "shell_placeholder_row_count": 4,
+        "stable_row_count": 0,
+        "template_placeholder_row_count": 0
+      },
+      "dimensions": {},
+      "footnotes": [],
+      "ingest_strategy": "columns_only_deferred_rows",
+      "population": "SAF",
+      "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2",
+      "table_id": "T14.3.2.1",
+      "titles": [],
+      "trailer": {}
+    },
+    {
+      "adapter": "docx-shell-ooxml-auto-v2",
+      "dimensions": {},
+      "footnotes": [],
+      "ingest_strategy": "cell_level",
+      "population": "ITT",
+      "source_id": "sha256:e1ff2a100905e0c1d5abda2912282ac06dabf6ad1c03d09af6e8ed6cdeb3c4b2",
+      "table_id": "T14.2.9.1",
+      "titles": [],
+      "trailer": {}
+    }
+  ]
+}

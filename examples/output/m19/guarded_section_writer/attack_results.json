@@ -1,0 +1,2845 @@
+{
+  "attack_count": 451,
+  "baseline_pass_count": 34,
+  "blocked_attack_count": 448,
+  "parser_attacks": [
+    {
+      "attack_id": "extra_top_level_key",
+      "reason": "Model response must contain only paragraphs",
+      "status": "blocked"
+    },
+    {
+      "attack_id": "empty_paragraph_list",
+      "reason": "Model response paragraphs must be a non-empty list",
+      "status": "blocked"
+    },
+    {
+      "attack_id": "extra_paragraph_key",
+      "reason": "Model paragraph 0 must contain exactly ['confidence', 'needs_human', 'sources', 'text']",
+      "status": "blocked"
+    },
+    {
+      "attack_id": "non_boolean_human_flag",
+      "reason": "Model paragraph 0.needs_human must be boolean",
+      "status": "blocked"
+    }
+  ],
+  "raw_pass_count": 3,
+  "records": [
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": true,
+      "section_id": "11.2",
+      "variant": "demographics_baseline"
+    },
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": false,
+      "section_id": "11.3",
+      "variant": "audit_unwired"
+    },
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": true,
+      "section_id": "11.5.1",
+      "variant": "pk_analysis_set"
+    },
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": true,
+      "section_id": "11.5.2",
+      "variant": "concentration_data"
+    },
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": true,
+      "section_id": "11.5.3",
+      "variant": "blq_handling"
+    },
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": true,
+      "section_id": "11.5.4",
+      "variant": "pk_parameters"
+    },
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": true,
+      "section_id": "11.5.5",
+      "variant": "peak_systemic_exposure"
+    },
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": true,
+      "section_id": "11.5.6",
+      "variant": "dose_proportionality"
+    },
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": true,
+      "section_id": "11.5.7",
+      "variant": "accumulation"
+    },
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": true,
+      "section_id": "11.5.8",
+      "variant": "application_site_exposure_effect"
+    },
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": true,
+      "section_id": "11.5.9",
+      "variant": "individual_pk"
+    },
+    {
+      "attack_count": 16,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "sentence_driven_arbitrary_prose",
+          "reason": null,
+          "status": "pass"
+        },
+        {
+          "attack_id": "sentence_driven_partial_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "wrong_conclusion_rule",
+          "reason": "SectionWriterError: Conditional conclusion token is missing, duplicated, or not allowed for this section",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 15,
+      "conditional_rule": "PK_CONCLUSION_V1",
+      "raw_passes": [
+        {
+          "attack_id": "sentence_driven_arbitrary_prose",
+          "reason": null,
+          "status": "pass"
+        }
+      ],
+      "runtime_wired": true,
+      "section_id": "11.5.10",
+      "variant": "pk_conclusion_conditioned"
+    },
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": true,
+      "section_id": "11.6.1.4",
+      "variant": "exploratory_endpoint_results"
+    },
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": true,
+      "section_id": "11.6.2.1",
+      "variant": "dermatology_ancova"
+    },
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": true,
+      "section_id": "11.6.2.4",
+      "variant": "multicenter_analysis"
+    },
+    {
+      "attack_count": 16,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "sentence_driven_arbitrary_prose",
+          "reason": null,
+          "status": "pass"
+        },
+        {
+          "attack_id": "sentence_driven_partial_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "wrong_conclusion_rule",
+          "reason": "SectionWriterError: Conditional conclusion token is missing, duplicated, or not allowed for this section",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 15,
+      "conditional_rule": "EXPLORATORY_EFFICACY_CONCLUSION_V1",
+      "raw_passes": [
+        {
+          "attack_id": "sentence_driven_arbitrary_prose",
+          "reason": null,
+          "status": "pass"
+        }
+      ],
+      "runtime_wired": true,
+      "section_id": "11.6.7",
+      "variant": "exploratory_efficacy_conclusion_conditioned"
+    },
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": true,
+      "section_id": "12.1",
+      "variant": "extent_of_exposure"
+    },
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": true,
+      "section_id": "12.2.1",
+      "variant": "ae_overview"
+    },
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": true,
+      "section_id": "12.2.3",
+      "variant": "ae_soc_pt_analysis"
+    },
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": true,
+      "section_id": "12.2.6",
+      "variant": "permanent_discontinuation_ae"
+    },
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": true,
+      "section_id": "12.2.7",
+      "variant": "interruption_dose_adjustment_ae"
+    },
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": true,
+      "section_id": "12.2.9",
+      "variant": "application_site_adverse_reactions"
+    },
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": false,
+      "section_id": "12.3.1.1",
+      "variant": "audit_unwired"
+    },
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": false,
+      "section_id": "12.3.1.2",
+      "variant": "audit_unwired"
+    },
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": false,
+      "section_id": "12.3.1.3",
+      "variant": "audit_unwired"
+    },
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": false,
+      "section_id": "12.3.3",
+      "variant": "audit_unwired"
+    },
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": false,
+      "section_id": "12.4.2.1",
+      "variant": "audit_unwired"
+    },
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": false,
+      "section_id": "12.4.2.2",
+      "variant": "audit_unwired"
+    },
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": false,
+      "section_id": "12.4.2.3",
+      "variant": "audit_unwired"
+    },
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": true,
+      "section_id": "12.5.1",
+      "variant": "local_tolerance"
+    },
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": true,
+      "section_id": "12.5.2",
+      "variant": "ecg_evaluation"
+    },
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": true,
+      "section_id": "12.6",
+      "variant": "dose_escalation"
+    },
+    {
+      "attack_count": 13,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 13,
+      "conditional_rule": null,
+      "raw_passes": [],
+      "runtime_wired": true,
+      "section_id": "12.7",
+      "variant": "dose_escalation"
+    },
+    {
+      "attack_count": 16,
+      "attacks": [
+        {
+          "attack_id": "unbound_placeholder",
+          "reason": "SectionWriterError: Paragraph 0 contains an unbound placeholder",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "missing_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "duplicate_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "swapped_binding_order",
+          "reason": "SectionWriterError: E-GROUP-BINDING-ORDER: generated placeholder order differs from the reviewed semantic role order; experimental/control substitution is blocked",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_arabic_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['12']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_chinese_number",
+          "reason": "SectionWriterError: Paragraph 1 contains literal numeric expression(s), not placeholders: ['十二例']",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "literal_zero_event",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-LITERAL-ZERO-EVENT='未发生严重不良事件'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "internal_process_language",
+          "reason": "SectionWriterError: Paragraph 1 contains internal process language: [\"internal_data_term='证据包'\", \"internal_data_term='绑定'\"]",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "malformed_braces",
+          "reason": "SectionWriterError: Malformed placeholder syntax in paragraph 0",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unbound_reference",
+          "reason": "SectionWriterError: Paragraph 1 contains an unbound TFL cross-reference",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "unscoped_source",
+          "reason": "SectionWriterError: Paragraph 0 cites absent or unscoped sources",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "physical_paragraph_injection",
+          "reason": "SectionWriterError: Adapter paragraph 0 must be one non-empty physical paragraph",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "forbidden_style",
+          "reason": "SectionWriterError: Generated draft violates the CSR writing-style gate: E-STYLE-BANNED-EXPRESSION='汇总为'",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "sentence_driven_arbitrary_prose",
+          "reason": null,
+          "status": "pass"
+        },
+        {
+          "attack_id": "sentence_driven_partial_binding",
+          "reason": "SectionWriterError: Generated draft must use every reviewed binding exactly once and no other binding",
+          "status": "blocked"
+        },
+        {
+          "attack_id": "wrong_conclusion_rule",
+          "reason": "SectionWriterError: Conditional conclusion token is missing, duplicated, or not allowed for this section",
+          "status": "blocked"
+        }
+      ],
+      "baseline": {
+        "reason": null,
+        "status": "pass"
+      },
+      "blocked_attack_count": 15,
+      "conditional_rule": "OVERALL_CONCLUSION_V1",
+      "raw_passes": [
+        {
+          "attack_id": "sentence_driven_arbitrary_prose",
+          "reason": null,
+          "status": "pass"
+        }
+      ],
+      "runtime_wired": true,
+      "section_id": "13",
+      "variant": "overall_conclusion_conditioned"
+    }
+  ],
+  "runtime_unwired_count": 8,
+  "runtime_unwired_section_ids": [
+    "11.3",
+    "12.3.1.1",
+    "12.3.1.2",
+    "12.3.1.3",
+    "12.3.3",
+    "12.4.2.1",
+    "12.4.2.2",
+    "12.4.2.3"
+  ],
+  "runtime_wired_count": 26,
+  "schema_version": "1.0",
+  "sentence_driven": {
+    "arbitrary_prose_passed_section_ids": [
+      "11.5.10",
+      "11.6.7",
+      "13"
+    ],
+    "partial_binding_blocked_section_ids": [
+      "11.5.10",
+      "11.6.7",
+      "13"
+    ],
+    "section_ids": [
+      "11.5.10",
+      "11.6.7",
+      "13"
+    ],
+    "unit_count": 3
+  },
+  "unit_count": 34
+}

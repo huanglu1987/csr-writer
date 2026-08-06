@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "preserves_historical_artifacts": true,
+  "m20_final_counts": {
+    "authoring_units": 120,
+    "llm_drafting": 32,
+    "guarded_section_writer": 31,
+    "sae_exact_reviewed": 1,
+    "deterministic_generation": 48,
+    "runtime_executable_llm": 32
+  },
+  "pre_m20_runtime_correction": {
+    "claimed_llm_units": 35,
+    "runtime_executable_llm": 27,
+    "runtime_coverage_percent": 77.14,
+    "wired_guarded_units": 26,
+    "sae_exact_units": 1,
+    "unwired_units": 8
+  },
+  "reclassified_to_deterministic": [
+    "12.3.1.1",
+    "12.3.1.2",
+    "12.3.1.3"
+  ],
+  "newly_wired_guarded_units": [
+    "11.3",
+    "12.3.3",
+    "12.4.2.1",
+    "12.4.2.2",
+    "12.4.2.3"
+  ],
+  "registry_migrations": [
+    {
+      "path": "skills/csr-writer/references/production-methods.yaml",
+      "from_sha256": "e193e0343beb5dd7c4ef6a8b7236731107313319d0ea9b11bf08756ccbb19881",
+      "to_sha256": "991507aae39b03b6c21156e7a900770d6e16707591cec2f05bd520db30f3c79d",
+      "reason": "M20 N4 runtime ownership correction",
+      "affected_units": [
+        "11.3",
+        "12.3.1.1",
+        "12.3.1.2",
+        "12.3.1.3",
+        "12.3.3",
+        "12.4.2.1",
+        "12.4.2.2",
+        "12.4.2.3"
+      ]
+    }
+  ],
+  "historical_claims": [
+    {
+      "claim": "complete_playbook_content_coverage",
+      "original": "35/35",
+      "corrected": "35/35",
+      "still_valid": true
+    },
+    {
+      "claim": "production_method_llm_drafting",
+      "original": 35,
+      "corrected": 32,
+      "still_valid": false
+    },
+    {
+      "claim": "production_method_deterministic_generation",
+      "original": 45,
+      "corrected": 48,
+      "still_valid": false
+    },
+    {
+      "claim": "guarded_section_writer_target_units",
+      "original": 34,
+      "corrected": 31,
+      "still_valid": false
+    },
+    {
+      "claim": "m19_attacked_guarded_units",
+      "original": "34 units / 451 attacks",
+      "corrected": "26 executable units / 451 attacks; 8 enumerated units were not executable",
+      "still_valid": false
+    }
+  ]
+}

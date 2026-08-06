@@ -1,0 +1,98 @@
+{
+  "datapack_sha256": "ff4d813c57d7ea5a1f5329f129e606f13b11955c586ce5de8e559a28837d8c80",
+  "draft_sha256": "c1f1ab1566369864d32759489fda84197f7173f7c062a30c5dd3ea9814b977a1",
+  "input_file_sha256": {
+    "datapack": "3d46458bc53bb8d80d52642fdecfe7bef56e7d8b69f10809bd2d37a48d556852",
+    "draft": "c1f1ab1566369864d32759489fda84197f7173f7c062a30c5dd3ea9814b977a1",
+    "frozen TFL map": "0e25ec7fcdf9c29f195e82cd3277445a582229833ec74881a7c0d39c827eefc0",
+    "protocol_facts": "763b7feb486d1c6a280657e87e10aed9bca01625facca65c34a0188613334947",
+    "section metadata": "93a710066cd49e0ca71c365e03784da911bb93b78e6901be46a24aaea02ca5e4"
+  },
+  "issues": [
+    {
+      "code": "E-UNRESOLVED",
+      "message": "Resolved text still contains placeholder or reserved missing markers"
+    }
+  ],
+  "placeholder_count": 0,
+  "placeholder_keys": [],
+  "protocol_facts_sha256": "af68143ab7b1cbb86e364829178ea3d5d17bfef6ccb0334ea7a513d82f96f826",
+  "reference_count": 0,
+  "reference_entities": [],
+  "schema_version": "1.0",
+  "stages": {
+    "A_key_existence": {
+      "status": "pass"
+    },
+    "B_residual": {
+      "issues": [
+        {
+          "code": "E-UNRESOLVED",
+          "message": "Resolved text still contains placeholder or reserved missing markers"
+        }
+      ],
+      "status": "fail"
+    },
+    "C_bare_numbers": {
+      "status": "not_run"
+    },
+    "D_result_format": {
+      "status": "not_run"
+    }
+  },
+  "status": "blocked",
+  "whitelist": [
+    {
+      "pattern": "ICH\\s*E\\d+\\s*\\(?R?\\d*\\)?",
+      "source": "static:standard identifier"
+    },
+    {
+      "pattern": "第\\s*\\d+(?:\\.\\d+)*\\s*[章节]",
+      "source": "static:section reference"
+    },
+    {
+      "pattern": "\\d{4}\\s*年\\s*\\d{1,2}\\s*月\\s*\\d{1,2}\\s*日",
+      "source": "static:calendar date"
+    },
+    {
+      "pattern": "\\d{4}-\\d{2}-\\d{2}",
+      "source": "static:ISO date"
+    },
+    {
+      "pattern": "CTCAE\\s*v?\\d+(?:\\.\\d+)*",
+      "source": "static:coding standard version"
+    },
+    {
+      "pattern": "MedDRA\\s*(?:版本)?\\s*\\d+(?:\\.\\d+)*",
+      "source": "static:coding dictionary version"
+    },
+    {
+      "pattern": "[1-5]\\s*级",
+      "source": "static:AE grade vocabulary"
+    },
+    {
+      "pattern": "[IVX]+\\s*期",
+      "source": "static:study phase label; never used for structural routing"
+    },
+    {
+      "pattern": "95\\s*%\\s*(?:置信区间|CI)",
+      "source": "static:fixed confidence-interval term"
+    },
+    {
+      "pattern": "双侧\\s*0?\\.\\d+",
+      "source": "static:fixed analysis-method term"
+    },
+    {
+      "pattern": "SYN\\-MIG\\-II\\-001",
+      "source": "fact:protocol_id"
+    },
+    {
+      "pattern": "(?<![\\d.])1(?:\\.0+)?(?![\\d.])\\s*fixed_regimen(?![A-Za-z/])",
+      "source": "fact:design.dose_levels[0]"
+    },
+    {
+      "pattern": "(?<![\\d.])1(?:\\.0+)?(?![\\d.])\\s*个剂量(?:水平|组)",
+      "source": "derived:length(design.dose_levels)"
+    }
+  ]
+}

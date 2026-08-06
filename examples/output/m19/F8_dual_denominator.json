@@ -1,0 +1,20 @@
+{
+  "frozen_shell_side": {
+    "denominator": 364,
+    "matched": 22,
+    "question": "壳阶段明确冻结的单元契约有多少已被结果值填满？",
+    "rate": 0.0604
+  },
+  "result_side": {
+    "denominator": 250,
+    "matched": 147,
+    "question": "结果 TFL 中已识别的语义值有多少能套入冻结映射？",
+    "rate": 0.588
+  },
+  "schema_version": "1.0",
+  "source_report": "examples/output/m15/result_match_report.json",
+  "supplementary_full_shell_view": {
+    "not_substituted_for_required_shell_denominator": true,
+    "rate": 0.2539
+  }
+}

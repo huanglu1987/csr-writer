@@ -1,0 +1,2580 @@
+{
+  "adapter_scope": "privacy-safe real DOCX shell proposal",
+  "cells": {
+    "T14.1.1.2|POP=FAS|ROW=COMPLETED|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "4.25",
+      "row": {
+        "id": "COMPLETED",
+        "indent": 0,
+        "label": "COMPLETED",
+        "parent_path": null,
+        "physical_path": "COMPLETED"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 2,
+        "source_id": "sha256:7e8db404eaaeea3ac3a51629c3393177a9fc9182db1f283796ef8f57e2507f1c"
+      },
+      "type": "statistic",
+      "v": "4.25"
+    },
+    "T14.1.1.2|POP=FAS|ROW=COMPLETED|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "3.25",
+      "row": {
+        "id": "COMPLETED",
+        "indent": 0,
+        "label": "COMPLETED",
+        "parent_path": null,
+        "physical_path": "COMPLETED"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 2,
+        "source_id": "sha256:7e8db404eaaeea3ac3a51629c3393177a9fc9182db1f283796ef8f57e2507f1c"
+      },
+      "type": "statistic",
+      "v": "3.25"
+    },
+    "T14.1.1.2|POP=FAS|ROW=N|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "11",
+      "row": {
+        "id": "N",
+        "indent": 0,
+        "label": "N",
+        "parent_path": null,
+        "physical_path": "N"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 1,
+        "source_id": "sha256:7e8db404eaaeea3ac3a51629c3393177a9fc9182db1f283796ef8f57e2507f1c"
+      },
+      "type": "count",
+      "v": "11"
+    },
+    "T14.1.1.2|POP=FAS|ROW=N|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "10",
+      "row": {
+        "id": "N",
+        "indent": 0,
+        "label": "N",
+        "parent_path": null,
+        "physical_path": "N"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 1,
+        "source_id": "sha256:7e8db404eaaeea3ac3a51629c3393177a9fc9182db1f283796ef8f57e2507f1c"
+      },
+      "type": "count",
+      "v": "10"
+    },
+    "T14.1.2.1|POP=FAS|ROW=MEAN|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "4.25",
+      "row": {
+        "id": "MEAN",
+        "indent": 0,
+        "label": "MEAN",
+        "parent_path": null,
+        "physical_path": "MEAN"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 2,
+        "source_id": "sha256:ee8b759ca28658b20dd10095e2907ad8a5675e9bdf9fc732fad0258264d0dc10"
+      },
+      "type": "statistic",
+      "v": "4.25"
+    },
+    "T14.1.2.1|POP=FAS|ROW=MEAN|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "3.25",
+      "row": {
+        "id": "MEAN",
+        "indent": 0,
+        "label": "MEAN",
+        "parent_path": null,
+        "physical_path": "MEAN"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 2,
+        "source_id": "sha256:ee8b759ca28658b20dd10095e2907ad8a5675e9bdf9fc732fad0258264d0dc10"
+      },
+      "type": "statistic",
+      "v": "3.25"
+    },
+    "T14.1.2.1|POP=FAS|ROW=N|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "11",
+      "row": {
+        "id": "N",
+        "indent": 0,
+        "label": "N",
+        "parent_path": null,
+        "physical_path": "N"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 1,
+        "source_id": "sha256:ee8b759ca28658b20dd10095e2907ad8a5675e9bdf9fc732fad0258264d0dc10"
+      },
+      "type": "count",
+      "v": "11"
+    },
+    "T14.1.2.1|POP=FAS|ROW=N|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "10",
+      "row": {
+        "id": "N",
+        "indent": 0,
+        "label": "N",
+        "parent_path": null,
+        "physical_path": "N"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 1,
+        "source_id": "sha256:ee8b759ca28658b20dd10095e2907ad8a5675e9bdf9fc732fad0258264d0dc10"
+      },
+      "type": "count",
+      "v": "10"
+    },
+    "T14.1.2.1|POP=FAS|ROW=SD|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "6.25",
+      "row": {
+        "id": "SD",
+        "indent": 0,
+        "label": "SD",
+        "parent_path": null,
+        "physical_path": "SD"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 3,
+        "source_id": "sha256:ee8b759ca28658b20dd10095e2907ad8a5675e9bdf9fc732fad0258264d0dc10"
+      },
+      "type": "statistic",
+      "v": "6.25"
+    },
+    "T14.1.2.1|POP=FAS|ROW=SD|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "5.25",
+      "row": {
+        "id": "SD",
+        "indent": 0,
+        "label": "SD",
+        "parent_path": null,
+        "physical_path": "SD"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 3,
+        "source_id": "sha256:ee8b759ca28658b20dd10095e2907ad8a5675e9bdf9fc732fad0258264d0dc10"
+      },
+      "type": "statistic",
+      "v": "5.25"
+    },
+    "T14.1.4.1|POP=FAS|ROW=ATC_A/DRUG_A1|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "4.25",
+      "row": {
+        "id": "ATC_A/DRUG_A1",
+        "indent": 1,
+        "label": "ATC_A/DRUG_A1",
+        "parent_path": "ATC_A",
+        "physical_path": "ATC_A/DRUG_A1"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 2,
+        "source_id": "sha256:1edf9a1ae77f119ed7c242d1498aa149791b97a959cb91edd407ce73ba43147d"
+      },
+      "type": "statistic",
+      "v": "4.25"
+    },
+    "T14.1.4.1|POP=FAS|ROW=ATC_A/DRUG_A1|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "3.25",
+      "row": {
+        "id": "ATC_A/DRUG_A1",
+        "indent": 1,
+        "label": "ATC_A/DRUG_A1",
+        "parent_path": "ATC_A",
+        "physical_path": "ATC_A/DRUG_A1"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 2,
+        "source_id": "sha256:1edf9a1ae77f119ed7c242d1498aa149791b97a959cb91edd407ce73ba43147d"
+      },
+      "type": "statistic",
+      "v": "3.25"
+    },
+    "T14.1.4.1|POP=FAS|ROW=ATC_A/DRUG_A2|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "6.25",
+      "row": {
+        "id": "ATC_A/DRUG_A2",
+        "indent": 1,
+        "label": "ATC_A/DRUG_A2",
+        "parent_path": "ATC_A",
+        "physical_path": "ATC_A/DRUG_A2"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 3,
+        "source_id": "sha256:1edf9a1ae77f119ed7c242d1498aa149791b97a959cb91edd407ce73ba43147d"
+      },
+      "type": "statistic",
+      "v": "6.25"
+    },
+    "T14.1.4.1|POP=FAS|ROW=ATC_A/DRUG_A2|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "5.25",
+      "row": {
+        "id": "ATC_A/DRUG_A2",
+        "indent": 1,
+        "label": "ATC_A/DRUG_A2",
+        "parent_path": "ATC_A",
+        "physical_path": "ATC_A/DRUG_A2"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 3,
+        "source_id": "sha256:1edf9a1ae77f119ed7c242d1498aa149791b97a959cb91edd407ce73ba43147d"
+      },
+      "type": "statistic",
+      "v": "5.25"
+    },
+    "T14.1.4.1|POP=FAS|ROW=ATC_A|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "2.25",
+      "row": {
+        "id": "ATC_A",
+        "indent": 0,
+        "label": "ATC_A",
+        "parent_path": null,
+        "physical_path": "ATC_A"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 1,
+        "source_id": "sha256:1edf9a1ae77f119ed7c242d1498aa149791b97a959cb91edd407ce73ba43147d"
+      },
+      "type": "statistic",
+      "v": "2.25"
+    },
+    "T14.1.4.1|POP=FAS|ROW=ATC_A|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "1.25",
+      "row": {
+        "id": "ATC_A",
+        "indent": 0,
+        "label": "ATC_A",
+        "parent_path": null,
+        "physical_path": "ATC_A"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 1,
+        "source_id": "sha256:1edf9a1ae77f119ed7c242d1498aa149791b97a959cb91edd407ce73ba43147d"
+      },
+      "type": "statistic",
+      "v": "1.25"
+    },
+    "T14.1.4.1|POP=FAS|ROW=ATC_B/DRUG_B1|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "10.25",
+      "row": {
+        "id": "ATC_B/DRUG_B1",
+        "indent": 1,
+        "label": "ATC_B/DRUG_B1",
+        "parent_path": "ATC_B",
+        "physical_path": "ATC_B/DRUG_B1"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 5,
+        "source_id": "sha256:1edf9a1ae77f119ed7c242d1498aa149791b97a959cb91edd407ce73ba43147d"
+      },
+      "type": "statistic",
+      "v": "10.25"
+    },
+    "T14.1.4.1|POP=FAS|ROW=ATC_B/DRUG_B1|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "9.25",
+      "row": {
+        "id": "ATC_B/DRUG_B1",
+        "indent": 1,
+        "label": "ATC_B/DRUG_B1",
+        "parent_path": "ATC_B",
+        "physical_path": "ATC_B/DRUG_B1"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 5,
+        "source_id": "sha256:1edf9a1ae77f119ed7c242d1498aa149791b97a959cb91edd407ce73ba43147d"
+      },
+      "type": "statistic",
+      "v": "9.25"
+    },
+    "T14.1.4.1|POP=FAS|ROW=ATC_B|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "8.25",
+      "row": {
+        "id": "ATC_B",
+        "indent": 0,
+        "label": "ATC_B",
+        "parent_path": null,
+        "physical_path": "ATC_B"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 4,
+        "source_id": "sha256:1edf9a1ae77f119ed7c242d1498aa149791b97a959cb91edd407ce73ba43147d"
+      },
+      "type": "statistic",
+      "v": "8.25"
+    },
+    "T14.1.4.1|POP=FAS|ROW=ATC_B|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "7.25",
+      "row": {
+        "id": "ATC_B",
+        "indent": 0,
+        "label": "ATC_B",
+        "parent_path": null,
+        "physical_path": "ATC_B"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 4,
+        "source_id": "sha256:1edf9a1ae77f119ed7c242d1498aa149791b97a959cb91edd407ce73ba43147d"
+      },
+      "type": "statistic",
+      "v": "7.25"
+    },
+    "T14.2.2.1.1|POP=FAS|ROW=LS_MEAN_DIFFERENCE_CI95|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "(1.20, 3.40)",
+      "row": {
+        "id": "LS_MEAN_DIFFERENCE_CI95",
+        "indent": 0,
+        "label": "LS_MEAN_DIFFERENCE_CI95",
+        "parent_path": null,
+        "physical_path": "LS_MEAN_DIFFERENCE_CI95"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 5,
+        "source_id": "sha256:7ee1eb2ebf4edfa30215980658895dcfd426382c66915be7fd163362448338c8"
+      },
+      "type": "ci95",
+      "v": "(1.20, 3.40)"
+    },
+    "T14.2.2.1.1|POP=FAS|ROW=LS_MEAN_DIFFERENCE_CI95|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "(1.20, 3.40)",
+      "row": {
+        "id": "LS_MEAN_DIFFERENCE_CI95",
+        "indent": 0,
+        "label": "LS_MEAN_DIFFERENCE_CI95",
+        "parent_path": null,
+        "physical_path": "LS_MEAN_DIFFERENCE_CI95"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 5,
+        "source_id": "sha256:7ee1eb2ebf4edfa30215980658895dcfd426382c66915be7fd163362448338c8"
+      },
+      "type": "ci95",
+      "v": "(1.20, 3.40)"
+    },
+    "T14.2.2.1.1|POP=FAS|ROW=LS_MEAN_DIFFERENCE|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "8.25",
+      "row": {
+        "id": "LS_MEAN_DIFFERENCE",
+        "indent": 0,
+        "label": "LS_MEAN_DIFFERENCE",
+        "parent_path": null,
+        "physical_path": "LS_MEAN_DIFFERENCE"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 4,
+        "source_id": "sha256:7ee1eb2ebf4edfa30215980658895dcfd426382c66915be7fd163362448338c8"
+      },
+      "type": "statistic",
+      "v": "8.25"
+    },
+    "T14.2.2.1.1|POP=FAS|ROW=LS_MEAN_DIFFERENCE|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "7.25",
+      "row": {
+        "id": "LS_MEAN_DIFFERENCE",
+        "indent": 0,
+        "label": "LS_MEAN_DIFFERENCE",
+        "parent_path": null,
+        "physical_path": "LS_MEAN_DIFFERENCE"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 4,
+        "source_id": "sha256:7ee1eb2ebf4edfa30215980658895dcfd426382c66915be7fd163362448338c8"
+      },
+      "type": "statistic",
+      "v": "7.25"
+    },
+    "T14.2.2.1.1|POP=FAS|ROW=MEAN|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "4.25",
+      "row": {
+        "id": "MEAN",
+        "indent": 0,
+        "label": "MEAN",
+        "parent_path": null,
+        "physical_path": "MEAN"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 2,
+        "source_id": "sha256:7ee1eb2ebf4edfa30215980658895dcfd426382c66915be7fd163362448338c8"
+      },
+      "type": "statistic",
+      "v": "4.25"
+    },
+    "T14.2.2.1.1|POP=FAS|ROW=MEAN|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "3.25",
+      "row": {
+        "id": "MEAN",
+        "indent": 0,
+        "label": "MEAN",
+        "parent_path": null,
+        "physical_path": "MEAN"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 2,
+        "source_id": "sha256:7ee1eb2ebf4edfa30215980658895dcfd426382c66915be7fd163362448338c8"
+      },
+      "type": "statistic",
+      "v": "3.25"
+    },
+    "T14.2.2.1.1|POP=FAS|ROW=N|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "11",
+      "row": {
+        "id": "N",
+        "indent": 0,
+        "label": "N",
+        "parent_path": null,
+        "physical_path": "N"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 1,
+        "source_id": "sha256:7ee1eb2ebf4edfa30215980658895dcfd426382c66915be7fd163362448338c8"
+      },
+      "type": "count",
+      "v": "11"
+    },
+    "T14.2.2.1.1|POP=FAS|ROW=N|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "10",
+      "row": {
+        "id": "N",
+        "indent": 0,
+        "label": "N",
+        "parent_path": null,
+        "physical_path": "N"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 1,
+        "source_id": "sha256:7ee1eb2ebf4edfa30215980658895dcfd426382c66915be7fd163362448338c8"
+      },
+      "type": "count",
+      "v": "10"
+    },
+    "T14.2.2.1.1|POP=FAS|ROW=P_VALUE|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "0.042",
+      "row": {
+        "id": "P_VALUE",
+        "indent": 0,
+        "label": "P_VALUE",
+        "parent_path": null,
+        "physical_path": "P_VALUE"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 6,
+        "source_id": "sha256:7ee1eb2ebf4edfa30215980658895dcfd426382c66915be7fd163362448338c8"
+      },
+      "type": "pvalue",
+      "v": "0.042"
+    },
+    "T14.2.2.1.1|POP=FAS|ROW=P_VALUE|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "0.042",
+      "row": {
+        "id": "P_VALUE",
+        "indent": 0,
+        "label": "P_VALUE",
+        "parent_path": null,
+        "physical_path": "P_VALUE"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 6,
+        "source_id": "sha256:7ee1eb2ebf4edfa30215980658895dcfd426382c66915be7fd163362448338c8"
+      },
+      "type": "pvalue",
+      "v": "0.042"
+    },
+    "T14.2.2.1.1|POP=FAS|ROW=SD|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "6.25",
+      "row": {
+        "id": "SD",
+        "indent": 0,
+        "label": "SD",
+        "parent_path": null,
+        "physical_path": "SD"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 3,
+        "source_id": "sha256:7ee1eb2ebf4edfa30215980658895dcfd426382c66915be7fd163362448338c8"
+      },
+      "type": "statistic",
+      "v": "6.25"
+    },
+    "T14.2.2.1.1|POP=FAS|ROW=SD|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "5.25",
+      "row": {
+        "id": "SD",
+        "indent": 0,
+        "label": "SD",
+        "parent_path": null,
+        "physical_path": "SD"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 3,
+        "source_id": "sha256:7ee1eb2ebf4edfa30215980658895dcfd426382c66915be7fd163362448338c8"
+      },
+      "type": "statistic",
+      "v": "5.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_1/PT_1_2|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "6.25",
+      "row": {
+        "id": "SOC_1/PT_1_2",
+        "indent": 1,
+        "label": "SOC_1/PT_1_2",
+        "parent_path": "SOC_1",
+        "physical_path": "SOC_1/PT_1_2"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 3,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "6.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_1/PT_1_2|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "5.25",
+      "row": {
+        "id": "SOC_1/PT_1_2",
+        "indent": 1,
+        "label": "SOC_1/PT_1_2",
+        "parent_path": "SOC_1",
+        "physical_path": "SOC_1/PT_1_2"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 3,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "5.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_1/PT_SHARED|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "4.25",
+      "row": {
+        "id": "SOC_1/PT_SHARED",
+        "indent": 1,
+        "label": "SOC_1/PT_SHARED",
+        "parent_path": "SOC_1",
+        "physical_path": "SOC_1/PT_SHARED"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 2,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "4.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_1/PT_SHARED|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "3.25",
+      "row": {
+        "id": "SOC_1/PT_SHARED",
+        "indent": 1,
+        "label": "SOC_1/PT_SHARED",
+        "parent_path": "SOC_1",
+        "physical_path": "SOC_1/PT_SHARED"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 2,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "3.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_1|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "2.25",
+      "row": {
+        "id": "SOC_1",
+        "indent": 0,
+        "label": "SOC_1",
+        "parent_path": null,
+        "physical_path": "SOC_1"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 1,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "2.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_1|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "1.25",
+      "row": {
+        "id": "SOC_1",
+        "indent": 0,
+        "label": "SOC_1",
+        "parent_path": null,
+        "physical_path": "SOC_1"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 1,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "1.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_2/PT_2_2|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "12.25",
+      "row": {
+        "id": "SOC_2/PT_2_2",
+        "indent": 1,
+        "label": "SOC_2/PT_2_2",
+        "parent_path": "SOC_2",
+        "physical_path": "SOC_2/PT_2_2"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 6,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "12.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_2/PT_2_2|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "11.25",
+      "row": {
+        "id": "SOC_2/PT_2_2",
+        "indent": 1,
+        "label": "SOC_2/PT_2_2",
+        "parent_path": "SOC_2",
+        "physical_path": "SOC_2/PT_2_2"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 6,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "11.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_2/PT_2_3|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "14.25",
+      "row": {
+        "id": "SOC_2/PT_2_3",
+        "indent": 1,
+        "label": "SOC_2/PT_2_3",
+        "parent_path": "SOC_2",
+        "physical_path": "SOC_2/PT_2_3"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 7,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "14.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_2/PT_2_3|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "13.25",
+      "row": {
+        "id": "SOC_2/PT_2_3",
+        "indent": 1,
+        "label": "SOC_2/PT_2_3",
+        "parent_path": "SOC_2",
+        "physical_path": "SOC_2/PT_2_3"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 7,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "13.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_2/PT_SHARED|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "10.25",
+      "row": {
+        "id": "SOC_2/PT_SHARED",
+        "indent": 1,
+        "label": "SOC_2/PT_SHARED",
+        "parent_path": "SOC_2",
+        "physical_path": "SOC_2/PT_SHARED"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 5,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "10.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_2/PT_SHARED|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "9.25",
+      "row": {
+        "id": "SOC_2/PT_SHARED",
+        "indent": 1,
+        "label": "SOC_2/PT_SHARED",
+        "parent_path": "SOC_2",
+        "physical_path": "SOC_2/PT_SHARED"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 5,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "9.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_2|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "8.25",
+      "row": {
+        "id": "SOC_2",
+        "indent": 0,
+        "label": "SOC_2",
+        "parent_path": null,
+        "physical_path": "SOC_2"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 4,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "8.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_2|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "7.25",
+      "row": {
+        "id": "SOC_2",
+        "indent": 0,
+        "label": "SOC_2",
+        "parent_path": null,
+        "physical_path": "SOC_2"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 4,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "7.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_3/PT_3_1|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "18.25",
+      "row": {
+        "id": "SOC_3/PT_3_1",
+        "indent": 1,
+        "label": "SOC_3/PT_3_1",
+        "parent_path": "SOC_3",
+        "physical_path": "SOC_3/PT_3_1"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 9,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "18.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_3/PT_3_1|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "17.25",
+      "row": {
+        "id": "SOC_3/PT_3_1",
+        "indent": 1,
+        "label": "SOC_3/PT_3_1",
+        "parent_path": "SOC_3",
+        "physical_path": "SOC_3/PT_3_1"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 9,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "17.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_3/PT_3_2|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "20.25",
+      "row": {
+        "id": "SOC_3/PT_3_2",
+        "indent": 1,
+        "label": "SOC_3/PT_3_2",
+        "parent_path": "SOC_3",
+        "physical_path": "SOC_3/PT_3_2"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 10,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "20.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_3/PT_3_2|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "19.25",
+      "row": {
+        "id": "SOC_3/PT_3_2",
+        "indent": 1,
+        "label": "SOC_3/PT_3_2",
+        "parent_path": "SOC_3",
+        "physical_path": "SOC_3/PT_3_2"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 10,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "19.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_3/PT_3_3|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "22.25",
+      "row": {
+        "id": "SOC_3/PT_3_3",
+        "indent": 1,
+        "label": "SOC_3/PT_3_3",
+        "parent_path": "SOC_3",
+        "physical_path": "SOC_3/PT_3_3"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 11,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "22.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_3/PT_3_3|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "21.25",
+      "row": {
+        "id": "SOC_3/PT_3_3",
+        "indent": 1,
+        "label": "SOC_3/PT_3_3",
+        "parent_path": "SOC_3",
+        "physical_path": "SOC_3/PT_3_3"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 11,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "21.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_3/PT_3_4|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "24.25",
+      "row": {
+        "id": "SOC_3/PT_3_4",
+        "indent": 1,
+        "label": "SOC_3/PT_3_4",
+        "parent_path": "SOC_3",
+        "physical_path": "SOC_3/PT_3_4"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 12,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "24.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_3/PT_3_4|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "23.25",
+      "row": {
+        "id": "SOC_3/PT_3_4",
+        "indent": 1,
+        "label": "SOC_3/PT_3_4",
+        "parent_path": "SOC_3",
+        "physical_path": "SOC_3/PT_3_4"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 12,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "23.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_3|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "16.25",
+      "row": {
+        "id": "SOC_3",
+        "indent": 0,
+        "label": "SOC_3",
+        "parent_path": null,
+        "physical_path": "SOC_3"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 8,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "16.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_3|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "15.25",
+      "row": {
+        "id": "SOC_3",
+        "indent": 0,
+        "label": "SOC_3",
+        "parent_path": null,
+        "physical_path": "SOC_3"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 8,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "15.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_4/PT_4_1|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "28.25",
+      "row": {
+        "id": "SOC_4/PT_4_1",
+        "indent": 1,
+        "label": "SOC_4/PT_4_1",
+        "parent_path": "SOC_4",
+        "physical_path": "SOC_4/PT_4_1"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 14,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "28.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_4/PT_4_1|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "27.25",
+      "row": {
+        "id": "SOC_4/PT_4_1",
+        "indent": 1,
+        "label": "SOC_4/PT_4_1",
+        "parent_path": "SOC_4",
+        "physical_path": "SOC_4/PT_4_1"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 14,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "27.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_4/PT_4_2|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "30.25",
+      "row": {
+        "id": "SOC_4/PT_4_2",
+        "indent": 1,
+        "label": "SOC_4/PT_4_2",
+        "parent_path": "SOC_4",
+        "physical_path": "SOC_4/PT_4_2"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 15,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "30.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_4/PT_4_2|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "29.25",
+      "row": {
+        "id": "SOC_4/PT_4_2",
+        "indent": 1,
+        "label": "SOC_4/PT_4_2",
+        "parent_path": "SOC_4",
+        "physical_path": "SOC_4/PT_4_2"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 15,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "29.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_4/PT_4_3|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "32.25",
+      "row": {
+        "id": "SOC_4/PT_4_3",
+        "indent": 1,
+        "label": "SOC_4/PT_4_3",
+        "parent_path": "SOC_4",
+        "physical_path": "SOC_4/PT_4_3"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 16,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "32.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_4/PT_4_3|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "31.25",
+      "row": {
+        "id": "SOC_4/PT_4_3",
+        "indent": 1,
+        "label": "SOC_4/PT_4_3",
+        "parent_path": "SOC_4",
+        "physical_path": "SOC_4/PT_4_3"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 16,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "31.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_4/PT_4_4|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "34.25",
+      "row": {
+        "id": "SOC_4/PT_4_4",
+        "indent": 1,
+        "label": "SOC_4/PT_4_4",
+        "parent_path": "SOC_4",
+        "physical_path": "SOC_4/PT_4_4"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 17,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "34.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_4/PT_4_4|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "33.25",
+      "row": {
+        "id": "SOC_4/PT_4_4",
+        "indent": 1,
+        "label": "SOC_4/PT_4_4",
+        "parent_path": "SOC_4",
+        "physical_path": "SOC_4/PT_4_4"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 17,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "33.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_4/PT_4_5|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "36.25",
+      "row": {
+        "id": "SOC_4/PT_4_5",
+        "indent": 1,
+        "label": "SOC_4/PT_4_5",
+        "parent_path": "SOC_4",
+        "physical_path": "SOC_4/PT_4_5"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 18,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "36.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_4/PT_4_5|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "35.25",
+      "row": {
+        "id": "SOC_4/PT_4_5",
+        "indent": 1,
+        "label": "SOC_4/PT_4_5",
+        "parent_path": "SOC_4",
+        "physical_path": "SOC_4/PT_4_5"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 18,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "35.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_4|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "26.25",
+      "row": {
+        "id": "SOC_4",
+        "indent": 0,
+        "label": "SOC_4",
+        "parent_path": null,
+        "physical_path": "SOC_4"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 13,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "26.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_4|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "25.25",
+      "row": {
+        "id": "SOC_4",
+        "indent": 0,
+        "label": "SOC_4",
+        "parent_path": null,
+        "physical_path": "SOC_4"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 13,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "25.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_5/PT_5_1|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "40.25",
+      "row": {
+        "id": "SOC_5/PT_5_1",
+        "indent": 1,
+        "label": "SOC_5/PT_5_1",
+        "parent_path": "SOC_5",
+        "physical_path": "SOC_5/PT_5_1"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 20,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "40.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_5/PT_5_1|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "39.25",
+      "row": {
+        "id": "SOC_5/PT_5_1",
+        "indent": 1,
+        "label": "SOC_5/PT_5_1",
+        "parent_path": "SOC_5",
+        "physical_path": "SOC_5/PT_5_1"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 20,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "39.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_5/PT_5_2|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "42.25",
+      "row": {
+        "id": "SOC_5/PT_5_2",
+        "indent": 1,
+        "label": "SOC_5/PT_5_2",
+        "parent_path": "SOC_5",
+        "physical_path": "SOC_5/PT_5_2"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 21,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "42.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_5/PT_5_2|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "41.25",
+      "row": {
+        "id": "SOC_5/PT_5_2",
+        "indent": 1,
+        "label": "SOC_5/PT_5_2",
+        "parent_path": "SOC_5",
+        "physical_path": "SOC_5/PT_5_2"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 21,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "41.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_5/PT_5_3|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "44.25",
+      "row": {
+        "id": "SOC_5/PT_5_3",
+        "indent": 1,
+        "label": "SOC_5/PT_5_3",
+        "parent_path": "SOC_5",
+        "physical_path": "SOC_5/PT_5_3"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 22,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "44.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_5/PT_5_3|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "43.25",
+      "row": {
+        "id": "SOC_5/PT_5_3",
+        "indent": 1,
+        "label": "SOC_5/PT_5_3",
+        "parent_path": "SOC_5",
+        "physical_path": "SOC_5/PT_5_3"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 22,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "43.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_5/PT_5_4|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "46.25",
+      "row": {
+        "id": "SOC_5/PT_5_4",
+        "indent": 1,
+        "label": "SOC_5/PT_5_4",
+        "parent_path": "SOC_5",
+        "physical_path": "SOC_5/PT_5_4"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 23,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "46.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_5/PT_5_4|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "45.25",
+      "row": {
+        "id": "SOC_5/PT_5_4",
+        "indent": 1,
+        "label": "SOC_5/PT_5_4",
+        "parent_path": "SOC_5",
+        "physical_path": "SOC_5/PT_5_4"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 23,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "45.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_5/PT_5_5|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "48.25",
+      "row": {
+        "id": "SOC_5/PT_5_5",
+        "indent": 1,
+        "label": "SOC_5/PT_5_5",
+        "parent_path": "SOC_5",
+        "physical_path": "SOC_5/PT_5_5"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 24,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "48.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_5/PT_5_5|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "47.25",
+      "row": {
+        "id": "SOC_5/PT_5_5",
+        "indent": 1,
+        "label": "SOC_5/PT_5_5",
+        "parent_path": "SOC_5",
+        "physical_path": "SOC_5/PT_5_5"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 24,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "47.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_5/PT_5_6|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "50.25",
+      "row": {
+        "id": "SOC_5/PT_5_6",
+        "indent": 1,
+        "label": "SOC_5/PT_5_6",
+        "parent_path": "SOC_5",
+        "physical_path": "SOC_5/PT_5_6"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 25,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "50.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_5/PT_5_6|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "49.25",
+      "row": {
+        "id": "SOC_5/PT_5_6",
+        "indent": 1,
+        "label": "SOC_5/PT_5_6",
+        "parent_path": "SOC_5",
+        "physical_path": "SOC_5/PT_5_6"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 25,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "49.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_5/PT_5_7|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "52.25",
+      "row": {
+        "id": "SOC_5/PT_5_7",
+        "indent": 1,
+        "label": "SOC_5/PT_5_7",
+        "parent_path": "SOC_5",
+        "physical_path": "SOC_5/PT_5_7"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 26,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "52.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_5/PT_5_7|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "51.25",
+      "row": {
+        "id": "SOC_5/PT_5_7",
+        "indent": 1,
+        "label": "SOC_5/PT_5_7",
+        "parent_path": "SOC_5",
+        "physical_path": "SOC_5/PT_5_7"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 26,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "51.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_5|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "38.25",
+      "row": {
+        "id": "SOC_5",
+        "indent": 0,
+        "label": "SOC_5",
+        "parent_path": null,
+        "physical_path": "SOC_5"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 19,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "38.25"
+    },
+    "T14.3.1.3.1|POP=SS|ROW=SOC_5|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "37.25",
+      "row": {
+        "id": "SOC_5",
+        "indent": 0,
+        "label": "SOC_5",
+        "parent_path": null,
+        "physical_path": "SOC_5"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 19,
+        "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+      },
+      "type": "statistic",
+      "v": "37.25"
+    },
+    "T14.3.1.3.2|POP=SS|ROW=N|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "2.25",
+      "row": {
+        "id": "N",
+        "indent": 0,
+        "label": "N",
+        "parent_path": null,
+        "physical_path": "N"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 1,
+        "source_id": "sha256:72245919ccec7d27c78699e7f0ce46e250bd3e48d1019ec6828e2c4b56863c6a"
+      },
+      "type": "count",
+      "v": "2.25"
+    },
+    "T14.3.1.3.2|POP=SS|ROW=N|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "1.25",
+      "row": {
+        "id": "N",
+        "indent": 0,
+        "label": "N",
+        "parent_path": null,
+        "physical_path": "N"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 1,
+        "source_id": "sha256:72245919ccec7d27c78699e7f0ce46e250bd3e48d1019ec6828e2c4b56863c6a"
+      },
+      "type": "count",
+      "v": "1.25"
+    },
+    "T14.3.1.3.2|POP=SS|ROW=SOC_A/PT_A1|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "6.25",
+      "row": {
+        "id": "SOC_A/PT_A1",
+        "indent": 1,
+        "label": "SOC_A/PT_A1",
+        "parent_path": "SOC_A",
+        "physical_path": "SOC_A/PT_A1"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 3,
+        "source_id": "sha256:72245919ccec7d27c78699e7f0ce46e250bd3e48d1019ec6828e2c4b56863c6a"
+      },
+      "type": "statistic",
+      "v": "6.25"
+    },
+    "T14.3.1.3.2|POP=SS|ROW=SOC_A/PT_A1|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "5.25",
+      "row": {
+        "id": "SOC_A/PT_A1",
+        "indent": 1,
+        "label": "SOC_A/PT_A1",
+        "parent_path": "SOC_A",
+        "physical_path": "SOC_A/PT_A1"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 3,
+        "source_id": "sha256:72245919ccec7d27c78699e7f0ce46e250bd3e48d1019ec6828e2c4b56863c6a"
+      },
+      "type": "statistic",
+      "v": "5.25"
+    },
+    "T14.3.1.3.2|POP=SS|ROW=SOC_A/PT_A2|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "8.25",
+      "row": {
+        "id": "SOC_A/PT_A2",
+        "indent": 1,
+        "label": "SOC_A/PT_A2",
+        "parent_path": "SOC_A",
+        "physical_path": "SOC_A/PT_A2"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 4,
+        "source_id": "sha256:72245919ccec7d27c78699e7f0ce46e250bd3e48d1019ec6828e2c4b56863c6a"
+      },
+      "type": "statistic",
+      "v": "8.25"
+    },
+    "T14.3.1.3.2|POP=SS|ROW=SOC_A/PT_A2|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "7.25",
+      "row": {
+        "id": "SOC_A/PT_A2",
+        "indent": 1,
+        "label": "SOC_A/PT_A2",
+        "parent_path": "SOC_A",
+        "physical_path": "SOC_A/PT_A2"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 4,
+        "source_id": "sha256:72245919ccec7d27c78699e7f0ce46e250bd3e48d1019ec6828e2c4b56863c6a"
+      },
+      "type": "statistic",
+      "v": "7.25"
+    },
+    "T14.3.1.3.2|POP=SS|ROW=SOC_A|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "4.25",
+      "row": {
+        "id": "SOC_A",
+        "indent": 0,
+        "label": "SOC_A",
+        "parent_path": null,
+        "physical_path": "SOC_A"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 2,
+        "source_id": "sha256:72245919ccec7d27c78699e7f0ce46e250bd3e48d1019ec6828e2c4b56863c6a"
+      },
+      "type": "statistic",
+      "v": "4.25"
+    },
+    "T14.3.1.3.2|POP=SS|ROW=SOC_A|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "3.25",
+      "row": {
+        "id": "SOC_A",
+        "indent": 0,
+        "label": "SOC_A",
+        "parent_path": null,
+        "physical_path": "SOC_A"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 2,
+        "source_id": "sha256:72245919ccec7d27c78699e7f0ce46e250bd3e48d1019ec6828e2c4b56863c6a"
+      },
+      "type": "statistic",
+      "v": "3.25"
+    },
+    "T14.3.1.3.2|POP=SS|ROW=SOC_B/PT_B1|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "12.25",
+      "row": {
+        "id": "SOC_B/PT_B1",
+        "indent": 1,
+        "label": "SOC_B/PT_B1",
+        "parent_path": "SOC_B",
+        "physical_path": "SOC_B/PT_B1"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 6,
+        "source_id": "sha256:72245919ccec7d27c78699e7f0ce46e250bd3e48d1019ec6828e2c4b56863c6a"
+      },
+      "type": "statistic",
+      "v": "12.25"
+    },
+    "T14.3.1.3.2|POP=SS|ROW=SOC_B/PT_B1|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "11.25",
+      "row": {
+        "id": "SOC_B/PT_B1",
+        "indent": 1,
+        "label": "SOC_B/PT_B1",
+        "parent_path": "SOC_B",
+        "physical_path": "SOC_B/PT_B1"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 6,
+        "source_id": "sha256:72245919ccec7d27c78699e7f0ce46e250bd3e48d1019ec6828e2c4b56863c6a"
+      },
+      "type": "statistic",
+      "v": "11.25"
+    },
+    "T14.3.1.3.2|POP=SS|ROW=SOC_B|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "10.25",
+      "row": {
+        "id": "SOC_B",
+        "indent": 0,
+        "label": "SOC_B",
+        "parent_path": null,
+        "physical_path": "SOC_B"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 5,
+        "source_id": "sha256:72245919ccec7d27c78699e7f0ce46e250bd3e48d1019ec6828e2c4b56863c6a"
+      },
+      "type": "statistic",
+      "v": "10.25"
+    },
+    "T14.3.1.3.2|POP=SS|ROW=SOC_B|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "9.25",
+      "row": {
+        "id": "SOC_B",
+        "indent": 0,
+        "label": "SOC_B",
+        "parent_path": null,
+        "physical_path": "SOC_B"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 5,
+        "source_id": "sha256:72245919ccec7d27c78699e7f0ce46e250bd3e48d1019ec6828e2c4b56863c6a"
+      },
+      "type": "statistic",
+      "v": "9.25"
+    },
+    "T14.3.2.1|POP=SS|ROW=N|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "11",
+      "row": {
+        "id": "N",
+        "indent": 0,
+        "label": "N",
+        "parent_path": null,
+        "physical_path": "N"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 1,
+        "source_id": "sha256:aff42ffec40946f9b783f472ab4a72ebb2f9253a28ead061377f7adca9b2ef44"
+      },
+      "type": "count",
+      "v": "11"
+    },
+    "T14.3.2.1|POP=SS|ROW=N|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "10",
+      "row": {
+        "id": "N",
+        "indent": 0,
+        "label": "N",
+        "parent_path": null,
+        "physical_path": "N"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 1,
+        "source_id": "sha256:aff42ffec40946f9b783f472ab4a72ebb2f9253a28ead061377f7adca9b2ef44"
+      },
+      "type": "count",
+      "v": "10"
+    },
+    "T14.3.3.1|POP=SS|ROW=N|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "11",
+      "row": {
+        "id": "N",
+        "indent": 0,
+        "label": "N",
+        "parent_path": null,
+        "physical_path": "N"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 1,
+        "source_id": "sha256:9d4517fa3f54088c6ede5d50c71c95d1d5888d115a879f5733b4b08097aab7eb"
+      },
+      "type": "count",
+      "v": "11"
+    },
+    "T14.3.3.1|POP=SS|ROW=N|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "10",
+      "row": {
+        "id": "N",
+        "indent": 0,
+        "label": "N",
+        "parent_path": null,
+        "physical_path": "N"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 1,
+        "source_id": "sha256:9d4517fa3f54088c6ede5d50c71c95d1d5888d115a879f5733b4b08097aab7eb"
+      },
+      "type": "count",
+      "v": "10"
+    },
+    "T14.3.4.1|POP=SS|ROW=MEAN|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "4.25",
+      "row": {
+        "id": "MEAN",
+        "indent": 0,
+        "label": "MEAN",
+        "parent_path": null,
+        "physical_path": "MEAN"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 2,
+        "source_id": "sha256:84cfc4b7f7b3586b81c0402faab5873acc76b381cb7678ead578510b8ede275c"
+      },
+      "type": "statistic",
+      "v": "4.25"
+    },
+    "T14.3.4.1|POP=SS|ROW=MEAN|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "3.25",
+      "row": {
+        "id": "MEAN",
+        "indent": 0,
+        "label": "MEAN",
+        "parent_path": null,
+        "physical_path": "MEAN"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 2,
+        "source_id": "sha256:84cfc4b7f7b3586b81c0402faab5873acc76b381cb7678ead578510b8ede275c"
+      },
+      "type": "statistic",
+      "v": "3.25"
+    },
+    "T14.3.4.1|POP=SS|ROW=N|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "11",
+      "row": {
+        "id": "N",
+        "indent": 0,
+        "label": "N",
+        "parent_path": null,
+        "physical_path": "N"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 1,
+        "source_id": "sha256:84cfc4b7f7b3586b81c0402faab5873acc76b381cb7678ead578510b8ede275c"
+      },
+      "type": "count",
+      "v": "11"
+    },
+    "T14.3.4.1|POP=SS|ROW=N|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "10",
+      "row": {
+        "id": "N",
+        "indent": 0,
+        "label": "N",
+        "parent_path": null,
+        "physical_path": "N"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 1,
+        "source_id": "sha256:84cfc4b7f7b3586b81c0402faab5873acc76b381cb7678ead578510b8ede275c"
+      },
+      "type": "count",
+      "v": "10"
+    },
+    "T14.3.4.1|POP=SS|ROW=SD|COL=C1_0PCT_QD": {
+      "column": {
+        "id": "C1_0PCT_QD",
+        "label": "C1_0PCT_QD"
+      },
+      "dimensions": {},
+      "display_value": "6.25",
+      "row": {
+        "id": "SD",
+        "indent": 0,
+        "label": "SD",
+        "parent_path": null,
+        "physical_path": "SD"
+      },
+      "source_locator": {
+        "column_index": 2,
+        "row_index": 3,
+        "source_id": "sha256:84cfc4b7f7b3586b81c0402faab5873acc76b381cb7678ead578510b8ede275c"
+      },
+      "type": "statistic",
+      "v": "6.25"
+    },
+    "T14.3.4.1|POP=SS|ROW=SD|COL=PBO": {
+      "column": {
+        "id": "PBO",
+        "label": "PBO"
+      },
+      "dimensions": {},
+      "display_value": "5.25",
+      "row": {
+        "id": "SD",
+        "indent": 0,
+        "label": "SD",
+        "parent_path": null,
+        "physical_path": "SD"
+      },
+      "source_locator": {
+        "column_index": 1,
+        "row_index": 3,
+        "source_id": "sha256:84cfc4b7f7b3586b81c0402faab5873acc76b381cb7678ead578510b8ede275c"
+      },
+      "type": "statistic",
+      "v": "5.25"
+    }
+  },
+  "listing_policy": {
+    "default": "cell_level",
+    "layout_reference_data_driven_rows": "columns_only_deferred_rows",
+    "mixed_placeholder_rows": "mixed_stable_and_deferred_rows",
+    "rationale": "subject-level cells and non-semantic shell placeholder rows are not materialized into frozen result keys",
+    "subject_level_wide_listing": "metadata_only"
+  },
+  "mapping_manifest": {
+    "filename": "frozen-tfl-map.json",
+    "sha256": "a4a0c5d112fe6c0c7516550e856e4388dd6091603823535f04df4f17640ffc95"
+  },
+  "schema_version": "1.0",
+  "semantic_key_version": "2.0",
+  "sources": [
+    {
+      "decode_replacements": 0,
+      "filename": "real-shell.docx",
+      "format": "docx-shell-ooxml-auto-v2",
+      "manifest_path": "read-only external source",
+      "source_id": "sha256:a8765db67f086f89b40e46ddf651a690992b9797ddca0fab63e3b14d62024d3f"
+    },
+    {
+      "codec": "cp1252",
+      "declared_codepage": 1252,
+      "decode_replacements": 0,
+      "filename": "deidentified-result.rtf",
+      "format": "sas-ods-rtf-physical-v2",
+      "manifest_path": "frozen-shell coordinate application",
+      "source_id": "sha256:7e8db404eaaeea3ac3a51629c3393177a9fc9182db1f283796ef8f57e2507f1c"
+    },
+    {
+      "codec": "cp1252",
+      "declared_codepage": 1252,
+      "decode_replacements": 0,
+      "filename": "deidentified-result.rtf",
+      "format": "sas-ods-rtf-physical-v2",
+      "manifest_path": "frozen-shell coordinate application",
+      "source_id": "sha256:ee8b759ca28658b20dd10095e2907ad8a5675e9bdf9fc732fad0258264d0dc10"
+    },
+    {
+      "codec": "cp1252",
+      "declared_codepage": 1252,
+      "decode_replacements": 0,
+      "filename": "deidentified-result.rtf",
+      "format": "sas-ods-rtf-physical-v2",
+      "manifest_path": "frozen-shell semantic application",
+      "source_id": "sha256:1edf9a1ae77f119ed7c242d1498aa149791b97a959cb91edd407ce73ba43147d"
+    },
+    {
+      "codec": "cp1252",
+      "declared_codepage": 1252,
+      "decode_replacements": 0,
+      "filename": "deidentified-result.rtf",
+      "format": "sas-ods-rtf-physical-v2",
+      "manifest_path": "frozen-shell coordinate application",
+      "source_id": "sha256:7ee1eb2ebf4edfa30215980658895dcfd426382c66915be7fd163362448338c8"
+    },
+    {
+      "codec": "cp1252",
+      "declared_codepage": 1252,
+      "decode_replacements": 0,
+      "filename": "deidentified-result.rtf",
+      "format": "sas-ods-rtf-physical-v2",
+      "manifest_path": "frozen-shell semantic application",
+      "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425"
+    },
+    {
+      "codec": "cp1252",
+      "declared_codepage": 1252,
+      "decode_replacements": 0,
+      "filename": "deidentified-result.rtf",
+      "format": "sas-ods-rtf-physical-v2",
+      "manifest_path": "frozen-shell semantic application",
+      "source_id": "sha256:72245919ccec7d27c78699e7f0ce46e250bd3e48d1019ec6828e2c4b56863c6a"
+    },
+    {
+      "codec": "cp1252",
+      "declared_codepage": 1252,
+      "decode_replacements": 0,
+      "filename": "deidentified-result.rtf",
+      "format": "sas-ods-rtf-physical-v2",
+      "manifest_path": "frozen-shell coordinate application",
+      "source_id": "sha256:aff42ffec40946f9b783f472ab4a72ebb2f9253a28ead061377f7adca9b2ef44"
+    },
+    {
+      "codec": "cp1252",
+      "declared_codepage": 1252,
+      "decode_replacements": 0,
+      "filename": "deidentified-result.rtf",
+      "format": "sas-ods-rtf-physical-v2",
+      "manifest_path": "frozen-shell coordinate application",
+      "source_id": "sha256:9d4517fa3f54088c6ede5d50c71c95d1d5888d115a879f5733b4b08097aab7eb"
+    },
+    {
+      "codec": "cp1252",
+      "declared_codepage": 1252,
+      "decode_replacements": 0,
+      "filename": "deidentified-result.rtf",
+      "format": "sas-ods-rtf-physical-v2",
+      "manifest_path": "frozen-shell coordinate application",
+      "source_id": "sha256:84cfc4b7f7b3586b81c0402faab5873acc76b381cb7678ead578510b8ede275c"
+    }
+  ],
+  "tables": [
+    {
+      "adapter": "sas-ods-rtf-physical-v2",
+      "dimensions": {},
+      "footnotes": [],
+      "ingest_strategy": "cell_level",
+      "population": "FAS",
+      "source_id": "sha256:7e8db404eaaeea3ac3a51629c3393177a9fc9182db1f283796ef8f57e2507f1c",
+      "table_id": "T14.1.1.2",
+      "titles": [],
+      "trailer": {}
+    },
+    {
+      "adapter": "sas-ods-rtf-physical-v2",
+      "dimensions": {},
+      "footnotes": [],
+      "ingest_strategy": "cell_level",
+      "population": "FAS",
+      "source_id": "sha256:ee8b759ca28658b20dd10095e2907ad8a5675e9bdf9fc732fad0258264d0dc10",
+      "table_id": "T14.1.2.1",
+      "titles": [],
+      "trailer": {}
+    },
+    {
+      "adapter": "sas-ods-rtf-physical-v2",
+      "deferred_row_contract": {
+        "detection": "nonsemantic_row_id",
+        "expected_semantic_source": "whodrug_atc_and_drug_name_from_result_tfl",
+        "frozen_column_ids": [
+          "PBO",
+          "C1_0PCT_QD"
+        ],
+        "materialize_at": "result_tfl",
+        "schema_version": "1.0",
+        "shell_placeholder_row_count": 2,
+        "stable_row_count": 0,
+        "template_placeholder_row_count": 0
+      },
+      "dimensions": {},
+      "footnotes": [],
+      "ingest_strategy": "columns_only_deferred_rows",
+      "population": "FAS",
+      "source_id": "sha256:1edf9a1ae77f119ed7c242d1498aa149791b97a959cb91edd407ce73ba43147d",
+      "table_id": "T14.1.4.1",
+      "titles": [],
+      "trailer": {}
+    },
+    {
+      "adapter": "sas-ods-rtf-physical-v2",
+      "dimensions": {},
+      "footnotes": [],
+      "ingest_strategy": "cell_level",
+      "population": "FAS",
+      "source_id": "sha256:7ee1eb2ebf4edfa30215980658895dcfd426382c66915be7fd163362448338c8",
+      "table_id": "T14.2.2.1.1",
+      "titles": [],
+      "trailer": {}
+    },
+    {
+      "adapter": "sas-ods-rtf-physical-v2",
+      "deferred_row_contract": {
+        "detection": "nonsemantic_row_id",
+        "expected_semantic_source": "meddra_soc_pt_from_result_tfl",
+        "frozen_column_ids": [
+          "PBO",
+          "C1_0PCT_QD"
+        ],
+        "materialize_at": "result_tfl",
+        "schema_version": "1.0",
+        "shell_placeholder_row_count": 3,
+        "stable_row_count": 0,
+        "template_placeholder_row_count": 0
+      },
+      "dimensions": {},
+      "footnotes": [],
+      "ingest_strategy": "columns_only_deferred_rows",
+      "population": "SS",
+      "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425",
+      "table_id": "T14.3.1.3.1",
+      "titles": [],
+      "trailer": {}
+    },
+    {
+      "adapter": "sas-ods-rtf-physical-v2",
+      "deferred_row_contract": {
+        "detection": "nonsemantic_row_id",
+        "expected_semantic_source": "meddra_soc_pt_from_result_tfl",
+        "frozen_column_ids": [
+          "PBO",
+          "C1_0PCT_QD"
+        ],
+        "materialize_at": "result_tfl",
+        "schema_version": "1.0",
+        "shell_placeholder_row_count": 2,
+        "stable_row_count": 1,
+        "template_placeholder_row_count": 0
+      },
+      "dimensions": {},
+      "footnotes": [],
+      "ingest_strategy": "mixed_stable_and_deferred_rows",
+      "population": "SS",
+      "source_id": "sha256:72245919ccec7d27c78699e7f0ce46e250bd3e48d1019ec6828e2c4b56863c6a",
+      "table_id": "T14.3.1.3.2",
+      "titles": [],
+      "trailer": {}
+    },
+    {
+      "adapter": "sas-ods-rtf-physical-v2",
+      "dimensions": {},
+      "footnotes": [],
+      "ingest_strategy": "cell_level",
+      "population": "SS",
+      "source_id": "sha256:aff42ffec40946f9b783f472ab4a72ebb2f9253a28ead061377f7adca9b2ef44",
+      "table_id": "T14.3.2.1",
+      "titles": [],
+      "trailer": {}
+    },
+    {
+      "adapter": "sas-ods-rtf-physical-v2",
+      "dimensions": {},
+      "footnotes": [],
+      "ingest_strategy": "cell_level",
+      "population": "SS",
+      "source_id": "sha256:9d4517fa3f54088c6ede5d50c71c95d1d5888d115a879f5733b4b08097aab7eb",
+      "table_id": "T14.3.3.1",
+      "titles": [],
+      "trailer": {}
+    },
+    {
+      "adapter": "sas-ods-rtf-physical-v2",
+      "dimensions": {},
+      "footnotes": [],
+      "ingest_strategy": "cell_level",
+      "population": "SS",
+      "source_id": "sha256:84cfc4b7f7b3586b81c0402faab5873acc76b381cb7678ead578510b8ede275c",
+      "table_id": "T14.3.4.1",
+      "titles": [],
+      "trailer": {}
+    }
+  ]
+}

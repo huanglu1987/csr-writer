@@ -1,0 +1,50 @@
+{
+  "blocked_cases": 4,
+  "card_external_entity_cases_blocked": 1,
+  "card_external_number_cases_blocked": 1,
+  "missing_field_cases_blocked": 2,
+  "records": [
+    {
+      "blocked_as_expected": true,
+      "category": "missing_contract_field",
+      "expected_code": "E-FACT-CARD-MISSING-CONTRACT-FIELD",
+      "observed_codes": [
+        "E-FACT-CARD-MISSING-CONTRACT-FIELD"
+      ],
+      "stage": "card"
+    },
+    {
+      "blocked_as_expected": true,
+      "category": "missing_draft_back_reference",
+      "expected_code": "E-FACT-CARD-MISSING-FIELD",
+      "observed_codes": [
+        "E-FACT-CARD-MISSING-FIELD",
+        "E-FACT-CARD-FORWARD-COVERAGE",
+        "E-FACT-CARD-FORWARD-COVERAGE"
+      ],
+      "stage": "draft"
+    },
+    {
+      "blocked_as_expected": true,
+      "category": "card_external_entity",
+      "expected_code": "E-FACT-CARD-EXTRA-ENTITY",
+      "observed_codes": [
+        "E-FACT-CARD-EXTRA-ENTITY"
+      ],
+      "stage": "draft"
+    },
+    {
+      "blocked_as_expected": true,
+      "category": "card_external_number",
+      "expected_code": "E-FACT-CARD-EXTRA-NUMBER",
+      "observed_codes": [
+        "E-FACT-CARD-FORWARD-COVERAGE",
+        "E-FACT-CARD-EXTRA-NUMBER"
+      ],
+      "stage": "draft"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "pass",
+  "total_cases": 4
+}

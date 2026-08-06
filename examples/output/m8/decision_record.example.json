@@ -1,0 +1,30 @@
+{
+  "basis": {
+    "origin": "direct_proposal",
+    "template_applicability_explicitly_confirmed": false,
+    "template_sha256": null
+  },
+  "decided_at": "2026-08-04T00:00:00+08:00",
+  "decision": {
+    "notes": "脱敏演示；不代表真实项目批准",
+    "outcome": "confirm_default",
+    "override_parameters": null,
+    "resolved_inputs": {
+      "dictionary_version": "DEIDENTIFIED-DEMO-V1"
+    },
+    "selected_action": "confirm_dictionary_and_late_bound_hierarchy"
+  },
+  "decision_group_sha256": "9bb9f7022fec471a85cfa643950a50e2c4b449e2f2695c1f1366fe9ecc417891",
+  "decision_type": "coding_dictionary_dependency",
+  "group_id": "DG-CODE-MEDDRA",
+  "override_reason": null,
+  "proposal_report_sha256": "8f40b76001f4f7b557276953ce0f0b4bb36ae52770c508249b05196338e7052c",
+  "queue_sha256": "7504a393eb4c53740b05b8c73e6ee04b92e8e977c392949ca557669886d57d08",
+  "record_id": "DEC-FC7EA537E87CFA6032D0",
+  "record_sha256": "f6ea5dc8097d73eb47973840f35e887ce45b50c7b794a21a5040288123b787f5",
+  "reviewer": {
+    "identifier": "reviewer_demo_001",
+    "role": "lead_statistician"
+  },
+  "schema_version": "1.0"
+}

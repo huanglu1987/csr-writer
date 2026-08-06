@@ -1,0 +1,309 @@
+{
+  "accepted_text": "脱敏合成临床试验方案\n合成数据｜非临床证据｜不得用于受试者或申报判断\n1 研究概述\n本研究为Ⅱ期、单臂、开放性、多中心研究，评价口服研究药物 A 用于成人偏头痛预防治疗。\n2 研究目标\n主要目标为描述治疗第4周每月偏头痛日数较基线的变化。次要目标包括安全性和应答情况。\n3 研究设计\n全部受试者接受同一固定给药方案。本研究不进行随机分配，不设置对照组，也不实施盲法。\n4 研究人群\n研究对象为符合方案诊断标准的成人偏头痛患者。计划纳入人数记录于经确认的 study_facts。\n5 治疗方案\n研究药物采用固定口服给药方案。具体剂量、频次和疗程仅以经确认方案字段为准。\n6 疗效评价\n主要终点为治疗第4周每月偏头痛日数较基线的变化。结果按 ITT 描述，并以 PPS 进行支持性分析。\n7 安全性评价\n安全性评价包括不良事件、临床实验室检查、生命体征和心电图。安全性结果按 SAF 汇总。\n8 统计分析\n本研究采用探索性描述方法，不进行确证性假设检验。分析集名称为 SAF、ITT 和 PPS。\n\n\n文档结束。合成数据｜非临床证据｜不得用于受试者或申报判断",
+  "findings": {
+    "comments": {
+      "marker_comment_ids": [],
+      "markers": [],
+      "package_comment_ids": [],
+      "present": false
+    },
+    "hidden_text": {
+      "present": false,
+      "runs": []
+    },
+    "revisions": {
+      "deletions": [],
+      "insertions": [],
+      "present": false
+    }
+  },
+  "gap_report": [],
+  "parts_read": [
+    "word/document.xml",
+    "word/styles.xml",
+    "word/settings.xml",
+    "word/_rels/document.xml.rels"
+  ],
+  "records": [
+    {
+      "has_review_comment": false,
+      "kind": "paragraph",
+      "location": "word/document.xml:/w:document/w:body/w:p[1]",
+      "paragraph_style": "Title",
+      "part": "word/document.xml",
+      "review_comment_ids": [],
+      "sequence": 1,
+      "story": "document",
+      "story_id": "document",
+      "text": "脱敏合成临床试验方案"
+    },
+    {
+      "has_review_comment": false,
+      "kind": "paragraph",
+      "location": "word/document.xml:/w:document/w:body/w:p[2]",
+      "paragraph_style": null,
+      "part": "word/document.xml",
+      "review_comment_ids": [],
+      "sequence": 2,
+      "story": "document",
+      "story_id": "document",
+      "text": "合成数据｜非临床证据｜不得用于受试者或申报判断"
+    },
+    {
+      "has_review_comment": false,
+      "kind": "paragraph",
+      "location": "word/document.xml:/w:document/w:body/w:p[3]",
+      "paragraph_style": "Heading1",
+      "part": "word/document.xml",
+      "review_comment_ids": [],
+      "sequence": 3,
+      "story": "document",
+      "story_id": "document",
+      "text": "1 研究概述"
+    },
+    {
+      "has_review_comment": false,
+      "kind": "paragraph",
+      "location": "word/document.xml:/w:document/w:body/w:p[4]",
+      "paragraph_style": null,
+      "part": "word/document.xml",
+      "review_comment_ids": [],
+      "sequence": 4,
+      "story": "document",
+      "story_id": "document",
+      "text": "本研究为Ⅱ期、单臂、开放性、多中心研究，评价口服研究药物 A 用于成人偏头痛预防治疗。"
+    },
+    {
+      "has_review_comment": false,
+      "kind": "paragraph",
+      "location": "word/document.xml:/w:document/w:body/w:p[5]",
+      "paragraph_style": "Heading1",
+      "part": "word/document.xml",
+      "review_comment_ids": [],
+      "sequence": 5,
+      "story": "document",
+      "story_id": "document",
+      "text": "2 研究目标"
+    },
+    {
+      "has_review_comment": false,
+      "kind": "paragraph",
+      "location": "word/document.xml:/w:document/w:body/w:p[6]",
+      "paragraph_style": null,
+      "part": "word/document.xml",
+      "review_comment_ids": [],
+      "sequence": 6,
+      "story": "document",
+      "story_id": "document",
+      "text": "主要目标为描述治疗第4周每月偏头痛日数较基线的变化。次要目标包括安全性和应答情况。"
+    },
+    {
+      "has_review_comment": false,
+      "kind": "paragraph",
+      "location": "word/document.xml:/w:document/w:body/w:p[7]",
+      "paragraph_style": "Heading1",
+      "part": "word/document.xml",
+      "review_comment_ids": [],
+      "sequence": 7,
+      "story": "document",
+      "story_id": "document",
+      "text": "3 研究设计"
+    },
+    {
+      "has_review_comment": false,
+      "kind": "paragraph",
+      "location": "word/document.xml:/w:document/w:body/w:p[8]",
+      "paragraph_style": null,
+      "part": "word/document.xml",
+      "review_comment_ids": [],
+      "sequence": 8,
+      "story": "document",
+      "story_id": "document",
+      "text": "全部受试者接受同一固定给药方案。本研究不进行随机分配，不设置对照组，也不实施盲法。"
+    },
+    {
+      "has_review_comment": false,
+      "kind": "paragraph",
+      "location": "word/document.xml:/w:document/w:body/w:p[9]",
+      "paragraph_style": "Heading1",
+      "part": "word/document.xml",
+      "review_comment_ids": [],
+      "sequence": 9,
+      "story": "document",
+      "story_id": "document",
+      "text": "4 研究人群"
+    },
+    {
+      "has_review_comment": false,
+      "kind": "paragraph",
+      "location": "word/document.xml:/w:document/w:body/w:p[10]",
+      "paragraph_style": null,
+      "part": "word/document.xml",
+      "review_comment_ids": [],
+      "sequence": 10,
+      "story": "document",
+      "story_id": "document",
+      "text": "研究对象为符合方案诊断标准的成人偏头痛患者。计划纳入人数记录于经确认的 study_facts。"
+    },
+    {
+      "has_review_comment": false,
+      "kind": "paragraph",
+      "location": "word/document.xml:/w:document/w:body/w:p[11]",
+      "paragraph_style": "Heading1",
+      "part": "word/document.xml",
+      "review_comment_ids": [],
+      "sequence": 11,
+      "story": "document",
+      "story_id": "document",
+      "text": "5 治疗方案"
+    },
+    {
+      "has_review_comment": false,
+      "kind": "paragraph",
+      "location": "word/document.xml:/w:document/w:body/w:p[12]",
+      "paragraph_style": null,
+      "part": "word/document.xml",
+      "review_comment_ids": [],
+      "sequence": 12,
+      "story": "document",
+      "story_id": "document",
+      "text": "研究药物采用固定口服给药方案。具体剂量、频次和疗程仅以经确认方案字段为准。"
+    },
+    {
+      "has_review_comment": false,
+      "kind": "paragraph",
+      "location": "word/document.xml:/w:document/w:body/w:p[13]",
+      "paragraph_style": "Heading1",
+      "part": "word/document.xml",
+      "review_comment_ids": [],
+      "sequence": 13,
+      "story": "document",
+      "story_id": "document",
+      "text": "6 疗效评价"
+    },
+    {
+      "has_review_comment": false,
+      "kind": "paragraph",
+      "location": "word/document.xml:/w:document/w:body/w:p[14]",
+      "paragraph_style": null,
+      "part": "word/document.xml",
+      "review_comment_ids": [],
+      "sequence": 14,
+      "story": "document",
+      "story_id": "document",
+      "text": "主要终点为治疗第4周每月偏头痛日数较基线的变化。结果按 ITT 描述，并以 PPS 进行支持性分析。"
+    },
+    {
+      "has_review_comment": false,
+      "kind": "paragraph",
+      "location": "word/document.xml:/w:document/w:body/w:p[15]",
+      "paragraph_style": "Heading1",
+      "part": "word/document.xml",
+      "review_comment_ids": [],
+      "sequence": 15,
+      "story": "document",
+      "story_id": "document",
+      "text": "7 安全性评价"
+    },
+    {
+      "has_review_comment": false,
+      "kind": "paragraph",
+      "location": "word/document.xml:/w:document/w:body/w:p[16]",
+      "paragraph_style": null,
+      "part": "word/document.xml",
+      "review_comment_ids": [],
+      "sequence": 16,
+      "story": "document",
+      "story_id": "document",
+      "text": "安全性评价包括不良事件、临床实验室检查、生命体征和心电图。安全性结果按 SAF 汇总。"
+    },
+    {
+      "has_review_comment": false,
+      "kind": "paragraph",
+      "location": "word/document.xml:/w:document/w:body/w:p[17]",
+      "paragraph_style": "Heading1",
+      "part": "word/document.xml",
+      "review_comment_ids": [],
+      "sequence": 17,
+      "story": "document",
+      "story_id": "document",
+      "text": "8 统计分析"
+    },
+    {
+      "has_review_comment": false,
+      "kind": "paragraph",
+      "location": "word/document.xml:/w:document/w:body/w:p[18]",
+      "paragraph_style": null,
+      "part": "word/document.xml",
+      "review_comment_ids": [],
+      "sequence": 18,
+      "story": "document",
+      "story_id": "document",
+      "text": "本研究采用探索性描述方法，不进行确证性假设检验。分析集名称为 SAF、ITT 和 PPS。"
+    },
+    {
+      "has_review_comment": false,
+      "kind": "paragraph",
+      "location": "word/document.xml:/w:document/w:body/w:p[19]",
+      "paragraph_style": null,
+      "part": "word/document.xml",
+      "review_comment_ids": [],
+      "sequence": 19,
+      "story": "document",
+      "story_id": "document",
+      "text": "\n"
+    },
+    {
+      "has_review_comment": false,
+      "kind": "paragraph",
+      "location": "word/document.xml:/w:document/w:body/w:p[20]",
+      "paragraph_style": null,
+      "part": "word/document.xml",
+      "review_comment_ids": [],
+      "sequence": 20,
+      "story": "document",
+      "story_id": "document",
+      "text": "文档结束。合成数据｜非临床证据｜不得用于受试者或申报判断"
+    }
+  ],
+  "schema_version": "1.0",
+  "source": {
+    "path": "/Users/huanglu/临床试验总结报告撰写/csr-writer/examples/fixtures/m20_unfamiliar/protocol.single_arm_migraine.deidentified.docx",
+    "sha256_after": "78488a876ab203aa382f60d468209c70c2efe71896cc59ad6a8a6a36416de7a3",
+    "sha256_before": "78488a876ab203aa382f60d468209c70c2efe71896cc59ad6a8a6a36416de7a3",
+    "size_bytes": 37460,
+    "unchanged": true
+  },
+  "statistics": {
+    "comment_markers": 0,
+    "deletions": 0,
+    "hidden_runs": 0,
+    "insertions": 0,
+    "nonempty_records": 20,
+    "records": 20,
+    "stories": 1,
+    "table_cells": 0,
+    "tables": 0,
+    "text_boxes": 0
+  },
+  "story_order": [
+    {
+      "part": "word/document.xml",
+      "references": [],
+      "sequence": 1,
+      "story": "document",
+      "story_id": "document"
+    }
+  ],
+  "tables": [],
+  "text_boxes": [],
+  "traversal_contract": {
+    "body_order": "OOXML block order; paragraph text stays aggregate and each recursive text box records its exact host-character anchor offset",
+    "comments": "markers only; comment bodies excluded",
+    "hidden_text": "direct or style-inherited w:vanish excluded",
+    "revisions": "w:ins included; w:del excluded",
+    "story_order": "document body, then referenced header/footer parts in first-reference order"
+  },
+  "view": "accepted_all_revisions",
+  "warnings": []
+}

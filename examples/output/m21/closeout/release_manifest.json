@@ -1,0 +1,13 @@
+{
+  "component_aggregate_sha256": "9e97238c8d2e002822c2e795766403d4f4df6580ecbbcd9b43769acebf6607ca",
+  "component_manifest": "component_hashes.json",
+  "note": "只读规格源以哈希引用，不复制入运行时交付包。",
+  "package": "csr-writer-1.0.0-runtime-evidence.zip",
+  "package_bytes": 1310653,
+  "package_sha256": "24cebadbb929f2bc9a2c14f901e62dfa01a39e102757c2cdf3ab650adca64530",
+  "read_only_specification_files_included": false,
+  "real_clinical_files_included": false,
+  "schema_version": "1.0",
+  "status": "frozen",
+  "version": "1.0.0"
+}

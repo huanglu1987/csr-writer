@@ -1,0 +1,104 @@
+{
+  "existing_playbooks_updated": 19,
+  "new_complete_playbooks": 0,
+  "new_medium_playbooks": 0,
+  "records": [
+    {
+      "filename": "s9-randomization-blinding-controls.md",
+      "line_count": 174,
+      "style_section": true
+    },
+    {
+      "filename": "s10-subject-disposition.md",
+      "line_count": 178,
+      "style_section": true
+    },
+    {
+      "filename": "s11-2-demographics-baseline.md",
+      "line_count": 176,
+      "style_section": true
+    },
+    {
+      "filename": "s11-3-treatment-compliance.md",
+      "line_count": 174,
+      "style_section": true
+    },
+    {
+      "filename": "s11-4-primary-efficacy.md",
+      "line_count": 198,
+      "style_section": true
+    },
+    {
+      "filename": "s11-a-dose-escalation.md",
+      "line_count": 202,
+      "style_section": true
+    },
+    {
+      "filename": "s11-clinpharm-special-pop-endpoints.md",
+      "line_count": 204,
+      "style_section": true
+    },
+    {
+      "filename": "s11-topical-pk.md",
+      "line_count": 173,
+      "style_section": true
+    },
+    {
+      "filename": "s11-5-10-pk-conclusion.md",
+      "line_count": 174,
+      "style_section": true
+    },
+    {
+      "filename": "s11-6-7-exploratory-efficacy-conclusion.md",
+      "line_count": 174,
+      "style_section": true
+    },
+    {
+      "filename": "s12-2-adverse-events.md",
+      "line_count": 190,
+      "style_section": true
+    },
+    {
+      "filename": "s12-3-1-deaths-serious-significant-listings.md",
+      "line_count": 178,
+      "style_section": true
+    },
+    {
+      "filename": "s12-3-2-sae-narratives-boundary.md",
+      "line_count": 176,
+      "style_section": true
+    },
+    {
+      "filename": "s12-3-3-serious-event-analysis.md",
+      "line_count": 175,
+      "style_section": true
+    },
+    {
+      "filename": "s12-4-2-laboratory-evaluation.md",
+      "line_count": 179,
+      "style_section": true
+    },
+    {
+      "filename": "s12-exposure.md",
+      "line_count": 175,
+      "style_section": true
+    },
+    {
+      "filename": "s12-route-specific-safety.md",
+      "line_count": 189,
+      "style_section": true
+    },
+    {
+      "filename": "s13-discussion-overall-conclusions.md",
+      "line_count": 179,
+      "style_section": true
+    },
+    {
+      "filename": "s13-overall-conclusion-conditioned.md",
+      "line_count": 183,
+      "style_section": true
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "pass"
+}

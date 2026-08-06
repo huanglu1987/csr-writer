@@ -1,0 +1,122 @@
+{
+  "agent_interface": {
+    "agent_draft_sha256": "6d5e558728e36277d87911312a1d2ac87836654a1a2996b8cb31ffe0adb7f28f",
+    "envelope_sha256": "dc8cb4f3fda3b9c4badfba639e13a5600ad2f2f2cfa871fe53092e87308bec65",
+    "external_model_api_called": false,
+    "interface": "csr-writer-agent-section-v1",
+    "prior_guard_report_sha256s": []
+  },
+  "binding_manifest": [
+    {
+      "context_sha256": "74622fc2067881d5d107eaa2e3ef2bae68b9a0e3ca64ae7ff256c2760954af94",
+      "key": "T14.2.2.1.1|POP=FAS|ROW=BASELINE/OBSERVED_VALUE/MEAN_SD|COL=PBO",
+      "role": "exploratory_endpoint_result",
+      "source_id": "T14.2.2.1.1"
+    }
+  ],
+  "draft_sha256": "8f4ffe0f3f72071d61fcade2e60cf39641d46d6ea0a05793839b22c29e90f8d9",
+  "evidence_status": "demo_only",
+  "generation_attempts": 1,
+  "guard_retry_count": 0,
+  "input_sha256": "a38d568105aacbeefa7922f71d2578bff57acee845606fae3231b9c234c6c941",
+  "paragraphs": [
+    {
+      "conditional_conclusions": [],
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_11_6_1_4_001",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "SRC-M15-EXP-ENDPOINT",
+        "SRC-M15-EXP-SET"
+      ]
+    },
+    {
+      "conditional_conclusions": [],
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_11_6_1_4_002",
+      "placeholders": [
+        "T14.2.2.1.1|POP=FAS|ROW=BASELINE/OBSERVED_VALUE/MEAN_SD|COL=PBO"
+      ],
+      "references": [
+        "T14.2.2.1.1"
+      ],
+      "semantic_findings": [],
+      "sources": [
+        "T14.2.2.1.1"
+      ]
+    },
+    {
+      "conditional_conclusions": [],
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_11_6_1_4_003",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "SRC-M15-EXP-ENDPOINT"
+      ]
+    }
+  ],
+  "playbook": {
+    "filename": "s11-6-1-4-exploratory-endpoints.md",
+    "sha256": "42c887aadcedeae48d664b1b4a05d2ba82d197feb72d9ae4c67cbaebffec7d92"
+  },
+  "prompt_audit": [],
+  "reference_manifest": [
+    {
+      "entity_id": "T14.2.2.1.1",
+      "frozen_map_sha256": "b612007eea64f7aa63053d33a3b0dd37551cce2568bcadfd1086df81ef7b0323",
+      "verified_by": "binding_manifest"
+    }
+  ],
+  "schema_version": "1.1",
+  "section": "11.6.1.4",
+  "semantic_findings": [],
+  "source_manifest": [
+    {
+      "content_sha256": "0362ca302c63e01da3e00e1ef82895920c11b710aef21eea9fe11083ee4ac0ab",
+      "locator": "脱敏等价方法说明",
+      "purpose": "endpoint_definition",
+      "source_id": "SRC-M15-EXP-ENDPOINT"
+    },
+    {
+      "content_sha256": "a5735d6f2b60ec0698ad714a4d9c8fe73d572604ed4fd4707b9c9bf60c812fc9",
+      "locator": "脱敏等价方法说明",
+      "purpose": "analysis_set",
+      "source_id": "SRC-M15-EXP-SET"
+    }
+  ],
+  "style_qc": {
+    "blocked": false,
+    "findings": [],
+    "metrics": {
+      "abstract_noun_count": 1,
+      "average_sentence_length": 26.0,
+      "field_enumeration_paragraph_count": 0,
+      "maximum_sentence_length": 33,
+      "overlong_sentence_count": 0,
+      "prespecified_qualifier_count": 0,
+      "reviewed_qualifier_count": 0,
+      "semicolon_count": 0,
+      "sentence_count": 3,
+      "summary_copula_count": 0
+    },
+    "policy": {
+      "banned_expression_is_blocking": true,
+      "literal_zero_event_claim_requires_conditioned_data": true,
+      "qualifier_per_section": 1,
+      "semicolon_per_paragraph": 1,
+      "sentence_length_warning_threshold": 60
+    },
+    "schema_version": "1.0",
+    "status": "pass"
+  },
+  "system_prompt_sha256": "0f8201e0a496a147c422a6569abe89302cf168b98ea3502a541c001335bb85ba",
+  "variant": "exploratory_endpoint_results",
+  "writer": "AgentEnvelopeIngest"
+}

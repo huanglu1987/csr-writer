@@ -1,0 +1,22 @@
+{
+  "decided_at": "2026-08-06T18:10:00+08:00",
+  "decided_by_role": "synthetic_tfl_reviewer",
+  "decisions": [
+    {
+      "decision": "expected_change",
+      "decision_id": "DRIFT-001",
+      "ich_e3_sections": [],
+      "reason": "合成夹具故意设置的锁库后预期版本变更"
+    },
+    {
+      "decision": "expected_change",
+      "decision_id": "DRIFT-002",
+      "ich_e3_sections": [
+        "12.4.3"
+      ],
+      "reason": "合成夹具故意设置的锁库后预期版本变更"
+    }
+  ],
+  "queue_sha256": "0a84707ac78647773436f3d27fb95b1589d06e1007646a7e348f7f2efa763a02",
+  "schema_version": "1.0"
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "status": "pass",
+  "tests_package": {
+    "tests_init_present": true,
+    "package_import_verified": "tests.test_m14_writing_style",
+    "status": "pass"
+  },
+  "delivery_gate": {
+    "command": "python3 scripts/delivery_self_check.py",
+    "delegated_command": "python3 -m unittest discover -s tests",
+    "ran_tests": 225,
+    "elapsed_seconds": 32.088,
+    "result": "OK",
+    "failure_status_propagation_tested": true,
+    "status": "pass"
+  },
+  "platform_boundary": {
+    "command": "python3 -m unittest tests.test_codex_platform_boundary -v",
+    "outer_tests": 1,
+    "elapsed_seconds": 17.09,
+    "result": "OK",
+    "removed_before_nested_discovery": [
+      ".claude-plugin/",
+      "AGENTS.md",
+      "skills/csr-writer/SKILL.md",
+      "skills/csr-writer/agents/"
+    ],
+    "nested_full_discovery_required": true,
+    "cli_subcommands_help_checked": 31,
+    "status": "pass"
+  }
+}

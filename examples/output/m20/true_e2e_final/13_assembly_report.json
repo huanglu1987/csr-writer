@@ -1,0 +1,66 @@
+{
+  "annotated": {
+    "cross_references": {
+      "bookmark_count": 1,
+      "field_count": 1,
+      "status": "pass",
+      "unique_target_count": 1
+    },
+    "mode": "annotated",
+    "output": "/Users/huanglu/临床试验总结报告撰写/csr-writer/examples/output/m20/true_e2e_final/13_assembly/M20_unfamiliar.annotated.docx",
+    "pending_count": 2,
+    "pending_paragraphs": [
+      "12.3.2:p_12_3_2_008",
+      "12.3.3:p_12_3_3_001"
+    ],
+    "schema_version": "1.0",
+    "sha256": "1aba09a701000f8deb2a8933273b2834c922ad508759961e22f8bfaa81470477",
+    "status": "pass"
+  },
+  "clean": {
+    "cross_references": {
+      "bookmark_count": 1,
+      "field_count": 1,
+      "status": "pass",
+      "unique_target_count": 1
+    },
+    "path": "/Users/huanglu/临床试验总结报告撰写/csr-writer/examples/output/m20/true_e2e_final/13_assembly/M20_unfamiliar.clean.docx",
+    "validation": {
+      "checks": {
+        "no_internal_provenance": "pass",
+        "no_pending_markers": "pass",
+        "no_tool_or_process_language": "pass"
+      },
+      "sha256": "aac3f41b428c880e43f80b2b1f5267560598a1720399e3ae7854fb0ab1fff210",
+      "status": "pass"
+    }
+  },
+  "schema_version": "1.0",
+  "status": "pass",
+  "synopsis": {
+    "copy_check": {
+      "generation_mode": "derived_copy_only",
+      "independent_drafting_allowed": false,
+      "paragraph_count": 2,
+      "status": "pass",
+      "synopsis_text_sha256": "8a097a34824e82294280c5c65eb4ed1f1bab04d948ef12d9815c4b8e0d081238"
+    },
+    "cross_references": {
+      "bookmark_count": 1,
+      "field_count": 1,
+      "status": "pass",
+      "unique_target_count": 1
+    },
+    "manifest": "/Users/huanglu/临床试验总结报告撰写/csr-writer/examples/output/m20/true_e2e_final/13_assembly/synopsis_manifest.json",
+    "path": "/Users/huanglu/临床试验总结报告撰写/csr-writer/examples/output/m20/true_e2e_final/13_assembly/M20_unfamiliar.synopsis.docx",
+    "validation": {
+      "checks": {
+        "no_internal_provenance": "pass",
+        "no_pending_markers": "pass",
+        "no_tool_or_process_language": "pass"
+      },
+      "sha256": "5d22745062c112f311b97dc9316db274c12f017a33b571eadd9d0529982d6840",
+      "status": "pass"
+    }
+  }
+}

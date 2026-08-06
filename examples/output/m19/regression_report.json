@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "status": "pass",
+  "command": "python3 -m unittest discover -s tests",
+  "tests_run": 283,
+  "failures": 0,
+  "errors": 0,
+  "elapsed_seconds": 67.034,
+  "targeted_m19_regression": {
+    "command": "python3 -m unittest tests.test_m19_split_guard tests.test_m19_guarded_writer_adversary tests.test_m19_evidence tests.test_audit_hardening_gate",
+    "status": "pass",
+    "tests_run": 35,
+    "elapsed_seconds": 6.204
+  },
+  "delivery_self_check": {
+    "command": "python3 scripts/delivery_self_check.py",
+    "status": "pass",
+    "tests_run": 283,
+    "elapsed_seconds": 82.496,
+    "message": "delivery gate passed: unittest discovery is green"
+  },
+  "guard_coverage": [
+    "M2 three numeric guards and group semantics",
+    "M13 internal-process and conditioned-conclusion guards",
+    "M14 writing-style and literal-zero-event cross-checks",
+    "M17/M18 Chinese forward coverage and automatic adversary replay",
+    "M19 split-risk constrained narration, independent holdout, and 34-unit writer adversary"
+  ],
+  "expected_negative_path_logs_are_not_failures": [
+    "clean output blocked while review markers remain",
+    "M4 path collision blocked",
+    "result TFL mapping drift blocked"
+  ]
+}

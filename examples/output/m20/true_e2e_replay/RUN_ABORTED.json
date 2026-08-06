@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "status": "blocked",
+  "code": "E-E2E-ORCHESTRATOR-ROUTE-CONTRACT",
+  "stage": "模块路由结果读取",
+  "failure_location": "scripts/run_m20_true_e2e.py:352",
+  "exception": "KeyError: active_module_ids",
+  "root_cause": "编排脚本误将 active_module_ids 当作路由结果顶层字段；实际位于 structure.active_module_ids。",
+  "fixture_changed": false,
+  "guard_relaxed": false,
+  "next_action": "修正编排层路径并在新输出目录重放，保留本现场。"
+}

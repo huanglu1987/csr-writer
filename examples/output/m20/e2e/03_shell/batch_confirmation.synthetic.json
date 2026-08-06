@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "report_sha256": "d87d9b50e88443d7811bc56cb57bc8c15c755d77e42589b23ae6591fdc4c4d2b",
+  "confirmed_by_role": "synthetic_fixture_reviewer",
+  "confirmed_at": "2026-08-06T12:00:00+08:00",
+  "decisions": [
+    {
+      "batch_id": "BATCH-001",
+      "decision": "confirm"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "appendix_concrete_entry_count": 24,
+  "appendix_five_column_table_count": 1,
+  "directory_field_count": 6,
+  "directory_fields": [
+    " TOC \\o \"1-5\" \\h \\z \\u ",
+    " TOC \\c \"Table\" \\h \\z ",
+    " TOC \\c \"Figure\" \\h \\z ",
+    " TOC \\f \"TFL\" \\h \\z ",
+    " TOC \\f \"APP\" \\h \\z ",
+    " TOC \\f \"SUP\" \\h \\z "
+  ],
+  "docx_sha256": "93596d7275a578aa09bc8b39c8f816250d8e772c72e39d94ec3ffbe02f41fd73",
+  "field_update_on_open": true,
+  "libreoffice_or_pdf_qc_used": false,
+  "ref_field_count": 5,
+  "schema_version": "1.0",
+  "status": "pass",
+  "tc_field_counts": {
+    "APP": 24,
+    "SUP": 1,
+    "TFL": 8
+  }
+}

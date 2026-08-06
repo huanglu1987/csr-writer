@@ -1,0 +1,726 @@
+{
+  "candidate_sha256": "81b0080ef3aeb2b4c64f41b5b638a4cd6826fb454c52db17b216a140f2bbfd88",
+  "coverage": {
+    "covered_review_entity_count": 3,
+    "multiple_decision_type_entities": 1,
+    "review_entity_count": 3,
+    "status": "pass",
+    "uncovered_entity_ids": []
+  },
+  "decision_groups": [
+    {
+      "allowed_outcomes": [
+        "confirm_default",
+        "override_default",
+        "defer"
+      ],
+      "common_decision_point": "确认既往/合并用药行来自哪一版 WHODrug，以及 ATC→药物名层级是否一致。",
+      "decision_group_sha256": "4a27fc95b677a893bbf8e0f288a9399ff18ce10bb9a8e4c1af75d02884618ebd",
+      "decision_type": "coding_dictionary_dependency",
+      "default_decision": {
+        "action": "confirm_dictionary_and_late_bound_hierarchy",
+        "origin": "tool_proposal",
+        "parameters": {
+          "dictionary": "WHODrug",
+          "row_count_is_binding": false,
+          "row_hierarchy": "ATC/drug_name"
+        },
+        "requires_human_confirmation": true
+      },
+      "difference_sets": [],
+      "downstream_impact": {
+        "affected_entity_count": 2,
+        "affected_ich_e3_sections": [
+          "11.2"
+        ],
+        "deferred_entity_count": 2,
+        "existing_semantic_key_count": 0,
+        "future_late_bound_key_count": "unknown_until_result_tfl",
+        "statement": "影响 2 个 TFL 实体、现有 0 个稳定键；2 个实体的晚绑定键数量须等结果 TFL 到位后确定。"
+      },
+      "group_id": "DG-CODE-WHODRUG-MEDICATION",
+      "information_volume": {
+        "character_count": 1184,
+        "measurement": "rendered_group_core; 900 characters per screen",
+        "screen_equivalents": 1.3
+      },
+      "label": "编码字典依赖：用药",
+      "member_entity_ids": [
+        "T14.1.4.1",
+        "T14.1.4.2"
+      ],
+      "override_consequences": "推翻后需重定义用药行层级，相关 §11.2 表全部重新入队，结果键不得按现策略生成。",
+      "representative_entity_ids": [
+        "T14.1.4.1",
+        "T14.1.4.2"
+      ],
+      "representatives": [
+        {
+          "analysis_set": "FAS",
+          "column_ids": [
+            "C0_5PCT_BID",
+            "C1_0PCT_QD",
+            "PBO"
+          ],
+          "deferred_row_expectation": {
+            "entity_id": "T14.1.4.1",
+            "expected_from": "结果 TFL 中经 WHODrug 编码的 ATC 层级及药物名；字典版本由 SAP 或编码计划确认",
+            "frozen_column_ids": [
+              "PBO",
+              "C1_0PCT_QD",
+              "C0_5PCT_BID"
+            ],
+            "result_arrival_behavior": {
+              "hard_fail": [
+                "冻结列 ID 漂移",
+                "药物名缺少约定的 ATC 父级路径",
+                "同一父级内语义行重名",
+                "结果行仍无法生成可读语义 ID"
+              ],
+              "new_semantic_rows_materialized_at_result": true,
+              "position_hash_keys_allowed": false,
+              "warn_only": [
+                "结果行数与 shell 占位行数不同",
+                "出现 shell 中未展示的新 ATC/药物名"
+              ]
+            },
+            "row_count_expectation": {
+              "already_stable_rows": 0,
+              "basis": "取决于实际记录并完成编码的用药；shell 占位行数不构成预期行数",
+              "binding": false,
+              "estimated_deferred_rows": null,
+              "mode": "unknown_data_driven",
+              "shell_placeholder_rows": 2,
+              "template_placeholder_rows": 0
+            },
+            "semantic_source_id": "whodrug_atc_and_drug_name_from_result_tfl",
+            "semantic_source_label": "WHODrug ATC/药物名编码结果"
+          },
+          "dependency_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "dimensions": {},
+          "effective_structure_sha256": "3eeca010d2bb5df0399a08b7cf74bcd8f69eaf07a34a992a0aaea34b83da6804",
+          "entity_id": "T14.1.4.1",
+          "entity_kind": "table",
+          "existing_semantic_key_count": 0,
+          "ich_e3_sections": [
+            "11.2"
+          ],
+          "ingest_strategy": "columns_only_deferred_rows",
+          "layout_reference": null,
+          "own_structure_sha256": "c10aa51808fd277c9454de366a392b0ce54678518730d6ef3b8ad7148ce20a2c",
+          "physical_structure": {
+            "first_object_shape": {
+              "grid_columns": 4,
+              "horizontal_merges": 0,
+              "physical_cells": 12,
+              "rows": 3,
+              "vertical_merges": 0
+            },
+            "object_count": 1
+          },
+          "stable_row_ids": []
+        },
+        {
+          "analysis_set": "FAS",
+          "column_ids": [
+            "C0_5PCT_BID",
+            "C1_0PCT_QD",
+            "PBO"
+          ],
+          "deferred_row_expectation": {
+            "entity_id": "T14.1.4.2",
+            "expected_from": "结果 TFL 中经 WHODrug 编码的 ATC 层级及药物名；字典版本由 SAP 或编码计划确认",
+            "frozen_column_ids": [
+              "PBO",
+              "C1_0PCT_QD",
+              "C0_5PCT_BID"
+            ],
+            "result_arrival_behavior": {
+              "hard_fail": [
+                "冻结列 ID 漂移",
+                "药物名缺少约定的 ATC 父级路径",
+                "同一父级内语义行重名",
+                "结果行仍无法生成可读语义 ID"
+              ],
+              "new_semantic_rows_materialized_at_result": true,
+              "position_hash_keys_allowed": false,
+              "warn_only": [
+                "结果行数与 shell 占位行数不同",
+                "出现 shell 中未展示的新 ATC/药物名"
+              ]
+            },
+            "row_count_expectation": {
+              "already_stable_rows": 0,
+              "basis": "取决于实际记录并完成编码的用药；shell 占位行数不构成预期行数",
+              "binding": false,
+              "estimated_deferred_rows": null,
+              "mode": "unknown_data_driven",
+              "shell_placeholder_rows": 0,
+              "template_placeholder_rows": 2
+            },
+            "semantic_source_id": "whodrug_atc_and_drug_name_from_result_tfl",
+            "semantic_source_label": "WHODrug ATC/药物名编码结果"
+          },
+          "dependency_sha256": "a604fffddccb47fd2da75fad6600859f9fc59c3177100e70c37a04206585c4c3",
+          "dimensions": {},
+          "effective_structure_sha256": "015b6519c2abaea3724b3963489438e728d8f4ce6b23ac8ec19af683d62326cb",
+          "entity_id": "T14.1.4.2",
+          "entity_kind": "table",
+          "existing_semantic_key_count": 0,
+          "ich_e3_sections": [
+            "11.2"
+          ],
+          "ingest_strategy": "columns_only_deferred_rows",
+          "layout_reference": {
+            "columns": "inherited",
+            "inherited_column_ids": [
+              "PBO",
+              "C1_0PCT_QD",
+              "C0_5PCT_BID"
+            ],
+            "inherited_from": "T14.1.4.1",
+            "pattern_id": "template-output-cn",
+            "row_classifier_ids": [],
+            "rows": "deferred_until_result"
+          },
+          "own_structure_sha256": "d59eb681961d428481e92aa22dddabe643a45398b2748631e0f4531406e685f6",
+          "physical_structure": {
+            "first_object_shape": {
+              "grid_columns": 1,
+              "horizontal_merges": 0,
+              "physical_cells": 1,
+              "rows": 1,
+              "vertical_merges": 0
+            },
+            "object_count": 1
+          },
+          "stable_row_ids": []
+        }
+      ],
+      "required_reviewer_inputs": [
+        {
+          "field": "dictionary_version",
+          "prompt": "填写经 SAP/编码计划确认的 WHODrug 版本",
+          "proposed_value": null,
+          "required_before_confirm": true
+        }
+      ],
+      "template_match_signature": "4af68c08b1e283e9162c0980ca934ea41e5b8c7714b7279e824b75e336351092"
+    },
+    {
+      "allowed_outcomes": [
+        "confirm_default",
+        "override_default",
+        "defer"
+      ],
+      "common_decision_point": "确认偏离类别的权威来源及版本；shell 行数仅作提示，不能按位置冻结。",
+      "decision_group_sha256": "d18d153a6b3ac63aa9def806f28b43c4e5a180c1261bb83557e41d87c35c268b",
+      "decision_type": "deferred_row_source_contract",
+      "default_decision": {
+        "action": "confirm_result_driven_rows",
+        "origin": "tool_proposal",
+        "parameters": {
+          "authority": "SAP_or_deviation_plan_then_result_tfl",
+          "position_keys_allowed": false
+        },
+        "requires_human_confirmation": true
+      },
+      "difference_sets": [],
+      "downstream_impact": {
+        "affected_entity_count": 1,
+        "affected_ich_e3_sections": [
+          "10.1"
+        ],
+        "deferred_entity_count": 1,
+        "existing_semantic_key_count": 0,
+        "future_late_bound_key_count": "unknown_until_result_tfl",
+        "statement": "影响 1 个 TFL 实体、现有 0 个稳定键；1 个实体的晚绑定键数量须等结果 TFL 到位后确定。"
+      },
+      "group_id": "DG-ROWS-PROTOCOL-DEVIATION",
+      "information_volume": {
+        "character_count": 671,
+        "measurement": "rendered_group_core; 900 characters per screen",
+        "screen_equivalents": 1.0
+      },
+      "label": "延后行来源：方案偏离",
+      "member_entity_ids": [
+        "T14.1.1.3"
+      ],
+      "override_consequences": "推翻后 §10.1 的方案偏离表需更换分类契约，并在结果到位前保持不可冻结。",
+      "representative_entity_ids": [
+        "T14.1.1.3"
+      ],
+      "representatives": [
+        {
+          "analysis_set": "All Enrolled Set",
+          "column_ids": [
+            "C1_0PCT_QD",
+            "PBO"
+          ],
+          "deferred_row_expectation": {
+            "entity_id": "T14.1.1.3",
+            "expected_from": "SAP/偏离判定计划确认的分类，最终行标签取自结果 TFL",
+            "frozen_column_ids": [
+              "PBO",
+              "C1_0PCT_QD"
+            ],
+            "result_arrival_behavior": {
+              "hard_fail": [
+                "冻结列 ID 漂移",
+                "同一层级内分类重名",
+                "结果行无法语义化"
+              ],
+              "new_semantic_rows_materialized_at_result": true,
+              "position_hash_keys_allowed": false,
+              "warn_only": [
+                "分类数与 shell 占位行数不同",
+                "出现未在 shell 中展示的新分类"
+              ]
+            },
+            "row_count_expectation": {
+              "already_stable_rows": 0,
+              "basis": "shell 占位行数仅用于工作量提示；分类增删必须在结果阶段显式呈现",
+              "binding": false,
+              "estimated_deferred_rows": 2,
+              "mode": "non_binding_shell_placeholder_count",
+              "shell_placeholder_rows": 2,
+              "template_placeholder_rows": 0
+            },
+            "semantic_source_id": "protocol_deviation_category_from_result_tfl",
+            "semantic_source_label": "方案偏离分类结果"
+          },
+          "dependency_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "dimensions": {},
+          "effective_structure_sha256": "56e3d8bc69ba817d5884c4e9337f1bfdd6e1005748673b714ae24d1417c25056",
+          "entity_id": "T14.1.1.3",
+          "entity_kind": "table",
+          "existing_semantic_key_count": 0,
+          "ich_e3_sections": [
+            "10.1"
+          ],
+          "ingest_strategy": "columns_only_deferred_rows",
+          "layout_reference": null,
+          "own_structure_sha256": "28787fbef57ea28b9baf8a2d349542a2c85e037ad350c2cc687bdb2ffb2e94ca",
+          "physical_structure": {
+            "first_object_shape": {
+              "grid_columns": 3,
+              "horizontal_merges": 0,
+              "physical_cells": 9,
+              "rows": 3,
+              "vertical_merges": 0
+            },
+            "object_count": 1
+          },
+          "stable_row_ids": []
+        }
+      ],
+      "required_reviewer_inputs": [
+        {
+          "field": "category_authority",
+          "prompt": "填写偏离分类的 SAP/判定计划定位或版本",
+          "proposed_value": null,
+          "required_before_confirm": true
+        }
+      ],
+      "template_match_signature": "9a0f0b4db5fd8cae3e0ea4f4dcc24b869af34b9f2853507632d7e395378d8718"
+    },
+    {
+      "allowed_outcomes": [
+        "confirm_default",
+        "override_default",
+        "defer"
+      ],
+      "common_decision_point": "确认每个病史/用药子表的继承源正确，且只继承列；数据驱动行必须留到结果阶段。",
+      "decision_group_sha256": "652c61df811d33602e820b8637790add800b5e9150a04f5c6e49b8d2af3c33e6",
+      "decision_type": "layout_inheritance_scope",
+      "default_decision": {
+        "action": "confirm_layout_target_and_scope",
+        "origin": "tool_proposal",
+        "parameters": {
+          "inherit_columns": true,
+          "inherit_data_driven_rows": false
+        },
+        "requires_human_confirmation": true
+      },
+      "difference_sets": [],
+      "downstream_impact": {
+        "affected_entity_count": 1,
+        "affected_ich_e3_sections": [
+          "11.2"
+        ],
+        "deferred_entity_count": 1,
+        "existing_semantic_key_count": 0,
+        "future_late_bound_key_count": "unknown_until_result_tfl",
+        "statement": "影响 1 个 TFL 实体、现有 0 个稳定键；1 个实体的晚绑定键数量须等结果 TFL 到位后确定。"
+      },
+      "group_id": "DG-LAYOUT-BASELINE",
+      "information_volume": {
+        "character_count": 821,
+        "measurement": "rendered_group_core; 900 characters per screen",
+        "screen_equivalents": 1.0
+      },
+      "label": "版式继承：病史与用药",
+      "member_entity_ids": [
+        "T14.1.4.2"
+      ],
+      "override_consequences": "推翻某一继承源会使该子表结构哈希失效，并使 §11.2 的相关列映射重新入队。",
+      "representative_entity_ids": [
+        "T14.1.4.2"
+      ],
+      "representatives": [
+        {
+          "analysis_set": "FAS",
+          "column_ids": [
+            "C0_5PCT_BID",
+            "C1_0PCT_QD",
+            "PBO"
+          ],
+          "deferred_row_expectation": {
+            "entity_id": "T14.1.4.2",
+            "expected_from": "结果 TFL 中经 WHODrug 编码的 ATC 层级及药物名；字典版本由 SAP 或编码计划确认",
+            "frozen_column_ids": [
+              "PBO",
+              "C1_0PCT_QD",
+              "C0_5PCT_BID"
+            ],
+            "result_arrival_behavior": {
+              "hard_fail": [
+                "冻结列 ID 漂移",
+                "药物名缺少约定的 ATC 父级路径",
+                "同一父级内语义行重名",
+                "结果行仍无法生成可读语义 ID"
+              ],
+              "new_semantic_rows_materialized_at_result": true,
+              "position_hash_keys_allowed": false,
+              "warn_only": [
+                "结果行数与 shell 占位行数不同",
+                "出现 shell 中未展示的新 ATC/药物名"
+              ]
+            },
+            "row_count_expectation": {
+              "already_stable_rows": 0,
+              "basis": "取决于实际记录并完成编码的用药；shell 占位行数不构成预期行数",
+              "binding": false,
+              "estimated_deferred_rows": null,
+              "mode": "unknown_data_driven",
+              "shell_placeholder_rows": 0,
+              "template_placeholder_rows": 2
+            },
+            "semantic_source_id": "whodrug_atc_and_drug_name_from_result_tfl",
+            "semantic_source_label": "WHODrug ATC/药物名编码结果"
+          },
+          "dependency_sha256": "a604fffddccb47fd2da75fad6600859f9fc59c3177100e70c37a04206585c4c3",
+          "dimensions": {},
+          "effective_structure_sha256": "015b6519c2abaea3724b3963489438e728d8f4ce6b23ac8ec19af683d62326cb",
+          "entity_id": "T14.1.4.2",
+          "entity_kind": "table",
+          "existing_semantic_key_count": 0,
+          "ich_e3_sections": [
+            "11.2"
+          ],
+          "ingest_strategy": "columns_only_deferred_rows",
+          "layout_reference": {
+            "columns": "inherited",
+            "inherited_column_ids": [
+              "PBO",
+              "C1_0PCT_QD",
+              "C0_5PCT_BID"
+            ],
+            "inherited_from": "T14.1.4.1",
+            "pattern_id": "template-output-cn",
+            "row_classifier_ids": [],
+            "rows": "deferred_until_result"
+          },
+          "own_structure_sha256": "d59eb681961d428481e92aa22dddabe643a45398b2748631e0f4531406e685f6",
+          "physical_structure": {
+            "first_object_shape": {
+              "grid_columns": 1,
+              "horizontal_merges": 0,
+              "physical_cells": 1,
+              "rows": 1,
+              "vertical_merges": 0
+            },
+            "object_count": 1
+          },
+          "stable_row_ids": []
+        }
+      ],
+      "required_reviewer_inputs": [],
+      "template_match_signature": "3c7fef741e258b0b8eb0c715fc0a5b98ded93387520082439a0dca520039df9b"
+    }
+  ],
+  "deferred_row_expectations": [
+    {
+      "entity_id": "T14.1.1.3",
+      "expected_from": "SAP/偏离判定计划确认的分类，最终行标签取自结果 TFL",
+      "frozen_column_ids": [
+        "PBO",
+        "C1_0PCT_QD"
+      ],
+      "result_arrival_behavior": {
+        "hard_fail": [
+          "冻结列 ID 漂移",
+          "同一层级内分类重名",
+          "结果行无法语义化"
+        ],
+        "new_semantic_rows_materialized_at_result": true,
+        "position_hash_keys_allowed": false,
+        "warn_only": [
+          "分类数与 shell 占位行数不同",
+          "出现未在 shell 中展示的新分类"
+        ]
+      },
+      "row_count_expectation": {
+        "already_stable_rows": 0,
+        "basis": "shell 占位行数仅用于工作量提示；分类增删必须在结果阶段显式呈现",
+        "binding": false,
+        "estimated_deferred_rows": 2,
+        "mode": "non_binding_shell_placeholder_count",
+        "shell_placeholder_rows": 2,
+        "template_placeholder_rows": 0
+      },
+      "semantic_source_id": "protocol_deviation_category_from_result_tfl",
+      "semantic_source_label": "方案偏离分类结果"
+    },
+    {
+      "entity_id": "T14.1.4.1",
+      "expected_from": "结果 TFL 中经 WHODrug 编码的 ATC 层级及药物名；字典版本由 SAP 或编码计划确认",
+      "frozen_column_ids": [
+        "PBO",
+        "C1_0PCT_QD",
+        "C0_5PCT_BID"
+      ],
+      "result_arrival_behavior": {
+        "hard_fail": [
+          "冻结列 ID 漂移",
+          "药物名缺少约定的 ATC 父级路径",
+          "同一父级内语义行重名",
+          "结果行仍无法生成可读语义 ID"
+        ],
+        "new_semantic_rows_materialized_at_result": true,
+        "position_hash_keys_allowed": false,
+        "warn_only": [
+          "结果行数与 shell 占位行数不同",
+          "出现 shell 中未展示的新 ATC/药物名"
+        ]
+      },
+      "row_count_expectation": {
+        "already_stable_rows": 0,
+        "basis": "取决于实际记录并完成编码的用药；shell 占位行数不构成预期行数",
+        "binding": false,
+        "estimated_deferred_rows": null,
+        "mode": "unknown_data_driven",
+        "shell_placeholder_rows": 2,
+        "template_placeholder_rows": 0
+      },
+      "semantic_source_id": "whodrug_atc_and_drug_name_from_result_tfl",
+      "semantic_source_label": "WHODrug ATC/药物名编码结果"
+    },
+    {
+      "entity_id": "T14.1.4.2",
+      "expected_from": "结果 TFL 中经 WHODrug 编码的 ATC 层级及药物名；字典版本由 SAP 或编码计划确认",
+      "frozen_column_ids": [
+        "PBO",
+        "C1_0PCT_QD",
+        "C0_5PCT_BID"
+      ],
+      "result_arrival_behavior": {
+        "hard_fail": [
+          "冻结列 ID 漂移",
+          "药物名缺少约定的 ATC 父级路径",
+          "同一父级内语义行重名",
+          "结果行仍无法生成可读语义 ID"
+        ],
+        "new_semantic_rows_materialized_at_result": true,
+        "position_hash_keys_allowed": false,
+        "warn_only": [
+          "结果行数与 shell 占位行数不同",
+          "出现 shell 中未展示的新 ATC/药物名"
+        ]
+      },
+      "row_count_expectation": {
+        "already_stable_rows": 0,
+        "basis": "取决于实际记录并完成编码的用药；shell 占位行数不构成预期行数",
+        "binding": false,
+        "estimated_deferred_rows": null,
+        "mode": "unknown_data_driven",
+        "shell_placeholder_rows": 0,
+        "template_placeholder_rows": 2
+      },
+      "semantic_source_id": "whodrug_atc_and_drug_name_from_result_tfl",
+      "semantic_source_label": "WHODrug ATC/药物名编码结果"
+    }
+  ],
+  "entity_structures": [
+    {
+      "dependencies": [],
+      "dependency_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "effective_structure_sha256": "56e3d8bc69ba817d5884c4e9337f1bfdd6e1005748673b714ae24d1417c25056",
+      "entity_id": "T14.1.1.3",
+      "own_structure": {
+        "analysis_set": "All Enrolled Set",
+        "deferred_row_contract": {
+          "detection": "nonsemantic_row_id",
+          "expected_semantic_source": "protocol_deviation_category_from_result_tfl",
+          "frozen_column_ids": [
+            "PBO",
+            "C1_0PCT_QD"
+          ],
+          "materialize_at": "result_tfl",
+          "schema_version": "1.0",
+          "shell_placeholder_row_count": 2,
+          "stable_row_count": 0,
+          "template_placeholder_row_count": 0
+        },
+        "dimensions": {},
+        "entity_kind": "table",
+        "ich_e3_sections": [
+          "10.1"
+        ],
+        "ingest_strategy": "columns_only_deferred_rows",
+        "layout_reference": null,
+        "own_cell_semantics": [],
+        "physical_object_count": 1,
+        "physical_shape": {
+          "grid_columns": 3,
+          "horizontal_merges": 0,
+          "physical_cells": 9,
+          "rows": 3,
+          "vertical_merges": 0
+        },
+        "title_sha256": "6f5e759284195b7835f42bc33d90d41b8dfe12694b5d6ff17a4ebcb5e997a3b4"
+      },
+      "own_structure_sha256": "28787fbef57ea28b9baf8a2d349542a2c85e037ad350c2cc687bdb2ffb2e94ca",
+      "requires_review": true
+    },
+    {
+      "dependencies": [],
+      "dependency_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "effective_structure_sha256": "3eeca010d2bb5df0399a08b7cf74bcd8f69eaf07a34a992a0aaea34b83da6804",
+      "entity_id": "T14.1.4.1",
+      "own_structure": {
+        "analysis_set": "FAS",
+        "deferred_row_contract": {
+          "detection": "nonsemantic_row_id",
+          "expected_semantic_source": "whodrug_atc_and_drug_name_from_result_tfl",
+          "frozen_column_ids": [
+            "PBO",
+            "C1_0PCT_QD",
+            "C0_5PCT_BID"
+          ],
+          "materialize_at": "result_tfl",
+          "schema_version": "1.0",
+          "shell_placeholder_row_count": 2,
+          "stable_row_count": 0,
+          "template_placeholder_row_count": 0
+        },
+        "dimensions": {},
+        "entity_kind": "table",
+        "ich_e3_sections": [
+          "11.2"
+        ],
+        "ingest_strategy": "columns_only_deferred_rows",
+        "layout_reference": null,
+        "own_cell_semantics": [],
+        "physical_object_count": 1,
+        "physical_shape": {
+          "grid_columns": 4,
+          "horizontal_merges": 0,
+          "physical_cells": 12,
+          "rows": 3,
+          "vertical_merges": 0
+        },
+        "title_sha256": "ee21f2519d907995eaf4e086c2b77757dfaab4a71bd4e46154e53822eccccb77"
+      },
+      "own_structure_sha256": "c10aa51808fd277c9454de366a392b0ce54678518730d6ef3b8ad7148ce20a2c",
+      "requires_review": true
+    },
+    {
+      "dependencies": [
+        {
+          "effective_structure_sha256": "3eeca010d2bb5df0399a08b7cf74bcd8f69eaf07a34a992a0aaea34b83da6804",
+          "entity_id": "T14.1.4.1"
+        }
+      ],
+      "dependency_sha256": "a604fffddccb47fd2da75fad6600859f9fc59c3177100e70c37a04206585c4c3",
+      "effective_structure_sha256": "015b6519c2abaea3724b3963489438e728d8f4ce6b23ac8ec19af683d62326cb",
+      "entity_id": "T14.1.4.2",
+      "own_structure": {
+        "analysis_set": "FAS",
+        "deferred_row_contract": {
+          "detection": "nonsemantic_row_id",
+          "expected_semantic_source": "whodrug_atc_and_drug_name_from_result_tfl",
+          "materialize_at": "result_tfl",
+          "schema_version": "1.0"
+        },
+        "dimensions": {},
+        "entity_kind": "table",
+        "ich_e3_sections": [
+          "11.2"
+        ],
+        "ingest_strategy": "columns_only_deferred_rows",
+        "layout_reference": {
+          "columns": "inherited",
+          "inherited_from": "T14.1.4.1",
+          "pattern_id": "template-output-cn",
+          "row_classifier_ids": [],
+          "rows": "deferred_until_result"
+        },
+        "own_cell_semantics": [],
+        "physical_object_count": 1,
+        "physical_shape": {
+          "grid_columns": 1,
+          "horizontal_merges": 0,
+          "physical_cells": 1,
+          "rows": 1,
+          "vertical_merges": 0
+        },
+        "title_sha256": "e07d038028dde09287349eeb98c21fae76c91085ea53fcf9bde60a1279e33a5d"
+      },
+      "own_structure_sha256": "d59eb681961d428481e92aa22dddabe643a45398b2748631e0f4531406e685f6",
+      "requires_review": true
+    }
+  ],
+  "ergonomics": {
+    "decision_group_count": 3,
+    "entity_decision_memberships": 4,
+    "estimate_basis": {
+      "difference_set_overhead_seconds": 12,
+      "judgement_overhead_seconds_per_group": 75,
+      "reviewer_assumption": "熟悉本项目、SAP 和编码计划的统计/医学撰写审阅者",
+      "scope": "首轮结构决定；不含向统计师追问未决字典版本的等待时间",
+      "structured_technical_reading_rate_characters_per_minute": 500
+    },
+    "estimated_review_minutes": 9.1,
+    "total_group_characters": 2676,
+    "total_screen_equivalents": 3.3,
+    "unique_review_entity_count": 3
+  },
+  "legacy_technical_batch_count": 2,
+  "proposal_report_sha256": "bb54cc3684079258e0b26c19753a0200476aea12ac26c18e8c98b8717774bc45",
+  "queue_sha256": "01492c5eadcaf7e7816d56ff07f2f50f386209fab8cda1456095349327f92dd6",
+  "review_entity_membership": [
+    {
+      "decision_group_ids": [
+        "DG-ROWS-PROTOCOL-DEVIATION"
+      ],
+      "entity_id": "T14.1.1.3"
+    },
+    {
+      "decision_group_ids": [
+        "DG-CODE-WHODRUG-MEDICATION"
+      ],
+      "entity_id": "T14.1.4.1"
+    },
+    {
+      "decision_group_ids": [
+        "DG-CODE-WHODRUG-MEDICATION",
+        "DG-LAYOUT-BASELINE"
+      ],
+      "entity_id": "T14.1.4.2"
+    }
+  ],
+  "schema_version": "1.0",
+  "source_shell_sha256": "07c7ed1087adf9935e0ef9321f32f2ab0ca3a4da437236fbaeeed1c9926dbec5",
+  "status": "awaiting_human_decisions"
+}

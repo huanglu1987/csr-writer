@@ -1,0 +1,55 @@
+{
+  "automation_policy": "no drift decision is inferred or auto-accepted",
+  "decision_count": 2,
+  "decisions": [
+    {
+      "affected_sections": [
+        "11.4"
+      ],
+      "decision_id": "DRIFT-001",
+      "default": "result_error",
+      "direction": "shell_only",
+      "entity_id": "T14.2.9.1",
+      "options": [
+        "expected_change",
+        "result_error"
+      ],
+      "question": "该 shell 表在结果稿中消失，是预期变更还是结果文件错误？",
+      "semantic_value_positions": 5,
+      "strict_effect": {
+        "release_status_before_decision": "blocked",
+        "unresolved_frozen_cell_count": 5
+      },
+      "title": "表14.2.9.1 壳中预设但结果未提供的敏感性分析 (ITT)",
+      "title_sha256": "dbfbd33db91f0d4993dcfbbdb1e0b5923338ebfb376e4b4c204009e5889d23e7"
+    },
+    {
+      "affected_sections": [
+        "12.4.3"
+      ],
+      "decision_id": "DRIFT-002",
+      "default": "result_error",
+      "direction": "result_only",
+      "entity_id": "T14.3.9.1",
+      "options": [
+        "expected_change",
+        "result_error"
+      ],
+      "question": "该表只出现在结果稿，是预期新增还是结果文件错误？",
+      "semantic_value_positions": 5,
+      "strict_effect": {
+        "release_status_before_decision": "blocked",
+        "unmapped_result_entity_count": 1
+      },
+      "title": "表14.3.9.1 结果新增但壳中未预设的生命体征分析 (SAF)",
+      "title_sha256": "158d1b7e9175c4ba1345776ba2b3d7c72500e08e3fbe37215b14ef633d3b7966"
+    }
+  ],
+  "drift_report_sha256": "816cad5a8b6aacc191795ebe854943beeb10b382fdff78cbc8f2dbed9b1051ca",
+  "frozen_map_sha256": "eb84bfd3f5bb367ff5d94c73798b954f342195439d1c12ac1806184a5123a393",
+  "interface": "csr-writer-tfl-drift-decisions-v1",
+  "queue_sha256": "0a84707ac78647773436f3d27fb95b1589d06e1007646a7e348f7f2efa763a02",
+  "release_eligible": false,
+  "schema_version": "1.0",
+  "status": "awaiting_human_decisions"
+}

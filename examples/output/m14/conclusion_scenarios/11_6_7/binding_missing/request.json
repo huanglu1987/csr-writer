@@ -1,0 +1,37 @@
+{
+  "evidence_status": "demo_only",
+  "schema_version": "1.1",
+  "section_id": "11.6.7",
+  "source_fragments": [
+    {
+      "locator": "脱敏方案/探索性终点",
+      "purpose": "endpoint_definition",
+      "source_id": "SRC-EFF",
+      "text": "该终点用于探索性评价。"
+    }
+  ],
+  "tfl_bindings": [
+    {
+      "context": "脱敏合成已确认正文结果",
+      "key": "T14.2.2.1.1|POP=FAS|ROW=PRIMARY_ENDPOINT|COL=ACTIVE_TOTAL",
+      "role": "primary_endpoint_result",
+      "source_id": "T14.2.2.1.1"
+    },
+    {
+      "context": "脱敏合成已确认正文结果",
+      "key": "T14.2.2.1.1|POP=FAS|ROW=ANALYSIS_SET|COL=ACTIVE_TOTAL",
+      "role": "analysis_set",
+      "source_id": "T14.2.2.1.1"
+    },
+    {
+      "context": "脱敏合成已确认正文结果",
+      "key": "T14.2.2.1.1|POP=FAS|ROW=PRESPECIFIED|COL=ACTIVE_TOTAL",
+      "role": "prespecified",
+      "source_id": "T14.2.2.1.1"
+    }
+  ],
+  "tfl_references": [
+    "T14.2.2.1.1"
+  ],
+  "variant": "exploratory_efficacy_conclusion_conditioned"
+}

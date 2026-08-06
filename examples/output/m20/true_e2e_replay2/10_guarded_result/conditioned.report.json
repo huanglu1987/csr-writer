@@ -1,0 +1,103 @@
+{
+  "datapack_sha256": "c1b175a2b34afafa248848f87e8197ce3755529d7e582037a3a54042face5c36",
+  "draft_sha256": "c1f1ab1566369864d32759489fda84197f7173f7c062a30c5dd3ea9814b977a1",
+  "resolved_sha256": "1318f209bad9e647dfed298ea75f2cfaa42a047073c6d44eef7ea8919a5fd949",
+  "rules": [
+    {
+      "all_roles_rendered": true,
+      "branch": "important_events_present",
+      "confirmed_body_only": false,
+      "critical_roles": [
+        {
+          "cell_present": true,
+          "key": "T14.3.2.1|POP=SAF|ROW=RESULT_重要医学事件/RESULT_死亡|COL=ACTIVE_TOTAL_N_PCT",
+          "machine_readable": true,
+          "role": "death_count",
+          "value_sha256": "45a821926d2f650f1bff3ad97592b8272985b047e256030575d589947bba0130"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.3.2.1|POP=SAF|ROW=RESULT_重要医学事件/RESULT_严重不良事件|COL=ACTIVE_TOTAL_N_PCT",
+          "machine_readable": true,
+          "role": "sae_count",
+          "value_sha256": "8fa208ea5cc68ad4fe4c5d76586c93f40401e1628e3e4d6154ca8ccde46d1bf7"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.3.2.1|POP=SAF|ROW=RESULT_重要医学事件/RESULT_其他重要不良事件|COL=ACTIVE_TOTAL_N_PCT",
+          "machine_readable": true,
+          "role": "important_ae_count",
+          "value_sha256": "52963a8fecbb4dcf7f574822c4ba7ec771f78de64ec49663af980c27cbc0b0a3"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.3.2.1|POP=SAF|ROW=RESULT_重要医学事件/RESULT_导致永久停药|COL=ACTIVE_TOTAL_N_PCT",
+          "machine_readable": true,
+          "role": "discontinuation_count",
+          "value_sha256": "00faa2c565a0db639508baca3f7ecce68cdaad154016a9b0b9f7b0871db0f669"
+        }
+      ],
+      "derived_zero_event_roles": [
+        "death_count"
+      ],
+      "medical_review_marker_required": true,
+      "missing_roles": [],
+      "numeric_values_not_logged": true,
+      "render_mode": "sentence_driven",
+      "role_renderings": [
+        {
+          "key": "T14.3.2.1|POP=SAF|ROW=RESULT_重要医学事件/RESULT_死亡|COL=ACTIVE_TOTAL_N_PCT",
+          "rendering_mode": "conditioned_zero_event_phrase",
+          "role": "death_count"
+        },
+        {
+          "key": "T14.3.2.1|POP=SAF|ROW=RESULT_重要医学事件/RESULT_严重不良事件|COL=ACTIVE_TOTAL_N_PCT",
+          "rendering_mode": "value_placeholder",
+          "role": "sae_count"
+        },
+        {
+          "key": "T14.3.2.1|POP=SAF|ROW=RESULT_重要医学事件/RESULT_其他重要不良事件|COL=ACTIVE_TOTAL_N_PCT",
+          "rendering_mode": "value_placeholder",
+          "role": "important_ae_count"
+        },
+        {
+          "key": "T14.3.2.1|POP=SAF|ROW=RESULT_重要医学事件/RESULT_导致永久停药|COL=ACTIVE_TOTAL_N_PCT",
+          "rendering_mode": "value_placeholder",
+          "role": "discontinuation_count"
+        }
+      ],
+      "rule_id": "SERIOUS_EVENT_ANALYSIS_V1"
+    }
+  ],
+  "schema_version": "1.1",
+  "status": "pass",
+  "style_qc": {
+    "blocked": false,
+    "findings": [],
+    "metrics": {
+      "abstract_noun_count": 0,
+      "average_sentence_length": 19.0,
+      "field_dump_sequence_count": 0,
+      "field_enumeration_paragraph_count": 0,
+      "maximum_sentence_length": 34,
+      "n_percent_format_error_count": 0,
+      "overlong_sentence_count": 0,
+      "prespecified_qualifier_count": 0,
+      "reviewed_qualifier_count": 0,
+      "semicolon_count": 1,
+      "sentence_count": 7,
+      "summary_copula_count": 0
+    },
+    "policy": {
+      "banned_expression_is_blocking": true,
+      "literal_zero_event_claim_requires_conditioned_data": true,
+      "n_percent_prose_requires_count_unit_and_percent_sign": true,
+      "qualifier_per_section": 1,
+      "semicolon_per_paragraph": 1,
+      "sentence_length_hard_threshold": 60
+    },
+    "schema_version": "1.0",
+    "status": "pass"
+  },
+  "warnings": []
+}

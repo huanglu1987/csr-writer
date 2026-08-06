@@ -1,0 +1,213 @@
+{
+  "binding_manifest": [],
+  "card_external_entities": [],
+  "card_id": "M16-METHOD-9-4-3",
+  "causality_control": {
+    "allowed_terms": [
+      "不太可能有关",
+      "可能有关",
+      "很可能有关",
+      "无关",
+      "无法评价",
+      "明确相关",
+      "未评价"
+    ],
+    "exact_match": true,
+    "observed_terms": []
+  },
+  "draft_sha256": "3ed7fea1c8ae73a479ed2eeed902f0d1eae03f0dc22e84da7653bf2af1186a45",
+  "envelope_sha256": "ea7b4fe882748dcbe20e61a3921578a2f0ee2bc8b47f96506f2bc93b52e6c5ad",
+  "external_model_api_called": false,
+  "fact_card_sha256": "547dc6b7c223a0e109113abf84dab931c35d4b348d47bd7ac7655971e31c93e7",
+  "field_checks": [
+    {
+      "fact_id": "V01",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V02",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V03",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V04",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V05",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V06",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V07",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "S01",
+      "match_mode": "required_terms",
+      "status": "pass"
+    }
+  ],
+  "field_count": 8,
+  "field_coverage_percent": 100.0,
+  "field_reference_count": 8,
+  "findings": [],
+  "forward_coverage": {
+    "coverage_mode": "whole_declared_values",
+    "guard_version": "2.0",
+    "paragraph_checks": [
+      {
+        "allowed_source_unit_count": 0,
+        "coverage_mode": "whole_declared_values",
+        "eligible_authorized_surface_ids": [
+          "SF-9-4-3-01",
+          "SF-9-4-3-02"
+        ],
+        "fact_ids": [
+          "V01",
+          "V02",
+          "V03",
+          "S01"
+        ],
+        "paragraph_index": 1,
+        "residual_content_terms": [],
+        "status": "pass"
+      },
+      {
+        "allowed_source_unit_count": 0,
+        "coverage_mode": "whole_declared_values",
+        "eligible_authorized_surface_ids": [
+          "SF-9-4-3-03"
+        ],
+        "fact_ids": [
+          "V04",
+          "V05"
+        ],
+        "paragraph_index": 2,
+        "residual_content_terms": [],
+        "status": "pass"
+      },
+      {
+        "allowed_source_unit_count": 0,
+        "coverage_mode": "whole_declared_values",
+        "eligible_authorized_surface_ids": [
+          "SF-9-4-3-04",
+          "SF-9-4-3-05"
+        ],
+        "fact_ids": [
+          "V06",
+          "V07",
+          "S01"
+        ],
+        "paragraph_index": 3,
+        "residual_content_terms": [],
+        "status": "pass"
+      }
+    ],
+    "release_eligible": true,
+    "status": "pass"
+  },
+  "narration": "constrained_llm",
+  "numeric_placeholders": [],
+  "paragraphs": [
+    {
+      "fact_ids": [
+        "V01",
+        "V02",
+        "V03",
+        "S01"
+      ],
+      "para_id": "p_9_4_3_001",
+      "text_sha256": "3d19176d5fa0eaf75795fa854eb07b20cdbcdb5511c6bd6bac1f40a1312ceef6"
+    },
+    {
+      "fact_ids": [
+        "V04",
+        "V05"
+      ],
+      "para_id": "p_9_4_3_002",
+      "text_sha256": "284fa7b0eac76e31ef5d4d682e589c81afe2a2df4653bae12a59f467e3f5ac29"
+    },
+    {
+      "fact_ids": [
+        "V06",
+        "V07",
+        "S01"
+      ],
+      "para_id": "p_9_4_3_003",
+      "text_sha256": "f6e28e099c9375ea7a08b1aefd9091874e25a439ab88161d68794e09e5fa2734"
+    }
+  ],
+  "production_method": "extraction",
+  "schema_version": "1.0",
+  "section_id": "9.4.3",
+  "source_manifest": [
+    {
+      "content_sha256": "c8acd031cd75a82ba1f1b87be4c6e4a0245872cfe8a72858b3258e14549b5ad8",
+      "file_role": "protocol",
+      "locator": "方案 §9.4.3 随机化和治疗分配",
+      "source_id": "src_9_4_3_1",
+      "version": "synthetic-reviewed-v1"
+    },
+    {
+      "content_sha256": "8964cb4ddc5d189e753c3ad0b3878f0d2942e3fc4cd7fab92d623971615d5b9b",
+      "file_role": "sap",
+      "locator": "SAP 随机化方法",
+      "source_id": "src_9_4_3_2",
+      "version": "synthetic-reviewed-v1"
+    }
+  ],
+  "status": "pass",
+  "style_qc": {
+    "blocked": false,
+    "findings": [],
+    "metrics": {
+      "abstract_noun_count": 0,
+      "average_sentence_length": 20.2,
+      "field_enumeration_paragraph_count": 0,
+      "maximum_sentence_length": 28,
+      "n_percent_format_error_count": 0,
+      "overlong_sentence_count": 0,
+      "prespecified_qualifier_count": 0,
+      "reviewed_qualifier_count": 0,
+      "semicolon_count": 0,
+      "sentence_count": 5,
+      "summary_copula_count": 0
+    },
+    "policy": {
+      "banned_expression_is_blocking": true,
+      "literal_zero_event_claim_requires_conditioned_data": true,
+      "n_percent_prose_requires_count_unit_and_percent_sign": true,
+      "qualifier_per_section": 1,
+      "semicolon_per_paragraph": 1,
+      "sentence_length_hard_threshold": 60
+    },
+    "schema_version": "1.0",
+    "status": "pass"
+  },
+  "zone_distribution": {
+    "counts": {
+      "A": 0,
+      "B": 0,
+      "C": 0
+    },
+    "percent": {
+      "A": 0.0,
+      "B": 0.0,
+      "C": 0.0
+    }
+  }
+}

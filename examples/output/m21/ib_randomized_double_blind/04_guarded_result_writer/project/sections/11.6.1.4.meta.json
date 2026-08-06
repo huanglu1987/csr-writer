@@ -1,0 +1,134 @@
+{
+  "agent_interface": {
+    "agent_draft_sha256": "1300de458b8bb7b9c636db92c034268e627b7f8c1d34bd41752c33d61b0d7186",
+    "envelope_sha256": "1e116f315c9dafd077403b91716fd9b32bee720526180e3749e1deedf18bd151",
+    "external_model_api_called": false,
+    "interface": "csr-writer-agent-section-v1",
+    "prior_guard_report_sha256s": []
+  },
+  "binding_manifest": [
+    {
+      "context_sha256": "f3924d1249da5b5da33cabd6f75ca030748dffe4bbb1eddc98c2ae940585cd0a",
+      "key": "T14.2.2.1.1|POP=FAS|ROW=LS_MEAN_DIFFERENCE|COL=C1_0PCT_QD",
+      "role": "exploratory_endpoint_result",
+      "source_id": "T14.2.2.1.1"
+    }
+  ],
+  "draft_sha256": "1daf0795562027c6244b6c3fcb507585c647571fb8b016c588d03ca9743951ab",
+  "evidence_status": "demo_only",
+  "generation_attempts": 1,
+  "guard_retry_count": 0,
+  "input_sha256": "0cdd20286a0e99c061f37d26d7ce07392eced3b4755f06388430588237c20435",
+  "paragraphs": [
+    {
+      "conditional_conclusions": [],
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_11_6_1_4_001",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "SRC-M21-IB-ENDPOINT",
+        "SRC-M21-IB-SAP"
+      ]
+    },
+    {
+      "conditional_conclusions": [],
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_11_6_1_4_002",
+      "placeholders": [
+        "T14.2.2.1.1|POP=FAS|ROW=LS_MEAN_DIFFERENCE|COL=C1_0PCT_QD"
+      ],
+      "references": [
+        "T14.2.2.1.1"
+      ],
+      "semantic_findings": [],
+      "sources": [
+        "T14.2.2.1.1"
+      ]
+    },
+    {
+      "conditional_conclusions": [],
+      "confidence": "inferred",
+      "needs_human": true,
+      "para_id": "p_11_6_1_4_003",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "SRC-M21-IB-ENDPOINT"
+      ]
+    }
+  ],
+  "playbook": {
+    "filename": "s11-6-1-4-exploratory-endpoints.md",
+    "sha256": "42c887aadcedeae48d664b1b4a05d2ba82d197feb72d9ae4c67cbaebffec7d92"
+  },
+  "production_authorization": {
+    "authoring_unit": true,
+    "narration": "guarded_section_writer",
+    "production_method": "llm_drafting",
+    "production_profile": "guarded_result_drafting",
+    "release_scope": "registered_authoring_unit",
+    "runtime_alias_only": false,
+    "section_id": "11.6.1.4"
+  },
+  "prompt_audit": [],
+  "reference_manifest": [
+    {
+      "entity_id": "T14.2.2.1.1",
+      "frozen_map_sha256": "a4a0c5d112fe6c0c7516550e856e4388dd6091603823535f04df4f17640ffc95",
+      "verified_by": "binding_manifest"
+    }
+  ],
+  "schema_version": "1.2",
+  "section": "11.6.1.4",
+  "semantic_findings": [],
+  "source_manifest": [
+    {
+      "content_sha256": "ea8368084a4138f305820ef1d60c779841d1c178df7ecc94135642326f669072",
+      "locator": "脱敏方案主要终点节",
+      "purpose": "endpoint_definition",
+      "source_id": "SRC-M21-IB-ENDPOINT"
+    },
+    {
+      "content_sha256": "6641593150b59933af81605cdb5f857370d129f1f3a45fdca39d65fd94791066",
+      "locator": "脱敏 SAP ANCOVA 方法节",
+      "purpose": "analysis_method",
+      "source_id": "SRC-M21-IB-SAP"
+    }
+  ],
+  "style_qc": {
+    "blocked": false,
+    "findings": [],
+    "metrics": {
+      "abstract_noun_count": 2,
+      "average_sentence_length": 24.5,
+      "field_dump_sequence_count": 0,
+      "field_enumeration_paragraph_count": 0,
+      "maximum_sentence_length": 35,
+      "n_percent_format_error_count": 0,
+      "overlong_sentence_count": 0,
+      "prespecified_qualifier_count": 0,
+      "reviewed_qualifier_count": 0,
+      "semicolon_count": 0,
+      "sentence_count": 4,
+      "summary_copula_count": 0
+    },
+    "policy": {
+      "banned_expression_is_blocking": true,
+      "literal_zero_event_claim_requires_conditioned_data": true,
+      "n_percent_prose_requires_count_unit_and_percent_sign": true,
+      "qualifier_per_section": 1,
+      "semicolon_per_paragraph": 1,
+      "sentence_length_hard_threshold": 60
+    },
+    "schema_version": "1.0",
+    "status": "pass"
+  },
+  "system_prompt_sha256": "0f8201e0a496a147c422a6569abe89302cf168b98ea3502a541c001335bb85ba",
+  "variant": "exploratory_endpoint_results",
+  "writer": "AgentEnvelopeIngest"
+}

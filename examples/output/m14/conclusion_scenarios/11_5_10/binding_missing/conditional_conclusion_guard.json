@@ -1,0 +1,144 @@
+{
+  "datapack_sha256": "d1bd92543b505e9a391d2e6598fcd3c867259e12e09dcabc9caad54a599cac4a",
+  "draft_sha256": "cd1bc46e5b25e43179939b649b38ab9fb9dd9da574bb2e6c18e0a2145d447837",
+  "resolved_sha256": "94a3c3a0025cde5e8fa02960a5f80eb087bb4ec29d81ba046aa22d9c01439a7d",
+  "rules": [
+    {
+      "all_roles_rendered": true,
+      "branch": "critical_binding_missing",
+      "confirmed_body_only": false,
+      "critical_roles": [
+        {
+          "cell_present": true,
+          "key": "T14.2.4.3.1|POP=PKPS|ROW=BLQ_RATIO|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "blq_ratio",
+          "value_sha256": "50c5afafae921c029e5176ccb98b1662b4097fc544c7237a8fb4388a8de815ec"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.2.4.3.1|POP=PKPS|ROW=QUANTIFIABLE_TIMEPOINT_COUNT|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "quantifiable_timepoint_count",
+          "value_sha256": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.2.4.3.1|POP=PKPS|ROW=CMAX_CALCULABLE|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "cmax_calculable",
+          "value_sha256": "6c0ec9e152e2e42594386f5b94e67f4db676947e9c32e0506b3af86bad115e60"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.2.4.3.1|POP=PKPS|ROW=AUC_CALCULABLE|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "auc_calculable",
+          "value_sha256": "6c0ec9e152e2e42594386f5b94e67f4db676947e9c32e0506b3af86bad115e60"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.2.4.3.1|POP=PKPS|ROW=LLOQ|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "lloq",
+          "value_sha256": "5369b6852e023200d6fec964445d13ceb109e49d7eca7e3901efd1f389062bc3"
+        },
+        {
+          "cell_present": true,
+          "key": "T14.2.4.3.1|POP=PKPS|ROW=NONCALCULABLE_REASON|COL=ACTIVE_TOTAL",
+          "machine_readable": true,
+          "role": "noncalculable_reason",
+          "value_sha256": "2746d995801b1cc88d3b666d149c5ff80330c98c00348a186125253c012084e7"
+        },
+        {
+          "cell_present": false,
+          "key": null,
+          "machine_readable": false,
+          "role": "sampling_coverage_complete",
+          "value_sha256": null
+        }
+      ],
+      "derived_zero_event_roles": [],
+      "medical_review_marker_required": true,
+      "missing_roles": [
+        "sampling_coverage_complete"
+      ],
+      "numeric_values_not_logged": true,
+      "render_mode": "sentence_driven",
+      "role_renderings": [
+        {
+          "key": "T14.2.4.3.1|POP=PKPS|ROW=BLQ_RATIO|COL=ACTIVE_TOTAL",
+          "rendering_mode": "value_placeholder",
+          "role": "blq_ratio"
+        },
+        {
+          "key": "T14.2.4.3.1|POP=PKPS|ROW=QUANTIFIABLE_TIMEPOINT_COUNT|COL=ACTIVE_TOTAL",
+          "rendering_mode": "value_placeholder",
+          "role": "quantifiable_timepoint_count"
+        },
+        {
+          "key": "T14.2.4.3.1|POP=PKPS|ROW=CMAX_CALCULABLE|COL=ACTIVE_TOTAL",
+          "rendering_mode": "conditioned_phrase",
+          "role": "cmax_calculable"
+        },
+        {
+          "key": "T14.2.4.3.1|POP=PKPS|ROW=AUC_CALCULABLE|COL=ACTIVE_TOTAL",
+          "rendering_mode": "conditioned_phrase",
+          "role": "auc_calculable"
+        },
+        {
+          "key": "T14.2.4.3.1|POP=PKPS|ROW=LLOQ|COL=ACTIVE_TOTAL",
+          "rendering_mode": "value_placeholder",
+          "role": "lloq"
+        },
+        {
+          "key": "T14.2.4.3.1|POP=PKPS|ROW=NONCALCULABLE_REASON|COL=ACTIVE_TOTAL",
+          "rendering_mode": "conditioned_not_applicable_phrase",
+          "role": "noncalculable_reason"
+        },
+        {
+          "key": "",
+          "rendering_mode": "missing_no_value_rendered",
+          "role": "sampling_coverage_complete"
+        }
+      ],
+      "rule_id": "PK_CONCLUSION_V1"
+    }
+  ],
+  "schema_version": "1.1",
+  "status": "pass_with_warning",
+  "style_qc": {
+    "blocked": false,
+    "findings": [],
+    "metrics": {
+      "abstract_noun_count": 0,
+      "average_sentence_length": 24.1,
+      "field_enumeration_paragraph_count": 0,
+      "maximum_sentence_length": 60,
+      "overlong_sentence_count": 0,
+      "prespecified_qualifier_count": 0,
+      "reviewed_qualifier_count": 0,
+      "semicolon_count": 1,
+      "sentence_count": 7,
+      "summary_copula_count": 0
+    },
+    "policy": {
+      "banned_expression_is_blocking": true,
+      "literal_zero_event_claim_requires_conditioned_data": true,
+      "qualifier_per_section": 1,
+      "semicolon_per_paragraph": 1,
+      "sentence_length_warning_threshold": 60
+    },
+    "schema_version": "1.0",
+    "status": "pass"
+  },
+  "warnings": [
+    {
+      "code": "W-PK-CONCLUSION-BINDING-MISSING",
+      "message": "PK conclusion lacks a critical quantifiability or method binding",
+      "missing_roles": [
+        "sampling_coverage_complete"
+      ]
+    }
+  ]
+}

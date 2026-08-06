@@ -1,0 +1,22 @@
+{
+  "clean_output_sha256": "aac3f41b428c880e43f80b2b1f5267560598a1720399e3ae7854fb0ab1fff210",
+  "generation_mode": "derived_copy_only",
+  "independent_drafting_allowed": false,
+  "paragraphs": [
+    {
+      "source_para_id": "p_9_1_001",
+      "source_resolved_sha256": "3ea0da2ee9a5d2efdb90c2edb7f612a42f1261f48b475d5224cf1ccd89223a7c",
+      "source_section": "9.1",
+      "text_sha256": "2c04f87cb10cb5d845b0a1950a1a7b577c9703c93bf079d086469e24d3bb7274"
+    },
+    {
+      "source_para_id": "p_12_3_3_001",
+      "source_resolved_sha256": "78ec3ef294374c5e9d94bad92ae14e9ab9d7cbb81db4457b3e421fe6225f8231",
+      "source_section": "12.3.3",
+      "text_sha256": "098571d41c77974fda6b71945f4312e12ccb2aea3dce4019ce64446fc6b53758"
+    }
+  ],
+  "schema_version": "1.0",
+  "synopsis_output_sha256": "5d22745062c112f311b97dc9316db274c12f017a33b571eadd9d0529982d6840",
+  "synopsis_text_sha256": "8a097a34824e82294280c5c65eb4ed1f1bab04d948ef12d9815c4b8e0d081238"
+}

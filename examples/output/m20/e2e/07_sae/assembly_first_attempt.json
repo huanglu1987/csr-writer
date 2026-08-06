@@ -1,0 +1,7 @@
+{
+  "schema_version": "1.0",
+  "status": "blocked",
+  "code": "E-CONSTRAINED-ASSEMBLY-CONTRACT",
+  "error_type": "CrossChapterError",
+  "message": "Section metadata contract drift: missing=['evidence_status', 'input_sha256', 'playbook', 'section', 'system_prompt_sha256', 'variant', 'writer'], extra=['card_external_entities', 'card_id', 'causality_control', 'envelope_sha256', 'external_model_api_called', 'fact_card_sha256', 'field_checks', 'field_count', 'field_coverage_percent', 'field_reference_count', 'findings', 'forward_coverage', 'narration', 'numeric_placeholders', 'production_method', 'section_id', 'status', 'zone_distribution']"
+}

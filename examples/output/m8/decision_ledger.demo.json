@@ -1,0 +1,446 @@
+{
+  "coverage": {
+    "deferred_group_ids": [],
+    "extra_group_ids": [],
+    "missing_group_ids": [],
+    "recorded_group_count": 15,
+    "required_group_count": 15
+  },
+  "ledger_sha256": "3b8903831e0b33ab2f2b2844d90962e43c650ef10a27b1a278f66a23c3487e78",
+  "proposal_report_sha256": "8f40b76001f4f7b557276953ce0f0b4bb36ae52770c508249b05196338e7052c",
+  "queue_sha256": "7504a393eb4c53740b05b8c73e6ee04b92e8e977c392949ca557669886d57d08",
+  "records": [
+    {
+      "basis": {
+        "origin": "direct_proposal",
+        "template_applicability_explicitly_confirmed": false,
+        "template_sha256": null
+      },
+      "decided_at": "2026-08-04T00:00:00+08:00",
+      "decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {
+          "dictionary_version": "DEIDENTIFIED-DEMO-V1"
+        },
+        "selected_action": "confirm_dictionary_and_late_bound_hierarchy"
+      },
+      "decision_group_sha256": "9bb9f7022fec471a85cfa643950a50e2c4b449e2f2695c1f1366fe9ecc417891",
+      "decision_type": "coding_dictionary_dependency",
+      "group_id": "DG-CODE-MEDDRA",
+      "override_reason": null,
+      "proposal_report_sha256": "8f40b76001f4f7b557276953ce0f0b4bb36ae52770c508249b05196338e7052c",
+      "queue_sha256": "7504a393eb4c53740b05b8c73e6ee04b92e8e977c392949ca557669886d57d08",
+      "record_id": "DEC-FC7EA537E87CFA6032D0",
+      "record_sha256": "f6ea5dc8097d73eb47973840f35e887ce45b50c7b794a21a5040288123b787f5",
+      "reviewer": {
+        "identifier": "reviewer_demo_001",
+        "role": "lead_statistician"
+      },
+      "schema_version": "1.0"
+    },
+    {
+      "basis": {
+        "origin": "direct_proposal",
+        "template_applicability_explicitly_confirmed": false,
+        "template_sha256": null
+      },
+      "decided_at": "2026-08-04T01:00:00+08:00",
+      "decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {
+          "dictionary_version": "DEIDENTIFIED-DEMO-V1"
+        },
+        "selected_action": "confirm_dictionary_and_late_bound_hierarchy"
+      },
+      "decision_group_sha256": "586d0a2248753f8c326252c96bdfad08549b98abe8eb3a4d58b5996d128dd73a",
+      "decision_type": "coding_dictionary_dependency",
+      "group_id": "DG-CODE-WHODRUG-MEDICATION",
+      "override_reason": null,
+      "proposal_report_sha256": "8f40b76001f4f7b557276953ce0f0b4bb36ae52770c508249b05196338e7052c",
+      "queue_sha256": "7504a393eb4c53740b05b8c73e6ee04b92e8e977c392949ca557669886d57d08",
+      "record_id": "DEC-86B65AD17A9C65637835",
+      "record_sha256": "ed2afd8ab152ff5dedfe303932acbfdfca78139c7cf6ee7e4335108f30cd8fa3",
+      "reviewer": {
+        "identifier": "reviewer_demo_001",
+        "role": "lead_statistician"
+      },
+      "schema_version": "1.0"
+    },
+    {
+      "basis": {
+        "origin": "direct_proposal",
+        "template_applicability_explicitly_confirmed": false,
+        "template_sha256": null
+      },
+      "decided_at": "2026-08-04T12:00:00+08:00",
+      "decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_family_policy"
+      },
+      "decision_group_sha256": "e6ad3950aa37f8f5b957c9e6c648b5617786e37e913646dc9305118b7deb2df6",
+      "decision_type": "family_batch_policy",
+      "group_id": "DG-FAMILY-AE",
+      "override_reason": null,
+      "proposal_report_sha256": "8f40b76001f4f7b557276953ce0f0b4bb36ae52770c508249b05196338e7052c",
+      "queue_sha256": "7504a393eb4c53740b05b8c73e6ee04b92e8e977c392949ca557669886d57d08",
+      "record_id": "DEC-A18E56FA13208FEF62F7",
+      "record_sha256": "c17cd8292e008229ff4fdfc045de403ff9a927bc78c7828b9d02497aac468571",
+      "reviewer": {
+        "identifier": "reviewer_demo_001",
+        "role": "lead_statistician"
+      },
+      "schema_version": "1.0"
+    },
+    {
+      "basis": {
+        "origin": "direct_proposal",
+        "template_applicability_explicitly_confirmed": false,
+        "template_sha256": null
+      },
+      "decided_at": "2026-08-04T13:00:00+08:00",
+      "decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_family_policy"
+      },
+      "decision_group_sha256": "ffb9058597cd1593be4252e0ed3ebc372a062117c80032a613812daa20027563",
+      "decision_type": "family_batch_policy",
+      "group_id": "DG-FAMILY-OTHER-SAFETY",
+      "override_reason": null,
+      "proposal_report_sha256": "8f40b76001f4f7b557276953ce0f0b4bb36ae52770c508249b05196338e7052c",
+      "queue_sha256": "7504a393eb4c53740b05b8c73e6ee04b92e8e977c392949ca557669886d57d08",
+      "record_id": "DEC-A8F8E8F1C86B845BDF91",
+      "record_sha256": "34081ca6cbe67360a870e27fc6e798c118a52b4ca8c46fa9c35656d262aa3482",
+      "reviewer": {
+        "identifier": "reviewer_demo_001",
+        "role": "lead_statistician"
+      },
+      "schema_version": "1.0"
+    },
+    {
+      "basis": {
+        "origin": "direct_proposal",
+        "template_applicability_explicitly_confirmed": false,
+        "template_sha256": null
+      },
+      "decided_at": "2026-08-04T10:00:00+08:00",
+      "decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_layout_target_and_scope"
+      },
+      "decision_group_sha256": "fbd7fa4dd071226ba0d50d64bc5087712396d2b749879ace227106589bc2b1f6",
+      "decision_type": "layout_inheritance_scope",
+      "group_id": "DG-LAYOUT-AE-FAMILY",
+      "override_reason": null,
+      "proposal_report_sha256": "8f40b76001f4f7b557276953ce0f0b4bb36ae52770c508249b05196338e7052c",
+      "queue_sha256": "7504a393eb4c53740b05b8c73e6ee04b92e8e977c392949ca557669886d57d08",
+      "record_id": "DEC-3DE57ACEA34DA3272310",
+      "record_sha256": "c9ed9d3145772a6e3ac2cc6014664922843193b9315467c49735015e751ac598",
+      "reviewer": {
+        "identifier": "reviewer_demo_001",
+        "role": "lead_statistician"
+      },
+      "schema_version": "1.0"
+    },
+    {
+      "basis": {
+        "origin": "direct_proposal",
+        "template_applicability_explicitly_confirmed": false,
+        "template_sha256": null
+      },
+      "decided_at": "2026-08-04T08:00:00+08:00",
+      "decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_layout_target_and_scope"
+      },
+      "decision_group_sha256": "f4c419cd677d6106a82a0ffe8aaf3254ab94b1980505797fb5503bbf0500f67c",
+      "decision_type": "layout_inheritance_scope",
+      "group_id": "DG-LAYOUT-BASELINE",
+      "override_reason": null,
+      "proposal_report_sha256": "8f40b76001f4f7b557276953ce0f0b4bb36ae52770c508249b05196338e7052c",
+      "queue_sha256": "7504a393eb4c53740b05b8c73e6ee04b92e8e977c392949ca557669886d57d08",
+      "record_id": "DEC-2D1EEAFB1FF80CBD52B0",
+      "record_sha256": "6acce75b04855faf800e230d4bf2ac6b614fbcbb44b6304dc6c0f4ff9c59252f",
+      "reviewer": {
+        "identifier": "reviewer_demo_001",
+        "role": "lead_statistician"
+      },
+      "schema_version": "1.0"
+    },
+    {
+      "basis": {
+        "origin": "direct_proposal",
+        "template_applicability_explicitly_confirmed": false,
+        "template_sha256": null
+      },
+      "decided_at": "2026-08-04T09:00:00+08:00",
+      "decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_layout_target_and_scope"
+      },
+      "decision_group_sha256": "1c15cb46ff11a38ae98f479c8040e7bce9be7788c8074ebbf6994833b984c107",
+      "decision_type": "layout_inheritance_scope",
+      "group_id": "DG-LAYOUT-EFFICACY",
+      "override_reason": null,
+      "proposal_report_sha256": "8f40b76001f4f7b557276953ce0f0b4bb36ae52770c508249b05196338e7052c",
+      "queue_sha256": "7504a393eb4c53740b05b8c73e6ee04b92e8e977c392949ca557669886d57d08",
+      "record_id": "DEC-F47EE2126E8F30EF0C38",
+      "record_sha256": "51a3489505e1210439fa0cda5ae6cca27a5b0a613ae68354f2f29428fdc829d6",
+      "reviewer": {
+        "identifier": "reviewer_demo_001",
+        "role": "lead_statistician"
+      },
+      "schema_version": "1.0"
+    },
+    {
+      "basis": {
+        "origin": "direct_proposal",
+        "template_applicability_explicitly_confirmed": false,
+        "template_sha256": null
+      },
+      "decided_at": "2026-08-04T11:00:00+08:00",
+      "decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_layout_target_and_scope"
+      },
+      "decision_group_sha256": "3745292bf13a8fc0563c99e0ec6148083447702b239b6a3a04ffc6b0c56f8ec7",
+      "decision_type": "layout_inheritance_scope",
+      "group_id": "DG-LAYOUT-OTHER-SAFETY",
+      "override_reason": null,
+      "proposal_report_sha256": "8f40b76001f4f7b557276953ce0f0b4bb36ae52770c508249b05196338e7052c",
+      "queue_sha256": "7504a393eb4c53740b05b8c73e6ee04b92e8e977c392949ca557669886d57d08",
+      "record_id": "DEC-D30EB409E57CC9D698F2",
+      "record_sha256": "b3fe5d6081954820ea07dedf2f33c587b052ebcf058a99a9946857029f7235f7",
+      "reviewer": {
+        "identifier": "reviewer_demo_001",
+        "role": "lead_statistician"
+      },
+      "schema_version": "1.0"
+    },
+    {
+      "basis": {
+        "origin": "direct_proposal",
+        "template_applicability_explicitly_confirmed": false,
+        "template_sha256": null
+      },
+      "decided_at": "2026-08-04T07:00:00+08:00",
+      "decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_parallel_structure_keep_population_separate"
+      },
+      "decision_group_sha256": "4c380ccafb80f0068f3dc1fa9e437f62b16ae8b88e79f5724502e56183d8ab3a",
+      "decision_type": "analysis_set_parallelism",
+      "group_id": "DG-POP-PARALLEL",
+      "override_reason": null,
+      "proposal_report_sha256": "8f40b76001f4f7b557276953ce0f0b4bb36ae52770c508249b05196338e7052c",
+      "queue_sha256": "7504a393eb4c53740b05b8c73e6ee04b92e8e977c392949ca557669886d57d08",
+      "record_id": "DEC-9B0438929FDF3AD15969",
+      "record_sha256": "9b26636bce5cdc4c8b5b6da453f244bb440be8ec5f8865432b358015a36ead85",
+      "reviewer": {
+        "identifier": "reviewer_demo_001",
+        "role": "lead_statistician"
+      },
+      "schema_version": "1.0"
+    },
+    {
+      "basis": {
+        "origin": "direct_proposal",
+        "template_applicability_explicitly_confirmed": false,
+        "template_sha256": null
+      },
+      "decided_at": "2026-08-04T04:00:00+08:00",
+      "decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_result_driven_rows"
+      },
+      "decision_group_sha256": "a476cb5cc28330d443658dca1fbde4c9c882d36a856167412f779412f08a9299",
+      "decision_type": "deferred_row_source_contract",
+      "group_id": "DG-ROWS-BASELINE-EFFICACY",
+      "override_reason": null,
+      "proposal_report_sha256": "8f40b76001f4f7b557276953ce0f0b4bb36ae52770c508249b05196338e7052c",
+      "queue_sha256": "7504a393eb4c53740b05b8c73e6ee04b92e8e977c392949ca557669886d57d08",
+      "record_id": "DEC-A827AA2EA6434E4F5D73",
+      "record_sha256": "da68250c00a9d858953ab2681bac52b78b2cba3d0684f51f00b901c31018b269",
+      "reviewer": {
+        "identifier": "reviewer_demo_001",
+        "role": "lead_statistician"
+      },
+      "schema_version": "1.0"
+    },
+    {
+      "basis": {
+        "origin": "direct_proposal",
+        "template_applicability_explicitly_confirmed": false,
+        "template_sha256": null
+      },
+      "decided_at": "2026-08-04T06:00:00+08:00",
+      "decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_result_driven_rows"
+      },
+      "decision_group_sha256": "5bbe6fb4ff03212c9f7ae2efb8f920171d58ae470165f50893071bcf66a40687",
+      "decision_type": "deferred_row_source_contract",
+      "group_id": "DG-ROWS-OTHER-SAFETY",
+      "override_reason": null,
+      "proposal_report_sha256": "8f40b76001f4f7b557276953ce0f0b4bb36ae52770c508249b05196338e7052c",
+      "queue_sha256": "7504a393eb4c53740b05b8c73e6ee04b92e8e977c392949ca557669886d57d08",
+      "record_id": "DEC-CE985F3EE969CE5B1BA1",
+      "record_sha256": "c8d3368d03fc00f3b11a85bb48a685cad442c637bb0b8989281eecc08d83eeb7",
+      "reviewer": {
+        "identifier": "reviewer_demo_001",
+        "role": "lead_statistician"
+      },
+      "schema_version": "1.0"
+    },
+    {
+      "basis": {
+        "origin": "direct_proposal",
+        "template_applicability_explicitly_confirmed": false,
+        "template_sha256": null
+      },
+      "decided_at": "2026-08-04T03:00:00+08:00",
+      "decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {
+          "parameter_authority": "DEIDENTIFIED-DEMO-V1"
+        },
+        "selected_action": "confirm_result_driven_rows"
+      },
+      "decision_group_sha256": "e9c68016d98b6ab8eb77655e89c512b17846049cf04988e0a65d8e89aa766fae",
+      "decision_type": "deferred_row_source_contract",
+      "group_id": "DG-ROWS-PK-PARAMETERS",
+      "override_reason": null,
+      "proposal_report_sha256": "8f40b76001f4f7b557276953ce0f0b4bb36ae52770c508249b05196338e7052c",
+      "queue_sha256": "7504a393eb4c53740b05b8c73e6ee04b92e8e977c392949ca557669886d57d08",
+      "record_id": "DEC-8F4023A8DE161B994EC7",
+      "record_sha256": "e0066e562ffa20ed74d2e9436f8b20d07a3228b778ff604ebcf6a3deb3113980",
+      "reviewer": {
+        "identifier": "reviewer_demo_001",
+        "role": "lead_statistician"
+      },
+      "schema_version": "1.0"
+    },
+    {
+      "basis": {
+        "origin": "direct_proposal",
+        "template_applicability_explicitly_confirmed": false,
+        "template_sha256": null
+      },
+      "decided_at": "2026-08-04T02:00:00+08:00",
+      "decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {
+          "category_authority": "DEIDENTIFIED-DEMO-V1"
+        },
+        "selected_action": "confirm_result_driven_rows"
+      },
+      "decision_group_sha256": "ac1a52d310bab04b1d3037f066c59fbe184eb097b9da81c2c9bb6b8ac9db41fb",
+      "decision_type": "deferred_row_source_contract",
+      "group_id": "DG-ROWS-PROTOCOL-DEVIATION",
+      "override_reason": null,
+      "proposal_report_sha256": "8f40b76001f4f7b557276953ce0f0b4bb36ae52770c508249b05196338e7052c",
+      "queue_sha256": "7504a393eb4c53740b05b8c73e6ee04b92e8e977c392949ca557669886d57d08",
+      "record_id": "DEC-9B5842D59458E911469C",
+      "record_sha256": "92dd9e6a24b4ca2562c9e87f17451653ae13e98aa4b060a63bd160f35f5b9ad6",
+      "reviewer": {
+        "identifier": "reviewer_demo_001",
+        "role": "lead_statistician"
+      },
+      "schema_version": "1.0"
+    },
+    {
+      "basis": {
+        "origin": "direct_proposal",
+        "template_applicability_explicitly_confirmed": false,
+        "template_sha256": null
+      },
+      "decided_at": "2026-08-04T05:00:00+08:00",
+      "decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {},
+        "selected_action": "confirm_result_driven_rows"
+      },
+      "decision_group_sha256": "9cdda54eb0e522a91405ab4ea8e6bf071be0cb9ea84f61fb82407ebfcdf1a1ec",
+      "decision_type": "deferred_row_source_contract",
+      "group_id": "DG-ROWS-SAFETY-SUMMARY",
+      "override_reason": null,
+      "proposal_report_sha256": "8f40b76001f4f7b557276953ce0f0b4bb36ae52770c508249b05196338e7052c",
+      "queue_sha256": "7504a393eb4c53740b05b8c73e6ee04b92e8e977c392949ca557669886d57d08",
+      "record_id": "DEC-B86FA8F013EC440B1FF9",
+      "record_sha256": "2f9a38db7af0e28ea0c9f97b39630c1986128ec11a99c580fbb25cd67b2e07b4",
+      "reviewer": {
+        "identifier": "reviewer_demo_001",
+        "role": "lead_statistician"
+      },
+      "schema_version": "1.0"
+    },
+    {
+      "basis": {
+        "origin": "direct_proposal",
+        "template_applicability_explicitly_confirmed": false,
+        "template_sha256": null
+      },
+      "decided_at": "2026-08-04T14:00:00+08:00",
+      "decision": {
+        "notes": "脱敏演示；不代表真实项目批准",
+        "outcome": "confirm_default",
+        "override_parameters": null,
+        "resolved_inputs": {
+          "subtable_boundary_disposition": "DEIDENTIFIED-DEMO-V1"
+        },
+        "selected_action": "confirm_metadata_only_until_subtables_classified"
+      },
+      "decision_group_sha256": "af251633440341a3476bc3b21fa0c5a37080a5591d09209dadd20ecf2447be8f",
+      "decision_type": "structural_exception",
+      "group_id": "DG-STRUCTURE-ANOMALY",
+      "override_reason": null,
+      "proposal_report_sha256": "8f40b76001f4f7b557276953ce0f0b4bb36ae52770c508249b05196338e7052c",
+      "queue_sha256": "7504a393eb4c53740b05b8c73e6ee04b92e8e977c392949ca557669886d57d08",
+      "record_id": "DEC-F5DAEBD7D6621B6B0045",
+      "record_sha256": "4c83732a3fd879a9e7b02c210f86bfd3ec6ede3cc542405abcd067a151dbae65",
+      "reviewer": {
+        "identifier": "reviewer_demo_001",
+        "role": "lead_statistician"
+      },
+      "schema_version": "1.0"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "complete"
+}

@@ -1,0 +1,207 @@
+{
+  "binding_manifest": [],
+  "card_external_entities": [],
+  "card_id": "M16-METHOD-9-5-3",
+  "causality_control": {
+    "allowed_terms": [
+      "不太可能有关",
+      "可能有关",
+      "很可能有关",
+      "无关",
+      "无法评价",
+      "明确相关",
+      "未评价"
+    ],
+    "exact_match": true,
+    "observed_terms": []
+  },
+  "draft_sha256": "2cbcd14231c460805e7094c519cd77f21ed6e075339f2928518debc7a0c14528",
+  "envelope_sha256": "26dbc48e7ca4dc5c0fc0fc1905372a756678838d0c5d1f27e821929babb86113",
+  "external_model_api_called": false,
+  "fact_card_sha256": "b772ec3fbb64f0ee7826279b753802bd714b4c3b2537bea319f9e87e3ba41665",
+  "field_checks": [
+    {
+      "fact_id": "V01",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V02",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V03",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V04",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V05",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V06",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    }
+  ],
+  "field_count": 6,
+  "field_coverage_percent": 100.0,
+  "field_reference_count": 6,
+  "findings": [],
+  "forward_coverage": {
+    "coverage_mode": "whole_values_label_bound",
+    "guard_policy_sha256": "3694e5964b6da327a106ef30e38a216d4233bf7e6f4bef7e298b8c7235f1697a",
+    "guard_profile": "method_whole_value_label_bound",
+    "guard_version": "3.0",
+    "paragraph_checks": [
+      {
+        "anchored_fact_ids": [
+          "V01",
+          "V02",
+          "V03",
+          "V04"
+        ],
+        "coverage_mode": "whole_values_label_bound",
+        "fact_ids": [
+          "V01",
+          "V02",
+          "V03",
+          "V04"
+        ],
+        "label_binding_checks": [],
+        "label_token_count": 0,
+        "missing_value_fact_ids": [],
+        "paragraph_index": 1,
+        "policy_sha256": "3694e5964b6da327a106ef30e38a216d4233bf7e6f4bef7e298b8c7235f1697a",
+        "residual_content_terms": [],
+        "status": "pass",
+        "whole_value_token_count": 4
+      },
+      {
+        "anchored_fact_ids": [
+          "V05",
+          "V06"
+        ],
+        "coverage_mode": "whole_values_label_bound",
+        "fact_ids": [
+          "V05",
+          "V06"
+        ],
+        "label_binding_checks": [
+          {
+            "adjacent_value_fact_ids": [
+              [
+                "V05"
+              ]
+            ],
+            "adjacent_values": [
+              "FAS"
+            ],
+            "label": "分析集",
+            "label_fact_ids": [
+              "V05"
+            ],
+            "status": "pass"
+          }
+        ],
+        "label_token_count": 1,
+        "missing_value_fact_ids": [],
+        "paragraph_index": 2,
+        "policy_sha256": "3694e5964b6da327a106ef30e38a216d4233bf7e6f4bef7e298b8c7235f1697a",
+        "residual_content_terms": [],
+        "status": "pass",
+        "whole_value_token_count": 2
+      }
+    ],
+    "release_eligible": true,
+    "status": "pass"
+  },
+  "narration": "constrained_llm",
+  "numeric_placeholders": [],
+  "paragraphs": [
+    {
+      "fact_ids": [
+        "V01",
+        "V02",
+        "V03",
+        "V04"
+      ],
+      "para_id": "p_9_5_3_001",
+      "text_sha256": "8ad4f120fc63b1fe30417e53b3b97e229076552f6efb7d916e216dfaed5ddc88"
+    },
+    {
+      "fact_ids": [
+        "V05",
+        "V06"
+      ],
+      "para_id": "p_9_5_3_002",
+      "text_sha256": "b899beb45c533eef5856b10bd0ba783cebb9a6ddb7f3f2e0bdaefa285846f91d"
+    }
+  ],
+  "production_method": "extraction",
+  "schema_version": "1.0",
+  "section_id": "9.5.3",
+  "source_manifest": [
+    {
+      "content_sha256": "d5d7ab69d6512e209fd888bac2e55f67cf4d96dc1aa671fc3075e1c84e461ad7",
+      "file_role": "protocol",
+      "locator": "方案 §9.5.3 主要终点",
+      "source_id": "src_9_5_3_1",
+      "version": "synthetic-reviewed-v1"
+    },
+    {
+      "content_sha256": "991903016dca42621d4d7cbb5bb4b5585a4c906e44ede094e4736d1397729b1b",
+      "file_role": "sap",
+      "locator": "SAP 主要终点定义",
+      "source_id": "src_9_5_3_2",
+      "version": "synthetic-reviewed-v1"
+    }
+  ],
+  "status": "pass",
+  "style_qc": {
+    "blocked": false,
+    "findings": [],
+    "metrics": {
+      "abstract_noun_count": 0,
+      "average_sentence_length": 24.5,
+      "field_enumeration_paragraph_count": 0,
+      "maximum_sentence_length": 34,
+      "n_percent_format_error_count": 0,
+      "overlong_sentence_count": 0,
+      "prespecified_qualifier_count": 0,
+      "reviewed_qualifier_count": 0,
+      "semicolon_count": 0,
+      "sentence_count": 4,
+      "summary_copula_count": 0
+    },
+    "policy": {
+      "banned_expression_is_blocking": true,
+      "literal_zero_event_claim_requires_conditioned_data": true,
+      "n_percent_prose_requires_count_unit_and_percent_sign": true,
+      "qualifier_per_section": 1,
+      "semicolon_per_paragraph": 1,
+      "sentence_length_hard_threshold": 60
+    },
+    "schema_version": "1.0",
+    "status": "pass"
+  },
+  "zone_distribution": {
+    "counts": {
+      "A": 0,
+      "B": 0,
+      "C": 0
+    },
+    "percent": {
+      "A": 0.0,
+      "B": 0.0,
+      "C": 0.0
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "audit_demo": {
+    "ledger_status": "complete",
+    "real_human_approval_claimed": false,
+    "record_count": 15
+  },
+  "ergonomics": {
+    "decision_group_count": 15,
+    "entity_decision_memberships": 157,
+    "estimate_basis": {
+      "difference_set_overhead_seconds": 12,
+      "judgement_overhead_seconds_per_group": 75,
+      "reviewer_assumption": "熟悉本项目、SAP 和编码计划的统计/医学撰写审阅者",
+      "scope": "首轮结构决定；不含向统计师追问未决字典版本的等待时间",
+      "structured_technical_reading_rate_characters_per_minute": 500
+    },
+    "estimated_review_minutes": 83.7,
+    "total_group_characters": 29099,
+    "total_screen_equivalents": 33.1,
+    "unique_review_entity_count": 63
+  },
+  "real_shell": {
+    "generation_elapsed_seconds": 2.849,
+    "legacy_technical_review_batches": 3,
+    "overlapping_entity_decision_memberships": 157,
+    "physical_word_table_objects": 175,
+    "review_entities": 63,
+    "reviewer_decision_groups": 15,
+    "unique_tfl_entities": 110
+  },
+  "real_source_hashes_unchanged": true,
+  "schema_version": "1.0",
+  "status": "pass",
+  "template_demo": {
+    "automatic_decisions": 0,
+    "matched_groups": 15,
+    "status": "applicability_confirmation_required"
+  },
+  "version_reuse_demo": {
+    "changed_requeued": 1,
+    "unchanged_decision_reused": 1,
+    "upstream_change_invalidated_reconfirmation": 1
+  }
+}

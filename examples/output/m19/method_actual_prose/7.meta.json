@@ -1,0 +1,214 @@
+{
+  "binding_manifest": [],
+  "card_external_entities": [],
+  "card_id": "M19-METHOD-7-UNFAMILIAR",
+  "causality_control": {
+    "allowed_terms": [
+      "不太可能有关",
+      "可能有关",
+      "很可能有关",
+      "无关",
+      "无法评价",
+      "明确相关",
+      "未评价"
+    ],
+    "exact_match": true,
+    "observed_terms": []
+  },
+  "draft_sha256": "645b33e310e29dcf15db87d1e81530be34c20680116929eaa16421fc43be1de0",
+  "envelope_sha256": "10e1f98104de16182eb408c2b6a3575de32e927523873b5ed9bdfd55c99a23be",
+  "external_model_api_called": false,
+  "fact_card_sha256": "8c4574b011a0cbc964d7c9c25e12a2515d393ad660e16f02b7ebc368267f5734",
+  "field_checks": [
+    {
+      "fact_id": "V01",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V02",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V03",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    },
+    {
+      "fact_id": "S01",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    },
+    {
+      "fact_id": "S02",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    }
+  ],
+  "field_count": 5,
+  "field_coverage_percent": 100.0,
+  "field_reference_count": 5,
+  "findings": [],
+  "forward_coverage": {
+    "coverage_mode": "whole_values_label_bound",
+    "guard_policy_sha256": "3694e5964b6da327a106ef30e38a216d4233bf7e6f4bef7e298b8c7235f1697a",
+    "guard_profile": "method_whole_value_label_bound",
+    "guard_version": "3.0",
+    "paragraph_checks": [
+      {
+        "anchored_fact_ids": [
+          "V01",
+          "V02",
+          "V03"
+        ],
+        "coverage_mode": "whole_values_label_bound",
+        "fact_ids": [
+          "V01",
+          "V02",
+          "V03"
+        ],
+        "label_binding_checks": [
+          {
+            "adjacent_value_fact_ids": [
+              [
+                "V01"
+              ]
+            ],
+            "adjacent_values": [
+              "目标皮肤病"
+            ],
+            "label": "研究适应证",
+            "label_fact_ids": [
+              "V01"
+            ],
+            "status": "pass"
+          },
+          {
+            "adjacent_value_fact_ids": [
+              [
+                "V02"
+              ]
+            ],
+            "adjacent_values": [
+              "脱敏研究制剂"
+            ],
+            "label": "研究产品",
+            "label_fact_ids": [
+              "V02"
+            ],
+            "status": "pass"
+          }
+        ],
+        "label_token_count": 2,
+        "missing_value_fact_ids": [],
+        "paragraph_index": 1,
+        "policy_sha256": "3694e5964b6da327a106ef30e38a216d4233bf7e6f4bef7e298b8c7235f1697a",
+        "residual_content_terms": [],
+        "status": "pass",
+        "whole_value_token_count": 3
+      },
+      {
+        "anchored_fact_ids": [
+          "S01",
+          "S02"
+        ],
+        "coverage_mode": "whole_values_label_bound",
+        "fact_ids": [
+          "S01",
+          "S02"
+        ],
+        "label_binding_checks": [],
+        "label_token_count": 0,
+        "missing_value_fact_ids": [],
+        "paragraph_index": 2,
+        "policy_sha256": "3694e5964b6da327a106ef30e38a216d4233bf7e6f4bef7e298b8c7235f1697a",
+        "residual_content_terms": [],
+        "status": "pass",
+        "whole_value_token_count": 2
+      }
+    ],
+    "release_eligible": true,
+    "status": "pass"
+  },
+  "narration": "constrained_llm",
+  "numeric_placeholders": [],
+  "paragraphs": [
+    {
+      "fact_ids": [
+        "V01",
+        "V02",
+        "V03"
+      ],
+      "para_id": "p_7_001",
+      "text_sha256": "815ea334dc454aa7ded5c34bb742c96f145b7bac048b6d28497041ea6718a6fc"
+    },
+    {
+      "fact_ids": [
+        "S01",
+        "S02"
+      ],
+      "para_id": "p_7_002",
+      "text_sha256": "da5d9bddb633925673e3ceb1573de1999e568ced9559a619e88520605e498544"
+    }
+  ],
+  "production_method": "extraction",
+  "schema_version": "1.0",
+  "section_id": "7",
+  "source_manifest": [
+    {
+      "content_sha256": "54c4095730f20a5da167c202fcdfd4cabde7b47159956add49072b2a8fe1636e",
+      "file_role": "protocol",
+      "locator": "脱敏方案 研究背景章节",
+      "source_id": "m19_protocol_intro",
+      "version": "deidentified-synthetic-v1"
+    },
+    {
+      "content_sha256": "9fbe2fc731a341a11918950b574d4e160556c12a9e9dca0161cf961cf0461369",
+      "file_role": "investigator_brochure",
+      "locator": "脱敏研究者手册相关章节",
+      "source_id": "m19_brochure",
+      "version": "deidentified-synthetic-v1"
+    }
+  ],
+  "status": "pass",
+  "style_qc": {
+    "blocked": false,
+    "findings": [],
+    "metrics": {
+      "abstract_noun_count": 0,
+      "average_sentence_length": 21.5,
+      "field_enumeration_paragraph_count": 1,
+      "maximum_sentence_length": 25,
+      "n_percent_format_error_count": 0,
+      "overlong_sentence_count": 0,
+      "prespecified_qualifier_count": 0,
+      "reviewed_qualifier_count": 0,
+      "semicolon_count": 0,
+      "sentence_count": 4,
+      "summary_copula_count": 0
+    },
+    "policy": {
+      "banned_expression_is_blocking": true,
+      "literal_zero_event_claim_requires_conditioned_data": true,
+      "n_percent_prose_requires_count_unit_and_percent_sign": true,
+      "qualifier_per_section": 1,
+      "semicolon_per_paragraph": 1,
+      "sentence_length_hard_threshold": 60
+    },
+    "schema_version": "1.0",
+    "status": "pass"
+  },
+  "zone_distribution": {
+    "counts": {
+      "A": 0,
+      "B": 0,
+      "C": 0
+    },
+    "percent": {
+      "A": 0.0,
+      "B": 0.0,
+      "C": 0.0
+    }
+  }
+}

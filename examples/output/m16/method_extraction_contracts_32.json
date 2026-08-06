@@ -1,0 +1,2012 @@
+{
+  "config_sha256": "c726325bdd6392b9319bc8358f71bbe7a60c2c56ed218f80422c77c2e645ed50",
+  "contract_count": 32,
+  "mixed_count": 7,
+  "pure_extraction_count": 25,
+  "rows": [
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "研究类型",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "设计框架",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "治疗组",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V04",
+          "label": "分配比",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V05",
+          "label": "盲法",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V06",
+          "label": "对照",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V07",
+          "label": "给药期和随访期",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "required_terms",
+          "field_id": "S01",
+          "label": "研究流程总体说明",
+          "required": true,
+          "verbatim_required": false
+        }
+      ],
+      "narration": "constrained_llm",
+      "numeric_rule": "本单元不直接呈现结果数据库数值",
+      "production_method": "extraction",
+      "result_fields": [],
+      "section_id": "9.1",
+      "source_locators": [
+        "方案 §9.1 整体研究设计和计划"
+      ],
+      "summarizable_elements": [
+        "研究流程总体说明"
+      ],
+      "title": "整体研究设计和计划 - 描述",
+      "verbatim_elements": [
+        "研究类型",
+        "设计框架",
+        "治疗组",
+        "分配比",
+        "盲法",
+        "对照",
+        "给药期和随访期"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "对照类型",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "设计选择的限定条件",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "required_terms",
+          "field_id": "S01",
+          "label": "设计理由",
+          "required": true,
+          "verbatim_required": false
+        },
+        {
+          "back_reference": "required_terms",
+          "field_id": "S02",
+          "label": "对照选择理由",
+          "required": true,
+          "verbatim_required": false
+        }
+      ],
+      "narration": "constrained_llm",
+      "numeric_rule": "本单元不直接呈现结果数据库数值",
+      "production_method": "extraction",
+      "result_fields": [],
+      "section_id": "9.2",
+      "source_locators": [
+        "方案 §9.2 研究设计及对照选择依据"
+      ],
+      "summarizable_elements": [
+        "设计理由",
+        "对照选择理由"
+      ],
+      "title": "研究设计的讨论，包括对照组的选择",
+      "verbatim_elements": [
+        "对照类型",
+        "设计选择的限定条件"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "全部编号标准",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "数值阈值",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "时间窗",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V04",
+          "label": "检查要求",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V05",
+          "label": "例外和限定词",
+          "required": true,
+          "verbatim_required": true
+        }
+      ],
+      "narration": "verbatim_list",
+      "numeric_rule": "本单元不直接呈现结果数据库数值",
+      "production_method": "extraction",
+      "result_fields": [],
+      "section_id": "9.3.1",
+      "source_locators": [
+        "方案 §9.3.1 入选标准"
+      ],
+      "summarizable_elements": [],
+      "title": "入选标准",
+      "verbatim_elements": [
+        "全部编号标准",
+        "数值阈值",
+        "时间窗",
+        "检查要求",
+        "例外和限定词"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "全部编号标准",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "数值阈值",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "时间窗",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V04",
+          "label": "禁用药物",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V05",
+          "label": "例外和限定词",
+          "required": true,
+          "verbatim_required": true
+        }
+      ],
+      "narration": "verbatim_list",
+      "numeric_rule": "本单元不直接呈现结果数据库数值",
+      "production_method": "extraction",
+      "result_fields": [],
+      "section_id": "9.3.2",
+      "source_locators": [
+        "方案 §9.3.2 排除标准"
+      ],
+      "summarizable_elements": [],
+      "title": "排除标准",
+      "verbatim_elements": [
+        "全部编号标准",
+        "数值阈值",
+        "时间窗",
+        "禁用药物",
+        "例外和限定词"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "退出和停药条件",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "后续访视要求",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "数据保留规则",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "required_terms",
+          "field_id": "S01",
+          "label": "退出处理流程",
+          "required": true,
+          "verbatim_required": false
+        }
+      ],
+      "narration": "verbatim_list",
+      "numeric_rule": "本单元不直接呈现结果数据库数值",
+      "production_method": "extraction",
+      "result_fields": [],
+      "section_id": "9.3.3",
+      "source_locators": [
+        "方案 §9.3.3 退出、停止治疗和停止评估标准"
+      ],
+      "summarizable_elements": [
+        "退出处理流程"
+      ],
+      "title": "从治疗或评估中移除患者",
+      "verbatim_elements": [
+        "退出和停药条件",
+        "后续访视要求",
+        "数据保留规则"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "各治疗组",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "剂型",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "规格",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V04",
+          "label": "浓度或剂量",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V05",
+          "label": "频次",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V06",
+          "label": "途径",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V07",
+          "label": "疗程",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "required_terms",
+          "field_id": "S01",
+          "label": "治疗方案总述",
+          "required": true,
+          "verbatim_required": false
+        }
+      ],
+      "narration": "constrained_llm",
+      "numeric_rule": "本单元不直接呈现结果数据库数值",
+      "production_method": "extraction",
+      "result_fields": [],
+      "section_id": "9.4.1",
+      "source_locators": [
+        "方案 §9.4.1 研究治疗"
+      ],
+      "summarizable_elements": [
+        "治疗方案总述"
+      ],
+      "title": "给予的治疗",
+      "verbatim_elements": [
+        "各治疗组",
+        "剂型",
+        "规格",
+        "浓度或剂量",
+        "频次",
+        "途径",
+        "疗程"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "产品代码",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "剂型",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "规格",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V04",
+          "label": "包装",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V05",
+          "label": "标签",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V06",
+          "label": "批号管理方式",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "required_terms",
+          "field_id": "S01",
+          "label": "包装和发放流程",
+          "required": true,
+          "verbatim_required": false
+        }
+      ],
+      "narration": "constrained_llm",
+      "numeric_rule": "本单元不直接呈现结果数据库数值",
+      "production_method": "extraction",
+      "result_fields": [],
+      "section_id": "9.4.2",
+      "source_locators": [
+        "方案 §9.4.2 研究性产品标识和包装",
+        "药房手册 研究性产品标识"
+      ],
+      "summarizable_elements": [
+        "包装和发放流程"
+      ],
+      "title": "研究性产品的标识",
+      "verbatim_elements": [
+        "产品代码",
+        "剂型",
+        "规格",
+        "包装",
+        "标签",
+        "批号管理方式"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "随机化方式",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "分配比",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "分层因素",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V04",
+          "label": "区组长度",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V05",
+          "label": "随机号生成方",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V06",
+          "label": "随机系统",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V07",
+          "label": "分配隐藏方法",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "required_terms",
+          "field_id": "S01",
+          "label": "随机化实施流程",
+          "required": true,
+          "verbatim_required": false
+        }
+      ],
+      "narration": "constrained_llm",
+      "numeric_rule": "本单元不直接呈现结果数据库数值",
+      "production_method": "extraction",
+      "result_fields": [],
+      "section_id": "9.4.3",
+      "source_locators": [
+        "方案 §9.4.3 随机化和治疗分配",
+        "SAP 随机化方法"
+      ],
+      "summarizable_elements": [
+        "随机化实施流程"
+      ],
+      "title": "患者的治疗组分配方法",
+      "verbatim_elements": [
+        "随机化方式",
+        "分配比",
+        "分层因素",
+        "区组长度",
+        "随机号生成方",
+        "随机系统",
+        "分配隐藏方法"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "计划剂量或浓度",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "递增规则",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "停止规则",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V04",
+          "label": "选择边界",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "required_terms",
+          "field_id": "S01",
+          "label": "剂量选择理由",
+          "required": true,
+          "verbatim_required": false
+        }
+      ],
+      "narration": "constrained_llm",
+      "numeric_rule": "本单元不直接呈现结果数据库数值",
+      "production_method": "extraction",
+      "result_fields": [],
+      "section_id": "9.4.4",
+      "source_locators": [
+        "方案 §9.4.4 剂量或浓度选择依据",
+        "研究者手册 剂量选择依据"
+      ],
+      "summarizable_elements": [
+        "剂量选择理由"
+      ],
+      "title": "研究中的剂量选择",
+      "verbatim_elements": [
+        "计划剂量或浓度",
+        "递增规则",
+        "停止规则",
+        "选择边界"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "单次剂量",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "每日频次",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "给药间隔",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V04",
+          "label": "给药时间窗",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V05",
+          "label": "漏用和补用规则",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "required_terms",
+          "field_id": "S01",
+          "label": "给药流程说明",
+          "required": true,
+          "verbatim_required": false
+        }
+      ],
+      "narration": "constrained_llm",
+      "numeric_rule": "本单元不直接呈现结果数据库数值",
+      "production_method": "extraction",
+      "result_fields": [],
+      "section_id": "9.4.5",
+      "source_locators": [
+        "方案 §9.4.5 给药计划和时间窗"
+      ],
+      "summarizable_elements": [
+        "给药流程说明"
+      ],
+      "title": "每位患者的研究剂量和给药时间",
+      "verbatim_elements": [
+        "单次剂量",
+        "每日频次",
+        "给药间隔",
+        "给药时间窗",
+        "漏用和补用规则"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "盲法类型",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "设盲对象",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "外观匹配",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V04",
+          "label": "盲底管理",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V05",
+          "label": "应急揭盲条件",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V06",
+          "label": "应急揭盲流程",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V07",
+          "label": "揭盲权限",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "required_terms",
+          "field_id": "S01",
+          "label": "盲态维护流程",
+          "required": true,
+          "verbatim_required": false
+        }
+      ],
+      "narration": "constrained_llm",
+      "numeric_rule": "本单元不直接呈现结果数据库数值",
+      "production_method": "extraction",
+      "result_fields": [],
+      "section_id": "9.4.6",
+      "source_locators": [
+        "方案 §9.4.6 盲法维持和揭盲",
+        "盲法计划 盲态维持与揭盲"
+      ],
+      "summarizable_elements": [
+        "盲态维护流程"
+      ],
+      "title": "盲法",
+      "verbatim_elements": [
+        "盲法类型",
+        "设盲对象",
+        "外观匹配",
+        "盲底管理",
+        "应急揭盲条件",
+        "应急揭盲流程",
+        "揭盲权限"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "允许药物",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "禁止药物",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "洗脱期",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V04",
+          "label": "救援治疗",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V05",
+          "label": "例外条件",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "required_terms",
+          "field_id": "S01",
+          "label": "伴随治疗管理流程",
+          "required": true,
+          "verbatim_required": false
+        }
+      ],
+      "narration": "verbatim_list",
+      "numeric_rule": "本单元不直接呈现结果数据库数值",
+      "production_method": "extraction",
+      "result_fields": [],
+      "section_id": "9.4.7",
+      "source_locators": [
+        "方案 §9.4.7 既往和伴随治疗"
+      ],
+      "summarizable_elements": [
+        "伴随治疗管理流程"
+      ],
+      "title": "既往和伴随治疗",
+      "verbatim_elements": [
+        "允许药物",
+        "禁止药物",
+        "洗脱期",
+        "救援治疗",
+        "例外条件"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "依从性定义",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "计算公式",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "分子分母",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V04",
+          "label": "允许范围",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V05",
+          "label": "分析集",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "required_terms",
+          "field_id": "S01",
+          "label": "依从性评价流程",
+          "required": true,
+          "verbatim_required": false
+        }
+      ],
+      "narration": "constrained_llm",
+      "numeric_rule": "本单元不直接呈现结果数据库数值",
+      "production_method": "extraction",
+      "result_fields": [],
+      "section_id": "9.4.8",
+      "source_locators": [
+        "方案 §9.4.8 治疗依从性",
+        "SAP 依从性计算"
+      ],
+      "summarizable_elements": [
+        "依从性评价流程"
+      ],
+      "title": "治疗依从性",
+      "verbatim_elements": [
+        "依从性定义",
+        "计算公式",
+        "分子分母",
+        "允许范围",
+        "分析集"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "访视名称",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "时间窗",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "评估项目",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V04",
+          "label": "脚注和条件性评估",
+          "required": true,
+          "verbatim_required": true
+        }
+      ],
+      "narration": "verbatim_list",
+      "numeric_rule": "本单元不直接呈现结果数据库数值",
+      "production_method": "extraction",
+      "result_fields": [],
+      "section_id": "9.5.1.1",
+      "source_locators": [
+        "方案 研究流程图和访视评估表"
+      ],
+      "summarizable_elements": [],
+      "title": "研究评估流程图",
+      "verbatim_elements": [
+        "访视名称",
+        "时间窗",
+        "评估项目",
+        "脚注和条件性评估"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "量表或检测方法名称",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "版本",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "判定标准",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "required_terms",
+          "field_id": "S01",
+          "label": "指标适用性理由",
+          "required": true,
+          "verbatim_required": false
+        }
+      ],
+      "narration": "constrained_llm",
+      "numeric_rule": "本单元不直接呈现结果数据库数值",
+      "production_method": "extraction",
+      "result_fields": [],
+      "section_id": "9.5.2",
+      "source_locators": [
+        "方案 §9.5.2 评价指标选择依据"
+      ],
+      "summarizable_elements": [
+        "指标适用性理由"
+      ],
+      "title": "衡量指标的适当性",
+      "verbatim_elements": [
+        "量表或检测方法名称",
+        "版本",
+        "判定标准"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "终点名称",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "定义",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "时间点",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V04",
+          "label": "计算规则",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V05",
+          "label": "分析集",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V06",
+          "label": "estimand 要素",
+          "required": true,
+          "verbatim_required": true
+        }
+      ],
+      "narration": "constrained_llm",
+      "numeric_rule": "本单元不直接呈现结果数据库数值",
+      "production_method": "extraction",
+      "result_fields": [],
+      "section_id": "9.5.3",
+      "source_locators": [
+        "方案 §9.5.3 主要终点",
+        "SAP 主要终点定义"
+      ],
+      "summarizable_elements": [],
+      "title": "主要终点",
+      "verbatim_elements": [
+        "终点名称",
+        "定义",
+        "时间点",
+        "计算规则",
+        "分析集",
+        "estimand 要素"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "采样时点",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "窗口",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "基质",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V04",
+          "label": "PK 参数",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V05",
+          "label": "BLQ 规则",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V06",
+          "label": "LLOQ",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V07",
+          "label": "分析集",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "required_terms",
+          "field_id": "S01",
+          "label": "采样流程说明",
+          "required": true,
+          "verbatim_required": false
+        }
+      ],
+      "narration": "constrained_llm",
+      "numeric_rule": "本单元不直接呈现结果数据库数值",
+      "production_method": "extraction",
+      "result_fields": [],
+      "section_id": "9.5.4",
+      "source_locators": [
+        "方案 §9.5.4 PK 终点和采样",
+        "SAP PK 分析"
+      ],
+      "summarizable_elements": [
+        "采样流程说明"
+      ],
+      "title": "PK 终点和采样",
+      "verbatim_elements": [
+        "采样时点",
+        "窗口",
+        "基质",
+        "PK 参数",
+        "BLQ 规则",
+        "LLOQ",
+        "分析集"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "终点名称",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "定义",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "时间点",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V04",
+          "label": "层级",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V05",
+          "label": "分析集",
+          "required": true,
+          "verbatim_required": true
+        }
+      ],
+      "narration": "constrained_llm",
+      "numeric_rule": "本单元不直接呈现结果数据库数值",
+      "production_method": "extraction",
+      "result_fields": [],
+      "section_id": "9.5.6",
+      "source_locators": [
+        "方案 §9.5.6 其他次要终点",
+        "SAP 次要终点"
+      ],
+      "summarizable_elements": [],
+      "title": "其他次要终点",
+      "verbatim_elements": [
+        "终点名称",
+        "定义",
+        "时间点",
+        "层级",
+        "分析集"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "终点名称",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "定义",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "时间点",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V04",
+          "label": "预设或事后属性",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V05",
+          "label": "分析集",
+          "required": true,
+          "verbatim_required": true
+        }
+      ],
+      "narration": "constrained_llm",
+      "numeric_rule": "本单元不直接呈现结果数据库数值",
+      "production_method": "extraction",
+      "result_fields": [],
+      "section_id": "9.5.7",
+      "source_locators": [
+        "方案 §9.5.7 探索性终点",
+        "SAP 探索性终点"
+      ],
+      "summarizable_elements": [],
+      "title": "探索性终点",
+      "verbatim_elements": [
+        "终点名称",
+        "定义",
+        "时间点",
+        "预设或事后属性",
+        "分析集"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "AE 定义",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "观察期",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "严重程度",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V04",
+          "label": "因果分类",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V05",
+          "label": "实验室和生命体征规则",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V06",
+          "label": "分析集",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "required_terms",
+          "field_id": "S01",
+          "label": "安全性评估流程",
+          "required": true,
+          "verbatim_required": false
+        }
+      ],
+      "narration": "constrained_llm",
+      "numeric_rule": "本单元不直接呈现结果数据库数值",
+      "production_method": "extraction",
+      "result_fields": [],
+      "section_id": "9.5.8",
+      "source_locators": [
+        "方案 §9.5.8 安全性终点",
+        "SAP 安全性分析"
+      ],
+      "summarizable_elements": [
+        "安全性评估流程"
+      ],
+      "title": "安全性终点",
+      "verbatim_elements": [
+        "AE 定义",
+        "观察期",
+        "严重程度",
+        "因果分类",
+        "实验室和生命体征规则",
+        "分析集"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "主动询问评分",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "研究者观察体征",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "AE 编码边界",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V04",
+          "label": "评分量表和时间点",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "required_terms",
+          "field_id": "S01",
+          "label": "评价流程",
+          "required": true,
+          "verbatim_required": false
+        }
+      ],
+      "narration": "constrained_llm",
+      "numeric_rule": "本单元不直接呈现结果数据库数值",
+      "production_method": "extraction",
+      "result_fields": [],
+      "section_id": "9.5.9",
+      "source_locators": [
+        "方案 §9.5.9 局部耐受性终点",
+        "SAP 局部耐受性分析"
+      ],
+      "summarizable_elements": [
+        "评价流程"
+      ],
+      "title": "局部耐受性终点",
+      "verbatim_elements": [
+        "主动询问评分",
+        "研究者观察体征",
+        "AE 编码边界",
+        "评分量表和时间点"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "监查方式",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "数据核查",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "稽查状态",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V04",
+          "label": "数据库锁定和盲态审核程序",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "required_terms",
+          "field_id": "S01",
+          "label": "质量保证流程",
+          "required": true,
+          "verbatim_required": false
+        }
+      ],
+      "narration": "constrained_llm",
+      "numeric_rule": "本单元不直接呈现结果数据库数值",
+      "production_method": "extraction",
+      "result_fields": [],
+      "section_id": "9.6",
+      "source_locators": [
+        "方案 §9.6 数据质量保证",
+        "数据管理计划 质量控制"
+      ],
+      "summarizable_elements": [
+        "质量保证流程"
+      ],
+      "title": "数据质量保证",
+      "verbatim_elements": [
+        "监查方式",
+        "数据核查",
+        "稽查状态",
+        "数据库锁定和盲态审核程序"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "分析集",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "统计模型",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "协变量",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V04",
+          "label": "缺失数据",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V05",
+          "label": "多重性",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V06",
+          "label": "软件和版本",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "required_terms",
+          "field_id": "S01",
+          "label": "统计分析总体策略",
+          "required": true,
+          "verbatim_required": false
+        }
+      ],
+      "narration": "constrained_llm",
+      "numeric_rule": "本单元不直接呈现结果数据库数值",
+      "production_method": "extraction",
+      "result_fields": [],
+      "section_id": "9.7.1",
+      "source_locators": [
+        "方案 §9.7.1 统计分析方法",
+        "SAP 统计分析总则及版本记录"
+      ],
+      "summarizable_elements": [
+        "统计分析总体策略"
+      ],
+      "title": "统计分析计划",
+      "verbatim_elements": [
+        "分析集",
+        "统计模型",
+        "协变量",
+        "缺失数据",
+        "多重性",
+        "软件和版本"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "计划样本量",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "假设",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "效应量",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V04",
+          "label": "变异",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V05",
+          "label": "alpha",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V06",
+          "label": "把握度",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V07",
+          "label": "脱落率",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "required_terms",
+          "field_id": "S01",
+          "label": "样本量推导理由",
+          "required": true,
+          "verbatim_required": false
+        }
+      ],
+      "narration": "constrained_llm",
+      "numeric_rule": "本单元不直接呈现结果数据库数值",
+      "production_method": "extraction",
+      "result_fields": [],
+      "section_id": "9.7.2",
+      "source_locators": [
+        "方案 §9.7.2 样本量确定",
+        "SAP 样本量和把握度"
+      ],
+      "summarizable_elements": [
+        "样本量推导理由"
+      ],
+      "title": "样本量的确定",
+      "verbatim_elements": [
+        "计划样本量",
+        "假设",
+        "效应量",
+        "变异",
+        "alpha",
+        "把握度",
+        "脱落率"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "版本",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "日期",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "变更内容",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V04",
+          "label": "变更理由",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V05",
+          "label": "盲态状态",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V06",
+          "label": "预设或事后属性",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "required_terms",
+          "field_id": "S01",
+          "label": "变更影响说明",
+          "required": true,
+          "verbatim_required": false
+        }
+      ],
+      "narration": "constrained_llm",
+      "numeric_rule": "本单元不直接呈现结果数据库数值",
+      "production_method": "extraction",
+      "result_fields": [],
+      "section_id": "9.8",
+      "source_locators": [
+        "方案修订记录及 §9.8 研究过程变更",
+        "SAP 修订记录和偏离计划分析"
+      ],
+      "summarizable_elements": [
+        "变更影响说明"
+      ],
+      "title": "研究过程或分析计划的变更",
+      "verbatim_elements": [
+        "版本",
+        "日期",
+        "变更内容",
+        "变更理由",
+        "盲态状态",
+        "预设或事后属性"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "处置类别定义",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "完成和退出分类",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "退出原因分类",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "required_terms",
+          "field_id": "S01",
+          "label": "处置流程说明",
+          "required": true,
+          "verbatim_required": false
+        }
+      ],
+      "narration": "constrained_llm",
+      "numeric_rule": "TFL/数据库结果字段必须用 datapack 占位符",
+      "production_method": "mixed",
+      "result_fields": [
+        "各处置类别例数和比例"
+      ],
+      "section_id": "10.1",
+      "source_locators": [
+        "方案 §9.3.3 退出和停止标准",
+        "表14.1.1.1–14.1.1.3 受试者处置和分析集"
+      ],
+      "summarizable_elements": [
+        "处置流程说明"
+      ],
+      "title": "患者的处置",
+      "verbatim_elements": [
+        "处置类别定义",
+        "完成和退出分类",
+        "退出原因分类"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "偏离分类",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "重要性标准",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "分析集影响规则",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "required_terms",
+          "field_id": "S01",
+          "label": "偏离审核流程",
+          "required": true,
+          "verbatim_required": false
+        }
+      ],
+      "narration": "constrained_llm",
+      "numeric_rule": "TFL/数据库结果字段必须用 datapack 占位符",
+      "production_method": "mixed",
+      "result_fields": [
+        "方案偏离类别例数和比例"
+      ],
+      "section_id": "10.2",
+      "source_locators": [
+        "方案 方案偏离定义和处理",
+        "SAP 重要方案偏离和分析集排除规则",
+        "表14.1.1.3 方案偏离"
+      ],
+      "summarizable_elements": [
+        "偏离审核流程"
+      ],
+      "title": "方案偏离",
+      "verbatim_elements": [
+        "偏离分类",
+        "重要性标准",
+        "分析集影响规则"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "分析集名称",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "纳入条件",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "排除条件",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V04",
+          "label": "特殊处理规则",
+          "required": true,
+          "verbatim_required": true
+        }
+      ],
+      "narration": "constrained_llm",
+      "numeric_rule": "TFL/数据库结果字段必须用 datapack 占位符",
+      "production_method": "mixed",
+      "result_fields": [
+        "FAS 例数"
+      ],
+      "section_id": "10.3.1",
+      "source_locators": [
+        "SAP 分析集定义：FAS",
+        "方案 分析集定义"
+      ],
+      "summarizable_elements": [],
+      "title": "FAS（全分析集）",
+      "verbatim_elements": [
+        "分析集名称",
+        "纳入条件",
+        "排除条件",
+        "特殊处理规则"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "分析集名称",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "修正条件",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "纳入条件",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V04",
+          "label": "排除条件",
+          "required": true,
+          "verbatim_required": true
+        }
+      ],
+      "narration": "constrained_llm",
+      "numeric_rule": "TFL/数据库结果字段必须用 datapack 占位符",
+      "production_method": "mixed",
+      "result_fields": [
+        "mFAS 例数"
+      ],
+      "section_id": "10.3.2",
+      "source_locators": [
+        "SAP 分析集定义：mFAS",
+        "方案 分析集定义"
+      ],
+      "summarizable_elements": [],
+      "title": "mFAS（修正全分析集）",
+      "verbatim_elements": [
+        "分析集名称",
+        "修正条件",
+        "纳入条件",
+        "排除条件"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "分析集名称",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "接受治疗条件",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "安全性资料条件",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V04",
+          "label": "按实际治疗规则",
+          "required": true,
+          "verbatim_required": true
+        }
+      ],
+      "narration": "constrained_llm",
+      "numeric_rule": "TFL/数据库结果字段必须用 datapack 占位符",
+      "production_method": "mixed",
+      "result_fields": [
+        "SS 例数"
+      ],
+      "section_id": "10.3.3",
+      "source_locators": [
+        "SAP 分析集定义：SS",
+        "方案 分析集定义"
+      ],
+      "summarizable_elements": [],
+      "title": "SS（安全性分析集）",
+      "verbatim_elements": [
+        "分析集名称",
+        "接受治疗条件",
+        "安全性资料条件",
+        "按实际治疗规则"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "分析集名称",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "可用浓度条件",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "排除条件",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V04",
+          "label": "样本处理规则",
+          "required": true,
+          "verbatim_required": true
+        }
+      ],
+      "narration": "constrained_llm",
+      "numeric_rule": "TFL/数据库结果字段必须用 datapack 占位符",
+      "production_method": "mixed",
+      "result_fields": [
+        "PKCS 例数"
+      ],
+      "section_id": "10.3.4",
+      "source_locators": [
+        "SAP 分析集定义：PKCS",
+        "方案 PK 分析集定义"
+      ],
+      "summarizable_elements": [],
+      "title": "PKCS（药代浓度分析集）",
+      "verbatim_elements": [
+        "分析集名称",
+        "可用浓度条件",
+        "排除条件",
+        "样本处理规则"
+      ]
+    },
+    {
+      "fact_card_fields": [
+        {
+          "back_reference": "exact_string",
+          "field_id": "V01",
+          "label": "分析集名称",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V02",
+          "label": "参数可计算条件",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V03",
+          "label": "排除条件",
+          "required": true,
+          "verbatim_required": true
+        },
+        {
+          "back_reference": "exact_string",
+          "field_id": "V04",
+          "label": "特殊处理规则",
+          "required": true,
+          "verbatim_required": true
+        }
+      ],
+      "narration": "constrained_llm",
+      "numeric_rule": "TFL/数据库结果字段必须用 datapack 占位符",
+      "production_method": "mixed",
+      "result_fields": [
+        "PKPS 例数"
+      ],
+      "section_id": "10.3.5",
+      "source_locators": [
+        "SAP 分析集定义：PKPS",
+        "方案 PK 分析集定义"
+      ],
+      "summarizable_elements": [],
+      "title": "PKPS（药代参数分析集）",
+      "verbatim_elements": [
+        "分析集名称",
+        "参数可计算条件",
+        "排除条件",
+        "特殊处理规则"
+      ]
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "pass"
+}

@@ -1,0 +1,2123 @@
+{
+  "boundary": "bounded adversary; not a proof over all Chinese semantics",
+  "candidate_count": 4523,
+  "card_id": "M19-METHOD-6-UNFAMILIAR",
+  "not_one_of_m18_nine_cards": true,
+  "raw_pass_count": 132,
+  "raw_passes": [
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "study_adopts_both",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "V03",
+        "V01"
+      ],
+      "readability_score": 14,
+      "strategy": "whole_value_relation_recombination",
+      "text": "本研究采用独立统计团队负责随机化与统计分析，并采用申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "study_adopts_both",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "V01",
+        "V03"
+      ],
+      "readability_score": 14,
+      "strategy": "whole_value_relation_recombination",
+      "text": "本研究采用申办方负责研究总体管理，并采用独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "study_adopts_both",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "V02",
+        "V03"
+      ],
+      "readability_score": 12,
+      "strategy": "whole_value_relation_recombination",
+      "text": "本研究采用医学监查人员负责安全性医学审阅，并采用独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "study_adopts_both",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "V02",
+        "V01"
+      ],
+      "readability_score": 12,
+      "strategy": "whole_value_relation_recombination",
+      "text": "本研究采用医学监查人员负责安全性医学审阅，并采用申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "study_adopts_both",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "S01",
+        "V03"
+      ],
+      "readability_score": 12,
+      "strategy": "whole_value_relation_recombination",
+      "text": "本研究采用各职能依据经确认的职责分工开展研究管理，并采用独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "study_adopts_both",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "V03",
+        "V02"
+      ],
+      "readability_score": 12,
+      "strategy": "whole_value_relation_recombination",
+      "text": "本研究采用独立统计团队负责随机化与统计分析，并采用医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "study_adopts_both",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V03",
+        "S01"
+      ],
+      "readability_score": 12,
+      "strategy": "whole_value_relation_recombination",
+      "text": "本研究采用独立统计团队负责随机化与统计分析，并采用各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "study_adopts_both",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "V01",
+        "V02"
+      ],
+      "readability_score": 12,
+      "strategy": "whole_value_relation_recombination",
+      "text": "本研究采用申办方负责研究总体管理，并采用医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "study_adopts_both",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V02",
+        "S01"
+      ],
+      "readability_score": 10,
+      "strategy": "whole_value_relation_recombination",
+      "text": "本研究采用医学监查人员负责安全性医学审阅，并采用各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "study_adopts_both",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "S01",
+        "V02"
+      ],
+      "readability_score": 10,
+      "strategy": "whole_value_relation_recombination",
+      "text": "本研究采用各职能依据经确认的职责分工开展研究管理，并采用医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "study_adopts_both",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "S01",
+        "V01"
+      ],
+      "readability_score": 10,
+      "strategy": "whole_value_relation_recombination",
+      "text": "本研究采用各职能依据经确认的职责分工开展研究管理，并采用申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "study_adopts_both",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V01",
+        "S01"
+      ],
+      "readability_score": 10,
+      "strategy": "whole_value_relation_recombination",
+      "text": "本研究采用申办方负责研究总体管理，并采用各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "contains",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "V02",
+        "V03"
+      ],
+      "readability_score": 9,
+      "strategy": "whole_value_relation_recombination",
+      "text": "医学监查人员负责安全性医学审阅包括独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "purpose_for",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "V02",
+        "V03"
+      ],
+      "readability_score": 9,
+      "strategy": "whole_value_relation_recombination",
+      "text": "医学监查人员负责安全性医学审阅用于独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "assignment_by",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "V02",
+        "V03"
+      ],
+      "readability_score": 9,
+      "strategy": "whole_value_relation_recombination",
+      "text": "医学监查人员负责安全性医学审阅由独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "assignment_by",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "S01",
+        "V03"
+      ],
+      "readability_score": 9,
+      "strategy": "whole_value_relation_recombination",
+      "text": "各职能依据经确认的职责分工开展研究管理由独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "contains",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "V03",
+        "V02"
+      ],
+      "readability_score": 9,
+      "strategy": "whole_value_relation_recombination",
+      "text": "独立统计团队负责随机化与统计分析包括医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "contains",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "V03",
+        "V01"
+      ],
+      "readability_score": 9,
+      "strategy": "whole_value_relation_recombination",
+      "text": "独立统计团队负责随机化与统计分析包括申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "purpose_for",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "V03",
+        "V02"
+      ],
+      "readability_score": 9,
+      "strategy": "whole_value_relation_recombination",
+      "text": "独立统计团队负责随机化与统计分析用于医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "purpose_for",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "V03",
+        "V01"
+      ],
+      "readability_score": 9,
+      "strategy": "whole_value_relation_recombination",
+      "text": "独立统计团队负责随机化与统计分析用于申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "assignment_by",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "V03",
+        "V02"
+      ],
+      "readability_score": 9,
+      "strategy": "whole_value_relation_recombination",
+      "text": "独立统计团队负责随机化与统计分析由医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "assignment_by",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V03",
+        "S01"
+      ],
+      "readability_score": 9,
+      "strategy": "whole_value_relation_recombination",
+      "text": "独立统计团队负责随机化与统计分析由各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "assignment_by",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "V03",
+        "V01"
+      ],
+      "readability_score": 9,
+      "strategy": "whole_value_relation_recombination",
+      "text": "独立统计团队负责随机化与统计分析由申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "contains",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "V01",
+        "V03"
+      ],
+      "readability_score": 9,
+      "strategy": "whole_value_relation_recombination",
+      "text": "申办方负责研究总体管理包括独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "purpose_for",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "V01",
+        "V03"
+      ],
+      "readability_score": 9,
+      "strategy": "whole_value_relation_recombination",
+      "text": "申办方负责研究总体管理用于独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "assignment_by",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "V01",
+        "V03"
+      ],
+      "readability_score": 9,
+      "strategy": "whole_value_relation_recombination",
+      "text": "申办方负责研究总体管理由独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "contains",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V02",
+        "S01"
+      ],
+      "readability_score": 7,
+      "strategy": "whole_value_relation_recombination",
+      "text": "医学监查人员负责安全性医学审阅包括各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "contains",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "V02",
+        "V01"
+      ],
+      "readability_score": 7,
+      "strategy": "whole_value_relation_recombination",
+      "text": "医学监查人员负责安全性医学审阅包括申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "purpose_for",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V02",
+        "S01"
+      ],
+      "readability_score": 7,
+      "strategy": "whole_value_relation_recombination",
+      "text": "医学监查人员负责安全性医学审阅用于各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "purpose_for",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "V02",
+        "V01"
+      ],
+      "readability_score": 7,
+      "strategy": "whole_value_relation_recombination",
+      "text": "医学监查人员负责安全性医学审阅用于申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "assignment_by",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V02",
+        "S01"
+      ],
+      "readability_score": 7,
+      "strategy": "whole_value_relation_recombination",
+      "text": "医学监查人员负责安全性医学审阅由各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "assignment_by",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "V02",
+        "V01"
+      ],
+      "readability_score": 7,
+      "strategy": "whole_value_relation_recombination",
+      "text": "医学监查人员负责安全性医学审阅由申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "contains",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "S01",
+        "V02"
+      ],
+      "readability_score": 7,
+      "strategy": "whole_value_relation_recombination",
+      "text": "各职能依据经确认的职责分工开展研究管理包括医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "contains",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "S01",
+        "V03"
+      ],
+      "readability_score": 7,
+      "strategy": "whole_value_relation_recombination",
+      "text": "各职能依据经确认的职责分工开展研究管理包括独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "contains",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "S01",
+        "V01"
+      ],
+      "readability_score": 7,
+      "strategy": "whole_value_relation_recombination",
+      "text": "各职能依据经确认的职责分工开展研究管理包括申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "purpose_for",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "S01",
+        "V02"
+      ],
+      "readability_score": 7,
+      "strategy": "whole_value_relation_recombination",
+      "text": "各职能依据经确认的职责分工开展研究管理用于医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "purpose_for",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "S01",
+        "V03"
+      ],
+      "readability_score": 7,
+      "strategy": "whole_value_relation_recombination",
+      "text": "各职能依据经确认的职责分工开展研究管理用于独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "purpose_for",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "S01",
+        "V01"
+      ],
+      "readability_score": 7,
+      "strategy": "whole_value_relation_recombination",
+      "text": "各职能依据经确认的职责分工开展研究管理用于申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "assignment_by",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "S01",
+        "V02"
+      ],
+      "readability_score": 7,
+      "strategy": "whole_value_relation_recombination",
+      "text": "各职能依据经确认的职责分工开展研究管理由医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "assignment_by",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "S01",
+        "V01"
+      ],
+      "readability_score": 7,
+      "strategy": "whole_value_relation_recombination",
+      "text": "各职能依据经确认的职责分工开展研究管理由申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "contains",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V03",
+        "S01"
+      ],
+      "readability_score": 7,
+      "strategy": "whole_value_relation_recombination",
+      "text": "独立统计团队负责随机化与统计分析包括各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "purpose_for",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V03",
+        "S01"
+      ],
+      "readability_score": 7,
+      "strategy": "whole_value_relation_recombination",
+      "text": "独立统计团队负责随机化与统计分析用于各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "contains",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "V01",
+        "V02"
+      ],
+      "readability_score": 7,
+      "strategy": "whole_value_relation_recombination",
+      "text": "申办方负责研究总体管理包括医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "contains",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V01",
+        "S01"
+      ],
+      "readability_score": 7,
+      "strategy": "whole_value_relation_recombination",
+      "text": "申办方负责研究总体管理包括各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "purpose_for",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "V01",
+        "V02"
+      ],
+      "readability_score": 7,
+      "strategy": "whole_value_relation_recombination",
+      "text": "申办方负责研究总体管理用于医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "purpose_for",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V01",
+        "S01"
+      ],
+      "readability_score": 7,
+      "strategy": "whole_value_relation_recombination",
+      "text": "申办方负责研究总体管理用于各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "assignment_by",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "V01",
+        "V02"
+      ],
+      "readability_score": 7,
+      "strategy": "whole_value_relation_recombination",
+      "text": "申办方负责研究总体管理由医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "assignment_by",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V01",
+        "S01"
+      ],
+      "readability_score": 7,
+      "strategy": "whole_value_relation_recombination",
+      "text": "申办方负责研究总体管理由各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "copula_wei",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "V02",
+        "V03"
+      ],
+      "readability_score": 6,
+      "strategy": "whole_value_relation_recombination",
+      "text": "医学监查人员负责安全性医学审阅为独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "role_as",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "V02",
+        "V03"
+      ],
+      "readability_score": 6,
+      "strategy": "whole_value_relation_recombination",
+      "text": "医学监查人员负责安全性医学审阅作为独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "copula_wei",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "S01",
+        "V03"
+      ],
+      "readability_score": 6,
+      "strategy": "whole_value_relation_recombination",
+      "text": "各职能依据经确认的职责分工开展研究管理为独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "copula_wei",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "V03",
+        "V02"
+      ],
+      "readability_score": 6,
+      "strategy": "whole_value_relation_recombination",
+      "text": "独立统计团队负责随机化与统计分析为医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "copula_wei",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V03",
+        "S01"
+      ],
+      "readability_score": 6,
+      "strategy": "whole_value_relation_recombination",
+      "text": "独立统计团队负责随机化与统计分析为各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "copula_wei",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "V03",
+        "V01"
+      ],
+      "readability_score": 6,
+      "strategy": "whole_value_relation_recombination",
+      "text": "独立统计团队负责随机化与统计分析为申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "role_as",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "V03",
+        "V02"
+      ],
+      "readability_score": 6,
+      "strategy": "whole_value_relation_recombination",
+      "text": "独立统计团队负责随机化与统计分析作为医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "role_as",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "V03",
+        "V01"
+      ],
+      "readability_score": 6,
+      "strategy": "whole_value_relation_recombination",
+      "text": "独立统计团队负责随机化与统计分析作为申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "copula_wei",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "V01",
+        "V03"
+      ],
+      "readability_score": 6,
+      "strategy": "whole_value_relation_recombination",
+      "text": "申办方负责研究总体管理为独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "role_as",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "V01",
+        "V03"
+      ],
+      "readability_score": 6,
+      "strategy": "whole_value_relation_recombination",
+      "text": "申办方负责研究总体管理作为独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "coordination",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "V02",
+        "V03"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "医学监查人员负责安全性医学审阅与独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "copula_wei",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V02",
+        "S01"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "医学监查人员负责安全性医学审阅为各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "copula_wei",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "V02",
+        "V01"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "医学监查人员负责安全性医学审阅为申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "contrast",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "V02",
+        "V03"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "医学监查人员负责安全性医学审阅但独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "role_as",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V02",
+        "S01"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "医学监查人员负责安全性医学审阅作为各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "role_as",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "V02",
+        "V01"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "医学监查人员负责安全性医学审阅作为申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "sequence",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "V02",
+        "V03"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "医学监查人员负责安全性医学审阅后独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "according_to",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "V02",
+        "V03"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "医学监查人员负责安全性医学审阅按独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "copula_shi",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "V02",
+        "V03"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "医学监查人员负责安全性医学审阅是独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "coordination",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "S01",
+        "V03"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "各职能依据经确认的职责分工开展研究管理与独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "copula_wei",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "S01",
+        "V02"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "各职能依据经确认的职责分工开展研究管理为医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "copula_wei",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "S01",
+        "V01"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "各职能依据经确认的职责分工开展研究管理为申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "contrast",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "S01",
+        "V03"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "各职能依据经确认的职责分工开展研究管理但独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "role_as",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "S01",
+        "V02"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "各职能依据经确认的职责分工开展研究管理作为医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "role_as",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "S01",
+        "V03"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "各职能依据经确认的职责分工开展研究管理作为独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "role_as",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "S01",
+        "V01"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "各职能依据经确认的职责分工开展研究管理作为申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "sequence",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "S01",
+        "V03"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "各职能依据经确认的职责分工开展研究管理后独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "according_to",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "S01",
+        "V03"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "各职能依据经确认的职责分工开展研究管理按独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "copula_shi",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "S01",
+        "V03"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "各职能依据经确认的职责分工开展研究管理是独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "coordination",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "V03",
+        "V02"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "独立统计团队负责随机化与统计分析与医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "coordination",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V03",
+        "S01"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "独立统计团队负责随机化与统计分析与各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "coordination",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "V03",
+        "V01"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "独立统计团队负责随机化与统计分析与申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "contrast",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "V03",
+        "V02"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "独立统计团队负责随机化与统计分析但医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "contrast",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V03",
+        "S01"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "独立统计团队负责随机化与统计分析但各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "contrast",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "V03",
+        "V01"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "独立统计团队负责随机化与统计分析但申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "role_as",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V03",
+        "S01"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "独立统计团队负责随机化与统计分析作为各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "sequence",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "V03",
+        "V02"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "独立统计团队负责随机化与统计分析后医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "sequence",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V03",
+        "S01"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "独立统计团队负责随机化与统计分析后各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "sequence",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "V03",
+        "V01"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "独立统计团队负责随机化与统计分析后申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "according_to",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "V03",
+        "V02"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "独立统计团队负责随机化与统计分析按医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "according_to",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V03",
+        "S01"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "独立统计团队负责随机化与统计分析按各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "according_to",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "V03",
+        "V01"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "独立统计团队负责随机化与统计分析按申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "copula_shi",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "V03",
+        "V02"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "独立统计团队负责随机化与统计分析是医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "copula_shi",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V03",
+        "S01"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "独立统计团队负责随机化与统计分析是各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "独立统计团队负责随机化与统计分析",
+        "left_fact_id": "V03",
+        "relation": "copula_shi",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "V03",
+        "V01"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "独立统计团队负责随机化与统计分析是申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "coordination",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "V01",
+        "V03"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "申办方负责研究总体管理与独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "copula_wei",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "V01",
+        "V02"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "申办方负责研究总体管理为医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "copula_wei",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V01",
+        "S01"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "申办方负责研究总体管理为各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "contrast",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "V01",
+        "V03"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "申办方负责研究总体管理但独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "role_as",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "V01",
+        "V02"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "申办方负责研究总体管理作为医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "role_as",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V01",
+        "S01"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "申办方负责研究总体管理作为各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "sequence",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "V01",
+        "V03"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "申办方负责研究总体管理后独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "according_to",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "V01",
+        "V03"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "申办方负责研究总体管理按独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "copula_shi",
+        "right_complete_value": "独立统计团队负责随机化与统计分析",
+        "right_fact_id": "V03"
+      },
+      "fact_ids": [
+        "V01",
+        "V03"
+      ],
+      "readability_score": 4,
+      "strategy": "whole_value_relation_recombination",
+      "text": "申办方负责研究总体管理是独立统计团队负责随机化与统计分析"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "coordination",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V02",
+        "S01"
+      ],
+      "readability_score": 2,
+      "strategy": "whole_value_relation_recombination",
+      "text": "医学监查人员负责安全性医学审阅与各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "coordination",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "V02",
+        "V01"
+      ],
+      "readability_score": 2,
+      "strategy": "whole_value_relation_recombination",
+      "text": "医学监查人员负责安全性医学审阅与申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "contrast",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V02",
+        "S01"
+      ],
+      "readability_score": 2,
+      "strategy": "whole_value_relation_recombination",
+      "text": "医学监查人员负责安全性医学审阅但各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "contrast",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "V02",
+        "V01"
+      ],
+      "readability_score": 2,
+      "strategy": "whole_value_relation_recombination",
+      "text": "医学监查人员负责安全性医学审阅但申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "sequence",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V02",
+        "S01"
+      ],
+      "readability_score": 2,
+      "strategy": "whole_value_relation_recombination",
+      "text": "医学监查人员负责安全性医学审阅后各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "sequence",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "V02",
+        "V01"
+      ],
+      "readability_score": 2,
+      "strategy": "whole_value_relation_recombination",
+      "text": "医学监查人员负责安全性医学审阅后申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "according_to",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V02",
+        "S01"
+      ],
+      "readability_score": 2,
+      "strategy": "whole_value_relation_recombination",
+      "text": "医学监查人员负责安全性医学审阅按各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "according_to",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "V02",
+        "V01"
+      ],
+      "readability_score": 2,
+      "strategy": "whole_value_relation_recombination",
+      "text": "医学监查人员负责安全性医学审阅按申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "copula_shi",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V02",
+        "S01"
+      ],
+      "readability_score": 2,
+      "strategy": "whole_value_relation_recombination",
+      "text": "医学监查人员负责安全性医学审阅是各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "医学监查人员负责安全性医学审阅",
+        "left_fact_id": "V02",
+        "relation": "copula_shi",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "V02",
+        "V01"
+      ],
+      "readability_score": 2,
+      "strategy": "whole_value_relation_recombination",
+      "text": "医学监查人员负责安全性医学审阅是申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "coordination",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "S01",
+        "V02"
+      ],
+      "readability_score": 2,
+      "strategy": "whole_value_relation_recombination",
+      "text": "各职能依据经确认的职责分工开展研究管理与医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "coordination",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "S01",
+        "V01"
+      ],
+      "readability_score": 2,
+      "strategy": "whole_value_relation_recombination",
+      "text": "各职能依据经确认的职责分工开展研究管理与申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "contrast",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "S01",
+        "V02"
+      ],
+      "readability_score": 2,
+      "strategy": "whole_value_relation_recombination",
+      "text": "各职能依据经确认的职责分工开展研究管理但医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "contrast",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "S01",
+        "V01"
+      ],
+      "readability_score": 2,
+      "strategy": "whole_value_relation_recombination",
+      "text": "各职能依据经确认的职责分工开展研究管理但申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "sequence",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "S01",
+        "V02"
+      ],
+      "readability_score": 2,
+      "strategy": "whole_value_relation_recombination",
+      "text": "各职能依据经确认的职责分工开展研究管理后医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "sequence",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "S01",
+        "V01"
+      ],
+      "readability_score": 2,
+      "strategy": "whole_value_relation_recombination",
+      "text": "各职能依据经确认的职责分工开展研究管理后申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "according_to",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "S01",
+        "V02"
+      ],
+      "readability_score": 2,
+      "strategy": "whole_value_relation_recombination",
+      "text": "各职能依据经确认的职责分工开展研究管理按医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "according_to",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "S01",
+        "V01"
+      ],
+      "readability_score": 2,
+      "strategy": "whole_value_relation_recombination",
+      "text": "各职能依据经确认的职责分工开展研究管理按申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "copula_shi",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "S01",
+        "V02"
+      ],
+      "readability_score": 2,
+      "strategy": "whole_value_relation_recombination",
+      "text": "各职能依据经确认的职责分工开展研究管理是医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "left_fact_id": "S01",
+        "relation": "copula_shi",
+        "right_complete_value": "申办方负责研究总体管理",
+        "right_fact_id": "V01"
+      },
+      "fact_ids": [
+        "S01",
+        "V01"
+      ],
+      "readability_score": 2,
+      "strategy": "whole_value_relation_recombination",
+      "text": "各职能依据经确认的职责分工开展研究管理是申办方负责研究总体管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "coordination",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "V01",
+        "V02"
+      ],
+      "readability_score": 2,
+      "strategy": "whole_value_relation_recombination",
+      "text": "申办方负责研究总体管理与医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "coordination",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V01",
+        "S01"
+      ],
+      "readability_score": 2,
+      "strategy": "whole_value_relation_recombination",
+      "text": "申办方负责研究总体管理与各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "contrast",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "V01",
+        "V02"
+      ],
+      "readability_score": 2,
+      "strategy": "whole_value_relation_recombination",
+      "text": "申办方负责研究总体管理但医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "contrast",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V01",
+        "S01"
+      ],
+      "readability_score": 2,
+      "strategy": "whole_value_relation_recombination",
+      "text": "申办方负责研究总体管理但各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "sequence",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "V01",
+        "V02"
+      ],
+      "readability_score": 2,
+      "strategy": "whole_value_relation_recombination",
+      "text": "申办方负责研究总体管理后医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "sequence",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V01",
+        "S01"
+      ],
+      "readability_score": 2,
+      "strategy": "whole_value_relation_recombination",
+      "text": "申办方负责研究总体管理后各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "according_to",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "V01",
+        "V02"
+      ],
+      "readability_score": 2,
+      "strategy": "whole_value_relation_recombination",
+      "text": "申办方负责研究总体管理按医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "according_to",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V01",
+        "S01"
+      ],
+      "readability_score": 2,
+      "strategy": "whole_value_relation_recombination",
+      "text": "申办方负责研究总体管理按各职能依据经确认的职责分工开展研究管理"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "copula_shi",
+        "right_complete_value": "医学监查人员负责安全性医学审阅",
+        "right_fact_id": "V02"
+      },
+      "fact_ids": [
+        "V01",
+        "V02"
+      ],
+      "readability_score": 2,
+      "strategy": "whole_value_relation_recombination",
+      "text": "申办方负责研究总体管理是医学监查人员负责安全性医学审阅"
+    },
+    {
+      "derivation": {
+        "left_complete_value": "申办方负责研究总体管理",
+        "left_fact_id": "V01",
+        "relation": "copula_shi",
+        "right_complete_value": "各职能依据经确认的职责分工开展研究管理",
+        "right_fact_id": "S01"
+      },
+      "fact_ids": [
+        "V01",
+        "S01"
+      ],
+      "readability_score": 2,
+      "strategy": "whole_value_relation_recombination",
+      "text": "申办方负责研究总体管理是各职能依据经确认的职责分工开展研究管理"
+    }
+  ],
+  "schema_version": "1.0",
+  "section_id": "6"
+}

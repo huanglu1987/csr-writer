@@ -1,0 +1,23 @@
+{
+  "advisory_false_positives": 1,
+  "advisory_findings": 5,
+  "advisory_true_issues": 4,
+  "authoring_units": 120,
+  "full_regression_status": "pass",
+  "manual_restriction_audit_status": "pass",
+  "method_contracts": 32,
+  "method_pilot_adversarial_cases_blocked": 4,
+  "method_pilot_units": 8,
+  "privacy_scan_status": "pass",
+  "production_method_counts": {
+    "deterministic_generation": 45,
+    "extraction": 29,
+    "llm_drafting": 35,
+    "mixed": 7,
+    "template_slot": 4
+  },
+  "release_gate_changed_by_advisory_review": false,
+  "sae_examples": 3,
+  "schema_version": "1.0",
+  "status": "pass"
+}

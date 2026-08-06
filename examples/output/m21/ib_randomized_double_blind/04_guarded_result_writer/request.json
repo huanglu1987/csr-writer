@@ -1,0 +1,45 @@
+{
+  "confirmed_tfl_map": {
+    "entity_ids": [
+      "T14.1.1.2",
+      "T14.1.2.1",
+      "T14.1.4.1",
+      "T14.2.2.1.1",
+      "T14.3.1.3.1",
+      "T14.3.1.3.2",
+      "T14.3.2.1",
+      "T14.3.3.1",
+      "T14.3.4.1"
+    ],
+    "frozen_sha256": "a4a0c5d112fe6c0c7516550e856e4388dd6091603823535f04df4f17640ffc95"
+  },
+  "evidence_status": "demo_only",
+  "schema_version": "1.1",
+  "section_id": "11.6.1.4",
+  "source_fragments": [
+    {
+      "locator": "脱敏方案主要终点节",
+      "purpose": "endpoint_definition",
+      "source_id": "SRC-M21-IB-ENDPOINT",
+      "text": "皮肤科量表终点按全分析集进行探索性协变量分析。"
+    },
+    {
+      "locator": "脱敏 SAP ANCOVA 方法节",
+      "purpose": "analysis_method",
+      "source_id": "SRC-M21-IB-SAP",
+      "text": "模型纳入治疗组，并以基线值为协变量。"
+    }
+  ],
+  "tfl_bindings": [
+    {
+      "context": "脱敏合成 Ib 严格套值结果",
+      "key": "T14.2.2.1.1|POP=FAS|ROW=LS_MEAN_DIFFERENCE|COL=C1_0PCT_QD",
+      "role": "exploratory_endpoint_result",
+      "source_id": "T14.2.2.1.1"
+    }
+  ],
+  "tfl_references": [
+    "T14.2.2.1.1"
+  ],
+  "variant": "exploratory_endpoint_results"
+}

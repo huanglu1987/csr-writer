@@ -1,0 +1,81 @@
+{
+  "advisory_review": {
+    "advisory_only": true,
+    "dimension_distribution": {
+      "missing_expected_content": 2,
+      "paragraph_logic": 1
+    },
+    "envelope_sha256": "fbcb128fe376692e00fa14cc5f2f3dda19ed7f9aa6c330b87a0d19bf11d9fca1",
+    "external_model_api_called": false,
+    "finding_count": 3,
+    "findings": [
+      {
+        "problem_description": "该句未说明剂量组、给药阶段和参数单位，读者无法在正文内判断数值语境。",
+        "problem_type": "missing_expected_content",
+        "quote": "Cmax 与 AUC 的几何均值分别为 0.75 和 4.37，详见表 14.2.4.3.1。",
+        "section": "PK 参数",
+        "severity": "high",
+        "suggestion_direction": "核对表格绑定后补充组别、给药阶段和单位。"
+      },
+      {
+        "problem_description": "范围限定较笼统，未说明哪些参数或时点未纳入，和上一句的关系不够清楚。",
+        "problem_type": "paragraph_logic",
+        "quote": "上述结果仅涵盖可计算参数，不代表全部采样时点。",
+        "section": "PK 参数",
+        "severity": "medium",
+        "suggestion_direction": "依据来源明确不可计算参数或未覆盖时点的范围。"
+      },
+      {
+        "problem_description": "本节未再次给出全分析集定义，独立阅读时可能不够自足。",
+        "problem_type": "missing_expected_content",
+        "quote": "该量表作为探索性评价，并按全分析集呈现。",
+        "section": "探索性终点结果",
+        "severity": "low",
+        "suggestion_direction": "核对全文中分析集定义和交叉引用是否已充分建立。"
+      }
+    ],
+    "release_decision": "not_permitted",
+    "release_gate": false,
+    "replacement_text_generated": false,
+    "reviewer_payload_sha256": "cef2909546f6226440381442a86810a35a018c9a3f8e3baf167d87fe544e43ed",
+    "schema_version": "1.0",
+    "source_label": "M15样例_n百分比格式修复后.md",
+    "source_modified": false,
+    "source_sha256": "93ca1d61f8cafcc67e8400baa4aa761b0c28e9638674b08d85581bf4c0b728a2",
+    "status": "advisory_complete"
+  },
+  "after_advisory_finding_count": 3,
+  "before_advisory_finding_count": 5,
+  "human_adjudication": {
+    "false_positive_count": 1,
+    "records": [
+      {
+        "adjudication": "true_issue",
+        "basis": "组别、阶段和单位属于正文语义完整性，格式规则未覆盖。",
+        "finding_index": 1
+      },
+      {
+        "adjudication": "true_issue",
+        "basis": "限定句未具体说明范围，属于段落逻辑问题。",
+        "finding_index": 2
+      },
+      {
+        "adjudication": "false_positive",
+        "basis": "完整 CSR 已在 10.3 定义分析集，样例截取导致误报。",
+        "finding_index": 3
+      }
+    ],
+    "true_issue_count": 2
+  },
+  "release_gate_changed_by_advisory": false,
+  "removed_repeated_n_percent_findings": 2,
+  "rule_layer": {
+    "after_error_count": 0,
+    "before_error_count": 2,
+    "deterministic_n_pct_rendering": "n例（p%）",
+    "hard_error_code": "E-STYLE-N-PERCENT-FORMAT",
+    "mean_sd_false_positive": false
+  },
+  "schema_version": "1.0",
+  "status": "pass"
+}

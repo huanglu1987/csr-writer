@@ -1,0 +1,61 @@
+{
+  "evidence_status": "demo_only",
+  "schema_version": "1.1",
+  "section_id": "11.5.10",
+  "source_fragments": [
+    {
+      "locator": "脱敏方案/PK评价",
+      "purpose": "pk_method",
+      "source_id": "SRC-PK",
+      "text": "PK 结论应结合可定量性、参数可计算性和采样覆盖。"
+    }
+  ],
+  "tfl_bindings": [
+    {
+      "context": "脱敏合成已确认正文结果",
+      "key": "T14.2.4.3.1|POP=PKPS|ROW=BLQ_RATIO|COL=ACTIVE_TOTAL",
+      "role": "blq_ratio",
+      "source_id": "T14.2.4.3.1"
+    },
+    {
+      "context": "脱敏合成已确认正文结果",
+      "key": "T14.2.4.3.1|POP=PKPS|ROW=QUANTIFIABLE_TIMEPOINT_COUNT|COL=ACTIVE_TOTAL",
+      "role": "quantifiable_timepoint_count",
+      "source_id": "T14.2.4.3.1"
+    },
+    {
+      "context": "脱敏合成已确认正文结果",
+      "key": "T14.2.4.3.1|POP=PKPS|ROW=CMAX_CALCULABLE|COL=ACTIVE_TOTAL",
+      "role": "cmax_calculable",
+      "source_id": "T14.2.4.3.1"
+    },
+    {
+      "context": "脱敏合成已确认正文结果",
+      "key": "T14.2.4.3.1|POP=PKPS|ROW=AUC_CALCULABLE|COL=ACTIVE_TOTAL",
+      "role": "auc_calculable",
+      "source_id": "T14.2.4.3.1"
+    },
+    {
+      "context": "脱敏合成已确认正文结果",
+      "key": "T14.2.4.3.1|POP=PKPS|ROW=LLOQ|COL=ACTIVE_TOTAL",
+      "role": "lloq",
+      "source_id": "T14.2.4.3.1"
+    },
+    {
+      "context": "脱敏合成已确认正文结果",
+      "key": "T14.2.4.3.1|POP=PKPS|ROW=NONCALCULABLE_REASON|COL=ACTIVE_TOTAL",
+      "role": "noncalculable_reason",
+      "source_id": "T14.2.4.3.1"
+    },
+    {
+      "context": "脱敏合成已确认正文结果",
+      "key": "T14.2.4.3.1|POP=PKPS|ROW=SAMPLING_COVERAGE_COMPLETE|COL=ACTIVE_TOTAL",
+      "role": "sampling_coverage_complete",
+      "source_id": "T14.2.4.3.1"
+    }
+  ],
+  "tfl_references": [
+    "T14.2.4.3.1"
+  ],
+  "variant": "pk_conclusion_conditioned"
+}

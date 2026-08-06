@@ -1,0 +1,26 @@
+{
+  "checks": {
+    "双向追溯": {
+      "status": "pass",
+      "summary": "未发现本次脱敏合成四层追溯路径断链。"
+    },
+    "守卫入卷": {
+      "status": "pass",
+      "summary": "未通过正向覆盖证明的正文被编排器拒绝。"
+    },
+    "映射漂移": {
+      "status": "pass",
+      "summary": "两个漂移实体已经显式裁决并重新冻结，严格套值通过。"
+    },
+    "统一合卷": {
+      "status": "pass",
+      "summary": "clean 与 annotated 由同一组成计划生成。"
+    }
+  },
+  "conclusion": "未发现本次已执行自动检查所覆盖的双向追溯、守卫入卷、映射漂移、统一合卷类问题。本结果不替代人工 QC、QA 或申办方决策。",
+  "issue_categories": [],
+  "regulatory_readiness_assessed": false,
+  "schema_version": "1.0",
+  "scope": "executed_checks_only",
+  "status": "pass"
+}

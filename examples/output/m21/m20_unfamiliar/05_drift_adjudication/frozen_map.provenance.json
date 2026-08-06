@@ -1,0 +1,25 @@
+{
+  "added_entities": [
+    "T14.3.9.1"
+  ],
+  "candidate_sha256": "66709e7283e9f352f0f1c8784af5d75dc69b5b7cf4c1bdf44224aa83d07cf516",
+  "confirmation": {
+    "candidate_sha256": "66709e7283e9f352f0f1c8784af5d75dc69b5b7cf4c1bdf44224aa83d07cf516",
+    "confirmation_id": "M21-M20-DRIFT-REFREEZE",
+    "confirmed_at": "2026-08-06T18:11:00+08:00",
+    "confirmed_by_role": "synthetic_tfl_reviewer",
+    "status": "confirmed"
+  },
+  "decision_record_sha256": "146493fad99cd000794fa5ce118acbd48e857428e759dc955b1be375270ccc2c",
+  "drift_queue_sha256": "0a84707ac78647773436f3d27fb95b1589d06e1007646a7e348f7f2efa763a02",
+  "interface": "csr-writer-tfl-map-provenance-chain-v1",
+  "new_frozen_sha256": "65a3043d0f15aa6865f3387921d84271aedcd64cbc8b54537ac1f02abbf588e2",
+  "previous_frozen_sha256": "eb84bfd3f5bb367ff5d94c73798b954f342195439d1c12ac1806184a5123a393",
+  "provenance_sha256": "bc9d84f0ba78f7b8f6b5ad7d6e2b0e7bc8a5e051dfd5359446e88ed878a74a25",
+  "reconciliation_sha256": "d517312233cbef3c629bdc0caf87a42e0bfa8b459d50a5cebaa62c6a512390e9",
+  "retired_entities": [
+    "T14.2.9.1"
+  ],
+  "schema_version": "1.0",
+  "status": "pass"
+}

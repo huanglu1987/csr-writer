@@ -1,0 +1,284 @@
+{
+  "binding_manifest": [],
+  "card_external_entities": [],
+  "card_id": "M16-METHOD-9-4-3",
+  "causality_control": {
+    "allowed_terms": [
+      "不太可能有关",
+      "可能有关",
+      "很可能有关",
+      "无关",
+      "无法评价",
+      "明确相关",
+      "未评价"
+    ],
+    "exact_match": true,
+    "observed_terms": []
+  },
+  "draft_sha256": "bb3873d608242890fc29b18d39cb085868a61965b0efe385314fa84f114686b2",
+  "envelope_sha256": "5b11cbdff0fd6bc5bcfc14067c5f5f2720ca48712bd4fdc7336841e5bc170fd5",
+  "external_model_api_called": false,
+  "fact_card_sha256": "ea96c23c201196e4f6fcb2bacf4a0d03021c9ead5f46072697a2285539ea5715",
+  "field_checks": [
+    {
+      "fact_id": "V01",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V02",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V03",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V04",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V05",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V06",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    },
+    {
+      "fact_id": "V07",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    },
+    {
+      "fact_id": "S01",
+      "match_mode": "whole_value_atomic",
+      "status": "pass"
+    }
+  ],
+  "field_count": 8,
+  "field_coverage_percent": 100.0,
+  "field_reference_count": 8,
+  "findings": [],
+  "forward_coverage": {
+    "coverage_mode": "whole_values_label_bound",
+    "guard_policy_sha256": "3694e5964b6da327a106ef30e38a216d4233bf7e6f4bef7e298b8c7235f1697a",
+    "guard_profile": "method_whole_value_label_bound",
+    "guard_version": "3.0",
+    "paragraph_checks": [
+      {
+        "anchored_fact_ids": [
+          "S01",
+          "V01",
+          "V02",
+          "V03"
+        ],
+        "coverage_mode": "whole_values_label_bound",
+        "fact_ids": [
+          "V01",
+          "V02",
+          "V03",
+          "S01"
+        ],
+        "label_binding_checks": [
+          {
+            "adjacent_value_fact_ids": [
+              [
+                "V03"
+              ]
+            ],
+            "adjacent_values": [
+              "研究中心"
+            ],
+            "label": "分层因素",
+            "label_fact_ids": [
+              "V03"
+            ],
+            "status": "pass"
+          }
+        ],
+        "label_token_count": 1,
+        "missing_value_fact_ids": [],
+        "paragraph_index": 1,
+        "policy_sha256": "3694e5964b6da327a106ef30e38a216d4233bf7e6f4bef7e298b8c7235f1697a",
+        "residual_content_terms": [],
+        "status": "pass",
+        "whole_value_token_count": 5
+      },
+      {
+        "anchored_fact_ids": [
+          "V04",
+          "V05",
+          "V06",
+          "V07"
+        ],
+        "coverage_mode": "whole_values_label_bound",
+        "fact_ids": [
+          "V04",
+          "V05",
+          "V06",
+          "V07"
+        ],
+        "label_binding_checks": [
+          {
+            "adjacent_value_fact_ids": [
+              [
+                "V04"
+              ]
+            ],
+            "adjacent_values": [
+              "由独立统计师保密保存"
+            ],
+            "label": "区组长度",
+            "label_fact_ids": [
+              "V04"
+            ],
+            "status": "pass"
+          },
+          {
+            "adjacent_value_fact_ids": [
+              [
+                "V05"
+              ]
+            ],
+            "adjacent_values": [
+              "独立统计人员"
+            ],
+            "label": "随机号生成方",
+            "label_fact_ids": [
+              "V05"
+            ],
+            "status": "pass"
+          },
+          {
+            "adjacent_value_fact_ids": [
+              [
+                "V06"
+              ]
+            ],
+            "adjacent_values": [
+              "交互式网络应答系统"
+            ],
+            "label": "随机系统",
+            "label_fact_ids": [
+              "V06"
+            ],
+            "status": "pass"
+          },
+          {
+            "adjacent_value_fact_ids": [
+              [
+                "V07"
+              ]
+            ],
+            "adjacent_values": [
+              "授权人员登录后按顺序取得分配结果"
+            ],
+            "label": "分配隐藏方法",
+            "label_fact_ids": [
+              "V07"
+            ],
+            "status": "pass"
+          }
+        ],
+        "label_token_count": 4,
+        "missing_value_fact_ids": [],
+        "paragraph_index": 2,
+        "policy_sha256": "3694e5964b6da327a106ef30e38a216d4233bf7e6f4bef7e298b8c7235f1697a",
+        "residual_content_terms": [],
+        "status": "pass",
+        "whole_value_token_count": 4
+      }
+    ],
+    "release_eligible": true,
+    "status": "pass"
+  },
+  "narration": "constrained_llm",
+  "numeric_placeholders": [],
+  "paragraphs": [
+    {
+      "fact_ids": [
+        "V01",
+        "V02",
+        "V03",
+        "S01"
+      ],
+      "para_id": "p_9_4_3_001",
+      "text_sha256": "d29e50fbf1eaee2a71d0912561319c9fc4ad5b083fcd69b9d1d0b17ed73e15ef"
+    },
+    {
+      "fact_ids": [
+        "V04",
+        "V05",
+        "V06",
+        "V07"
+      ],
+      "para_id": "p_9_4_3_002",
+      "text_sha256": "a3a56d8e32d75b2c488e3574df576ea7c0396917db01ef7cc9da16c999a0f6ce"
+    }
+  ],
+  "production_method": "extraction",
+  "schema_version": "1.0",
+  "section_id": "9.4.3",
+  "source_manifest": [
+    {
+      "content_sha256": "c8acd031cd75a82ba1f1b87be4c6e4a0245872cfe8a72858b3258e14549b5ad8",
+      "file_role": "protocol",
+      "locator": "方案 §9.4.3 随机化和治疗分配",
+      "source_id": "src_9_4_3_1",
+      "version": "synthetic-reviewed-v1"
+    },
+    {
+      "content_sha256": "8964cb4ddc5d189e753c3ad0b3878f0d2942e3fc4cd7fab92d623971615d5b9b",
+      "file_role": "sap",
+      "locator": "SAP 随机化方法",
+      "source_id": "src_9_4_3_2",
+      "version": "synthetic-reviewed-v1"
+    }
+  ],
+  "status": "pass",
+  "style_qc": {
+    "blocked": false,
+    "findings": [],
+    "metrics": {
+      "abstract_noun_count": 0,
+      "average_sentence_length": 22.0,
+      "field_enumeration_paragraph_count": 0,
+      "maximum_sentence_length": 29,
+      "n_percent_format_error_count": 0,
+      "overlong_sentence_count": 0,
+      "prespecified_qualifier_count": 0,
+      "reviewed_qualifier_count": 0,
+      "semicolon_count": 0,
+      "sentence_count": 6,
+      "summary_copula_count": 0
+    },
+    "policy": {
+      "banned_expression_is_blocking": true,
+      "literal_zero_event_claim_requires_conditioned_data": true,
+      "n_percent_prose_requires_count_unit_and_percent_sign": true,
+      "qualifier_per_section": 1,
+      "semicolon_per_paragraph": 1,
+      "sentence_length_hard_threshold": 60
+    },
+    "schema_version": "1.0",
+    "status": "pass"
+  },
+  "zone_distribution": {
+    "counts": {
+      "A": 0,
+      "B": 0,
+      "C": 0
+    },
+    "percent": {
+      "A": 0.0,
+      "B": 0.0,
+      "C": 0.0
+    }
+  }
+}

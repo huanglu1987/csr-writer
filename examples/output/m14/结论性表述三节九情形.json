@@ -1,0 +1,71 @@
+{
+  "branch_drift_count": 0,
+  "records": [
+    {
+      "expected_branch": "exposure_characterizable",
+      "observed_branch": "exposure_characterizable",
+      "render_mode": "sentence_driven",
+      "scenario": "normal",
+      "section": "11.5.10"
+    },
+    {
+      "expected_branch": "quantifiability_limited",
+      "observed_branch": "quantifiability_limited",
+      "render_mode": "sentence_driven",
+      "scenario": "limited",
+      "section": "11.5.10"
+    },
+    {
+      "expected_branch": "critical_binding_missing",
+      "observed_branch": "critical_binding_missing",
+      "render_mode": "sentence_driven",
+      "scenario": "binding_missing",
+      "section": "11.5.10"
+    },
+    {
+      "expected_branch": "prespecified_descriptive",
+      "observed_branch": "prespecified_descriptive",
+      "render_mode": "sentence_driven",
+      "scenario": "normal",
+      "section": "11.6.7"
+    },
+    {
+      "expected_branch": "prespecified_hypothesis_test",
+      "observed_branch": "prespecified_hypothesis_test",
+      "render_mode": "sentence_driven",
+      "scenario": "hypothesis_test_present",
+      "section": "11.6.7"
+    },
+    {
+      "expected_branch": "critical_binding_missing",
+      "observed_branch": "critical_binding_missing",
+      "render_mode": "sentence_driven",
+      "scenario": "binding_missing",
+      "section": "11.6.7"
+    },
+    {
+      "expected_branch": "confirmed_body_complete_no_critical_events",
+      "observed_branch": "confirmed_body_complete_no_critical_events",
+      "render_mode": "sentence_driven",
+      "scenario": "normal",
+      "section": "13"
+    },
+    {
+      "expected_branch": "important_safety_events_present",
+      "observed_branch": "important_safety_events_present",
+      "render_mode": "sentence_driven",
+      "scenario": "important_events_present",
+      "section": "13"
+    },
+    {
+      "expected_branch": "critical_binding_missing",
+      "observed_branch": "critical_binding_missing",
+      "render_mode": "sentence_driven",
+      "scenario": "binding_missing",
+      "section": "13"
+    }
+  ],
+  "scenario_count": 9,
+  "schema_version": "1.0",
+  "status": "pass"
+}

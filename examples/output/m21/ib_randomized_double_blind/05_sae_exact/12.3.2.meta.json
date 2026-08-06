@@ -1,0 +1,346 @@
+{
+  "binding_manifest": [],
+  "card_external_entities": [],
+  "card_id": "M21-IB-SAE-EXACT-01",
+  "causality_control": {
+    "allowed_terms": [
+      "可能有关"
+    ],
+    "exact_match": true,
+    "observed_terms": [
+      "可能有关"
+    ]
+  },
+  "draft_sha256": "55d82d9333c2c20fafbde2d57ba11b117000ab95e6c2031529fefa2bb42e3c3b",
+  "envelope_sha256": "f6708fb2cbd24e2050a416216004f03eaaaf4b6cefa6cf58773972b0fc9180e6",
+  "external_model_api_called": false,
+  "fact_card_sha256": "63b82ebe390adb35ba481b6f395fad4c6c36285953151aa030a030b79bb264e3",
+  "field_checks": [
+    {
+      "fact_id": "A01",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "A02",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "A03",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "A04",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "A05",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "A06",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "A07",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "A08",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "A09",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "A10",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "A11",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "A12",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "B01",
+      "match_mode": "exact_string",
+      "status": "pass"
+    },
+    {
+      "fact_id": "C01",
+      "match_mode": "human_slot",
+      "status": "pass"
+    }
+  ],
+  "field_count": 14,
+  "field_coverage_percent": 100.0,
+  "field_reference_count": 14,
+  "findings": [],
+  "forward_coverage": {
+    "coverage_mode": "whole_declared_values",
+    "guard_policy_sha256": "3694e5964b6da327a106ef30e38a216d4233bf7e6f4bef7e298b8c7235f1697a",
+    "guard_profile": "sae_exact_reviewed_surface",
+    "guard_version": "2.0",
+    "paragraph_checks": [
+      {
+        "allowed_source_unit_count": 0,
+        "coverage_mode": "whole_declared_values",
+        "eligible_authorized_surface_ids": [
+          "SF-M21-IB-SAE-01"
+        ],
+        "fact_ids": [
+          "A01",
+          "A02"
+        ],
+        "paragraph_index": 1,
+        "residual_content_terms": [],
+        "status": "pass"
+      },
+      {
+        "allowed_source_unit_count": 0,
+        "coverage_mode": "whole_declared_values",
+        "eligible_authorized_surface_ids": [
+          "SF-M21-IB-SAE-02"
+        ],
+        "fact_ids": [
+          "A01",
+          "A03"
+        ],
+        "paragraph_index": 2,
+        "residual_content_terms": [],
+        "status": "pass"
+      },
+      {
+        "allowed_source_unit_count": 0,
+        "coverage_mode": "whole_declared_values",
+        "eligible_authorized_surface_ids": [
+          "SF-M21-IB-SAE-03"
+        ],
+        "fact_ids": [
+          "A04",
+          "A05",
+          "A06",
+          "A07"
+        ],
+        "paragraph_index": 3,
+        "residual_content_terms": [],
+        "status": "pass"
+      },
+      {
+        "allowed_source_unit_count": 0,
+        "coverage_mode": "whole_declared_values",
+        "eligible_authorized_surface_ids": [
+          "SF-M21-IB-SAE-04"
+        ],
+        "fact_ids": [
+          "A01",
+          "A08",
+          "A09"
+        ],
+        "paragraph_index": 4,
+        "residual_content_terms": [],
+        "status": "pass"
+      },
+      {
+        "allowed_source_unit_count": 0,
+        "coverage_mode": "whole_declared_values",
+        "eligible_authorized_surface_ids": [
+          "SF-M21-IB-SAE-05"
+        ],
+        "fact_ids": [
+          "A10"
+        ],
+        "paragraph_index": 5,
+        "residual_content_terms": [],
+        "status": "pass"
+      },
+      {
+        "allowed_source_unit_count": 0,
+        "coverage_mode": "whole_declared_values",
+        "eligible_authorized_surface_ids": [
+          "SF-M21-IB-SAE-06",
+          "SF-M21-IB-SAE-07"
+        ],
+        "fact_ids": [
+          "A11",
+          "A12"
+        ],
+        "paragraph_index": 6,
+        "residual_content_terms": [],
+        "status": "pass"
+      },
+      {
+        "allowed_source_unit_count": 0,
+        "coverage_mode": "whole_declared_values",
+        "eligible_authorized_surface_ids": [
+          "SF-M21-IB-SAE-08"
+        ],
+        "fact_ids": [
+          "B01"
+        ],
+        "paragraph_index": 7,
+        "residual_content_terms": [],
+        "status": "pass"
+      },
+      {
+        "allowed_source_unit_count": 0,
+        "coverage_mode": "whole_declared_values",
+        "eligible_authorized_surface_ids": [
+          "SF-M21-IB-SAE-09",
+          "SF-M21-IB-SAE-10"
+        ],
+        "fact_ids": [
+          "C01"
+        ],
+        "paragraph_index": 8,
+        "residual_content_terms": [],
+        "status": "pass"
+      }
+    ],
+    "release_eligible": true,
+    "status": "pass"
+  },
+  "narration": "constrained_llm",
+  "numeric_placeholders": [],
+  "paragraphs": [
+    {
+      "fact_ids": [
+        "A01",
+        "A02"
+      ],
+      "para_id": "p_12_3_2_001",
+      "text_sha256": "1980130b8f41e9dc7a74f4e94151bd8d6ee1403ad36afed643088a6d605572c5"
+    },
+    {
+      "fact_ids": [
+        "A01",
+        "A03"
+      ],
+      "para_id": "p_12_3_2_002",
+      "text_sha256": "9f66cab2fae6b430fe14dce7d7e02900b434102442cf996f394994d0c4982b8a"
+    },
+    {
+      "fact_ids": [
+        "A04",
+        "A05",
+        "A06",
+        "A07"
+      ],
+      "para_id": "p_12_3_2_003",
+      "text_sha256": "5dfd821e5a793c1777446ed536b0a87c59cb8409ae028bb541e33d271b5c70c3"
+    },
+    {
+      "fact_ids": [
+        "A01",
+        "A08",
+        "A09"
+      ],
+      "para_id": "p_12_3_2_004",
+      "text_sha256": "2c2ef335fbd5e8f97a46bea013e69d91ca44897d21fed8f176816b9db8ebdc2c"
+    },
+    {
+      "fact_ids": [
+        "A10"
+      ],
+      "para_id": "p_12_3_2_005",
+      "text_sha256": "8f66ad864f4b785dea316b5c01edb0de33b82e1294ef0f25637d1103e37ffc89"
+    },
+    {
+      "fact_ids": [
+        "A11",
+        "A12"
+      ],
+      "para_id": "p_12_3_2_006",
+      "text_sha256": "59a0234e7621870b31c52702d59a5d82dda3829b97ddc444a4f7d410ac2882b6"
+    },
+    {
+      "fact_ids": [
+        "B01"
+      ],
+      "para_id": "p_12_3_2_007",
+      "text_sha256": "21bf57a130115d88ca61413de867566f01b5d05a2d28557f3f6d6c0d2020ab4d"
+    },
+    {
+      "fact_ids": [
+        "C01"
+      ],
+      "para_id": "p_12_3_2_008",
+      "text_sha256": "e24d07668cde557b3511b9022131c5a22ebf9aa98efa7510f332eabfb116800f"
+    }
+  ],
+  "production_method": "llm_drafting",
+  "schema_version": "1.0",
+  "section_id": "12.3.2",
+  "source_manifest": [
+    {
+      "content_sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+      "file_role": "frozen_safety_dataset",
+      "locator": "脱敏合成 SAE 结构化记录",
+      "source_id": "m21_ib_safety_record",
+      "version": "synthetic-deidentified-v1"
+    },
+    {
+      "content_sha256": "2222222222222222222222222222222222222222222222222222222222222222",
+      "file_role": "crf_or_medical_record_free_text",
+      "locator": "脱敏合成 CRF 临床经过",
+      "source_id": "m21_ib_crf_narrative",
+      "version": "synthetic-deidentified-v1"
+    }
+  ],
+  "status": "pass",
+  "style_qc": {
+    "blocked": false,
+    "findings": [],
+    "metrics": {
+      "abstract_noun_count": 1,
+      "average_sentence_length": 17.0,
+      "field_dump_sequence_count": 0,
+      "field_enumeration_paragraph_count": 0,
+      "maximum_sentence_length": 37,
+      "n_percent_format_error_count": 0,
+      "overlong_sentence_count": 0,
+      "prespecified_qualifier_count": 0,
+      "reviewed_qualifier_count": 0,
+      "semicolon_count": 0,
+      "sentence_count": 10,
+      "summary_copula_count": 0
+    },
+    "policy": {
+      "banned_expression_is_blocking": true,
+      "literal_zero_event_claim_requires_conditioned_data": true,
+      "n_percent_prose_requires_count_unit_and_percent_sign": true,
+      "qualifier_per_section": 1,
+      "semicolon_per_paragraph": 1,
+      "sentence_length_hard_threshold": 60
+    },
+    "schema_version": "1.0",
+    "status": "pass"
+  },
+  "zone_distribution": {
+    "counts": {
+      "A": 12,
+      "B": 1,
+      "C": 1
+    },
+    "percent": {
+      "A": 85.7,
+      "B": 7.1,
+      "C": 7.1
+    }
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "datapack_sha256": "05c8d6937c12734d6df217ae90f63a9c8b0f8c1c442d8085d2992fe1f8523c11",
+  "deferred_row_table_count": 0,
+  "deferred_row_tables": [],
+  "immediate_human_review_count": 0,
+  "issues": [
+    {
+      "code": "I-EXPECTED-SECTION-NOT-REFERENCED",
+      "message": "TFL is grouped under its expected CSR section for coverage follow-up",
+      "priority": "planned_section_follow_up",
+      "table_id": "T14.1.1.2"
+    },
+    {
+      "code": "I-EXPECTED-SECTION-NOT-REFERENCED",
+      "message": "TFL is grouped under its expected CSR section for coverage follow-up",
+      "priority": "planned_section_follow_up",
+      "table_id": "T14.1.2.1"
+    },
+    {
+      "code": "I-EXPECTED-SECTION-NOT-REFERENCED",
+      "message": "TFL is grouped under its expected CSR section for coverage follow-up",
+      "priority": "planned_section_follow_up",
+      "table_id": "T14.1.4.1"
+    },
+    {
+      "code": "I-EXPECTED-SECTION-NOT-REFERENCED",
+      "message": "TFL is grouped under its expected CSR section for coverage follow-up",
+      "priority": "planned_section_follow_up",
+      "table_id": "T14.3.1.3.1"
+    },
+    {
+      "code": "I-EXPECTED-SECTION-NOT-REFERENCED",
+      "message": "TFL is grouped under its expected CSR section for coverage follow-up",
+      "priority": "planned_section_follow_up",
+      "table_id": "T14.3.1.3.2"
+    },
+    {
+      "code": "I-EXPECTED-SECTION-NOT-REFERENCED",
+      "message": "TFL is grouped under its expected CSR section for coverage follow-up",
+      "priority": "planned_section_follow_up",
+      "table_id": "T14.3.2.1"
+    },
+    {
+      "code": "I-EXPECTED-SECTION-NOT-REFERENCED",
+      "message": "TFL is grouped under its expected CSR section for coverage follow-up",
+      "priority": "planned_section_follow_up",
+      "table_id": "T14.3.3.1"
+    },
+    {
+      "code": "I-EXPECTED-SECTION-NOT-REFERENCED",
+      "message": "TFL is grouped under its expected CSR section for coverage follow-up",
+      "priority": "planned_section_follow_up",
+      "table_id": "T14.3.4.1"
+    }
+  ],
+  "metadata_only_table_count": 0,
+  "metadata_only_tables": [],
+  "metadata_sha256": "5ebadbe2e64fe86eee5aa8eeb6079d010a0193e112ca9a0b39f1247f05646eb2",
+  "referenced_table_count": 1,
+  "referenced_tables": [
+    {
+      "binding_reference_count": 1,
+      "expected_route": {
+        "category_id": "11.4.efficacy",
+        "label_zh": "§11.4 疗效",
+        "section_id": "11.4"
+      },
+      "population": "FAS",
+      "referenced_by_sections": [
+        "11.6.1.4"
+      ],
+      "source_id": "sha256:7ee1eb2ebf4edfa30215980658895dcfd426382c66915be7fd163362448338c8",
+      "table_id": "T14.2.2.1.1",
+      "titles": []
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "review_required",
+  "table_count": 9,
+  "triage_contract": {
+    "known_expected_section": "planned_section_follow_up",
+    "unclassified": "immediate_human_review"
+  },
+  "unclassified_unreferenced_count": 0,
+  "unclassified_unreferenced_tables": [],
+  "unreferenced_by_expected_section": [
+    {
+      "category_id": "10.1.disposition",
+      "draft_status": "not_yet_drafted",
+      "expected_section": "10.1",
+      "label_zh": "§10.1 受试者处置",
+      "priority": "planned_section_follow_up",
+      "table_count": 1,
+      "tables": [
+        {
+          "binding_reference_count": 0,
+          "expected_route": {
+            "category_id": "10.1.disposition",
+            "label_zh": "§10.1 受试者处置",
+            "section_id": "10.1"
+          },
+          "population": "FAS",
+          "referenced_by_sections": [],
+          "source_id": "sha256:7e8db404eaaeea3ac3a51629c3393177a9fc9182db1f283796ef8f57e2507f1c",
+          "table_id": "T14.1.1.2",
+          "titles": []
+        }
+      ]
+    },
+    {
+      "category_id": "11.2.baseline",
+      "draft_status": "not_yet_drafted",
+      "expected_section": "11.2",
+      "label_zh": "§11.2 人口学与基线特征",
+      "priority": "planned_section_follow_up",
+      "table_count": 2,
+      "tables": [
+        {
+          "binding_reference_count": 0,
+          "expected_route": {
+            "category_id": "11.2.baseline",
+            "label_zh": "§11.2 人口学与基线特征",
+            "section_id": "11.2"
+          },
+          "population": "FAS",
+          "referenced_by_sections": [],
+          "source_id": "sha256:ee8b759ca28658b20dd10095e2907ad8a5675e9bdf9fc732fad0258264d0dc10",
+          "table_id": "T14.1.2.1",
+          "titles": []
+        },
+        {
+          "binding_reference_count": 0,
+          "expected_route": {
+            "category_id": "11.2.baseline",
+            "label_zh": "§11.2 人口学与基线特征",
+            "section_id": "11.2"
+          },
+          "population": "FAS",
+          "referenced_by_sections": [],
+          "source_id": "sha256:1edf9a1ae77f119ed7c242d1498aa149791b97a959cb91edd407ce73ba43147d",
+          "table_id": "T14.1.4.1",
+          "titles": []
+        }
+      ]
+    },
+    {
+      "category_id": "12.safety_other",
+      "draft_status": "not_yet_drafted",
+      "expected_section": "12",
+      "label_zh": "§12 其他安全性内容",
+      "priority": "planned_section_follow_up",
+      "table_count": 3,
+      "tables": [
+        {
+          "binding_reference_count": 0,
+          "expected_route": {
+            "category_id": "12.safety_other",
+            "label_zh": "§12 其他安全性内容",
+            "section_id": "12"
+          },
+          "population": "SS",
+          "referenced_by_sections": [],
+          "source_id": "sha256:aff42ffec40946f9b783f472ab4a72ebb2f9253a28ead061377f7adca9b2ef44",
+          "table_id": "T14.3.2.1",
+          "titles": []
+        },
+        {
+          "binding_reference_count": 0,
+          "expected_route": {
+            "category_id": "12.safety_other",
+            "label_zh": "§12 其他安全性内容",
+            "section_id": "12"
+          },
+          "population": "SS",
+          "referenced_by_sections": [],
+          "source_id": "sha256:9d4517fa3f54088c6ede5d50c71c95d1d5888d115a879f5733b4b08097aab7eb",
+          "table_id": "T14.3.3.1",
+          "titles": []
+        },
+        {
+          "binding_reference_count": 0,
+          "expected_route": {
+            "category_id": "12.safety_other",
+            "label_zh": "§12 其他安全性内容",
+            "section_id": "12"
+          },
+          "population": "SS",
+          "referenced_by_sections": [],
+          "source_id": "sha256:84cfc4b7f7b3586b81c0402faab5873acc76b381cb7678ead578510b8ede275c",
+          "table_id": "T14.3.4.1",
+          "titles": []
+        }
+      ]
+    },
+    {
+      "category_id": "12.2.ae",
+      "draft_status": "not_yet_drafted",
+      "expected_section": "12.2",
+      "label_zh": "§12.2 不良事件",
+      "priority": "planned_section_follow_up",
+      "table_count": 2,
+      "tables": [
+        {
+          "binding_reference_count": 0,
+          "expected_route": {
+            "category_id": "12.2.ae",
+            "label_zh": "§12.2 不良事件",
+            "section_id": "12.2"
+          },
+          "population": "SS",
+          "referenced_by_sections": [],
+          "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425",
+          "table_id": "T14.3.1.3.1",
+          "titles": []
+        },
+        {
+          "binding_reference_count": 0,
+          "expected_route": {
+            "category_id": "12.2.ae",
+            "label_zh": "§12.2 不良事件",
+            "section_id": "12.2"
+          },
+          "population": "SS",
+          "referenced_by_sections": [],
+          "source_id": "sha256:72245919ccec7d27c78699e7f0ce46e250bd3e48d1019ec6828e2c4b56863c6a",
+          "table_id": "T14.3.1.3.2",
+          "titles": []
+        }
+      ]
+    }
+  ],
+  "unreferenced_table_count": 8,
+  "unreferenced_tables": [
+    {
+      "binding_reference_count": 0,
+      "expected_route": {
+        "category_id": "10.1.disposition",
+        "label_zh": "§10.1 受试者处置",
+        "section_id": "10.1"
+      },
+      "population": "FAS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:7e8db404eaaeea3ac3a51629c3393177a9fc9182db1f283796ef8f57e2507f1c",
+      "table_id": "T14.1.1.2",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "expected_route": {
+        "category_id": "11.2.baseline",
+        "label_zh": "§11.2 人口学与基线特征",
+        "section_id": "11.2"
+      },
+      "population": "FAS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:ee8b759ca28658b20dd10095e2907ad8a5675e9bdf9fc732fad0258264d0dc10",
+      "table_id": "T14.1.2.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "expected_route": {
+        "category_id": "11.2.baseline",
+        "label_zh": "§11.2 人口学与基线特征",
+        "section_id": "11.2"
+      },
+      "population": "FAS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:1edf9a1ae77f119ed7c242d1498aa149791b97a959cb91edd407ce73ba43147d",
+      "table_id": "T14.1.4.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "expected_route": {
+        "category_id": "12.2.ae",
+        "label_zh": "§12.2 不良事件",
+        "section_id": "12.2"
+      },
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:6958e44013759ae1cf6d3b16e32e31286729cd071bc0e8862e36ea540458c425",
+      "table_id": "T14.3.1.3.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "expected_route": {
+        "category_id": "12.2.ae",
+        "label_zh": "§12.2 不良事件",
+        "section_id": "12.2"
+      },
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:72245919ccec7d27c78699e7f0ce46e250bd3e48d1019ec6828e2c4b56863c6a",
+      "table_id": "T14.3.1.3.2",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "expected_route": {
+        "category_id": "12.safety_other",
+        "label_zh": "§12 其他安全性内容",
+        "section_id": "12"
+      },
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:aff42ffec40946f9b783f472ab4a72ebb2f9253a28ead061377f7adca9b2ef44",
+      "table_id": "T14.3.2.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "expected_route": {
+        "category_id": "12.safety_other",
+        "label_zh": "§12 其他安全性内容",
+        "section_id": "12"
+      },
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:9d4517fa3f54088c6ede5d50c71c95d1d5888d115a879f5733b4b08097aab7eb",
+      "table_id": "T14.3.3.1",
+      "titles": []
+    },
+    {
+      "binding_reference_count": 0,
+      "expected_route": {
+        "category_id": "12.safety_other",
+        "label_zh": "§12 其他安全性内容",
+        "section_id": "12"
+      },
+      "population": "SS",
+      "referenced_by_sections": [],
+      "source_id": "sha256:84cfc4b7f7b3586b81c0402faab5873acc76b381cb7678ead578510b8ede275c",
+      "table_id": "T14.3.4.1",
+      "titles": []
+    }
+  ]
+}

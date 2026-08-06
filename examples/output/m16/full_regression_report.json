@@ -1,0 +1,100 @@
+{
+  "commands": [
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-q"
+      ],
+      "elapsed_seconds_reported": 37.373,
+      "label": "full_discover",
+      "output_tail": [
+        "cross-chapter status=pass: /var/folders/s1/v1g0nxn50tn5zct_08zlfxg80000gn/T/tmpsqqjm_so/cross.json",
+        "rendered bounded M4 QC report: /var/folders/s1/v1g0nxn50tn5zct_08zlfxg80000gn/T/tmpsqqjm_so/qc.md",
+        "validated 8 group-bound roles: /var/folders/s1/v1g0nxn50tn5zct_08zlfxg80000gn/T/tmpn843iloi/group.json",
+        "checked 4 TFLs; unreferenced=1: /var/folders/s1/v1g0nxn50tn5zct_08zlfxg80000gn/T/tmpn843iloi/unreferenced_tfl.md",
+        "emitted Agent envelope for 11.4: /var/folders/s1/v1g0nxn50tn5zct_08zlfxg80000gn/T/tmpd6341vcf/envelope.json",
+        "ingested Agent draft for 11.4: /var/folders/s1/v1g0nxn50tn5zct_08zlfxg80000gn/T/tmpd6341vcf/project/sections/11.4.md",
+        "guard evidence: /var/folders/s1/v1g0nxn50tn5zct_08zlfxg80000gn/T/tmpd6341vcf/guard.json",
+        "built TFL map candidate for 6 entities: /var/folders/s1/v1g0nxn50tn5zct_08zlfxg80000gn/T/tmpmzl4xsmc/candidate.json",
+        "froze confirmed TFL map DEID-MAP-1: /var/folders/s1/v1g0nxn50tn5zct_08zlfxg80000gn/T/tmpmzl4xsmc/frozen.json",
+        "result TFL keys match frozen shell map: /var/folders/s1/v1g0nxn50tn5zct_08zlfxg80000gn/T/tmpmzl4xsmc/apply.json",
+        "",
+        "annotated output created; clean output blocked: /var/folders/s1/v1g0nxn50tn5zct_08zlfxg80000gn/T/tmphq5x6dny/assembly.json",
+        "ERROR: M4 path collision: group report aliases input group contract: <plugin-root>/examples/m4/group_contract.json",
+        "result TFL mapping drift blocked: /var/folders/s1/v1g0nxn50tn5zct_08zlfxg80000gn/T/tmpmzl4xsmc/apply.json",
+        "----------------------------------------------------------------------",
+        "Ran 236 tests in 37.373s",
+        "",
+        "OK"
+      ],
+      "return_code": 0,
+      "status": "pass",
+      "test_count": 236
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "-m",
+        "unittest",
+        "tests.test_m2_guards",
+        "tests.test_m4_group_semantics",
+        "tests.test_m13_internal_process_language",
+        "tests.test_m13_conditioned_conclusions",
+        "tests.test_m14_writing_style",
+        "tests.test_m16_production_and_narration",
+        "tests.test_m16_advisory_review",
+        "-q"
+      ],
+      "elapsed_seconds_reported": 1.709,
+      "label": "guard_focused",
+      "output_tail": [
+        "----------------------------------------------------------------------",
+        "Ran 49 tests in 1.709s",
+        "",
+        "OK"
+      ],
+      "return_code": 0,
+      "status": "pass",
+      "test_count": 49
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "-m",
+        "unittest",
+        "tests.test_codex_platform_boundary",
+        "-q"
+      ],
+      "elapsed_seconds_reported": 22.349,
+      "label": "codex_platform_boundary",
+      "output_tail": [
+        "----------------------------------------------------------------------",
+        "Ran 1 test in 22.349s",
+        "",
+        "OK"
+      ],
+      "return_code": 0,
+      "status": "pass",
+      "test_count": 1
+    }
+  ],
+  "coverage": {
+    "advisory_review_non_gating": true,
+    "codex_platform_boundary": true,
+    "conditioned_conclusions": true,
+    "fact_card_closed_world": true,
+    "group_semantics": true,
+    "internal_process_language": true,
+    "production_method_writer_gate": true,
+    "sae_causality_and_gap": true,
+    "sentence_length_hard_gate": true,
+    "three_numeric_guards": true
+  },
+  "schema_version": "1.0",
+  "status": "pass"
+}

@@ -1,0 +1,65 @@
+{
+  "candidate_count": 17037,
+  "card_count": 3,
+  "cards": [
+    {
+      "candidate_count": 6704,
+      "card_id": "M16-SAE-A",
+      "raw_pass_count": 0,
+      "section_id": "12.3.2",
+      "strategy_candidate_counts": {
+        "boundary_truncation_splice": 626,
+        "cross_field_fragment_recombination": 4989,
+        "label_value_mismatch": 143,
+        "negation_or_limiter_insertion": 154,
+        "whole_value_relation_recombination": 792
+      },
+      "strategy_raw_pass_counts": {}
+    },
+    {
+      "candidate_count": 6761,
+      "card_id": "M16-SAE-B",
+      "raw_pass_count": 0,
+      "section_id": "12.3.2",
+      "strategy_candidate_counts": {
+        "boundary_truncation_splice": 360,
+        "cross_field_fragment_recombination": 5312,
+        "label_value_mismatch": 143,
+        "negation_or_limiter_insertion": 154,
+        "whole_value_relation_recombination": 792
+      },
+      "strategy_raw_pass_counts": {}
+    },
+    {
+      "candidate_count": 3572,
+      "card_id": "M16-SAE-C",
+      "raw_pass_count": 0,
+      "section_id": "12.3.2",
+      "strategy_candidate_counts": {
+        "boundary_truncation_splice": 376,
+        "cross_field_fragment_recombination": 2160,
+        "label_value_mismatch": 117,
+        "negation_or_limiter_insertion": 126,
+        "semantic_reversal_pair": 1,
+        "whole_value_relation_recombination": 792
+      },
+      "strategy_raw_pass_counts": {}
+    }
+  ],
+  "coverage_mode": "whole_declared_values",
+  "pass_percent": 0.0,
+  "pass_rate": 0.0,
+  "raw_pass_count": 0,
+  "raw_passes": [],
+  "raw_passes_are_unfiltered": true,
+  "strategy_candidate_counts": {
+    "boundary_truncation_splice": 1362,
+    "cross_field_fragment_recombination": 12461,
+    "label_value_mismatch": 403,
+    "negation_or_limiter_insertion": 434,
+    "semantic_reversal_pair": 1,
+    "whole_value_relation_recombination": 2376
+  },
+  "strategy_raw_pass_counts": {},
+  "top_10_readable_raw_passes": []
+}

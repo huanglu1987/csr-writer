@@ -1,0 +1,22 @@
+{
+  "cross_references": {
+    "bookmark_count": 5,
+    "field_count": 9,
+    "status": "pass",
+    "unique_target_count": 5
+  },
+  "mode": "annotated",
+  "output": "examples/output/m14/M14起草样例_annotated.docx",
+  "pending_count": 6,
+  "pending_paragraphs": [
+    "11.5.4:p_11_5_4_004",
+    "11.5.10:p_11_5_10_001",
+    "11.6.7:p_11_6_7_001",
+    "12.2:p_12_2_003",
+    "12.2:p_12_2_004",
+    "13:p_13_001"
+  ],
+  "schema_version": "1.0",
+  "sha256": "4596d498fb5e66ffc10446b3e6c1d3e640acf21e3662159b150620fcba146c6c",
+  "status": "pass"
+}

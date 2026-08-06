@@ -1,0 +1,73 @@
+{
+  "adversarial_guard_proof": {
+    "blocked_cases": 4,
+    "card_external_entity_cases_blocked": 1,
+    "card_external_number_cases_blocked": 1,
+    "missing_field_cases_blocked": 2,
+    "status": "pass",
+    "total_cases": 4
+  },
+  "constrained_llm_count": 6,
+  "pilot_unit_count": 8,
+  "records": [
+    {
+      "external_model_api_called": false,
+      "field_count": 8,
+      "field_coverage_percent": 100.0,
+      "narration": "constrained_llm",
+      "section_id": "9.1"
+    },
+    {
+      "external_model_api_called": false,
+      "field_count": 4,
+      "field_coverage_percent": 100.0,
+      "narration": "constrained_llm",
+      "section_id": "9.2"
+    },
+    {
+      "external_model_api_called": false,
+      "field_count": 5,
+      "field_coverage_percent": 100.0,
+      "narration": "verbatim_list",
+      "section_id": "9.3.1"
+    },
+    {
+      "external_model_api_called": false,
+      "field_count": 5,
+      "field_coverage_percent": 100.0,
+      "narration": "verbatim_list",
+      "section_id": "9.3.2"
+    },
+    {
+      "external_model_api_called": false,
+      "field_count": 8,
+      "field_coverage_percent": 100.0,
+      "narration": "constrained_llm",
+      "section_id": "9.4.1"
+    },
+    {
+      "external_model_api_called": false,
+      "field_count": 8,
+      "field_coverage_percent": 100.0,
+      "narration": "constrained_llm",
+      "section_id": "9.4.3"
+    },
+    {
+      "external_model_api_called": false,
+      "field_count": 8,
+      "field_coverage_percent": 100.0,
+      "narration": "constrained_llm",
+      "section_id": "9.4.6"
+    },
+    {
+      "external_model_api_called": false,
+      "field_count": 6,
+      "field_coverage_percent": 100.0,
+      "narration": "constrained_llm",
+      "section_id": "9.5.3"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "pass",
+  "verbatim_list_count": 2
+}

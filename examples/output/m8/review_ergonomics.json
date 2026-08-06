@@ -1,0 +1,15 @@
+{
+  "decision_group_count": 15,
+  "entity_decision_memberships": 157,
+  "estimate_basis": {
+    "difference_set_overhead_seconds": 12,
+    "judgement_overhead_seconds_per_group": 75,
+    "reviewer_assumption": "熟悉本项目、SAP 和编码计划的统计/医学撰写审阅者",
+    "scope": "首轮结构决定；不含向统计师追问未决字典版本的等待时间",
+    "structured_technical_reading_rate_characters_per_minute": 500
+  },
+  "estimated_review_minutes": 83.7,
+  "total_group_characters": 29099,
+  "total_screen_equivalents": 33.1,
+  "unique_review_entity_count": 63
+}
