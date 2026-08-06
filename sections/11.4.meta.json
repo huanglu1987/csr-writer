@@ -1,0 +1,128 @@
+{
+  "binding_manifest": [
+    {
+      "context_sha256": "aa25116c2ceaf32c23d690ed9abc2159a0fa519acafe07d701410beaa2a01802",
+      "key": "T14.2.1|POP=FAS|ROW=OBJECTIVE_RESPONSE_CR_PR|COL=XYZ200MG",
+      "role": "experimental_result",
+      "source_id": "T14.2.1"
+    },
+    {
+      "context_sha256": "df4ed26666a0fc02ff4492209185d53cde726bad33720ed57ba138b88357404b",
+      "key": "T14.2.1|POP=FAS|ROW=OBJECTIVE_RESPONSE_CR_PR|COL=PBO",
+      "role": "control_result",
+      "source_id": "T14.2.1"
+    },
+    {
+      "context_sha256": "f1876a52fd24873cc7eb7333b6cac52c33257e9e33af786c617b42b1fff14813",
+      "key": "T14.2.1|POP=FAS|ROW=95_CI|COL=XYZ200MG",
+      "role": "experimental_ci",
+      "source_id": "T14.2.1"
+    },
+    {
+      "context_sha256": "d0b224e5fec4c55cbb70cc02ff4e847f83fe10b5181ce7aeb8d13279e16e3b9a",
+      "key": "T14.2.1|POP=FAS|ROW=95_CI|COL=PBO",
+      "role": "control_ci",
+      "source_id": "T14.2.1"
+    },
+    {
+      "context_sha256": "432d7abbcaf361e56c64367b43baf5a5216b358459dd52ee0024ad5ec93b6e2d",
+      "key": "T14.2.1|POP=FAS|ROW=DIFFERENCE|COL=STAT",
+      "role": "between_group_difference",
+      "source_id": "T14.2.1"
+    },
+    {
+      "context_sha256": "5d2f772d6612abb83c026be74578b1533b26c790d424dbba6f6bc68520de7a13",
+      "key": "T14.2.1|POP=FAS|ROW=P_VALUE|COL=STAT",
+      "role": "p_value",
+      "source_id": "T14.2.1"
+    }
+  ],
+  "draft_sha256": "717e122f7e7eb87208000c74ae4af1912862ed0a842ec42c60eb711137f7e902",
+  "evidence_status": "demo_only",
+  "input_sha256": "e9b7ab3b1660869d6790f43fb852f23492510c82c261b20edd32e4242bd870e7",
+  "paragraphs": [
+    {
+      "confidence": "derived",
+      "needs_human": true,
+      "para_id": "p_11_4_001",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "Protocol-v3-endpoint",
+        "SAP-v2-analysis-set",
+        "SAP-v2-primary-method"
+      ]
+    },
+    {
+      "confidence": "derived",
+      "needs_human": false,
+      "para_id": "p_11_4_002",
+      "placeholders": [
+        "T14.2.1|POP=FAS|ROW=OBJECTIVE_RESPONSE_CR_PR|COL=XYZ200MG",
+        "T14.2.1|POP=FAS|ROW=OBJECTIVE_RESPONSE_CR_PR|COL=PBO",
+        "T14.2.1|POP=FAS|ROW=95_CI|COL=XYZ200MG",
+        "T14.2.1|POP=FAS|ROW=95_CI|COL=PBO",
+        "T14.2.1|POP=FAS|ROW=DIFFERENCE|COL=STAT",
+        "T14.2.1|POP=FAS|ROW=P_VALUE|COL=STAT"
+      ],
+      "references": [
+        "T14.2.1"
+      ],
+      "semantic_findings": [],
+      "sources": [
+        "T14.2.1"
+      ]
+    },
+    {
+      "confidence": "inferred",
+      "needs_human": true,
+      "para_id": "p_11_4_003",
+      "placeholders": [],
+      "references": [],
+      "semantic_findings": [],
+      "sources": [
+        "Protocol-v3-endpoint",
+        "SAP-v2-analysis-set",
+        "SAP-v2-primary-method"
+      ]
+    }
+  ],
+  "playbook": {
+    "filename": "s11-4-primary-efficacy.md",
+    "sha256": "aaf3fff39aa8b7fd501884f1c42d440671d58f8197061ecbea744047d0d064de"
+  },
+  "reference_manifest": [
+    {
+      "entity_id": "T14.2.1",
+      "frozen_map_sha256": null,
+      "verified_by": "binding_manifest"
+    }
+  ],
+  "schema_version": "1.1",
+  "section": "11.4",
+  "semantic_findings": [],
+  "source_manifest": [
+    {
+      "content_sha256": "48f73671cd11a6b95730afc9716fda581bbb201abdfea4713bc9f769473198ab",
+      "locator": "Protocol v3.0 §9.4.1",
+      "purpose": "endpoint_definition",
+      "source_id": "Protocol-v3-endpoint"
+    },
+    {
+      "content_sha256": "a4823f98acedeae88a5843c25db6cdc6b8d528597fb44cd01798ab773950ba53",
+      "locator": "SAP v2.0 §6",
+      "purpose": "analysis_set",
+      "source_id": "SAP-v2-analysis-set"
+    },
+    {
+      "content_sha256": "831ec4e3cdaf1acf3e2ad4227e66eda76cbb1bd76c9290594304de2700ba359b",
+      "locator": "SAP v2.0 §7.2",
+      "purpose": "analysis_method",
+      "source_id": "SAP-v2-primary-method"
+    }
+  ],
+  "system_prompt_sha256": "8f4e93ef46763e761a6077aeb62b3c19da661f436164d9844daf4c36794ab340",
+  "variant": "exploratory",
+  "writer": "DeterministicSectionAdapter"
+}

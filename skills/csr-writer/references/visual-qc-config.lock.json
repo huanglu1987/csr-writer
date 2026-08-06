@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "profile_id": "csr-visual-qc-v1.1.0",
+  "status": "frozen_before_holdout_construction",
+  "frozen_at": "2026-08-06T00:00:00+08:00",
+  "config_path": "skills/csr-writer/references/visual-qc-config.yaml",
+  "config_sha256": "fcfb0246089dc2984eacca06fa52f1d93a9d4d3ef13a2775a6df28af76d8046d",
+  "checker_path": "csr_writer/visual_qc.py",
+  "checker_sha256": "d09c182a7188cd956c0a28b9f89894e8cb1c71269433219da44465abe6de4ac1",
+  "superseded_probe": {
+    "status": "excluded_from_calibration",
+    "reason": "the pre-freeze probe exposed missing linked-section header/footer inheritance"
+  },
+  "holdout_construction_rule": "freeze this file before creating the holdout generator or holdout document",
+  "holdout_generator_must_not_import": [
+    "csr_writer.visual_qc",
+    "visual-qc-config.yaml",
+    "visual-qc-config.lock.json"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "map_version": "DEID-MAP-1",
+  "numbering_system": {
+    "id": "ICH_E3_14X_WITH_16X_LISTINGS",
+    "description": "Deidentified fixture: 14.x tables/figures plus 16.2.x listings; mapping is explicit and not inferred from numbering."
+  },
+  "routes": [
+    {"entity_id": "T14.1.2.1", "ich_e3_sections": ["10.1"]},
+    {"entity_id": "T14.2.4.3.1", "ich_e3_sections": ["11.5"]},
+    {"entity_id": "T14.2.4.3.2", "ich_e3_sections": ["11.5"]},
+    {"entity_id": "T14.3.1.3.1", "ich_e3_sections": ["12.2"]},
+    {"entity_id": "F14.2.4.1", "ich_e3_sections": ["11.5"]},
+    {"entity_id": "L16.2.1", "ich_e3_sections": ["16.2.1"]}
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.1",
+  "section_id": "12.3.3",
+  "variant": "serious_event_analysis_conditioned",
+  "evidence_status": "demo_only",
+  "tfl_bindings": [
+    {
+      "role": "death_count",
+      "key": "T14.3.2.1|POP=SAF|ROW=RESULT_重要医学事件/RESULT_死亡|COL=ACTIVE_TOTAL_N_PCT",
+      "source_id": "T14.3.2.1",
+      "context": "脱敏合成安全性结果：死亡"
+    },
+    {
+      "role": "sae_count",
+      "key": "T14.3.2.1|POP=SAF|ROW=RESULT_重要医学事件/RESULT_严重不良事件|COL=ACTIVE_TOTAL_N_PCT",
+      "source_id": "T14.3.2.1",
+      "context": "脱敏合成安全性结果：严重不良事件"
+    },
+    {
+      "role": "important_ae_count",
+      "key": "T14.3.2.1|POP=SAF|ROW=RESULT_重要医学事件/RESULT_其他重要不良事件|COL=ACTIVE_TOTAL_N_PCT",
+      "source_id": "T14.3.2.1",
+      "context": "脱敏合成安全性结果：其他重要不良事件"
+    },
+    {
+      "role": "discontinuation_count",
+      "key": "T14.3.2.1|POP=SAF|ROW=RESULT_重要医学事件/RESULT_导致永久停药|COL=ACTIVE_TOTAL_N_PCT",
+      "source_id": "T14.3.2.1",
+      "context": "脱敏合成安全性结果：导致永久停药"
+    }
+  ],
+  "tfl_references": [
+    "T14.3.2.1"
+  ],
+  "source_fragments": [
+    {
+      "source_id": "M20-SAFETY-METHOD",
+      "locator": "脱敏合成方案 §12 安全性评价",
+      "purpose": "safety_definition",
+      "text": "死亡、严重不良事件、其他重要不良事件及导致永久停药的事件在安全性分析集中分析。"
+    }
+  ]
+}

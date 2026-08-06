@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "evidence_status": "demo_only",
+  "required_sections": [
+    "11.4.7",
+    "13",
+    "Synopsis"
+  ],
+  "claims": [
+    {
+      "claim_id": "PRIMARY_ENDPOINT_INTERPRETATION",
+      "section": "11.4.7",
+      "stance": "descriptive_only",
+      "evidence_keys": [
+        "T14.2.1|POP=FAS|ROW=OBJECTIVE_RESPONSE_CR_PR|COL=XYZ200MG",
+        "T14.2.1|POP=FAS|ROW=OBJECTIVE_RESPONSE_CR_PR|COL=PBO"
+      ]
+    },
+    {
+      "claim_id": "PRIMARY_ENDPOINT_INTERPRETATION",
+      "section": "13",
+      "stance": "descriptive_only",
+      "evidence_keys": [
+        "T14.2.1|POP=FAS|ROW=OBJECTIVE_RESPONSE_CR_PR|COL=XYZ200MG",
+        "T14.2.1|POP=FAS|ROW=OBJECTIVE_RESPONSE_CR_PR|COL=PBO"
+      ]
+    },
+    {
+      "claim_id": "PRIMARY_ENDPOINT_INTERPRETATION",
+      "section": "Synopsis",
+      "stance": "descriptive_only",
+      "evidence_keys": [
+        "T14.2.1|POP=FAS|ROW=OBJECTIVE_RESPONSE_CR_PR|COL=XYZ200MG",
+        "T14.2.1|POP=FAS|ROW=OBJECTIVE_RESPONSE_CR_PR|COL=PBO"
+      ]
+    }
+  ]
+}

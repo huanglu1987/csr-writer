@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "adapter_scope": "synthetic M3 section-writer acceptance only; not an M2 RTF parser output",
+  "mapping_manifest": {
+    "filename": "synthetic_dlt_manifest.json",
+    "sha256": "4afbd198452d73b9cabc5cc46ebf23971e0a35fbd0aaaca7d07877c80d9b6461"
+  },
+  "sources": [
+    {
+      "source_id": "sha256:63efadc4c25a5bce8164eee79a665e2ea3bbd27fdb8bb84729c725da4866fbe9",
+      "filename": "synthetic_dlt_source.json",
+      "manifest_path": "synthetic_dlt_source.json",
+      "format": "synthetic-json-m3-acceptance",
+      "declared_codepage": null,
+      "codec": "utf-8",
+      "decode_replacements": 0
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "T14.3.1",
+      "population": "DLT_EVAL",
+      "source_id": "sha256:63efadc4c25a5bce8164eee79a665e2ea3bbd27fdb8bb84729c725da4866fbe9",
+      "titles": [
+        "Synthetic DLT table for M3 acceptance only"
+      ],
+      "footnotes": [
+        "Not clinical evidence"
+      ],
+      "trailer": {},
+      "adapter": "synthetic-json-m3-acceptance"
+    }
+  ],
+  "cells": {
+    "T14.3.1|POP=DLT_EVAL|ROW=DLT_EVALUABLE|COL=DOSE_C": {
+      "v": "6",
+      "display_value": "6",
+      "type": "count",
+      "row": {
+        "id": "DLT_EVALUABLE",
+        "label": "DLT Evaluable",
+        "indent": 0
+      },
+      "column": {
+        "id": "DOSE_C",
+        "label": "Synthetic Dose C"
+      },
+      "source_locator": {
+        "source_id": "sha256:63efadc4c25a5bce8164eee79a665e2ea3bbd27fdb8bb84729c725da4866fbe9",
+        "row_index": 1,
+        "column_index": 1
+      }
+    },
+    "T14.3.1|POP=DLT_EVAL|ROW=DLT_COUNT|COL=DOSE_C": {
+      "v": "2",
+      "display_value": "2",
+      "type": "count",
+      "row": {
+        "id": "DLT_COUNT",
+        "label": "DLT Count",
+        "indent": 0
+      },
+      "column": {
+        "id": "DOSE_C",
+        "label": "Synthetic Dose C"
+      },
+      "source_locator": {
+        "source_id": "sha256:63efadc4c25a5bce8164eee79a665e2ea3bbd27fdb8bb84729c725da4866fbe9",
+        "row_index": 2,
+        "column_index": 1
+      }
+    }
+  }
+}

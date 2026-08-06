@@ -1,0 +1,127 @@
+{
+  "adapter_scope": "synthetic M4 acceptance fixture; not clinical evidence",
+  "cells": {
+    "T10.1|POP=RANDOMIZED|ROW=RANDOMIZED_COUNT|COL=PBO": {
+      "column": {"id": "PBO", "label": "Control"},
+      "display_value": "60",
+      "row": {"id": "RANDOMIZED_COUNT", "indent": 0, "label": "Randomized"},
+      "source_locator": {"column_index": 2, "row_index": 1, "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"},
+      "type": "count",
+      "v": "60"
+    },
+    "T10.1|POP=RANDOMIZED|ROW=RANDOMIZED_COUNT|COL=XYZ200MG": {
+      "column": {"id": "XYZ200MG", "label": "Experimental"},
+      "display_value": "60",
+      "row": {"id": "RANDOMIZED_COUNT", "indent": 0, "label": "Randomized"},
+      "source_locator": {"column_index": 1, "row_index": 1, "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"},
+      "type": "count",
+      "v": "60"
+    },
+    "T11.1|POP=FAS|ROW=ANALYSIS_SET_COUNT|COL=PBO": {
+      "column": {"id": "PBO", "label": "Control"},
+      "display_value": "57",
+      "row": {"id": "ANALYSIS_SET_COUNT", "indent": 0, "label": "Full analysis set"},
+      "source_locator": {"column_index": 2, "row_index": 2, "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"},
+      "type": "count",
+      "v": "57"
+    },
+    "T11.1|POP=FAS|ROW=ANALYSIS_SET_COUNT|COL=XYZ200MG": {
+      "column": {"id": "XYZ200MG", "label": "Experimental"},
+      "display_value": "58",
+      "row": {"id": "ANALYSIS_SET_COUNT", "indent": 0, "label": "Full analysis set"},
+      "source_locator": {"column_index": 1, "row_index": 2, "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"},
+      "type": "count",
+      "v": "58"
+    },
+    "T14.2.1|POP=FAS|ROW=95_CI|COL=PBO": {
+      "column": {"id": "PBO", "label": "Control"},
+      "display_value": "33.0, 57.0",
+      "row": {"id": "95_CI", "indent": 0, "label": "95% CI"},
+      "source_locator": {"column_index": 2, "row_index": 4, "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"},
+      "type": "ci95",
+      "v": "33.0, 57.0"
+    },
+    "T14.2.1|POP=FAS|ROW=95_CI|COL=XYZ200MG": {
+      "column": {"id": "XYZ200MG", "label": "Experimental"},
+      "display_value": "58.0, 81.0",
+      "row": {"id": "95_CI", "indent": 0, "label": "95% CI"},
+      "source_locator": {"column_index": 1, "row_index": 4, "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"},
+      "type": "ci95",
+      "v": "58.0, 81.0"
+    },
+    "T14.2.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=PBO": {
+      "column": {"id": "PBO", "label": "Control"},
+      "display_value": "27 (45.0)",
+      "row": {"id": "PRIMARY_RESPONSE", "indent": 0, "label": "Primary response"},
+      "source_locator": {"column_index": 2, "row_index": 3, "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"},
+      "type": "n_pct",
+      "v": "27 (45.0)"
+    },
+    "T14.2.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=XYZ200MG": {
+      "column": {"id": "XYZ200MG", "label": "Experimental"},
+      "display_value": "42 (70.0)",
+      "row": {"id": "PRIMARY_RESPONSE", "indent": 0, "label": "Primary response"},
+      "source_locator": {"column_index": 1, "row_index": 3, "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"},
+      "type": "n_pct",
+      "v": "42 (70.0)"
+    },
+    "T14.4.1.1|POP=PKAS|ROW=CMAX|COL=XYZ200MG": {
+      "column": {"id": "XYZ200MG", "label": "Experimental"},
+      "display_value": "18.2 (31.5)",
+      "row": {"id": "CMAX", "indent": 0, "label": "Cmax"},
+      "source_locator": {"column_index": 1, "row_index": 5, "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"},
+      "type": "geomean_cv",
+      "v": "18.2 (31.5)"
+    }
+  },
+  "mapping_manifest": {
+    "filename": "synthetic-m4-mapping.json",
+    "sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+  },
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "filename": "synthetic-m4-source.json",
+      "format": "synthetic-m4-v1",
+      "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    }
+  ],
+  "tables": [
+    {
+      "adapter": "synthetic-m4-v1",
+      "footnotes": [],
+      "population": "RANDOMIZED",
+      "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "table_id": "T10.1",
+      "titles": ["Synthetic randomized counts"],
+      "trailer": {}
+    },
+    {
+      "adapter": "synthetic-m4-v1",
+      "footnotes": [],
+      "population": "FAS",
+      "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "table_id": "T11.1",
+      "titles": ["Synthetic analysis-set counts"],
+      "trailer": {}
+    },
+    {
+      "adapter": "synthetic-m4-v1",
+      "footnotes": [],
+      "population": "FAS",
+      "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "table_id": "T14.2.1",
+      "titles": ["Synthetic primary response"],
+      "trailer": {}
+    },
+    {
+      "adapter": "synthetic-m4-v1",
+      "footnotes": [],
+      "population": "PKAS",
+      "source_id": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "table_id": "T14.4.1.1",
+      "titles": ["Synthetic plasma PK parameters"],
+      "trailer": {}
+    }
+  ]
+}

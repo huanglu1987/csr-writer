@@ -1,0 +1,549 @@
+# ICH E3 CSR 章节骨架（机器可读）
+# 来源：ICH E3 Guideline (Step 4, 1995-11-30) 官方 PDF 逐字核验
+#       https://database.ich.org/sites/default/files/E3_Guideline.pdf
+#       ICH E3 Q&As (R1), 2012-07-06
+#       https://database.ich.org/sites/default/files/E3_Q%26As_R1_Q%26As.pdf
+# 核验日期：2026-08-04
+#
+# ══════════════════════════════════════════════════════════════════════════
+# 【三层设计 —— 执行方必须遵守】
+#   layer: ich-official       ICH E3 原文定义。冻结，校验器报 error。
+#   layer: industry-convention 行业惯例（如 14.1.1/14.1.3）。可配置，校验器只报 info。
+#   layer: sponsor-custom      申办方自定义扩展。完全可配置。
+# 把行业惯例混进 official 层，会让使用者在被 CDE 问询时拿不出依据。
+# ══════════════════════════════════════════════════════════════════════════
+#
+# 【E3 Q&A Q1 的关键授权 —— 决定了本工具的默认行为】
+#   E3 是 guideline，不是刚性模板。重排、重命名、删除（设计上确有理由时）、
+#   新增章节，**都不需要给出理由**。只有当报告未涵盖对该研究确属相关的内容时，
+#   才需说明理由。E3 原文即声明其为"充分且良好对照的疗效研究"设计，
+#   用于临床药理研究、开放安全性研究时**应删减/增补**。
+#   → 因此本工具的默认行为是「按 study profile 裁剪」，而非「生成 16 章空壳」。
+#
+# 【两处 ICH 原文瑕疵，模板中须屏蔽，不要据此生成内容】
+#   1. 11.4.2 正文写 "see section Annex IX"，但 E3 只有 Annex I–VIII，
+#      且 Annex VIII 标题正是 "Guidance for Section 11.4.2 ... and Appendix 16.1.9"
+#      → 应指 Annex VIII。（E3 PDF 第 15 页）
+#   2. 16.1.8（稽查证书）括注 "see Annex IVa and IVb"，但 IVa/IVb 是患者处置
+#      流程图示例，与稽查证书无关。→ 视为原文笔误。
+
+meta:
+  standard: ICH E3
+  version: "Step 4, 1995-11-30"
+  amendments: ["E3 Q&As (R1), 2012-07-06"]
+  never_revised: true      # E3 自 1995 年起从未修订，骨架层在可见期内稳定
+  verified_on: "2026-08-04"
+
+sections:
+
+  - id: "1"
+    layer: ich-official
+    en: "TITLE PAGE"
+    zh: "标题页"
+    children: []
+    sources: [PROT, CTMS, REG, TMF]
+    content: >
+      研究标题、药物名、适应症、设计一句话描述、申办方、方案号、研发阶段、
+      首例入组日/末例完成日/提前终止日、主要研究者、申办方签署人、
+      GCP 合规声明、报告日期。
+
+  - id: "2"
+    layer: ich-official
+    en: "SYNOPSIS"
+    zh: "概要"
+    children: []
+    sources: [__self__]      # 从本 CSR 各节回填，禁止独立起草
+    fields_ref: annex_I      # 20 个字段见文末 annexes.annex_I
+    content: >
+      通常 3 页（复杂研究可至 10 页，见 M4E 2.7.6）。必须独立可读——
+      Q&A Q2：synopsis 在 CTD 中作为独立文件使用，**应避免交叉引用 CSR 其他章节**。
+    constraints:
+      - "E3 原文：必须含说明结果的数值数据，不能只有文字和 p 值"
+      - "Q&A Q2 追加必含：研究人群、受试者处置、重要方案偏离、治疗依从性"
+      - "表格化格式非强制（Q&A Q2）；Annex I 明示为『欧洲使用的示例格式』"
+
+  - id: "3"
+    layer: ich-official
+    en: "TABLE OF CONTENTS FOR THE INDIVIDUAL CLINICAL STUDY REPORT"
+    zh: "个例临床研究报告目录"
+    children: []
+    sources: [__auto__]
+
+  - id: "4"
+    layer: ich-official
+    en: "LIST OF ABBREVIATIONS AND DEFINITION OF TERMS"
+    zh: "缩略语和术语定义表"
+    children: []
+    sources: [__auto__, PROT, SAP]
+    content: "缩略语表 + 特殊/非常用术语与计量单位定义；首次出现处拼全并加括号缩写。"
+
+  - id: "5"
+    layer: ich-official
+    en: "ETHICS"
+    zh: "伦理学"
+    children:
+      - id: "5.1"
+        en: "Independent Ethics Committee (IEC) or Institutional Review Board (IRB)"
+        zh: "独立伦理委员会（IEC）或机构审查委员会（IRB）"
+        sources: [REG, TMF, CTMS]
+        xref: ["16.1.3"]
+      - id: "5.2"
+        en: "Ethical Conduct of the Study"
+        zh: "研究的伦理行为"
+        sources: [REG, PROT]
+        content: "确认按赫尔辛基宣言伦理原则实施。"
+      - id: "5.3"
+        en: "Patient Information and Consent"
+        zh: "患者知情与同意"
+        sources: [PROT, REG, TMF]
+        xref: ["16.1.3"]
+
+  - id: "6"
+    layer: ich-official
+    en: "INVESTIGATORS AND STUDY ADMINISTRATIVE STRUCTURE"
+    zh: "研究者和研究管理结构"
+    children: []
+    sources: [CTMS, PROT, TMF]
+    xref: ["16.1.4", "16.1.5"]
+
+  - id: "7"
+    layer: ich-official
+    en: "INTRODUCTION"
+    zh: "简介"
+    children: []
+    sources: [IB, PROT, REG]
+    content: "≤1 页：本研究在整体研发中的位置；遵循的指南；与监管机构的沟通/会议。"
+
+  - id: "8"
+    layer: ich-official
+    en: "STUDY OBJECTIVES"
+    zh: "研究目标"
+    children: []
+    sources: [PROT, SAP]
+    estimand_impact: "目标须与 estimand 一一对应；建议在方案阶段给 estimand 起标签并贯穿下游文档"
+
+  - id: "9"
+    layer: ich-official
+    en: "INVESTIGATIONAL PLAN"
+    zh: "研究计划"
+    children:
+      - id: "9.1"
+        en: "Overall Study Design and Plan - Description"
+        zh: "整体研究设计和计划 - 描述"
+        sources: [PROT]
+        xref: ["16.1.1", "16.1.2"]
+      - id: "9.2"
+        en: "Discussion of Study Design, including the Choice of Control Groups"
+        zh: "研究设计的讨论，包括对照组的选择"
+        sources: [PROT, SAP, IB, REG]
+      - id: "9.3"
+        en: "Selection of Study Population"
+        zh: "研究人群的选择"
+        children:
+          - {id: "9.3.1", en: "Inclusion Criteria", zh: "入选标准", sources: [PROT]}
+          - {id: "9.3.2", en: "Exclusion Criteria", zh: "排除标准", sources: [PROT]}
+          - {id: "9.3.3", en: "Removal of Patients from Therapy or Assessment", zh: "从治疗或评估中移除患者", sources: [PROT]}
+      - id: "9.4"
+        en: "Treatments"
+        zh: "治疗"
+        children:
+          - {id: "9.4.1", en: "Treatments Administered", zh: "给予的治疗", sources: [PROT, IP]}
+          - {id: "9.4.2", en: "Identity of Investigational Product(s)", zh: "研究性产品的标识", sources: [IP, PROT], xref: ["16.1.6"]}
+          - {id: "9.4.3", en: "Method of Assigning Patients to Treatment Groups", zh: "患者的治疗组分配方法", sources: [IP, PROT, SAP], xref: ["16.1.7"]}
+          - {id: "9.4.4", en: "Selection of Doses in the Study", zh: "研究中的剂量选择", sources: [PROT, IB]}
+          - {id: "9.4.5", en: "Selection and Timing of Dose for each Patient", zh: "每位患者的研究剂量和给药时间", sources: [PROT]}
+          - {id: "9.4.6", en: "Blinding", zh: "盲法", sources: [PROT, IP, SAP]}
+          - {id: "9.4.7", en: "Prior and Concomitant Therapy", zh: "既往和伴随治疗", sources: [PROT, CRF]}
+          - {id: "9.4.8", en: "Treatment Compliance", zh: "治疗依从性", sources: [PROT, CRF]}
+      - id: "9.5"
+        en: "Efficacy and Safety Variables"
+        zh: "疗效和安全性变量"
+        children:
+          - {id: "9.5.1", en: "Efficacy and Safety Measurements Assessed and Flow Chart", zh: "评估的疗效和安全性指标和流程图", sources: [PROT, CRF, MM]}
+          - {id: "9.5.2", en: "Appropriateness of Measurements", zh: "衡量指标的适当性", sources: [PROT, IB]}
+          - {id: "9.5.3", en: "Primary Efficacy Variable(s)", zh: "主要疗效变量", sources: [PROT, SAP]}
+          - {id: "9.5.4", en: "Drug Concentration Measurements", zh: "药物浓度测定", sources: [PROT, BIOANALYTICAL]}
+      - id: "9.6"
+        en: "Data Quality Assurance"
+        zh: "数据质量保证"
+        sources: [DMR, REG, TMF]
+        xref: ["16.1.8", "16.1.10"]
+      - id: "9.7"
+        en: "Statistical Methods Planned in the Protocol and Determination of Sample Size"
+        zh: "研究方案中计划的统计方法和样本量的确定"
+        children:
+          - id: "9.7.1"
+            en: "Statistical and Analytical Plans"
+            zh: "统计分析计划"
+            sources: [SAP, PROT, DMC_CHARTER]
+            note: "重点是『计划了什么』，不是『实际做了什么』"
+            estimand_impact: "升级为 estimand → main estimator → sensitivity analysis 三层对齐；须写明 main estimator 的关键假设"
+          - id: "9.7.2"
+            en: "Determination of Sample Size"
+            zh: "样本量的确定"
+            sources: [PROT, SAP]
+            estimand_impact: "样本量须基于目标 estimand；引用历史研究时须警惕其 estimand 不同"
+      - id: "9.8"
+        en: "Changes in the Conduct of the Study or Planned Analyses"
+        zh: "研究过程或分析计划的变更"
+        sources: [PROT_AMEND, SAP_AMEND, MM, DMR]
+        content: "重点刻画变更相对揭盲的时点；无论是否形成正式修订案都要写。"
+
+  - id: "10"
+    layer: ich-official
+    en: "STUDY PATIENTS"
+    zh: "研究患者"
+    children:
+      - id: "10.1"
+        en: "Disposition of Patients"
+        zh: "患者的处置"
+        sources: [SAR, TFL, DMR, CTMS]
+        xref: ["16.2.1"]
+        annex_example: ["IVa", "IVb"]
+        estimand_impact: "disposition 汇总与 IE 汇总重叠但不等价，应另设专用 IE 汇总"
+      - id: "10.2"
+        en: "Protocol Deviations"
+        zh: "方案偏离"
+        sources: [MM, SAR, TFL, DMR, PROT]
+        xref: ["16.2.2"]
+        qa_ref: "Q7 — deviation / important deviation / violation 三者定义"
+
+  - id: "11"
+    layer: ich-official
+    en: "EFFICACY EVALUATION"
+    zh: "疗效评估"
+    children:
+      - id: "11.1"
+        en: "Data Sets Analysed"
+        zh: "分析数据集"
+        sources: [SAP, SAR, DMR, MM]
+        xref: ["16.2.3"]
+        content: "疗效确证性试验必须额外提供全随机化人群分析。"
+      - id: "11.2"
+        en: "Demographic and Other Baseline Characteristics"
+        zh: "人口统计学和其他基线特征"
+        sources: [SAR, TFL, SAP, DMR]
+        xref: ["14.1", "16.2.4"]
+        estimand_impact: "应只保留基线数据；研究期间产生的数据移到各 estimand 的结果节"
+      - id: "11.3"
+        en: "Measurements of Treatment Compliance"
+        zh: "治疗依从性的测量"
+        sources: [SAR, TFL, DMR]
+        xref: ["16.2.5"]
+      - id: "11.4"
+        en: "Efficacy Results and Tabulations of Individual Patient Data"
+        zh: "疗效结果和个体患者数据列表"
+        children:
+          - id: "11.4.1"
+            en: "Analysis of Efficacy"
+            zh: "疗效分析"
+            sources: [SAR, TFL, SAP]
+            content: "必须给出效应量点估计 + 置信区间，以及假设检验结果。"
+          - id: "11.4.2"
+            en: "Statistical/Analytical Issues"
+            zh: "统计/分析内容"
+            xref: ["16.1.9"]
+            spec_ref: annex_VIII
+            children:
+              - {id: "11.4.2.1", en: "Adjustments for Covariates", zh: "协变量的调整"}
+              - {id: "11.4.2.2", en: "Handling of Dropouts or Missing Data", zh: "脱落或缺失数据的处理",
+                 estimand_impact: "需重写——E9(R1) 严格区分『缺失数据』与『因 IE 而无意义的数据』"}
+              - {id: "11.4.2.3", en: "Interim Analyses and Data Monitoring", zh: "试验期中分析和数据监查",
+                 xref: ["16.1.9"], content: "所有期中分析（正式/非正式、预设/事后、任何人做的）都要完整描述"}
+              - {id: "11.4.2.4", en: "Multicentre Studies", zh: "多中心研究"}
+              - {id: "11.4.2.5", en: "Multiple Comparison/Multiplicity", zh: "多重比较/多重性"}
+              - {id: "11.4.2.6", en: 'Use of an "Efficacy Subset" of Patients', zh: "患者『疗效子集』的使用",
+                 estimand_impact: "在 E9(R1) 框架下基本作废（A.5.3）；estimand 模式下应默认折叠"}
+              - {id: "11.4.2.7", en: "Active-Control Studies Intended to Show Equivalence", zh: "旨在表明等效性的阳性对照研究"}
+              - {id: "11.4.2.8", en: "Examination of Subgroups", zh: "亚组的考察"}
+          - {id: "11.4.3", en: "Tabulation of Individual Response Data", zh: "个体疗效数据列表", xref: ["16.2.6"]}
+          - {id: "11.4.4", en: "Drug Dose, Drug Concentration, and Relationships to Response", zh: "药物剂量、药物浓度以及与效应之间的关系", xref: ["16.2.5"], sources: [SAR, PK_REPORT]}
+          - {id: "11.4.5", en: "Drug-Drug and Drug-Disease Interactions", zh: "药物-药物和药物-疾病相互作用"}
+          - {id: "11.4.6", en: "By-Patient Displays", zh: "按患者列出"}
+          - {id: "11.4.7", en: "Efficacy Conclusions", zh: "疗效结论",
+             human_required: true,
+             estimand_impact: "应纳入敏感性分析结果，并讨论外部效度与可转移性"}
+
+  - id: "12"
+    layer: ich-official
+    en: "SAFETY EVALUATION"
+    zh: "安全性评价"
+    intro_note: >
+      安全性分析三层次：暴露程度 → 常见 AE/实验室改变 → SAE 与其他重要 AE。
+      须给出 SAE 定义（引 ICH E2A）与"其他重要 AE"定义。
+      **所有表格必须同时展示试验药与对照的事件。**
+    children:
+      - id: "12.1"
+        en: "Extent of Exposure"
+        zh: "暴露程度"
+        sources: [SAR, TFL, DMR]
+        xref: ["16.2.5"]
+        content: "暴露的例数、时长、剂量三维刻画。默认所有至少用药一次者纳入安全集，否则须说明。"
+      - id: "12.2"
+        en: "Adverse Events (AEs)"
+        zh: "不良事件（AE）"
+        children:
+          - {id: "12.2.1", en: "Brief Summary of Adverse Events", zh: "不良事件概要", human_required: true}
+          - id: "12.2.2"
+            en: "Display of Adverse Events"
+            zh: "不良事件的列出"
+            xref: ["14.3.1"]
+            qa_ref: "Q6"
+            content: >
+              正文只放「较常见 AE（如 ≥1%）的治疗组 vs 对照组对比表，
+              **不含患者编号、不含研究者原始术语**」。
+              含受试者标识与原始术语的完整表放 14.3.1。
+              ⚠ E3 里印在 12.2.2 的那张示例表其实是给 14.3.1 用的（Q&A Q6 澄清）。
+          - {id: "12.2.3", en: "Analysis of Adverse Events", zh: "不良事件分析", sources: [SAR, TFL]}
+          - {id: "12.2.4", en: "Listing of Adverse Events by Patient", zh: "各患者不良事件列表", xref: ["16.2.7"], sources: [PV, TFL, DMR]}
+      - id: "12.3"
+        en: "Deaths, Other Serious Adverse Events, and Other Significant Adverse Events"
+        zh: "死亡、其他严重不良事件和其他重要不良事件"
+        children:
+          - id: "12.3.1"
+            en: "Listing of Deaths, other Serious Adverse Events and Other Significant Adverse Events"
+            zh: "死亡、其他严重不良事件和其他重要不良事件列表"
+            children:
+              - {id: "12.3.1.1", en: "Deaths", zh: "死亡", xref: ["14.3.2"],
+                 note: "12.3.1.1 是死亡的**唯一完整集合**；与 12.3.1.2 允许交叉（Q&A Q5）"}
+              - {id: "12.3.1.2", en: "Other Serious Adverse Events", zh: "其他严重不良事件", xref: ["14.3.2"]}
+              - {id: "12.3.1.3", en: "Other Significant Adverse Events", zh: "其他重要不良事件", xref: ["14.3.2"]}
+          - {id: "12.3.2", en: "Narratives of Deaths, Other Serious Adverse Events and Certain Other Significant Adverse Events",
+             zh: "死亡、其他严重不良事件和某些其它重要不良事件的叙述",
+             xref: ["14.3.3", "16.3.1"], sources: [PV, MM, CRF], human_required: true}
+          - {id: "12.3.3", en: "Analysis and Discussion of Deaths, Other Serious Adverse Events and Other Significant Adverse Events",
+             zh: "死亡、其他严重不良事件和其他重要不良事件的分析和讨论", human_required: true}
+      - id: "12.4"
+        en: "Clinical Laboratory Evaluation"
+        zh: "临床实验室评估"
+        children:
+          - id: "12.4.1"
+            en: "Listing of Individual Laboratory Measurements by Patient (16.2.8) and Each Abnormal Laboratory Value (14.3.4)"
+            zh: "各患者的个例实验室测量值列表（16.2.8）和各异常实验室值（14.3.4）"
+            xref: ["14.3.4", "16.2.8"]
+            content: >
+              两个不同输出：(a) 全部实验室值按患者列表 → 16.2.8（**仅当监管机构要求**）；
+              (b) 异常实验室值按患者列表 → 14.3.4（**全部监管机构都要求**）。
+          - id: "12.4.2"
+            en: "Evaluation of Each Laboratory Parameter"
+            zh: "各实验室参数的评价"
+            children:
+              - {id: "12.4.2.1", en: "Laboratory Values Over Time", zh: "随时间变化的实验室数值"}
+              - {id: "12.4.2.2", en: "Individual Patient Changes", zh: "个例患者变化",
+                 content: "三种方法：shift table / 预设变化幅度的例数比例表 / 基线 vs 治疗中散点图"}
+              - {id: "12.4.2.3", en: "Individual Clinically Significant Abnormalities", zh: "个例临床重要异常值",
+                 xref: ["14.3.3"], human_required: true}
+      - {id: "12.5", en: "Vital Signs, Physical Findings and Other Observations Related to Safety",
+         zh: "生命体征、体格检查发现和其他安全性相关观察结果", sources: [SAR, TFL]}
+      - {id: "12.6", en: "Safety Conclusions", zh: "安全性结论", human_required: true}
+
+  - id: "13"
+    layer: ich-official
+    en: "DISCUSSION AND OVERALL CONCLUSIONS"
+    zh: "讨论和总体结论"
+    children: []
+    human_required: true
+    content: "不得简单重复结果，也不得引入新结果。"
+
+  - id: "14"
+    layer: ich-official
+    en: "TABLES, FIGURES AND GRAPHS REFERRED TO BUT NOT INCLUDED IN THE TEXT"
+    zh: "参考但不纳入文本的表格、图示和图表"
+    children:
+      - id: "14.1"
+        en: "Demographic Data"
+        zh: "人口统计学数据"
+        children_official: []      # ⚠ E3 官方无子节
+        children_convention:       # 行业惯例，layer=industry-convention
+          - {id: "14.1.1", zh: "受试者处置", layer: industry-convention}
+          - {id: "14.1.2", zh: "方案偏离", layer: industry-convention}
+          - {id: "14.1.3", zh: "人口学与基线特征", layer: industry-convention}
+      - id: "14.2"
+        en: "Efficacy Data"
+        zh: "疗效数据"
+        children_official: []      # ⚠ E3 官方无子节
+      - id: "14.3"
+        en: "Safety Data"
+        zh: "安全性数据"
+        children:
+          - {id: "14.3.1", en: "Displays of Adverse Events", zh: "不良事件列表",
+             content: "全部治疗后 AE 汇总表，**含受试者标识 + 研究者原始术语**。这是 E3 最常放错的地方。"}
+          - {id: "14.3.2", en: "Listings of Deaths, Other Serious and Significant Adverse Events",
+             zh: "死亡、其他严重和重要不良事件的列表",
+             content: "⚠ 死亡/SAE 的个体列表在 14.3.2，**不在 16.2.x**"}
+          - {id: "14.3.3", en: "Narratives of Deaths, Other Serious and Certain Other Significant Adverse Events",
+             zh: "死亡、其他严重和某些其他重要不良事件的叙述", condition: "数量多不宜放正文时"}
+          - {id: "14.3.4", en: "Abnormal Laboratory Value Listing (Each Patient)",
+             zh: "异常实验室数值列表（各患者）", mandatory_all_authorities: true}
+
+  - id: "15"
+    layer: ich-official
+    en: "REFERENCE LIST"
+    zh: "参考文献列表"
+    children: []
+    xref: ["16.1.11", "16.1.12"]
+    content: "Vancouver 或 Chemical Abstracts 格式。"
+
+  - id: "16"
+    layer: ich-official
+    en: "APPENDICES"
+    zh: "附录"
+    intro_note: "本节开头须给出全部可用附录的完整清单，并明确标注哪些随报告递交、哪些仅备索。"
+    children:
+      - id: "16.1"
+        en: "Study Information"
+        zh: "研究信息"
+        children:
+          - {id: "16.1.1", en: "Protocol and protocol amendments", zh: "方案和方案修订案", submit: always}
+          - {id: "16.1.2", en: "Sample case report form (unique pages only)", zh: "病例报告表样本（仅提供唯一页面）", submit: always}
+          - {id: "16.1.3", en: "List of IECs or IRBs - Representative written information for patient and sample consent forms",
+             zh: "IEC 或 IRB 列表 - 代表性患者书面信息和同意书样本",
+             submit: conditional,
+             qa_note: "⚠ Q&A Q3：伦理批件与知情同意书**通常不放入 CSR 附录**，留 TMF"}
+          - {id: "16.1.4", en: "List and description of investigators and other important participants, including brief CVs",
+             zh: "研究者及其他重要研究参与者的列表和描述，包括个人简历",
+             submit: conditional,
+             qa_note: "⚠ Q&A Q3：研究者 **CV 通常不放入** CSR 附录；但研究者与中心名单『always be needed』"}
+          - {id: "16.1.5", en: "Signatures of principal or coordinating investigator(s) or sponsor's responsible medical officer",
+             zh: "主要或协调研究者或申办方负责医学专员的签名", spec_ref: annex_II, human_required: true}
+          - {id: "16.1.6", en: "Listing of patients receiving test drug(s) from specific batches, where more than one batch was used",
+             zh: "如使用 1 批以上药物，接受特定批次试验药品的患者列表",
+             submit: conditional, qa_note: "⚠ Q&A Q3：每例受试者的批号通常不放入 CSR 附录"}
+          - {id: "16.1.7", en: "Randomisation scheme and codes", zh: "随机方案和编号", submit: always}
+          - {id: "16.1.8", en: "Audit certificates (if available)", zh: "稽查证书（如有）",
+             submit: conditional, note: "按 ICH-GCP，在适用法规要求时提供"}
+          - {id: "16.1.9", en: "Documentation of statistical methods", zh: "统计学方法的文件",
+             submit: always, spec_ref: annex_VIII,
+             note: "内容规格由 Annex VIII 定义。DMC 会议纪要及其审阅的数据报告也放这里（11.4.2.3）"}
+          - {id: "16.1.10", en: "Documentation of inter-laboratory standardisation methods and quality assurance procedures if used",
+             zh: "实验室间标准化方法和质量保证程序的文件（如使用）", submit: conditional}
+          - {id: "16.1.11", en: "Publications based on the study", zh: "基于研究的发表文章", submit: conditional}
+          - {id: "16.1.12", en: "Important publications referenced in the report", zh: "报告中引用的重要发表文章", submit: conditional}
+          # ⛔ 不存在 16.1.13。任何 16.1.13+ 都是 sponsor-custom 层。
+      - id: "16.2"
+        en: "Patient Data Listings"
+        zh: "患者数据列表"
+        children:
+          - {id: "16.2.1", en: "Discontinued patients", zh: "终止研究患者", spec_ref: annex_V}
+          - {id: "16.2.2", en: "Protocol deviations", zh: "方案偏离"}
+          - {id: "16.2.3", en: "Patients excluded from the efficacy analysis", zh: "疗效分析中排除的患者", spec_ref: annex_VI}
+          - {id: "16.2.4", en: "Demographic data", zh: "人口统计学数据"}
+          - {id: "16.2.5", en: "Compliance and/or drug concentration data (if available)", zh: "依从性和/或药物浓度数据"}
+          - {id: "16.2.6", en: "Individual efficacy response data", zh: "个体疗效数据"}
+          - {id: "16.2.7", en: "Adverse event listings (each patient)", zh: "不良事件列表（各患者）"}
+          - {id: "16.2.8", en: "Listing of individual laboratory measurements by patient, when required by regulatory authorities",
+             zh: "按患者列出的个体实验室测量值列表", submit: conditional}
+      - id: "16.3"
+        en: "Case Report Forms"
+        zh: "病例报告表"
+        children:
+          - {id: "16.3.1", en: "CRFs for deaths, other serious adverse events and withdrawals for AE",
+             zh: "死亡、其他严重不良事件或 AE 导致的退出的 CRF"}
+          - {id: "16.3.2", en: "Other CRFs submitted", zh: "递交的其他 CRF"}
+      - {id: "16.4", en: "Individual Patient Data Listings (US Archival Listings)",
+         zh: "个例患者数据列表（US 存档列表）", submit: "US only"}
+
+# ══════════════════════════════════════════════════════════════════════════
+# 14.x ↔ 16.x 路由规则（硬编码 E3 明文，最易做错，务必照此实现）
+# ══════════════════════════════════════════════════════════════════════════
+routing_rules:
+  - if: "输出是汇总/统计量/率/组间比较"
+    then: "14.x（体量小且关键 → 正文内嵌）"
+  - if: "输出是按患者一行一记录的明细列表 AND 属安全性关键事件（死亡/SAE/其他重要AE/异常实验室值）"
+    then: "14.3.2 / 14.3.4"
+    warning: "⚠ 反直觉：死亡/SAE 个体列表在 14.3.2，不在 16.2.x"
+  - if: "输出是按患者明细列表 AND 属其他类别"
+    then: "16.2.x"
+  - if: "输出是完整 AE 表（含受试者标识 + 原始术语）"
+    then: "14.3.1"
+    warning: "⚠ 反直觉：含受试者标识的完整 AE 表在 14.3.1，不在 16.x"
+  - if: "输出是文档/证书/方案/CRF/统计方法/文献"
+    then: "16.1.x"
+  - if: "输出是 CRF 影印件"
+    then: "16.3.x"
+  - if: "输出是全部受试者全部变量的存档列表"
+    then: "16.4（仅 US）"
+
+# ══════════════════════════════════════════════════════════════════════════
+# 一致性校验规则（供 qc_completeness.py 实现）
+# ══════════════════════════════════════════════════════════════════════════
+consistency_rules:
+  - id: DEATH_SUPERSET
+    rule: "12.3.1.1 的死亡集合必须是全集；12.3.1.2 中致死性转归的 SAE 受试者必须已在 12.3.1.1 出现"
+    source: "Q&A Q5"
+  - id: AE_SUBGROUP_TOTAL
+    rule: "按亚组呈现 AE 时，必须同时提供全体受试者的总体 AE 表"
+    source: "Q&A Q6"
+  - id: SYNOPSIS_NO_XREF
+    rule: "Synopsis 中不得出现对 CSR 其他章节的交叉引用"
+    source: "Q&A Q2"
+  - id: SYNOPSIS_HAS_NUMBERS
+    rule: "Synopsis 必须含数值结果，不能只有文字和 p 值"
+    source: "E3 §2"
+  - id: SAFETY_BOTH_ARMS
+    rule: "第 12 章所有表格必须同时展示试验药与对照的事件"
+    source: "E3 §12 引言"
+  - id: PROTOCOL_DEVIATION_TERM
+    rule: "Annex IVa 风格的处置流程图中，PROTOCOL VIOLATION 须改为 PROTOCOL DEVIATION"
+    source: "Q&A Q7"
+  - id: ESTIMAND_PRESPEC_LABEL
+    rule: "每个分析必须标注 pre-specified / introduced while blinded / post hoc"
+    source: "E9(R1) A.6"
+  - id: ESTIMAND_IE_SUMMARY
+    rule: "必须按治疗组汇总每类 intercurrent event 的数量与发生时间"
+    source: "E9(R1) A.6"
+
+# ══════════════════════════════════════════════════════════════════════════
+# Annex 规格引用（E3 附件本身是指南示例，不是 CSR 的一部分）
+# ══════════════════════════════════════════════════════════════════════════
+annexes:
+  annex_I:
+    title: "Synopsis (Example)"
+    note: "E3 原文明示为『欧洲使用的示例格式』，非强制"
+    fields:
+      header: [申办方/公司名称, 制剂名称, 活性成分名称, 个例研究表格对应申报资料部分/卷/页, 仅供国家监管机构使用]
+      page1: [研究标题, 研究者, 研究中心, 发表文献, "研究期间（首例入组日/末例完成日）", 研发阶段,
+              研究目标, 方法学, "患者数（计划与分析）", 诊断与主要入选标准,
+              "试验药、剂量、给药方式、批号", 治疗持续时间, "对照治疗、剂量、给药方式、批号"]
+      page2: ["评价标准：疗效", "评价标准：安全性", 统计方法,
+              "总结与结论：疗效结果", "总结与结论：安全性结果", "总结与结论：结论", 报告日期]
+  annex_II:
+    title: "Signature page"
+    note: "签名页表单，非表格示例"
+    required_elements: [STUDY TITLE, STUDY AUTHOR(S), 确认声明语句, INVESTIGATOR/SPONSOR MEDICAL OFFICER, SIGNATURE(S), AFFILIATION, DATE]
+    statement: "I have read this report and confirm that to the best of my knowledge it accurately describes the conduct and results of the study"
+  annex_IIIa: {title: "研究设计与评估时间表示例（交叉/剂量递增型）", used_by: ["9.1", "9.5.1"]}
+  annex_IIIb: {title: "研究设计与评估时间表示例（筛选+导入+随机化+随访型）", used_by: ["9.1", "9.5.1"]}
+  annex_IVa:
+    title: "患者处置流程图（简版，从接受双盲药物起算）"
+    used_by: ["10.1"]
+    withdrawal_categories: [ADVERSE EVENT, UNSAT. RESPONSE EFFICACY, FAILURE TO RETURN,
+                            OTHER MED. EVENT, OTHER NONMED. EVENT, PROTOCOL DEVIATION, PATIENT REQUEST]
+    note: "原文写 PROTOCOL VIOLATION，Q&A Q7 要求改为 PROTOCOL DEVIATION"
+  annex_IVb: {title: "患者处置流程图（完整版，从筛选起算）", used_by: ["10.1"]}
+  annex_V:
+    title: "退出治疗患者列表"
+    used_by: ["10.1"]
+    target: "16.2.1"
+    columns: [Treatment, "Patient #", Sex, Age, Last Visit, Duration, Dose, Concomitant Medication, Reason for Discontin.]
+  annex_VI:
+    title: "疗效分析中排除的患者与观察列表"
+    used_by: ["11.1"]
+    target: "16.2.3"
+    columns: [Treatment, "Patient #", Sex, Age, Observation Excluded, "Reason(s)"]
+  annex_VII: {title: "疗效分析中排除的患者数目（行=Reason，列=Week）", used_by: ["11.1"]}
+  annex_VIII:
+    title: "16.1.9 统计方法文档的内容规格"
+    used_by: ["11.4.2"]
+    target: "16.1.9"
+    part_A_statistical_considerations:
+      - "分析所依据的统计模型（精确完整，可引文献）"
+      - "用精确统计语言陈述被检验的临床主张（原假设与备择假设）"
+      - "用于效应估计与置信区间构建的统计方法"
+      - "统计方法的假设及其满足性验证"
+      - "检验统计量、原假设下的抽样分布、统计量取值、显著性水平（须注明单尾/双尾）、中间汇总数据"
+    minimum_requirements:
+      two_sample_t: [t值, 自由度, p值, 两组样本量, 各组均值与方差, 合并方差估计]
+      multicentre_anova: ["含中心、治疗、交互、误差、总计各项的方差分析表"]
+      crossover: ["序列、序列内患者、各期基线、洗脱及其长度、各期脱落、治疗、周期、治疗×周期交互、误差、总计；每个变异来源须给自由度、平方和、均方、F 检验、p 值和期望均方"]
+    part_B: "患者数据列表 + 支持结论的表格；申办方可能被要求以计算机可读格式提供"

@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.1",
+  "section_id": "11.4",
+  "variant": "exploratory",
+  "evidence_status": "demo_only",
+  "tfl_bindings": [
+    {
+      "role": "experimental_result",
+      "key": "T14.2.1.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=ACTIVE_A",
+      "source_id": "T14.2.1.1",
+      "context": "脱敏后主要终点试验组结果单元格；仅提供语义位置，不向写手提供数值"
+    },
+    {
+      "role": "control_result",
+      "key": "T14.2.1.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=PBO",
+      "source_id": "T14.2.1.1",
+      "context": "脱敏后主要终点对照组结果单元格；仅提供语义位置，不向写手提供数值"
+    },
+    {
+      "role": "experimental_ci",
+      "key": "T14.2.1.1|POP=FAS|ROW=PRIMARY_RESPONSE_CI95|COL=ACTIVE_A",
+      "source_id": "T14.2.1.1",
+      "context": "脱敏后试验组区间估计单元格"
+    },
+    {
+      "role": "control_ci",
+      "key": "T14.2.1.1|POP=FAS|ROW=PRIMARY_RESPONSE_CI95|COL=PBO",
+      "source_id": "T14.2.1.1",
+      "context": "脱敏后对照组区间估计单元格"
+    },
+    {
+      "role": "between_group_difference",
+      "key": "T14.2.1.1|POP=FAS|ROW=BETWEEN_GROUP_DIFFERENCE|COL=STAT",
+      "source_id": "T14.2.1.1",
+      "context": "脱敏后组间差异单元格"
+    },
+    {
+      "role": "p_value",
+      "key": "T14.2.1.1|POP=FAS|ROW=P_VALUE|COL=STAT",
+      "source_id": "T14.2.1.1",
+      "context": "脱敏后预先规定检验结果单元格"
+    }
+  ],
+  "tfl_references": ["T14.2.1.1"],
+  "source_fragments": [
+    {
+      "source_id": "DEID-PROTOCOL-EFFICACY",
+      "locator": "deidentified protocol endpoint excerpt",
+      "purpose": "endpoint_definition",
+      "text": "主要疗效终点按经审核的响应标准进行判定。"
+    },
+    {
+      "source_id": "DEID-SAP-EFFICACY-SET",
+      "locator": "deidentified SAP analysis-set excerpt",
+      "purpose": "analysis_set",
+      "text": "主要疗效分析集为经确认的全分析集。"
+    },
+    {
+      "source_id": "DEID-SAP-EFFICACY-METHOD",
+      "locator": "deidentified SAP method excerpt",
+      "purpose": "analysis_method",
+      "text": "本分析为探索性组间比较，不用于独立支持确证性结论。"
+    }
+  ]
+}

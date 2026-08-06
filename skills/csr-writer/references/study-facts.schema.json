@@ -1,0 +1,404 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.csr-writer.example/schemas/study-facts.schema.json",
+  "title": "CSR Writer study_facts",
+  "description": "M4.2 frozen study facts contract for broad phase 1-3 routing. Phase is metadata only and MUST NOT be used for routing.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "protocol_id",
+    "phase",
+    "objectives",
+    "design",
+    "population",
+    "data_domains",
+    "analyses"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.2"
+    },
+    "protocol_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "study_title": {
+      "type": ["string", "null"]
+    },
+    "phase": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Non-routing metadata used only for suggestions and plausibility warnings."
+    },
+    "objectives": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "safety_tolerability",
+        "pk_characterization",
+        "dose_exploration",
+        "efficacy",
+        "confirmatory_efficacy",
+        "pharmacodynamics",
+        "determine_mtd",
+        "determine_rp2d",
+        "primary_endpoints",
+        "secondary_endpoints"
+      ],
+      "properties": {
+        "safety_tolerability": {"type": "boolean"},
+        "pk_characterization": {"type": "boolean"},
+        "dose_exploration": {"type": "boolean"},
+        "efficacy": {"type": "boolean"},
+        "confirmatory_efficacy": {"type": "boolean"},
+        "pharmacodynamics": {"type": "boolean"},
+        "determine_mtd": {"type": "boolean"},
+        "determine_rp2d": {"type": "boolean"},
+        "primary_endpoints": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/endpoint"}
+        },
+        "secondary_endpoints": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/endpoint"}
+        }
+      }
+    },
+    "design": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "randomized",
+        "controlled",
+        "blinding",
+        "type",
+        "study_type",
+        "route_of_administration",
+        "control_types",
+        "clinical_pharmacology_studies",
+        "escalation_scheme",
+        "dlt_defined",
+        "expansion_cohorts",
+        "adaptive",
+        "noninferiority",
+        "interim_analysis",
+        "n_centers",
+        "dose_levels",
+        "cycle_days",
+        "dlt_window",
+        "dosing_interval_weeks"
+      ],
+      "properties": {
+        "randomized": {"type": "boolean"},
+        "controlled": {"type": "boolean"},
+        "blinding": {
+          "enum": ["open_label", "single_blind", "double_blind", "observer_blind", "other"]
+        },
+        "type": {
+          "enum": ["parallel", "crossover", "single_arm", "sequential", "other"]
+        },
+        "route_of_administration": {
+          "enum": [
+            "oral",
+            "intravenous",
+            "subcutaneous",
+            "intramuscular",
+            "topical",
+            "inhalation",
+            "ophthalmic",
+            "other_systemic",
+            "other_local"
+          ],
+          "description": "Reviewed administration route; never infer it from the phase label or free-text title."
+        },
+        "control_types": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": ["placebo", "active", "no_treatment", "dose_comparison", "other"]
+          }
+        },
+        "clinical_pharmacology_studies": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": ["bioequivalence", "drug_drug_interaction", "food_effect"]
+          },
+          "description": "Explicit reviewed design tags for dedicated clinical-pharmacology studies."
+        },
+        "escalation_scheme": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Canonical value 'none' means no dose escalation; any other reviewed scheme name activates dose escalation."
+        },
+        "dlt_defined": {"type": "boolean"},
+        "expansion_cohorts": {"type": "integer", "minimum": 0},
+        "adaptive": {"type": "boolean"},
+        "noninferiority": {"type": "boolean"},
+        "interim_analysis": {"type": "boolean"},
+        "n_centers": {"type": "integer", "minimum": 1},
+        "dose_levels": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/quantity"}
+        },
+        "cycle_days": {"type": ["integer", "null"], "minimum": 1},
+        "dlt_window": {
+          "anyOf": [
+            {"type": "null"},
+            {"$ref": "#/$defs/dlt_window"}
+          ]
+        },
+        "study_type": {
+          "enum": [
+            "general_interventional",
+            "drug_drug_interaction",
+            "food_effect",
+            "hepatic_impairment",
+            "renal_impairment",
+            "bioequivalence",
+            "other"
+          ],
+          "description": "Reviewed study-purpose design type. It is independent of the phase label. bioequivalence is a framework-only routing slot in this release."
+        },
+        "dosing_interval_weeks": {"type": ["number", "null"], "exclusiveMinimum": 0}
+      }
+    },
+    "population": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "healthy_volunteer",
+        "patients",
+        "enriched",
+        "special_populations",
+        "target_condition",
+        "planned_sample_size",
+        "inclusion_summary"
+      ],
+      "properties": {
+        "healthy_volunteer": {"type": "boolean"},
+        "patients": {"type": "boolean"},
+        "enriched": {"type": "boolean"},
+        "special_populations": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": ["renal_impairment", "hepatic_impairment", "pediatric", "older_adult", "pregnancy", "other"]
+          }
+        },
+        "target_condition": {"type": ["string", "null"]},
+        "planned_sample_size": {"type": ["integer", "null"], "minimum": 1},
+        "inclusion_summary": {"type": "string"}
+      }
+    },
+    "data_domains": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "safety",
+        "efficacy",
+        "dlt",
+        "pk_concentration",
+        "ada",
+        "pd_biomarker",
+        "tumor_response",
+        "survival",
+        "ecg",
+        "ecg_intensive",
+        "local_tolerance",
+        "pulmonary_function",
+        "ophthalmic_safety",
+        "ae_consequence_strata",
+        "therapeutic_area_endpoints",
+        "pk_sampling_timepoints_h"
+      ],
+      "properties": {
+        "safety": {"type": "boolean"},
+        "efficacy": {"type": "boolean"},
+        "dlt": {"type": "boolean"},
+        "pk_concentration": {"type": "boolean"},
+        "ada": {"type": "boolean"},
+        "pd_biomarker": {"type": "boolean"},
+        "tumor_response": {"type": "boolean"},
+        "survival": {"type": "boolean"},
+        "ecg": {"type": "boolean"},
+        "ecg_intensive": {"type": "boolean"},
+        "local_tolerance": {"type": "boolean"},
+        "pulmonary_function": {"type": "boolean"},
+        "ophthalmic_safety": {"type": "boolean"},
+        "ae_consequence_strata": {
+          "type": "boolean",
+          "description": "Whether paired TEAE/TRAE tables stratify events causing dose reduction, interruption, or permanent discontinuation."
+        },
+        "ae_study_withdrawal": {
+          "type": "boolean",
+          "description": "Reviewed flag for an analysis of adverse events causing withdrawal from the study, distinct from permanent study-drug discontinuation. Optional for backward compatibility."
+        },
+        "aesi": {
+          "type": "boolean",
+          "description": "Reviewed protocol/SAP flag for a predefined adverse-event-of-special-interest analysis. Optional for backward compatibility."
+        },
+        "vital_signs": {
+          "type": "boolean",
+          "description": "Reviewed flag for a dedicated clinically significant vital-sign analysis. Optional for backward compatibility."
+        },
+        "pregnancy": {
+          "type": "boolean",
+          "description": "Reviewed flag for pregnancy reporting in the CSR safety results. Optional for backward compatibility."
+        },
+        "medication_error_overdose_misuse": {
+          "type": "boolean",
+          "description": "Reviewed flag for medication error, overdose or misuse reporting. Optional for backward compatibility."
+        },
+        "therapeutic_area_endpoints": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "infection_microbiology",
+              "dermatology_scales",
+              "oncology_response",
+              "cardiovascular_events",
+              "other"
+            ]
+          },
+          "description": "Extensible endpoint-domain tags. M4.1 implements infection and dermatology; oncology and cardiovascular remain declared extension slots."
+        },
+        "pk_sampling_timepoints_h": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {"type": "number", "minimum": 0}
+        }
+      }
+    },
+    "analyses": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "descriptive_only",
+        "hypothesis_test",
+        "multiplicity_control",
+        "estimand_framework",
+        "nca",
+        "population_pk",
+        "dose_proportionality",
+        "exposure_response",
+        "time_to_event",
+        "subgroup",
+        "analysis_sets",
+        "sample_size_assumptions",
+        "estimand",
+        "testing_strategy"
+      ],
+      "properties": {
+        "descriptive_only": {"type": "boolean"},
+        "hypothesis_test": {"type": "boolean"},
+        "multiplicity_control": {"type": "boolean"},
+        "estimand_framework": {"type": "boolean"},
+        "nca": {"type": "boolean"},
+        "population_pk": {"type": "boolean"},
+        "dose_proportionality": {"type": "boolean"},
+        "exposure_response": {"type": "boolean"},
+        "time_to_event": {"type": "boolean"},
+        "subgroup": {"type": "boolean"},
+        "analysis_sets": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/analysis_set"}
+        },
+        "sample_size_assumptions": {
+          "anyOf": [
+            {"type": "null"},
+            {"$ref": "#/$defs/sample_size_assumptions"}
+          ]
+        },
+        "estimand": {
+          "anyOf": [
+            {"type": "null"},
+            {"$ref": "#/$defs/estimand"}
+          ]
+        },
+        "testing_strategy": {"type": ["string", "null"]}
+      }
+    }
+  },
+  "$defs": {
+    "endpoint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "domain", "analysis_method"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[A-Z0-9][A-Z0-9_-]*$"},
+        "name": {"type": "string", "minLength": 1},
+        "domain": {"enum": ["safety", "efficacy", "pk", "pd", "pro", "immunogenicity", "other"]},
+        "hierarchy": {
+          "enum": ["primary", "key_secondary", "secondary", "exploratory"],
+          "description": "Optional reviewed endpoint hierarchy. Absence is handled conservatively from the containing primary/secondary list and analysis intent."
+        },
+        "analysis_method": {"type": "string"}
+      }
+    },
+    "quantity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "unit"],
+      "properties": {
+        "value": {"type": "number", "exclusiveMinimum": 0},
+        "unit": {"type": "string", "minLength": 1}
+      }
+    },
+    "dlt_window": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["cycle", "day_from", "day_to"],
+      "properties": {
+        "cycle": {"type": "integer", "minimum": 1},
+        "day_from": {"type": "integer", "minimum": 1},
+        "day_to": {"type": "integer", "minimum": 1}
+      }
+    },
+    "analysis_set": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "definition"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9_]*(?: [A-Za-z][A-Za-z0-9_]*)*$",
+          "description": "Reviewed analysis-set identifier or English full name. No enumeration or upper-case-only assumption is imposed; reserved key separators remain forbidden."
+        },
+        "name": {"type": "string", "minLength": 1},
+        "definition": {"type": "string", "minLength": 1}
+      }
+    },
+    "sample_size_assumptions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["power", "two_sided_alpha", "effect_size", "dropout_rate"],
+      "properties": {
+        "power": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "two_sided_alpha": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "effect_size": {"type": ["number", "null"]},
+        "dropout_rate": {"type": ["number", "null"], "minimum": 0, "maximum": 1}
+      }
+    },
+    "estimand": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "population",
+        "treatment_condition",
+        "variable",
+        "intercurrent_event_strategy",
+        "population_level_summary"
+      ],
+      "properties": {
+        "population": {"type": "string", "minLength": 1},
+        "treatment_condition": {"type": "string", "minLength": 1},
+        "variable": {"type": "string", "minLength": 1},
+        "intercurrent_event_strategy": {"type": "string", "minLength": 1},
+        "population_level_summary": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}

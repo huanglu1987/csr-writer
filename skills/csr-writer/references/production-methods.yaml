@@ -1,0 +1,394 @@
+schema_version: "1.0"
+policy:
+  allowed_methods:
+    - deterministic_generation
+    - extraction
+    - template_slot
+    - llm_drafting
+    - mixed
+  unregistered_unit: hard_fail
+  non_llm_writer_entry: hard_fail
+  sae_medical_narrative: fact_card_constrained_llm_with_human_zone_c
+
+profiles:
+  title_page:
+    production_method: template_slot
+    reason: "标题页版式和签字位固定，项目标识只能来自已确认登记字段。"
+    spec:
+      producer: versioned_template_renderer
+      fixed_part: "标题页版式、保密标识和 CDE 七项签字位标签。"
+      slots:
+        - study_facts.study_identifiers
+        - sponsor_metadata
+        - report_version_and_date
+        - approved_signatory_register
+      missing_slot_policy: block_and_request_human_completion
+
+  synopsis:
+    production_method: deterministic_generation
+    reason: "概要只能从已确认正文复制派生，禁止独立起草。"
+    spec:
+      producer: derive_synopsis_manifest
+      data_sources:
+        - confirmed_clean_body
+        - synopsis_selection_manifest
+      generation_rule: copy_confirmed_text_only
+      missing_source_policy: hard_fail
+
+  body_toc:
+    production_method: deterministic_generation
+    reason: "正文章节目录由 Word 标题域生成，不需要语言模型。"
+    spec:
+      producer: word_field
+      data_sources: [document_heading_styles]
+      field: TOC
+      missing_source_policy: hard_fail
+
+  body_table_toc:
+    production_method: deterministic_generation
+    reason: "正文表格目录由 Word 表题域生成。"
+    spec:
+      producer: word_field
+      data_sources: [caption_style_table]
+      field: TOC_caption_table
+      missing_source_policy: hard_fail
+
+  body_figure_toc:
+    production_method: deterministic_generation
+    reason: "正文图目录由 Word 图题域生成。"
+    spec:
+      producer: word_field
+      data_sources: [caption_style_figure]
+      field: TOC_caption_figure
+      missing_source_policy: hard_fail
+
+  chapter14_catalog:
+    production_method: deterministic_generation
+    reason: "第 14 章表图目录只能由已冻结 tfl_map 和发表编号映射生成。"
+    spec:
+      producer: publication_reference_renderer
+      data_sources: [frozen_tfl_map, publication_reference_map]
+      generation_rule: one_confirmed_entity_one_catalog_entry
+      missing_source_policy: hard_fail
+
+  appendix_catalog:
+    production_method: deterministic_generation
+    reason: "附录目录由附录状态计划的完整条目生成。"
+    spec:
+      producer: appendix_status_renderer
+      data_sources: [appendix_status_plan]
+      generation_rule: retain_all_entries_and_submission_status
+      missing_source_policy: hard_fail
+
+  support_report_catalog:
+    production_method: deterministic_generation
+    reason: "单独递交的支持性报告目录来自已确认递交登记表。"
+    spec:
+      producer: support_report_registry_renderer
+      data_sources: [confirmed_submission_registry]
+      generation_rule: registry_entries_only
+      missing_source_policy: render_empty_with_explicit_none_record
+
+  abbreviations:
+    production_method: extraction
+    reason: "缩略语必须从全文和已确认术语表扫描，不得由语言模型补造。"
+    spec:
+      producer: document_term_extractor_plus_human_confirmation
+      source_files: [confirmed_csr_body, protocol, sap, tfl_map]
+      source_sections: [full_text_and_abbreviation_tables]
+      verbatim_elements: [abbreviation, approved_expansion]
+      summarizable_elements: []
+      validation: [first_use_trace, expansion_consistency, duplicate_conflict_review]
+
+  ethics_committee:
+    production_method: template_slot
+    reason: "伦理委员会声明采用固定合规句式，委员会和批件信息由登记槽位填入。"
+    spec:
+      producer: versioned_ethics_template
+      fixed_part: "IEC/IRB 审查与批准的中性声明。"
+      slots: [committee_register, approval_identifier, approval_date, protocol_version]
+      missing_slot_policy: block_and_request_human_completion
+
+  ethical_conduct:
+    production_method: template_slot
+    reason: "伦理实施和 GCP 声明为固定模板，适用规范与偏离说明由已确认槽位填入。"
+    spec:
+      producer: versioned_ethics_template
+      fixed_part: "伦理原则、GCP 和适用法规遵循声明。"
+      slots: [applicable_ethics_standard, gcp_standard, confirmed_ethics_deviations]
+      missing_slot_policy: block_and_request_human_completion
+
+  informed_consent:
+    production_method: template_slot
+    reason: "知情同意正文采用固定模板，版本和签署情况从确认登记表填入。"
+    spec:
+      producer: versioned_consent_template
+      fixed_part: "知情同意取得程序的中性声明。"
+      slots: [consent_form_versions, consent_process_register, waiver_if_any]
+      missing_slot_policy: block_and_request_human_completion
+
+  investigator_management:
+    production_method: extraction
+    reason: "研究者和管理结构必须忠实提取方案及中心登记信息。"
+    spec:
+      producer: source_extractor_plus_human_confirmation
+      source_files: [protocol, confirmed_site_and_role_register]
+      source_sections: [protocol_study_administration_section]
+      verbatim_elements: [role_names, responsibilities, committee_names]
+      summarizable_elements: [governance_relationships]
+      summary_constraints: [do_not_invent_roles, do_not_merge_distinct_responsibilities]
+      validation: [role_count_reconciliation, appendix_16_1_4_cross_check]
+
+  introduction:
+    production_method: extraction
+    reason: "简介应从方案和研究者手册的已确认背景段落提取并由人确认，不得自由扩写。"
+    spec:
+      producer: source_extractor_plus_human_confirmation
+      source_files: [protocol, investigator_brochure]
+      source_sections: [protocol_background_and_rationale, ib_relevant_clinical_background]
+      verbatim_elements: [indication, investigational_product_identity, study_rationale_claim_scope]
+      summarizable_elements: [disease_background, development_context]
+      summary_constraints: [retain_source_limitations, no_external_claim_without_reference]
+      validation: [claim_source_coverage, indication_consistency]
+
+  objectives:
+    production_method: extraction
+    reason: "研究目标和层级是方案事实，必须按方案原文抽取。"
+    spec:
+      producer: source_extractor_plus_human_confirmation
+      source_files: [protocol]
+      source_sections: [protocol_objectives_and_endpoints_section]
+      verbatim_elements: [primary_objectives, secondary_objectives, exploratory_objectives, hierarchy]
+      summarizable_elements: []
+      summary_constraints: [do_not_merge_split_or_reorder_objectives]
+      validation: [objective_count_exact, objective_order_exact, endpoint_cross_check]
+
+  method_extraction_contract:
+    production_method: extraction
+    reason: "方法内容来自方案或 SAP；改写可能改变限定条件，因此按逐节抽取契约执行。"
+    spec:
+      producer: contract_bound_extractor_plus_human_confirmation
+      contract_registry: method-extraction-contracts.yaml
+      contract_id_from: section_id
+      unresolved_locator_policy: hard_fail
+
+  mixed_method_result:
+    production_method: mixed
+    reason: "同一节同时含方案/SAP 定义和结果数据；定义走事实卡，结果数值只走 datapack 占位符。"
+    spec:
+      producer: contract_bound_fact_card_plus_numeric_placeholders
+      contract_registry: method-extraction-contracts.yaml
+      contract_id_from: section_id
+      data_sources: [protocol_or_sap_definition, reviewed_tfl_bindings]
+      narration: constrained_llm
+      database_numeric_policy: placeholders_only
+      unresolved_locator_policy: hard_fail
+
+  guarded_result_drafting:
+    production_method: llm_drafting
+    reason: "结果节需要在受限证据包内提炼数据，并经过数值、语义、组别和文风守卫。"
+    spec:
+      producer: isolated_agent_writer
+      data_sources: [section_playbook, reviewed_tfl_bindings, minimal_source_fragments]
+      required_pipeline: [emit_envelope, agent_draft, ingest_guard, deterministic_resolve]
+      direct_numeric_access: forbidden
+      missing_source_policy: source_gap_only
+
+  individual_listing_reference:
+    production_method: deterministic_generation
+    reason: "个体数据列表节只生成已确认附录或表格的交叉引用，不起草医学内容。"
+    spec:
+      producer: cross_reference_renderer
+      data_sources: [appendix_status_plan, publication_reference_map]
+      generation_rule: fixed_reference_sentence_plus_word_ref_field
+      missing_source_policy: hard_fail
+
+  sae_narrative_fact_card:
+    production_method: llm_drafting
+    reason: "SAE A 区有冻结数据支持，B 区有源则逐字转述、无源留槽；只有 C 区申办方医学综合评价由人工填写。"
+    spec:
+      producer: sae_fact_card_constrained_narrator
+      data_sources: [frozen_safety_dataset, approved_narrative_scope, crf_or_medical_record_free_text]
+      narration: constrained_llm
+      zone_a: automatic_fact_card_narration
+      zone_b: verbatim_if_present_else_fixed_gap_sentence
+      zone_c: authorized_sponsor_medical_assessment_slot
+      causality_policy: exact_controlled_term_match
+      clinical_course_policy: never_synthesize
+
+  chapter14_material:
+    production_method: deterministic_generation
+    reason: "第 14 章实体由冻结映射、发表编号和结果文件确定性装配。"
+    spec:
+      producer: tfl_publication_assembler
+      data_sources: [frozen_tfl_map, publication_reference_map, accepted_result_tfl]
+      generation_rule: exact_entity_and_bookmark_mapping
+      missing_source_policy: hard_fail
+
+  reference_list:
+    production_method: deterministic_generation
+    reason: "参考文献列表由正文引文台账和已确认书目登记表生成。"
+    spec:
+      producer: citation_ledger_renderer
+      data_sources: [confirmed_claim_ledger, bibliography_registry]
+      generation_rule: cited_sources_only_with_stable_ids
+      missing_source_policy: hard_fail
+
+  appendix_entry:
+    production_method: deterministic_generation
+    reason: "附录条目及提交状态由 16.0 附录状态计划统一生成，未提交不是删除指令。"
+    spec:
+      producer: appendix_status_renderer
+      data_sources: [appendix_status_plan, study_facts]
+      generation_rule: preserve_entry_status_location_and_reason
+      missing_source_policy: hard_fail
+
+assignments:
+  - profile: title_page
+    section_ids: ["1"]
+  - profile: synopsis
+    section_ids: ["2"]
+  - profile: body_toc
+    section_ids: ["3.1"]
+  - profile: body_table_toc
+    section_ids: ["3.2"]
+  - profile: body_figure_toc
+    section_ids: ["3.3"]
+  - profile: chapter14_catalog
+    section_ids: ["3.4"]
+  - profile: appendix_catalog
+    section_ids: ["3.5"]
+  - profile: support_report_catalog
+    section_ids: ["3.6"]
+  - profile: abbreviations
+    section_ids: ["4"]
+  - profile: ethics_committee
+    section_ids: ["5.1"]
+  - profile: ethical_conduct
+    section_ids: ["5.2"]
+  - profile: informed_consent
+    section_ids: ["5.3"]
+  - profile: investigator_management
+    section_ids: ["6"]
+  - profile: introduction
+    section_ids: ["7"]
+  - profile: objectives
+    section_ids: ["8"]
+  - profile: method_extraction_contract
+    section_ids:
+      - "9.1"
+      - "9.2"
+      - "9.3.1"
+      - "9.3.2"
+      - "9.3.3"
+      - "9.4.1"
+      - "9.4.2"
+      - "9.4.3"
+      - "9.4.4"
+      - "9.4.5"
+      - "9.4.6"
+      - "9.4.7"
+      - "9.4.8"
+      - "9.5.1.1"
+      - "9.5.2"
+      - "9.5.3"
+      - "9.5.4"
+      - "9.5.6"
+      - "9.5.7"
+      - "9.5.8"
+      - "9.5.9"
+      - "9.6"
+      - "9.7.1"
+      - "9.7.2"
+      - "9.8"
+  - profile: mixed_method_result
+    section_ids: ["10.1", "10.2", "10.3.1", "10.3.2", "10.3.3", "10.3.4", "10.3.5"]
+  - profile: guarded_result_drafting
+    section_ids:
+      - "11.2"
+      - "11.3"
+      - "11.5.1"
+      - "11.5.2"
+      - "11.5.3"
+      - "11.5.4"
+      - "11.5.5"
+      - "11.5.6"
+      - "11.5.7"
+      - "11.5.8"
+      - "11.5.9"
+      - "11.5.10"
+      - "11.6.1.4"
+      - "11.6.2.1"
+      - "11.6.2.4"
+      - "11.6.7"
+      - "12.1"
+      - "12.2.1"
+      - "12.2.3"
+      - "12.2.6"
+      - "12.2.7"
+      - "12.2.9"
+      - "12.3.3"
+      - "12.4.2.1"
+      - "12.4.2.2"
+      - "12.4.2.3"
+      - "12.5.1"
+      - "12.5.2"
+      - "12.6"
+      - "12.7"
+      - "13"
+  - profile: individual_listing_reference
+    section_ids:
+      - "11.4.3"
+      - "11.4.6"
+      - "12.2.2"
+      - "12.2.4"
+      - "12.3.1.1"
+      - "12.3.1.2"
+      - "12.3.1.3"
+      - "12.4.1"
+  - profile: sae_narrative_fact_card
+    section_ids: ["12.3.2"]
+  - profile: chapter14_material
+    section_ids: ["14.1.1", "14.1.2", "14.1.3", "14.2", "14.3.1", "14.3.2", "14.3.3", "14.3.4"]
+  - profile: reference_list
+    section_ids: ["15"]
+  - profile: appendix_entry
+    section_ids:
+      - "16.0"
+      - "16.1.1"
+      - "16.1.2"
+      - "16.1.3"
+      - "16.1.4"
+      - "16.1.5"
+      - "16.1.6"
+      - "16.1.7"
+      - "16.1.8"
+      - "16.1.9"
+      - "16.1.10"
+      - "16.1.11"
+      - "16.1.12"
+      - "16.2.1"
+      - "16.2.2"
+      - "16.2.3"
+      - "16.2.4"
+      - "16.2.5"
+      - "16.2.6"
+      - "16.2.7"
+      - "16.2.8"
+      - "16.3.1"
+      - "16.3.2"
+      - "16.4"
+
+runtime_llm_aliases:
+  # These are container or historical request IDs, not any of the 120 authoring units.
+  # They remain replayable for prior milestone evidence; no non-LLM unit is bypassed.
+  - "11.4"
+  - "11.4.1"
+  - "11.4.2.1"
+  - "11.5"
+  - "11.6"
+  - "11.6.1"
+  - "12.2"
+  - "12.5"
+  - "11.A"
+  - "11.B"

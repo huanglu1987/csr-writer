@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "semantic_key_version": "2.0",
+  "adapter_scope": "synthetic M7 Agent writer evidence only",
+  "listing_policy": {"default": "cell_level"},
+  "mapping_manifest": {
+    "filename": "m7_agent_datapack.deidentified.json",
+    "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  },
+  "sources": [
+    {
+      "source_id": "sha256:dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+      "filename": "deidentified-agent-writer.fixture",
+      "manifest_path": "synthetic-only",
+      "format": "synthetic-json-m7"
+    }
+  ],
+  "tables": [
+    {"table_id": "T14.2.1.1", "population": "FAS", "source_id": "sha256:dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd", "titles": [], "footnotes": [], "trailer": {}, "adapter": "synthetic-json-m7", "ingest_strategy": "cell_level", "dimensions": {}},
+    {"table_id": "T14.3.1.3.1", "population": "SS", "source_id": "sha256:dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd", "titles": [], "footnotes": [], "trailer": {}, "adapter": "synthetic-json-m7", "ingest_strategy": "cell_level", "dimensions": {}},
+    {"table_id": "T14.3.1.3.2", "population": "SS", "source_id": "sha256:dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd", "titles": [], "footnotes": [], "trailer": {}, "adapter": "synthetic-json-m7", "ingest_strategy": "cell_level", "dimensions": {}}
+  ],
+  "cells": {
+    "T14.2.1.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=ACTIVE_A": {"v": "18 (60.0)", "display_value": "18 (60.0)", "type": "n_pct", "row": {"id": "PRIMARY_RESPONSE", "label": "PRIMARY_RESPONSE", "indent": 0, "physical_path": "PRIMARY_RESPONSE", "parent_path": null}, "column": {"id": "ACTIVE_A", "label": "ACTIVE_A"}, "source_locator": {"source_id": "sha256:dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd", "row_index": 1, "column_index": 1}, "dimensions": {}},
+    "T14.2.1.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=PBO": {"v": "9 (30.0)", "display_value": "9 (30.0)", "type": "n_pct", "row": {"id": "PRIMARY_RESPONSE", "label": "PRIMARY_RESPONSE", "indent": 0, "physical_path": "PRIMARY_RESPONSE", "parent_path": null}, "column": {"id": "PBO", "label": "PBO"}, "source_locator": {"source_id": "sha256:dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd", "row_index": 1, "column_index": 2}, "dimensions": {}},
+    "T14.2.1.1|POP=FAS|ROW=PRIMARY_RESPONSE_CI95|COL=ACTIVE_A": {"v": "(41.0, 76.0)", "display_value": "(41.0, 76.0)", "type": "ci95", "row": {"id": "PRIMARY_RESPONSE_CI95", "label": "PRIMARY_RESPONSE_CI95", "indent": 0, "physical_path": "PRIMARY_RESPONSE_CI95", "parent_path": null}, "column": {"id": "ACTIVE_A", "label": "ACTIVE_A"}, "source_locator": {"source_id": "sha256:dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd", "row_index": 2, "column_index": 1}, "dimensions": {}},
+    "T14.2.1.1|POP=FAS|ROW=PRIMARY_RESPONSE_CI95|COL=PBO": {"v": "(15.0, 49.0)", "display_value": "(15.0, 49.0)", "type": "ci95", "row": {"id": "PRIMARY_RESPONSE_CI95", "label": "PRIMARY_RESPONSE_CI95", "indent": 0, "physical_path": "PRIMARY_RESPONSE_CI95", "parent_path": null}, "column": {"id": "PBO", "label": "PBO"}, "source_locator": {"source_id": "sha256:dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd", "row_index": 2, "column_index": 2}, "dimensions": {}},
+    "T14.2.1.1|POP=FAS|ROW=BETWEEN_GROUP_DIFFERENCE|COL=STAT": {"v": "30.0 (8.0, 49.0)", "display_value": "30.0 (8.0, 49.0)", "type": "difference", "row": {"id": "BETWEEN_GROUP_DIFFERENCE", "label": "BETWEEN_GROUP_DIFFERENCE", "indent": 0, "physical_path": "BETWEEN_GROUP_DIFFERENCE", "parent_path": null}, "column": {"id": "STAT", "label": "STAT"}, "source_locator": {"source_id": "sha256:dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd", "row_index": 3, "column_index": 1}, "dimensions": {}},
+    "T14.2.1.1|POP=FAS|ROW=P_VALUE|COL=STAT": {"v": "0.018", "display_value": "0.018", "type": "pvalue", "row": {"id": "P_VALUE", "label": "P_VALUE", "indent": 0, "physical_path": "P_VALUE", "parent_path": null}, "column": {"id": "STAT", "label": "STAT"}, "source_locator": {"source_id": "sha256:dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd", "row_index": 4, "column_index": 1}, "dimensions": {}},
+    "T14.3.1.3.1|POP=SS|ROW=SUMMARY|COL=ACTIVE_TOTAL": {"v": "24 (80.0)", "display_value": "24 (80.0)", "type": "n_pct", "row": {"id": "SUMMARY", "label": "SUMMARY", "indent": 0, "physical_path": "SUMMARY", "parent_path": null}, "column": {"id": "ACTIVE_TOTAL", "label": "ACTIVE_TOTAL"}, "source_locator": {"source_id": "sha256:dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd", "row_index": 1, "column_index": 1}, "dimensions": {}},
+    "T14.3.1.3.2|POP=SS|ROW=SUMMARY|COL=ACTIVE_TOTAL": {"v": "12 (40.0)", "display_value": "12 (40.0)", "type": "n_pct", "row": {"id": "SUMMARY", "label": "SUMMARY", "indent": 0, "physical_path": "SUMMARY", "parent_path": null}, "column": {"id": "ACTIVE_TOTAL", "label": "ACTIVE_TOTAL"}, "source_locator": {"source_id": "sha256:dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd", "row_index": 1, "column_index": 1}, "dimensions": {}}
+  }
+}

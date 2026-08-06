@@ -1,0 +1,32 @@
+[
+  {
+    "section": "11.4.1",
+    "binding_manifest": [
+      {
+        "role": "placebo_result",
+        "key": "T14.2.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=PBO",
+        "source_id": "T14.2.1"
+      },
+      {
+        "role": "dose_0_5_bid_result",
+        "key": "T14.2.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=C0_5PCT_BID",
+        "source_id": "T14.2.1"
+      },
+      {
+        "role": "dose_0_75_bid_result",
+        "key": "T14.2.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=C0_75PCT_BID",
+        "source_id": "T14.2.1"
+      },
+      {
+        "role": "dose_1_0_bid_result",
+        "key": "T14.2.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=C1_0PCT_BID",
+        "source_id": "T14.2.1"
+      },
+      {
+        "role": "dose_1_0_qd_result",
+        "key": "T14.2.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=C1_0PCT_QD",
+        "source_id": "T14.2.1"
+      }
+    ]
+  }
+]

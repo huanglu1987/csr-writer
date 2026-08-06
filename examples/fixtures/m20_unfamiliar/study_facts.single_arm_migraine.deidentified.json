@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.2",
+  "protocol_id": "SYN-MIG-II-001",
+  "study_title": "一项评价研究药物 A 用于成人偏头痛预防治疗的单臂开放性Ⅱ期研究",
+  "phase": "II",
+  "objectives": {
+    "safety_tolerability": true,
+    "pk_characterization": false,
+    "dose_exploration": false,
+    "efficacy": true,
+    "confirmatory_efficacy": false,
+    "pharmacodynamics": false,
+    "determine_mtd": false,
+    "determine_rp2d": false,
+    "primary_endpoints": [
+      {
+        "id": "MMD_CHANGE_W4",
+        "name": "治疗第4周每月偏头痛日数较基线的变化",
+        "domain": "efficacy",
+        "analysis_method": "按 ITT 进行描述性汇总并估计置信区间"
+      }
+    ],
+    "secondary_endpoints": [
+      {
+        "id": "RESPONDER_W4",
+        "name": "治疗第4周偏头痛日数减少达到预设阈值的受试者比例",
+        "domain": "efficacy",
+        "analysis_method": "按 ITT 和 PPS 分别进行描述性汇总"
+      },
+      {
+        "id": "SAFETY",
+        "name": "治疗期间不良事件和临床实验室检查",
+        "domain": "safety",
+        "analysis_method": "按 SAF 进行描述性汇总"
+      }
+    ]
+  },
+  "design": {
+    "randomized": false,
+    "controlled": false,
+    "blinding": "open_label",
+    "type": "single_arm",
+    "study_type": "general_interventional",
+    "route_of_administration": "oral",
+    "control_types": [],
+    "clinical_pharmacology_studies": [],
+    "escalation_scheme": "none",
+    "dlt_defined": false,
+    "expansion_cohorts": 0,
+    "adaptive": false,
+    "noninferiority": false,
+    "interim_analysis": false,
+    "n_centers": 4,
+    "dose_levels": [
+      {
+        "value": 1,
+        "unit": "fixed_regimen"
+      }
+    ],
+    "cycle_days": null,
+    "dlt_window": null,
+    "dosing_interval_weeks": null
+  },
+  "population": {
+    "healthy_volunteer": false,
+    "patients": true,
+    "enriched": false,
+    "special_populations": [],
+    "target_condition": "成人偏头痛",
+    "planned_sample_size": 48,
+    "inclusion_summary": "符合方案规定诊断标准且处于规定年龄范围的成人偏头痛患者"
+  },
+  "data_domains": {
+    "safety": true,
+    "efficacy": true,
+    "dlt": false,
+    "pk_concentration": false,
+    "ada": false,
+    "pd_biomarker": false,
+    "tumor_response": false,
+    "survival": false,
+    "ecg": true,
+    "ecg_intensive": false,
+    "local_tolerance": false,
+    "pulmonary_function": false,
+    "ophthalmic_safety": false,
+    "ae_consequence_strata": true,
+    "ae_study_withdrawal": true,
+    "aesi": false,
+    "vital_signs": true,
+    "pregnancy": false,
+    "medication_error_overdose_misuse": false,
+    "therapeutic_area_endpoints": [
+      "other"
+    ],
+    "pk_sampling_timepoints_h": []
+  },
+  "analyses": {
+    "descriptive_only": true,
+    "hypothesis_test": false,
+    "multiplicity_control": false,
+    "estimand_framework": false,
+    "nca": false,
+    "population_pk": false,
+    "dose_proportionality": false,
+    "exposure_response": false,
+    "time_to_event": false,
+    "subgroup": false,
+    "analysis_sets": [
+      {
+        "id": "SAF",
+        "name": "安全性分析集",
+        "definition": "至少接受一次研究药物且有给药后安全性记录的受试者"
+      },
+      {
+        "id": "ITT",
+        "name": "意向性治疗分析集",
+        "definition": "至少接受一次研究药物且有基线后疗效记录的受试者"
+      },
+      {
+        "id": "PPS",
+        "name": "符合方案分析集",
+        "definition": "完成主要终点评价且无影响主要分析的重要方案偏离的受试者"
+      }
+    ],
+    "sample_size_assumptions": {
+      "power": null,
+      "two_sided_alpha": null,
+      "effect_size": null,
+      "dropout_rate": null
+    },
+    "estimand": null,
+    "testing_strategy": "探索性描述；不形成确证性疗效结论"
+  }
+}

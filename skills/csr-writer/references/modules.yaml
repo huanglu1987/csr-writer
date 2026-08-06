@@ -1,0 +1,533 @@
+schema_version: "1.2"
+routing_contract:
+  truth_source: study_facts.json
+  pipeline: study_facts -> capability_flags -> modules -> structure
+  forbidden_routing_fields:
+    - phase
+  note: phase is metadata used only for plausibility warnings
+
+modules:
+  - id: M-CORE
+    name_zh: CSR 核心模块
+    activation_flag: core
+    condition: always true
+    structure:
+      - {section: "1-8", action: add, variant: core, title: ICH E3 核心前置章节}
+      - {section: "9.1-9.6", action: add, variant: core, title: 研究设计与实施核心章节}
+      - {section: "10", action: add, variant: core, title: 研究受试者}
+      - {section: "13-16", action: add, variant: core, title: 结论、表图、参考文献和附录}
+    playbook: null
+    expected_tfl_categories: [disposition, demographics, protocol_deviation, safety]
+    required_analysis_sets: []
+
+  - id: M-DOSE-ESC
+    name_zh: 剂量递增
+    activation_flag: has_dose_escalation
+    condition: design.escalation_scheme != none
+    structure:
+      - {section: "12.6", action: add, variant: dose_escalation, title: 剂量递增与总体耐受性评价}
+    playbook: s11-a-dose-escalation.md
+    expected_tfl_categories: [dose_escalation, dose_limiting_toxicity, exposure]
+    required_analysis_sets: [SAF]
+
+  - id: M-DLT
+    name_zh: DLT 分析
+    activation_flag: has_dlt
+    condition: design.dlt_defined
+    structure:
+      - {section: "12.6.3", action: extend, variant: dlt_definition, title: DLT 定义与评价窗}
+      - {section: "12.6.5", action: extend, variant: dlt_results, title: DLT 结果}
+    playbook: s11-a-dose-escalation.md
+    expected_tfl_categories: [dose_limiting_toxicity]
+    required_analysis_sets: [DLT_EVAL]
+
+  - id: M-MTD-RP2D
+    name_zh: MTD/RP2D 决策
+    activation_flag: determines_mtd_or_rp2d
+    condition: objectives.determine_mtd || objectives.determine_rp2d
+    structure:
+      - {section: "12.6.7", action: extend, variant: mtd_rp2d_decision, title: MTD/RP2D 结论与依据}
+    playbook: s11-a-dose-escalation.md
+    expected_tfl_categories: [dose_escalation, dose_limiting_toxicity, exposure]
+    required_analysis_sets: [DLT_EVAL, SAF]
+
+  - id: M-EXPANSION
+    name_zh: 剂量扩展队列
+    activation_flag: has_expansion_cohorts
+    condition: design.expansion_cohorts > 0
+    structure:
+      - {section: "12.6", action: add, variant: expansion_cohorts, title: 剂量扩展队列与总体耐受性评价}
+      - {section: "10.1", action: extend, variant: by_cohort, title: 按扩展队列拆分受试者分布}
+    playbook: null
+    expected_tfl_categories: [disposition, demographics, efficacy, safety]
+    required_analysis_sets: [SAF]
+
+  - id: M-PK-NCA
+    name_zh: 非房室 PK
+    activation_flag: has_pk_nca
+    condition: data_domains.pk_concentration && analyses.nca
+    structure:
+      - {section: "11.5", action: add, variant: pk_nca, title: 药代动力学评价}
+      - {section: "11.5.1", action: extend, variant: pk_analysis_set, title: PK 分析集}
+      - {section: "11.5.2", action: extend, variant: pk_concentration, title: 血药浓度数据}
+      - {section: "11.5.3", action: extend, variant: pk_blq, title: 低于定量下限数据的处理}
+      - {section: "11.5.4", action: extend, variant: pk_parameters, title: PK 参数}
+      - {section: "11.5.5", action: extend, variant: pk_exposure, title: 达峰时间与系统暴露}
+      - {section: "11.5.6", action: extend, variant: pk_dose_proportionality, title: 剂量比例关系}
+      - {section: "11.5.7", action: extend, variant: pk_accumulation, title: 多次给药蓄积}
+      - {section: "11.5.8", action: extend, variant: pk_application_factors, title: 给药部位、面积或皮肤状态对暴露的影响}
+      - {section: "11.5.9", action: extend, variant: pk_individual_outliers, title: 个体 PK 数据及异常个体}
+      - {section: "11.5.10", action: extend, variant: pk_conclusion, title: PK 结论}
+      - {section: "9.5.4", action: extend, variant: pk_sampling, title: PK 采样与分析方法}
+    playbook: null
+    expected_tfl_categories: [pk_concentration, pk_nca]
+    required_analysis_sets: [PKCS, PKPS]
+
+  - id: M-PK-POP
+    name_zh: 群体药代动力学
+    activation_flag: has_population_pk
+    condition: analyses.population_pk
+    structure:
+      - {section: "11.5", action: add, variant: population_pk, title: 群体药代动力学分析}
+    playbook: null
+    expected_tfl_categories: [population_pk]
+    required_analysis_sets: [POPPK]
+
+  - id: M-DOSE-PROP
+    name_zh: 剂量比例性
+    activation_flag: has_dose_proportionality
+    condition: analyses.dose_proportionality
+    structure:
+      - {section: "11.5", action: add, variant: dose_proportionality, title: 剂量比例性}
+    playbook: null
+    expected_tfl_categories: [pk_nca, dose_proportionality]
+    required_analysis_sets: [PKPS]
+
+  - id: M-EXPOSURE-RESP
+    name_zh: 暴露-效应
+    activation_flag: has_exposure_response
+    condition: analyses.exposure_response
+    structure:
+      - {section: "$EFFICACY.4", action: override, variant: exposure_response, title: 暴露-效应分析}
+    playbook: null
+    expected_tfl_categories: [exposure_response]
+    required_analysis_sets: [PKPS]
+
+  - id: M-ADA
+    name_zh: 免疫原性
+    activation_flag: has_ada
+    condition: data_domains.ada
+    structure:
+      - {section: "12.5.6", action: add, variant: immunogenicity, title: 免疫原性评价}
+    playbook: null
+    expected_tfl_categories: [ada]
+    required_analysis_sets: [ADA]
+
+  - id: M-PD-BIOMARKER
+    name_zh: 药效动力学与生物标志物
+    activation_flag: has_pd_biomarker
+    condition: data_domains.pd_biomarker
+    structure:
+      - {section: "11.8", action: add, variant: pd_biomarker, title: 药效动力学与生物标志物评价}
+    playbook: null
+    expected_tfl_categories: [pd, biomarker]
+    required_analysis_sets: [PD]
+
+  - id: M-EFF-CONFIRM
+    name_zh: 确证性疗效
+    activation_flag: has_confirmatory_efficacy
+    condition: objectives.confirmatory_efficacy && analyses.hypothesis_test
+    structure:
+      - {section: "11.4", action: add, variant: confirmatory_results, title: 确证性疗效评价}
+      - {section: "11.4.1", action: override, variant: confirmatory, title: 确证性主要疗效分析}
+      - {section: "9.7.1", action: extend, variant: confirmatory, title: 确证性统计假设与方法}
+    playbook: s11-4-primary-efficacy.md
+    expected_tfl_categories: [primary_efficacy, hypothesis_test]
+    required_analysis_sets: [FAS]
+
+  - id: M-EFF-EXPLORE
+    name_zh: 探索性疗效
+    activation_flag: has_exploratory_efficacy
+    condition: objectives.efficacy && !analyses.hypothesis_test
+    structure:
+      - {section: "11.6", action: add, variant: exploratory, title: 探索性疗效评价}
+      - {section: "11.6.1", action: override, variant: exploratory_primary, title: 探索性主要疗效分析}
+      - {section: "11.6.7", action: extend, variant: exploratory_efficacy_conclusion, title: 探索性疗效结论}
+    playbook: s11-4-primary-efficacy.md
+    expected_tfl_categories: [efficacy]
+    required_analysis_sets: [FAS]
+
+  - id: M-MULTIPLICITY
+    name_zh: 多重性控制
+    activation_flag: has_multiplicity_control
+    condition: analyses.multiplicity_control
+    structure:
+      - {section: "$EFFICACY.2.5", action: extend, variant: multiplicity, title: 多重性调整}
+    playbook: null
+    expected_tfl_categories: [multiplicity]
+    required_analysis_sets: [FAS]
+
+  - id: M-NONINF
+    name_zh: 非劣效设计
+    activation_flag: has_noninferiority
+    condition: design.noninferiority
+    structure:
+      - {section: "9.2", action: extend, variant: noninferiority, title: 非劣效设计依据}
+      - {section: "$EFFICACY.2.7", action: extend, variant: noninferiority, title: 非劣效分析}
+    playbook: null
+    expected_tfl_categories: [noninferiority]
+    required_analysis_sets: [FAS, PPS]
+
+  - id: M-ESTIMAND
+    name_zh: Estimand 框架
+    activation_flag: has_estimand_framework
+    condition: analyses.estimand_framework
+    structure:
+      - {section: "8", action: extend, variant: estimand, title: 研究目的与 Estimand}
+      - {section: "9.7.1", action: extend, variant: estimand, title: Estimand 定义}
+      - {section: "9.7.2", action: extend, variant: estimand, title: 缺失数据与伴发事件}
+      - {section: "9.8", action: extend, variant: estimand, title: SAP 变更对 Estimand 的影响}
+      - {section: "10.1", action: extend, variant: estimand, title: 伴发事件汇总}
+      - {section: "10.3", action: extend, variant: estimand, title: 分析集与 Estimand}
+      - {section: "11.2", action: extend, variant: estimand, title: 人口学资料与 Estimand}
+      - {section: "$EFFICACY.2.2", action: extend, variant: estimand, title: 统计模型与 Estimand}
+      - {section: "$EFFICACY.2.6", action: extend, variant: estimand, title: 敏感性分析}
+      - {section: "$EFFICACY.7", action: extend, variant: estimand, title: 疗效结论与 Estimand}
+    playbook: null
+    expected_tfl_categories: [intercurrent_event, sensitivity_analysis]
+    required_analysis_sets: [FAS]
+
+  - id: M-INTERIM
+    name_zh: 中期分析
+    activation_flag: has_interim_analysis
+    condition: design.interim_analysis
+    structure:
+      - {section: "$EFFICACY.2.3", action: extend, variant: interim, title: 中期分析与数据切点}
+      - {section: "16.1.9", action: extend, variant: dmc_minutes, title: DMC 纪要}
+    playbook: null
+    expected_tfl_categories: [interim_analysis]
+    required_analysis_sets: [FAS]
+
+  - id: M-SUBGROUP
+    name_zh: 亚组分析
+    activation_flag: has_subgroup_analysis
+    condition: analyses.subgroup
+    structure:
+      - {section: "$EFFICACY.2.8", action: extend, variant: subgroup, title: 亚组分析}
+    playbook: null
+    expected_tfl_categories: [subgroup]
+    required_analysis_sets: [FAS]
+
+  - id: M-MULTICENTER
+    name_zh: 多中心分析
+    activation_flag: is_multicenter
+    condition: design.n_centers > 1
+    structure:
+      - {section: "$EFFICACY.2.4", action: extend, variant: center_effect, title: 中心效应}
+      - {section: "10.2", action: extend, variant: by_center, title: 按中心的方案偏离}
+      - {section: "16.2.2", action: extend, variant: by_center, title: 按中心的受试者清单}
+    playbook: null
+    expected_tfl_categories: [center_effect]
+    required_analysis_sets: [FAS]
+
+  - id: M-CROSSOVER
+    name_zh: 交叉设计
+    activation_flag: is_crossover
+    condition: design.type == crossover
+    structure:
+      - {section: "9.2", action: extend, variant: crossover, title: 交叉设计}
+      - {section: "16.1.9", action: extend, variant: crossover_anova, title: 交叉设计方差分析表}
+    playbook: null
+    expected_tfl_categories: [crossover_anova]
+    required_analysis_sets: [PKPS]
+
+  - id: M-SURVIVAL
+    name_zh: 生存分析
+    activation_flag: has_time_to_event_analysis
+    condition: analyses.time_to_event
+    structure:
+      - {section: "$EFFICACY.1", action: extend, variant: survival, title: 生存分析呈现}
+    playbook: null
+    expected_tfl_categories: [time_to_event]
+    required_analysis_sets: [FAS]
+
+  - id: M-QT
+    name_zh: 密集 ECG/QT
+    activation_flag: has_intensive_ecg
+    condition: data_domains.ecg_intensive
+    structure:
+      - {section: "12.5", action: extend, variant: intensive_ecg, title: ECG/QT 扩展分析}
+    playbook: null
+    expected_tfl_categories: [ecg, qt]
+    required_analysis_sets: [SAF]
+
+  - id: M-HV
+    name_zh: 健康受试者
+    activation_flag: is_healthy_volunteer
+    condition: population.healthy_volunteer
+    structure:
+      - {section: "11", action: override, variant: healthy_volunteer, title: 健康受试者结果章节}
+      - {section: "12", action: override, variant: healthy_volunteer, title: 健康受试者安全性措辞}
+    playbook: null
+    expected_tfl_categories: [pk, safety]
+    required_analysis_sets: [SAF]
+
+  - id: M-LOCAL-TOLERANCE
+    name_zh: 局部耐受性
+    activation_flag: has_local_tolerance
+    condition: data_domains.local_tolerance
+    structure:
+      - {section: "12.2.9", action: extend, variant: application_site_reactions, title: 用药部位不良反应}
+      - {section: "12.5.1", action: add, variant: local_tolerance_ae_subset, title: 局部耐受性评分和用药部位反应}
+    playbook: s12-route-specific-safety.md
+    expected_tfl_categories: [teae_local_tolerance_soc_pt, trae_local_tolerance_soc_pt, skin_irritation, sensitization]
+    required_analysis_sets: [SS]
+
+  - id: M-AE-CONSEQUENCE
+    name_zh: 不良事件按后果分层
+    activation_flag: has_ae_consequence_strata
+    condition: data_domains.ae_consequence_strata
+    structure:
+      - {section: "12.2", action: extend, variant: ae_consequence_pairs, title: 导致减量、暂停或永久停药的 TEAE/TRAE}
+      - {section: "12.2.6", action: extend, variant: ae_permanent_discontinuation, title: 导致永久停用研究药物的不良事件}
+      - {section: "12.2.7", action: extend, variant: ae_interruption_or_adjustment, title: 导致临时停药或剂量调整的不良事件}
+    playbook: s12-2-adverse-events.md
+    expected_tfl_categories: [teae_dose_reduction, trae_dose_reduction, teae_interruption, trae_interruption, teae_discontinuation, trae_discontinuation]
+    required_analysis_sets: [SS]
+
+  - id: M-TOPICAL-PK
+    name_zh: 外用制剂低系统暴露 PK
+    activation_flag: has_topical_pk
+    condition: design.route_of_administration == topical && data_domains.pk_concentration
+    structure:
+      - {section: "11.5", action: add, variant: topical_low_systemic_exposure, title: 外用制剂系统暴露评估}
+      - {section: "11.5.1", action: extend, variant: pk_analysis_set, title: PK 分析集}
+      - {section: "11.5.2", action: extend, variant: pk_concentration, title: 血药浓度数据}
+      - {section: "11.5.3", action: extend, variant: pk_blq, title: 低于定量下限数据的处理}
+      - {section: "11.5.4", action: extend, variant: pk_parameters, title: PK 参数}
+      - {section: "11.5.5", action: extend, variant: pk_exposure, title: 达峰时间与系统暴露}
+      - {section: "11.5.6", action: extend, variant: pk_dose_proportionality, title: 剂量比例关系}
+      - {section: "11.5.7", action: extend, variant: pk_accumulation, title: 多次给药蓄积}
+      - {section: "11.5.8", action: extend, variant: pk_application_factors, title: 给药部位、面积或皮肤状态对暴露的影响}
+      - {section: "11.5.9", action: extend, variant: pk_individual_outliers, title: 个体 PK 数据及异常个体}
+      - {section: "11.5.10", action: extend, variant: pk_conclusion, title: PK 结论}
+      - {section: "9.5.4", action: extend, variant: topical_pk_sampling, title: 外用条件与 PK 采样}
+    playbook: s11-topical-pk.md
+    expected_tfl_categories: [pk_concentration_d1, pk_concentration_d28, topical_pk, below_quantification_limit, power_model_dose_proportionality]
+    required_analysis_sets: [PKCS, PKPS]
+
+  - id: M-INHALATION
+    name_zh: 吸入制剂专项安全性
+    activation_flag: is_inhalation_route
+    condition: design.route_of_administration == inhalation
+    structure:
+      - {section: "12.5", action: extend, variant: inhalation_safety, title: 吸入途径与肺功能专项安全性}
+    playbook: s12-route-specific-safety.md
+    expected_tfl_categories: [pulmonary_function, spirometry, inhalation_safety]
+    required_analysis_sets: [SAF]
+
+  - id: M-OPHTHALMIC
+    name_zh: 眼用制剂专项安全性
+    activation_flag: is_ophthalmic_route
+    condition: design.route_of_administration == ophthalmic
+    structure:
+      - {section: "12.5", action: extend, variant: ophthalmic_safety, title: 眼部专项安全性}
+    playbook: s12-route-specific-safety.md
+    expected_tfl_categories: [visual_acuity, intraocular_pressure, slit_lamp, ophthalmic_safety]
+    required_analysis_sets: [SAF]
+
+  - id: M-RANDOMIZED
+    name_zh: 随机化方法与实施
+    activation_flag: is_randomized
+    condition: design.randomized
+    structure:
+      - {section: "9.4.3", action: extend, variant: randomization, title: 随机化、分层与区组}
+      - {section: "16.1.7", action: extend, variant: randomization_schedule, title: 随机化表及编码识别}
+    playbook: s9-randomization-blinding-controls.md
+    expected_tfl_categories: [randomization, allocation, stratification_balance]
+    required_analysis_sets: [FAS]
+
+  - id: M-BLINDING
+    name_zh: 盲法维持与揭盲
+    activation_flag: is_blinded
+    condition: design.blinding != open_label
+    structure:
+      - {section: "9.4.6", action: extend, variant: blinding, title: 盲法维持、揭盲和破盲记录}
+    playbook: s9-randomization-blinding-controls.md
+    expected_tfl_categories: [blinding, unblinding, emergency_code_break]
+    required_analysis_sets: [SAF]
+
+  - id: M-PLACEBO-CTRL
+    name_zh: 安慰剂对照
+    activation_flag: has_placebo_control
+    condition: placebo in design.control_types
+    structure:
+      - {section: "9.2", action: extend, variant: placebo_control, title: 安慰剂对照的选择与设计}
+      - {section: "9.4.1", action: extend, variant: placebo_matching, title: 安慰剂与模拟给药}
+    playbook: s9-randomization-blinding-controls.md
+    expected_tfl_categories: [treatment_assignment, placebo_control]
+    required_analysis_sets: [FAS, SAF]
+
+  - id: M-ACTIVE-CTRL
+    name_zh: 阳性对照
+    activation_flag: has_active_control
+    condition: active in design.control_types
+    structure:
+      - {section: "9.2", action: extend, variant: active_control, title: 阳性对照的选择与设计}
+      - {section: "9.4.1", action: extend, variant: active_comparator, title: 阳性对照治疗}
+    playbook: s9-randomization-blinding-controls.md
+    expected_tfl_categories: [treatment_assignment, active_control]
+    required_analysis_sets: [FAS, SAF]
+
+  - id: M-BE
+    name_zh: 生物等效性
+    activation_flag: is_bioequivalence_study
+    condition: design.study_type == bioequivalence || bioequivalence in design.clinical_pharmacology_studies
+    framework_only: true
+    structure: []
+    playbook: null
+    expected_tfl_categories: []
+    required_analysis_sets: []
+
+  - id: M-DDI
+    name_zh: 药物相互作用
+    activation_flag: is_ddi_study
+    condition: design.study_type == drug_drug_interaction || drug_drug_interaction in design.clinical_pharmacology_studies
+    structure:
+      - {section: "11.5", action: add, variant: drug_drug_interaction, title: 药物相互作用结果}
+    playbook: s11-clinpharm-special-pop-endpoints.md
+    expected_tfl_categories: [ddi_pk, geometric_mean_ratio, safety]
+    required_analysis_sets: [PKPS, SAF]
+
+  - id: M-FOOD-EFFECT
+    name_zh: 食物影响
+    activation_flag: is_food_effect_study
+    condition: design.study_type == food_effect || food_effect in design.clinical_pharmacology_studies
+    structure:
+      - {section: "11.5", action: add, variant: food_effect, title: 食物对药代动力学的影响}
+    playbook: s11-clinpharm-special-pop-endpoints.md
+    expected_tfl_categories: [food_effect_pk, geometric_mean_ratio, safety]
+    required_analysis_sets: [PKPS, SAF]
+
+  - id: M-HEPATIC-IMPAIR
+    name_zh: 肝功能不全 PK
+    activation_flag: has_hepatic_impairment_pk
+    condition: (design.study_type == hepatic_impairment || hepatic_impairment in population.special_populations) && data_domains.pk_concentration
+    structure:
+      - {section: "11.5", action: add, variant: hepatic_impairment_pk, title: 肝功能不全人群药代动力学}
+    playbook: s11-clinpharm-special-pop-endpoints.md
+    expected_tfl_categories: [special_population_pk, hepatic_impairment, safety]
+    required_analysis_sets: [PKPS, SAF]
+
+  - id: M-RENAL-IMPAIR
+    name_zh: 肾功能不全 PK
+    activation_flag: has_renal_impairment_pk
+    condition: (design.study_type == renal_impairment || renal_impairment in population.special_populations) && data_domains.pk_concentration
+    structure:
+      - {section: "11.5", action: add, variant: renal_impairment_pk, title: 肾功能不全人群药代动力学}
+    playbook: s11-clinpharm-special-pop-endpoints.md
+    expected_tfl_categories: [special_population_pk, renal_impairment, safety]
+    required_analysis_sets: [PKPS, SAF]
+
+  - id: M-PEDIATRIC
+    name_zh: 儿科人群
+    activation_flag: has_pediatric_population
+    condition: pediatric in population.special_populations
+    structure:
+      - {section: "11.2", action: extend, variant: pediatric, title: 儿科人群与分层}
+      - {section: "12.5", action: extend, variant: pediatric_safety, title: 儿科人群专项观察}
+    playbook: s11-clinpharm-special-pop-endpoints.md
+    expected_tfl_categories: [pediatric_demographics, pediatric_efficacy, pediatric_safety]
+    required_analysis_sets: [FAS, SAF]
+
+  - id: M-GERIATRIC
+    name_zh: 老年人群
+    activation_flag: has_geriatric_population
+    condition: older_adult in population.special_populations
+    structure:
+      - {section: "11.2", action: extend, variant: geriatric, title: 老年人群与分层}
+      - {section: "12.5", action: extend, variant: geriatric_safety, title: 老年人群专项观察}
+    playbook: s11-clinpharm-special-pop-endpoints.md
+    expected_tfl_categories: [geriatric_demographics, geriatric_efficacy, geriatric_safety]
+    required_analysis_sets: [FAS, SAF]
+
+  - id: M-INFECTION
+    name_zh: 病原学/微生物学终点
+    activation_flag: has_infection_endpoints
+    condition: infection_microbiology in data_domains.therapeutic_area_endpoints
+    structure:
+      - {section: "$EFFICACY.1", action: extend, variant: infection_microbiology, title: 病原学、微生物学及复合治愈终点}
+    playbook: s11-clinpharm-special-pop-endpoints.md
+    expected_tfl_categories: [microbiological_cure, pathogen_eradication, composite_cure]
+    required_analysis_sets: [mITT, mPPS]
+
+  - id: M-DERMATOLOGY
+    name_zh: 皮肤科量表终点
+    activation_flag: has_dermatology_endpoints
+    condition: dermatology_scales in data_domains.therapeutic_area_endpoints
+    structure:
+      - {section: "$EFFICACY.1", action: extend, variant: dermatology_scales, title: 皮肤科评分量表终点}
+      - {section: "$EFFICACY.2.1", action: extend, variant: dermatology_ancova, title: 皮肤科终点协变量校正（ANCOVA）}
+    playbook: s11-clinpharm-special-pop-endpoints.md
+    expected_tfl_categories: [iga_sd_success, iga_sd_change_from_baseline, erythema_total_score, scaling_total_score, wi_nrs, dlqi_total, ancova_adjusted_effect]
+    required_analysis_sets: [FAS, mFAS]
+
+  - id: M-ECG
+    name_zh: 心电图评价
+    activation_flag: has_ecg
+    condition: data_domains.ecg
+    structure:
+      - {section: "12.5.2", action: extend, variant: ecg_evaluation, title: 心电图评价}
+    playbook: s12-route-specific-safety.md
+    expected_tfl_categories: [ecg]
+    required_analysis_sets: [SS]
+
+  - id: M-AESI
+    name_zh: 特别关注不良事件
+    activation_flag: has_aesi
+    condition: data_domains.aesi
+    structure:
+      - {section: "12.2.5", action: extend, variant: aesi, title: 特别关注不良事件（AESI）}
+    playbook: s12-2-adverse-events.md
+    expected_tfl_categories: [aesi]
+    required_analysis_sets: [SS]
+
+  - id: M-VITAL-SIGNS
+    name_zh: 临床重要生命体征异常
+    activation_flag: has_vital_signs
+    condition: data_domains.vital_signs
+    structure:
+      - {section: "12.5.3", action: extend, variant: clinically_significant_vital_signs, title: 临床重要生命体征异常}
+    playbook: s12-route-specific-safety.md
+    expected_tfl_categories: [vital_signs]
+    required_analysis_sets: [SS]
+
+  - id: M-PREGNANCY
+    name_zh: 妊娠报告
+    activation_flag: has_pregnancy_reporting
+    condition: data_domains.pregnancy || pregnancy in population.special_populations
+    structure:
+      - {section: "12.5.4", action: extend, variant: pregnancy, title: 妊娠报告}
+    playbook: s12-route-specific-safety.md
+    expected_tfl_categories: [pregnancy]
+    required_analysis_sets: [SS]
+
+  - id: M-MEDICATION-ERROR
+    name_zh: 用药错误过量误用
+    activation_flag: has_medication_error_reporting
+    condition: data_domains.medication_error_overdose_misuse
+    structure:
+      - {section: "12.5.5", action: extend, variant: medication_error_overdose_misuse, title: 用药错误、过量和误用}
+    playbook: s12-route-specific-safety.md
+    expected_tfl_categories: [medication_error, overdose, misuse]
+    required_analysis_sets: [SS]
+
+  - id: M-AE-WITHDRAWAL
+    name_zh: 导致研究退出的不良事件
+    activation_flag: has_ae_study_withdrawal
+    condition: data_domains.ae_study_withdrawal
+    structure:
+      - {section: "12.2.8", action: extend, variant: ae_study_withdrawal, title: 导致研究退出的不良事件}
+    playbook: s12-2-adverse-events.md
+    expected_tfl_categories: [ae_study_withdrawal]
+    required_analysis_sets: [SS]

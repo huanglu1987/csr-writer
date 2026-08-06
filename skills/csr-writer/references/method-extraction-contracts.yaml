@@ -1,0 +1,401 @@
+schema_version: "1.0"
+policy:
+  contract_count: 32
+  locator_resolution: "每个 canonical_locator 必须在项目 source_map 中解析为带版本的准确标题和物理位置；未解析不得抽取。"
+  source_view: accepted_revisions_only
+  comments: exclude_and_flag
+  hidden_text: exclude_and_flag
+  human_confirmation: required
+  free_llm_rewriting: forbidden
+  constrained_narration: "仅 narration_by_section=constrained_llm 的单元可在事实卡闭集内组织句子；逐字段确定性回指失败即硬失败。"
+  conflict_policy: hard_fail_and_human_adjudication
+  narration_by_section:
+    verbatim_list: ["9.3.1", "9.3.2", "9.3.3", "9.4.7", "9.5.1.1"]
+    constrained_llm: ["9.1", "9.2", "9.4.1", "9.4.2", "9.4.3", "9.4.4", "9.4.5", "9.4.6", "9.4.8", "9.5.2", "9.5.3", "9.5.4", "9.5.6", "9.5.7", "9.5.8", "9.5.9", "9.6", "9.7.1", "9.7.2", "9.8", "10.1", "10.2", "10.3.1", "10.3.2", "10.3.3", "10.3.4", "10.3.5"]
+
+defaults:
+  summary_constraints:
+    - "不得改变否定、例外、时间窗、频次、条件、阈值或分析集限定。"
+    - "不得合并、拆分或重排原文编号条目。"
+    - "不得用行业惯例补充源文件未写明的内容。"
+  validation_required:
+    - source_version_and_sha256
+    - exact_locator_resolved
+    - extracted_text_sha256
+    - human_confirmation_record
+
+contracts:
+  - section_id: "9.1"
+    title: "整体研究设计和计划 - 描述"
+    sources:
+      - {file_role: protocol, locator_key: protocol.section_map.overall_design, canonical_locator: "方案 §9.1 整体研究设计和计划"}
+    verbatim_elements: [研究类型, 设计框架, 治疗组, 分配比, 盲法, 对照, 给药期和随访期]
+    summarizable_elements: [研究流程总体说明]
+    validation:
+      keyword_groups: [[随机, 非随机], [盲, 开放], [对照, 单臂]]
+      item_count_rule: "治疗组数、研究阶段数与方案原文一致。"
+      cross_checks: [study_facts.design, "§9.4", "§10.1"]
+
+  - section_id: "9.2"
+    title: "研究设计的讨论，包括对照组的选择"
+    sources:
+      - {file_role: protocol, locator_key: protocol.section_map.design_rationale, canonical_locator: "方案 §9.2 研究设计及对照选择依据"}
+    verbatim_elements: [对照类型, 设计选择的限定条件]
+    summarizable_elements: [设计理由, 对照选择理由]
+    validation:
+      keyword_groups: [[安慰剂, 阳性对照, 无对照]]
+      item_count_rule: "每一种实际对照均有对应理由，不新增未采用的对照。"
+      cross_checks: [study_facts.design.control_types, "§9.1"]
+
+  - section_id: "9.3.1"
+    title: "入选标准"
+    sources:
+      - {file_role: protocol, locator_key: protocol.section_map.inclusion_criteria, canonical_locator: "方案 §9.3.1 入选标准"}
+    verbatim_elements: [全部编号标准, 数值阈值, 时间窗, 检查要求, 例外和限定词]
+    summarizable_elements: []
+    validation:
+      keyword_groups: [[入选, 纳入]]
+      item_count_rule: "编号、条目数和顺序与方案逐项一致。"
+      cross_checks: [screening_crf, protocol_amendment_history]
+
+  - section_id: "9.3.2"
+    title: "排除标准"
+    sources:
+      - {file_role: protocol, locator_key: protocol.section_map.exclusion_criteria, canonical_locator: "方案 §9.3.2 排除标准"}
+    verbatim_elements: [全部编号标准, 数值阈值, 时间窗, 禁用药物, 例外和限定词]
+    summarizable_elements: []
+    validation:
+      keyword_groups: [[排除]]
+      item_count_rule: "编号、条目数和顺序与方案逐项一致。"
+      cross_checks: [screening_crf, protocol_amendment_history]
+
+  - section_id: "9.3.3"
+    title: "从治疗或评估中移除患者"
+    sources:
+      - {file_role: protocol, locator_key: protocol.section_map.withdrawal_discontinuation, canonical_locator: "方案 §9.3.3 退出、停止治疗和停止评估标准"}
+    verbatim_elements: [退出和停药条件, 后续访视要求, 数据保留规则]
+    summarizable_elements: [退出处理流程]
+    validation:
+      keyword_groups: [[退出, 终止], [停药, 停止治疗]]
+      item_count_rule: "退出、停药和停止评估三类条件分别核对。"
+      cross_checks: ["T14.1.1.1", "§10.1"]
+
+  - section_id: "9.4.1"
+    title: "给予的治疗"
+    sources:
+      - {file_role: protocol, locator_key: protocol.section_map.study_treatments, canonical_locator: "方案 §9.4.1 研究治疗"}
+    verbatim_elements: [各治疗组, 剂型, 规格, 浓度或剂量, 频次, 途径, 疗程]
+    summarizable_elements: [治疗方案总述]
+    validation:
+      keyword_groups: [[剂量, 浓度], [频次, BID, QD], [给药途径]]
+      item_count_rule: "治疗组数及每组给药要素与方案一致。"
+      cross_checks: [study_facts.design.dose_levels, tfl_map.columns]
+
+  - section_id: "9.4.2"
+    title: "研究性产品的标识"
+    sources:
+      - {file_role: protocol, locator_key: protocol.section_map.investigational_product_identity, canonical_locator: "方案 §9.4.2 研究性产品标识和包装"}
+      - {file_role: pharmacy_manual, locator_key: pharmacy.section_map.product_identity, canonical_locator: "药房手册 研究性产品标识"}
+    verbatim_elements: [产品代码, 剂型, 规格, 包装, 标签, 批号管理方式]
+    summarizable_elements: [包装和发放流程]
+    validation:
+      keyword_groups: [[标签, 标识], [包装], [批号]]
+      item_count_rule: "每一种研究性产品均单独对应一条确认记录。"
+      cross_checks: [appendix_16_1_6_status, product_accountability_register]
+
+  - section_id: "9.4.3"
+    title: "患者的治疗组分配方法"
+    sources:
+      - {file_role: protocol, locator_key: protocol.section_map.randomization, canonical_locator: "方案 §9.4.3 随机化和治疗分配"}
+      - {file_role: sap, locator_key: sap.section_map.randomization, canonical_locator: "SAP 随机化方法"}
+    verbatim_elements: [随机化方式, 分配比, 分层因素, 区组长度, 随机号生成方, 随机系统, 分配隐藏方法]
+    summarizable_elements: [随机化实施流程]
+    validation:
+      keyword_groups: [[随机], [分层, 区组], [分配比]]
+      item_count_rule: "分层因素数量及名称与方案和 SAP 一致。"
+      cross_checks: [appendix_16_1_7_status, randomization_record]
+
+  - section_id: "9.4.4"
+    title: "研究中的剂量选择"
+    sources:
+      - {file_role: protocol, locator_key: protocol.section_map.dose_selection, canonical_locator: "方案 §9.4.4 剂量或浓度选择依据"}
+      - {file_role: investigator_brochure, locator_key: ib.section_map.dose_rationale, canonical_locator: "研究者手册 剂量选择依据"}
+    verbatim_elements: [计划剂量或浓度, 递增规则, 停止规则, 选择边界]
+    summarizable_elements: [剂量选择理由]
+    validation:
+      keyword_groups: [[剂量, 浓度], [选择, 依据]]
+      item_count_rule: "所有计划剂量或浓度均有来源，数量与 study_facts 一致。"
+      cross_checks: [study_facts.design.dose_levels, "§12.6"]
+
+  - section_id: "9.4.5"
+    title: "每位患者的研究剂量和给药时间"
+    sources:
+      - {file_role: protocol, locator_key: protocol.section_map.individual_dosing_schedule, canonical_locator: "方案 §9.4.5 给药计划和时间窗"}
+    verbatim_elements: [单次剂量, 每日频次, 给药间隔, 给药时间窗, 漏用和补用规则]
+    summarizable_elements: [给药流程说明]
+    validation:
+      keyword_groups: [[给药], [时间, 间隔], [漏用, 补用]]
+      item_count_rule: "各组给药计划逐组核对，不合并不同频次。"
+      cross_checks: ["T14.3.1.1", treatment_accountability]
+
+  - section_id: "9.4.6"
+    title: "盲法"
+    sources:
+      - {file_role: protocol, locator_key: protocol.section_map.blinding, canonical_locator: "方案 §9.4.6 盲法维持和揭盲"}
+      - {file_role: blinding_plan, locator_key: blinding.section_map.maintenance_unblinding, canonical_locator: "盲法计划 盲态维持与揭盲"}
+    verbatim_elements: [盲法类型, 设盲对象, 外观匹配, 盲底管理, 应急揭盲条件, 应急揭盲流程, 揭盲权限]
+    summarizable_elements: [盲态维护流程]
+    validation:
+      keyword_groups: [[盲法, 盲态], [揭盲, 破盲]]
+      item_count_rule: "设盲角色和可揭盲角色分别核对。"
+      cross_checks: [unblinding_log, study_facts.design.blinding]
+
+  - section_id: "9.4.7"
+    title: "既往和伴随治疗"
+    sources:
+      - {file_role: protocol, locator_key: protocol.section_map.prior_concomitant_treatment, canonical_locator: "方案 §9.4.7 既往和伴随治疗"}
+    verbatim_elements: [允许药物, 禁止药物, 洗脱期, 救援治疗, 例外条件]
+    summarizable_elements: [伴随治疗管理流程]
+    validation:
+      keyword_groups: [[允许, 禁止], [洗脱], [救援治疗]]
+      item_count_rule: "药物类别和时间窗逐项保持。"
+      cross_checks: [concomitant_medication_crf, protocol_deviation_rules]
+
+  - section_id: "9.4.8"
+    title: "治疗依从性"
+    sources:
+      - {file_role: protocol, locator_key: protocol.section_map.compliance, canonical_locator: "方案 §9.4.8 治疗依从性"}
+      - {file_role: sap, locator_key: sap.section_map.compliance, canonical_locator: "SAP 依从性计算"}
+    verbatim_elements: [依从性定义, 计算公式, 分子分母, 允许范围, 分析集]
+    summarizable_elements: [依从性评价流程]
+    validation:
+      keyword_groups: [[依从性], [公式, 计算], [允许范围]]
+      item_count_rule: "方案和 SAP 的公式要素逐项一致或有人工裁决。"
+      cross_checks: ["T14.1", "§11.3"]
+
+  - section_id: "9.5.1.1"
+    title: "研究评估流程图"
+    sources:
+      - {file_role: protocol, locator_key: protocol.section_map.schedule_of_assessments, canonical_locator: "方案 研究流程图和访视评估表"}
+    verbatim_elements: [访视名称, 时间窗, 评估项目, 脚注和条件性评估]
+    summarizable_elements: []
+    validation:
+      keyword_groups: [[访视, 时间窗], [评估]]
+      item_count_rule: "访视列数、评估项目数和脚注引用与源表一致。"
+      cross_checks: [crf_visit_schedule, tfl_visit_dimensions]
+
+  - section_id: "9.5.2"
+    title: "衡量指标的适当性"
+    sources:
+      - {file_role: protocol, locator_key: protocol.section_map.measure_justification, canonical_locator: "方案 §9.5.2 评价指标选择依据"}
+    verbatim_elements: [量表或检测方法名称, 版本, 判定标准]
+    summarizable_elements: [指标适用性理由]
+    validation:
+      keyword_groups: [[量表, 指标, 检测], [依据, 验证]]
+      item_count_rule: "每个关键终点使用的工具均有对应说明。"
+      cross_checks: ["9.5.3-9.5.9", instrument_manuals]
+
+  - section_id: "9.5.3"
+    title: "主要终点"
+    sources:
+      - {file_role: protocol, locator_key: protocol.section_map.primary_endpoints, canonical_locator: "方案 §9.5.3 主要终点"}
+      - {file_role: sap, locator_key: sap.section_map.primary_endpoints, canonical_locator: "SAP 主要终点定义"}
+    verbatim_elements: [终点名称, 定义, 时间点, 计算规则, 分析集, estimand 要素]
+    summarizable_elements: []
+    validation:
+      keyword_groups: [[主要终点], [时间点, 访视], [分析集]]
+      item_count_rule: "主要终点数量、顺序和层级逐项一致。"
+      cross_checks: [study_facts.objectives, tfl_map.primary_endpoint_tables]
+
+  - section_id: "9.5.4"
+    title: "PK 终点和采样"
+    sources:
+      - {file_role: protocol, locator_key: protocol.section_map.pk_endpoints_sampling, canonical_locator: "方案 §9.5.4 PK 终点和采样"}
+      - {file_role: sap, locator_key: sap.section_map.pk_analysis, canonical_locator: "SAP PK 分析"}
+    verbatim_elements: [采样时点, 窗口, 基质, PK 参数, BLQ 规则, LLOQ, 分析集]
+    summarizable_elements: [采样流程说明]
+    validation:
+      keyword_groups: [[PK, 药代], [采样], [BLQ, 定量下限]]
+      item_count_rule: "采样时点和参数清单逐项核对。"
+      cross_checks: ["T14.2.4", "§11.5"]
+
+  - section_id: "9.5.6"
+    title: "其他次要终点"
+    sources:
+      - {file_role: protocol, locator_key: protocol.section_map.secondary_endpoints, canonical_locator: "方案 §9.5.6 其他次要终点"}
+      - {file_role: sap, locator_key: sap.section_map.secondary_endpoints, canonical_locator: "SAP 次要终点"}
+    verbatim_elements: [终点名称, 定义, 时间点, 层级, 分析集]
+    summarizable_elements: []
+    validation:
+      keyword_groups: [[次要终点]]
+      item_count_rule: "次要终点数量、顺序和层级逐项一致。"
+      cross_checks: [study_facts.objectives, tfl_map.secondary_endpoint_tables]
+
+  - section_id: "9.5.7"
+    title: "探索性终点"
+    sources:
+      - {file_role: protocol, locator_key: protocol.section_map.exploratory_endpoints, canonical_locator: "方案 §9.5.7 探索性终点"}
+      - {file_role: sap, locator_key: sap.section_map.exploratory_endpoints, canonical_locator: "SAP 探索性终点"}
+    verbatim_elements: [终点名称, 定义, 时间点, 预设或事后属性, 分析集]
+    summarizable_elements: []
+    validation:
+      keyword_groups: [[探索性], [生物标志物, PD, PRO]]
+      item_count_rule: "探索性终点逐项保留，不提升为确证性终点。"
+      cross_checks: [study_facts.data_domains, "§11.6"]
+
+  - section_id: "9.5.8"
+    title: "安全性终点"
+    sources:
+      - {file_role: protocol, locator_key: protocol.section_map.safety_endpoints, canonical_locator: "方案 §9.5.8 安全性终点"}
+      - {file_role: sap, locator_key: sap.section_map.safety_endpoints, canonical_locator: "SAP 安全性分析"}
+    verbatim_elements: [AE 定义, 观察期, 严重程度, 因果分类, 实验室和生命体征规则, 分析集]
+    summarizable_elements: [安全性评估流程]
+    validation:
+      keyword_groups: [[不良事件, AE], [实验室], [生命体征]]
+      item_count_rule: "每类安全性评估均保留定义和观察时间窗。"
+      cross_checks: ["T14.3", "§12"]
+
+  - section_id: "9.5.9"
+    title: "局部耐受性终点"
+    sources:
+      - {file_role: protocol, locator_key: protocol.section_map.local_tolerance_endpoints, canonical_locator: "方案 §9.5.9 局部耐受性终点"}
+      - {file_role: sap, locator_key: sap.section_map.local_tolerance, canonical_locator: "SAP 局部耐受性分析"}
+    verbatim_elements: [主动询问评分, 研究者观察体征, AE 编码边界, 评分量表和时间点]
+    summarizable_elements: [评价流程]
+    validation:
+      keyword_groups: [[局部耐受性, 用药部位], [评分, 皮肤体征], [AE]]
+      item_count_rule: "评分、观察和 AE 三类来源分别核对。"
+      cross_checks: [study_facts.data_domains.local_tolerance, "T14.3.1.3.3", "T14.3.1.3.4"]
+
+  - section_id: "9.6"
+    title: "数据质量保证"
+    sources:
+      - {file_role: protocol, locator_key: protocol.section_map.data_quality, canonical_locator: "方案 §9.6 数据质量保证"}
+      - {file_role: data_management_plan, locator_key: dmp.section_map.quality_controls, canonical_locator: "数据管理计划 质量控制"}
+    verbatim_elements: [监查方式, 数据核查, 稽查状态, 数据库锁定和盲态审核程序]
+    summarizable_elements: [质量保证流程]
+    validation:
+      keyword_groups: [[监查], [数据核查, 质疑], [数据库锁定]]
+      item_count_rule: "只陈述有来源的质量活动，不把计划活动写成已完成。"
+      cross_checks: [audit_status, database_lock_record]
+
+  - section_id: "9.7.1"
+    title: "统计分析计划"
+    sources:
+      - {file_role: protocol, locator_key: protocol.section_map.statistical_methods, canonical_locator: "方案 §9.7.1 统计分析方法"}
+      - {file_role: sap, locator_key: sap.section_map.analysis_overview, canonical_locator: "SAP 统计分析总则及版本记录"}
+    verbatim_elements: [分析集, 统计模型, 协变量, 缺失数据, 多重性, 软件和版本]
+    summarizable_elements: [统计分析总体策略]
+    validation:
+      keyword_groups: [[分析集], [统计模型], [缺失数据]]
+      item_count_rule: "主要分析、敏感性分析和亚组分析分别核对。"
+      cross_checks: [sap_version, "9.5.3-9.5.9", "§10.3"]
+
+  - section_id: "9.7.2"
+    title: "样本量的确定"
+    sources:
+      - {file_role: protocol, locator_key: protocol.section_map.sample_size, canonical_locator: "方案 §9.7.2 样本量确定"}
+      - {file_role: sap, locator_key: sap.section_map.sample_size, canonical_locator: "SAP 样本量和把握度"}
+    verbatim_elements: [计划样本量, 假设, 效应量, 变异, alpha, 把握度, 脱落率]
+    summarizable_elements: [样本量推导理由]
+    validation:
+      keyword_groups: [[样本量], [把握度, power], [脱落率]]
+      item_count_rule: "公式要素、计划组例数和总例数逐项一致。"
+      cross_checks: [study_facts.design.planned_sample_size, randomization_ratio]
+
+  - section_id: "9.8"
+    title: "研究过程或分析计划的变更"
+    sources:
+      - {file_role: protocol, locator_key: protocol.section_map.amendment_history, canonical_locator: "方案修订记录及 §9.8 研究过程变更"}
+      - {file_role: sap, locator_key: sap.section_map.change_history, canonical_locator: "SAP 修订记录和偏离计划分析"}
+    verbatim_elements: [版本, 日期, 变更内容, 变更理由, 盲态状态, 预设或事后属性]
+    summarizable_elements: [变更影响说明]
+    validation:
+      keyword_groups: [[修订, 变更], [理由], [盲态, 揭盲]]
+      item_count_rule: "修订版本数和实质变更数与版本台账一致。"
+      cross_checks: [source_version_registry, claim_ledger]
+
+  - section_id: "10.1"
+    title: "患者的处置"
+    sources:
+      - {file_role: protocol, locator_key: protocol.section_map.withdrawal_discontinuation, canonical_locator: "方案 §9.3.3 退出和停止标准"}
+      - {file_role: tfl_map, locator_key: tfl.section_map.subject_disposition, canonical_locator: "表14.1.1.1–14.1.1.3 受试者处置和分析集"}
+    verbatim_elements: [处置类别定义, 完成和退出分类, 退出原因分类]
+    summarizable_elements: [处置流程说明]
+    validation:
+      keyword_groups: [[完成, 退出], [随机, 入组], [分析集]]
+      item_count_rule: "方案分类数与 TFL 行分类逐项核对；宽表只登记表级元数据。"
+      cross_checks: [tfl_map, analysis_set_contract]
+
+  - section_id: "10.2"
+    title: "方案偏离"
+    sources:
+      - {file_role: protocol, locator_key: protocol.section_map.protocol_deviations, canonical_locator: "方案 方案偏离定义和处理"}
+      - {file_role: sap, locator_key: sap.section_map.protocol_deviations, canonical_locator: "SAP 重要方案偏离和分析集排除规则"}
+      - {file_role: tfl_map, locator_key: tfl.section_map.protocol_deviations, canonical_locator: "表14.1.1.3 方案偏离"}
+    verbatim_elements: [偏离分类, 重要性标准, 分析集影响规则]
+    summarizable_elements: [偏离审核流程]
+    validation:
+      keyword_groups: [[方案偏离], [重要, 重大], [分析集]]
+      item_count_rule: "偏离类别由结果 TFL 数据驱动，shell 占位行不得预建语义键。"
+      cross_checks: [deviation_review_log, analysis_set_contract]
+
+  - section_id: "10.3.1"
+    title: "FAS（全分析集）"
+    sources:
+      - {file_role: sap, locator_key: sap.analysis_sets.FAS, canonical_locator: "SAP 分析集定义：FAS"}
+      - {file_role: protocol, locator_key: protocol.section_map.analysis_sets, canonical_locator: "方案 分析集定义"}
+    verbatim_elements: [分析集名称, 纳入条件, 排除条件, 特殊处理规则]
+    summarizable_elements: []
+    validation:
+      keyword_groups: [[FAS, 全分析集]]
+      item_count_rule: "定义逐句核对，不能用 ITT 惯例替代。"
+      cross_checks: [study_facts.analyses.analysis_sets, tfl_map.population_ids]
+
+  - section_id: "10.3.2"
+    title: "mFAS（修正全分析集）"
+    sources:
+      - {file_role: sap, locator_key: sap.analysis_sets.mFAS, canonical_locator: "SAP 分析集定义：mFAS"}
+      - {file_role: protocol, locator_key: protocol.section_map.analysis_sets, canonical_locator: "方案 分析集定义"}
+    verbatim_elements: [分析集名称, 修正条件, 纳入条件, 排除条件]
+    summarizable_elements: []
+    validation:
+      keyword_groups: [[mFAS, 修正全分析集]]
+      item_count_rule: "保留小写 m 和项目特有修正条件。"
+      cross_checks: [study_facts.analyses.analysis_sets, tfl_map.population_ids]
+
+  - section_id: "10.3.3"
+    title: "SS（安全性分析集）"
+    sources:
+      - {file_role: sap, locator_key: sap.analysis_sets.SS, canonical_locator: "SAP 分析集定义：SS"}
+      - {file_role: protocol, locator_key: protocol.section_map.analysis_sets, canonical_locator: "方案 分析集定义"}
+    verbatim_elements: [分析集名称, 接受治疗条件, 安全性资料条件, 按实际治疗规则]
+    summarizable_elements: []
+    validation:
+      keyword_groups: [[SS, 安全性分析集]]
+      item_count_rule: "安全性集定义与 AE 和暴露表的人群标记一致。"
+      cross_checks: [study_facts.analyses.analysis_sets, tfl_map.population_ids]
+
+  - section_id: "10.3.4"
+    title: "PKCS（药代浓度分析集）"
+    sources:
+      - {file_role: sap, locator_key: sap.analysis_sets.PKCS, canonical_locator: "SAP 分析集定义：PKCS"}
+      - {file_role: protocol, locator_key: protocol.section_map.analysis_sets, canonical_locator: "方案 PK 分析集定义"}
+    verbatim_elements: [分析集名称, 可用浓度条件, 排除条件, 样本处理规则]
+    summarizable_elements: []
+    validation:
+      keyword_groups: [[PKCS, 药代浓度分析集]]
+      item_count_rule: "浓度集与参数集分开核对，不得合并。"
+      cross_checks: [study_facts.analyses.analysis_sets, "T14.2.4.1"]
+
+  - section_id: "10.3.5"
+    title: "PKPS（药代参数分析集）"
+    sources:
+      - {file_role: sap, locator_key: sap.analysis_sets.PKPS, canonical_locator: "SAP 分析集定义：PKPS"}
+      - {file_role: protocol, locator_key: protocol.section_map.analysis_sets, canonical_locator: "方案 PK 分析集定义"}
+    verbatim_elements: [分析集名称, 参数可计算条件, 排除条件, 特殊处理规则]
+    summarizable_elements: []
+    validation:
+      keyword_groups: [[PKPS, 药代参数分析集]]
+      item_count_rule: "参数集定义与 BLQ 和参数可计算规则逐项一致。"
+      cross_checks: [study_facts.analyses.analysis_sets, "T14.2.4.3"]

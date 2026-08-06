@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "nodes": [
+    {"id": "PROT-DERM-1", "layer": "protocol", "locator": "protocol:endpoint:DERM-1", "label": "脱敏皮肤科评分终点"},
+    {"id": "SAP-DERM-1", "layer": "sap", "locator": "sap:analysis:DERM-1", "label": "脱敏协变量校正分析"},
+    {"id": "TFL-DERM-1", "layer": "tfl", "locator": "T14.2.2|POP=FAS|ROW=IGA_CHANGE|COL=C0_5PCT_BID", "label": "脱敏皮肤科终点表"},
+    {"id": "CSR-DERM-1", "layer": "csr", "locator": "11.4.2.1:p_derm_001", "label": "脱敏 CSR 结果段"}
+  ],
+  "links": [
+    {"from": "PROT-DERM-1", "to": "SAP-DERM-1", "relation": "specified_by"},
+    {"from": "SAP-DERM-1", "to": "TFL-DERM-1", "relation": "implemented_by"},
+    {"from": "TFL-DERM-1", "to": "CSR-DERM-1", "relation": "reported_in"}
+  ],
+  "required_paths": [
+    {"trace_id": "DERM-1", "protocol": "PROT-DERM-1", "sap": "SAP-DERM-1", "tfl": "TFL-DERM-1", "csr": "CSR-DERM-1"}
+  ]
+}

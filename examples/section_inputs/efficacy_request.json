@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "section_id": "11.4",
+  "variant": "exploratory",
+  "evidence_status": "demo_only",
+  "tfl_bindings": [
+    {
+      "role": "experimental_result",
+      "key": "T14.2.1|POP=FAS|ROW=OBJECTIVE_RESPONSE_CR_PR|COL=XYZ200MG",
+      "source_id": "T14.2.1",
+      "context": "主要终点试验组结果单元格；数值不提供给写手"
+    },
+    {
+      "role": "control_result",
+      "key": "T14.2.1|POP=FAS|ROW=OBJECTIVE_RESPONSE_CR_PR|COL=PBO",
+      "source_id": "T14.2.1",
+      "context": "主要终点对照组结果单元格；数值不提供给写手"
+    },
+    {
+      "role": "experimental_ci",
+      "key": "T14.2.1|POP=FAS|ROW=95_CI|COL=XYZ200MG",
+      "source_id": "T14.2.1",
+      "context": "试验组区间估计单元格；数值不提供给写手"
+    },
+    {
+      "role": "control_ci",
+      "key": "T14.2.1|POP=FAS|ROW=95_CI|COL=PBO",
+      "source_id": "T14.2.1",
+      "context": "对照组区间估计单元格；数值不提供给写手"
+    },
+    {
+      "role": "between_group_difference",
+      "key": "T14.2.1|POP=FAS|ROW=DIFFERENCE|COL=STAT",
+      "source_id": "T14.2.1",
+      "context": "组间差异单元格；数值不提供给写手"
+    },
+    {
+      "role": "p_value",
+      "key": "T14.2.1|POP=FAS|ROW=P_VALUE|COL=STAT",
+      "source_id": "T14.2.1",
+      "context": "主要分析检验结果单元格；数值不提供给写手"
+    }
+  ],
+  "source_fragments": [
+    {
+      "source_id": "Protocol-v3-endpoint",
+      "locator": "Protocol v3.0 §9.4.1",
+      "purpose": "endpoint_definition",
+      "text": "主要疗效终点定义为经独立评审确认的客观缓解。"
+    },
+    {
+      "source_id": "SAP-v2-analysis-set",
+      "locator": "SAP v2.0 §6",
+      "purpose": "analysis_set",
+      "text": "主要疗效分析采用全分析集。"
+    },
+    {
+      "source_id": "SAP-v2-primary-method",
+      "locator": "SAP v2.0 §7.2",
+      "purpose": "analysis_method",
+      "text": "主要终点按预先规定的组间比较方法分析，结论须结合检验策略确认。"
+    }
+  ]
+}

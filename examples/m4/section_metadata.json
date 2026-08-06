@@ -1,0 +1,57 @@
+[
+  {
+    "binding_manifest": [
+      {
+        "key": "T10.1|POP=RANDOMIZED|ROW=RANDOMIZED_COUNT|COL=XYZ200MG",
+        "role": "experimental_randomized_count",
+        "source_id": "T10.1"
+      },
+      {
+        "key": "T10.1|POP=RANDOMIZED|ROW=RANDOMIZED_COUNT|COL=PBO",
+        "role": "control_randomized_count",
+        "source_id": "T10.1"
+      }
+    ],
+    "section": "10.1"
+  },
+  {
+    "binding_manifest": [
+      {
+        "key": "T11.1|POP=FAS|ROW=ANALYSIS_SET_COUNT|COL=XYZ200MG",
+        "role": "experimental_analysis_set_count",
+        "source_id": "T11.1"
+      },
+      {
+        "key": "T11.1|POP=FAS|ROW=ANALYSIS_SET_COUNT|COL=PBO",
+        "role": "control_analysis_set_count",
+        "source_id": "T11.1"
+      }
+    ],
+    "section": "11.1"
+  },
+  {
+    "binding_manifest": [
+      {
+        "key": "T14.2.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=XYZ200MG",
+        "role": "experimental_result",
+        "source_id": "T14.2.1"
+      },
+      {
+        "key": "T14.2.1|POP=FAS|ROW=PRIMARY_RESPONSE|COL=PBO",
+        "role": "control_result",
+        "source_id": "T14.2.1"
+      },
+      {
+        "key": "T14.2.1|POP=FAS|ROW=95_CI|COL=XYZ200MG",
+        "role": "experimental_ci",
+        "source_id": "T14.2.1"
+      },
+      {
+        "key": "T14.2.1|POP=FAS|ROW=95_CI|COL=PBO",
+        "role": "control_ci",
+        "source_id": "T14.2.1"
+      }
+    ],
+    "section": "11.4"
+  }
+]

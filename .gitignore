@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# 开发轮次的中间产物（M1–M21，约 55MB）
+# 本地保留作为验证证据链；仓库只带 examples/reference 下的参考产物
+examples/output/
+
+# 渲染与视觉检查的临时目录
+.visualcheck_tmp/
+**/libreoffice-profile/
+
+# 本地泄漏检测配置（如将真实研究编号外置，放这里，不入库）
+scripts/local_forbidden_strings.json

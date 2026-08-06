@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "fixture_scope": "synthetic M3 section-writer acceptance only; not clinical evidence",
+  "table_id": "T14.3.1",
+  "population": "DLT_EVAL",
+  "dose_column": "DOSE_C",
+  "cells": {
+    "DLT_EVALUABLE": "6",
+    "DLT_COUNT": "2"
+  }
+}

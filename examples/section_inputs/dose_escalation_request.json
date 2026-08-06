@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "section_id": "11.A",
+  "variant": "dose_escalation",
+  "evidence_status": "demo_only",
+  "tfl_bindings": [
+    {
+      "role": "dlt_evaluable",
+      "key": "T14.3.1|POP=DLT_EVAL|ROW=DLT_EVALUABLE|COL=DOSE_C",
+      "source_id": "T14.3.1",
+      "context": "当前剂量队列的 DLT 可评估例数；合成验收表，数值不提供给写手"
+    },
+    {
+      "role": "dlt_count",
+      "key": "T14.3.1|POP=DLT_EVAL|ROW=DLT_COUNT|COL=DOSE_C",
+      "source_id": "T14.3.1",
+      "context": "当前剂量队列的 DLT 例数；合成验收表，数值不提供给写手"
+    }
+  ],
+  "source_fragments": [
+    {
+      "source_id": "Synthetic-Protocol-escalation",
+      "locator": "Synthetic Protocol §6.1",
+      "purpose": "escalation_design",
+      "text": "本合成夹具采用规则型剂量递增；具体队列规则仅用于验证上下文隔离。"
+    },
+    {
+      "source_id": "Synthetic-Protocol-dlt",
+      "locator": "Synthetic Protocol §6.2",
+      "purpose": "dlt_definition",
+      "text": "DLT 定义及可评估标准以方案预设规则和医学判定为准。"
+    },
+    {
+      "source_id": "Synthetic-Committee-record",
+      "locator": "Synthetic Committee Record A",
+      "purpose": "committee_record",
+      "text": "委员会决定必须从经确认的会议记录提取，不由写手推断。"
+    }
+  ]
+}

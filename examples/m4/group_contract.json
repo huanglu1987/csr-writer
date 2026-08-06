@@ -1,0 +1,25 @@
+{
+  "binding_roles": {
+    "control_analysis_set_count": "control",
+    "control_ci": "control",
+    "control_randomized_count": "control",
+    "control_result": "control",
+    "experimental_analysis_set_count": "experimental",
+    "experimental_ci": "experimental",
+    "experimental_randomized_count": "experimental",
+    "experimental_result": "experimental"
+  },
+  "groups": {
+    "control": {
+      "analysis_set_anchor": "T11.1|POP=FAS|ROW=ANALYSIS_SET_COUNT|COL=PBO",
+      "column": "PBO",
+      "randomized_anchor": "T10.1|POP=RANDOMIZED|ROW=RANDOMIZED_COUNT|COL=PBO"
+    },
+    "experimental": {
+      "analysis_set_anchor": "T11.1|POP=FAS|ROW=ANALYSIS_SET_COUNT|COL=XYZ200MG",
+      "column": "XYZ200MG",
+      "randomized_anchor": "T10.1|POP=RANDOMIZED|ROW=RANDOMIZED_COUNT|COL=XYZ200MG"
+    }
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "files": [
+    {
+      "role": "development_specification",
+      "relative_path_from_plugin_root": "../CSR撰写Skill开发规格书.md",
+      "sha256": "6053ea6fffa79f98d1c92840a812cd2cf12b4a329fb9420d1efcca5c6fb06bdb"
+    },
+    {
+      "role": "verified_ich_e3_chapter_tree",
+      "relative_path_from_plugin_root": "../ICH-E3章节树.yaml",
+      "sha256": "87ea56d599120e265c1649881a9d3ad1c08db540a91be13de6a2bd31a6bc0942"
+    },
+    {
+      "role": "cde_submission_checklist",
+      "relative_path_from_plugin_root": "../CDE申报要求核查表.md",
+      "sha256": "21374f376270f1c7d8352e7e3808e7d9385aa5e8d51cd46d12c9f178d682192b"
+    },
+    {
+      "role": "external_solution_evaluation",
+      "relative_path_from_plugin_root": "../外部方案评估.md",
+      "sha256": "12581d0e5fefee3bf0b8c7d4e7e95147a5add099f394a73a89bf3031e4383e0c"
+    }
+  ],
+  "bundled_structure_copy": {
+    "relative_path_from_plugin_root": "skills/csr-writer/references/ich-e3-structure.yaml",
+    "sha256": "87ea56d599120e265c1649881a9d3ad1c08db540a91be13de6a2bd31a6bc0942"
+  }
+}

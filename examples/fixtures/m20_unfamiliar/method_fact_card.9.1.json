@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.1",
+  "card_id": "M20-METHOD-9-1-SINGLE-ARM",
+  "section_id": "9.1",
+  "title": "9.1 整体研究设计和计划 - 描述",
+  "production_method": "extraction",
+  "narration": "constrained_llm",
+  "source_manifest": [
+    {
+      "source_id": "m20_protocol_design",
+      "file_role": "protocol",
+      "version": "synthetic-deidentified-v1",
+      "locator": "脱敏合成方案 §3 研究设计",
+      "content_sha256": "78488a876ab203aa382f60d468209c70c2efe71896cc59ad6a8a6a36416de7a3"
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "V01",
+      "label": "研究类型",
+      "zone": "method",
+      "value": "单臂开放性研究",
+      "value_kind": "verbatim_text",
+      "source_kind": "protocol",
+      "source_id": "m20_protocol_design",
+      "source_locator": "脱敏合成方案 §3 研究设计",
+      "required": true,
+      "verbatim_required": true,
+      "required_terms": [],
+      "entity_type": "研究类型",
+      "missing_behavior": "hard_fail",
+      "fixed_gap_sentence": null
+    },
+    {
+      "fact_id": "V02",
+      "label": "设计框架",
+      "zone": "method",
+      "value": "单臂设计",
+      "value_kind": "verbatim_text",
+      "source_kind": "protocol",
+      "source_id": "m20_protocol_design",
+      "source_locator": "脱敏合成方案 §3 研究设计",
+      "required": true,
+      "verbatim_required": true,
+      "required_terms": [],
+      "entity_type": "设计框架",
+      "missing_behavior": "hard_fail",
+      "fixed_gap_sentence": null
+    },
+    {
+      "fact_id": "V03",
+      "label": "治疗组",
+      "zone": "method",
+      "value": [
+        "研究药物 A 组"
+      ],
+      "value_kind": "list",
+      "source_kind": "protocol",
+      "source_id": "m20_protocol_design",
+      "source_locator": "脱敏合成方案 §3 研究设计",
+      "required": true,
+      "verbatim_required": true,
+      "required_terms": [],
+      "entity_type": "治疗组",
+      "missing_behavior": "hard_fail",
+      "fixed_gap_sentence": null
+    },
+    {
+      "fact_id": "V04",
+      "label": "分配比",
+      "zone": "method",
+      "value": "不适用（单臂）",
+      "value_kind": "verbatim_text",
+      "source_kind": "protocol",
+      "source_id": "m20_protocol_design",
+      "source_locator": "脱敏合成方案 §3 研究设计",
+      "required": true,
+      "verbatim_required": true,
+      "required_terms": [],
+      "entity_type": "分配比",
+      "missing_behavior": "hard_fail",
+      "fixed_gap_sentence": null
+    },
+    {
+      "fact_id": "V05",
+      "label": "盲法",
+      "zone": "method",
+      "value": "开放性",
+      "value_kind": "verbatim_text",
+      "source_kind": "protocol",
+      "source_id": "m20_protocol_design",
+      "source_locator": "脱敏合成方案 §3 研究设计",
+      "required": true,
+      "verbatim_required": true,
+      "required_terms": [],
+      "entity_type": "盲法",
+      "missing_behavior": "hard_fail",
+      "fixed_gap_sentence": null
+    },
+    {
+      "fact_id": "V06",
+      "label": "对照",
+      "zone": "method",
+      "value": "未设置对照组",
+      "value_kind": "verbatim_text",
+      "source_kind": "protocol",
+      "source_id": "m20_protocol_design",
+      "source_locator": "脱敏合成方案 §3 研究设计",
+      "required": true,
+      "verbatim_required": true,
+      "required_terms": [],
+      "entity_type": "对照",
+      "missing_behavior": "hard_fail",
+      "fixed_gap_sentence": null
+    },
+    {
+      "fact_id": "V07",
+      "label": "给药期和随访期",
+      "zone": "method",
+      "value": [
+        "固定给药期",
+        "安全性随访期"
+      ],
+      "value_kind": "list",
+      "source_kind": "protocol",
+      "source_id": "m20_protocol_design",
+      "source_locator": "脱敏合成方案 §3 研究设计",
+      "required": true,
+      "verbatim_required": true,
+      "required_terms": [],
+      "entity_type": "给药期和随访期",
+      "missing_behavior": "hard_fail",
+      "fixed_gap_sentence": null
+    },
+    {
+      "fact_id": "S01",
+      "label": "研究流程总体说明",
+      "zone": "method",
+      "value": "研究依次经过筛选、固定给药和安全性随访。",
+      "value_kind": "text",
+      "source_kind": "protocol",
+      "source_id": "m20_protocol_design",
+      "source_locator": "脱敏合成方案 §3 研究设计",
+      "required": true,
+      "verbatim_required": false,
+      "required_terms": [
+        "筛选",
+        "固定给药",
+        "安全性随访"
+      ],
+      "entity_type": "研究流程总体说明",
+      "missing_behavior": "hard_fail",
+      "fixed_gap_sentence": null
+    }
+  ],
+  "authorized_surface_forms": [],
+  "controlled_entities": [],
+  "policy": {
+    "outside_fact_content": "hard_fail",
+    "database_numeric_policy": "placeholders_only",
+    "missing_required_fact": "hard_fail",
+    "medical_review_marker_required": false,
+    "controlled_causality_terms": [
+      "明确相关",
+      "很可能有关",
+      "可能有关",
+      "不太可能有关",
+      "无关",
+      "未评价",
+      "无法评价"
+    ]
+  }
+}

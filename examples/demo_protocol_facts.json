@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.2",
+  "protocol_id": "XYZ-001-101",
+  "study_title": "XYZ-001 在晚期实体瘤患者中的剂量递增研究",
+  "phase": "Ib",
+  "objectives": {
+    "safety_tolerability": true,
+    "pk_characterization": true,
+    "dose_exploration": true,
+    "efficacy": true,
+    "confirmatory_efficacy": true,
+    "pharmacodynamics": true,
+    "determine_mtd": true,
+    "determine_rp2d": true,
+    "primary_endpoints": [
+      {
+        "id": "DLT_RATE",
+        "name": "DLT 发生率",
+        "domain": "safety",
+        "analysis_method": "按剂量组描述性汇总"
+      }
+    ],
+    "secondary_endpoints": [
+      {
+        "id": "ORR",
+        "name": "客观缓解率",
+        "domain": "efficacy",
+        "analysis_method": "按分析集和剂量组描述性汇总"
+      },
+      {
+        "id": "PK_NCA",
+        "name": "NCA 药代动力学参数",
+        "domain": "pk",
+        "analysis_method": "非房室分析"
+      }
+    ]
+  },
+  "design": {
+    "randomized": false,
+    "controlled": false,
+    "blinding": "open_label",
+    "type": "single_arm",
+    "study_type": "general_interventional",
+    "route_of_administration": "oral",
+    "control_types": [],
+    "clinical_pharmacology_studies": [],
+    "escalation_scheme": "3+3",
+    "dlt_defined": true,
+    "expansion_cohorts": 0,
+    "adaptive": false,
+    "noninferiority": false,
+    "interim_analysis": false,
+    "n_centers": 4,
+    "dose_levels": [
+      {"value": 50, "unit": "mg"},
+      {"value": 100, "unit": "mg"},
+      {"value": 200, "unit": "mg"},
+      {"value": 400, "unit": "mg"}
+    ],
+    "cycle_days": 21,
+    "dlt_window": {
+      "cycle": 1,
+      "day_from": 1,
+      "day_to": 21
+    },
+    "dosing_interval_weeks": null
+  },
+  "population": {
+    "healthy_volunteer": false,
+    "patients": true,
+    "enriched": false,
+    "special_populations": [],
+    "target_condition": "晚期实体瘤",
+    "planned_sample_size": 48,
+    "inclusion_summary": "标准治疗失败或无标准治疗的成年晚期实体瘤患者"
+  },
+  "data_domains": {
+    "safety": true,
+    "efficacy": true,
+    "dlt": true,
+    "pk_concentration": true,
+    "ada": true,
+    "pd_biomarker": true,
+    "tumor_response": true,
+    "survival": false,
+    "ecg": true,
+    "ecg_intensive": false,
+    "local_tolerance": false,
+    "pulmonary_function": false,
+    "ophthalmic_safety": false,
+    "ae_consequence_strata": false,
+    "therapeutic_area_endpoints": ["oncology_response"],
+    "pk_sampling_timepoints_h": [0.5, 1, 2, 4, 8, 24]
+  },
+  "analyses": {
+    "descriptive_only": true,
+    "hypothesis_test": false,
+    "multiplicity_control": false,
+    "estimand_framework": false,
+    "nca": true,
+    "population_pk": false,
+    "dose_proportionality": true,
+    "exposure_response": false,
+    "time_to_event": false,
+    "subgroup": true,
+    "analysis_sets": [
+      {
+        "id": "SAF",
+        "name": "安全性分析集",
+        "definition": "至少接受一次研究治疗的受试者"
+      },
+      {
+        "id": "DLT_EVAL",
+        "name": "DLT 可评价集",
+        "definition": "按方案完成 DLT 评价或在评价窗内发生 DLT 的受试者"
+      },
+      {
+        "id": "FAS",
+        "name": "全分析集",
+        "definition": "至少接受一次研究治疗且有基线后疗效评估的受试者"
+      },
+      {
+        "id": "PKPS",
+        "name": "PK 参数分析集",
+        "definition": "至少有一个可计算 PK 参数的受试者"
+      },
+      {
+        "id": "ADA",
+        "name": "免疫原性分析集",
+        "definition": "有基线和至少一次基线后 ADA 结果的受试者"
+      },
+      {
+        "id": "PD",
+        "name": "PD 分析集",
+        "definition": "有至少一次可评价 PD 结果的受试者"
+      }
+    ],
+    "sample_size_assumptions": {
+      "power": null,
+      "two_sided_alpha": null,
+      "effect_size": null,
+      "dropout_rate": 0.1
+    },
+    "estimand": null,
+    "testing_strategy": "无正式假设检验，所有疗效分析为探索性"
+  }
+}

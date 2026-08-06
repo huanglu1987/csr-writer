@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.1",
+  "card_id": "M20-SAE-EXACT-01",
+  "section_id": "12.3.2",
+  "title": "12.3.2 严重不良事件个例叙述（脱敏合成）",
+  "production_method": "llm_drafting",
+  "narration": "constrained_llm",
+  "source_manifest": [
+    {
+      "source_id": "m20_safety_record",
+      "file_role": "frozen_safety_dataset",
+      "version": "synthetic-deidentified-v1",
+      "locator": "脱敏合成 SAE 结构化记录",
+      "content_sha256": "1111111111111111111111111111111111111111111111111111111111111111"
+    },
+    {
+      "source_id": "m20_crf_narrative",
+      "file_role": "crf_or_medical_record_free_text",
+      "version": "synthetic-deidentified-v1",
+      "locator": "脱敏合成 CRF 临床经过",
+      "content_sha256": "2222222222222222222222222222222222222222222222222222222222222222"
+    }
+  ],
+  "facts": [
+    {"fact_id":"A01","label":"受试者标识","zone":"A","value":"受试者丁","value_kind":"verbatim_text","source_kind":"confirmed_registry","source_id":"m20_safety_record","source_locator":"脱敏合成 SAE 记录","required":true,"verbatim_required":true,"required_terms":[],"entity_type":"subject_identity","missing_behavior":"hard_fail","fixed_gap_sentence":null},
+    {"fact_id":"A02","label":"相关病史","zone":"A","value":"既往有季节性鼻炎史","value_kind":"verbatim_text","source_kind":"safety_dataset","source_id":"m20_safety_record","source_locator":"脱敏合成 SAE 记录","required":true,"verbatim_required":true,"required_terms":[],"entity_type":"medical_history","missing_behavior":"hard_fail","fixed_gap_sentence":null},
+    {"fact_id":"A03","label":"研究治疗暴露","zone":"A","value":"接受固定口服给药方案","value_kind":"verbatim_text","source_kind":"safety_dataset","source_id":"m20_safety_record","source_locator":"脱敏合成 SAE 记录","required":true,"verbatim_required":true,"required_terms":[],"entity_type":"study_exposure","missing_behavior":"hard_fail","fixed_gap_sentence":null},
+    {"fact_id":"A04","label":"事件术语","zone":"A","value":"偏头痛加重","value_kind":"verbatim_text","source_kind":"safety_dataset","source_id":"m20_safety_record","source_locator":"脱敏合成 SAE 记录","required":true,"verbatim_required":true,"required_terms":[],"entity_type":"event_term","missing_behavior":"hard_fail","fixed_gap_sentence":null},
+    {"fact_id":"A05","label":"事件时间线","zone":"A","value":"治疗期间","value_kind":"verbatim_text","source_kind":"safety_dataset","source_id":"m20_safety_record","source_locator":"脱敏合成 SAE 记录","required":true,"verbatim_required":true,"required_terms":[],"entity_type":"event_timeline","missing_behavior":"hard_fail","fixed_gap_sentence":null},
+    {"fact_id":"A06","label":"严重程度","zone":"A","value":"中度","value_kind":"verbatim_text","source_kind":"safety_dataset","source_id":"m20_safety_record","source_locator":"脱敏合成 SAE 记录","required":true,"verbatim_required":true,"required_terms":[],"entity_type":"severity","missing_behavior":"hard_fail","fixed_gap_sentence":null},
+    {"fact_id":"A07","label":"严重性标准","zone":"A","value":"需要住院观察","value_kind":"verbatim_text","source_kind":"safety_dataset","source_id":"m20_safety_record","source_locator":"脱敏合成 SAE 记录","required":true,"verbatim_required":true,"required_terms":[],"entity_type":"seriousness_criterion","missing_behavior":"hard_fail","fixed_gap_sentence":null},
+    {"fact_id":"A08","label":"合并用药","zone":"A","value":"接受对症治疗","value_kind":"verbatim_text","source_kind":"safety_dataset","source_id":"m20_safety_record","source_locator":"脱敏合成 SAE 记录","required":true,"verbatim_required":true,"required_terms":[],"entity_type":"concomitant_medication","missing_behavior":"hard_fail","fixed_gap_sentence":null},
+    {"fact_id":"A09","label":"检查结果","zone":"A","value":"临床实验室复查未见临床重要异常","value_kind":"verbatim_text","source_kind":"safety_dataset","source_id":"m20_safety_record","source_locator":"脱敏合成 SAE 记录","required":true,"verbatim_required":true,"required_terms":[],"entity_type":"test_result","missing_behavior":"hard_fail","fixed_gap_sentence":null},
+    {"fact_id":"A10","label":"对研究治疗采取的措施","zone":"A","value":"研究治疗暂停","value_kind":"verbatim_text","source_kind":"safety_dataset","source_id":"m20_safety_record","source_locator":"脱敏合成 SAE 记录","required":true,"verbatim_required":true,"required_terms":[],"entity_type":"action_taken","missing_behavior":"hard_fail","fixed_gap_sentence":null},
+    {"fact_id":"A11","label":"转归","zone":"A","value":"已恢复","value_kind":"verbatim_text","source_kind":"safety_dataset","source_id":"m20_safety_record","source_locator":"脱敏合成 SAE 记录","required":true,"verbatim_required":true,"required_terms":[],"entity_type":"outcome","missing_behavior":"hard_fail","fixed_gap_sentence":null},
+    {"fact_id":"A12","label":"研究者因果评价","zone":"A","value":"可能有关","value_kind":"controlled_term","source_kind":"safety_dataset","source_id":"m20_safety_record","source_locator":"脱敏合成 SAE 记录","required":true,"verbatim_required":true,"required_terms":[],"entity_type":"causality","missing_behavior":"hard_fail","fixed_gap_sentence":null},
+    {"fact_id":"B01","label":"临床经过","zone":"B","value":"入院后接受对症治疗，症状缓解后离院。","value_kind":"verbatim_text","source_kind":"crf_free_text","source_id":"m20_crf_narrative","source_locator":"脱敏合成 CRF 临床经过","required":true,"verbatim_required":true,"required_terms":[],"entity_type":"clinical_course","missing_behavior":"hard_fail","fixed_gap_sentence":null},
+    {"fact_id":"C01","label":"申办方医学综合评价","zone":"C","value":null,"value_kind":"verbatim_text","source_kind":"human_slot","source_id":null,"source_locator":null,"required":true,"verbatim_required":true,"required_terms":[],"entity_type":"sponsor_medical_synthesis","missing_behavior":"human_slot","fixed_gap_sentence":"申办方医学综合评价由医学负责人另行完成。[待医学负责人确认]"}
+  ],
+  "authorized_surface_forms": [
+    {"surface_id":"SF-M20-SAE-01","text":"受试者丁既往有季节性鼻炎史。","fact_ids":["A01","A02"],"review_status":"confirmed","reviewed_by_role":"safety_fact_reviewer","review_record_id":"M20-SAE-REVIEW-01","basis":"脱敏合成 SAE 事实的预审句"},
+    {"surface_id":"SF-M20-SAE-02","text":"受试者接受固定口服给药方案。","fact_ids":["A01","A03"],"review_status":"confirmed","reviewed_by_role":"safety_fact_reviewer","review_record_id":"M20-SAE-REVIEW-02","basis":"脱敏合成 SAE 事实的预审句"},
+    {"surface_id":"SF-M20-SAE-03","text":"偏头痛加重发生于治疗期间，严重程度为中度，符合需要住院观察的严重性标准。","fact_ids":["A04","A05","A06","A07"],"review_status":"confirmed","reviewed_by_role":"safety_fact_reviewer","review_record_id":"M20-SAE-REVIEW-03","basis":"脱敏合成 SAE 事实的预审句"},
+    {"surface_id":"SF-M20-SAE-04","text":"受试者接受对症治疗，临床实验室复查未见临床重要异常。","fact_ids":["A01","A08","A09"],"review_status":"confirmed","reviewed_by_role":"safety_fact_reviewer","review_record_id":"M20-SAE-REVIEW-04","basis":"脱敏合成 SAE 事实的预审句"},
+    {"surface_id":"SF-M20-SAE-05","text":"研究治疗暂停。","fact_ids":["A10"],"review_status":"confirmed","reviewed_by_role":"safety_fact_reviewer","review_record_id":"M20-SAE-REVIEW-05","basis":"脱敏合成 SAE 事实的预审句"},
+    {"surface_id":"SF-M20-SAE-06","text":"事件已恢复。","fact_ids":["A11"],"review_status":"confirmed","reviewed_by_role":"safety_fact_reviewer","review_record_id":"M20-SAE-REVIEW-06","basis":"脱敏合成 SAE 事实的预审句"},
+    {"surface_id":"SF-M20-SAE-07","text":"研究者判断该事件与研究药物可能有关。","fact_ids":["A12"],"review_status":"confirmed","reviewed_by_role":"safety_fact_reviewer","review_record_id":"M20-SAE-REVIEW-07","basis":"脱敏合成 SAE 事实的预审句"},
+    {"surface_id":"SF-M20-SAE-08","text":"入院后接受对症治疗，症状缓解后离院。","fact_ids":["B01"],"review_status":"confirmed","reviewed_by_role":"safety_fact_reviewer","review_record_id":"M20-SAE-REVIEW-08","basis":"脱敏合成 CRF 原文的预审句"},
+    {"surface_id":"SF-M20-SAE-09","text":"申办方医学综合评价由医学负责人另行完成。","fact_ids":["C01"],"review_status":"confirmed","reviewed_by_role":"safety_fact_reviewer","review_record_id":"M20-SAE-REVIEW-09","basis":"医学评价留槽句"},
+    {"surface_id":"SF-M20-SAE-10","text":"[待医学负责人确认]","fact_ids":["C01"],"review_status":"confirmed","reviewed_by_role":"safety_fact_reviewer","review_record_id":"M20-SAE-REVIEW-10","basis":"医学评价留槽标记"}
+  ],
+  "controlled_entities": [],
+  "policy": {
+    "outside_fact_content": "hard_fail",
+    "database_numeric_policy": "placeholders_only",
+    "missing_required_fact": "hard_fail",
+    "medical_review_marker_required": true,
+    "controlled_causality_terms": ["明确相关","很可能有关","可能有关","不太可能有关","无关","未评价","无法评价"]
+  }
+}

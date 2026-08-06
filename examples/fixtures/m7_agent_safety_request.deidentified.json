@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.1",
+  "section_id": "12.2",
+  "variant": "adverse_events",
+  "evidence_status": "demo_only",
+  "tfl_bindings": [
+    {
+      "role": "teae_result",
+      "key": "T14.3.1.3.1|POP=SS|ROW=SUMMARY|COL=ACTIVE_TOTAL",
+      "source_id": "T14.3.1.3.1",
+      "context": "脱敏后安全性分析集 TEAE 汇总单元格；数值不向写手暴露"
+    },
+    {
+      "role": "trae_result",
+      "key": "T14.3.1.3.2|POP=SS|ROW=SUMMARY|COL=ACTIVE_TOTAL",
+      "source_id": "T14.3.1.3.2",
+      "context": "脱敏后安全性分析集 TRAE 汇总单元格；数值不向写手暴露"
+    }
+  ],
+  "tfl_references": ["T14.3.1.3.1", "T14.3.1.3.2"],
+  "source_fragments": [
+    {
+      "source_id": "DEID-PROTOCOL-SAFETY",
+      "locator": "deidentified protocol safety excerpt",
+      "purpose": "safety_definition",
+      "text": "不良事件集合和分类按经审核的方案定义执行。"
+    },
+    {
+      "source_id": "DEID-SAP-SAFETY-SET",
+      "locator": "deidentified SAP safety-set excerpt",
+      "purpose": "analysis_set",
+      "text": "事件汇总使用经确认的安全性分析集。"
+    }
+  ]
+}

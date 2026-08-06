@@ -1,0 +1,7 @@
+schema_version: "1.0"
+overrides:
+  - section_id: "3"
+    official_en: "TABLE OF CONTENTS FOR THE INDIVIDUAL CLINICAL STUDY REPORT"
+    official_zh: "个例临床研究报告目录"
+    localized_zh: "本临床研究报告目录"
+    reason: "「个例」易被误解为单个受试者病例；审阅意见 §一.4。"

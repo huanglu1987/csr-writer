@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "patterns": [
+    {
+      "id": "template-output-cn",
+      "regex": "请根据\\s*表\\s*(?P<target>\\d+(?:\\.\\d+)+)\\s*的模板输出本表"
+    },
+    {
+      "id": "same-table-cn",
+      "regex": "(?:^|[\\s，；。,;])同表\\s*(?P<target>\\d+(?:\\.\\d+)+)"
+    }
+  ],
+  "data_driven_row_patterns": [
+    {
+      "id": "soc-pt",
+      "regex": "(?:SOC\\s*(?:和|与|/|AND)\\s*PT|系统器官分类|首选术语)"
+    }
+  ]
+}

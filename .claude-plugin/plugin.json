@@ -1,0 +1,5 @@
+{
+  "name": "csr-writer",
+  "version": "0.9.0",
+  "description": "Compatibility metadata only for the M1-M9 ICH E3 CSR workflow; runtime logic is platform-independent"
+}

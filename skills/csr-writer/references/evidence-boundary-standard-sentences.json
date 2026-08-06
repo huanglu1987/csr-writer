@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "policy": "Only a sentence whose factual slots are supported by the current section envelope may be selected. Free paraphrase into authoring-process language is prohibited.",
+  "sentences": [
+    {
+      "id": "data_pending",
+      "template": "本节{事项}情况待相应统计结果到位后补充。",
+      "required_slots": [
+        "事项"
+      ]
+    },
+    {
+      "id": "scope_limitation",
+      "template": "本节结论基于{已核实资料}，未涵盖{资料范围之外的情形}。",
+      "required_slots": [
+        "已核实资料",
+        "资料范围之外的情形"
+      ]
+    },
+    {
+      "id": "computable_parameters",
+      "template": "上述为可计算参数的汇总结果，不代表全部采样时点。",
+      "required_slots": []
+    }
+  ]
+}

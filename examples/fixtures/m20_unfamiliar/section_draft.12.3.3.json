@@ -1,0 +1,13 @@
+{
+  "paragraphs": [
+    {
+      "text": "[待医学负责人确认] {{@conclusion:SERIOUS_EVENT_ANALYSIS_V1}}",
+      "sources": [
+        "T14.3.2.1",
+        "M20-SAFETY-METHOD"
+      ],
+      "confidence": "inferred",
+      "needs_human": true
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.2",
+  "protocol_id": "DEID-TOP-001",
+  "study_title": "脱敏等价外用抗感染制剂浓度递增研究",
+  "phase": "Ib",
+  "objectives": {
+    "safety_tolerability": true,
+    "pk_characterization": true,
+    "dose_exploration": true,
+    "efficacy": true,
+    "confirmatory_efficacy": false,
+    "pharmacodynamics": false,
+    "determine_mtd": false,
+    "determine_rp2d": false,
+    "primary_endpoints": [
+      {
+        "id": "LOCAL_TOL",
+        "name": "局部耐受性评分",
+        "domain": "safety",
+        "analysis_method": "按治疗组和访视描述性汇总"
+      }
+    ],
+    "secondary_endpoints": [
+      {
+        "id": "MYCO_CURE",
+        "name": "病原学治愈",
+        "domain": "efficacy",
+        "analysis_method": "按分析集和治疗组描述性汇总"
+      },
+      {
+        "id": "DERM_SCORE",
+        "name": "皮损体征评分",
+        "domain": "efficacy",
+        "analysis_method": "按访视汇总评分及较基线变化"
+      },
+      {
+        "id": "SYS_EXPOSURE",
+        "name": "外用后系统暴露",
+        "domain": "pk",
+        "analysis_method": "浓度数据及可计算 PK 参数的描述性分析"
+      }
+    ]
+  },
+  "design": {
+    "randomized": true,
+    "controlled": true,
+    "blinding": "double_blind",
+    "type": "parallel",
+    "study_type": "general_interventional",
+    "route_of_administration": "topical",
+    "control_types": ["placebo"],
+    "clinical_pharmacology_studies": [],
+    "escalation_scheme": "concentration_escalation",
+    "dlt_defined": false,
+    "expansion_cohorts": 0,
+    "adaptive": false,
+    "noninferiority": false,
+    "interim_analysis": false,
+    "n_centers": 2,
+    "dose_levels": [
+      {"value": 0.5, "unit": "% w/w"},
+      {"value": 1, "unit": "% w/w"}
+    ],
+    "cycle_days": null,
+    "dlt_window": null,
+    "dosing_interval_weeks": null
+  },
+  "population": {
+    "healthy_volunteer": false,
+    "patients": true,
+    "enriched": false,
+    "special_populations": [],
+    "target_condition": "浅表真菌感染",
+    "planned_sample_size": 100,
+    "inclusion_summary": "符合临床和病原学入组标准的成年受试者"
+  },
+  "data_domains": {
+    "safety": true,
+    "efficacy": true,
+    "dlt": false,
+    "pk_concentration": true,
+    "ada": false,
+    "pd_biomarker": false,
+    "tumor_response": false,
+    "survival": false,
+    "ecg": true,
+    "ecg_intensive": false,
+    "local_tolerance": true,
+    "pulmonary_function": false,
+    "ophthalmic_safety": false,
+    "ae_consequence_strata": true,
+    "therapeutic_area_endpoints": [
+      "infection_microbiology",
+      "dermatology_scales"
+    ],
+    "pk_sampling_timepoints_h": [0, 1, 2, 4, 8]
+  },
+  "analyses": {
+    "descriptive_only": true,
+    "hypothesis_test": false,
+    "multiplicity_control": false,
+    "estimand_framework": false,
+    "nca": true,
+    "population_pk": false,
+    "dose_proportionality": false,
+    "exposure_response": false,
+    "time_to_event": false,
+    "subgroup": false,
+    "analysis_sets": [
+      {
+        "id": "SAF",
+        "name": "安全性分析集",
+        "definition": "至少接受一次研究治疗的受试者"
+      },
+      {
+        "id": "FAS",
+        "name": "全分析集",
+        "definition": "至少有一次基线后疗效评估的受试者"
+      },
+      {
+        "id": "PKPS",
+        "name": "PK 参数分析集",
+        "definition": "有可评价系统暴露数据的受试者"
+      },
+      {
+        "id": "mITT",
+        "name": "修正意向治疗集",
+        "definition": "符合预定病原学及基线评价条件的受试者"
+      },
+      {
+        "id": "mPPS",
+        "name": "修正符合方案集",
+        "definition": "mITT 中无重大方案偏离的受试者"
+      }
+    ],
+    "sample_size_assumptions": {
+      "power": null,
+      "two_sided_alpha": null,
+      "effect_size": null,
+      "dropout_rate": 0.1
+    },
+    "estimand": null,
+    "testing_strategy": "脱敏验收夹具；仅用于验证描述性模块路由"
+  }
+}

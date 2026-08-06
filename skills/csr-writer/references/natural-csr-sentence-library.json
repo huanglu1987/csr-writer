@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "purpose": "在不改变数值、语义和人工确认门禁的前提下，为高频 CSR 事实提供自然中文句式。",
+  "sentences": [
+    {
+      "id": "randomized_and_analysis_counts",
+      "scene": "例数陈述",
+      "template": "共 {{randomized_total}} 例受试者接受随机，其中 {{analysis_total}} 例纳入相应分析集。",
+      "numeric_source": "datapack_placeholders_only"
+    },
+    {
+      "id": "event_incidence",
+      "scene": "发生率",
+      "template": "{{event_n_pct}} 例受试者发生 {{event_name}}。",
+      "numeric_source": "datapack_placeholders_only"
+    },
+    {
+      "id": "zero_event",
+      "scene": "零事件",
+      "template": "未发生 {{event_name}}。",
+      "numeric_source": "conditioned_zero_binding_only",
+      "literal_use_in_agent_draft": false
+    },
+    {
+      "id": "pk_parameters_calculable",
+      "scene": "参数可计算",
+      "template": "Cmax 与 AUC 均可计算。",
+      "numeric_source": "conditioned_boolean_bindings_only"
+    },
+    {
+      "id": "table_reference",
+      "scene": "表格引用",
+      "template": "详见{{@ref:TFL_ENTITY}}。",
+      "numeric_source": "confirmed_reference_placeholder_only"
+    },
+    {
+      "id": "boundary_at_paragraph_end",
+      "scene": "证据边界",
+      "template": "本节结论基于 {{source_scope}}，未涵盖 {{excluded_scope}}。",
+      "numeric_source": "not_applicable"
+    }
+  ]
+}

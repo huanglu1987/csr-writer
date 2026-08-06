@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "sections": [
+    {
+      "draft": "../../sections/11.4.md",
+      "resolved": "../../sections/resolved/11.4.md",
+      "metadata": "../../sections/11.4.meta.json",
+      "guard": "../../sections/resolved/11.4.guard.json"
+    },
+    {
+      "draft": "../../sections/11.A.md",
+      "resolved": "../../sections/resolved/11.A.md",
+      "metadata": "../../sections/11.A.meta.json",
+      "guard": "../../sections/resolved/11.A.guard.json"
+    }
+  ]
+}

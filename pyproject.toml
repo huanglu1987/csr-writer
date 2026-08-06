@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "csr-writer-m1m2m3m4m5m6m7m8m9m10m11"
+version = "1.1.0"
+description = "Controlled M1-M21 CSR workflow with optional visual preflight"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "python-docx>=1.2,<2",
+  "lxml>=5,<6",
+  "PyYAML>=6,<7",
+]
+
+[project.scripts]
+csr-writer = "csr_writer.cli:main"
+
+[tool.setuptools]
+packages = ["csr_writer"]

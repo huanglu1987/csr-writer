@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "evidence_status": "demo_only",
+  "records": [
+    {
+      "section": "9.7",
+      "id": "mFAS",
+      "definition": "至少接受过研究干预且具有基线后疗效评价的随机化受试者"
+    },
+    {
+      "section": "10.1",
+      "id": "mFAS",
+      "definition": "至少接受过研究干预且具有基线后疗效评价的随机化受试者"
+    },
+    {
+      "section": "11",
+      "id": "mFAS",
+      "definition": "至少接受过研究干预且具有基线后疗效评价的随机化受试者"
+    },
+    {
+      "section": "12",
+      "id": "mFAS",
+      "definition": "至少接受过研究干预且具有基线后疗效评价的随机化受试者"
+    }
+  ]
+}

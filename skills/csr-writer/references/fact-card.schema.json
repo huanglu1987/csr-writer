@@ -1,0 +1,184 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "csr-writer/fact-card.schema.json",
+  "title": "CSR constrained narration fact card",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "card_id",
+    "section_id",
+    "title",
+    "production_method",
+    "narration",
+    "source_manifest",
+    "facts",
+    "controlled_entities",
+    "policy"
+  ],
+  "properties": {
+    "schema_version": {"enum": ["1.0", "1.1"]},
+    "card_id": {"type": "string", "minLength": 1},
+    "section_id": {"type": "string", "minLength": 1},
+    "title": {"type": "string", "minLength": 1},
+    "production_method": {
+      "enum": ["extraction", "mixed", "llm_drafting"]
+    },
+    "narration": {"enum": ["constrained_llm", "verbatim_list"]},
+    "source_manifest": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["source_id", "file_role", "version", "locator", "content_sha256"],
+        "properties": {
+          "source_id": {"type": "string", "minLength": 1},
+          "file_role": {"type": "string", "minLength": 1},
+          "version": {"type": "string", "minLength": 1},
+          "locator": {"type": "string", "minLength": 1},
+          "content_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+        }
+      }
+    },
+    "facts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "fact_id",
+          "label",
+          "zone",
+          "value",
+          "value_kind",
+          "source_kind",
+          "source_id",
+          "source_locator",
+          "required",
+          "verbatim_required",
+          "required_terms",
+          "entity_type",
+          "missing_behavior",
+          "fixed_gap_sentence"
+        ],
+        "properties": {
+          "fact_id": {"type": "string", "pattern": "^[A-Z][A-Z0-9_]{1,63}$"},
+          "label": {"type": "string", "minLength": 1},
+          "zone": {"enum": ["method", "A", "B", "C"]},
+          "value": {
+            "oneOf": [
+              {"type": "string"},
+              {"type": "array", "items": {"type": "string"}},
+              {"type": "null"}
+            ]
+          },
+          "value_kind": {
+            "enum": ["text", "list", "placeholder", "controlled_term", "verbatim_text"]
+          },
+          "source_kind": {
+            "enum": [
+              "protocol",
+              "sap",
+              "tfl_map",
+              "datapack",
+              "safety_dataset",
+              "crf_free_text",
+              "confirmed_registry",
+              "human_slot"
+            ]
+          },
+          "source_id": {"type": ["string", "null"]},
+          "source_locator": {"type": ["string", "null"]},
+          "required": {"type": "boolean"},
+          "verbatim_required": {"type": "boolean"},
+          "required_terms": {"type": "array", "items": {"type": "string"}},
+          "entity_type": {"type": ["string", "null"]},
+          "missing_behavior": {
+            "enum": ["hard_fail", "fixed_gap_sentence", "human_slot"]
+          },
+          "fixed_gap_sentence": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "controlled_entities": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1}
+    },
+    "authorized_surface_forms": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "surface_id",
+          "text",
+          "fact_ids",
+          "review_status",
+          "reviewed_by_role",
+          "review_record_id",
+          "basis"
+        ],
+        "properties": {
+          "surface_id": {
+            "type": "string",
+            "pattern": "^SF-[A-Z0-9][A-Z0-9_-]{1,63}$"
+          },
+          "text": {"type": "string", "minLength": 1},
+          "fact_ids": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {"type": "string", "pattern": "^[A-Z][A-Z0-9_]{1,63}$"}
+          },
+          "review_status": {"const": "confirmed"},
+          "reviewed_by_role": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]{2,63}$"
+          },
+          "review_record_id": {"type": "string", "minLength": 1},
+          "basis": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "outside_fact_content",
+        "database_numeric_policy",
+        "missing_required_fact",
+        "medical_review_marker_required",
+        "controlled_causality_terms"
+      ],
+      "properties": {
+        "outside_fact_content": {"const": "hard_fail"},
+        "database_numeric_policy": {"const": "placeholders_only"},
+        "missing_required_fact": {"const": "hard_fail"},
+        "medical_review_marker_required": {"type": "boolean"},
+        "controlled_causality_terms": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {"schema_version": {"const": "1.1"}},
+        "required": ["schema_version"]
+      },
+      "then": {"required": ["authorized_surface_forms"]}
+    },
+    {
+      "if": {
+        "properties": {"schema_version": {"const": "1.0"}},
+        "required": ["schema_version"]
+      },
+      "then": {"not": {"required": ["authorized_surface_forms"]}}
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+schema_version: "1.0"
+contract:
+  mode: contradiction_scan_only
+  automatic_fact_updates: forbidden
+  false_positives_acceptable: true
+  note: "规则宁可多报；任何命中只生成核对项，不改变 study_facts。"
+rules:
+  - id: pd_biomarker
+    patterns: ["生物标志物", "biomarker", "药效动力学", "(?<![A-Za-z0-9])PD\\s*(?:指标|评价|分析|终点)"]
+    targets:
+      - {path: data_domains.pd_biomarker, inactive_when: false}
+    question: "请确认是漏填，还是该内容不构成 PD/生物标志物评价。"
+  - id: immunogenicity_ada
+    patterns: ["抗药抗体", "抗药物抗体", "(?<![A-Za-z0-9])ADA(?![A-Za-z0-9])", "免疫原性"]
+    targets:
+      - {path: data_domains.ada, inactive_when: false}
+    question: "请确认方案是否设置免疫原性或 ADA 数据域。"
+  - id: estimand_framework
+    patterns: ["估计目标", "\\bestimand\\b", "伴发事件", "intercurrent event"]
+    targets:
+      - {path: analyses.estimand_framework, inactive_when: false}
+    question: "请确认统计分析是否采用估计目标框架。"
+  - id: interim_or_dmc
+    patterns: ["期中分析", "(?<![A-Za-z0-9])I?DMC(?![A-Za-z0-9])", "数据监查委员会", "数据监察委员会"]
+    targets:
+      - {path: design.interim_analysis, inactive_when: false}
+    question: "请确认是否漏填期中分析或独立数据监查安排。"
+  - id: subgroup_analysis
+    patterns: ["亚组分析", "subgroup analysis"]
+    targets:
+      - {path: analyses.subgroup, inactive_when: false}
+    question: "请确认是否预设亚组分析；否定性陈述也请人工核对。"
+  - id: noninferiority_or_equivalence
+    patterns: ["非劣效", "等效性", "non.?inferior", "equivalence"]
+    targets:
+      - {path: design.noninferiority, inactive_when: false}
+    question: "请确认是否存在非劣效或等效性设计；指南引用不等同于研究设计。"
+  - id: dlt_mtd_rp2d
+    patterns: ["剂量限制性毒性", "(?<![A-Za-z0-9])DLT(?![A-Za-z0-9])", "(?<![A-Za-z0-9])MTD(?![A-Za-z0-9])", "(?<![A-Za-z0-9])RP2D(?![A-Za-z0-9])"]
+    targets:
+      - {path: design.dlt_defined, inactive_when: false}
+      - {path: objectives.determine_mtd, inactive_when: false}
+    question: "请核对 DLT 定义及 MTD/RP2D 研究目的是否漏填。"
+  - id: local_tolerance
+    patterns: ["局部耐受性", "皮肤刺激性", "用药部位反应", "local tolerance"]
+    targets:
+      - {path: data_domains.local_tolerance, inactive_when: false}
+    question: "请确认是否漏填局部耐受性数据域。"
+  - id: bioequivalence_reference
+    patterns: ["生物等效性", "参比制剂", "bioequivalence", "reference product"]
+    targets:
+      - {path: design.clinical_pharmacology_studies, missing_value: bioequivalence}
+    question: "请确认这是研究类型/专项设计，还是仅为背景或指导原则引用。"
+  - id: food_effect
+    patterns: ["食物影响", "高脂餐", "food effect", "high.?fat meal"]
+    targets:
+      - {path: design.clinical_pharmacology_studies, missing_value: food_effect}
+    question: "请确认是否设置食物影响专项研究。"
+  - id: hepatic_impairment
+    patterns: ["肝功能不全", "hepatic impairment"]
+    targets:
+      - {path: population.special_populations, missing_value: hepatic_impairment}
+    question: "请确认是否纳入肝功能不全特殊人群。"
+  - id: renal_impairment
+    patterns: ["肾功能不全", "renal impairment"]
+    targets:
+      - {path: population.special_populations, missing_value: renal_impairment}
+    question: "请确认是否纳入肾功能不全特殊人群。"
+  - id: geriatric_population
+    patterns: ["老年", "geriatric", "elderly"]
+    targets:
+      - {path: population.special_populations, missing_value: older_adult}
+    question: "请确认是否设置老年特殊人群分析。"
+  - id: pediatric_population
+    patterns: ["儿科", "儿童", "青少年", "pediatric", "adolescent"]
+    targets:
+      - {path: population.special_populations, missing_value: pediatric}
+    question: "请确认是否设置儿科特殊人群分析。"
+  - id: intensive_ecg
+    patterns: ["(?<![A-Za-z0-9])TQT(?![A-Za-z0-9])", "QTc?间期", "心电图密集采集", "密集心电图", "thorough QT"]
+    targets:
+      - {path: data_domains.ecg_intensive, inactive_when: false}
+    question: "请确认是否设置密集 ECG/QT 专项评价。"
+  - id: audit_appendix_status
+    patterns: ["稽查", "\\baudit(?:ed|ing|or)?\\b"]
+    targets:
+      - {path: appendix_status.16.1.8, inactive_when: unconfirmed}
+    question: "请确认是否存在可提交的稽查证书；一般稽查权利条款不等于已有证书。"

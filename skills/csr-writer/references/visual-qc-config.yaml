@@ -1,0 +1,72 @@
+schema_version: "1.0"
+profile_id: csr-visual-qc-v1.1.0
+
+renderer:
+  candidates:
+    - /Applications/LibreOffice.app/Contents/MacOS/soffice
+    - soffice
+    - libreoffice
+  timeout_seconds: 120
+  accepted_pdf_signature: "%PDF"
+  forbidden_work_roots:
+    - /private/tmp
+    - /tmp
+    - /var/folders
+
+class_a:
+  a4:
+    portrait_width_pt: 595.276
+    portrait_height_pt: 841.890
+    tolerance_pt: 3.0
+  blank_page:
+    minimum_body_characters: 1
+  fields:
+    directory_headings:
+      - "3.1 正文章节目录"
+      - "3.2 正文表格目录"
+      - "3.3 正文图目录"
+      - "3.4 第 14 章表图目录"
+      - "3.5 附录目录"
+      - "3.6 单独递交的支持性报告目录"
+    directory_entry_page_number_pattern: '(?:\.{2,}|…{2,}|\s{2,})\s*[0-9ivxlcdmIVXLCDM]+\s*$'
+    empty_page_field_patterns:
+      - '第\s*页'
+      - '共\s*页'
+      - '第\s*页\s*[，,]\s*共'
+    rendered_error_patterns:
+      - 'Error!'
+      - 'Reference source not found'
+      - 'Bookmark not defined'
+      - '错误！未找到引用源'
+      - '错误!未找到引用源'
+
+class_b:
+  body_overflow:
+    tolerance_pt: 2.0
+    story_match_min_characters: 2
+  table_continuation:
+    page_edge_tolerance_pt: 24.0
+    header_similarity_min: 0.80
+  toc_page_consistency:
+    title_prefix_characters: 18
+  orphan_lines:
+    heading_bottom_gap_pt: 48.0
+    single_cjk_line_max_characters: 1
+
+contact_sheet:
+  thumbnail_width_px: 240
+  columns: 4
+  rows: 5
+  outer_margin_px: 24
+  gutter_px: 16
+  label_height_px: 44
+  render_dpi: 96
+  class_a_color: "#C62828"
+  class_b_color: "#F9A825"
+  clear_color: "#2E7D32"
+  background_color: "#F5F5F5"
+
+limitations:
+  zh: >-
+    本检查基于 LibreOffice 渲染，与 Microsoft Word 的分页和字体回退存在差异。
+    本检查是前置筛查，不替代在 Word 中更新域后的人工视觉复核。

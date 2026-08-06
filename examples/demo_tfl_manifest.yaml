@@ -1,0 +1,59 @@
+schema_version: "1.0"
+sources:
+  - path: ../../参考实现/fixture_t_14_2_1.rtf
+    table_id: T14.2.1
+    population: FAS
+    expected_titles:
+      - Table 14.2.1
+      - Objective Response Rate (Full Analysis Set)
+    mapping:
+      columns:
+        XYZ 200mg (N=60): XYZ200MG
+        Placebo (N=60): PBO
+        Total (N=120): TOT
+      rows:
+        Complete Response (CR): COMPLETE_RESPONSE_CR
+        Partial Response (PR): PARTIAL_RESPONSE_PR
+        Objective Response (CR+PR): OBJECTIVE_RESPONSE_CR_PR
+        95% CI: 95_CI
+        Difference (%): DIFFERENCE
+        p-value: P_VALUE
+      types:
+        COMPLETE_RESPONSE_CR: n_pct
+        PARTIAL_RESPONSE_PR: n_pct
+        OBJECTIVE_RESPONSE_CR_PR: n_pct
+        95_CI: ci95
+        DIFFERENCE: difference
+        P_VALUE: pvalue
+      cell_column_overrides:
+        DIFFERENCE|TOT: STAT
+        P_VALUE|TOT: STAT
+
+  - path: ../../参考实现/fixture_t_pk_nca.rtf
+    table_id: T14.4.1.1
+    population: PKAS
+    expected_titles:
+      - Table 14.4.1.1
+      - Summary of Plasma PK Parameters After Single Dose (PK Analysis Set)
+    mapping:
+      columns:
+        Unit: UNIT
+        50 mg (N=3): 50MG
+        100 mg (N=6): 100MG
+        200 mg (N=6): 200MG
+      rows:
+        Cmax: CMAX
+        Tmax: TMAX
+        AUC0-t: AUC0_T
+        AUC0-inf: AUC0_INF
+        t1/2: T1_2
+        CL/F: CL_F
+      types:
+        CMAX: geomean_cv
+        TMAX: median_range
+        AUC0_T: geomean_cv
+        AUC0_INF: geomean_cv
+        T1_2: geomean_cv
+        CL_F: geomean_cv
+      cell_column_overrides: {}
+
