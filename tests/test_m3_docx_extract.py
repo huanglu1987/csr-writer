@@ -143,8 +143,18 @@ class M3DocxExtractionTests(unittest.TestCase):
             self.assertTrue(all("text" not in item for item in collection))
 
     def test_fixed_extraction_report_is_current(self):
+        # source.path 是运行环境的绝对路径，不属于抽取契约；仓库被 clone 到
+        # 其他目录后必然不同。文件同一性已由 sha256_before/after 断言，
+        # 此处只比较文件名，其余字段仍做全等比较。
+        def _normalise(report):
+            report = json.loads(json.dumps(report))
+            source = report.get("source")
+            if isinstance(source, dict) and "path" in source:
+                source["path"] = Path(source["path"]).name
+            return report
+
         expected = json.loads(FIXED_REPORT.read_text(encoding="utf-8"))
-        self.assertEqual(expected, extract_docx(FIXTURE))
+        self.assertEqual(_normalise(expected), _normalise(extract_docx(FIXTURE)))
 
     def test_report_output_cannot_alias_read_only_source(self):
         before = sha256_file(FIXTURE)
