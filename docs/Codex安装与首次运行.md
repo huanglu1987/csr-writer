@@ -27,7 +27,7 @@ python3 -m csr_writer --help
 python3 -c 'import csr_writer; print(csr_writer.__version__)'
 ```
 
-预期为 `1.0.0`。
+预期为 `1.1.0`。
 
 ## 3. 目录用途
 
@@ -53,16 +53,17 @@ python3 scripts/delivery_self_check.py
 python3 -m unittest tests.test_codex_platform_boundary
 ```
 
-本次冻结基线为 302 项测试全部通过；平台边界测试独立通过。测试数量将随后续新增
+本次冻结基线为 312 项测试全部通过；平台边界测试独立通过。测试数量将随后续新增
 测试变化，判断标准是退出码为 0，而不是固定数量。
 
 ## 5. 首次脱敏演练
 
-输出目录必须不存在：
+输出目录必须不存在。不要输出到 `/private/tmp` 或系统临时目录——
+某些终端安全软件会在那里加密落盘文件，导致后续读取失败：
 
 ```bash
 python3 scripts/run_m21_dual_e2e.py \
-  --output /private/tmp/csr-writer-m21-first-run
+  --output ~/csr-writer-m21-first-run
 ```
 
 成功后重点查看：
