@@ -15,10 +15,12 @@
 **开始写**，看到“安装成功”后，在 Antigravity 打开研究项目并新开会话。发下面这条，输入 `@` 时选中实际的研究资料夹。
 
 ```text
-/csr-writer 请用 @输入资料 生成 CSR 的 Word 初稿，核对统计表，把 Word 和集中审阅清单的路径发给我。
+/goal 请用 csr-writer 从 @输入资料 生成 CSR 内部审阅初稿。按 SAP 补算能补的缺表，与已有定稿表对账。生成并打开 Word 核对正文、概要和附表，把 Word 路径发给我。缺哪些原件、哪些事项确需负责人决定，请在最后一次列清。
 ```
 
-负责人可以一次答复，工具据此生成修订稿。第三条命令见[《Mac 团队使用教程》](docs/antigravity-csr-guide.md#answers)。
+想先盘点资料用 `/plan`，表多要分章核查用 `/teamwork`，主要分析和敏感性分析不一致时可用 `/boost`。[按场景复制起草命令](docs/antigravity-csr-guide.md#commands)
+
+**负责人怎么回？** 打开首稿旁的《集中审阅清单》，请对应负责人写明选哪项、为什么。回到生成 Word 的聊天窗口，把更新指令和负责人原话一起发给智能体，它会另存新版，并列出还没答的事项。[看一条统计回复怎样更新三处 Word 内容](docs/antigravity-csr-guide.md#answers)
 
 <details>
 <summary>展开 Codex 使用说明、资料清单和统计方法</summary>
