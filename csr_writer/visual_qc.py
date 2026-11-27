@@ -10,6 +10,7 @@ import re
 import shutil
 import subprocess
 import zipfile
+from collections import defaultdict
 from contextlib import redirect_stderr, redirect_stdout
 from dataclasses import dataclass
 from difflib import SequenceMatcher
@@ -34,7 +35,7 @@ DEFAULT_VISUAL_QC_CONFIG = (
     ROOT / "skills" / "csr-writer" / "references" / "visual-qc-config.yaml"
 )
 DEFAULT_VISUAL_QC_LOCK = (
-    ROOT / "skills" / "csr-writer" / "references" / "visual-qc-config.lock.json"
+    ROOT / "skills" / "csr-writer" / "references" / "visual-qc-cjk.lock.json"
 )
 
 W_NS = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
@@ -359,6 +360,16 @@ def _render_pdf(
     profile_dir = work_dir / "libreoffice-profile"
     render_dir.mkdir(parents=True, exist_ok=True)
     profile_dir.mkdir(parents=True, exist_ok=True)
+    # macOS headless LibreOffice can omit all system CJK glyphs in an isolated profile.
+    # Register installed fonts in this render profile only.
+    for font in (Path("/System/Library/Fonts/Supplemental/Songti.ttc"),
+                 Path("/System/Library/Fonts/STHeiti Medium.ttc")):
+        if font.is_file():
+            fonts_dir = profile_dir / "user" / "fonts"
+            fonts_dir.mkdir(parents=True, exist_ok=True)
+            target = fonts_dir / font.name
+            if not target.exists() and not target.is_symlink():
+                target.symlink_to(font)
     pdf_path = render_dir / f"{docx_path.stem}.pdf"
     pdf_path.unlink(missing_ok=True)
     command = [
@@ -656,6 +667,22 @@ def _table_continuation_findings(
     return findings
 
 
+def _missing_cjk_glyph_fonts(page):
+    """Compare searchable Unicode with the glyphs used to paint it, per font."""
+    expected, painted = defaultdict(set), defaultdict(set)
+    for block in page.get_text("dict", flags=0)["blocks"]:
+        for line in block.get("lines", []):
+            for span in line["spans"]:
+                expected[span["font"]].update(re.findall(r"[\u4e00-\u9fff]", span["text"]))
+    suspect = {name for name, symbols in expected.items() if len(symbols) >= 6}
+    if not suspect:
+        return []
+    for span in page.get_texttrace():
+        if span["font"] in suspect:
+            painted[span["font"]].update(g for code, g, *_ in span["chars"] if 0x4e00 <= code <= 0x9fff)
+    return sorted(name for name in suspect if len(painted[name]) <= 1)
+
+
 def _analyse_pdf(
     *,
     pdf_path: Path,
@@ -686,6 +713,9 @@ def _analyse_pdf(
     for page_number, page in enumerate(pages, start=1):
         text = page.get_text("text")
         page_texts.append(text)
+        for font in _missing_cjk_glyph_fonts(page):
+            findings.append(_finding("A-CJK-MISSING-GLYPHS", "A", page_number,
+                                     "PDF 可检索的多种汉字只对应至多一个渲染字形。", evidence=font))
         blocks = _page_blocks(page)
         page_blocks.append(blocks)
         for block in blocks:

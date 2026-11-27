@@ -305,6 +305,8 @@ assignments:
     section_ids: ["10.1", "10.2", "10.3.1", "10.3.2", "10.3.3", "10.3.4", "10.3.5"]
   - profile: guarded_result_drafting
     section_ids:
+      - "11.4.1.1"
+      - "11.6.1.1"
       - "11.2"
       - "11.3"
       - "11.5.1"

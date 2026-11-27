@@ -19,6 +19,7 @@ _VALUE_PLACEHOLDER_RE = re.compile(r"\{\{(?!@)[^{}]+\}\}")
 _CONTROL_PLACEHOLDER_RE = re.compile(r"\{\{@(?:ref|conclusion):[^{}]+\}\}")
 
 _BANNED_PATTERNS: tuple[tuple[str, re.Pattern[str]], ...] = (
+    ("blq_as_zero", re.compile(r"(?:低于定量下限|BLQ)[^。！？；\n]{0,12}(?:等同于零|归零|已被完全清除)", re.I)),
     ("summary_as_copula", re.compile(r"汇总(?:结果)?为")),
     (
         "abstract_noun_as_field",
@@ -150,6 +151,7 @@ def analyze_writing_style(
     text: str,
     *,
     zero_event_policy: Literal["allow", "block_literal"] = "allow",
+    protected_verbatim: tuple[str, ...] = (),
 ) -> WritingStyleReview:
     """Return blocking style defects, non-blocking warnings, and stable metrics."""
 
@@ -226,12 +228,14 @@ def analyze_writing_style(
         length = len(sentence)
         sentence_lengths.append(length)
         if length > 60:
+            protected = any(len(v) > 60 and v in sentence and len(sentence.replace(v,"",1)) <= 60
+                            for v in protected_verbatim if v)
             findings.append(
                 StyleFinding(
-                    code="E-STYLE-SENTENCE-LENGTH",
-                    severity="block",
+                    code="W-STYLE-VERBATIM-LENGTH" if protected else "E-STYLE-SENTENCE-LENGTH",
+                    severity="warning" if protected else "block",
                     category="sentence_length",
-                    message=f"单句 {length} 字，超过 60 字硬阈值",
+                    message=f"单句 {length} 字，含须逐字保留的原文" if protected else f"单句 {length} 字，超过 60 字阈值",
                     matched_text=sentence,
                     sentence_length=length,
                 )
@@ -297,12 +301,13 @@ def analyze_writing_style(
     )
 
 
-def style_report(text: str, *, block_literal_zero_events: bool = False) -> dict[str, Any]:
+def style_report(text: str, *, block_literal_zero_events: bool = False, protected_verbatim: tuple[str,...] = ()) -> dict[str, Any]:
     """Serialize a style review for section metadata and QC artifacts."""
 
     review = analyze_writing_style(
         text,
         zero_event_policy="block_literal" if block_literal_zero_events else "allow",
+        protected_verbatim=protected_verbatim,
     )
     return {
         "schema_version": "1.0",

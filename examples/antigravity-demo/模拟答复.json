@@ -1,0 +1,24 @@
+{
+  "answers": [
+    {
+      "id": "AE-D02-1",
+      "basis": "b29a0dcabf32045f9ee9087d429013c9ca02d7c03e3a3ce3a2d8d73b6c8f937b",
+      "role": "医学负责人",
+      "reviewer": "模拟医学负责人",
+      "date": "2026-02-02",
+      "choice": "无关",
+      "statement": "仅用于教学的模拟评价：此条按无关归类。"
+    },
+    {
+      "id": "TFL-2.1",
+      "basis": "fc9d334bd61b56d934139a33b69dca89c26868984f2c2c46d1fc004f20a7467f",
+      "role": "统计负责人",
+      "reviewer": "模拟统计负责人",
+      "date": "2026-02-02",
+      "choice": "采用逐例计算",
+      "statement": "同一天两次各半剂量，按演练 SAP 合并为一个给药人日。"
+    }
+  ],
+  "mode": "simulation",
+  "study": "AG-DEMO-01"
+}

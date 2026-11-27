@@ -443,8 +443,10 @@ def assert_llm_drafting_allowed(
 def audit_authoring_unit_coverage(
     section_ids: list[str],
     registry: Mapping[str, Any] | None = None,
+    *,
+    routed_subset: bool = False,
 ) -> dict[str, Any]:
-    """Prove exact one-to-one ownership for a routed list of authoring units."""
+    """Audit active ownership, optionally allowing unused entries in the global registry."""
 
     loaded = registry or load_production_method_registry()
     assignments = _require_mapping(loaded.get("assignments"), "registry.assignments")
@@ -459,14 +461,15 @@ def audit_authoring_unit_coverage(
         for section_id in observed
         if section_id in assignments
     )
-    passed = not duplicate_units and not missing and not extra
+    passed = not duplicate_units and not missing and (routed_subset or not extra)
     return {
         "schema_version": "1.0",
         "status": "pass" if passed else "blocked",
         "authoring_unit_count": len(observed),
         "registered_assignment_count": len(assignments),
         "missing_assignments": missing,
-        "unexpected_assignments": extra,
+        "unexpected_assignments": [] if routed_subset else extra,
+        "inactive_assignments": extra if routed_subset else [],
         "duplicate_units": duplicate_units,
         "production_method_counts": dict(sorted(methods.items())),
         "config_sha256": loaded.get("config_sha256"),

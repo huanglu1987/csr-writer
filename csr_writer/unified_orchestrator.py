@@ -31,7 +31,7 @@ from .deterministic_sections import (
     validate_deterministic_bundle,
 )
 from .errors import CSRWriterError
-from .io_utils import atomic_write_json, load_json_unique, sha256_file
+from .io_utils import atomic_write_json, load_json_unique, paths_alias, sha256_file
 from .m4_assembly import validate_clean_docx, validate_docx_references
 from .paths import (
     DEFAULT_FORMAT_SPEC,
@@ -99,6 +99,7 @@ def _load_admitted_sections(
                 paths["resolved_path"],
                 paths["metadata_path"],
                 paths["guard_path"],
+                require_condition_proof=True,
             )
         except Exception as exc:
             raise UnifiedCompositionError(
@@ -177,11 +178,15 @@ def _load_admitted_sections(
 
 
 def _evidence_status(value: str) -> str:
+    if value == "demo_only":
+        return "demo_only"
     if value == "source_gap":
         return "source_gap"
     if value == "derived_copy_only":
         return "derived_copy_only"
-    return "reviewed_project_evidence"
+    if value in {"reviewed", "reviewed_project_evidence"}:
+        return "reviewed_project_evidence"
+    raise UnifiedCompositionError(f"E-COMPOSE-EVIDENCE-STATUS: {value!r}")
 
 
 def _content_from_sections(
@@ -442,10 +447,33 @@ def compose_unified_csr(
     sections, admissions = _load_admitted_sections(
         ordinary_artifacts, constrained_artifacts
     )
+    evidence_kinds = {s.evidence_status for s in sections}
+    if "demo_only" in evidence_kinds and len(evidence_kinds - {"demo_only", "source_gap"}) > 0:
+        raise UnifiedCompositionError("E-COMPOSE-MIXED-DEMO-EVIDENCE")
+    if "demo_only" not in evidence_kinds:
+        section_plan = routing["structure"]["section_plan"]
+        active = set(section_plan["retained_official_section_ids"])
+        active.update(s["section_id"] for s in section_plan["formal_extensions"])
+        parents = {sid.rsplit(".", 1)[0] for sid in active if "." in sid}
+        covered = set(deterministic_validation["section_ids"]) | {s.section_id for s in sections}
+        missing = sorted(active - parents - covered)
+        if missing or "source_gap" in evidence_kinds:
+            raise UnifiedCompositionError(f"E-COMPOSE-INCOMPLETE-CLEAN: {missing}")
     try:
         clean_paragraphs = apply_review_decisions(sections, review_decisions)
     except Exception as exc:
         raise UnifiedCompositionError(f"E-COMPOSE-REVIEW-GATE: {exc}") from exc
+    for artifact in deterministic_bundle["artifacts"]:
+        if artifact["content_kind"] != "confirmed_text_copy":
+            continue
+        for paragraph in artifact["content"]["paragraphs"]:
+            index = paragraph["source_paragraph_index"]
+            source = clean_paragraphs.get(paragraph["source_section_id"], ())
+            if (type(index) is not int or not 0 <= index < len(source)
+                    or source[index] != paragraph["text"]
+                    or hashlib.sha256(source[index].encode("utf-8")).hexdigest()
+                    != paragraph["source_text_sha256"]):
+                raise UnifiedCompositionError("E-COMPOSE-SYNOPSIS-SOURCE-DRIFT")
     annotated_content = _content_from_sections(sections)
     clean_content = _content_from_sections(sections, clean_paragraphs)
 
@@ -483,8 +511,15 @@ def compose_unified_csr(
 
     annotated_path = Path(annotated_output)
     clean_path = Path(clean_output)
-    if annotated_path.resolve() == clean_path.resolve():
-        raise UnifiedCompositionError("E-COMPOSE-OUTPUT-ALIAS")
+    destinations = [annotated_path, clean_path]
+    if composition_manifest_output is not None:
+        destinations.append(Path(composition_manifest_output))
+    inputs = [structure_path, template_path, format_spec_path, title_overrides_path]
+    for spec in (*ordinary_artifacts, *constrained_artifacts):
+        inputs.extend(path for name, path in spec.items() if name.endswith("_path"))
+    for index, destination in enumerate(destinations):
+        if any(paths_alias(destination, other) for other in (*destinations[:index], *inputs)):
+            raise UnifiedCompositionError("E-COMPOSE-OUTPUT-ALIAS")
     annotated_path.parent.mkdir(parents=True, exist_ok=True)
     clean_path.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory(prefix="csr-writer-compose-") as temporary:

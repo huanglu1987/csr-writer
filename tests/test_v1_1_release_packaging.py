@@ -27,9 +27,11 @@ class VisualQCReleasePackagingTests(unittest.TestCase):
             dependencies = (Path(__file__).resolve().parents[1] / "pyproject.toml").read_text(
                 encoding="utf-8"
             )
-            self.assertNotIn('"PyMuPDF', dependencies)
-            self.assertNotIn('"Pillow', dependencies)
-            self.assertNotIn('"LibreOffice', dependencies)
+            required = dependencies.split("dependencies = [", 1)[1].split("]", 1)[0]
+            for package in ("PyMuPDF", "Pillow", "LibreOffice"):
+                self.assertNotIn(package, required)
+            self.assertIn("[project.optional-dependencies]", dependencies)
+
 
 
 if __name__ == "__main__":

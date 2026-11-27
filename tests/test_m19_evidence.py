@@ -22,9 +22,9 @@ class M19EvidenceTests(unittest.TestCase):
         corpus = _load(OUTPUT / "holdout/legal_rewrites.json")
         migrations = {
             (item["path"], item["from_sha256"]): item
-            for item in _load(
-                ROOT / "examples/output/m20/N4历史数字更正对照.json"
-            )["registry_migrations"]
+            for path in (ROOT / "examples/output/m20/N4历史数字更正对照.json",
+                         ROOT / "skills/csr-writer/references/production-methods-migrations.json")
+            for item in _load(path)["registry_migrations"]
         }
         self.assertEqual(
             frozen["guard_bundle_sha256"],
@@ -34,14 +34,16 @@ class M19EvidenceTests(unittest.TestCase):
             current_sha256 = sha256_file(ROOT / item["path"])
             if current_sha256 == item["sha256"]:
                 continue
-            migration = migrations.get((item["path"], item["sha256"]))
-            self.assertIsNotNone(
-                migration,
-                f"undeclared mutation of frozen component: {item['path']}",
-            )
-            self.assertEqual(current_sha256, migration["to_sha256"])
-            self.assertTrue(migration["reason"])
-            self.assertTrue(migration["affected_units"])
+            previous = item["sha256"]
+            seen = set()
+            while previous != current_sha256:
+                self.assertNotIn(previous, seen, "registry migration cycle")
+                seen.add(previous)
+                migration = migrations.get((item["path"], previous))
+                self.assertIsNotNone(migration, f"undeclared mutation of frozen component: {item['path']}")
+                self.assertTrue(migration["reason"])
+                self.assertTrue(migration["affected_units"])
+                previous = migration["to_sha256"]
         builder = ROOT / corpus["construction"]["builder_path"]
         tree = ast.parse(builder.read_text(encoding="utf-8"))
         imported_roots = {

@@ -15,6 +15,7 @@ from pathlib import Path
 from typing import Any
 
 from .datapack import validate_datapack
+from .shell_mapping import _column_id
 from .errors import CSRWriterError
 from .io_utils import sha256_file
 from .row_semantics import (
@@ -120,7 +121,7 @@ def _apply_deferred_rows(
         observed_columns = [
             header.cells[index].strip() for index in range(1, physical.column_count)
         ]
-        if observed_columns != frozen_columns:
+        if len(observed_columns) != len(frozen_columns) or any(actual != expected and _column_id(actual) != expected for actual, expected in zip(observed_columns, frozen_columns)):
             issues.append(
                 _structure_issue(
                     "E-RTF-COLUMN-DRIFT",
@@ -441,7 +442,7 @@ def apply_rtf_values_to_shell(
                 continue
             expected = next(iter(semantic_ids))
             observed = header_row.cells[column_index].strip()
-            if observed != expected:
+            if observed != expected and _column_id(observed) != expected:
                 issues.append(
                     _structure_issue(
                         "E-RTF-COLUMN-DRIFT",
@@ -465,7 +466,7 @@ def apply_rtf_values_to_shell(
                 continue
             expected = next(iter(expected_ids))
             observed = parsed.rows[row_index].cells[0].strip()
-            if observed != expected:
+            if observed != expected and classify_shell_row_segment(observed).segment != expected:
                 issues.append(
                     _structure_issue(
                         "E-RTF-ROW-DRIFT",

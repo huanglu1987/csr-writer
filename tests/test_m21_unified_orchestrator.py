@@ -118,6 +118,34 @@ class M21UnifiedOrchestratorTests(unittest.TestCase):
             ):
                 compose_unified_csr(**arguments)
 
+    def test_stale_synopsis_and_reused_guard_do_not_enter_composition(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            args = self._arguments(root)
+            synopsis = next(a for a in args["deterministic_bundle"]["artifacts"] if a["section_id"] == "2")
+            synopsis["content"]["paragraphs"][0]["text"] = "另一版正文"
+            with self.assertRaisesRegex(UnifiedCompositionError, "SYNOPSIS-SOURCE-DRIFT"):
+                compose_unified_csr(**args)
+            args = self._arguments(root)
+            ordinary = args["ordinary_artifacts"][0]
+            guard = _load(ordinary["guard_path"])
+            guard["draft_sha256"] = "0" * 64
+            ordinary["guard_path"] = root / "stale.json"
+            atomic_write_json(ordinary["guard_path"], guard)
+            with self.assertRaisesRegex(UnifiedCompositionError, "GUARD-PROOF"):
+                compose_unified_csr(**args)
+            self.assertFalse(args["clean_output"].exists())
+
+    def test_cannot_overwrite_source_or_mix_demo_and_project_evidence(self):
+        with tempfile.TemporaryDirectory() as directory:
+            args = self._arguments(Path(directory))
+            args["composition_manifest_output"] = args["ordinary_artifacts"][0]["guard_path"]
+            with self.assertRaisesRegex(UnifiedCompositionError, "OUTPUT-ALIAS"):
+                compose_unified_csr(**args)
+            args["constrained_artifacts"][0]["evidence_status"] = "reviewed"
+            with self.assertRaisesRegex(UnifiedCompositionError, "MIXED-DEMO"):
+                compose_unified_csr(**args)
+
     def test_single_plan_renders_two_reproducible_full_volumes(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -148,6 +176,7 @@ class M21UnifiedOrchestratorTests(unittest.TestCase):
         self.assertFalse(any(item.startswith("9.4.6 ") for item in clean_headings))
         self.assertIn("内部溯源", annotated_text)
         self.assertNotIn("内部溯源", clean_text)
+        self.assertIn("合成验收夹具", clean_text)
         self.assertFalse(report["guard_bypass_available"])
 
 

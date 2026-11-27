@@ -37,7 +37,7 @@ CAPABILITY_CONDITIONS: dict[str, str] = {
     "has_confirmatory_efficacy": (
         "objectives.confirmatory_efficacy && analyses.hypothesis_test"
     ),
-    "has_exploratory_efficacy": "objectives.efficacy && !analyses.hypothesis_test",
+    "has_exploratory_efficacy": "objectives.efficacy && !(objectives.confirmatory_efficacy && analyses.hypothesis_test)",
     "has_multiplicity_control": "analyses.multiplicity_control",
     "has_noninferiority": "design.noninferiority",
     "has_estimand_framework": "analyses.estimand_framework",
@@ -187,7 +187,7 @@ def derive_capability_flags(facts: Mapping[str, Any]) -> dict[str, bool]:
             objectives["confirmatory_efficacy"] and analyses["hypothesis_test"]
         ),
         "has_exploratory_efficacy": (
-            objectives["efficacy"] and not analyses["hypothesis_test"]
+            objectives["efficacy"] and not (objectives["confirmatory_efficacy"] and analyses["hypothesis_test"])
         ),
         "has_multiplicity_control": analyses["multiplicity_control"],
         "has_noninferiority": design["noninferiority"],

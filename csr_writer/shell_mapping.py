@@ -233,6 +233,7 @@ def _stable_id(prefix: str, text: str, length: int = 10) -> str:
 
 def _column_id(label: str) -> str:
     normalized = unicodedata.normalize("NFKC", label).strip()
+    normalized = re.sub(r"(?:\(\s*[Nn]\s*=\s*(?:\d+|[xX]+)\s*\)|\b[Nn]\s*=\s*(?:\d+|[xX]+)\b)(?=\s*(?:/|$))", "", normalized).strip()
     compact = re.sub(r"\s+", "", normalized)
     lowered = compact.casefold()
     statistic_suffix: str | None = None
@@ -269,6 +270,8 @@ def _column_id(label: str) -> str:
     ):
         return "N_R"
     safe = re.sub(r"[^A-Za-z0-9]+", "_", normalized).strip("_").upper()
+    if re.search(r"[\u3400-\u9fff]", normalized):
+        return _stable_id("COL", normalized)
     if safe and SAFE_ASCII_RE.fullmatch(safe):
         return safe[:48]
     return _stable_id("COL", normalized)

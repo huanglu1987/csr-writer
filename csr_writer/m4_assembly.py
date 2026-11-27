@@ -43,6 +43,7 @@ class CleanOutputBlocked(AssemblyError):
 
 CLEAN_FORBIDDEN_PATTERNS: tuple[tuple[str, re.Pattern[str]], ...] = (
     ("pending-marker", re.compile(r"\[待[^\]\r\n]{0,30}(?:确认|核实|补充|处理)\]")),
+    ("internal-draft-marker", re.compile(r"【待补】|〔待(?:确认|补充|签署|医学负责人复核)[^〕\r\n]*〕|内部审阅概要")),
     ("internal-provenance", re.compile(r"内部溯源|内部\s*QC", re.I)),
     ("tool-name", re.compile(r"csr[- ]?writer|数值守卫|工具生成", re.I)),
     ("qc-note", re.compile(r"(?:QC|质检)(?:说明|备注|发现|记录)", re.I)),

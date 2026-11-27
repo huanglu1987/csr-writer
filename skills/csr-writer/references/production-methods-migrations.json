@@ -1,0 +1,25 @@
+{
+  "registry_migrations": [
+    {
+      "path": "skills/csr-writer/references/production-methods.yaml",
+      "from_sha256": "991507aae39b03b6c21156e7a900770d6e16707591cec2f05bd520db30f3c79d",
+      "to_sha256": "ce6f545c6a39aace7a0cabd7e2254a17cf2eadb1b9f6e9dba89baa1f18f4ddcf",
+      "reason": "为动态路由生成的主要终点结果小节注册既有双臂对比写手",
+      "affected_units": [
+        "11.4.1.1",
+        "11.6.1.1"
+      ]
+    },
+    {
+      "path": "csr_writer/constrained_narration.py",
+      "from_sha256": "6a940e55b705a41e048d3b7ce7c78fab55f73dc09062232eccac527cd2e6d1b8",
+      "to_sha256": "c583471b61bb6636a8bf759f8a2e6af034f2313616af54e181d71075a8490eaf",
+      "reason": "对要求逐字保留的受控长句单列提示，并为逐字列表保存可重放的源卡；历史留出集仅代表原验证版本。",
+      "affected_units": [
+        "verbatim_list",
+        "mixed",
+        "limited_free"
+      ]
+    }
+  ]
+}

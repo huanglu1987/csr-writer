@@ -1,11 +1,15 @@
 ---
 name: csr-writer
-description: Run the bounded M1-M18 Chinese ICH E3 CSR workflow: fact-routed structure, deterministic TFL values and sections, reviewed fact-card narration, traceability, audit-hardening, and fail-closed release gates.
+description: "收到研究资料文件夹时，生成中文临床试验总结报告（CSR）Word 内部审阅初稿。自动识别方案、SAP、定稿统计表、医学记录及附件，核对来源并集中列出需要人工决定的事项。"
 ---
 
-# CSR Writer — bounded M1–M18
+# CSR Writer — 中文 CSR 起草
 
-This delivery provides bounded capabilities through M18 audit hardening. Section writers still cover a limited set of authoring units, and expanded routing does not mean that every routed section has a complete implementation. SAE narration is allowed only through a frozen fact card, reviewed whole-assertion surface forms, deterministic back-reference guards, and the existing medical-review boundary. The workflow must not invent clinical course, make uncontrolled causality or benefit-risk judgments, fill missing evidence, or make regulatory/submission-readiness conclusions.
+从任意研究目录运行本技能的 `scripts/draft_project.py --input-dir "资料文件夹绝对路径"`（用 python3 启动）。该脚本通过自身真实路径找到共享工具。也可在工具根目录运行 `python3 -m csr_writer draft-project --input-dir "资料目录"`。 The default run builds its evidence bindings and the review Word from the input folder. If the report contains `agent_work`, read the indicated source and the selected protocol/SAP, return the location, topic and existing row labels with `--matches`, and finish the new draft in the same session. A review_project_structure task calls for evidence-backed study facts from the selected original protocol/SAP in the same response when the evidence supports the study schema; retain genuine gaps. See `docs/智能体起草指南.md`. Deliver the internal review DOCX and consolidated decisions after processing all available material. Section writers still cover a limited set of authoring units, and expanded routing does not mean that every routed section has a complete implementation. SAE narration is allowed only through a frozen fact card, reviewed whole-assertion surface forms, deterministic back-reference guards, and the existing medical-review boundary. The workflow must not invent clinical course, make uncontrolled causality or benefit-risk judgments, fill missing evidence, or make regulatory/submission-readiness conclusions.
+
+普通研究、混合交付和负责人回写均使用同一个 draft-project 入口。从研究目录提取有效方案与 SAP。遇到「待智能体解读SAP.json」时，智能体读取列出的完整原句和上下文，对语义明确、属于已实现方法的条款按「智能体起草指南」制作有原文位置的解读，用 --sap-reading 续跑。外部定稿表和逐例数据可混放。检查输出的逐表对账、独立复算和 Word 单元格复核文件。负责人在输出目录外保存一份集中答复，使用 --answers 和原研究目录另生成一版。原件、首稿和未回答的签认项目保留。
+
+无外部统计表时，同一入口读取方案、SAP 和逐例记录生成统计复核表。交付统计表、Word 和集中审阅清单；对照分析留痕区分程序不支持的条款、需补数据、统计裁决和医学签认。生成的表保留待统计复核状态。两组连续终点可按已支持的 SAP 规则计算 MMRM、ANCOVA 及多重插补合并结果。可按 SAP 使用 Kenward–Roger 校正、固定中心和其他基线协变量、连续结局 FCS 、完成数据和每轮 FCS 内的 MNAR 偏移、J2R/CIR 参考组插补，以及随机中心截距 MMRM 和 ANCOVA、中心随机治疗斜率与组别特异访视协方差、连续及分类结局的参考组插补。分别核对停药后实测值、名义访视缺失范围和各组有符号偏移。次要终点可用 Cox 或 CMH。交付前核对拟合诊断、实际分析人数和 Word 中的对比方向。
 
 ## Non-negotiable numeric boundary
 

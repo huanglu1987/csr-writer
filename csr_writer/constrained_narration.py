@@ -1747,7 +1747,8 @@ def _ingest_constrained_draft(
                 "matches": [item["matched_text"] for item in internal.findings],
             }
         )
-    style = style_report(body, block_literal_zero_events=True)
+    protected = tuple(v.strip("。！？") for f in card["facts"] if f["verbatim_required"] for v in _value_strings(f["value"]))
+    style = style_report(body, block_literal_zero_events=True, protected_verbatim=protected)
     if style["blocked"]:
         findings.extend(
             {
@@ -2010,6 +2011,7 @@ def render_verbatim_fact_card(card: Mapping[str, Any]) -> ConstrainedNarrationAr
             "section_id": normalized["section_id"],
             "production_method": normalized["production_method"],
             "narration": "verbatim_list",
+            "source_card": dict(card),
             "field_count": len(checks),
             "field_reference_count": len(checks),
             "field_coverage_percent": 100.0,

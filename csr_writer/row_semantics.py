@@ -63,6 +63,8 @@ _RAW_ALIASES = {
     "t1/2": "T_HALF",
     "auc0-t": "AUC0_T",
     "auc0-∞": "AUC0_INF",
+    "auc0-τ": "AUC0_TAU",
+    "λz": "LAMBDA_Z",
 }
 
 # The lookup value is NFKC-normalized below, so configuration keys must pass

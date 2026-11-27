@@ -102,6 +102,8 @@ def load_resolved_section(
     resolved_path: str | Path,
     metadata_path: str | Path,
     guard_path: str | Path,
+    *,
+    require_condition_proof: bool = False,
 ) -> ResolvedSection:
     """Load one resolved section and verify every M3 hash/guard anchor."""
     draft_file = Path(draft_path)
@@ -227,6 +229,20 @@ def load_resolved_section(
     draft_heading, draft_notices, draft_paragraphs = _split_section_markdown(
         draft_text, f"draft {section_id}"
     )
+    original_hash = _sha256_text(draft_text)
+    if CONCLUSION_PLACEHOLDER_RE.search(draft_text):
+        conditioned = guard.get("conditional_conclusion")
+        # M12 direct callers only retained the post-expansion numeric report.
+        # New composition paths require the whole chain; verify it whenever supplied.
+        if (require_condition_proof or conditioned is not None) and (not isinstance(conditioned, Mapping) or (
+            conditioned.get("status") not in {"pass", "pass_with_warning"}
+            or conditioned.get("draft_sha256") != original_hash
+            or conditioned.get("resolved_sha256") != guard.get("draft_sha256")
+            or conditioned.get("datapack_sha256") != guard.get("datapack_sha256")
+        )):
+            raise CrossChapterError(f"Conditional resolver input hash mismatch for {section_id}")
+    elif guard.get("draft_sha256") != original_hash:
+        raise CrossChapterError(f"Resolver input hash mismatch for {section_id}")
     resolved_heading, resolved_notices, resolved_paragraphs = _split_section_markdown(
         resolved_text, f"resolved {section_id}"
     )
@@ -334,6 +350,22 @@ def load_constrained_resolved_section(
     metadata = load_json_unique(metadata_file)
     if not isinstance(metadata, dict):
         raise CrossChapterError("Constrained section metadata must be a JSON object")
+    if metadata.get("narration") == "verbatim_list":
+        from .constrained_narration import render_verbatim_fact_card
+        if evidence_status not in {"reviewed","demo_only"} or not isinstance(metadata.get("source_card"),dict):
+            raise CrossChapterError("Verbatim list requires its source card and evidence status")
+        artifact = render_verbatim_fact_card(metadata["source_card"])
+        if artifact.metadata != metadata or markdown_file.read_text() != artifact.markdown:
+            raise CrossChapterError("Verbatim list differs from replay of source card")
+        sources = tuple(s["source_id"] for s in metadata["source_manifest"])
+        items = [s[2:] for s in artifact.markdown.splitlines() if s.startswith("- ")]
+        if any("{{" in s or "}}" in s for s in items):
+            raise CrossChapterError("Unresolved token in verbatim list")
+        paragraphs = tuple(ResolvedParagraph(artifact.section_id,f"P{i:03}",s,False,"verbatim",sources,(),())
+                           for i,s in enumerate(items,1))
+        digest = _sha256_text(artifact.markdown)
+        return ResolvedSection(artifact.section_id,artifact.markdown.splitlines()[0].lstrip("# "),(),
+                               evidence_status,digest,digest,metadata_file,(),paragraphs)
     required = {
         "schema_version",
         "status",
@@ -359,7 +391,7 @@ def load_constrained_resolved_section(
     if (
         metadata.get("schema_version") != "1.0"
         or metadata.get("status") != "pass"
-        or metadata.get("production_method") not in {"extraction", "llm_drafting"}
+        or metadata.get("production_method") not in {"extraction", "llm_drafting", "mixed"}
         or metadata.get("narration") != "constrained_llm"
     ):
         raise CrossChapterError("Constrained section is not a passing LLM-drafting artifact")
@@ -374,7 +406,9 @@ def load_constrained_resolved_section(
             "E-CONSTRAINED-ASSEMBLY-COVERAGE: positive-coverage certification is absent"
         )
     style = metadata.get("style_qc")
-    if not isinstance(style, Mapping) or style.get("status") != "pass" or style.get(
+    if not isinstance(style, Mapping) or style.get("status") not in {"pass","pass_with_warning"} or any(
+        f.get("severity") == "block" for f in style.get("findings", [])
+    ) or style.get(
         "blocked"
     ) is not False:
         raise CrossChapterError("E-CONSTRAINED-ASSEMBLY-STYLE: style gate did not pass")

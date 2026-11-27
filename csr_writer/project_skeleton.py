@@ -466,6 +466,8 @@ def _merge_items(items: Sequence[Mapping[str, Any]]) -> dict[str, Any]:
     statuses = {str(item["evidence_status"]) for item in items}
     if "source_gap" in statuses:
         evidence_status = "source_gap"
+    elif "demo_only" in statuses:
+        evidence_status = "demo_only"
     elif "derived_copy_only" in statuses:
         evidence_status = "derived_copy_only"
     else:
@@ -497,6 +499,7 @@ def _normalize_content(items: Sequence[Mapping[str, Any]]) -> list[dict[str, Any
         seen.add((section_id, variant))
         if item.get("evidence_status") not in {
             "reviewed_project_evidence",
+            "demo_only",
             "source_gap",
             "derived_copy_only",
         }:
@@ -956,6 +959,7 @@ def _add_publication_table(
 def _add_appendix_status_table(document: Document, appendix_plan: Mapping[str, Any]) -> Any:
     table = document.add_table(rows=1, cols=5)
     table.style = "Table Grid"
+    table.rows[0]._tr.get_or_add_trPr().append(OxmlElement("w:tblHeader"))
     headers = (
         "附录编号",
         "文件名称",
@@ -972,7 +976,9 @@ def _add_appendix_status_table(document: Document, appendix_plan: Mapping[str, A
             merged = merged.merge(cell)
         _set_cell_text(merged, category["title"], bold=True)
         for item in category["rows"]:
-            cells = table.add_row().cells
+            row = table.add_row()
+            row._tr.get_or_add_trPr().append(OxmlElement("w:cantSplit"))
+            cells = row.cells
             values = (
                 item["appendix_id"],
                 item["file_name"],
@@ -1069,8 +1075,8 @@ def render_project_skeleton(
 ) -> dict[str, Any]:
     """Render active module contributions union the unconditional core."""
 
-    if mode not in {"annotated", "clean"}:
-        raise ProjectSkeletonError("project skeleton mode must be annotated or clean")
+    if mode not in {"annotated", "clean", "working_draft"}:
+        raise ProjectSkeletonError("unsupported project skeleton mode")
     if omission_policy not in {"remove", "retain_not_applicable"}:
         raise ProjectSkeletonError(
             "omission_policy must be remove or retain_not_applicable"
@@ -1086,12 +1092,16 @@ def render_project_skeleton(
         scaffold_path,
         layers=("ich-official", "industry-convention"),
         header_text=(
+            "临床试验总结报告（内部审阅初稿）" if mode == "working_draft" else
             "临床试验总结报告（内部批注骨架）"
             if mode == "annotated"
             else "临床试验总结报告骨架"
         ),
     )
     document = Document(scaffold_path)
+    if any(item["evidence_status"] == "demo_only" for item in normalized):
+        document.paragraphs[0].insert_paragraph_before("合成验收夹具；非临床证据")
+
     if composition_plan_sha256 is not None:
         if re.fullmatch(r"[0-9a-f]{64}", composition_plan_sha256) is None:
             raise ProjectSkeletonError("composition plan hash must be lowercase SHA-256")
@@ -1186,6 +1196,9 @@ def render_project_skeleton(
             )
         content_by_section[item["section_id"]].append(item)
 
+    deterministic_ids = {
+        item["section_id"] for item in (deterministic_bundle or {}).get("artifacts", [])
+    }
     coverage: list[dict[str, Any]] = []
     for contribution in contributions:
         section_id = str(contribution["section"])
@@ -1204,6 +1217,8 @@ def render_project_skeleton(
             (item for item in content_by_section.get(section_id, []) if item["variant"] == variant),
             None,
         )
+        if exact is None and section_id in deterministic_ids:
+            exact = {"evidence_status": "deterministic_bundle"}
         if exact is None and mode == "annotated":
             exact = _paragraph_for_gap(section_id, variant, str(contribution["title"]))
             content_by_section[section_id].append(exact)
@@ -1212,7 +1227,7 @@ def render_project_skeleton(
                 "module_id": contribution["contributed_by"],
                 "section_id": section_id,
                 "variant": variant,
-                "status": exact["evidence_status"] if exact is not None else "heading_only_clean",
+                "status": exact["evidence_status"] if exact is not None else ("pending_working_draft" if mode == "working_draft" else "heading_only_clean"),
             }
         )
 
@@ -1235,7 +1250,7 @@ def render_project_skeleton(
                 or children_by_parent.get(section_id)
             ):
                 continue
-            if not content_by_section.get(section_id):
+            if section_id not in deterministic_ids and not content_by_section.get(section_id):
                 content_by_section[section_id].append(
                     _paragraph_for_gap(
                         section_id, "retained_leaf", str(title_by_id.get(section_id, section_id))
@@ -1249,7 +1264,7 @@ def render_project_skeleton(
         merged = _merge_items(content_by_section[section_id])
         created = (
             _append_annotated_block(document, merged, show_label=False)
-            if mode == "annotated"
+            if mode != "clean"
             else _append_clean_block(document, merged)
         )
         _insert_after(anchor, created)
@@ -1279,6 +1294,12 @@ def render_project_skeleton(
         appendix_plan = build_appendix_status_plan(
             study_facts or {}, structure_path=structure_path, submission_region="CDE"
         )
+        if mode == "working_draft":
+            # A submission plan does not certify that an attachment is actually present.
+            for row in appendix_plan["rows"]:
+                row.update(submitted="待核对", submission_location="待核对",
+                           reason_or_on_request="依据本研究实际附件登记核对。")
+            appendix_plan["categories"] = [{"title": "待核对的附件", "rows": appendix_plan["rows"]}]
         _add_report_directories(document, headings, publication_reference_map, appendix_plan)
         appendix_table = _add_appendix_status_table(document, appendix_plan)
         _move_after(headings[_bookmark_key("16.0")], [appendix_table])
@@ -1290,7 +1311,7 @@ def render_project_skeleton(
     omission_declarations = _add_omission_declaration_blocks(
         document,
         headings,
-        section_plan["omitted_sections"],
+        [] if mode == "working_draft" else section_plan["omitted_sections"],
         plan_items,
     )
     numbering_order = _assert_numeric_heading_order(document)
@@ -1335,7 +1356,7 @@ def render_project_skeleton(
         "source_gap_block_count": sum(
             item["evidence_status"] == "source_gap" for item in all_content
         ),
-        "pending_count": pending_count if mode == "annotated" else 0,
+        "pending_count": pending_count if mode != "clean" else 0,
         "route_contribution_count": len(contributions),
         "route_coverage_count": len(coverage),
         "route_coverage": coverage,

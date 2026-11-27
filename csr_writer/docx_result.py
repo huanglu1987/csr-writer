@@ -313,9 +313,11 @@ def _pk_parameter_root(label: str) -> str | None:
     return {
         "cmax": "CMAX_UNIT",
         "auc0-t": "AUC0_UNIT",
-        "auc0-inf": "AUC0_INF_UNIT",
+        "auc0-inf": "AUC0_INF_UNIT", "auc0-∞": "AUC0_INF_UNIT",
         "tmax": "TMAX_UNIT",
-        "t1/2": "T_HALF_UNIT",
+        "t1/2": "T_HALF_UNIT", "auc0-tau": "AUC0_TAU_UNIT", "auc0-τ": "AUC0_TAU_UNIT",
+        "cmin": "CMIN_UNIT", "ctrough": "CTROUGH_UNIT", "cl/f": "CL_F_UNIT",
+        "vz/f": "VZ_F_UNIT", "λz": "LAMBDA_Z_UNIT", "rac": "RAC_UNIT",
     }.get(compact)
 
 
@@ -702,7 +704,7 @@ def apply_docx_result_to_frozen_shell(
             }
         elif strategy in {"columns_only_deferred_rows", "mixed_stable_and_deferred_rows"}:
             entity_report = _apply_deferred(result, entity, frozen_entity, result_source_id)
-        elif entity.entity_id == "T14.2.4.3.1":
+        elif any(str(c.get("row_id", "")).startswith(("CMAX_UNIT/", "TMAX_UNIT/", "AUC0_UNIT/", "AUC0_TAU_UNIT/", "AUC0_INF_UNIT/", "T_HALF_UNIT/", "CMIN_UNIT/", "CTROUGH_UNIT/", "CL_F_UNIT/", "VZ_F_UNIT/", "LAMBDA_Z_UNIT/", "RAC_UNIT/")) for c in frozen_entity.get("cell_contracts", [])):
             entity_report = _apply_pk(result, entity, frozen_entity, result_source_id)
         else:
             entity_report = _apply_ancova(result, entity, frozen_entity, result_source_id)

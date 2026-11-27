@@ -148,7 +148,7 @@ modules:
   - id: M-EFF-EXPLORE
     name_zh: 探索性疗效
     activation_flag: has_exploratory_efficacy
-    condition: objectives.efficacy && !analyses.hypothesis_test
+    condition: objectives.efficacy && !(objectives.confirmatory_efficacy && analyses.hypothesis_test)
     structure:
       - {section: "11.6", action: add, variant: exploratory, title: 探索性疗效评价}
       - {section: "11.6.1", action: override, variant: exploratory_primary, title: 探索性主要疗效分析}

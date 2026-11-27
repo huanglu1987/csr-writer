@@ -178,6 +178,22 @@ def build_authoring_inventory(
             applied_title_overrides.append(record)
     section_ids = sorted(title_by_id, key=_section_sort_key)
     registry = production_registry or load_production_method_registry()
+    # Active leaves outside legacy production profiles can receive verified internal
+    # draft tables, method excerpts, or pending text; this grants no free-text writer.
+    if production_registry is None:
+        assignments = dict(registry["assignments"])
+        for sid in section_ids:
+            if sid in assignments or any(child.startswith(sid+".") for child in section_ids):
+                continue
+            if not sid.startswith(("9.", "10.3.", "11.", "12.")):
+                continue
+            assignments[sid] = {
+                "section_id":sid, "production_method":"extraction", "production_profile":"working_draft_sources",
+                "narration":"source_bound", "production_reason":"仅允许内部稿采用原件、已核定统计表或标示缺口。",
+                "source":{"declared":True,"items":["project_sources"],"missing_source_policy":"pending"},
+                "production_spec":{"release_eligible":False},
+            }
+        registry = {**registry, "assignments":assignments}
     rows: list[dict[str, Any]] = []
     for section_id in section_ids:
         is_leaf = not any(
@@ -212,7 +228,7 @@ def build_authoring_inventory(
         )
     authoring_units = [item for item in rows if item["is_authoring_unit"]]
     ownership_audit = audit_authoring_unit_coverage(
-        [item["section_id"] for item in authoring_units], registry
+        [item["section_id"] for item in authoring_units], registry, routed_subset=True
     )
     if ownership_audit["status"] != "pass":
         raise ValueError(f"Production ownership registry does not match route: {ownership_audit}")

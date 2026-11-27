@@ -14,6 +14,11 @@ dependencies = [
   "PyYAML>=6,<7",
 ]
 
+[project.optional-dependencies]
+models = ["numpy>=1.24,<3", "scipy>=1.10,<2"]
+source-office = ["openpyxl>=3.1,<4", "PyMuPDF>=1.24,<2"]
+visual = ["PyMuPDF>=1.24,<2", "Pillow>=10,<13"]
+
 [project.scripts]
 csr-writer = "csr_writer.cli:main"
 

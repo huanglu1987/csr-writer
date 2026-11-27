@@ -472,6 +472,15 @@ REQUIRED_BINDING_ROLES: dict[tuple[str, str], tuple[str, ...]] = {
     ("13", "overall_conclusion_conditioned"): (),
 }
 
+# The routed primary endpoint leaves share the two-arm comparison contract.
+PRIMARY_EFFICACY_SECTIONS = {"11.4", "11.6", "11.4.1.1", "11.6.1.1"}
+for _section, _variant in (("11.4.1.1", "confirmatory"), ("11.6.1.1", "exploratory")):
+    PLAYBOOK_FILENAMES[_section] = PLAYBOOK_FILENAMES["11.4"]
+    SECTION_TITLES[_section] = "主要终点结果"
+    SECTION_VARIANTS[_section] = frozenset({_variant})
+    SOURCE_PURPOSES[_section] = SOURCE_PURPOSES["11.4"]
+    REQUIRED_BINDING_ROLES[(_section, _variant)] = REQUIRED_BINDING_ROLES[("11.4", _variant)]
+
 OPTIONAL_BINDING_ROLES: dict[tuple[str, str], tuple[str, ...]] = {
     ("12.2", "adverse_events_conditioned"): (
         "sae_count",
@@ -849,7 +858,7 @@ def _validate_binding_semantics(
     if any(match is None for match in parsed.values()):  # defensive; normalized earlier
         raise SectionWriterError("A TFL binding has an invalid semantic key")
 
-    if section_id in {"11.4", "11.6"}:
+    if section_id in PRIMARY_EFFICACY_SECTIONS:
         if any(not match.group("table").startswith("T14.2.") for match in parsed.values()):
             raise SectionWriterError(
                 f"Section {section_id} accepts only reviewed T14.2.x efficacy tables"
@@ -1180,7 +1189,7 @@ class DeterministicSectionAdapter:
                 ),
             )
 
-        if section_id in {"11.4", "11.6"}:
+        if section_id in PRIMARY_EFFICACY_SECTIONS:
             first = DraftParagraph(
                 text=(
                     "主要疗效终点及其分析集按经审核的研究方案与统计分析计划执行。"

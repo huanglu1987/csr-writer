@@ -141,7 +141,7 @@ class M20RuntimeClosureTests(unittest.TestCase):
             {
                 "deterministic_generation": 48,
                 "extraction": 29,
-                "llm_drafting": 32,
+                "llm_drafting": 34,
                 "mixed": 7,
                 "template_slot": 4,
             },

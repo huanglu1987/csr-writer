@@ -12,6 +12,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Literal
 
+from .rtf_controls import body_controls
 from .errors import RTFParseError
 from .io_utils import sha256_file
 from .physical_table import (
@@ -91,15 +92,6 @@ def _decode_hex_escapes(text: str, codec: str) -> str:
     return re.sub(r"(?:\\'[0-9a-fA-F]{2})+", decode_run, text)
 
 
-def _strip_known_destination_groups(text: str) -> str:
-    # Deliberately limited to the simple groups present in this adapter's supported form.
-    return re.sub(
-        r"\{\\(?:fonttbl|colortbl|stylesheet|info|\*)[^{}]*(?:\{[^{}]*\})*[^{}]*\}",
-        "",
-        text,
-    )
-
-
 def _clean_rtf_text(chunk: str, *, keep_indent: bool) -> str:
     chunk = chunk.replace(r"\{", "{").replace(r"\}", "}")
     chunk = chunk.replace(r"\\", "\x00")
@@ -110,6 +102,7 @@ def _clean_rtf_text(chunk: str, *, keep_indent: bool) -> str:
     chunk = re.sub(r"\\[^a-zA-Z]", "", chunk)
     chunk = chunk.replace("{", "").replace("}", "").replace("\x00", "\\")
     chunk = chunk.replace("\r", "").replace("\n", "")
+    chunk = chunk.translate({0xfdd0: "{", 0xfdd1: "}", 0xfdd2: "\\"})
     return chunk.rstrip() if keep_indent else chunk.strip()
 
 
@@ -346,12 +339,7 @@ def parse_rtf_table(path: str | Path) -> ParsedTable:
     if codepage not in CODEPAGES:
         raise RTFParseError(f"Unsupported RTF codepage {codepage}; no silent codec fallback")
     codec = CODEPAGES[codepage]
-    if re.search(r"\\u-?\d+", raw):
-        raise RTFParseError(
-            "This adapter rejects RTF Unicode controls; a future adapter must implement \\ucN fallback semantics"
-        )
-
-    body = _decode_hex_escapes(_strip_known_destination_groups(raw), codec)
+    body = _decode_hex_escapes(body_controls(raw), codec)
     if "\ufffd" in body:
         raise RTFParseError("Decoded RTF contains U+FFFD replacement characters")
     chunks = re.split(r"\\row\b", body)
@@ -360,6 +348,9 @@ def parse_rtf_table(path: str | Path) -> ParsedTable:
 
     titles: list[str] = []
     draft_rows: list[list[_CellDraft]] = []
+    page_notes = []
+    header_signatures = set()
+    saw_data = False
     for row_index, raw_row in enumerate(chunks[:-1]):
         if _CELL_MARKER_RE.search(raw_row) is None:
             if draft_rows:
@@ -367,7 +358,30 @@ def parse_rtf_table(path: str | Path) -> ParsedTable:
             titles.extend(_plain_segments(raw_row))
             continue
         prefix, row = _parse_table_row(raw_row, row_index)
-        titles.extend(_plain_segments(prefix))
+        labels = _plain_segments(prefix)
+        if draft_rows:
+            for label in labels:
+                if label in titles:
+                    continue
+                if not re.match(r"^(?:注|备注|说明|Note|Footnote)\s*[:：.]", label, re.I):
+                    raise RTFParseError(f"Ambiguous text or second table between rows: {label}")
+                page_notes.append(label)
+        else:
+            titles.extend(labels)
+        explicit_header = bool(re.search(r"\\trhdr\b", raw_row))
+        if explicit_header:
+            for cell in row:
+                cell.bold = True
+        signature = tuple((cell.text.strip(), cell.horizontal, cell.vertical) for cell in row)
+        if saw_data and (explicit_header or re.search(r"\\page\b", prefix)):
+            if signature in header_signatures:
+                continue
+            if explicit_header:
+                raise RTFParseError("Repeated table header differs from the original header")
+        if not saw_data and (explicit_header or all(cell.bold for cell in row)):
+            header_signatures.add(signature)
+        else:
+            saw_data = True
         draft_rows.append(row)
 
     if not draft_rows:
@@ -391,7 +405,7 @@ def parse_rtf_table(path: str | Path) -> ParsedTable:
         raise RTFParseError(str(exc)) from exc
 
     tail_segments = _plain_segments(chunks[-1])
-    footnotes: list[str] = []
+    footnotes: list[str] = list(dict.fromkeys(page_notes))
     trailer: dict[str, str] = {}
     for value in tail_segments:
         match = TRAILER_RE.match(value)

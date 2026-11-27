@@ -275,14 +275,14 @@ def sae_draft(*, clinical_course: bool = True, causality: str = "可能有关") 
 
 
 class M16ProductionMethodTests(unittest.TestCase):
-    def test_registry_covers_exactly_120_units_and_32_contracts(self) -> None:
+    def test_registry_covers_122_units_and_32_contracts(self) -> None:
         registry = load_production_method_registry()
-        self.assertEqual(120, len(registry["assignments"]))
+        self.assertEqual(122, len(registry["assignments"]))
         self.assertEqual(
             {
                 "deterministic_generation": 48,
                 "extraction": 29,
-                "llm_drafting": 32,
+                "llm_drafting": 34,
                 "mixed": 7,
                 "template_slot": 4,
             },

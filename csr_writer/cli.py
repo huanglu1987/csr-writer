@@ -237,6 +237,16 @@ def build_parser() -> argparse.ArgumentParser:
     )
     subparsers = parser.add_subparsers(dest="command", required=True)
 
+    from . import composition_cli
+    composition_cli.register(subparsers)
+    draft_project = subparsers.add_parser("draft-project", help="从原始资料目录生成带来源的 CSR 内部审阅初稿")
+    draft_project.add_argument("--input-dir", type=Path, required=True)
+    draft_project.add_argument("--output-dir", type=Path, help="可选；默认在输入目录旁创建新的 CSR 初稿目录")
+    draft_project.add_argument("--sap-reading",type=Path,help="智能体对有效 SAP 原句的结构化解读")
+    draft_project.add_argument("--answers",type=Path,help="一次提交有来源、岗位及版本依据的负责人答复")
+    draft_project.add_argument("--matches", type=Path, help="宿主智能体对陌生表题的有来源匹配答复")
+    draft_project.add_argument("--plan", type=Path, help="同一资料快照的智能体工作计划")
+
     template = subparsers.add_parser("create-template", help="rebuild the default replaceable DOCX master")
     template.add_argument("--output", type=Path, default=DEFAULT_TEMPLATE)
     template.add_argument("--format-spec", type=Path, default=DEFAULT_FORMAT_SPEC)
@@ -635,6 +645,15 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
     archived_outputs: dict[str, str] = {}
     try:
+        if args.command in {"compose-csr","tfl-result-apply-docx","tfl-drift-decide"}:
+            from . import composition_cli
+            return composition_cli.run(args)
+        if args.command == "draft-project":
+            from .project_draft import draft_project
+
+            report = draft_project(args.input_dir, args.output_dir, args.plan, matches_path=args.matches,answers_path=args.answers,sap_reading=args.sap_reading)
+            print(f"已生成内部审阅初稿：{report['output_dir']}；覆盖情况 {report['coverage']}")
+            return 0
         if args.command == "create-template":
             path = create_default_template(args.output, args.format_spec)
             print(f"created master: {path}")

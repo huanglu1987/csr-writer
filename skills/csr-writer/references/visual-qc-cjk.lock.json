@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "profile_id": "csr-visual-qc-v1.1.0",
+  "config_path": "skills/csr-writer/references/visual-qc-config.yaml",
+  "config_sha256": "fcfb0246089dc2984eacca06fa52f1d93a9d4d3ef13a2775a6df28af76d8046d",
+  "checker_path": "csr_writer/visual_qc.py",
+  "checker_sha256": "d3f6342fc2acc77297caf26b3f0933ae5b668edbd8354d968ae3cb6c2b7d8881",
+  "status": "revision_for_internal_visual_preflight",
+  "previous_lock": "visual-qc-config.lock.json",
+  "change": "在本次渲染专用字体目录登记已安装的中文字体，另查可检索中文与绘制字形的对应。原留出集验证保留在原版本。"
+}

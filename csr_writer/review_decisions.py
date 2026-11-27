@@ -627,6 +627,20 @@ def _group_specs(
         "推翻后相应 §12 子域需分别登记参数/类别来源，并在结果到位前保持不可冻结。",
     )
 
+    non_registry = members(lambda item: any(
+        "non-registry title marker" in reason for reason in report_entities[item].get("reasons", [])
+    ))
+    add(
+        "DG-POP-NONREGISTRY",
+        "analysis_set_identity",
+        "分析集名称与 SAP 的对应关系",
+        "逐个核对表题中的分析集标识和 SAP 定义，记录每个标识的准确拼写。",
+        non_registry, "confirm_analysis_set_registry",
+        {"authority": "approved_sap", "infer_equivalence": False},
+        "名称或口径有差异时修订映射并重新核对受影响的表。",
+        [_required_input("analysis_set_register", "记录表题标识、SAP 名称和来源位置")],
+    )
+
     parallel: set[str] = set()
     for entity_id in review_ids:
         layout = report_entities[entity_id].get("layout_reference")
