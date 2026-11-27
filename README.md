@@ -4,18 +4,24 @@
 
 仓库里的夹具与示例数据全部为合成，不含任何真实受试者、研究者或机构信息。
 
-**在 Antigravity 使用的团队，请从[《Antigravity 斜杠命令与 CSR 撰写实操指南》](docs/antigravity-csr-guide.md)开始。** 教程包含 macOS 和 Windows 安装、工作区技能挂载、九个斜杠命令、真实项目提示词和一次答复回写。可用[六名合成受试者的教学资料](examples/antigravity-demo/输入资料)先生成两版 Word，亲自验证一张差异表怎样进入修订稿。
+## Mac 团队 · 在 Antigravity 里直接使用
 
----
+**第一次安装**，把这一条发到 Antigravity 对话框：
 
-## 这是个什么东西
+```text
+/goal 请在这台 Mac 上安装 CSR Writer。请将 https://github.com/huanglu1987/csr-writer/archive/refs/heads/master.zip 下载到临时目录并解压，用 /bin/bash 运行其中的 scripts/install-antigravity-mac.sh，看到“安装成功”后告诉我。
+```
 
-它是一个 Python 命令行工具，干活的代码都在 `csr_writer/` 里。
-不是插件，也不是 Skill——那些只是让不同 AI 工具接上的壳。
+**开始写**，看到“安装成功”后，在 Antigravity 打开研究项目并新开会话。发下面这条，输入 `@` 时选中实际的研究资料夹。
 
-下面保留 Codex 用户的安装与运行说明；Antigravity 用户可直接按上方团队教程操作。
+```text
+/csr-writer 请用 @输入资料 生成 CSR 的 Word 初稿，核对统计表，把 Word 和集中审阅清单的路径发给我。
+```
 
----
+负责人可以一次答复，工具据此生成修订稿。第三条命令见[《Mac 团队使用教程》](docs/antigravity-csr-guide.md#answers)。
+
+<details>
+<summary>展开 Codex 使用说明、资料清单和统计方法</summary>
 
 ## 一、装工具（整台电脑只做一次）
 
@@ -208,3 +214,5 @@ docs/                文档
 [Codex 安装与首次运行](docs/Codex安装与首次运行.md)、
 [开发里程碑](docs/开发里程碑.md)、[机制沿革](docs/M1-M21主要机制沿革.md)、
 [v1.1.0 变更](docs/v1.1.0变更记录.md)。
+
+</details>
