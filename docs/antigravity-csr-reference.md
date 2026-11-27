@@ -2,7 +2,7 @@
 
 日常使用请先看[Mac 一条命令安装与出稿](antigravity-csr-guide.md)。第 1、2 节供选择手动部署的团队使用。
 
-医学写手在 Antigravity 中打开研究工作区，把方案、统计分析计划（SAP）、逐例数据、已有定稿统计表和其他原件放进一个文件夹。用 `/goal` 启动后，智能体调用本地工具生成 Word 内部审阅初稿和集中审阅清单。医学、统计负责人在同一份文件中答复，工具据此重算受影响的结果，并把变更写入新版正文、概要和附录。
+医学写手在 Antigravity 中打开已有的研究资料夹，以该目录作为项目根目录。方案、统计分析计划（SAP）、逐例数据、定稿统计表和其他原件可保留原有的子目录。用 `/goal` 启动后，智能体调用本地工具生成 Word 内部审阅初稿和集中审阅清单。医学、统计负责人在同一份文件中答复，工具据此重算受影响的结果，并把变更写入新版正文、概要和附录。
 
 本教程依据团队的《Antigravity 斜杠命令与 CSR 撰写实操指南》整理，命令名称与支持端已对照 Google 官方文档核实。
 
@@ -46,26 +46,26 @@ $CsrPython = "$HOME/.venvs/csr-writer/Scripts/python.exe"
 
 ## 2. 给研究建工作区，让 Antigravity 找到技能
 
-工具所有研究共用一份。每个研究另建工作区，原件、答复和输出分开保存。以下使用 `CSR-教学`，实际项目可换成项目编号。
+工具装一次，各研究共用。直接打开已有研究资料夹作为工作区。下面用新建的 `CSR-教学` 演示手动部署和教学资料复制，实际研究可以沿用现有目录。
 
 ```text
 用户主目录/
   csr-writer/                     工具仓库
   CSR-教学/                       在 Antigravity 中打开这一层
     .agents/skills/csr-writer/    指向仓库的 skills/csr-writer
-    输入资料/                     交给统计和撰写程序的原件
-    审阅/                         智能体解读和负责人答复
-    输出/                         每次运行使用一个新子目录
+    研究方案.md、给药.csv 等       原件也可存放在各级子目录
+  CSR-教学_审阅/                  模拟答复或项目审阅记录
+  CSR-教学_CSR初稿/               首次出稿时由工具创建
 ```
 
 **macOS / Linux** 在新建的研究工作区挂载技能，并为第一次练习复制公开的合成原件。
 
 ```bash
 study="$HOME/CSR-教学"
-mkdir -p "$study/.agents/skills" "$study/审阅" "$study/输出"
+mkdir -p "$study/.agents/skills" "$HOME/CSR-教学_审阅"
 ln -s "$HOME/csr-writer/skills/csr-writer" "$study/.agents/skills/csr-writer"
-cp -R "$HOME/csr-writer/examples/antigravity-demo/输入资料" "$study/"
-cp "$HOME/csr-writer/examples/antigravity-demo/模拟答复.json" "$study/审阅/"
+cp -R "$HOME/csr-writer/examples/antigravity-demo/输入资料/." "$study/"
+cp "$HOME/csr-writer/examples/antigravity-demo/模拟答复.json" "$HOME/CSR-教学_审阅/"
 cd "$study"
 ```
 
@@ -73,16 +73,16 @@ cd "$study"
 
 ```powershell
 $Study = "$HOME/CSR-教学"
-New-Item -ItemType Directory -Force -Path "$Study/.agents/skills","$Study/审阅","$Study/输出" | Out-Null
+New-Item -ItemType Directory -Force -Path "$Study/.agents/skills","$HOME/CSR-教学_审阅" | Out-Null
 New-Item -ItemType Junction -Path "$Study/.agents/skills/csr-writer" -Target "$HOME/csr-writer/skills/csr-writer"
-Copy-Item "$HOME/csr-writer/examples/antigravity-demo/输入资料" -Destination $Study -Recurse
-Copy-Item "$HOME/csr-writer/examples/antigravity-demo/模拟答复.json" -Destination "$Study/审阅/"
+Copy-Item "$HOME/csr-writer/examples/antigravity-demo/输入资料/*" -Destination $Study -Recurse
+Copy-Item "$HOME/csr-writer/examples/antigravity-demo/模拟答复.json" -Destination "$HOME/CSR-教学_审阅/"
 Set-Location $Study
 ```
 
 已有挂载时，检查其中能读到 `SKILL.md`。新项目只需重复建目录和挂载两步。团队使用工作区 `AGENTS.md` 时，可以把下面一段合并进去，保留原有项目要求。
 
-> 撰写 CSR 时先读取工具仓库根目录的 AGENTS.md 和 skills/csr-writer/SKILL.md。使用安装了 csr-writer 的虚拟环境运行 draft-project。研究原件位于“输入资料”，所有解读、答复和输出另存。用当前项目记录确认分析人群、结果和医学决定，集中报告待判断项。
+> 撰写 CSR 时先读取工具仓库根目录的 AGENTS.md 和 skills/csr-writer/SKILL.md。使用安装了 csr-writer 的虚拟环境运行 draft-project。以当前打开的研究资料夹根目录作为输入，解读、答复和各版输出保存在原件目录之外。用当前项目记录确认分析人群、结果和医学决定，集中报告待判断项。
 
 在 Antigravity 打开这个研究工作区或把该目录加入当前 Project，新建会话，在输入框输入 `/` 查找 `csr-writer`。也可直接发送“读取本工作区的 csr-writer 技能，检查能否用已安装的解释器显示 draft-project 帮助”。使用 CLI 时可在项目目录启动 `agy`，新加技能后可运行 `/skills reload`；独立 IDE 可在智能体侧栏的 Customizations 中查看技能。若工作区限制访问外部技能链接，可在对话中指定已经安装的 Python 和工具路径，或在本机终端按第 3 节调用。[官方技能发现与调用说明](https://antigravity.google/docs/skills)
 
@@ -93,15 +93,15 @@ Set-Location $Study
 **Mac 一键安装用户**可以新建空项目，在 Antigravity 对话框发送下面这句。工具已随安装附带模拟资料。
 
 ```text
-/csr-writer 请从安装目录 current/tool/examples/antigravity-demo 复制“输入资料”和“模拟答复.json”到当前空项目。先出首稿，再按模拟答复另出新版，把两版 Word、清单和受影响的章节发给我。
+/csr-writer 请从安装目录 current/tool/examples/antigravity-demo 把“输入资料”中的原件复制到当前空项目根目录，把“模拟答复.json”另存到项目旁的审阅目录。以当前项目根目录生成首稿，再按模拟答复另出新版，把两版 Word、清单和受影响的章节发给我。
 ```
 
 以下路径和命令供手动部署用户使用。
 
-在研究会话中输入以下提示词。输入 `@` 后从候选列表选择对应文件夹或文件。当前客户端没有显示候选时，直接写出相对于工作区的实际路径即可。
+在当前研究会话直接发送以下提示词。工具读取当前打开的目录，另在同级目录保存输出。
 
 ```text
-/goal 使用 csr-writer 技能，读取 @输入资料，以真实运行 draft-project 的方式将首稿写到 输出/01-首稿。打开生成的 Word、集中审阅清单和逐表对账，告诉我哪张用了定稿表、哪张有差异、差异在哪一格。先交付已有依据的内容；把需要负责人判断的事集中列出。
+/goal 使用 csr-writer 技能，以当前项目根目录作为输入，运行 draft-project，在同级目录生成首稿。打开生成的 Word、集中审阅清单和逐表对账，告诉我哪张用了定稿表、哪张有差异、差异在哪一格。先交付已有依据的内容；把需要负责人判断的事集中列出。
 ```
 
 首轮应看到两个可手工复查的事实：
@@ -112,25 +112,25 @@ Set-Location $Study
 然后在同一会话中发送：
 
 ```text
-/goal 本次是 AG-DEMO-01 软件演练。读取 @审阅/模拟答复.json，用同一份输入资料和 --answers 生成 输出/02-答复后。按负责人决定记录核对实际采用的两项模拟答复，并从 Word 的正文、概要和安全性附表核对暴露人日及待定相关性人数。列出仍未答复的事项。
+/goal 本次是 AG-DEMO-01 软件演练。读取项目旁 CSR-教学_审阅 中的模拟答复.json，用当前项目根目录和 --answers 另存新版。按负责人决定记录核对实际采用的两项模拟答复，并从 Word 的正文、概要和安全性附表核对暴露人日及待定相关性人数。列出仍未答复的事项。
 ```
 
 **验收结果**为两项模拟答复已采用，甲组暴露为 3 人日，甲组相关性待定 TEAE 受试者由 1/3 变为 0/3。第二版有 7 张统计附表，仍有医学结论、统计结果和概要三项待决定。示例仅放入教学所需的原件，因此还会列出伦理、附件等资料缺口，主要疗效描述表的独立复算状态为“未覆盖”。[合成输入资料](../examples/antigravity-demo/输入资料) · [本例专用模拟答复](../examples/antigravity-demo/模拟答复.json)
 
-**终端等价命令。** 下面两条可用于安装验证或定位客户端问题。若已通过聊天生成两个目录，改用新的输出名。
+**终端等价命令。** 下面两条可用于安装验证或定位客户端问题。从研究资料夹运行。默认生成同级目录，再次运行会自动编号。
 
 ```bash
 cd "$HOME/CSR-教学"
 csr_python="$HOME/.venvs/csr-writer/bin/python"
-"$csr_python" -m csr_writer draft-project --input-dir "输入资料" --output-dir "输出/01-首稿"
-"$csr_python" -m csr_writer draft-project --input-dir "输入资料" --answers "审阅/模拟答复.json" --output-dir "输出/02-答复后"
+"$csr_python" -m csr_writer draft-project --input-dir "."
+"$csr_python" -m csr_writer draft-project --input-dir "." --answers "../CSR-教学_审阅/模拟答复.json"
 ```
 
 ```powershell
 Set-Location "$HOME/CSR-教学"
 $CsrPython = "$HOME/.venvs/csr-writer/Scripts/python.exe"
-& $CsrPython -m csr_writer draft-project --input-dir "输入资料" --output-dir "输出/01-首稿"
-& $CsrPython -m csr_writer draft-project --input-dir "输入资料" --answers "审阅/模拟答复.json" --output-dir "输出/02-答复后"
+& $CsrPython -m csr_writer draft-project --input-dir "."
+& $CsrPython -m csr_writer draft-project --input-dir "." --answers "../CSR-教学_审阅/模拟答复.json"
 ```
 
 **一条命令验收公开仓库安装。** 在工具仓库根目录，使用第 1 节的虚拟环境解释器运行下列命令。它会在临时目录内执行两次正式入口，核对定稿表选择、差异单元格及存盘 Word 中的正文、概要和附录。通过时显示 `OK`。维护者全量测试另需开发工作区上一级的四份锁定规格原件与两份历史 RTF 夹具，单独克隆公开仓库时使用本教学验收。
@@ -149,7 +149,7 @@ Set-Location "$HOME/csr-writer"
 
 ## 4. 实际研究从资料夹生成第一版
 
-把教学资料换成单个真实研究的原件，另用独立的工作区。输入目录中只放该研究的资料。上轮生成的 Word、统计复核表、答复 JSON 和历史输出均放在输入之外。不同版本保留原文件名、研究编号、版本、生效或定稿状态和数据截止日。
+实际项目直接在 Antigravity 打开该研究现有的资料文件夹，保留原件的名称和层级。输入目录中只放该研究的资料。上轮生成的 Word、统计复核表、答复 JSON 和历史输出均放在输入之外。不同版本保留原文件名、研究编号、版本、生效或定稿状态和数据截止日。
 
 | 手头的资料 | 工具如何使用 | 提交前值得检查的地方 |
 |---|---|---|
@@ -161,7 +161,7 @@ Set-Location "$HOME/csr-writer"
 **真实项目首轮提示词**
 
 ```text
-/goal 从 @输入资料 用 csr-writer 生成 输出/01-首稿。先识别有效方案、SAP、已有定稿表和逐例域，逐表保留可用定稿、补算可执行的缺表，输出独立复算和 Word 实际显示的对账结果。若有待智能体匹配或解读 SAP 的任务，请依据原件处理后在新目录续跑。交付本轮 Word、审阅清单和输出路径；分别说明统计差异、缺资料的小节、未覆盖的复算和须由负责人决定的事项。
+/goal 用 csr-writer 读取当前打开的研究资料夹及其各级子目录，在同级目录生成 Word 首稿。先识别有效方案、SAP、已有定稿表和逐例域，逐表保留可用定稿、补算可执行的缺表，输出独立复算和 Word 实际显示的对账结果。若有待智能体匹配或解读 SAP 的任务，请依据原件处理后在新目录续跑。交付本轮 Word、审阅清单和输出路径；分别说明统计差异、缺资料的小节、未覆盖的复算和须由负责人决定的事项。
 ```
 
 当输出有 `待智能体匹配.json` 或 `待智能体解读SAP.json` 时，先让智能体依任务文件定位原件并准备结构化答复。表题匹配使用 `--matches`，SAP 解读使用 `--sap-reading`。保留原句、位置和依据；只剩多种实质解释时，交统计负责人。续跑和负责人回写时仍需传入本轮依赖的解读或匹配答复。省略 `--output-dir` 时，工具在输入资料夹旁生成目录，重复运行自动编号。显式指定时，输出目录须是尚不存在的新目录。[匹配和解读文件说明](智能体起草指南.md)
@@ -184,7 +184,7 @@ Set-Location "$HOME/csr-writer"
 
 ## 6. 让负责人一次答复，保留首稿并重建 Word
 
-1. 把输出目录里的 `集中答复模板.json` 复制为工作区的 `审阅/负责人答复.json`。保持 `study`、`mode`、每项的 `id`、`basis`、`role` 和可选值。项目使用本轮生成的模板。
+1. 把输出目录里的 `集中答复模板.json` 另存到资料夹旁的审阅目录，命名为 `负责人答复.json`。保持 `study`、`mode`、每项的 `id`、`basis`、`role` 和可选值。项目使用本轮生成的模板。
 2. 医学、统计负责人可在一张清单上一次回答。由智能体据实际答复填写 `reviewer`、`date`（YYYY-MM-DD）、`choice` 及 `statement`（理由）。尚未决定的条目保留空白。总体医学结论如含 `applies_if`，逐项填入它所依赖的实际选择。
 3. 用 `--answers`、同一批原件和需要沿用的解读重新运行，另存新版。检查 `负责人决定.json` 的 `answered`、`open`、`deferred`、`stale`，并在 `更新定位.json` 与实际 Word 中核对章节。以后更换数据时继续传入需要沿用的完整答复文件；依据改变的事项会重新打开。
 4. 统计输出签认、最终概要核准和真实报告签署按项目流程完成。`draft-project --answers` 生成的文件名仍是 `CSR内部审阅初稿.docx`。正式净版属于仓库另设的受控合卷流程，可查 `python -m csr_writer compose-csr --help` 及项目规定的批准记录。
@@ -192,34 +192,34 @@ Set-Location "$HOME/csr-writer"
 **集中收意见，可以直接发这段普通消息**
 
 ```text
-请依据 @输出/01-首稿/集中审阅清单.md 和同目录的集中答复模板，按负责人整理一张可一次回复的表。每行列出事项 ID、原始证据位置、待回答问题、可选决定和影响章节。已有原件可以澄清的问题请先核回原件。收到实际回复后准备 审阅/负责人答复.json，保留未答复项。
+请依据刚生成的首稿目录里的集中审阅清单.md 和集中答复模板，按负责人整理一张可一次回复的表。每行列出事项 ID、原始证据位置、待回答问题、可选决定和影响章节。已有原件可以澄清的问题请先核回原件。收到实际回复后在资料夹旁的审阅目录准备负责人答复.json，保留未答复项。
 ```
 
 **收到答复后的执行提示词**
 
 ```text
-/goal 使用 @审阅/负责人答复.json 和原研究资料重建 输出/02-答复后；同时沿用本稿使用的 SAP 解读与表题匹配文件。回读 Word，列出一次答复前后正文、概要、附录和受影响统计表的变化，并交付新版 Word、剩余决定和仍缺的原件。
+/goal 使用刚整理的负责人答复.json 和当前研究资料夹，在新的同级目录生成修订稿，沿用本稿使用的 SAP 解读与表题匹配文件。回读 Word，列出一次答复前后正文、概要、附录和受影响统计表的变化，并交付新版 Word、剩余决定和仍缺的原件。
 ```
 
 <a id="commands"></a>
 
-## 7. 附件中九个斜杠命令怎么搭配
+## 7. 附件里的九个命令，哪些用法一样？
 
-这九项命令由 Antigravity 提供。Mac 一键安装后，日常起草用全局技能 `/csr-writer`。手动部署也可以在研究工作区加载同名技能。负责人希望一次回复时使用第 6 节的批量清单；个别问题确需追问时再用 `/grill-me`。输入 `/` 可以核对当前客户端实际提供的命令。下表按 Google 官方命令说明核对。[官方斜杠命令与各端支持表](https://antigravity.google/docs/slash-commands)
+九个命令与团队附件《Antigravity 斜杠命令与 CSR 撰写实操指南》第 1 节逐一对应。附件把 `/goal`、`/compact`、`/grill-me`、`/learn` 串为四步。本教程保留这些用途，日常只需用 `/goal` 起草，其余按项目需要选。安装后出现的 `/csr-writer` 是本工具提供的撰写技能。命令可用端及付费条件可查 [Antigravity 官方命令表](https://antigravity.google/docs/slash-commands)。
 
-| 命令 | 什么时候用 | 可以复制到 Antigravity 的指令 |
+| 命令 | 附件的分工与限制 | 本教程的用法与可复制示例 |
 |---|---|---|
-| `/goal` | 资料已就绪，持续执行到交付 Word 和审阅清单 | `/goal 从 @输入资料 生成首稿，回读 Word 与逐表对账，交付路径并列出确需判断的事项。` |
-| `/plan` | 首个复杂项目，先盘点文件和分析路线。常规项目可直接起草 | `/plan 盘点方案版本、已有 TFL、逐例域及缺少的原件，列出本研究从资料到初稿的执行顺序。` |
-| `/compact` | 初稿落盘或阶段切换，压缩对话，保留续跑所需的目录和未决项。官方列出 App、CLI 支持 | `/compact 保留研究编号、原件目录、最新输出、所用解读及待决事项编号。` |
-| `/grill-me` | 针对某项疑难决定，按问题逐一访谈。把复核当作一个新任务启动 | `/grill-me 围绕审阅清单中有争议的一项访谈，只记录负责人明确给出的答复。` |
-| `/teamwork` | 定稿表较多、跨章审阅耗时，可在同一资料快照、采用表和对比方向确定后并行核查。需支持该功能的付费方案 | `/teamwork 基于同一份输出，分别核查第4/8/9章方法、第10/11章人群及疗效、第12章安全性。返回章节、定位及差异，由主智能体统一合卷。` |
-| `/boost` | 深审第 13 章、预设敏感性结果或医学解释的证据，需支持该功能的付费方案 | `/boost 对照本稿采用的结果，检查第13章哪些临床解释有依据、哪些需补充医学判断，注明原表与章节。` |
-| `/learn` | 项目收尾，将可复用的术语、写法或表注习惯整理为规则提案，指定范围后由团队确认保存 | `/learn 提议一条跨研究可复用的中文术语规则，列出拟保存位置，仅使用通用例句。` |
-| `/browser` | 第 15 章需核实公开文献或指南的书目信息时，限定公开来源 | `/browser 到出版者官网核对这条公开文献的题名、年份和 DOI，返回来源链接。` |
-| `/schedule` | 有明确时间安排的锁库前干运行，可在同一会话安排一次或重复检查 | `/schedule 明天北京时间上午九点检查本项目资料版本；如有更新，在新目录干运行，保留差异表供团队审阅。` |
+| `/goal` | 起草主命令。附件提到约 120 个撰写单元，要求明确交付文件、校验结果和资料缺口。 | **用途一致。** 以当前研究实际生成的 Word、逐表核查记录和清单验收。章节数按研究适用性确定，能写到什么程度取决于原件。`/goal 用 csr-writer 读取当前项目根目录及子目录，生成 Word 初稿，核对统计表，一次列齐资料缺口和待决事项。` |
+| `/plan` | 改工具或复杂项目开写前先规划，盘点方案、SAP、统计表和章节。熟悉的常规项目可跳过。 | **用途一致。** `/plan 盘点当前研究资料夹及子目录，列出有效方案和 SAP、已有统计表、主要结果涉及的章节及缺口。` |
+| `/teamwork` | 大型 II/III 期项目分章并行起草。附件举例为 50 张以上统计表。先固定研究事实和采用表，再分工，由主智能体合卷。 | **团队示例采用分章复核。** 当前单资料夹入口负责出稿，本次演练验证到单资料夹出稿，附件所述的多智能体并行起草与主智能体合卷仍待单独验证。“50 张”是附件举例。此命令需支持该功能的付费方案。`/teamwork 依据同一版首稿和采用表，分头核查方法、疗效、安全性章节，交回原表位置和差异，由主智能体汇总。` |
+| `/boost` | 深审第 13 章、获益风险和不一致的敏感性结果，常规模板节可跳过。附件后文还建议深审后生成净版。 | **保留深审，医学定论由负责人决定。** 当前起草入口交付内部审阅稿，正式净版另有合卷流程。此命令需支持该功能的付费方案。`/boost 对照主要分析与敏感性分析的原表，核查第 13 章对差异的解释，标出需医学负责人决定的措辞。` |
+| `/compact` | 数据入包或首稿已保存时，在阶段切换点压缩对话，避免在单节撰写中途执行。 | **用途一致。** 适合已有落盘成果的长对话，官方列出 App 和 CLI 支持。`/compact 保留当前研究资料夹、已采用表、最新 Word 和审阅清单的路径，以及待决事项编号。` |
+| `/grill-me` | 首稿后按清单逐条问负责人，附件建议确认后回填并出净版。 | **保留逐项澄清，日常优先一次收齐回复。** 此命令每次问一个问题。意见明确时直接按[集中答复示例](antigravity-csr-guide.md#answers)更新内部审阅稿。`/grill-me 请就暴露表的差异逐问澄清，先列证据，只记录负责人明确给出的决定。` |
+| `/learn` | 审阅完成后沉淀可复用的术语、句式、表注，项目数值留在本研究。 | **用途一致，补充保存步骤。** 先生成提案，经团队审阅后保存。`/learn 请提议一条下个项目也适用的表注规则，用通用例句说明，供团队审阅。` |
+| `/browser` | 第 15 章需要核查公开文献、指南时使用，常规本地起草可跳过。 | **用途一致。** `/browser 请到出版者官网核对第 15 章这条公开文献的题名、年份和 DOI，并给出出处。` |
+| `/schedule` | 锁库前按计划检查统计表更新并重跑预检，常规单次出稿可跳过。 | **用途一致。** 写明时间、检查对象和重跑条件。以下只是安排一次的示例。`/schedule 明天北京时间上午九点检查本研究统计表是否更新。有更新就在新的同级目录重跑初稿，列出与上版的差异。` |
 
-`/learn` 会先提出保存方案，团队审阅后再落盘。团队规则只保存通用做法，个例信息和研究数值保留在各自项目。客户端没有某条命令时，仍可发送对应的普通任务描述完成一次本地出稿；需要定时唤醒或并行团队等宿主功能时，先查当前端与账号的支持情况。[规则保存过程](https://antigravity.google/docs/commands/learn/) · [定时指令说明](https://antigravity.google/docs/commands/schedule)
+客户端输入 `/` 可查看当前账号提供的命令。有关规则提案和定时唤醒，见[规则保存过程](https://antigravity.google/docs/commands/learn/)和[定时指令说明](https://antigravity.google/docs/commands/schedule)。
 
 <a id="troubleshooting"></a>
 
